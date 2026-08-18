@@ -99,6 +99,21 @@ Candidate tasks to investigate include:
 
 These are candidate areas only. They still need to be validated by observing Arnold's workflow and understanding the available data.
 
+## Buyer work instructions for Exact Globe+
+
+During the day on 17 August 2026, I also received a paper instruction document describing how the buyer department is expected to work with Exact Globe+.
+
+The document is currently only available in physical form and has not yet been digitized. I will try to scan it when possible so it can be reviewed and compared with the actual purchasing workflow.
+
+This document may be useful for the project because it can help distinguish between:
+
+- the formally defined purchasing process;
+- the way Arnold and the buyer department currently work in practice;
+- steps that may be duplicated, unclear, outdated, or suitable for improvement;
+- Exact Globe+ activities that could potentially be supported by AI or automation.
+
+Once scanned, the instructions should be analyzed before drawing conclusions about how the purchasing process is supposed to operate.
+
 ## Exact Globe+ and possible AI integration
 
 Exact Globe+ is the ERP system used in the process.
@@ -165,6 +180,7 @@ Map the process around Arnold. Determine where:
 - Which Arnold tasks require experience and which follow relatively stable rules?
 - Which other people or departments perform checks that overlap with Arnold's work?
 - What technical access to Exact Globe+ is possible and permitted?
+- What does the official buyer instruction document prescribe, and where does actual practice differ from it?
 
 ## Security note
 
