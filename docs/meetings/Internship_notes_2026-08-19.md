@@ -205,6 +205,26 @@ Orders above that amount require involvement or authorization from someone else.
 
 The exact approval process above EUR 10,000 still needs to be mapped if it becomes relevant to the project.
 
+## Afternoon observation with Arnold, 15:00 to 16:00
+
+During another observation session from approximately 15:00 until 16:00, Arnold's main activity was similar to the morning session: he was trying to work through purchase orders that still required action.
+
+A notable part of the hour was that this work was repeatedly interrupted by incoming emails and ad-hoc requests. For example, colleagues can contact Arnold with requests such as asking him to purchase specific items for a particular project. He also has to deal with other incoming emails while continuing the orders already in progress.
+
+This means that Arnold's workload is not only a sequence of planned purchasing tasks. New requests and communications arrive while he is already processing existing orders, causing frequent task switching.
+
+### Technische Unie Breda: unavailable component exception
+
+The Technische Unie Breda order from the morning was still being worked on during the afternoon.
+
+Arnold discovered that one of the components in the order would not be available. He therefore searched for an alternative component. When he could not find a suitable alternative, he deleted that specific component from the current order and left the remaining work on the order for the next day.
+
+Arnold explained that removing the unavailable component from the order was important. If he left the component in the order, the system could continue to show it as if it had been ordered and everything was in order, even though the component was actually unavailable and still needed another solution.
+
+This is an important exception-handling step. The purchasing process therefore does not only involve deciding what and how much to order. Arnold also has to detect supply exceptions, search for alternatives, and make sure the information in Exact does not incorrectly suggest that an unavailable item has already been resolved.
+
+This may be relevant later when analyzing process risks and possible support. A future solution should not only automate normal cases. It would also need to make unavailable items, unresolved alternatives, and other exceptions clearly visible so that they are not accidentally treated as completed purchasing actions.
+
 ## Initial process opportunities observed today
 
 Today's observation suggests several areas that may be worth investigating further. These are hypotheses, not selected solutions:
@@ -220,6 +240,8 @@ Today's observation suggests several areas that may be worth investigating furth
 - improving the Finance-to-Purchasing hand-off when a mismatch is detected;
 - reducing duplicated checking between Finance and Arnold where possible;
 - reducing unnecessary email hand-offs for issues that belong to another department;
+- understanding how much time is lost through interruptions and task switching caused by new purchasing requests and incoming emails;
+- improving visibility of unavailable components and unresolved purchasing exceptions so that they are not treated as successfully ordered;
 - distinguishing administrative tasks from tasks that genuinely require Arnold's purchasing experience.
 
 These observations should be compared with the official Exact buyer instruction document and with further observations of Arnold's work before choosing a project use case.
@@ -252,12 +274,15 @@ Before choosing an integration approach, clarify:
 - What information does Finance include when it returns a mismatch case to Arnold? just one simple note about there is smth worng but not detailed where exactly is
 - How much of Finance's checking does Arnold have to repeat when the case comes back?
 - How much time does the price-checking and attachment process take?
+- How often is Arnold interrupted while processing an order, and what types of interruptions occur most often?
+- How often do unavailable components force Arnold to search for alternatives or change an existing order?
+- How are unresolved or unavailable items tracked after they are removed from an order?
 
 
 ## Current interpretation
 
 Today provided a more detailed view of Arnold's actual purchasing work. A significant part of the workflow involves manually combining information from separate orders, stock levels, safety-stock considerations, outstanding orders, supplier constraints, urgency, lead time, emails, supplier documents, and later Finance feedback.
 
-The Technische Unie Breda example showed that line-by-line supplier price comparison and manual price correction can become especially time-consuming when an order contains many items.
+The Technische Unie Breda example showed that line-by-line supplier price comparison and manual price correction can become especially time-consuming when an order contains many items. The afternoon continuation of this case also showed that supplier availability can create exceptions that require additional searching and careful correction of the order status in Exact.
 
-Some steps appear repetitive and potentially suitable for process improvement or automation, while other decisions depend on context and Arnold's purchasing experience. The Finance feedback loop also suggests that duplicated controls and hand-off quality may be part of the workload problem, not only Arnold's individual actions. More observation is needed before deciding which problem should become the main BEP use case.
+Some steps appear repetitive and potentially suitable for process improvement or automation, while other decisions depend on context and Arnold's purchasing experience. The Finance feedback loop also suggests that duplicated controls and hand-off quality may be part of the workload problem, not only Arnold's individual actions. The afternoon observation additionally suggests that interruptions and exception handling may contribute materially to Arnold's workload. More observation is needed before deciding which problem should become the main BEP use case.
