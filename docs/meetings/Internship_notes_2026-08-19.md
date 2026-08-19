@@ -129,17 +129,31 @@ One reason mentioned is that supplier email addresses can change, which can caus
 
 Therefore, automatic PO emailing may still be worth investigating, but the earlier failure shows that supplier-contact maintenance and validation would need to be addressed first.
 
-## 7. Supplier confirmation and price checking
+## 7. Supplier confirmation, price checking and Finance feedback loop
 
 After the PO has been sent, the supplier usually responds by email with a confirmation document.
 
 Because supplier prices can fluctuate, Arnold manually opens the supplier document and checks the price of the ordered spare parts against what is recorded in the Exact order.
 
-If the prices are aligned, he attaches the supplier PDF to the Exact order and confirms the order in Exact.
+If the prices are aligned, he attaches the supplier PDF to the Exact order and confirms, or **bevestigt**, the order in Exact.
 
-This adds another document-comparison step to Arnold's work.
+The process does not necessarily end there. After Arnold has confirmed the order, the Finance department may later identify a problem or mismatch during its own checking. If Finance finds something that appears incorrect, the case is sent back to Arnold for investigation.
 
-A possible later direction is to investigate whether price differences could be detected and highlighted automatically so that Arnold only needs to review exceptions. This idea still needs to account for legitimate price fluctuations and should not assume that every difference is an error.
+This connects directly to the issue observed and discussed on 17 August 2026: Finance may already have checked the invoice or related document, but Arnold can still receive the case back with a note that does not always make the exact mismatch clear. Arnold then has to compare the invoice, supplier confirmation, purchase order, and Exact information again to determine what is wrong.
+
+This creates a possible feedback loop:
+
+1. Arnold sends the PO to the supplier.
+2. Supplier sends a confirmation document.
+3. Arnold checks prices and confirms the order in Exact.
+4. Finance performs its own later control.
+5. Finance identifies a possible mismatch or issue.
+6. The case is sent back to Arnold.
+7. Arnold investigates the discrepancy again and determines the cause.
+
+This is important because the workload problem may not only be the manual price comparison itself. It may also involve duplicated checking between Purchasing and Finance and incomplete information when a case is handed back.
+
+A possible later direction is to investigate whether price differences and likely mismatch causes could be detected and highlighted earlier, while also improving the information passed between Finance and Arnold. Any solution still needs to account for legitimate price fluctuations and should not assume that every difference is an error.
 
 ## 8. Email interruptions and Finance hand-offs
 
@@ -168,6 +182,8 @@ Today's observation suggests several areas that may be worth investigating furth
 - reducing repetitive manual PO email forwarding;
 - validating supplier contact information before automated communication;
 - automatically comparing supplier confirmation prices with Exact order prices and highlighting deviations;
+- improving the Finance-to-Purchasing hand-off when a mismatch is detected;
+- reducing duplicated checking between Finance and Arnold where possible;
 - reducing unnecessary email hand-offs for issues that belong to another department;
 - distinguishing administrative tasks from tasks that genuinely require Arnold's purchasing experience.
 
@@ -196,12 +212,15 @@ Before choosing an integration approach, clarify:
 - How often are generated POs forwarded manually to suppliers?
 - How often do supplier email addresses create problems for automated sending?
 - How often does a supplier confirmation contain a price difference that Arnold needs to investigate?
+- How often does Finance send a confirmed case back to Arnold because of a later detected mismatch?
+- What information does Finance include when it returns a mismatch case to Arnold?
+- How much of Finance's checking does Arnold have to repeat when the case comes back?
 - How much time does the price-checking and attachment process take?
 - How are orders above EUR 10,000 approved?
 - Can the `verricht` information be reliably used to identify the person who actually processed an order?
 
 ## Current interpretation
 
-Today provided a more detailed view of Arnold's actual purchasing work. A significant part of the workflow involves manually combining information from separate orders, stock levels, safety-stock considerations, outstanding orders, supplier constraints, urgency, lead time, emails, and supplier documents.
+Today provided a more detailed view of Arnold's actual purchasing work. A significant part of the workflow involves manually combining information from separate orders, stock levels, safety-stock considerations, outstanding orders, supplier constraints, urgency, lead time, emails, supplier documents, and later Finance feedback.
 
-Some steps appear repetitive and potentially suitable for process improvement or automation, while other decisions depend on context and Arnold's purchasing experience. More observation is needed before deciding which problem should become the main BEP use case.
+Some steps appear repetitive and potentially suitable for process improvement or automation, while other decisions depend on context and Arnold's purchasing experience. The Finance feedback loop also suggests that duplicated controls and hand-off quality may be part of the workload problem, not only Arnold's individual actions. More observation is needed before deciding which problem should become the main BEP use case.
