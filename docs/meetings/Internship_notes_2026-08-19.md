@@ -239,22 +239,20 @@ Before choosing an integration approach, clarify:
 
 ## Questions for further workflow observation
 
-- How many open orders does Arnold normally inspect in a day?
+- How many open orders does Arnold normally inspect in a day? (qunatitave before AI and after AI maybe and since the order differ not just comparison the number the order but also brings in the complexity of an order) 
 - How often are several requests from the same supplier available at the same time?
 - How often does Arnold delay a non-urgent purchase because of MOQ or order-value considerations?
 - Which Exact fields show current stock, safety stock, planned usage, outstanding purchase orders, and expected receipt dates?
 - Can Exact already calculate projected stock levels, or does Arnold currently combine this information manually?
-- How often are generated POs forwarded manually to suppliers?
-- How often do supplier email addresses create problems for automated sending?
-- How often does a supplier confirmation contain a price difference that Arnold needs to investigate?
-- For long supplier confirmations, how much time is spent checking and correcting prices line by line?
+- How often are generated POs forwarded manually to suppliers? everytime
+- How often do supplier email addresses create problems for automated sending? Accoridng to Arnold that is while ago so maybe not fully automated but semiauotmated like the standar greeting part Hi xxx, zie hier onder POxxxxxx could be automated
+- How often does a supplier confirmation contain a price difference that Arnold needs to investigate? Its hard to determine since Hytch is a manufacturing comapnay and the price of spareparts buy in depned on the price of those material of fuel so its hard to determine. 
+- For long supplier confirmations, how much time is spent checking and correcting prices line by line? (for the Technisch Unie Breda I think it could be 30 misn to 40 misn because he heas to check 1 line by 1 line than update the prices of that line and than move on to the next line.
 - How often does Finance send a confirmed case back to Arnold because of a later detected mismatch?
-- What information does Finance include when it returns a mismatch case to Arnold?
+- What information does Finance include when it returns a mismatch case to Arnold? just one simple note about there is smth worng but not detailed where exactly is
 - How much of Finance's checking does Arnold have to repeat when the case comes back?
 - How much time does the price-checking and attachment process take?
-- How are orders above EUR 10,000 approved?
-- Can the `verricht` information be reliably used to identify the person who actually processed an order?
-- Which Exact data field or audit information records who actually performed the `Verricht` action?
+
 
 ## Current interpretation
 
