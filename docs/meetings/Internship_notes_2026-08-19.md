@@ -65,6 +65,28 @@ For an order requiring action, he may need to:
 
 This requires repeated navigation between individual orders and stock information.
 
+### Clarification: individual order workflow in Exact
+
+A later screenshot of an individual purchase order clarified that **Verricht is part of the order-status workflow on the individual order page**, rather than necessarily being a configurable column in the general purchase-order overview.
+
+The individual order page shows the following sequence of status steps:
+
+1. **Besteld**
+2. **Gefiatteerd**
+3. **Verricht**
+4. **Bevestigd**
+5. **Ontvangen**
+6. **Gefactureerd**
+7. **Betaald**
+
+For Arnold's part of the workflow, once he has determined the order quantity and other relevant purchasing details, he can **fiatteren** and then **verrichten** the order. Verrichten generates the purchase-order document, for example `POxxxxx`, which is then sent to his email for forwarding to the supplier.
+
+After the supplier replies with a confirmation, Arnold checks the supplier prices against the order. If the information is correct, he attaches the supplier document and marks the order as **bevestigd**.
+
+The later statuses, such as ontvangen, gefactureerd, and betaald, are visible in the workflow, but the responsibility for each of these later steps has not yet been fully mapped.
+
+This also explains why the test-account purchase-order overview did not offer `Verricht` as a selectable column. The overview and the individual order workflow are different screens and should not be treated as equivalent when analyzing Exact data or designing a future integration.
+
 ## 3. Current stock, safety stock, future stock and lead time
 
 Arnold does not only look at today's stock level.
@@ -232,6 +254,7 @@ Before choosing an integration approach, clarify:
 - How much time does the price-checking and attachment process take?
 - How are orders above EUR 10,000 approved?
 - Can the `verricht` information be reliably used to identify the person who actually processed an order?
+- Which Exact data field or audit information records who actually performed the `Verricht` action?
 
 ## Current interpretation
 
