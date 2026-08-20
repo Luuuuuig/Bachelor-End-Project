@@ -29,6 +29,7 @@ The operational purchasing process from **purchasing need arising** through **Be
 - Exact purchasing advice;
 - `toewijzen`;
 - price checking;
+- buyer authorization / additional approval boundary;
 - PO generation;
 - supplier communication;
 - supplier confirmation;
@@ -94,6 +95,10 @@ flowchart LR
 
         priceUpdate["Update outdated / deviating<br>price in Exact"]
 
+        authQ{"Order value above<br>€10,000?"}
+
+        approval["Additional approval required<br>approval path currently unmapped"]:::gap
+
         release["Fiatteren + Verrichten"]
 
         forward["Check recipient and manually<br>forward generated PO to supplier"]
@@ -148,9 +153,13 @@ flowchart LR
 
     prePriceQ -- "yes" --> webPrice
     webPrice --> priceUpdate
-    priceUpdate --> release
+    priceUpdate --> authQ
 
-    prePriceQ -- "no" --> release
+    prePriceQ -- "no" --> authQ
+
+    authQ -- "no" --> release
+    authQ -- "yes" --> approval
+    approval -. "after approval" .-> release
 
     release --> pdf
     pdf --> forward
@@ -174,6 +183,8 @@ flowchart LR
 ```
 
 The exact timing of Exact status transitions should be validated against the official buyer instruction and with the operational buyer.
+
+The buyer has stated that orders above **€10,000** require additional approval. The approver, exact workflow and system status changes for that branch are currently unmapped, so the approval node is shown as a gap rather than a fully specified process.
 
 ---
 
@@ -290,11 +301,26 @@ The buyer explained that if the Exact price is outdated and is only corrected af
 
 The pre-PO check therefore serves a different purpose from the confirmation check later in the process.
 
-## 4.8 Fiatteren, Verrichten and Besteld
+## 4.8 Buyer authorization and additional approval
+
+The operational buyer has stated that his normal purchasing authority applies up to the internal **€10,000** limit. Orders above **€10,000** require an additional approval step before the order can continue through the normal release process.
+
+The following details are not yet mapped:
+
+- who provides the additional approval;
+- whether more than one approval level exists;
+- what information the approver reviews;
+- whether the approval is performed inside Exact or outside it;
+- what Exact status/timestamp records the approval;
+- how much additional elapsed and processing time the approval branch creates.
+
+Because those details are unknown, this branch is treated as a **control boundary with an unmapped approval path**, not as a fully described workflow.
+
+## 4.9 Fiatteren, Verrichten and Besteld
 
 The operational sequence is currently mapped as:
 
-`Prepare PO → Fiatteren + Verrichten → PO generated and emailed to buyer → Send PO to supplier → Besteld → supplier confirmation → Bevestigd`
+`Prepare PO → relevant price check → authorization/approval if required → Fiatteren + Verrichten → PO generated and emailed to buyer → Send PO to supplier → Besteld → supplier confirmation → Bevestigd`
 
 `Fiatteren` and `Verrichten` are represented together in the process map because the current focus is on the buyer's operational flow rather than showing each Exact status as a separate node.
 
@@ -302,7 +328,7 @@ The exact timing of the status transitions should still be validated against the
 
 The later statuses `Ontvangen`, `Gefactureerd`, and `Betaald` remain outside the detailed current-state scope for now.
 
-## 4.9 PO generation and supplier email
+## 4.10 PO generation and supplier email
 
 After `Verricht`, Exact generates the PO document and emails it to the buyer in Outlook.
 
@@ -319,7 +345,7 @@ A more automated supplier-email approach existed in the past but was not conside
 
 **Work type:** repetitive administration.
 
-## 4.10 Supplier confirmation and post-PO price control
+## 4.11 Supplier confirmation and post-PO price control
 
 The supplier normally sends an order confirmation.
 
@@ -349,7 +375,7 @@ Purpose: prevent a potentially outdated stored price from being reused before su
 
 Purpose: verify what the supplier actually confirms and update relevant differences.
 
-## 4.11 Finance control and rework
+## 4.12 Finance control and rework
 
 After `Bevestigd`, Finance performs a later check.
 
@@ -448,17 +474,19 @@ The distinction between formal Exact requirement and personal/company working pr
 | 10 | Toewijzen | Buyer | A+B | Part of 30–35 min case | Mandatory? | Failure frequency |
 | 11 | Pre-PO supplier price check | Buyer | V+A | Observed/stated for certain purchases | Practice? | Which categories/frequency |
 | 12 | Update pre-PO price deviations | Buyer | A | Observed | Practice? | Frequency/time |
-| 13 | Fiatteren / Verrichten | Buyer / Exact | A | Confirmed actions | Mandatory? | Formal rules/status timing |
-| 14 | PO generated and emailed to buyer in Outlook | Exact / Outlook | A | Observed/stated | System | Timing/automation details |
-| 15 | Forward PO + standard supplier message | Buyer | A | Stated: every PO | Practice | Daily volume |
-| 16 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Current process map | System | Exact status transition timing |
-| 17 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
-| 18 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
-| 19 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
-| 20 | Attach confirmation + Bevestigd | Buyer | A | Observed | Mandatory? | Formal rule |
-| 21 | Finance later control | Finance | C/V | Stated/observed workflow | Unknown | Frequency/issues |
-| 22 | Investigate Finance-returned case | Buyer | C+B | Stated | Practice | Frequency/time |
-| 23 | Handle unavailable component | Buyer | B+C | Observed | Practice | How unresolved need remains tracked |
+| 13 | Check whether order exceeds €10,000 buyer authorization limit | Buyer | C | Stated | Company control | Exact threshold handling / frequency |
+| 14 | Additional approval for order above €10,000 | Approver / Buyer | C | Stated requirement; path unmapped | Company control | Approver, workflow, timing, Exact status |
+| 15 | Fiatteren / Verrichten | Buyer / Exact | A | Confirmed actions | Mandatory? | Formal rules/status timing |
+| 16 | PO generated and emailed to buyer in Outlook | Exact / Outlook | A | Observed/stated | System | Timing/automation details |
+| 17 | Forward PO + standard supplier message | Buyer | A | Stated: every PO | Practice | Daily volume |
+| 18 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Current process map | System | Exact status transition timing |
+| 19 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
+| 20 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
+| 21 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
+| 22 | Attach confirmation + Bevestigd | Buyer | A | Observed | Mandatory? | Formal rule |
+| 23 | Finance later control | Finance | C/V | Stated/observed workflow | Unknown | Frequency/issues |
+| 24 | Investigate Finance-returned case | Buyer | C+B | Stated | Practice | Frequency/time |
+| 25 | Handle unavailable component | Buyer | B+C | Observed | Practice | How unresolved need remains tracked |
 
 ---
 
@@ -601,6 +629,7 @@ Before retaining this as a central BEP decision case, determine how frequently g
 | Q23 | Who owns stages after `Bevestigd`? | Ask | Buyer / Finance |
 | Q24 | Which steps are mandatory Exact/company procedure vs personal practice? | Digitise paper instruction and compare | Instruction document |
 | Q25 | When exactly does Exact set/display `Besteld` relative to Fiatteren, Verrichten and sending the PO? | Validate with buyer + official instruction / Exact | Buyer / Exact |
+| Q26 | For orders above €10,000, who approves, where is approval recorded, and how does the order return to the normal flow? | Ask buyer/manager + trace one case + verify in Exact | Buyer / Approver / Exact |
 
 ---
 
@@ -618,7 +647,13 @@ For price cases additionally record:
 | Pre-PO supplier check | | | | |
 | Supplier confirmation check | | | | |
 
-This avoids incorrectly combining the two different price-control activities.
+For orders above the buyer's normal authorization limit, additionally record:
+
+| Order value | Approval required? | Approver/role | Processing time | Elapsed waiting time | Where recorded |
+|---:|---|---|---:|---:|---|
+| | | | | | |
+
+This avoids incorrectly combining different price-control activities and makes the approval branch measurable rather than treating it as a purely descriptive exception.
 
 ---
 
@@ -638,6 +673,7 @@ Ask:
 - Which decisions are represented incorrectly?
 - Which steps are company rules versus your own working method?
 - At what point should `Besteld` appear in the actual process?
+- What exactly happens when an order exceeds the €10,000 buyer authorization limit?
 
 Corrections should be recorded as research evidence.
 
@@ -667,7 +703,8 @@ Possible useful fields include:
 - planned demand;
 - expected delivery;
 - purchase price;
-- project/production allocation.
+- project/production allocation;
+- approval/status information for orders above the buyer authorization limit.
 
 ## Step 4 — Quantify the largest candidate workloads
 
@@ -678,6 +715,8 @@ Prioritise timing:
 3. external request/manual entry;
 4. interruptions;
 5. Finance rework.
+
+The authorization branch should be traced when a real >€10,000 case occurs, but it does not need to become a primary workload candidate unless frequency or delay proves material.
 
 ## Step 5 — Reassess candidates
 
@@ -701,6 +740,7 @@ Only after the current process, frequencies and available data are clearer shoul
 | Certain one-off/special purchases receive pre-PO price checking | Yes | Observed/stated | Categories need clarification |
 | Services included in the pre-PO price-check rule | Unclear | Unconfirmed | Do not use as rule |
 | Missed `toewijzen` can leave underlying demand open | Yes | Explained/observed workflow | Frequency unknown |
+| Orders above €10,000 require additional approval | Yes | Stated by operational buyer | Approval path/timing unmapped |
 
 ---
 
@@ -748,6 +788,8 @@ The order-now-versus-wait decision has been observed repeatedly and contains a c
 
 This makes it a promising decision-support candidate. However, its data availability and actual decision structure must still be validated before ranking it strongly.
 
+If this candidate is modeled quantitatively, the €10,000 buyer authorization boundary may need to be represented as a hard control constraint or scenario condition rather than ignored.
+
 ## 14.4 Advies/toewijzen deserves separate attention
 
 The 30–35 minute observed case and the potential duplicate-demand consequence show that this workflow can be important.
@@ -774,7 +816,8 @@ In order:
 8. **Ask how often genuine supplier selection occurs.**
 9. **Ask IT what purchasing data Exact/Orbis can expose.**
 10. **Validate exactly where `Besteld` sits relative to Fiatteren, Verrichten and supplier sending.**
-11. **Only then begin ranking the candidate BEP use cases more strongly.**
+11. **Map the >€10,000 additional-approval path: approver, system steps, timing and evidence in Exact.**
+12. **Only then begin ranking the candidate BEP use cases more strongly.**
 
 ---
 
