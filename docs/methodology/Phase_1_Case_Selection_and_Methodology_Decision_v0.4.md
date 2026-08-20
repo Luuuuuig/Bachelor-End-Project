@@ -1,4 +1,5 @@
-# Phase 1 — Case Selection and Methodology Decision v0.4
+# Phase 1 — Case Selection and Methodology Decision v0.4 
+# Analyze broadly, prioritize systematically, implement deeply in one area, and recommend action for the rest.
 
 **Status:** Working draft, 20 August 2026
 
