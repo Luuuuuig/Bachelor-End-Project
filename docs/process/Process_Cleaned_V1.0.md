@@ -106,12 +106,10 @@ flowchart LR
 
         attach["Attach confirmation<br>and set Bevestigd"]
 
-        rework["Investigate returned issue:<br>PO / confirmation / invoice / Exact"]
+        rework["Investigate returned issue:<br>PO / confirmation / invoice / Outlook"]
     end
 
-    subgraph EXACT["Exact Globe+"]
-        gef(["Gefiatteerd"])
-        ver(["Verricht"])
+    subgraph Outlook["Outlook"]
         pdf["PO document generated<br>and emailed to buyer"]
         best(["Besteld<br>order sent / ordered"])
         bev(["Bevestigd"])
