@@ -20,7 +20,7 @@
 
 The operational purchasing process from **purchasing need arising** through **Bevestigd**, including:
 
-- requests already available in Exact;
+- purchasing requirements/demand already available in Exact;
 - requests arriving outside Exact;
 - request validation;
 - stock/demand assessment;
@@ -58,24 +58,25 @@ Where the current process is unclear, the workflow explicitly marks the step as 
 
 # 3. Main AS-IS purchasing workflow
 
-The purchasing workflow is not one completely linear process. A requirement can enter through different routes and may require different levels of administrative work, verification, judgement and exception handling.
+The purchasing workflow is not one completely linear process. A purchasing need can enter through different routes and may require different levels of administrative work, verification, judgement and exception handling.
+
+**Important terminology correction:** Route A refers to an **open purchasing requirement/demand already visible in Exact that still needs purchasing action**. It should not be interpreted as a PO that is already `Besteld`. `Besteld` means the order has already reached the ordered/sent stage and therefore cannot be the starting point for an unprocessed purchasing need.
 
 ```mermaid
 flowchart LR
 
     classDef gap stroke-dasharray: 6 4,stroke:#888
-    classDef system fill:#f5f5f5
 
     subgraph REQ["Requester / Engineer / Project"]
         need["Purchasing need arises"]
-        routeA["Route A:<br>requirement already exists in Exact"]
+        routeA["Route A:<br>open purchasing requirement / demand<br>already visible in Exact"]
         routeB["Route B:<br>email / verbal request / screenshot"]
     end
 
     subgraph BUY["Operational buyer"]
-        create["Create PO / lines manually<br>when request originates outside Exact"]
+        create["Create purchasing entry / PO lines manually<br>when request originates outside Exact"]
 
-        validate{"Supplied information<br>plausible?"}
+        validate{"Supplied / available information<br>plausible?"}
 
         investigate["Investigate suspicious / incomplete data:<br>historical POs, previous purchases,<br>machine / serial / supplier information"]
 
@@ -109,10 +110,10 @@ flowchart LR
     end
 
     subgraph EXACT["Exact Globe+"]
-        best(["Besteld"])
         gef(["Gefiatteerd"])
         ver(["Verricht"])
         pdf["PO document generated<br>and emailed to buyer"]
+        best(["Besteld<br>order sent / ordered"])
         bev(["Bevestigd"])
         later["Ontvangen → Gefactureerd → Betaald<br>owner / detailed process unmapped"]:::gap
     end
@@ -129,11 +130,9 @@ flowchart LR
     need --> routeA
     need --> routeB
 
-    routeA --> best
+    routeA --> validate
     routeB --> create
-    create --> best
-
-    best --> validate
+    create --> validate
 
     validate -- "looks plausible" --> orderQ
     validate -- "suspicious / incomplete" --> investigate
@@ -159,7 +158,8 @@ flowchart LR
     ver --> pdf
 
     pdf --> forward
-    forward --> supplierConf
+    forward --> best
+    best --> supplierConf
 
     supplierConf --> confirmPrice
 
@@ -178,21 +178,27 @@ flowchart LR
     financeCheck -- "no issue" --> later
 ```
 
+> **Status-order caution:** Exact displays status labels such as `Besteld`, `Gefiatteerd`, `Verricht`, `Bevestigd`, `Ontvangen`, `Gefactureerd` and `Betaald`. Their visual order in the Exact screen should not automatically be treated as the chronological process order. In this map, `Besteld` is placed after the PO is actually sent/ordered based on the current workflow clarification. This placement should still be validated against the official buyer instruction and with the operational buyer.
+
 ---
 
 # 4. Detailed workflow stages
 
-## 4.1 Purchasing request enters the process
+## 4.1 Purchasing need enters the process
 
 Two main routes have been observed.
 
-### Route A — requirement already exists in Exact
+### Route A — open purchasing requirement/demand already exists in Exact
 
-The buyer starts from an existing open purchasing requirement/order. Who originally creates all Route-A requirements is not yet fully mapped.
+The buyer starts from an **open purchasing requirement or demand that is already visible in Exact but still needs purchasing action**.
+
+This does **not** mean the supplier order has already been `Besteld`. The earlier wording “order already exists in Exact” was misleading because it mixed an internal purchasing requirement with an already ordered/sent PO.
+
+Who originally creates all Route-A requirements is not yet fully mapped.
 
 ### Route B — requirement originates outside Exact
 
-Requests can arrive through email, direct colleague requests, screenshots, or other informal communication. The buyer then manually transfers the required information into Exact.
+Requests can arrive through email, direct colleague requests, screenshots, or other informal communication. The buyer then manually transfers the required information into Exact before continuing with the purchasing process.
 
 One observed service-order case involving two lines took approximately **5 minutes** to enter. This is a single observation, not an average.
 
@@ -291,15 +297,19 @@ The buyer explained that if the Exact price is outdated and is only corrected af
 
 The pre-PO check therefore serves a different purpose from the confirmation check later in the process.
 
-## 4.8 Fiatteren and Verrichten
+## 4.8 Fiatteren, Verrichten and Besteld
 
-Once the order has been prepared, it moves through the Exact status workflow:
+The earlier version incorrectly treated `Besteld` as the entry point for a purchasing requirement already present in Exact.
 
-`Besteld → Gefiatteerd → Verricht → Bevestigd → Ontvangen → Gefactureerd → Betaald`
+Based on the current clarification, an open purchasing requirement should be treated as **pre-order demand**, not as an already `Besteld` supplier order.
 
-The detailed current-state scope concentrates primarily on the process through `Bevestigd`.
+The operational sequence currently understood is approximately:
 
-If an order falls outside the buyer's normal authorization, an additional approval process applies, but that process is currently not required for the main analysis and has not been mapped in detail.
+`Prepare PO → Fiatteren → Verrichten → PO generated → Send PO to supplier → Besteld → supplier confirmation → Bevestigd`
+
+This sequence is a **working interpretation** and should be validated against the official buyer instruction and with the operational buyer. The visual left-to-right order of status labels in Exact should not be assumed to equal the chronological workflow.
+
+The later statuses `Ontvangen`, `Gefactureerd`, and `Betaald` remain outside the detailed current-state scope for now.
 
 ## 4.9 PO generation and supplier email
 
@@ -435,8 +445,8 @@ The distinction between formal Exact requirement and personal/company working pr
 
 | # | Step | Actor | Type | Current evidence | Basis | Main unknown |
 |---|---|---|---|---|---|---|
-| 1 | Receive request through Route A/B | Requester / Buyer | C | Repeatedly observed/stated | — | Share by route |
-| 2 | Create PO manually from external request | Buyer | A | ~5 min / 2 lines, one case | Practice? | Frequency |
+| 1 | Receive/identify purchasing need through Route A/B | Requester / Buyer | C | Repeatedly observed/stated | — | Share by route |
+| 2 | Create purchasing entry / PO lines from external request | Buyer | A | ~5 min / 2 lines, one case | Practice? | Frequency |
 | 3 | Transfer information from screenshot/email | Buyer | A | Observed | Practice? | Frequency |
 | 4 | Validate supplied information | Buyer | B | Observed | Practice? | Frequency/error types |
 | 5 | Search historical POs to resolve suspicious data | Buyer | B | ~10–15 min, one case | Practice? | Frequency |
@@ -447,15 +457,16 @@ The distinction between formal Exact requirement and personal/company working pr
 | 10 | Toewijzen | Buyer | A+B | Part of 30–35 min case | Mandatory? | Failure frequency |
 | 11 | Pre-PO supplier price check | Buyer | V+A | Observed/stated for certain purchases | Practice? | Which categories/frequency |
 | 12 | Update pre-PO price deviations | Buyer | A | Observed | Practice? | Frequency/time |
-| 13 | Fiatteren / Verrichten | Buyer / Exact | A | Confirmed workflow | Mandatory? | Formal rules |
+| 13 | Fiatteren / Verrichten | Buyer / Exact | A | Confirmed actions | Mandatory? | Formal rules/status timing |
 | 14 | Forward PO + standard supplier message | Buyer | A | Stated: every PO | Practice | Daily volume |
-| 15 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
-| 16 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
-| 17 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
-| 18 | Attach confirmation + Bevestigd | Buyer | A | Observed | Mandatory? | Formal rule |
-| 19 | Finance later control | Finance | C/V | Stated/observed workflow | Unknown | Frequency/issues |
-| 20 | Investigate Finance-returned case | Buyer | C+B | Stated | Practice | Frequency/time |
-| 21 | Handle unavailable component | Buyer | B+C | Observed | Practice | How unresolved need remains tracked |
+| 15 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Clarified meaning; timing to validate | System | Exact status transition timing |
+| 16 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
+| 17 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
+| 18 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
+| 19 | Attach confirmation + Bevestigd | Buyer | A | Observed | Mandatory? | Formal rule |
+| 20 | Finance later control | Finance | C/V | Stated/observed workflow | Unknown | Frequency/issues |
+| 21 | Investigate Finance-returned case | Buyer | C+B | Stated | Practice | Frequency/time |
+| 22 | Handle unavailable component | Buyer | B+C | Observed | Practice | How unresolved need remains tracked |
 
 ---
 
@@ -597,6 +608,7 @@ Before retaining this as a central BEP decision case, determine how frequently g
 | Q22 | What differs between VRD and project/production purchasing? | Compare real cases | Buyer / Exact |
 | Q23 | Who owns stages after `Bevestigd`? | Ask | Buyer / Finance |
 | Q24 | Which steps are mandatory Exact/company procedure vs personal practice? | Digitise paper instruction and compare | Instruction document |
+| Q25 | When exactly does Exact set/display `Besteld` relative to Fiatteren, Verrichten and sending the PO? | Validate with buyer + official instruction / Exact | Buyer / Exact |
 
 ---
 
@@ -633,6 +645,7 @@ Ask:
 - Which steps only happen sometimes?
 - Which decisions are represented incorrectly?
 - Which steps are company rules versus your own working method?
+- At what point should `Besteld` appear in the actual process?
 
 Corrections should be recorded as research evidence.
 
@@ -696,6 +709,8 @@ Only after the current process, frequencies and available data are clearer shoul
 | Certain one-off/special purchases receive pre-PO price checking | Yes | Observed/stated | Categories need clarification |
 | Services included in the pre-PO price-check rule | Unclear | Unconfirmed | Do not use as rule |
 | Missed `toewijzen` can leave underlying demand open | Yes | Explained/observed workflow | Frequency unknown |
+| Route A is pre-order demand, not an already `Besteld` PO | Clarified 20 Aug | User/workflow clarification | Use in current map |
+| Exact chronological placement of `Besteld` | After order/sending according to current clarification | Working interpretation | Validate against buyer/instruction |
 
 ---
 
@@ -764,7 +779,8 @@ In order:
 7. **Determine how often Advies/toewijzen occurs.**
 8. **Ask how often genuine supplier selection occurs.**
 9. **Ask IT what purchasing data Exact/Orbis can expose.**
-10. **Only then begin ranking the candidate BEP use cases more strongly.**
+10. **Validate exactly where `Besteld` sits relative to Fiatteren, Verrichten and supplier sending.**
+11. **Only then begin ranking the candidate BEP use cases more strongly.**
 
 ---
 
