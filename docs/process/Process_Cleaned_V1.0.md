@@ -1,6 +1,6 @@
 # Process Cleaned V1.0 — Operational Purchasing Current State
 
-**Status:** Working draft, 20 August 2026. Based on current-state v0.3.
+**Status:** Working draft, 20 August 2026.
 
 **Evidence base:** Internship observations and discussions from 17, 19 and 20 August 2026. Observed durations should currently be treated as individual cases rather than representative averages.
 
@@ -59,8 +59,6 @@ Where the current process is unclear, the workflow explicitly marks the step as 
 # 3. Main AS-IS purchasing workflow
 
 The purchasing workflow is not one completely linear process. A purchasing need can enter through different routes and may require different levels of administrative work, verification, judgement and exception handling.
-
-**Important terminology correction:** Route A refers to an **open purchasing requirement/demand already visible in Exact that still needs purchasing action**. It should not be interpreted as a PO that is already `Besteld`. `Besteld` means the order has already reached the ordered/sent stage and therefore cannot be the starting point for an unprocessed purchasing need.
 
 ```mermaid
 flowchart LR
@@ -155,7 +153,6 @@ flowchart LR
     prePriceQ -- "no" --> release
 
     release --> pdf
-
     pdf --> forward
     forward --> best
     best --> supplierConf
@@ -168,7 +165,6 @@ flowchart LR
     confirmPrice -- "match" --> attach
 
     attach --> bev
-
     bev --> financeCheck
 
     financeCheck -- "issue" --> financeReturn
@@ -177,7 +173,7 @@ flowchart LR
     financeCheck -- "no issue" --> later
 ```
 
-> **Status-order caution:** Exact displays status labels such as `Besteld`, `Gefiatteerd`, `Verricht`, `Bevestigd`, `Ontvangen`, `Gefactureerd` and `Betaald`. Their visual order in the Exact screen should not automatically be treated as the chronological process order. In this map, `Besteld` is placed after the PO is actually sent/ordered based on the current workflow clarification. This placement should still be validated against the official buyer instruction and with the operational buyer.
+The exact timing of Exact status transitions should be validated against the official buyer instruction and with the operational buyer.
 
 ---
 
@@ -190,8 +186,6 @@ Two main routes have been observed.
 ### Route A — open purchasing requirement/demand already exists in Exact
 
 The buyer starts from an **open purchasing requirement or demand that is already visible in Exact but still needs purchasing action**.
-
-This does **not** mean the supplier order has already been `Besteld`. The earlier wording “order already exists in Exact” was misleading because it mixed an internal purchasing requirement with an already ordered/sent PO.
 
 Who originally creates all Route-A requirements is not yet fully mapped.
 
@@ -298,17 +292,13 @@ The pre-PO check therefore serves a different purpose from the confirmation chec
 
 ## 4.8 Fiatteren, Verrichten and Besteld
 
-The earlier version incorrectly treated `Besteld` as the entry point for a purchasing requirement already present in Exact.
-
-Based on the current clarification, an open purchasing requirement should be treated as **pre-order demand**, not as an already `Besteld` supplier order.
-
-The operational sequence currently understood is approximately:
+The operational sequence is currently mapped as:
 
 `Prepare PO → Fiatteren + Verrichten → PO generated and emailed to buyer → Send PO to supplier → Besteld → supplier confirmation → Bevestigd`
 
-`Fiatteren` and `Verrichten` are represented together in the process map because the current focus is on the buyer's operational flow rather than showing each Exact status as a separate swimlane node.
+`Fiatteren` and `Verrichten` are represented together in the process map because the current focus is on the buyer's operational flow rather than showing each Exact status as a separate node.
 
-This sequence is a **working interpretation** and should be validated against the official buyer instruction and with the operational buyer. The visual left-to-right order of status labels in Exact should not be assumed to equal the chronological workflow.
+The exact timing of the status transitions should still be validated against the official buyer instruction and with the operational buyer.
 
 The later statuses `Ontvangen`, `Gefactureerd`, and `Betaald` remain outside the detailed current-state scope for now.
 
@@ -325,7 +315,7 @@ The buyer then:
 
 The buyer stated that PO forwarding is currently performed manually.
 
-A more automated supplier-email approach existed previously but was not considered sufficiently reliable. Supplier contact information changing was mentioned as one reason.
+A more automated supplier-email approach existed in the past but was not considered sufficiently reliable. Supplier contact information changing was mentioned as one reason.
 
 **Work type:** repetitive administration.
 
@@ -461,7 +451,7 @@ The distinction between formal Exact requirement and personal/company working pr
 | 13 | Fiatteren / Verrichten | Buyer / Exact | A | Confirmed actions | Mandatory? | Formal rules/status timing |
 | 14 | PO generated and emailed to buyer in Outlook | Exact / Outlook | A | Observed/stated | System | Timing/automation details |
 | 15 | Forward PO + standard supplier message | Buyer | A | Stated: every PO | Practice | Daily volume |
-| 16 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Clarified meaning; timing to validate | System | Exact status transition timing |
+| 16 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Current process map | System | Exact status transition timing |
 | 17 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
 | 18 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
 | 19 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
@@ -558,7 +548,7 @@ Potential intervention form: better issue classification, structured hand-off, a
 
 ## G. Supplier selection
 
-The original proposal considered supplier/quotation selection.
+The project proposal considers supplier/quotation selection as a possible decision case.
 
 **Current status:** Not yet observed during Week 1.
 
@@ -705,14 +695,12 @@ Only after the current process, frequencies and available data are clearer shoul
 | Advies + maximalisatie + toewijzen case | ~30–35 min | Observed | Single case |
 | Large line-by-line price-control case | ~30–40 min | Student estimate | Needs formal timing |
 | Generated POs forwarded manually | Every PO according to buyer | Stated | Needs volume measurement |
-| Earlier supplier-email automation had reliability problems | Yes | Stated | Historical description |
+| Supplier-email automation was previously tried but had reliability problems | Yes | Stated | Historical description |
 | Exact Globe+ accessible through Orbis | Yes | Stated by IT | Read/write/data scope unknown |
 | Some Finance notes identify a problem without precise location | Yes | Stated | Frequency unknown |
 | Certain one-off/special purchases receive pre-PO price checking | Yes | Observed/stated | Categories need clarification |
 | Services included in the pre-PO price-check rule | Unclear | Unconfirmed | Do not use as rule |
 | Missed `toewijzen` can leave underlying demand open | Yes | Explained/observed workflow | Frequency unknown |
-| Route A is pre-order demand, not an already `Besteld` PO | Clarified 20 Aug | User/workflow clarification | Use in current map |
-| Exact chronological placement of `Besteld` | After order/sending according to current clarification | Working interpretation | Validate against buyer/instruction |
 
 ---
 
@@ -740,19 +728,25 @@ Examples: requests arriving through multiple channels, incomplete request inform
 
 Different problem types may therefore require different solutions.
 
-## 14.2 Price checking is broader than originally understood
+## 14.2 Price checking contains two distinct stages
 
-Price checking now appears in at least **two distinct stages**.
+Price checking appears in at least **two distinct stages**.
 
-This suggests that the underlying problem may eventually be broader than “automate supplier confirmation checking.” It may concern stale purchasing prices, availability of current supplier prices, timing of price updates, repeated manual comparison, and information consistency between supplier, Exact and subsequent POs.
+The underlying problem may concern:
 
-This is a hypothesis requiring further measurement.
+- stale purchasing prices;
+- availability of current supplier prices;
+- timing of price updates;
+- repeated manual comparison;
+- information consistency between supplier, Exact and subsequent POs.
 
-## 14.3 Order timing and consolidation remains promising, but is not yet selected
+This remains a hypothesis requiring further measurement.
 
-The order-now-versus-wait decision has been observed repeatedly and contains a clear combination of stock, future demand, lead time, urgency, and supplier efficiency.
+## 14.3 Order timing and consolidation is a promising candidate
 
-This makes it a promising decision-support candidate. However, its data availability and actual decision structure must still be validated before claiming it is the strongest project case.
+The order-now-versus-wait decision has been observed repeatedly and contains a combination of stock, future demand, lead time, urgency, and supplier efficiency.
+
+This makes it a promising decision-support candidate. However, its data availability and actual decision structure must still be validated before ranking it strongly.
 
 ## 14.4 Advies/toewijzen deserves separate attention
 
@@ -760,11 +754,9 @@ The 30–35 minute observed case and the potential duplicate-demand consequence 
 
 Whether it should become a major BEP problem depends on how often it occurs, how often mistakes occur, how much of the relationship Exact already exposes, and whether the difficulty is mainly system usability, process design or decision-making.
 
-## 14.5 Supplier selection should remain open
+## 14.5 Supplier selection remains open
 
-Supplier/quotation selection should not be removed from the project solely because it was not observed during three days.
-
-However, Week-1 evidence does not yet support treating it as the default use case. Its actual frequency should be established first.
+Supplier/quotation selection has not yet been observed during Week 1. Its actual frequency should be established before deciding whether it should remain a central BEP decision case.
 
 ---
 
