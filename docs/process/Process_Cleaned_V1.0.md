@@ -73,7 +73,7 @@ flowchart LR
         routeB["Route B:<br>email / verbal request / screenshot"]
     end
 
-    subgraph BUY["Operational buyer"]
+    subgraph BUY["Operational buyer / Exact Globe+"]
         create["Create purchasing entry / PO lines manually<br>when request originates outside Exact"]
 
         validate{"Supplied / available information<br>plausible?"}
@@ -100,20 +100,23 @@ flowchart LR
 
         forward["Check recipient and manually<br>forward generated PO to supplier"]
 
+        best(["Besteld<br>order sent / ordered"])
+
         confirmPrice["Compare supplier confirmation<br>against Exact / PO"]
 
         fixConfirm["Correct relevant deviations<br>in Exact"]
 
         attach["Attach confirmation<br>and set Bevestigd"]
 
+        bev(["Bevestigd"])
+
         rework["Investigate returned issue:<br>PO / confirmation / invoice / Outlook"]
+
+        later["Ontvangen → Gefactureerd → Betaald<br>owner / detailed process unmapped"]:::gap
     end
 
-    subgraph Outlook["Outlook"]
+    subgraph OUT["Outlook"]
         pdf["PO document generated<br>and emailed to buyer"]
-        best(["Besteld<br>order sent / ordered"])
-        bev(["Bevestigd"])
-        later["Ontvangen → Gefactureerd → Betaald<br>owner / detailed process unmapped"]:::gap
     end
 
     subgraph SUP["Supplier"]
@@ -151,9 +154,7 @@ flowchart LR
 
     prePriceQ -- "no" --> release
 
-    release --> gef
-    gef --> ver
-    ver --> pdf
+    release --> pdf
 
     pdf --> forward
     forward --> best
@@ -303,7 +304,9 @@ Based on the current clarification, an open purchasing requirement should be tre
 
 The operational sequence currently understood is approximately:
 
-`Prepare PO → Fiatteren → Verrichten → PO generated → Send PO to supplier → Besteld → supplier confirmation → Bevestigd`
+`Prepare PO → Fiatteren + Verrichten → PO generated and emailed to buyer → Send PO to supplier → Besteld → supplier confirmation → Bevestigd`
+
+`Fiatteren` and `Verrichten` are represented together in the process map because the current focus is on the buyer's operational flow rather than showing each Exact status as a separate swimlane node.
 
 This sequence is a **working interpretation** and should be validated against the official buyer instruction and with the operational buyer. The visual left-to-right order of status labels in Exact should not be assumed to equal the chronological workflow.
 
@@ -311,11 +314,11 @@ The later statuses `Ontvangen`, `Gefactureerd`, and `Betaald` remain outside the
 
 ## 4.9 PO generation and supplier email
 
-After `Verricht`, Exact generates the PO document and emails it to the buyer.
+After `Verricht`, Exact generates the PO document and emails it to the buyer in Outlook.
 
 The buyer then:
 
-1. receives the generated PO;
+1. receives the generated PO in Outlook;
 2. checks/uses the appropriate supplier recipient;
 3. forwards the PO;
 4. types a short standard message.
@@ -456,15 +459,16 @@ The distinction between formal Exact requirement and personal/company working pr
 | 11 | Pre-PO supplier price check | Buyer | V+A | Observed/stated for certain purchases | Practice? | Which categories/frequency |
 | 12 | Update pre-PO price deviations | Buyer | A | Observed | Practice? | Frequency/time |
 | 13 | Fiatteren / Verrichten | Buyer / Exact | A | Confirmed actions | Mandatory? | Formal rules/status timing |
-| 14 | Forward PO + standard supplier message | Buyer | A | Stated: every PO | Practice | Daily volume |
-| 15 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Clarified meaning; timing to validate | System | Exact status transition timing |
-| 16 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
-| 17 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
-| 18 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
-| 19 | Attach confirmation + Bevestigd | Buyer | A | Observed | Mandatory? | Formal rule |
-| 20 | Finance later control | Finance | C/V | Stated/observed workflow | Unknown | Frequency/issues |
-| 21 | Investigate Finance-returned case | Buyer | C+B | Stated | Practice | Frequency/time |
-| 22 | Handle unavailable component | Buyer | B+C | Observed | Practice | How unresolved need remains tracked |
+| 14 | PO generated and emailed to buyer in Outlook | Exact / Outlook | A | Observed/stated | System | Timing/automation details |
+| 15 | Forward PO + standard supplier message | Buyer | A | Stated: every PO | Practice | Daily volume |
+| 16 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Clarified meaning; timing to validate | System | Exact status transition timing |
+| 17 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
+| 18 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
+| 19 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
+| 20 | Attach confirmation + Bevestigd | Buyer | A | Observed | Mandatory? | Formal rule |
+| 21 | Finance later control | Finance | C/V | Stated/observed workflow | Unknown | Frequency/issues |
+| 22 | Investigate Finance-returned case | Buyer | C+B | Stated | Practice | Frequency/time |
+| 23 | Handle unavailable component | Buyer | B+C | Observed | Practice | How unresolved need remains tracked |
 
 ---
 
