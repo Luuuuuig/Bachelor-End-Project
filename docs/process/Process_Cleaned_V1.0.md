@@ -101,7 +101,7 @@ flowchart LR
 
         release["Fiatteren + Verrichten"]
 
-        forward["<br>forward generated PO to supplier"]
+        forward["forward generated PO to supplier"]
 
         best(["Besteld<br>order sent / ordered"])
 
