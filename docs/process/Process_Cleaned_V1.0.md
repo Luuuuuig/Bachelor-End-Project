@@ -1,8 +1,8 @@
 # Process Cleaned V1.0 — Operational Purchasing Current State
 
-**Status:** Working draft, 20 August 2026.
+**Status:** Working draft, 21 August 2026.
 
-**Evidence base:** Internship observations and discussions from 17, 19 and 20 August 2026. Observed durations should currently be treated as individual cases rather than representative averages.
+**Evidence base:** Internship observations and discussions from 17, 19 and 20 August 2026. Observed durations were measured by noting start/end clock times on the laptop during the work. They should therefore be interpreted as **observed elapsed-time measurements for individual cases**, not retrospective estimates or representative averages. Because the buyer regularly switches between work content, some measured durations include task switching and should not be interpreted as pure active processing time.
 
 **Purpose:**
 1. describe the current operational purchasing process;
@@ -54,6 +54,18 @@ To avoid turning early observations into conclusions, claims should be interpret
 | **Unconfirmed / hypothesis** | Possible explanation or improvement direction requiring validation |
 
 Where the current process is unclear, the workflow explicitly marks the step as **unmapped** or **to verify**.
+
+### Timing interpretation
+
+The early timing observations were not guessed retrospectively. Start and end times were checked using the laptop clock while the buyer worked.
+
+Unless a case was performed continuously, these values should be treated as **elapsed time**:
+
+- they capture how long the case remained in progress from the observed start to finish;
+- they can include switching to another order, Outlook, a colleague question or another task;
+- they do not necessarily equal active hands-on processing time.
+
+This distinction is especially important for longer observations. Future baseline measurement should therefore record **active processing time and elapsed time separately** where possible.
 
 ---
 
@@ -166,7 +178,7 @@ Who originally creates all Route-A requirements is not yet fully mapped.
 
 Requests can arrive through email, direct colleague requests, screenshots, or other informal communication. The buyer then manually transfers the required information into Exact before continuing with the purchasing process.
 
-One observed service-order case involving two lines took approximately **5 minutes** to enter. This is a single observation, not an average.
+One observed service-order case involving two lines took approximately **5 minutes of observed elapsed time**, measured using the clock. This is a single observation, not an average.
 
 ## 4.2 Validate the supplied information----Observed
 
@@ -186,8 +198,10 @@ If something appears suspicious, the buyer may search historical POs before proc
 
 In one observed service case:
 
-- manual data entry took about **5 minutes**;
-- investigating suspicious machine/serial information took approximately **10–15 minutes**.
+- manual data entry took about **5 minutes of observed elapsed time**;
+- investigating suspicious machine/serial information took approximately **10–15 minutes of observed elapsed time**.
+
+These are clock-based single-case measurements. Where task switching occurred, they should not be interpreted as continuous active handling time.
 
 This suggests that workload can come less from entering information.
 
@@ -218,7 +232,7 @@ For a small non-urgent request, the buyer may deliberately leave the requirement
 
 Potential reasons include reducing unnecessary small orders, transport/ordering costs and possibly improving commercial efficiency.
 
-During one observation, adding another item as part of this activity took approximately **4 minutes**.
+During one observation, adding another item as part of this activity took approximately **4 minutes of observed elapsed time**, measured using the clock.
 
 **Work type:** purchasing judgement + administration.
 
@@ -242,7 +256,7 @@ After adding demand to a supplier PO, the purchased quantity may need to be **to
 
 If the purchased quantity is not correctly assigned, Exact may continue to regard the underlying demand as unresolved. This can cause the same requirement to appear again later and potentially create duplicate purchasing risk.
 
-One observed case involving purchasing advice, maximalisatie, understanding the underlying demand, and allocation/toewijzen took approximately **30–35 minutes** in total.
+One observed case involving purchasing advice, maximalisatie, understanding the underlying demand, and allocation/toewijzen took approximately **30–35 minutes of observed elapsed time** from the clock. During longer cases, the buyer switched between work content, so this should not be interpreted as 30–35 minutes of uninterrupted active processing.
 
 **Work type:** system administration + purchasing interpretation.
 
@@ -322,7 +336,7 @@ For relevant lines he may:
 6. attach the confirmation;
 7. set the order to `Bevestigd`.
 
-A large supplier case on 19 August was roughly measured at approximately **30–40 minutes**, but this figure was not definitive because the required time depends strongly on the number of lines and component complexity.
+A large supplier case on 19 August took approximately **30–40 minutes of observed elapsed time**, measured from the clock rather than estimated afterwards. This interval included switching between work content and therefore is **not** a measure of 30–40 minutes of continuous price-checking activity. The elapsed duration can also vary with the number of lines and component complexity.
 
 ### Important distinction: two price controls
 
@@ -394,7 +408,9 @@ While processing orders, the buyer can receive:
 - project requests;
 - exceptions.
 
-It has also been observed that the buyer checks Outlook while waiting for Exact to generate/send a PO and that colleagues can approach the desk during purchasing work. These establish the presence and types of interruptions, but not yet their representative frequency or workload impact.
+It has also been observed that the buyer checks Outlook while waiting for Exact to generate/send a PO and that colleagues can approach the desk during purchasing work. The buyer also switches between different work content during longer purchasing cases. These establish the presence and types of interruptions/task switching, but not yet their representative frequency or workload impact.
+
+This task switching is one reason some early clock-based measurements have relatively large elapsed durations. The measurements remain valid observations of how long a case stayed in progress, but they should not be interpreted as equivalent active processing time.
 
 Future timing should distinguish:
 
@@ -432,20 +448,20 @@ The distinction between formal Exact requirement and personal/company working pr
 
 `Current evidence`
 
-The evidence labels below follow Section 2. A timing from only one observed case is explicitly marked as a **Single observation** rather than treated as representative.
+The evidence labels below follow Section 2. Clock-based timings from one observed case are explicitly marked as **Single observation — elapsed time**, rather than being treated as estimates, active processing times or representative averages.
 
 | # | Step / task | Actor | Type | Current evidence | Basis | Main unknown |
 |---|---|---|---|---|---|---|
 | 1 | Receive/identify purchasing need through Route A/B | Requester / Buyer | C | **Observed** | — | Frequency/share by route |
-| 2 | Create purchasing entry / PO lines from external request | Buyer | A | **Observed; timing = Single observation** (~5 min / 2 lines) | Practice? | Frequency |
+| 2 | Create purchasing entry / PO lines from external request | Buyer | A | **Observed; Single observation — elapsed time** (~5 min / 2 lines) | Practice? | Frequency + representative active time |
 | 3 | Transfer information from screenshot/email | Buyer | A | **Observed** | Practice? | Frequency |
 | 4 | Validate supplied information | Buyer | B | **Observed** | Practice? | Frequency/error types |
-| 5 | Search historical POs to resolve suspicious data | Buyer | B | **Observed; timing = Single observation** (~10–15 min) | Practice? | Frequency |
+| 5 | Search historical POs to resolve suspicious data | Buyer | B | **Observed; Single observation — elapsed time** (~10–15 min) | Practice? | Frequency + representative active time |
 | 6 | Assess stock/future demand/lead time/urgency | Buyer | B | **Observed** | Practice/System | Inputs/data availability + decision logic |
 | 7 | Decide order now vs hold | Buyer | B | **Observed** | Practice | Decision rules/cues |
-| 8 | Maximalisatie | Buyer | B | **Observed; timing = Single observation** (~4 min for one added item) | Practice | Frequency/value + decision rules |
+| 8 | Maximalisatie | Buyer | B | **Observed; Single observation — elapsed time** (~4 min for one added item) | Practice | Frequency/value + decision rules |
 | 9 | Review Exact Advies | Buyer | B | **Observed** | System + Practice | Calculation logic + frequency |
-| 10 | Toewijzen | Buyer | A+B | **Observed; combined case timing = Single observation** (part of ~30–35 min case) | Mandatory? | Miss/failure frequency + formal rule |
+| 10 | Toewijzen | Buyer | A+B | **Observed; combined case = Single observation — elapsed time** (part of ~30–35 min case) | Mandatory? | Miss/failure frequency + formal rule + active-time split |
 | 11 | Pre-PO supplier price check | Buyer | V+A | **Observed + Stated** | Practice? | Frequency + whether services are included |
 | 12 | Update pre-PO price deviations | Buyer | A | **Observed** | Practice? | Frequency/time |
 | 13 | Check whether order exceeds buyer authorization limit | Buyer | C | **Stated** | Company control | Exact handling/frequency |
@@ -455,7 +471,7 @@ The evidence labels below follow Section 2. A timing from only one observed case
 | 17 | Forward PO + standard supplier message | Buyer | A | **Observed + Stated** | Practice | Daily volume / total workload |
 | 18 | PO reaches Besteld / ordered stage | Buyer / Exact | A | **Observed + Stated** | System | — |
 | 19 | Supplier sends confirmation | Supplier | — | **Observed** | External | — |
-| 20 | Compare confirmation with Exact/PO | Buyer | V+A | **Observed** | Practice? | Representative time/frequency |
+| 20 | Compare confirmation with Exact/PO | Buyer | V+A | **Observed; longer case includes clock-measured elapsed time** | Practice? | Representative active + elapsed time/frequency |
 | 21 | Correct confirmation deviations | Buyer | A | **Observed** | Practice? | Frequency |
 | 22 | Attach confirmation + Bevestigd | Buyer | A | **Observed** | Mandatory? | Formal rule |
 | 23 | Finance later control | Finance | C/V | **Single observation + Stated** | Unknown | Frequency/detection method/issues |
@@ -491,7 +507,7 @@ Examples:
 
 Current understanding suggests that `toewijzen` itself is mainly an assignment/control step rather than a decision with many valid alternatives: the purchased quantity is linked to the underlying project/production demand, and failure to assign it can leave the demand unresolved. The remaining question is therefore less about decision freedom and more about frequency, usability and failure risk.
 
-**Current status:** Relevant system/process-support candidate — one substantial combined 30–35 minute case observed; frequency and Exact `Advies` logic remain unknown.
+**Current status:** Relevant system/process-support candidate — one substantial combined 30–35 minute **elapsed-time** case observed; frequency, active-time composition and Exact `Advies` logic remain unknown.
 
 Potential intervention form: information visualization, rule/system support, matching/allocation assistance, missed-assignment control.
 
@@ -507,7 +523,7 @@ Supplier/current price compared with stored Exact price.
 
 Supplier confirmation compared with Exact/PO.
 
-**Current status:** Promising — clear manual line-by-line work observed, but normal frequency and representative processing time still need measurement.
+**Current status:** Promising — clear manual line-by-line work observed, but normal frequency and representative active/elapsed processing time still need measurement.
 
 Potential intervention form: automated price retrieval, stale-price detection, document comparison, deviation highlighting, human-reviewed updates.
 
@@ -565,8 +581,8 @@ According to the operational buyer, genuine supplier selection is generally **ou
 | Candidate | Evidence today | Main uncertainty | Current status |
 |---|---|---|---|
 | Order timing & consolidation | Repeatedly observed | Exact data + decision rules | **Promising** |
-| Advies / toewijzen | One substantial combined case | Frequency + Exact Advies logic | **System/process-support candidate** |
-| Price control | Manual work clearly observed | Frequency + timed baseline | **Promising** |
+| Advies / toewijzen | One substantial combined elapsed-time case | Frequency + active-time split + Exact Advies logic | **System/process-support candidate** |
+| Price control | Manual work clearly observed | Frequency + representative active/elapsed baseline | **Promising** |
 | Request validation | Observed | Frequency/business impact | **Needs more evidence** |
 | PO communication | Repeated | Total daily time | **Easy automation candidate** |
 | Finance rework | Single observation/stated | Frequency/root cause | **Needs measurement** |
@@ -591,12 +607,13 @@ The measurement section is split between **questions already answered sufficient
 | Which purchases have been identified for pre-PO price checking? | One-off items and special components have been identified. | **Observed + Stated** | Whether services are included remains unclear. |
 | Is there an authorization hierarchy? | Current working understanding: operational buyer ~€10k, technical-buyer level ~€25k, purchasing manager ~€100k. | **Stated / working understanding** | Exact approval mechanics and recording remain open. |
 | Where is `Besteld` placed in the current working process map? | The current map deliberately keeps `Besteld` after the PO is sent/ordered. `Verricht` generating the PO/email is treated as reliable for the current map. | **Current validated working model** | Reopen only if direct company evidence contradicts the current mapping. |
+| Were the early task timings estimates? | **No.** The timings were observed by checking start/end clock times on the laptop. | **Observed measurement method** | They are elapsed-time measurements; task switching means they are not necessarily active processing time. |
 
 ## 10.2 Active measurement plan — open questions only
 
 | # | Open question | Method | Source |
 |---|---|---|---|
-| M1 | Which task categories consume the most **total workload** over a normal week? | Structured task/time tally; combine frequency × processing time | Observation / Exact where available |
+| M1 | Which task categories consume the most **total workload** over a normal week? | Structured task/time tally; combine frequency × active processing time, while also retaining elapsed time | Observation / Exact where available |
 | M2 | How frequently do the main task categories occur? | Several-day tally + system history where available | Observation / Exact |
 | M3 | What determines Exact `Advies`, and how often is it used? | Test account + ask buyer/IT + Exact documentation if available | Buyer / IT / Exact |
 | M4 | How often is `toewijzen` difficult, missed or associated with unresolved/reappearing demand? | Ask + tally/inspect real cases | Buyer / Exact |
@@ -604,13 +621,13 @@ The measurement section is split between **questions already answered sufficient
 | M6 | What share of requests originates outside Exact, and how often is incoming information incomplete or wrong? | Several-day tally; categorize errors | Observation / Exact |
 | M7 | How often does Finance return cases, how does Finance detect the issue, and what are the main root causes? | Talk to Finance + categorize real examples/history | Finance / Buyer / Exact |
 | M8 | How many POs and PO lines are processed in a normal day/week? | Exact history | Exact |
-| M9 | What is the representative processing time for pre-PO and post-confirmation price checking as a function of line count/complexity? | Time several cases of different sizes | Observation |
+| M9 | What are the representative **active processing time and elapsed time** for pre-PO and post-confirmation price checking as a function of line count/complexity? | Time several cases; record pauses/task switches separately | Observation |
 | M10 | How often does the stored Exact price actually differ from the current supplier price? | Record deviations during pre-PO checks | Observation / Exact |
 | M11 | Is current supplier price available through a structured source/API, and which Exact/Orbis purchasing fields can be retrieved reliably? | Ask IT + inspect/test available interfaces | IT / Exact / Orbis |
 | M12 | Does Exact/Orbis expose the planning inputs required for buy/hold/maximalisatie: stock, safety stock, future demand, open POs, expected receipts and lead time? | Inspect + ask IT | Exact / IT / Orbis |
 | M13 | What are Arnold's actual decision rules/cues for **order now vs hold/maximalisatie**, including information not represented in Exact? | CTA-informed questioning + scenario survey | Arnold |
 | M14 | Do Johan and Dennis make sufficiently comparable buy/hold decisions to Arnold, and what explains agreement/disagreement? | Independent scenario survey followed by debrief | Arnold / Johan / Dennis |
-| M15 | How frequent are interruptions and how much processing/elapsed time do they add? | Timed observation blocks | Observation |
+| M15 | How frequent are interruptions/task switches and how much do they contribute to the gap between active processing time and elapsed time? | Timed observation blocks; record start/end plus task switches | Observation |
 | M16 | Which steps are formal company procedure versus individual working practice, and is there additional purchasing-process documentation beyond the Exact instruction? | Ask Johan + compare available documents with observed workflow | Johan / company documentation |
 | M17 | Who owns the later stages after `Bevestigd`? | Ask/trace process | Buyer / Finance |
 | M18 | For purchases above a person's authorization limit, how is approval requested, performed and recorded in Exact, and what delay does it introduce? | Ask relevant roles + trace a real case | Buyer / Johan / Dennis / Exact |
@@ -622,23 +639,25 @@ The measurement section is split between **questions already answered sufficient
 
 For future observations, use:
 
-| Start | End | Task | Order type | # lines | What happened | Interruption | Exception | Judgement? |
-|---|---|---|---|---:|---|---|---|---|
+| Start | End | Elapsed time | Task | Order type | # lines | Task switch / interruption? | What happened | Exception | Judgement? |
+|---|---|---:|---|---|---:|---|---|---|---|
+
+Where practical, also record **active processing time** separately, for example by pausing the task timer or noting when the buyer switches away from the case.
 
 For price cases additionally record:
 
-| Price-check type | # lines | # deviations | Processing time | Source used |
-|---|---:|---:|---:|---|
-| Pre-PO supplier check | | | | |
-| Supplier confirmation check | | | | |
+| Price-check type | # lines | # deviations | Active processing time | Elapsed time | Task switches | Source used |
+|---|---:|---:|---:|---:|---:|---|
+| Pre-PO supplier check | | | | | | |
+| Supplier confirmation check | | | | | | |
 
 For orders above the buyer's normal authorization limit, additionally record:
 
-| Order value | Approval required? | Approver/role | Processing time | Elapsed waiting time | Where recorded |
+| Order value | Approval required? | Approver/role | Active processing time | Elapsed waiting time | Where recorded |
 |---:|---|---|---:|---:|---|
 | | | | | | |
 
-This avoids incorrectly combining different price-control activities and makes the approval branch measurable rather than treating it as a purely descriptive exception.
+This avoids incorrectly combining active work with waiting/task-switching time and makes the approval branch measurable rather than treating it as a purely descriptive exception.
 
 ---
 
@@ -698,8 +717,10 @@ Prioritise measurement of:
 2. order timing/maximalisatie decision work;
 3. purchasing advice/toewijzen cases;
 4. external request/manual entry and validation;
-5. interruptions;
+5. interruptions/task switching;
 6. Finance rework.
+
+For longer cases, distinguish **active processing time** from **elapsed case duration** so task switching is not mistaken for processing effort.
 
 The authorization branch should be traced when a relevant case occurs, but it does not need to become a primary workload candidate unless frequency or delay proves material.
 
@@ -711,13 +732,13 @@ Use the workload baseline, data feasibility and decision-logic evidence to prior
 
 # 13. Evidence log — current state
 
-| Claim | Value | Evidence type | Confidence |
+| Claim | Value | Evidence type | Interpretation / confidence |
 |---|---:|---|---|
-| Manual creation of two service lines | ~5 min | Observed | Single case |
-| Investigation of suspicious service/machine information | ~10–15 min | Observed | Single case |
-| Adding one item during maximalisatie | ~4 min | Observed | Single case |
-| Advies + maximalisatie + toewijzen case | ~30–35 min | Observed | Single case |
-| Large line-by-line price-control case | ~30–40 min | Observed/roughly measured | Not representative; depends on line count/complexity |
+| Manual creation of two service lines | ~5 min | **Observed — clock measured** | Single-case **elapsed time**; not a representative average |
+| Investigation of suspicious service/machine information | ~10–15 min | **Observed — clock measured** | Single-case **elapsed time**; may include task switching |
+| Adding one item during maximalisatie | ~4 min | **Observed — clock measured** | Single-case **elapsed time** |
+| Advies + maximalisatie + toewijzen case | ~30–35 min | **Observed — clock measured** | Single-case **elapsed time**; longer case included switching between work content |
+| Large purchasing/price-control case | ~30–40 min | **Observed — clock measured** | Single-case **elapsed time**; included task switching and varies with line count/complexity |
 | Generated POs forwarded manually | Every PO according to buyer | Stated | Needs volume measurement |
 | Supplier-email automation was previously tried but had reliability problems | Yes | Stated | Historical description |
 | Exact Globe+ accessible through Orbis | Yes | Stated by IT | Read/write/data scope unknown |
@@ -728,7 +749,7 @@ Use the workload baseline, data feasibility and decision-logic evidence to prior
 | VRD stock is general and can later serve projects/production, whereas project/production purchasing is requirement-specific | Yes | Stated | Exact allocation details can be refined |
 | Orders above the operational buyer's €10,000 authority require further approval | Yes | Stated | Approval mechanics/timing partly unmapped |
 | Current working authority levels | ~€10k operational buyer; ~€25k technical-buyer level; ~€100k purchasing manager | Stated / working understanding | Validate formal authorization matrix if available |
-| Interruptions include Outlook/email and colleague walk-ups | Yes | Observed | Frequency/time impact unknown |
+| Interruptions/task switching include Outlook/email, colleague walk-ups and switching to other work content | Yes | Observed | Frequency and contribution to elapsed-time inflation still need measurement |
 
 ---
 
@@ -797,14 +818,14 @@ This materially weakens supplier/quotation selection as the default primary case
 In order:
 
 1. **Complete Week-1 consolidation using the Step / Task Register as Task Inventory v1.**
-2. **Start structured task/time measurement to establish frequency × time workload baselines.**
+2. **Start structured task/time measurement using separate active-processing and elapsed-time fields.**
 3. **Finalize/send the independent buy-vs-hold scenario survey to Arnold, Johan and Dennis and later compare their reasoning.**
 4. **Ask IT what purchasing/planning data Exact/Orbis can expose.**
 5. **Determine Exact `Advies` logic using the test account plus buyer/IT input.**
 6. **Ask Johan whether formal purchasing-process documentation or an authorization matrix exists beyond the Exact work instruction.**
 7. **Clarify the Finance detection/return process and collect examples.**
 8. **Measure pre-PO and post-confirmation price checking separately across several cases.**
-9. **Continue measuring Advies/toewijzen frequency, request-validation workload and interruptions.**
+9. **Continue measuring Advies/toewijzen frequency, request-validation workload and interruptions/task switching.**
 10. **Use the resulting evidence with the university supervisor to select the primary thesis case; do not treat the other opportunities as out of scope for the company improvement portfolio.**
 
 ---
@@ -815,4 +836,4 @@ At the end of Week 1, the appropriate conclusion is **not yet which task should 
 
 The current evidence supports a more limited conclusion:
 
-> Operational purchasing contains several recurring sources of workload involving repetitive administration, manual information comparison, experience-based purchasing judgement, exception handling and process hand-offs. The next phase should quantify the frequency, time and business impact of these activities and validate the current-state model before selecting the primary AI or process-improvement use case.
+> Operational purchasing contains several recurring sources of workload involving repetitive administration, manual information comparison, experience-based purchasing judgement, exception handling and process hand-offs. The next phase should quantify the frequency, **active processing time**, elapsed time and business impact of these activities and validate the current-state model before selecting the primary AI or process-improvement use case.
