@@ -74,47 +74,26 @@ flowchart LR
 
     subgraph BUY["Operational buyer / Exact Globe+"]
         create["Create purchasing entry / PO lines manually<br>when request originates outside Exact"]
-
         validate{"Supplied / available information<br>plausible?"}
-
         investigate["Investigate suspicious / incomplete data:<br>historical POs, previous purchases,<br>machine / serial / supplier information"]
-
         orderQ{"Purchase now?<br>stock, future demand, open POs,<br>lead time, MOQ / min. value, urgency"}
-
         hold["Hold open temporarily<br>for maximalisatie"]
-
         prep["Prepare supplier PO:<br>combine demand from same supplier"]
-
         advice["Review Exact Advies<br>and underlying project / production demand"]
-
         assign["Toewijzen:<br>allocate purchased quantity<br>to underlying demand"]
-
         prePriceQ{"Advance supplier-price<br>check required?"}
-
         webPrice["Search current supplier price<br>and compare with Exact"]
-
         priceUpdate["Update outdated / deviating<br>price in Exact"]
-
         authQ{"Order value above<br>€10,000?"}
-
         approval["Additional approval required<br>approval path currently unmapped"]:::gap
-
         release["Fiatteren + Verrichten"]
-
         forward["forward generated PO to supplier"]
-
         best(["Besteld<br>order sent / ordered"])
-
         confirmPrice["Compare supplier confirmation<br>against Exact / PO"]
-
         fixConfirm["Correct relevant deviations<br>in Exact"]
-
         attach["Attach confirmation<br>and set Bevestigd"]
-
         bev(["Bevestigd"])
-
         rework["Investigate returned issue:<br>PO / confirmation / invoice / Outlook"]
-
         later["Ontvangen → Gefactureerd → Betaald<br>owner / detailed process unmapped"]:::gap
     end
 
@@ -133,52 +112,37 @@ flowchart LR
 
     need --> routeA
     need --> routeB
-
     routeA --> validate
     routeB --> create
     create --> validate
-
     validate -- "looks plausible" --> orderQ
     validate -- "suspicious / incomplete" --> investigate
     investigate --> orderQ
-
     orderQ -- "small / non-urgent" --> hold
     hold -. "new demand / urgency changes" .-> orderQ
-
     orderQ -- "order now" --> prep
     prep --> advice
     advice --> assign
-
     assign --> prePriceQ
-
     prePriceQ -- "yes" --> webPrice
     webPrice --> priceUpdate
     priceUpdate --> authQ
-
     prePriceQ -- "no" --> authQ
-
     authQ -- "no" --> release
     authQ -- "yes" --> approval
     approval -. "after approval" .-> release
-
     release --> pdf
     pdf --> forward
     forward --> best
     best --> supplierConf
-
     supplierConf --> confirmPrice
-
     confirmPrice -- "difference" --> fixConfirm
     fixConfirm --> attach
-
     confirmPrice -- "match" --> attach
-
     attach --> bev
     bev --> financeCheck
-
     financeCheck -- "issue" --> financeReturn
     financeReturn --> rework
-
     financeCheck -- "no issue" --> later
 ```
 
@@ -282,7 +246,7 @@ One observed case involving purchasing advice, maximalisatie, understanding the 
 
 **Work type:** system administration + purchasing interpretation.
 
-## 4.7 Pre-PO price control----Stated and Observed 
+## 4.7 Pre-PO price control----Stated and Observed
 
 Price checking does **not** only happen after the supplier sends a confirmation.
 
@@ -305,14 +269,15 @@ The operational buyer has stated that his normal purchasing authority applies up
 
 The following details are not yet mapped:
 
-- who provides the additional approval;
-- whether more than one approval level exists;
+- who provides the additional approval for each value range;
 - what information the approver reviews;
 - whether the approval is performed inside Exact or outside it;
 - what Exact status/timestamp records the approval;
 - how much additional elapsed and processing time the approval branch creates.
 
-Because those details are unknown, this branch is treated as a **control boundary with an unmapped approval path**, not as a fully described workflow.
+A current working understanding is that purchasing authority differs by role, with approximately **€10,000 for the operational buyer, €25,000 for the technical-buyer level and €100,000 for the purchasing manager level**. The exact approval mechanics still need validation.
+
+Because those mechanics are not fully known, this branch remains a **control boundary with a partly unmapped approval path**.
 
 ## 4.9 Fiatteren, Verrichten and Besteld----Observed and stated
 
@@ -321,8 +286,6 @@ The operational sequence is currently mapped as:
 `Prepare PO → relevant price check → authorization/approval if required → Fiatteren + Verrichten → PO generated and emailed to buyer → Send PO to supplier → Besteld → supplier confirmation → Bevestigd`
 
 `Fiatteren` and `Verrichten` are represented together in the process map because the current focus is on the buyer's operational flow rather than showing each Exact status as a separate node.
-
-The exact timing of the status transitions should still be validated against the official buyer instruction and with the operational buyer.
 
 The later statuses `Ontvangen`, `Gefactureerd`, and `Betaald` remain outside the detailed current-state scope for now.
 
@@ -359,7 +322,7 @@ For relevant lines he may:
 6. attach the confirmation;
 7. set the order to `Bevestigd`.
 
-A large supplier case on 19 August was roughly measured at approximately **30–40 minutes**, but this figure was not definitive since its really depend on the required amount and the complexity of the componnent.
+A large supplier case on 19 August was roughly measured at approximately **30–40 minutes**, but this figure was not definitive because the required time depends strongly on the number of lines and component complexity.
 
 ### Important distinction: two price controls
 
@@ -373,7 +336,7 @@ Purpose: prevent a potentially outdated stored price from being reused before su
 
 Purpose: verify what the supplier actually confirms and update relevant differences.
 
-## 4.12 Finance control and rework---- Single observation
+## 4.12 Finance control and rework----Single observation
 
 After `Bevestigd`, Finance performs a later check.
 
@@ -431,6 +394,8 @@ While processing orders, the buyer can receive:
 - project requests;
 - exceptions.
 
+It has also been observed that the buyer checks Outlook while waiting for Exact to generate/send a PO and that colleagues can approach the desk during purchasing work. These establish the presence and types of interruptions, but not yet their representative frequency or workload impact.
+
 Future timing should distinguish:
 
 ### Processing time
@@ -445,7 +410,14 @@ The early-morning observation suggests that quieter working periods may be valua
 
 ---
 
-# 7. Step register
+# 7. Step / task register
+
+For Week-1 consolidation, this register serves two functions:
+
+1. **Process step register:** it lists the activities in the order they occur in the current-state purchasing process.
+2. **Task Inventory v1:** the same rows are the current in-scope units of work that can later be measured for frequency, processing time, judgement requirement and improvement potential.
+
+A separate Task Inventory table would therefore largely duplicate this register. Cross-cutting interruptions and task switching remain in Section 6 because they affect many tasks rather than forming one sequential process step.
 
 `Type`
 
@@ -456,35 +428,39 @@ The early-morning observation suggests that quieter working periods may be valua
 
 `Basis`
 
-The distinction between formal Exact requirement and personal/company working practice is still provisional until the paper purchasing instruction is digitised and compared with the observed process.
+The distinction between formal Exact requirement and personal/company working practice is still provisional until formal purchasing documentation is identified and compared with the observed process.
 
-| # | Step | Actor | Type | Current evidence | Basis | Main unknown |
+`Current evidence`
+
+The evidence labels below follow Section 2. A timing from only one observed case is explicitly marked as a **Single observation** rather than treated as representative.
+
+| # | Step / task | Actor | Type | Current evidence | Basis | Main unknown |
 |---|---|---|---|---|---|---|
-| 1 | Receive/identify purchasing need through Route A/B | Requester / Buyer | C | Repeatedly observed/stated | — | Share by route |
-| 2 | Create purchasing entry / PO lines from external request | Buyer | A | ~5 min / 2 lines, one case | Practice? | Frequency |
-| 3 | Transfer information from screenshot/email | Buyer | A | Observed | Practice? | Frequency |
-| 4 | Validate supplied information | Buyer | B | Observed | Practice? | Frequency/error types |
-| 5 | Search historical POs to resolve suspicious data | Buyer | B | ~10–15 min, one case | Practice? | Frequency |
-| 6 | Assess stock/future demand/lead time/urgency | Buyer | B | Repeatedly observed | Practice/System | Inputs/data availability |
-| 7 | Decide order now vs hold | Buyer | B | Repeatedly observed | Practice | Decision logic |
-| 8 | Maximalisatie | Buyer | B | Observed | Practice | Frequency/value |
-| 9 | Review Exact Advies | Buyer | B | Observed | System + Practice | Calculation logic |
-| 10 | Toewijzen | Buyer | A+B | Part of 30–35 min case | Mandatory? | Failure frequency |
-| 11 | Pre-PO supplier price check | Buyer | V+A | Observed/stated for certain purchases | Practice? | Which categories/frequency |
-| 12 | Update pre-PO price deviations | Buyer | A | Observed | Practice? | Frequency/time |
-| 13 | Check whether order exceeds €10,000 buyer authorization limit | Buyer | C | Stated | Company control | Exact threshold handling / frequency |
-| 14 | Additional approval for order above €10,000 | Approver / Buyer | C | Stated requirement; path unmapped | Company control | Approver, workflow, timing, Exact status |
-| 15 | Fiatteren / Verrichten | Buyer / Exact | A | Confirmed actions | Mandatory? | Formal rules/status timing |
-| 16 | PO generated and emailed to buyer in Outlook | Exact / Outlook | A | Observed/stated | System | Timing/automation details |
-| 17 | Forward PO + standard supplier message | Buyer | A | Stated: every PO | Practice | Daily volume |
-| 18 | PO reaches Besteld / ordered stage | Buyer / Exact | A | Current process map | System | Exact status transition timing |
-| 19 | Supplier sends confirmation | Supplier | — | Observed/stated | External | — |
-| 20 | Compare confirmation with Exact/PO | Buyer | V+A | Repeatedly observed | Practice? | Time/frequency |
-| 21 | Correct confirmation deviations | Buyer | A | Observed | Practice? | Frequency |
-| 22 | Attach confirmation + Bevestigd | Buyer | A | Observed | Mandatory? | Formal rule |
-| 23 | Finance later control | Finance | C/V | Stated/observed workflow | Unknown | Frequency/issues |
-| 24 | Investigate Finance-returned case | Buyer | C+B | Stated | Practice | Frequency/time |
-| 25 | Handle unavailable component | Buyer | B+C | Observed | Practice | How unresolved need remains tracked |
+| 1 | Receive/identify purchasing need through Route A/B | Requester / Buyer | C | **Observed** | — | Frequency/share by route |
+| 2 | Create purchasing entry / PO lines from external request | Buyer | A | **Observed; timing = Single observation** (~5 min / 2 lines) | Practice? | Frequency |
+| 3 | Transfer information from screenshot/email | Buyer | A | **Observed** | Practice? | Frequency |
+| 4 | Validate supplied information | Buyer | B | **Observed** | Practice? | Frequency/error types |
+| 5 | Search historical POs to resolve suspicious data | Buyer | B | **Observed; timing = Single observation** (~10–15 min) | Practice? | Frequency |
+| 6 | Assess stock/future demand/lead time/urgency | Buyer | B | **Observed** | Practice/System | Inputs/data availability + decision logic |
+| 7 | Decide order now vs hold | Buyer | B | **Observed** | Practice | Decision rules/cues |
+| 8 | Maximalisatie | Buyer | B | **Observed; timing = Single observation** (~4 min for one added item) | Practice | Frequency/value + decision rules |
+| 9 | Review Exact Advies | Buyer | B | **Observed** | System + Practice | Calculation logic + frequency |
+| 10 | Toewijzen | Buyer | A+B | **Observed; combined case timing = Single observation** (part of ~30–35 min case) | Mandatory? | Miss/failure frequency + formal rule |
+| 11 | Pre-PO supplier price check | Buyer | V+A | **Observed + Stated** | Practice? | Frequency + whether services are included |
+| 12 | Update pre-PO price deviations | Buyer | A | **Observed** | Practice? | Frequency/time |
+| 13 | Check whether order exceeds buyer authorization limit | Buyer | C | **Stated** | Company control | Exact handling/frequency |
+| 14 | Additional approval above buyer authorization limit | Approver / Buyer | C | **Stated; path partly unmapped** | Company control | Approval mechanics/recording/timing |
+| 15 | Fiatteren / Verrichten | Buyer / Exact | A | **Observed + Stated** | Mandatory? | Formal procedural basis |
+| 16 | PO generated and emailed to buyer in Outlook | Exact / Outlook | A | **Observed + Stated** | System | Timing/automation details |
+| 17 | Forward PO + standard supplier message | Buyer | A | **Observed + Stated** | Practice | Daily volume / total workload |
+| 18 | PO reaches Besteld / ordered stage | Buyer / Exact | A | **Observed + Stated** | System | — |
+| 19 | Supplier sends confirmation | Supplier | — | **Observed** | External | — |
+| 20 | Compare confirmation with Exact/PO | Buyer | V+A | **Observed** | Practice? | Representative time/frequency |
+| 21 | Correct confirmation deviations | Buyer | A | **Observed** | Practice? | Frequency |
+| 22 | Attach confirmation + Bevestigd | Buyer | A | **Observed** | Mandatory? | Formal rule |
+| 23 | Finance later control | Finance | C/V | **Single observation + Stated** | Unknown | Frequency/detection method/issues |
+| 24 | Investigate Finance-returned case | Buyer | C+B | **Single observation + Stated** | Practice | Frequency/time/root cause |
+| 25 | Handle unavailable component | Buyer | B+C | **Single observation** | Practice | How unresolved need remains tracked |
 
 ---
 
@@ -513,9 +489,11 @@ Examples:
 - linking demand to projects/production;
 - avoiding reappearing demand.
 
-**Current status:** Promising — one substantial 30–35 minute case observed; frequency and failure rate unknown.
+Current understanding suggests that `toewijzen` itself is mainly an assignment/control step rather than a decision with many valid alternatives: the purchased quantity is linked to the underlying project/production demand, and failure to assign it can leave the demand unresolved. The remaining question is therefore less about decision freedom and more about frequency, usability and failure risk.
 
-Potential intervention form: information visualization, rule/system support, matching/allocation assistance.
+**Current status:** Relevant system/process-support candidate — one substantial combined 30–35 minute case observed; frequency and Exact `Advies` logic remain unknown.
+
+Potential intervention form: information visualization, rule/system support, matching/allocation assistance, missed-assignment control.
 
 ## C. Purchase-price control
 
@@ -574,11 +552,11 @@ Potential intervention form: better issue classification, structured hand-off, a
 
 ## G. Supplier selection
 
-The project proposal considers supplier/quotation selection as a possible decision case.
+The original project proposal considers supplier/quotation selection as a possible decision case.
 
-**Current status:** Not yet observed during Week 1.
+According to the operational buyer, genuine supplier selection is generally **outside his operational decision**: the supplier is typically predetermined or selected elsewhere in the organization (Finance was mentioned as one route).
 
-Before retaining this as a central BEP decision case, determine how frequently genuine supplier choice actually occurs.
+**Current status:** Weak as an Arnold-focused primary case. Formal ownership of supplier selection can be clarified later if needed, but this no longer needs to remain an active Week-1 case-selection question for Arnold's workload.
 
 ---
 
@@ -587,47 +565,56 @@ Before retaining this as a central BEP decision case, determine how frequently g
 | Candidate | Evidence today | Main uncertainty | Current status |
 |---|---|---|---|
 | Order timing & consolidation | Repeatedly observed | Exact data + decision rules | **Promising** |
-| Advies / toewijzen | One substantial case | Frequency + Exact logic | **Promising** |
+| Advies / toewijzen | One substantial combined case | Frequency + Exact Advies logic | **System/process-support candidate** |
 | Price control | Manual work clearly observed | Frequency + timed baseline | **Promising** |
 | Request validation | Observed | Frequency/business impact | **Needs more evidence** |
 | PO communication | Repeated | Total daily time | **Easy automation candidate** |
-| Finance rework | Stated/observed | Frequency/root cause | **Needs measurement** |
-| Supplier selection | Not observed | Whether decision occurs often | **Not yet supported** |
+| Finance rework | Single observation/stated | Frequency/root cause | **Needs measurement** |
+| Supplier selection | Stated as generally outside Arnold's decision | Formal organizational ownership only if needed | **Weak Arnold-focused case** |
 
 **No final ranking should be made from Week-1 evidence alone.**
 
 ---
 
-# 10. Measurement plan
+# 10. Measurement status
 
-| # | Question | Method | Source |
+The measurement section is split between **questions already answered sufficiently for the current stage** and the **active measurement plan**. Answered questions should not remain in the active list merely because they originally appeared in an earlier version of the plan.
+
+## 10.1 Resolved / established findings
+
+| Finding previously treated as an open question | Current answer | Evidence status | Remaining caveat |
 |---|---|---|---|
-| Q1 | What determines Exact `Advies`? | Ask buyer + verify in Exact/IT documentation | Buyer / IT / Exact |
-| Q2 | How often is purchasing advice used? | Tally for several working days | Observation |
-| Q3 | How often is `toewijzen` difficult or missed? | Ask + inspect relevant demand cases | Buyer / Exact |
-| Q4 | What happens after an unavailable line is removed? | Trace one real case end-to-end | Buyer / Exact |
-| Q5 | What share of requests originates outside Exact? | 5-day tally + Exact history if available | Observation / Exact |
-| Q6 | How often is incoming information incomplete/wrong? | Tick sheet for several days | Observation |
-| Q7 | Which information fields are commonly incorrect? | Categorise observed cases | Observation |
-| Q8 | How often does Finance return cases? | Data/history if possible + collect examples | Finance / Exact |
-| Q9 | What causes Finance-returned cases? | Categorise real examples | Finance / Buyer |
-| Q10 | How many POs are processed per day? | Exact history | Exact |
-| Q11 | How many lines per PO? | Exact history | Exact |
-| Q12 | How long does post-confirmation price checking take? | Time 3–5 confirmations of different complexity | Observation |
-| Q13 | Which purchases require proactive pre-PO price checking? | Ask + tally cases | Buyer |
-| Q14 | How often does Exact price differ from current supplier price? | Record pre-PO checks | Observation |
-| Q15 | How long does proactive website price checking take? | Time several different order sizes | Observation |
-| Q16 | Is current supplier price available through any structured source/API? | Ask IT/supplier/system investigation | IT |
-| Q17 | Which Exact fields contain stock, safety stock, usage, open PO and expected receipt information? | Inspect + ask IT | Exact / IT |
-| Q18 | Does Exact already project future stock? | Inspect + ask | Exact / IT |
-| Q19 | How often is genuine supplier selection performed? | Ask + inspect historical cases | Buyer / Exact |
-| Q20 | How frequently is the buyer interrupted? | 2 × 2-hour tally, morning vs later day | Observation |
-| Q21 | What types of interruptions occur? | Categorise interruption tally | Observation |
-| Q22 | What differs between VRD and project/production purchasing? | Compare real cases | Buyer / Exact |
-| Q23 | Who owns stages after `Bevestigd`? | Ask | Buyer / Finance |
-| Q24 | Which steps are mandatory Exact/company procedure vs personal practice? | Digitise paper instruction and compare | Instruction document |
-| Q25 | When exactly does Exact set/display `Besteld` relative to Fiatteren, Verrichten and sending the PO? | Validate with buyer + official instruction / Exact | Buyer / Exact |
-| Q26 | For orders above €10,000, who approves, where is approval recorded, and how does the order return to the normal flow? | Ask buyer/manager + trace one case + verify in Exact | Buyer / Approver / Exact |
+| Does Arnold regularly choose the supplier? | Generally **no**. Supplier selection is usually predetermined or handled elsewhere in the organization; Finance was mentioned as one route. | **Stated** | Formal ownership can be clarified later if relevant. |
+| What is the basic role of `toewijzen`? | Link/assign purchased quantity to underlying project/production demand. If not assigned, the underlying demand may remain unresolved and can reappear. | **Observed / current process understanding** | Frequency of missed/difficult assignments remains open. |
+| What is the conceptual difference between VRD and project/production purchasing? | VRD is general stock that may later be used by projects/production; project/production purchasing is intended for a specific underlying requirement. | **Stated** | Detailed Exact allocation behaviour can be refined later. |
+| Which types of interruptions occur? | Outlook/email checking while waiting for Exact, colleagues approaching the desk, supplier/project/payment-related messages and other ad-hoc requests have been observed. | **Observed** | Representative frequency and time impact remain open. |
+| Which purchases have been identified for pre-PO price checking? | One-off items and special components have been identified. | **Observed + Stated** | Whether services are included remains unclear. |
+| Is there an authorization hierarchy? | Current working understanding: operational buyer ~€10k, technical-buyer level ~€25k, purchasing manager ~€100k. | **Stated / working understanding** | Exact approval mechanics and recording remain open. |
+| Where is `Besteld` placed in the current working process map? | The current map deliberately keeps `Besteld` after the PO is sent/ordered. `Verricht` generating the PO/email is treated as reliable for the current map. | **Current validated working model** | Reopen only if direct company evidence contradicts the current mapping. |
+
+## 10.2 Active measurement plan — open questions only
+
+| # | Open question | Method | Source |
+|---|---|---|---|
+| M1 | Which task categories consume the most **total workload** over a normal week? | Structured task/time tally; combine frequency × processing time | Observation / Exact where available |
+| M2 | How frequently do the main task categories occur? | Several-day tally + system history where available | Observation / Exact |
+| M3 | What determines Exact `Advies`, and how often is it used? | Test account + ask buyer/IT + Exact documentation if available | Buyer / IT / Exact |
+| M4 | How often is `toewijzen` difficult, missed or associated with unresolved/reappearing demand? | Ask + tally/inspect real cases | Buyer / Exact |
+| M5 | What happens to an unavailable requirement after the PO line is removed? | Trace one real case end-to-end | Buyer / Exact |
+| M6 | What share of requests originates outside Exact, and how often is incoming information incomplete or wrong? | Several-day tally; categorize errors | Observation / Exact |
+| M7 | How often does Finance return cases, how does Finance detect the issue, and what are the main root causes? | Talk to Finance + categorize real examples/history | Finance / Buyer / Exact |
+| M8 | How many POs and PO lines are processed in a normal day/week? | Exact history | Exact |
+| M9 | What is the representative processing time for pre-PO and post-confirmation price checking as a function of line count/complexity? | Time several cases of different sizes | Observation |
+| M10 | How often does the stored Exact price actually differ from the current supplier price? | Record deviations during pre-PO checks | Observation / Exact |
+| M11 | Is current supplier price available through a structured source/API, and which Exact/Orbis purchasing fields can be retrieved reliably? | Ask IT + inspect/test available interfaces | IT / Exact / Orbis |
+| M12 | Does Exact/Orbis expose the planning inputs required for buy/hold/maximalisatie: stock, safety stock, future demand, open POs, expected receipts and lead time? | Inspect + ask IT | Exact / IT / Orbis |
+| M13 | What are Arnold's actual decision rules/cues for **order now vs hold/maximalisatie**, including information not represented in Exact? | CTA-informed questioning + scenario survey | Arnold |
+| M14 | Do Johan and Dennis make sufficiently comparable buy/hold decisions to Arnold, and what explains agreement/disagreement? | Independent scenario survey followed by debrief | Arnold / Johan / Dennis |
+| M15 | How frequent are interruptions and how much processing/elapsed time do they add? | Timed observation blocks | Observation |
+| M16 | Which steps are formal company procedure versus individual working practice, and is there additional purchasing-process documentation beyond the Exact instruction? | Ask Johan + compare available documents with observed workflow | Johan / company documentation |
+| M17 | Who owns the later stages after `Bevestigd`? | Ask/trace process | Buyer / Finance |
+| M18 | For purchases above a person's authorization limit, how is approval requested, performed and recorded in Exact, and what delay does it introduce? | Ask relevant roles + trace a real case | Buyer / Johan / Dennis / Exact |
+| M19 | Are services included in the proactive pre-PO price-check rule, or does that rule apply only to certain material/component categories? | Ask + observe examples | Buyer |
 
 ---
 
@@ -670,16 +657,15 @@ Ask:
 - Which steps only happen sometimes?
 - Which decisions are represented incorrectly?
 - Which steps are company rules versus your own working method?
-- At what point should `Besteld` appear in the actual process?
-- What exactly happens when an order exceeds the €10,000 buyer authorization limit?
+- What exactly happens when an order exceeds the buyer's authorization limit?
 
 Corrections should be recorded as research evidence.
 
 ## Step 2 — Document comparison
 
-Digitise the paper purchasing instruction.
+Identify whether formal purchasing-process documentation exists beyond the Exact work instruction.
 
-For every workflow step classify:
+For every workflow step, where documentation exists, classify:
 
 **Mandatory** / **Observed practice** / **Different from documented procedure** / **Not mentioned**
 
@@ -702,23 +688,24 @@ Possible useful fields include:
 - expected delivery;
 - purchase price;
 - project/production allocation;
-- approval/status information for orders above the buyer authorization limit.
+- approval/status information.
 
 ## Step 4 — Quantify the largest candidate workloads
 
-Prioritise timing:
+Prioritise measurement of:
 
 1. price checking;
-2. purchasing advice/toewijzen cases;
-3. external request/manual entry;
-4. interruptions;
-5. Finance rework.
+2. order timing/maximalisatie decision work;
+3. purchasing advice/toewijzen cases;
+4. external request/manual entry and validation;
+5. interruptions;
+6. Finance rework.
 
-The authorization branch should be traced when a real >€10,000 case occurs, but it does not need to become a primary workload candidate unless frequency or delay proves material.
+The authorization branch should be traced when a relevant case occurs, but it does not need to become a primary workload candidate unless frequency or delay proves material.
 
 ## Step 5 — Reassess candidates
 
-Only after the current process, frequencies and available data are clearer should the BEP use case be selected.
+Use the workload baseline, data feasibility and decision-logic evidence to prioritize the improvement portfolio and select one primary thesis case with the university supervisor.
 
 ---
 
@@ -730,15 +717,18 @@ Only after the current process, frequencies and available data are clearer shoul
 | Investigation of suspicious service/machine information | ~10–15 min | Observed | Single case |
 | Adding one item during maximalisatie | ~4 min | Observed | Single case |
 | Advies + maximalisatie + toewijzen case | ~30–35 min | Observed | Single case |
-| Large line-by-line price-control case | ~30–40 min | Student estimate | Needs formal timing |
+| Large line-by-line price-control case | ~30–40 min | Observed/roughly measured | Not representative; depends on line count/complexity |
 | Generated POs forwarded manually | Every PO according to buyer | Stated | Needs volume measurement |
 | Supplier-email automation was previously tried but had reliability problems | Yes | Stated | Historical description |
 | Exact Globe+ accessible through Orbis | Yes | Stated by IT | Read/write/data scope unknown |
 | Some Finance notes identify a problem without precise location | Yes | Stated | Frequency unknown |
-| Certain one-off/special purchases receive pre-PO price checking | Yes | Observed/stated | Categories need clarification |
-| Services included in the pre-PO price-check rule | Unclear | Unconfirmed | Do not use as rule |
-| Missed `toewijzen` can leave underlying demand open | Yes | Explained/observed workflow | Frequency unknown |
-| Orders above €10,000 require additional approval | Yes | Stated by operational buyer | Approval path/timing unmapped |
+| Certain one-off/special purchases receive pre-PO price checking | Yes | Observed/stated | Services/category boundary needs clarification |
+| Missed `toewijzen` can leave underlying demand open | Yes | Observed/current process understanding | Frequency unknown |
+| Operational buyer's supplier is usually predetermined/selected elsewhere | Yes | Stated | Weakens supplier-selection case for Arnold workload |
+| VRD stock is general and can later serve projects/production, whereas project/production purchasing is requirement-specific | Yes | Stated | Exact allocation details can be refined |
+| Orders above the operational buyer's €10,000 authority require further approval | Yes | Stated | Approval mechanics/timing partly unmapped |
+| Current working authority levels | ~€10k operational buyer; ~€25k technical-buyer level; ~€100k purchasing manager | Stated / working understanding | Validate formal authorization matrix if available |
+| Interruptions include Outlook/email and colleague walk-ups | Yes | Observed | Frequency/time impact unknown |
 
 ---
 
@@ -786,17 +776,19 @@ The order-now-versus-wait decision has been observed repeatedly and contains a c
 
 This makes it a promising decision-support candidate. However, its data availability and actual decision structure must still be validated before ranking it strongly.
 
-If this candidate is modeled quantitatively, the €10,000 buyer authorization boundary may need to be represented as a hard control constraint or scenario condition rather than ignored.
+If this candidate is modeled quantitatively, authorization boundaries may need to be represented as hard control constraints or scenario conditions rather than ignored.
 
-## 14.4 Advies/toewijzen deserves separate attention
+## 14.4 Advies and toewijzen should be separated conceptually
 
-The 30–35 minute observed case and the potential duplicate-demand consequence show that this workflow can be important.
+`Advies` may contain information/decision-support logic that is not yet understood and therefore remains an active investigation question.
 
-Whether it should become a major BEP problem depends on how often it occurs, how often mistakes occur, how much of the relationship Exact already exposes, and whether the difficulty is mainly system usability, process design or decision-making.
+`Toewijzen`, by contrast, currently appears primarily to be an assignment/control action linking purchased quantity to the underlying demand. Its importance may therefore come from usability, missed assignments and duplicate-demand risk rather than from optimization decision freedom.
 
-## 14.5 Supplier selection remains open
+## 14.5 Supplier selection is weakened as an Arnold-focused case
 
-Supplier/quotation selection has not yet been observed during Week 1. Its actual frequency should be established before deciding whether it should remain a central BEP decision case.
+According to the operational buyer, supplier selection is generally predetermined or handled elsewhere rather than being a recurring decision he personally makes.
+
+This materially weakens supplier/quotation selection as the default primary case for an Arnold-workload project, even though formal supplier-selection ownership can still be clarified later if needed.
 
 ---
 
@@ -804,18 +796,16 @@ Supplier/quotation selection has not yet been observed during Week 1. Its actual
 
 In order:
 
-1. **Validate the workflow with the operational buyer.**
-2. **Correct this process model based on his feedback.**
-3. **Digitise the paper purchasing instruction.**
-4. **Compare documented process vs observed process.**
-5. **Start a structured task/time tally.**
-6. **Measure pre-PO and post-PO price checking separately.**
-7. **Determine how often Advies/toewijzen occurs.**
-8. **Ask how often genuine supplier selection occurs.**
-9. **Ask IT what purchasing data Exact/Orbis can expose.**
-10. **Validate exactly where `Besteld` sits relative to Fiatteren, Verrichten and supplier sending.**
-11. **Map the >€10,000 additional-approval path: approver, system steps, timing and evidence in Exact.**
-12. **Only then begin ranking the candidate BEP use cases more strongly.**
+1. **Complete Week-1 consolidation using the Step / Task Register as Task Inventory v1.**
+2. **Start structured task/time measurement to establish frequency × time workload baselines.**
+3. **Finalize/send the independent buy-vs-hold scenario survey to Arnold, Johan and Dennis and later compare their reasoning.**
+4. **Ask IT what purchasing/planning data Exact/Orbis can expose.**
+5. **Determine Exact `Advies` logic using the test account plus buyer/IT input.**
+6. **Ask Johan whether formal purchasing-process documentation or an authorization matrix exists beyond the Exact work instruction.**
+7. **Clarify the Finance detection/return process and collect examples.**
+8. **Measure pre-PO and post-confirmation price checking separately across several cases.**
+9. **Continue measuring Advies/toewijzen frequency, request-validation workload and interruptions.**
+10. **Use the resulting evidence with the university supervisor to select the primary thesis case; do not treat the other opportunities as out of scope for the company improvement portfolio.**
 
 ---
 
