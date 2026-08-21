@@ -8,7 +8,8 @@ The main activities were:
 
 - organizing the current-state process and workload evidence;
 - validating the process map with the operational buyer;
-- asking Johan for the official SOP / formal purchasing procedure so documented procedure can later be compared with observed practice;
+- asking Johan for the official SOP / formal purchasing procedure so documented procedure can be compared with observed practice;
+- receiving the official purchasing/supplier-control documentation package from Johan;
 - clarifying the practical approval route for orders above the operational buyer's authorization limit;
 - discussing whether Johan's purchasing decisions are comparable with Arnold's for scenario-based decision elicitation.
 
@@ -32,17 +33,45 @@ The exact calculation logic behind `Advies` remains open.
 
 ---
 
-## 2. Official SOP requested from Johan
+## 2. Official purchasing documentation received from Johan
 
-Johan was asked whether an official SOP / purchasing procedure exists for this process.
+Johan was asked whether an official SOP / purchasing procedure exists for this process and supplied the following documentation package on 21 August 2026:
+
+- `SOP740-01 Rev.A Purchasing and verification of purchased product.pdf`;
+- `SOP741-01 Rev. B  Supplier control.pdf`;
+- `FRM741-01-001 Rev. B Selection and approval supplier.dotx`;
+- `FRM741-01-002 Rev.A Supplier (re)evaluation.docx`;
+- `FRM741-01-003 Rev.A Suppliers List.xltx`;
+- `WI741-01-001 Rev.- Artikelbeheer.pdf`;
+- `FRM740-01-002 Rev.- Incoming inspection - check MDR device.docx`;
+- `FRM740-01-001 Rev.A Inkoopvoorwaarden_Terms and conditions Hytech-Pommec B.V..pdf`.
 
 The purpose is to compare:
 
 - documented/formal process requirements;
 - observed actual working practice;
-- possible workarounds or locally developed routines.
+- operational detail not described in the high-level SOP;
+- genuine divergences only where direct contradictory evidence exists.
 
-**Current status:** SOP/documentation requested; comparison still pending.
+### Initial documentary findings
+
+`SOP740-01` is the main formal purchasing SOP for the current project. It identifies e-mail/request information, ERP stock, customer orders and forecasts as inputs used to decide whether products need to be purchased, requires a PO to be produced in the ERP, and states that the PO is placed with the supplier after completion and authorization.
+
+The SOP is higher-level than the observed Arnold workflow and does not explicitly operationalize several detailed activities observed during Week 1, including `Advies`, `Toewijzen`, maximalisatie, the detailed buy-now-versus-wait trade-off, proactive pre-PO price checking, the practical >€10,000 approval route, manual PO forwarding, detailed confirmation-price comparison and the Finance-return loop.
+
+This absence should **not** be treated as non-compliance by itself. The current interpretation is that the SOP states formal requirements at a higher level while the observed process captures the detailed work needed to execute those requirements.
+
+`SOP741-01` assigns formal supplier control to Manager Procurement, with Manager Procurement and QA involved in supplier classification/approval/monitoring. This provides formal documentary support for the Week-1 finding that supplier selection is not normally an Arnold-level recurring operational decision.
+
+### Confidentiality handling
+
+The supplied company documents state that they are proprietary and may not be forwarded, published or copied without prior written explicit consent. Therefore the original company binary documents have **not** been copied into the GitHub repository. Instead, an internal evidence register containing filenames, hashes, document roles and analytical findings is stored at:
+
+`docs/company-documentation/Official_Document_Register_2026-08-21.md`
+
+This keeps the project traceable while avoiding unnecessary reproduction of proprietary source documents in a third-party repository.
+
+**Current status:** Documentation received; initial review completed; row-by-row SOP-versus-observed-process comparison remains a next analysis step.
 
 ---
 
@@ -95,14 +124,15 @@ The survey instructions should also ask each participant to assess the scenario 
 
 ## 5. Day-4 interpretation
 
-The most important Day-4 contribution was **validation rather than new process discovery**.
+The most important Day-4 contribution was **validation and documentary grounding rather than new process discovery**.
 
 The current-state model is stronger because:
 
 - Arnold has now reviewed the workflow sequence directly;
 - the `Advies → Toewijzen → pre-PO price check → PO preparation/consolidation` sequence has been corrected;
 - the practical >€10,000 `Fiatteren` route has been partially mapped;
-- formal SOP evidence has been requested;
+- formal purchasing and supplier-control documentation has now been received;
+- supplier-selection ownership has formal documentary support;
 - a role/context difference relevant to the planned buyer scenario study has been identified.
 
 No final thesis case is selected from these findings alone.
