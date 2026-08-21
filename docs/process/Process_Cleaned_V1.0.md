@@ -190,9 +190,7 @@ The buyer has stated that orders above **€10,000** require additional approval
 
 # 4. Detailed workflow stages
 
-## 4.1 Purchasing need enters the process
-
-Two main routes have been observed.
+## 4.1 Purchasing need enters the process-----Two main routes have been observed
 
 ### Route A — open purchasing requirement/demand already exists in Exact
 
@@ -206,7 +204,7 @@ Requests can arrive through email, direct colleague requests, screenshots, or ot
 
 One observed service-order case involving two lines took approximately **5 minutes** to enter. This is a single observation, not an average.
 
-## 4.2 Validate the supplied information
+## 4.2 Validate the supplied information----Observed
 
 The buyer does not necessarily accept the incoming information without checking it.
 
@@ -227,11 +225,11 @@ In one observed service case:
 - manual data entry took about **5 minutes**;
 - investigating suspicious machine/serial information took approximately **10–15 minutes**.
 
-This suggests that workload can come less from entering information and more from verifying whether the incoming information is reliable.
+This suggests that workload can come less from entering information.
 
 **Work type:** judgement + investigation.
 
-## 4.3 Decide whether to purchase now
+## 4.3 Decide whether to purchase now----Observed
 
 The buyer does not automatically purchase every requirement immediately.
 
@@ -250,7 +248,7 @@ Observed considerations include:
 
 This appears to contain substantial experience-based judgement.
 
-## 4.4 Maximalisatie — combine supplier demand
+## 4.4 Maximalisatie — combine supplier demand-----Observed
 
 For a small non-urgent request, the buyer may deliberately leave the requirement open. He can wait until more demand exists for the same supplier and then combine the items into a larger supplier order.
 
@@ -260,7 +258,7 @@ During one observation, adding another item as part of this activity took approx
 
 **Work type:** purchasing judgement + administration.
 
-## 4.5 Review Exact Advies
+## 4.5 Review Exact Advies----Observed
 
 Exact contains a purchasing-advice function showing an `Advies` quantity.
 
@@ -274,7 +272,7 @@ The buyer still needs to understand:
 
 Exactly how Exact calculates `Advies` remains to be verified.
 
-## 4.6 Toewijzen
+## 4.6 Toewijzen----Observed
 
 After adding demand to a supplier PO, the purchased quantity may need to be **toegewezen** to the underlying project or production demand.
 
@@ -284,7 +282,7 @@ One observed case involving purchasing advice, maximalisatie, understanding the 
 
 **Work type:** system administration + purchasing interpretation.
 
-## 4.7 Pre-PO price control
+## 4.7 Pre-PO price control----Stated and Observed 
 
 Price checking does **not** only happen after the supplier sends a confirmation.
 
@@ -301,7 +299,7 @@ The buyer explained that if the Exact price is outdated and is only corrected af
 
 The pre-PO check therefore serves a different purpose from the confirmation check later in the process.
 
-## 4.8 Buyer authorization and additional approval
+## 4.8 Buyer authorization and additional approval----Stated
 
 The operational buyer has stated that his normal purchasing authority applies up to the internal **€10,000** limit. Orders above **€10,000** require an additional approval step before the order can continue through the normal release process.
 
@@ -316,7 +314,7 @@ The following details are not yet mapped:
 
 Because those details are unknown, this branch is treated as a **control boundary with an unmapped approval path**, not as a fully described workflow.
 
-## 4.9 Fiatteren, Verrichten and Besteld
+## 4.9 Fiatteren, Verrichten and Besteld----Observed and stated
 
 The operational sequence is currently mapped as:
 
@@ -328,7 +326,7 @@ The exact timing of the status transitions should still be validated against the
 
 The later statuses `Ontvangen`, `Gefactureerd`, and `Betaald` remain outside the detailed current-state scope for now.
 
-## 4.10 PO generation and supplier email
+## 4.10 PO generation and supplier email----Observed
 
 After `Verricht`, Exact generates the PO document and emails it to the buyer in Outlook.
 
@@ -345,7 +343,7 @@ A more automated supplier-email approach existed in the past but was not conside
 
 **Work type:** repetitive administration.
 
-## 4.11 Supplier confirmation and post-PO price control
+## 4.11 Supplier confirmation and post-PO price control----Observed
 
 The supplier normally sends an order confirmation.
 
@@ -375,7 +373,7 @@ Purpose: prevent a potentially outdated stored price from being reused before su
 
 Purpose: verify what the supplier actually confirms and update relevant differences.
 
-## 4.12 Finance control and rework
+## 4.12 Finance control and rework---- Single observation
 
 After `Bevestigd`, Finance performs a later check.
 
@@ -391,7 +389,7 @@ However, it should **not** currently be assumed that every returned Finance case
 
 ---
 
-# 5. Exception flow — unavailable component
+# 5. Exception flow — unavailable component----Single observation
 
 A supplier can report that a required component is unavailable.
 
@@ -420,7 +418,7 @@ What keeps the unresolved need visible afterwards is still an important unanswer
 
 ---
 
-# 6. Cross-cutting workload — interruptions and task switching
+# 6. Cross-cutting workload — interruptions and task switching----Observation
 
 The process above should not be interpreted as an uninterrupted sequence.
 
