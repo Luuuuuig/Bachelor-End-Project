@@ -361,7 +361,7 @@ For relevant lines he may:
 6. attach the confirmation;
 7. set the order to `Bevestigd`.
 
-A large supplier case on 19 August was estimated at approximately **30–40 minutes**, but this figure was not formally timed and should therefore remain an estimate until additional cases are measured.
+A large supplier case on 19 August was roughly measured at approximately **30–40 minutes**, but this figure was not definitive since its really depend on the required amount and the complexity of the componnent.
 
 ### Important distinction: two price controls
 
