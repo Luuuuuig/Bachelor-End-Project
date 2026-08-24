@@ -6,7 +6,7 @@
 
 Related sources:
 
-- AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.0.md`
+- AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.5.md`
 - Canonical workload definition: `docs/methodology/Workload_Definition.md`
 - Formal company evidence: `docs/company-documentation/Official_Document_Register_2026-08-21.md`
 - Working TO-BE hypothesis: `docs/process/TO_BE_Working_Hypothesis_v0.1.md`
@@ -63,7 +63,7 @@ flowchart LR
 
 Within this structure:
 
-- `Process_Cleaned_V1.0.md` mainly supports **Define** and the transition into Measure;
+- `Process_Cleaned_V1.5.md` mainly supports **Define** and the transition into Measure;
 - Section 7 provides the opportunity portfolio to be tested in **Measure/Analyze**;
 - `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
 - the final digital/AI artifact should be selected after the evidence supports a specific TO-BE intervention.
@@ -151,7 +151,7 @@ It remains background procurement context, not a default operational-buyer workl
 11. **Evaluation feasibility:** sufficient repeated cases, defensible reference/ground truth and participant access.
 12. **University-supervisor alignment:** confirm the final case and evaluation design before freezing artifact scope.
 
-Unresolved facts about the **current process itself** are maintained in Section 5 of `Process_Cleaned_V1.0.md`, not duplicated here.
+Unresolved facts about the **current process itself** are maintained in Section 5 of `Process_Cleaned_V1.5.md`, not duplicated here.
 
 ---
 
