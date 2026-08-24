@@ -256,32 +256,88 @@ Observed interruptions include email/Outlook, colleague walk-ups, supplier messa
 
 ---
 
-# 6. Current candidate portfolio
+# 6. Step / task register
 
-This section contains only candidates that are still relevant to the present research conversation.
+This register is retained as the structured **Task Inventory** for DMAIC Measure and later case prioritization. It records the actual operational units of work separately from the improvement-candidate portfolio.
 
-## 6.1 Active primary-case candidates
+`Type`
+
+- **A:** administrative/repetitive
+- **B:** judgement/investigation
+- **C:** process/information/control issue
+- **V:** verification/comparison
+
+`Basis`
+
+- **Formal:** explicitly supported at the relevant level by the received SOP/work instruction.
+- **System:** inherent to the current Exact/Outlook workflow or status logic observed in use.
+- **Observed practice:** operational activity observed or buyer-validated but not explicitly detailed in the high-level SOP.
+- **Company control:** authorization/control practice stated by employees and partly supported by SOP740's requirement for authorization before placing a PO; detailed thresholds/routing are not yet supported by a formal authorization matrix.
+
+The SOP has already been received. Therefore this register no longer uses `SOP pending` or `Practice?` placeholders simply because documentary evidence was unavailable.
+
+| # | Step / task | Actor | Type | Current evidence | Basis | Main unknown / measurement need |
+|---|---|---|---|---|---|---|
+| 1 | Receive / identify purchasing need through Exact or external request | Requester / Buyer | C | **Observed + Formal high-level** | Formal + observed practice | Frequency/share by route |
+| 2 | Create purchasing entry / PO lines from external request | Buyer | A | **Observed; single case ~5 min elapsed for 2 service lines** | Formal ERP PO requirement + observed practice | Frequency + representative active time |
+| 3 | Transfer information from screenshot / email into Exact | Buyer | A | **Observed** | Observed practice; article-management responsibility formally supported | Frequency + fields commonly transferred |
+| 4 | Validate supplied article / machine / service information | Buyer | B | **Observed** | Observed practice + WI article-management context | Frequency + error/incompleteness categories |
+| 5 | Search historical POs to resolve suspicious information | Buyer | B | **Observed; single case ~10–15 min elapsed** | Observed practice | Frequency + representative active time |
+| 6 | Assess stock, demand, open POs, receipts, lead time and urgency | Buyer | B | **Observed + Formal high-level inputs** | Formal + observed practice | Data availability + relative importance of inputs |
+| 7 | Decide order now versus hold | Buyer | B | **Observed** | Observed practice | Decision rules/cues + frequency |
+| 8 | Hold / maximalisatie and combine later same-supplier demand | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency + value + decision rules |
+| 9 | Review Exact `Advies` and underlying demand | Buyer | B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Calculation logic + frequency + override behaviour |
+| 10 | `Toewijzen` purchased quantity to underlying project/production demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Miss/failure frequency + active-time split |
+| 11 | Determine whether proactive pre-PO price check is required | Buyer | V+B | **Observed + Stated** | Observed practice | Frequency + whether services are included |
+| 12 | Search current supplier price and compare with stored Exact price | Buyer | V+A | **Observed** | Observed practice | Active time by line count + data/API feasibility |
+| 13 | Update pre-PO price in Exact when outdated/deviating | Buyer | A | **Observed** | Observed practice | Deviation frequency + update time |
+| 14 | Prepare / complete supplier PO and consolidate relevant demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | Formal PO requirement + observed practice | Frequency + workload contribution |
+| 15 | Check whether order is within buyer authorization | Buyer | C | **Stated** | Company control + Formal authorization requirement | Frequency by value band; formal matrix if available |
+| 16 | Route above-limit order to higher-authority approver for `Fiatteren` | Buyer / Approver | C+A | **Stated by Johan, 21 Aug** | Company control | Routing trigger/rule + Exact/email recording + delay |
+| 17 | Continue Exact workflow after higher-authority `Fiatteren` | Buyer / Approver / Exact | A+C | **Partly mapped** | Company control + System | Exact actor/action after approval |
+| 18 | `Fiatteren` / `Verrichten` within buyer authority | Buyer / Exact | A | **Observed + Stated** | System + Formal authorization/release requirement | Representative time; exact formal status mapping if needed |
+| 19 | Exact generates PO document and emails buyer | Exact / Outlook | A | **Observed + Stated** | System; Formal PO creation supported | Timing + automation details |
+| 20 | Buyer forwards generated PO with standard supplier message | Buyer | A | **Observed + Stated** | Observed practice; placing PO with supplier is Formal | Daily volume + total workload |
+| 21 | PO reaches practical ordered / `Besteld` stage | Buyer / Exact | A | **Current buyer-validated working model** | System + observed practice | Exact technical trigger only if later evidence requires distinction |
+| 22 | Supplier sends order confirmation | Supplier | — | **Observed + Formal if confirmation received** | External + Formal archiving requirement | Confirmation receipt rate / format variability if relevant |
+| 23 | Compare supplier confirmation with PO / Exact | Buyer | V+A | **Observed; one large case ~30–40 min elapsed including task switching** | Observed practice | Active/elapsed time by line count + deviation rate |
+| 24 | Correct relevant confirmation deviations in Exact | Buyer | A | **Observed** | Observed practice | Frequency + correction time |
+| 25 | Attach/archive confirmation and set `Bevestigd` | Buyer | A | **Observed + Formal high-level confirmation archiving** | Formal + System + observed practice | Representative time / exact mailbox-system relationship if relevant |
+| 26 | Finance later control and buyer investigation of returned issue | Finance / Buyer | C+V+B | **Single observation + Stated** | Observed practice / downstream control | Return frequency + detection method + causes + rework time |
+| 27 | Handle unavailable component and preserve unresolved need | Buyer | B+C | **Single observation** | Observed practice | How unresolved need is tracked after removal |
+
+### Cross-cutting workload not represented as one sequential row
+
+Interruptions and task switching affect many rows rather than forming one process step. Measure them separately using interruption frequency and the gap between **active processing time** and **elapsed time**.
+
+---
+
+# 7. Current candidate portfolio
+
+This section contains only candidates that are still relevant to the present research conversation. The Step / Task Register above is broader because a process step can remain part of the AS-IS process even when it is not a viable thesis candidate.
+
+## 7.1 Active primary-case candidates
 
 | Candidate | Why still active | Main evidence needed |
 |---|---|---|
 | **Order timing & consolidation** | Repeated judgement-intensive work with clear operational relevance | workload frequency/time, Exact/Orbis data availability, CTA decision rules |
 | **Purchase-price control** | Repeated manual comparison with measurable verification output | frequency, line complexity, active time, deviation rate, data/API feasibility |
 
-## 6.2 Active but evidence-insufficient candidates
+## 7.2 Active but evidence-insufficient candidates
 
 | Candidate | Current position | Main evidence needed |
 |---|---|---|
 | **Request intake & validation** | Real tacit-knowledge/information-quality burden observed | frequency, investigation time, error types, business impact |
 | **Finance rework** | Potentially avoidable rework and poor hand-off | return frequency, causes, time, Finance detection method |
 
-## 6.3 Supporting improvement opportunities, not current primary thesis candidates
+## 7.3 Supporting improvement opportunities, not current primary thesis candidates
 
 | Topic | Current position |
 |---|---|
 | **Advies / Toewijzen** | Important system/process-support topic; `Toewijzen` itself is mainly an assignment/control step rather than an optimization decision |
 | **PO supplier communication** | Clear repetitive quick win / semi-automation opportunity; likely too narrow for the main thesis unless volume proves large |
 
-## 6.4 Ruled out / deprioritized from Arnold-focused primary case selection
+## 7.4 Ruled out / deprioritized from Arnold-focused primary case selection
 
 ### Supplier selection
 
@@ -291,9 +347,9 @@ Supplier selection can remain background organizational context, but it should *
 
 ---
 
-# 7. Resolved findings versus open questions
+# 8. Resolved findings versus open questions
 
-## 7.1 Resolved / established for the current stage
+## 8.1 Resolved / established for the current stage
 
 | Topic | Current answer |
 |---|---|
@@ -306,7 +362,7 @@ Supplier selection can remain background organizational context, but it should *
 | Above-limit Fiatteren route exists? | Yes; higher-authority approval route partly mapped |
 | Early timings estimates? | No, clock-measured elapsed-time observations |
 
-## 7.2 Active open questions only
+## 8.2 Active open questions only
 
 | ID | Open question | Method |
 |---|---|---|
@@ -333,7 +389,7 @@ Supplier selection can remain background organizational context, but it should *
 
 ---
 
-# 8. Measurement plan
+# 9. Measurement plan
 
 For each relevant observed case, capture where practical:
 
@@ -347,7 +403,7 @@ Avoid timing every click. The purpose is a representative baseline for candidate
 
 ---
 
-# 9. Current research interpretation
+# 10. Current research interpretation
 
 Operational purchasing is not one automation problem. Current workload consists of:
 
@@ -361,7 +417,7 @@ The next phase should measure the active candidate workloads and technical/data 
 
 ---
 
-# 10. Immediate next actions
+# 11. Immediate next actions
 
 1. Begin structured baseline measurement with active and elapsed time kept separate.
 2. Obtain normal PO/line volumes and relevant system history from Exact where possible.
