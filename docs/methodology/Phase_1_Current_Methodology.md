@@ -45,6 +45,31 @@ The selected AI/digital artifact will follow Design Science Research Methodology
 
 DSRM sits mainly inside DMAIC's Improve stage and provides the formal artifact-development/evaluation structure.
 
+## VISUALIZATIONS OF DMAIC&DSRM
+
+```mermaid
+flowchart LR
+    D["DEFINE\nAS-IS + scope + opportunities"]
+    M["MEASURE\nworkload + case mix + judgement"]
+    A["ANALYZE\nroot causes + standardizability"]
+    I["IMPROVE\nTO-BE design + artifact"]
+    C["CONTROL\nKPIs + exception controls"]
+
+    D --> M --> A --> I --> C
+
+    DSRM["DSRM\nDesign / develop / demonstrate / evaluate artifact"]
+    DSRM -. "mainly inside Improve" .-> I
+```
+
+Within this structure:
+
+- `Process_Cleaned_V1.0.md` mainly supports **Define** and the transition into Measure;
+- Section 7 provides the opportunity portfolio to be tested in **Measure/Analyze**;
+- `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
+- the final digital/AI artifact should be selected after the evidence supports a specific TO-BE intervention.
+
+---
+
 ## CTA-informed elicitation
 
 Cognitive Task Analysis-informed questioning is used where buyer expertise is tacit, especially for:
