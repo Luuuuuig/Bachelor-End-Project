@@ -72,7 +72,7 @@ Within this structure:
 
 ## CTA-informed elicitation
 
-Cognitive Task Analysis-informed questioning is used for tacit buyer expertise, especially buy-now/hold decisions, maximalisatie, suspicious-information recognition, exceptions and override reasoning.
+Cognitive Task Analysis-informed questioning is used for tacit buyer expertise, especially the small-order/maximalisatie/hold sequence, suspicious-information recognition, exceptions and override reasoning. For small/non-urgent requirements, elicitation should capture how the buyer searches for additional same-supplier demand, what makes consolidation useful enough to proceed, when a requirement is held, and what later causes it to be reconsidered.
 
 ## Human-AI reliance
 
@@ -106,7 +106,7 @@ This is the **only current candidate-status table**. The AS-IS process file reta
 
 | Candidate | Current reason | Main evidence gates | Possible artifact direction |
 |---|---|---|---|
-| **A. Order timing & supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie | workload contribution, frequency, Exact/Orbis data availability, CTA decision rules, defensible benchmark | decision / information / optimization support |
+| **A. Order timing & supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie. Small/non-urgent requirements can first trigger a search for additional same-supplier demand; holding is one possible outcome when useful consolidation is not currently available. | workload contribution, frequency, Exact/Orbis data availability, CTA decision rules, defensible benchmark | decision / information / optimization support |
 | **B. Purchase-price control** | Repeated manual verification with measurable discrepancy outcomes, both pre-PO and post-confirmation | frequency, line complexity, active time, deviation rate, attention demand, supplier/Exact data feasibility | automated retrieval/comparison, stale-price/deviation support |
 | **E. Standard/exception process redesign** | Promising process-level hypothesis if a meaningful share of cases is repeatable and safely classifiable | standard-case share, exception boundary, addressable workload, system/data feasibility, evaluation feasibility | exception-based workflow with rules/automation/AI where justified |
 
@@ -142,7 +142,7 @@ It remains background procurement context, not a default operational-buyer workl
 2. **Case-mix baseline:** what share of relevant cases is standard, reviewable or genuinely manual/exceptional?
 3. **Exact/Orbis data availability:** which fields and histories are reliably accessible?
 4. **Exact `Advies` logic:** what determines advised quantities and how operationally relevant is it?
-5. **Buy/hold/maximalisatie logic:** what rules, cues, trade-offs and tacit constraints does the buyer use?
+5. **Small-order/maximalisatie/hold logic:** what rules, cues and trade-offs determine whether additional same-supplier demand is searched, which demand is useful to consolidate, whether the resulting order proceeds, and when a held requirement is reconsidered?
 6. **Price-control baseline:** frequency, active time, line complexity, deviation rate and verification demand.
 7. **Finance rework:** frequency, root causes and investigation burden.
 8. **Technical feasibility:** usable supplier-price sources and Exact/Orbis interfaces.
@@ -203,7 +203,7 @@ The selected problem type determines the final evaluation design. Processing-tim
 1. Collect structured baseline observations without timing every click.
 2. Obtain normal PO/line volumes and relevant historical fields from Exact where possible.
 3. Clarify Exact/Orbis access and `Advies` logic with IT.
-4. Continue CTA-informed elicitation around real buy/hold/maximalisatie cases.
+4. Continue CTA-informed elicitation around real small-order/maximalisatie/hold cases, including how same-supplier demand is searched and what triggers later reconsideration of a held requirement.
 5. Measure pre-PO and post-confirmation price control separately.
 6. Collect and categorize Finance-returned cases.
 7. Explore Standard / Review / Manual case classification without treating it as proven automation feasibility.
