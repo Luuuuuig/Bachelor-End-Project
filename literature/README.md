@@ -16,32 +16,37 @@ This folder accompanies `Bachelor_End_Project_Research_Notes.docx` and tracks li
 
 **Why it is relevant:** DSRM structures the design, development, demonstration and evaluation of the eventual AI or automation artifact selected during the improvement project.
 
-### Workload definition and operationalization
-
-**Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
-
-**Role in this BEP:** This is the **primary operational-definition source for mental workload**. Longo et al. conceptualize mental workload as the degree to which a finite pool of limited cognitive resources is activated over time while a person processes a task, with workload affected by task demands, attention/effort, operator characteristics and situational/environmental factors.
-
-For this BEP, that definition means buyer workload must **not** be reduced to `frequency × processing time`. Time and frequency quantify operational exposure/effort, but cognitively demanding judgement, uncertainty, interruptions, rework and task complexity can create workload even when a task is short.
-
-The synchronized project-level definition is maintained in `docs/methodology/Workload_Definition.md`.
-
-### Supporting workload review
+### Workload definition — canonical project source
 
 **Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
 
-**Why it is relevant:** Provides a broad state-of-science review and supports the treatment of mental workload as a multidimensional construct whose relationship with performance cannot be represented by time alone. It is used as supporting conceptual literature rather than as a competing project definition.
+**Role in this BEP:** Young et al. (2015) is the **governing workload source for the project**. The paper treats mental workload as a multidimensional construct determined by characteristics of the task, the operator and the environmental context. It adopts a global framing in which mental workload reflects the attentional resources required to meet objective and subjective performance criteria, influenced by task demands, external support and past experience.
 
-### Project measurement implication
+For the BEP, all references to workload in the current methodology and process documentation should be interpreted through this Young et al. framework.
 
-The BEP therefore distinguishes:
+This means workload is **not equivalent to time spent**. A short purchasing decision can still create substantial mental workload if it requires high attention, judgement or experience, while a long repetitive task may consume considerable operational time with relatively low cognitive demand.
 
-1. **Operational workload / effort:** frequency, active processing time, elapsed time, manual actions, verification volume, rework and coordination burden.
-2. **Mental/cognitive workload:** cognitive resources required to meet task demands, including judgement, uncertainty, information processing, attention, interruptions and task complexity, interpreted in the context of buyer skill/experience.
+The synchronized project interpretation is maintained in `docs/methodology/Workload_Definition.md`.
 
-`Frequency × active processing time` may be used to estimate the **volume of addressable operational effort** for a task category, but it is **not the definition of total workload** and should not be reported as a complete workload score.
+### Measurement implication from Young et al.
+
+The BEP therefore considers workload through the interaction of:
+
+- **task characteristics:** task demand, complexity, information to process, concurrent tasks and required performance;
+- **operator characteristics:** skill, experience, attention and degree of automatic versus controlled processing;
+- **environment/context:** interruptions, external support, technological support and working conditions.
+
+Operational measures such as active processing time, elapsed time, frequency, number of lines, manual actions and rework remain useful **indicators of work exposure and process burden**, but they do not by themselves define mental workload.
+
+`Frequency × active processing time` may therefore be used to estimate **operational effort volume** for prioritization, but must not be reported as the project's complete workload definition or as a complete mental-workload score.
 
 ## High chance to use
+
+### Supporting workload operationalization and measurement
+
+**Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
+
+**Why it is relevant:** Useful as a later review of workload definitions and measurement approaches. It may support measurement choices, but it does **not replace the Young et al. (2015) definition used as the governing definition in this BEP**.
 
 ### Purchasing automation
 
@@ -73,7 +78,7 @@ The BEP therefore distinguishes:
 
 **Hart, S. G. (2006).** *NASA-Task Load Index (NASA-TLX); 20 years later*. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 50*(9), 904–908. https://doi.org/10.1177/154193120605000909
 
-**Why it may become relevant:** Useful if perceived mental workload is formally measured for selected purchasing tasks. Whether NASA-TLX is needed depends on the final measurement design; the workload definition itself does not require NASA-TLX.
+**Why it may become relevant:** Useful if perceived mental workload is formally measured for selected purchasing tasks. Whether NASA-TLX is needed depends on the final measurement design and is separate from the decision to use Young et al. as the workload definition.
 
 ### Supply monitoring and exception handling
 
@@ -121,7 +126,7 @@ The BEP therefore distinguishes:
 
 ## Current interpretation for the BEP
 
-The workload construct is now synchronized rather than provisional: **Longo et al. (2022) is the primary operational-definition source, with Young et al. (2015) as supporting state-of-science literature.** The project measures operational effort and cognitive demand as related but non-identical components. Literature linked to purchasing automation and human-AI interaction remains highly likely to be used, while more specialized literature remains conditional on the selected use case, available Exact/Orbis data and final evaluation design.
+The workload construct is synchronized around **Young et al. (2015)**. Task demands alone do not determine workload; operator skill/attention and environmental context also matter. Operational time/frequency measurements remain important for process analysis, while cognitive workload must be interpreted through attentional-resource demand and the conditions under which the buyer performs the task. Longo et al. (2022) is retained as supporting measurement literature only.
 
 ## Copyright and access note
 
