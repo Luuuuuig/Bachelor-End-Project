@@ -4,7 +4,7 @@
 
 **Source:** Documents supplied by the purchasing manager on 21 August 2026 after a request for formal purchasing/SOP documentation.
 
-**Ownership:** This file records what the received company documents formally support. Current operational practice belongs in `docs/process/Process_Cleaned_V1.0.md`; thesis-candidate implications belong in `docs/methodology/Phase_1_Current_Methodology.md`.
+**Ownership:** This file records what the received company documents formally support. Current operational practice belongs in `docs/process/Process_Cleaned_V1.5.md`; thesis-candidate implications belong in `docs/methodology/Phase_1_Current_Methodology.md`.
 
 ## Confidentiality handling
 
@@ -126,7 +126,7 @@ Use the following evidence distinction across the project:
 
 An operational activity being absent from a high-level SOP is **not** sufficient evidence of non-compliance.
 
-The actual observed activities and their evidence labels are maintained in `Process_Cleaned_V1.0.md` rather than repeated here.
+The actual observed activities and their evidence labels are maintained in `Process_Cleaned_V1.5.md` rather than repeated here.
 
 ---
 
