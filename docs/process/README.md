@@ -6,14 +6,14 @@ This folder separates the **current AS-IS process** from the **provisional TO-BE
 
 ## Files
 
-### `Process_Cleaned_V1.0.md`
+### `Process_Cleaned_V1.5.md`
 
 Authoritative AS-IS process file. It owns:
 
 - process scope;
 - current workflow;
 - evidence labels;
-- the 27-row Step / Task Register;
+- the 31-row Step / Task Register aligned with the AS-IS flow;
 - unresolved facts about how the current process operates.
 
 It does **not** own thesis-candidate prioritization, workload theory, research methodology or future-state design.
