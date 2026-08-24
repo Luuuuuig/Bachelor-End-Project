@@ -129,7 +129,7 @@ Possible technologies include supported Exact/Orbis interfaces, workflow automat
 
 This file does **not** replace the AS-IS process master and does not prove automation feasibility.
 
-- Current process truth: `Process_Cleaned_V1.0.md`
+- Current process truth: `Process_Cleaned_V1.5.md`
 - Validation gates, measurement and candidate status: `../methodology/Phase_1_Current_Methodology.md`
 - Workload interpretation: `../methodology/Workload_Definition.md`
 
