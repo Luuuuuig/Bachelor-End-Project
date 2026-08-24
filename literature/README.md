@@ -16,19 +16,32 @@ This folder accompanies `Bachelor_End_Project_Research_Notes.docx` and tracks li
 
 **Why it is relevant:** DSRM structures the design, development, demonstration and evaluation of the eventual AI or automation artifact selected during the improvement project.
 
-### Workload definition
-
-**Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
-
-**Why it is relevant:** Provides a broad review of mental workload and supports treating workload as multidimensional rather than defining it only as frequency × processing time.
-
-## High chance to use
-
-### Workload operationalization and measurement
+### Workload definition and operationalization
 
 **Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
 
-**Why it is relevant:** Reviews workload definitions and measurement approaches and is likely useful when constructing the project's workload-measurement framework.
+**Role in this BEP:** This is the **primary operational-definition source for mental workload**. Longo et al. conceptualize mental workload as the degree to which a finite pool of limited cognitive resources is activated over time while a person processes a task, with workload affected by task demands, attention/effort, operator characteristics and situational/environmental factors.
+
+For this BEP, that definition means buyer workload must **not** be reduced to `frequency × processing time`. Time and frequency quantify operational exposure/effort, but cognitively demanding judgement, uncertainty, interruptions, rework and task complexity can create workload even when a task is short.
+
+The synchronized project-level definition is maintained in `docs/methodology/Workload_Definition.md`.
+
+### Supporting workload review
+
+**Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
+
+**Why it is relevant:** Provides a broad state-of-science review and supports the treatment of mental workload as a multidimensional construct whose relationship with performance cannot be represented by time alone. It is used as supporting conceptual literature rather than as a competing project definition.
+
+### Project measurement implication
+
+The BEP therefore distinguishes:
+
+1. **Operational workload / effort:** frequency, active processing time, elapsed time, manual actions, verification volume, rework and coordination burden.
+2. **Mental/cognitive workload:** cognitive resources required to meet task demands, including judgement, uncertainty, information processing, attention, interruptions and task complexity, interpreted in the context of buyer skill/experience.
+
+`Frequency × active processing time` may be used to estimate the **volume of addressable operational effort** for a task category, but it is **not the definition of total workload** and should not be reported as a complete workload score.
+
+## High chance to use
 
 ### Purchasing automation
 
@@ -60,7 +73,7 @@ This folder accompanies `Bachelor_End_Project_Research_Notes.docx` and tracks li
 
 **Hart, S. G. (2006).** *NASA-Task Load Index (NASA-TLX); 20 years later*. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 50*(9), 904–908. https://doi.org/10.1177/154193120605000909
 
-**Why it may become relevant:** Useful if perceived mental workload is formally measured for selected purchasing tasks. Whether NASA-TLX is needed depends on the final measurement design.
+**Why it may become relevant:** Useful if perceived mental workload is formally measured for selected purchasing tasks. Whether NASA-TLX is needed depends on the final measurement design; the workload definition itself does not require NASA-TLX.
 
 ### Supply monitoring and exception handling
 
@@ -108,7 +121,7 @@ This folder accompanies `Bachelor_End_Project_Research_Notes.docx` and tracks li
 
 ## Current interpretation for the BEP
 
-At the current stage, the literature that directly supports the chosen research structure and the definition of the main outcome variable is treated as confirmed. Literature linked to purchasing automation and human-AI interaction has a high probability of use because these themes are central to the current project direction. More specialized literature remains conditional on the selected use case, the available Exact/Orbis data and whether the final evaluation includes subjective workload, process mining or a buyer decision experiment.
+The workload construct is now synchronized rather than provisional: **Longo et al. (2022) is the primary operational-definition source, with Young et al. (2015) as supporting state-of-science literature.** The project measures operational effort and cognitive demand as related but non-identical components. Literature linked to purchasing automation and human-AI interaction remains highly likely to be used, while more specialized literature remains conditional on the selected use case, available Exact/Orbis data and final evaluation design.
 
 ## Copyright and access note
 
