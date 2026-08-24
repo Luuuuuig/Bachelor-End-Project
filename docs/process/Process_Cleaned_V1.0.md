@@ -21,8 +21,9 @@ Operational purchasing from the appearance of a purchasing need through `Bevesti
 - requests arriving through email, screenshots or colleagues;
 - validation of incoming information;
 - stock/demand assessment;
-- buy-now versus hold decisions;
-- maximalisatie / consolidation of demand from the same supplier;
+- assessment of whether a requirement is ready to place or is a small/non-urgent candidate for maximalisatie;
+- maximalisatie / checking and consolidating demand from the same supplier;
+- holding/pausing a small requirement when useful consolidation is not currently possible;
 - Exact `Advies` and `Toewijzen`;
 - pre-PO and post-confirmation price checking;
 - authorization and `Fiatteren`;
@@ -74,8 +75,12 @@ flowchart LR
     create["Manually create purchasing entry / PO lines"]
     validate{"Information plausible / complete?"}
     investigate["Investigate historical POs / machine / serial / article information"]
-    orderQ{"Order now or hold?"}
-    hold["Hold for maximalisatie / later same-supplier demand"]
+    assess["Assess stock, future demand, open POs, receipts, lead time and urgency"]
+    smallQ{"Small / non-urgent requirement?"}
+    maxCheck["Check additional same-supplier demand for maximalisatie"]
+    maxQ{"Useful same-supplier demand available now?"}
+    combine["Combine relevant same-supplier demand"]
+    hold["Hold / pause requirement for now"]
     advice["Review Exact Advies"]
     assign["Toewijzen to underlying project / production demand"]
     prePrice{"Pre-PO price check required?"}
@@ -101,11 +106,15 @@ flowchart LR
     need --> routeB
     routeA --> validate
     routeB --> create --> validate
-    validate -- "yes" --> orderQ
-    validate -- "no / suspicious" --> investigate --> orderQ
-    orderQ -- "hold" --> hold
-    hold -. "new demand / urgency" .-> orderQ
-    orderQ -- "order" --> advice --> assign --> prePrice
+    validate -- "yes" --> assess
+    validate -- "no / suspicious" --> investigate --> assess
+    assess --> smallQ
+    smallQ -- "no / ready to place" --> advice
+    smallQ -- "yes" --> maxCheck --> maxQ
+    maxQ -- "yes" --> combine --> advice
+    maxQ -- "no" --> hold
+    hold -. "new demand / urgency changes" .-> maxCheck
+    advice --> assign --> prePrice
     prePrice -- "yes" --> webPrice --> updatePrice --> prep
     prePrice -- "no" --> prep
     prep --> auth
@@ -150,28 +159,29 @@ This register is the structured **Task Inventory** for the current process. It r
 | 3 | Transfer information from screenshot / email into Exact | Buyer | A | **Observed** | Observed practice; article-management responsibility formally supported | Frequency + fields commonly transferred |
 | 4 | Validate supplied article / machine / service information | Buyer | B | **Observed** | Observed practice + WI article-management context | Frequency + error/incompleteness categories |
 | 5 | Search historical POs to resolve suspicious information | Buyer | B | **Observed; single case ~10–15 min elapsed** | Observed practice | Frequency + representative active time |
-| 6 | Assess stock, demand, open POs, receipts, lead time and urgency | Buyer | B | **Observed + Formal high-level inputs** | Formal + observed practice | Data availability + relative importance of inputs |
-| 7 | Decide order now versus hold | Buyer | B | **Observed** | Observed practice | Decision rules/cues + frequency |
-| 8 | Hold / maximalisatie and combine later same-supplier demand | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency + value + decision rules |
-| 9 | Review Exact `Advies` and underlying demand | Buyer | B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Calculation logic + frequency + override behaviour |
-| 10 | `Toewijzen` purchased quantity to underlying project/production demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Miss/failure frequency + active-time split |
-| 11 | Determine whether proactive pre-PO price check is required | Buyer | V+B | **Observed + Stated** | Observed practice | Frequency + whether services are included |
-| 12 | Search current supplier price and compare with stored Exact price | Buyer | V+A | **Observed** | Observed practice | Active time by line count + data/API feasibility |
-| 13 | Update pre-PO price in Exact when outdated/deviating | Buyer | A | **Observed** | Observed practice | Deviation frequency + update time |
-| 14 | Prepare / complete supplier PO and consolidate relevant demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | Formal PO requirement + observed practice | Frequency + workload contribution |
-| 15 | Check whether order is within buyer authorization | Buyer | C | **Stated** | Company control + Formal authorization requirement | Frequency by value band; formal matrix if available |
-| 16 | Route above-limit order to higher-authority approver for `Fiatteren` | Buyer / Approver | C+A | **Stated by Johan, 21 Aug** | Company control | Routing trigger/rule + Exact/email recording + delay |
-| 17 | Continue Exact workflow after higher-authority `Fiatteren` | Buyer / Approver / Exact | A+C | **Partly mapped** | Company control + System | Exact actor/action after approval |
-| 18 | `Fiatteren` / `Verrichten` within buyer authority | Buyer / Exact | A | **Observed + Stated** | System + Formal authorization/release requirement | Representative time; exact formal status mapping if needed |
-| 19 | Exact generates PO document and emails buyer | Exact / Outlook | A | **Observed + Stated** | System; Formal PO creation supported | Timing + automation details |
-| 20 | Buyer forwards generated PO with standard supplier message | Buyer | A | **Observed + Stated** | Observed practice; placing PO with supplier is Formal | Daily volume + total effort |
-| 21 | PO reaches practical ordered / `Besteld` stage | Buyer / Exact | A | **Current buyer-validated working model** | System + observed practice | Exact technical trigger only if it becomes analytically relevant |
-| 22 | Supplier sends order confirmation | Supplier | — | **Observed + Formal if confirmation received** | External + Formal archiving requirement | Confirmation receipt rate / format variability if relevant |
-| 23 | Compare supplier confirmation with PO / Exact | Buyer | V+A | **Observed; one large case ~30–40 min elapsed including task switching** | Observed practice | Active/elapsed time by line count + deviation rate |
-| 24 | Correct relevant confirmation deviations in Exact | Buyer | A | **Observed** | Observed practice | Frequency + correction time |
-| 25 | Attach/archive confirmation and set `Bevestigd` | Buyer | A | **Observed + Formal high-level confirmation archiving** | Formal + System + observed practice | Representative time / exact mailbox-system relationship if relevant |
-| 26 | Finance later control and buyer investigation of returned issue | Finance / Buyer | C+V+B | **Single observation + Stated** | Observed practice / downstream control | Return frequency + detection method + causes + rework time |
-| 27 | Handle unavailable component and preserve unresolved need | Buyer | B+C | **Single observation** | Observed practice | How unresolved need is tracked after removal |
+| 6 | Assess stock, future demand, open POs, receipts, lead time and urgency | Buyer | B | **Observed + Formal high-level inputs** | Formal + observed practice | Data availability + relative importance of inputs |
+| 7 | Assess whether the requirement is small/non-urgent or otherwise ready to proceed | Buyer | B | **Observed** | Observed practice | Decision rules/cues + frequency by case type |
+| 8 | Check for additional same-supplier demand for maximalisatie | Buyer | B+A | **Observed** | Observed practice | Search method, frequency, information sources + active time |
+| 9 | If useful same-supplier demand is available, combine it and continue; otherwise hold/pause the requirement until new demand or changed urgency | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency of combine vs hold outcomes + value + decision rules |
+| 10 | Review Exact `Advies` and underlying demand | Buyer | B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Calculation logic + frequency + override behaviour |
+| 11 | `Toewijzen` purchased quantity to underlying project/production demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Miss/failure frequency + active-time split |
+| 12 | Determine whether proactive pre-PO price check is required | Buyer | V+B | **Observed + Stated** | Observed practice | Frequency + whether services are included |
+| 13 | Search current supplier price and compare with stored Exact price | Buyer | V+A | **Observed** | Observed practice | Active time by line count + data/API feasibility |
+| 14 | Update pre-PO price in Exact when outdated/deviating | Buyer | A | **Observed** | Observed practice | Deviation frequency + update time |
+| 15 | Prepare / complete supplier PO and consolidate relevant demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | Formal PO requirement + observed practice | Frequency + workload contribution |
+| 16 | Check whether order is within buyer authorization | Buyer | C | **Stated** | Company control + Formal authorization requirement | Frequency by value band; formal matrix if available |
+| 17 | Route above-limit order to higher-authority approver for `Fiatteren` | Buyer / Approver | C+A | **Stated by Johan, 21 Aug** | Company control | Routing trigger/rule + Exact/email recording + delay |
+| 18 | Continue Exact workflow after higher-authority `Fiatteren` | Buyer / Approver / Exact | A+C | **Partly mapped** | Company control + System | Exact actor/action after approval |
+| 19 | `Fiatteren` / `Verrichten` within buyer authority | Buyer / Exact | A | **Observed + Stated** | System + Formal authorization/release requirement | Representative time; exact formal status mapping if needed |
+| 20 | Exact generates PO document and emails buyer | Exact / Outlook | A | **Observed + Stated** | System; Formal PO creation supported | Timing + automation details |
+| 21 | Buyer forwards generated PO with standard supplier message | Buyer | A | **Observed + Stated** | Observed practice; placing PO with supplier is Formal | Daily volume + total effort |
+| 22 | PO reaches practical ordered / `Besteld` stage | Buyer / Exact | A | **Current buyer-validated working model** | System + observed practice | Exact technical trigger only if it becomes analytically relevant |
+| 23 | Supplier sends order confirmation | Supplier | — | **Observed + Formal if confirmation received** | External + Formal archiving requirement | Confirmation receipt rate / format variability if relevant |
+| 24 | Compare supplier confirmation with PO / Exact | Buyer | V+A | **Observed; one large case ~30–40 min elapsed including task switching** | Observed practice | Active/elapsed time by line count + deviation rate |
+| 25 | Correct relevant confirmation deviations in Exact | Buyer | A | **Observed** | Observed practice | Frequency + correction time |
+| 26 | Attach/archive confirmation and set `Bevestigd` | Buyer | A | **Observed + Formal high-level confirmation archiving** | Formal + System + observed practice | Representative time / exact mailbox-system relationship if relevant |
+| 27 | Finance later control and buyer investigation of returned issue | Finance / Buyer | C+V+B | **Single observation + Stated** | Observed practice / downstream control | Return frequency + detection method + causes + rework time |
+| 28 | Handle unavailable component and preserve unresolved need | Buyer | B+C | **Single observation** | Observed practice | How unresolved need is tracked after removal |
 
 ### Cross-cutting interruptions
 
