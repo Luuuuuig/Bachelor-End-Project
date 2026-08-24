@@ -4,6 +4,8 @@
 
 This file replaces the earlier `v0.1`–`v0.5` working drafts. Those revisions remain recoverable through Git history but should no longer be treated as active project status.
 
+The canonical workload definition for the project is maintained in `docs/methodology/Workload_Definition.md` and follows **Young et al. (2015)**.
+
 ---
 
 # 1. Project objective
@@ -30,7 +32,7 @@ An AI agent is therefore a possible implementation mechanism, not an assumed sta
 DMAIC structures the improvement of the existing operational purchasing process:
 
 - **Define:** scope, stakeholders, workload problem and candidate areas.
-- **Measure:** frequency, active processing time, elapsed time, rework, interruptions, judgement and transaction complexity.
+- **Measure:** task characteristics, operator/context factors, frequency, active processing time, elapsed time, rework, interruptions, judgement and transaction complexity.
 - **Analyze:** identify root causes, case types and the distinction between administrative, verification, judgement, rework and information-flow problems.
 - **Improve:** design and compare TO-BE alternatives, determine which work should be eliminated/simplified/standardized/automated/supported, then select one artifact for deeper development.
 - **Control:** define KPIs, ownership, review cadence, exception controls and implementation safeguards.
@@ -64,7 +66,7 @@ flowchart LR
 Within this structure:
 
 - `Process_Cleaned_V1.0.md` mainly supports **Define** and the transition into Measure;
-- Section 7 provides the opportunity portfolio to be tested in **Measure/Analyze**;
+- the candidate portfolio is tested in **Measure/Analyze**;
 - `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
 - the final digital/AI artifact should be selected after the evidence supports a specific TO-BE intervention.
 
@@ -101,23 +103,45 @@ The formal-document package includes SOP740-01, SOP741-01 and supporting forms/w
 
 ---
 
-# 4. Workload baseline
+# 4. Workload definition and baseline
+
+## 4.1 Governing definition
+
+The BEP follows **Young et al. (2015), *State of science: Mental workload in ergonomics*** as the governing theoretical source for workload.
+
+Young et al. treat mental workload as a **multidimensional construct** determined by:
+
+- **task characteristics**, such as task demands and required performance;
+- **operator characteristics**, such as skill and attention;
+- the **environmental context** in which the task is performed.
+
+Their global framing centres on the **attentional resources required to meet objective and subjective performance criteria**, with task demands, external support and past experience influencing the amount of resources required.
+
+Accordingly, this project does **not** define workload as time spent on a task. Time is one observable process measure, but mental workload must be interpreted in relation to task demands, buyer expertise/attention and contextual support or disruption.
+
+The detailed canonical interpretation is stored in `docs/methodology/Workload_Definition.md`.
+
+## 4.2 Measurement variables
 
 For relevant cases record where practical:
 
-`Task | Trigger | Order type | # lines | Active time | Elapsed time | Manual steps | Rework | Interruption/task switch | Judgement required | Output`
+`Task | Trigger | Order type | # lines | Active time | Elapsed time | Manual actions | Rework | Interruption/task switch | Judgement required | Uncertainty/exception | Experience/tacit knowledge needed | Output`
 
-Workload is treated as multidimensional. Time alone is not sufficient.
+The baseline therefore combines process-effort indicators with the Young et al. workload dimensions:
 
-| Dimension | Example measures |
+| Perspective | Example measures / observations |
 |---|---|
-| Administrative | active time, manual actions, entries, emails |
-| Verification | lines checked, deviations, checking time |
-| Decision/cognitive | decision frequency, cues, exceptions, judgement requirement |
-| Rework/coordination | returned cases, investigation time, hand-offs |
-| Interruptions | interruptions/task switches, elapsed-minus-active time |
+| **Task characteristics** | complexity, # lines, information sources, concurrent demands, uncertainty, verification requirement, exception status |
+| **Operator characteristics** | experience dependence, tacit knowledge, familiarity, judgement, automatic vs controlled processing |
+| **Environmental context/support** | interruptions, colleague support, Exact/Orbis support, task switching, information availability |
+| **Operational effort** | frequency, active time, elapsed time, manual actions, rework, hand-offs |
+| **Performance/output** | correct quantity/price/allocation, correct PO, timely action, no duplicate demand, correct confirmation handling |
 
-Clock measurements from Week 1 are single-case elapsed-time observations, not representative averages.
+Clock measurements from Week 1 are single-case **elapsed-time** observations, not representative averages.
+
+`Frequency × representative active processing time` can be used to estimate **operational effort volume** for comparable task categories. It is useful for prioritization, but it is **not the definition of total workload or mental workload**.
+
+For judgement-heavy tasks, record the **decision, cues and reason** instead of attempting to micro-time invisible cognitive processing.
 
 For the new TO-BE hypothesis, observations should also begin to distinguish whether a case appears to be a potential:
 
@@ -146,7 +170,8 @@ Observed repeatedly:
 
 **Main gates:**
 
-- workload frequency/time;
+- workload contribution interpreted under the Young et al. framework;
+- frequency and operational effort;
 - Exact/Orbis data availability;
 - defensible decision representation/benchmark;
 - tacit buyer constraints captured through CTA.
@@ -168,6 +193,7 @@ Two distinct activities:
 - line count/complexity;
 - representative active time;
 - price-deviation rate;
+- attentional/verification demand;
 - availability of supplier/Exact data or APIs.
 
 Potential artifact: automated retrieval/comparison, stale-price detection, deviation highlighting, human-reviewed correction.
@@ -194,7 +220,7 @@ The important methodological point is that this direction does **not** assume an
 **Main gates:**
 
 - percentage of cases that are genuinely standard/repeatable;
-- workload share represented by those standard cases;
+- workload share represented by those standard cases, interpreted using both operational effort and mental-workload demand;
 - ability to define exceptions and safety boundaries;
 - Exact/Orbis and supplier-data access;
 - which rules can be deterministic;
@@ -312,12 +338,12 @@ These findings can be reopened only if new direct evidence contradicts the curre
 
 ## P0 — required before final primary-case selection
 
-1. **Workload baseline:** which active candidate actually contributes most meaningful workload over a normal period?
-2. **Case-mix baseline:** what share of cases appears standard, reviewable or genuinely manual/exceptional, and how much workload sits in each group?
+1. **Workload baseline:** which active candidate contributes the most meaningful workload under the Young et al. framework, considering task demand, operator/expertise factors and environmental/contextual factors as well as operational effort?
+2. **Case-mix baseline:** what share of cases appears standard, reviewable or genuinely manual/exceptional, and how much operational effort and cognitive demand sits in each group?
 3. **Exact/Orbis data availability:** which fields and histories can be accessed reliably?
 4. **Exact `Advies` logic:** what determines advised quantities and how often is it operationally relevant?
 5. **Buy/hold/maximalisatie logic:** what rules, cues, trade-offs and tacit constraints does the buyer use?
-6. **Price-control baseline:** frequency, active time, line complexity and deviation rate.
+6. **Price-control baseline:** frequency, active time, line complexity, deviation rate and verification/attention demand.
 7. **Finance rework:** frequency, root causes and investigation burden.
 8. **Technical feasibility:** supplier price source/API and usable Exact/Orbis interfaces.
 9. **Standard-case boundary:** which case features can be expressed as deterministic eligibility rules, and which require AI or human judgement?
@@ -344,7 +370,8 @@ Possible evaluation:
 
 - decision quality against a defensible benchmark;
 - constraint violations;
-- workload/time reduction;
+- active processing time;
+- workload reduction using measures consistent with Young et al.;
 - consistency;
 - human override/reasoning where relevant.
 
@@ -359,7 +386,7 @@ Possible evaluation:
 - false positives/negatives;
 - deviations detected;
 - processing time;
-- workload reduction;
+- workload reduction using measures consistent with Young et al.;
 - consistency.
 
 ## Exception-based automation / process-redesign case
@@ -374,27 +401,29 @@ Possible evaluation:
 - PO-field/output accuracy against trusted reference cases;
 - percentage of cases eligible for straight-through processing;
 - correction/review rate;
-- active buyer workload avoided;
+- active buyer effort avoided;
+- effect on attentional/judgement demand for the remaining buyer work;
 - false-positive review burden;
 - consistency across repeated cases.
 
-The evaluation design should follow the selected problem type rather than forcing every candidate into the same metric.
+The evaluation design should follow the selected problem type rather than forcing every candidate into the same metric. A reduction in processing time alone should not automatically be described as a reduction in mental workload.
 
 ---
 
 # 11. Immediate methodology actions
 
 1. Collect structured baseline observations without timing every click.
-2. Add an exploratory `Standard / Review / Manual` case classification where the distinction can be made without disrupting the work.
-3. For judgement-heavy cases, record the decision/cue/reason rather than forcing artificial micro-timing.
-4. Obtain PO/line volumes and relevant historical fields from Exact where possible.
-5. Clarify Exact/Orbis access and `Advies` logic with IT.
-6. Continue CTA-informed elicitation around real buy/hold/maximalisatie cases.
-7. Measure pre-PO and post-confirmation price control separately.
-8. Collect/categorize Finance-returned cases.
-9. Estimate **addressable workload**: frequency × active workload of cases that could plausibly move to a standard/review route.
-10. Reassess active candidates using workload, standardizability, business value, data availability, evaluation quality, implementation risk and human-expertise requirements.
-11. Select one primary thesis artifact with the university supervisor.
+2. Interpret workload according to `Workload_Definition.md` and Young et al. (2015), not as time alone.
+3. Add an exploratory `Standard / Review / Manual` case classification where the distinction can be made without disrupting the work.
+4. For judgement-heavy cases, record the decision/cue/reason rather than forcing artificial micro-timing.
+5. Obtain PO/line volumes and relevant historical fields from Exact where possible.
+6. Clarify Exact/Orbis access and `Advies` logic with IT.
+7. Continue CTA-informed elicitation around real buy/hold/maximalisatie cases.
+8. Measure pre-PO and post-confirmation price control separately.
+9. Collect/categorize Finance-returned cases.
+10. Estimate **addressable operational effort** using frequency × representative active time where appropriate, while keeping this distinct from mental workload.
+11. Reassess active candidates using workload, standardizability, business value, data availability, evaluation quality, implementation risk and human-expertise requirements.
+12. Select one primary thesis artifact with the university supervisor.
 
 ---
 
@@ -406,6 +435,7 @@ Going forward:
 - `docs/process/Process_Cleaned_V1.0.md` is the current operational-process truth;
 - `docs/process/TO_BE_Working_Hypothesis_v0.1.md` is a provisional future-process hypothesis only;
 - this file is the current methodology/candidate-selection truth;
+- `docs/methodology/Workload_Definition.md` is the **canonical workload-definition source based on Young et al. (2015)**;
 - `docs/company-documentation/Official_Document_Register_2026-08-21.md` is the formal-document evidence register;
 - the final proposal in `docs/proposal/` is the approved/current proposal document;
 - older hypotheses should not remain in active candidate tables or active question lists once resolved.
