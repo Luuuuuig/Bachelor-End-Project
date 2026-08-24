@@ -1,6 +1,7 @@
 # Official Purchasing Document Register — 21 August 2026
 
-**Status:** Internal project evidence register
+**Status:** Internal project evidence register  
+**Integration status (24 August 2026):** The high-level findings from this document package have now been integrated into `docs/process/Process_Cleaned_V1.0.md` and `docs/methodology/Phase_1_Current_Methodology.md`. The project is **not waiting for the purchasing SOP anymore**.
 
 **Source:** Documents supplied by the purchasing manager on 21 August 2026 after a request for the formal purchasing/SOP documentation.
 
@@ -18,7 +19,7 @@ SHA-256 hashes below identify the exact source files used for the analysis witho
 
 | # | Source document | Document role / current relevance | SHA-256 |
 |---|---|---|---|
-| 1 | `SOP740-01 Rev.A Purchasing and verification of purchased product.pdf` | **Primary formal purchasing SOP.** Most relevant document for comparing the observed Arnold workflow with formal company procedure. | `f07cdbee7bc69df5f1b5c55ba40a087b673d6ba54491fb0083cf6bbd2575e28c` |
+| 1 | `SOP740-01 Rev.A Purchasing and verification of purchased product.pdf` | **Primary formal purchasing SOP.** Most relevant document for comparing the observed buyer workflow with formal company procedure. | `f07cdbee7bc69df5f1b5c55ba40a087b673d6ba54491fb0083cf6bbd2575e28c` |
 | 2 | `SOP741-01 Rev. B  Supplier control.pdf` | Formal supplier-selection, approval, monitoring and supplier-change procedure. Important for establishing organizational ownership of supplier selection. | `f93f98bd42ab6cc74a1ef120f9d4476ae30cceb7c69aed5cd2c3fec985c3963b` |
 | 3 | `FRM741-01-001 Rev. B Selection and approval supplier.dotx` | Supporting formal supplier-selection/approval form referenced by SOP741-01. | `e5ad249ed95d163897a92c2dd741186fed7a380ac9db2ed4ce14f356b79fd37e` |
 | 4 | `FRM741-01-002 Rev.A Supplier (re)evaluation.docx` | Supplier review/re-evaluation form. Contains monitoring and review criteria such as delivery reliability, NCRs, corrective action, communication/service and supplier audit results. | `efa2263b827fa1d445e2231f578f4b905439d928e3cedc5f441f542e49256ec4` |
@@ -179,13 +180,13 @@ This also supports continuing the scenario-based decision elicitation: the forma
 
 ---
 
-# 8. Next document-validation action
+# 8. Integration status — completed at high level
 
-Compare each row in `docs/process/Process_Cleaned_V1.0.md` against the formal documentation and classify it as:
+The high-level comparison requested when this register was first created has now been incorporated into the current process and methodology masters.
 
-- **Documented / formal requirement**;
-- **Partly documented / high-level requirement only**;
-- **Observed operational practice — not explicitly documented**;
-- **Divergent from documented procedure** (only when direct contradictory evidence exists).
+Use:
 
-Do not infer non-compliance from a step merely being absent from the high-level SOP.
+- `docs/process/Process_Cleaned_V1.0.md` for the synchronized current-state workflow, formal-versus-practice interpretation, active candidate portfolio and open questions;
+- `docs/methodology/Phase_1_Current_Methodology.md` for current case-selection and research-method status.
+
+Further document validation is only needed when a **specific open question** requires more detailed formal evidence. The repository should no longer carry a generic action saying “receive/compare the SOP” as though the documentation were still unavailable.
