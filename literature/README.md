@@ -1,6 +1,6 @@
 # Literature package: operational purchasing, AI support, workload, and research methodology
 
-This folder accompanies `Bachelor_End_Project_Research_Notes.docx` and tracks literature by its current likelihood of use in the BEP. The classification is provisional and should be updated as the primary purchasing use case and evaluation design are finalized.
+This register tracks literature by its current likelihood of use and states **where each source supports the BEP**. Detailed methodology, workload definitions and candidate decisions belong in the corresponding authoritative files under `docs/`.
 
 ## Confirmed use
 
@@ -8,37 +8,19 @@ This folder accompanies `Bachelor_End_Project_Research_Notes.docx` and tracks li
 
 **The Council for Six Sigma Certification. (2018).** *Six Sigma Green Belt Certification Training Manual*. June 2018 edition. https://www.sixsigmacouncil.org/wp-content/uploads/2018/09/Six-Sigma-Green-Belt-Certification-Training-Manual-CSSC-2018-06b.pdf
 
-**Why it is relevant:** Supports the use of DMAIC (Define, Measure, Analyze, Improve, Control) to structure the broader improvement of an existing operational purchasing process.
+**Use:** Supports DMAIC terminology and structure in `docs/methodology/Phase_1_Current_Methodology.md`.
 
 ### Artifact design and evaluation: DSRM
 
-**Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007).** *A Design Science Research Methodology for Information Systems Research*. Core artifact-building methodology. An accessible process paper by the authors is stored as `open-access/05-design-science-research-process.pdf`; cite the [original DSRM article](https://doi.org/10.2753/MIS0742-1222240302).
+**Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007).** *A Design Science Research Methodology for Information Systems Research*. Accessible process paper stored as `open-access/05-design-science-research-process.pdf`; cite the original DSRM article: https://doi.org/10.2753/MIS0742-1222240302
 
-**Why it is relevant:** DSRM structures the design, development, demonstration and evaluation of the eventual AI or automation artifact selected during the improvement project.
+**Use:** Supports artifact design/development/evaluation in the methodology file.
 
-### Workload definition — canonical project source
+### Workload definition
 
 **Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
 
-**Role in this BEP:** Young et al. (2015) is the **governing workload source for the project**. The paper treats mental workload as a multidimensional construct determined by characteristics of the task, the operator and the environmental context. It adopts a global framing in which mental workload reflects the attentional resources required to meet objective and subjective performance criteria, influenced by task demands, external support and past experience.
-
-For the BEP, all references to workload in the current methodology and process documentation should be interpreted through this Young et al. framework.
-
-This means workload is **not equivalent to time spent**. A short purchasing decision can still create substantial mental workload if it requires high attention, judgement or experience, while a long repetitive task may consume considerable operational time with relatively low cognitive demand.
-
-The synchronized project interpretation is maintained in `docs/methodology/Workload_Definition.md`.
-
-### Measurement implication from Young et al.
-
-The BEP therefore considers workload through the interaction of:
-
-- **task characteristics:** task demand, complexity, information to process, concurrent tasks and required performance;
-- **operator characteristics:** skill, experience, attention and degree of automatic versus controlled processing;
-- **environment/context:** interruptions, external support, technological support and working conditions.
-
-Operational measures such as active processing time, elapsed time, frequency, number of lines, manual actions and rework remain useful **indicators of work exposure and process burden**, but they do not by themselves define mental workload.
-
-`Frequency × active processing time` may therefore be used to estimate **operational effort volume** for prioritization, but must not be reported as the project's complete workload definition or as a complete mental-workload score.
+**Use:** Governing workload source for the BEP. The canonical interpretation is maintained in `docs/methodology/Workload_Definition.md`; this literature register does not duplicate that definition.
 
 ## High chance to use
 
@@ -46,31 +28,31 @@ Operational measures such as active processing time, elapsed time, frequency, nu
 
 **Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
 
-**Why it is relevant:** Useful as a later review of workload definitions and measurement approaches. It may support measurement choices, but it does **not replace the Young et al. (2015) definition used as the governing definition in this BEP**.
+**Use:** Supporting review for workload-measurement choices. It does not replace Young et al. (2015) as the governing definition.
 
 ### Purchasing automation
 
-**Flechsig, C., Anslinger, F., & Lasch, R. (2022).** *Robotic Process Automation in purchasing and supply management*. Direct procurement-automation evidence. [Open-access DOI](https://doi.org/10.1016/j.pursup.2021.100718)
+**Flechsig, C., Anslinger, F., & Lasch, R. (2022).** *Robotic Process Automation in purchasing and supply management*. https://doi.org/10.1016/j.pursup.2021.100718
 
-**Why it is relevant:** Directly addresses automation in purchasing and supply management and can support the analysis of which administrative purchasing activities are suitable for automation.
+**Use:** Direct procurement-automation evidence for evaluating which administrative purchasing activities are suitable for automation.
 
-**Syed, R., Bandara, W., French, E., & Stewart, G. (2020).** *Robotic Process Automation: Contemporary themes and challenges*. Automation risks and implementation issues. [DOI](https://doi.org/10.1016/j.compind.2019.103162)
+**Syed, R., Bandara, W., French, E., & Stewart, G. (2020).** *Robotic Process Automation: Contemporary themes and challenges*. https://doi.org/10.1016/j.compind.2019.103162
 
-**Why it is relevant:** Useful for discussing limitations, implementation risks and governance when automating repetitive process activities.
+**Use:** Automation limitations, implementation risks and governance.
 
 ### Human-AI interaction and appropriate reliance
 
-**Schemmer, M., Hemmer, P., Nitsche, M., Kühl, N., & Vössing, M. (2023).** *Appropriate Reliance on AI Advice*. Core human-reliance measurement. PDF stored as `open-access/01-appropriate-reliance-ai-advice.pdf`. [DOI](https://doi.org/10.1145/3581641.3584066)
+**Schemmer, M., Hemmer, P., Nitsche, M., Kühl, N., & Vössing, M. (2023).** *Appropriate Reliance on AI Advice*. PDF stored as `open-access/01-appropriate-reliance-ai-advice.pdf`. https://doi.org/10.1145/3581641.3584066
 
-**Why it is relevant:** Likely important if the selected solution provides recommendations that the operational buyer can accept, modify or reject.
+**Use:** Relevant if the final artifact provides advice that a buyer can accept, modify or reject.
 
-**Amershi, S., Weld, D., Vorvoreanu, M., et al. (2019).** *Guidelines for Human-AI Interaction*. Design principles for feedback, control, correction and failures. PDF stored as `open-access/03-guidelines-human-ai-interaction.pdf`. [DOI](https://doi.org/10.1145/3290605.3300233)
+**Amershi, S., Weld, D., Vorvoreanu, M., et al. (2019).** *Guidelines for Human-AI Interaction*. PDF stored as `open-access/03-guidelines-human-ai-interaction.pdf`. https://doi.org/10.1145/3290605.3300233
 
-**Why it is relevant:** Provides practical principles for designing an AI-supported purchasing interface that preserves meaningful human control.
+**Use:** Design principles for feedback, control, correction and failures in an AI-supported interface.
 
-**Bansal, G., Nushi, B., Kamar, E., Horvitz, E., & Weld, D. S. (2021).** *Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance*. PDF stored as `open-access/02-human-ai-complementary-team-performance.pdf`. [DOI](https://doi.org/10.1145/3411764.3445717)
+**Bansal, G., Nushi, B., Kamar, E., Horvitz, E., & Weld, D. S. (2021).** *Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance*. PDF stored as `open-access/02-human-ai-complementary-team-performance.pdf`. https://doi.org/10.1145/3411764.3445717
 
-**Why it is relevant:** Supports evaluation of whether a human-AI combination performs better than either component alone if the final artifact is decision-support oriented.
+**Use:** Relevant if evaluation examines whether human-AI performance is complementary.
 
 ## Possible use when we know more
 
@@ -78,55 +60,51 @@ Operational measures such as active processing time, elapsed time, frequency, nu
 
 **Hart, S. G. (2006).** *NASA-Task Load Index (NASA-TLX); 20 years later*. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 50*(9), 904–908. https://doi.org/10.1177/154193120605000909
 
-**Why it may become relevant:** Useful if perceived mental workload is formally measured for selected purchasing tasks. Whether NASA-TLX is needed depends on the final measurement design and is separate from the decision to use Young et al. as the workload definition.
+**Use if needed:** Candidate subjective workload instrument if the final evaluation requires one.
 
 ### Supply monitoring and exception handling
 
-**Fernandez et al. (2016).** *Framework for modelling and simulating the supply process monitoring to detect and predict disruptive events*. [DOI](https://doi.org/10.1016/j.compind.2016.04.002)
+**Fernandez et al. (2016).** *Framework for modelling and simulating the supply process monitoring to detect and predict disruptive events*. https://doi.org/10.1016/j.compind.2016.04.002
 
-**Why it may become relevant:** Becomes more useful if the selected use case focuses on monitoring, exceptions or early detection in the purchasing process.
+**Use if needed:** Monitoring/exception-focused artifact direction.
 
-**Xu (2010).** *A Web-based system for proactive management of supply exceptions*. [DOI](https://doi.org/10.1016/j.jmsy.2010.11.003)
+**Xu (2010).** *A Web-based system for proactive management of supply exceptions*. https://doi.org/10.1016/j.jmsy.2010.11.003
 
-**Why it may become relevant:** Relevant if proactive exception handling becomes a central artifact function.
+**Use if needed:** Proactive supply-exception handling.
 
 ### Process mining
 
-**van der Aalst, W. M. P. (2012).** *Process Mining: Overview and Opportunities*. PDF stored as `open-access/04-process-mining-overview-opportunities.pdf`. [DOI](https://doi.org/10.1145/2229156.2229157)
+**van der Aalst, W. M. P. (2012).** *Process Mining: Overview and Opportunities*. PDF stored as `open-access/04-process-mining-overview-opportunities.pdf`. https://doi.org/10.1145/2229156.2229157
 
-**Why it may become relevant:** Useful if sufficiently detailed Exact/Orbis event-log data become available and process mining is used to validate or quantify the observed process.
+**Use if needed:** Process mining if sufficiently detailed Exact/Orbis event-log data become available.
 
 ### Advice-taking, trust and buyer interaction with AI
 
-**Bonaccio, S., & Dalal, R. S. (2006).** *Advice taking and decision-making: An integrative literature review, and implications for the organizational sciences*. [DOI](https://doi.org/10.1016/j.obhdp.2006.07.001)
+**Bonaccio, S., & Dalal, R. S. (2006).** *Advice taking and decision-making: An integrative literature review, and implications for the organizational sciences*. https://doi.org/10.1016/j.obhdp.2006.07.001
 
-**Why it may become relevant:** Useful for Judge-Advisor System-style experimental design if a buyer study becomes part of the evaluation.
+**Use if needed:** Judge-Advisor System-style buyer study.
 
-**Lee, J. D., & See, K. A. (2004).** *Trust in Automation: Designing for Appropriate Reliance*. [DOI](https://doi.org/10.1518/hfes.46.1.50_30392)
+**Lee, J. D., & See, K. A. (2004).** *Trust in Automation: Designing for Appropriate Reliance*. https://doi.org/10.1518/hfes.46.1.50_30392
 
-**Why it may become relevant:** Foundational theory if trust and appropriate reliance become explicit evaluation constructs.
+**Use if needed:** Trust/appropriate reliance as an explicit evaluation construct.
 
-**Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015).** *Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err*. [DOI](https://doi.org/10.1037/xge0000033)
+**Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015).** *Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err*. https://doi.org/10.1037/xge0000033
 
-**Why it may become relevant:** Useful if rejection of AI advice after observed errors becomes part of the research question or evaluation.
+**Use if needed:** Rejection of AI advice after errors.
 
-**Logg, J. M., Minson, J. A., & Moore, D. A. (2019).** *Algorithm Appreciation: People Prefer Algorithmic to Human Judgment*. [DOI](https://doi.org/10.1016/j.obhdp.2018.12.005)
+**Logg, J. M., Minson, J. A., & Moore, D. A. (2019).** *Algorithm Appreciation: People Prefer Algorithmic to Human Judgment*. https://doi.org/10.1016/j.obhdp.2018.12.005
 
-**Why it may become relevant:** Useful as a counterpoint to algorithm aversion if the project studies buyer acceptance of AI recommendations.
+**Use if needed:** Counterpoint to algorithm aversion in a buyer-advice study.
 
 ### Task-solution fit and implementation evaluation
 
-**Goodhue, D. L., & Thompson, R. L. (1995).** *Task-Technology Fit and Individual Performance*. [DOI](https://doi.org/10.2307/249689)
+**Goodhue, D. L., & Thompson, R. L. (1995).** *Task-Technology Fit and Individual Performance*. https://doi.org/10.2307/249689
 
-**Why it may become relevant:** Useful if the final evaluation explicitly studies whether the selected AI/automation technology fits the operational buyer's task requirements.
+**Use if needed:** Explicit task-technology-fit evaluation.
 
-**DeLone, W. H., & McLean, E. R. (2003).** *The DeLone and McLean Model of Information Systems Success: A Ten-Year Update*. [DOI](https://doi.org/10.1080/07421222.2003.11045748)
+**DeLone, W. H., & McLean, E. R. (2003).** *The DeLone and McLean Model of Information Systems Success: A Ten-Year Update*. https://doi.org/10.1080/07421222.2003.11045748
 
-**Why it may become relevant:** Could support a broader implementation or information-system success evaluation if the project goes beyond technical performance and workload reduction.
-
-## Current interpretation for the BEP
-
-The workload construct is synchronized around **Young et al. (2015)**. Task demands alone do not determine workload; operator skill/attention and environmental context also matter. Operational time/frequency measurements remain important for process analysis, while cognitive workload must be interpreted through attentional-resource demand and the conditions under which the buyer performs the task. Longo et al. (2022) is retained as supporting measurement literature only.
+**Use if needed:** Broader implementation / information-system success evaluation.
 
 ## Copyright and access note
 
