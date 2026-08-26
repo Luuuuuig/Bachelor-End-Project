@@ -11,6 +11,7 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 | If you want to know... | Go to... | Role |
 |---|---|---|
 | What are the current project-control decisions, scope and DMAIC tollgates? | [`Project_Charter.md`](Project_Charter.md) | Lightweight project charter / control summary |
+| What is the current project schedule and Gantt? | [`Project_Timeline.md`](Project_Timeline.md) | DMAIC/DSRM timeline, dependencies, milestones and contract boundary |
 | What is the current academic project scope, objective and research question? | [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md) | Current readable academic project definition |
 | Where is the Word submission/use copy? | [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Binary Word copy retained for external use/submission |
 | What does the purchasing process currently look like in practice? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Current AS-IS operational master |
@@ -28,7 +29,7 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 
 # 2. Current core documents
 
-## A. Project control
+## A. Project control and planning
 
 ### [`Project_Charter.md`](Project_Charter.md)
 One-page Define-phase control record. It freezes the business problem, AI/business direction, scope, outcome structure, stakeholders and DMAIC tollgates without duplicating the detailed methodology.
@@ -38,6 +39,20 @@ The current sequencing is explicit:
 `pilot → freeze measurement protocol → exploratory workload baseline → Analyze/technical feasibility → focal-case selection → DSRM artifact`
 
 Detailed Exact/Orbis production-data/interface feasibility is intentionally **deferred until after the exploratory Measure phase**.
+
+### [`Project_Timeline.md`](Project_Timeline.md)
+Current Gantt/planning source. It contains:
+
+- completed Define work;
+- the Measure pilot and baseline sequence;
+- the known 15 / 20 / 27 September academic milestones;
+- Analyze, targeted Exact/Orbis feasibility and focal-case selection;
+- Improve/DSRM, evaluation and Control/thesis work;
+- the **7 January 2027 Hytech-Pommec contract end as the outer company-placement boundary**.
+
+The project may conclude before that boundary if the required work is completed and this is agreed. Post-Measure task durations are planning estimates and should be refined after the focal case is selected.
+
+The Mermaid Gantt can be copied into draw.io / diagrams.net for visual editing and supervisor sharing.
 
 ---
 
@@ -168,6 +183,7 @@ Examples:
 - `Process_Cleaned_V1.5.md` can explain **why price checking is operationally interesting**; `Phase_1_Current_Methodology.md` determines whether price checking is currently a primary thesis candidate.
 - `Process_Cleaned_V1.5.md` documents the maximalisatie process; the methodology file owns the research gates for selecting/studying it.
 - `Measurement_Protocol_v1.0.md` owns live data-collection rules; the methodology file owns why those measurements are needed for case selection.
+- `Project_Timeline.md` owns the current planning sequence and dates; dated meeting notes remain the evidence source for agreed milestones.
 - Meeting notes preserve what was known on the meeting date even when later evidence changes the current AS-IS master.
 - The company-document register explains what the SOP formally supports; the AS-IS file explains what people actually do operationally.
 
@@ -181,14 +197,15 @@ When new evidence arrives:
 
 1. preserve the dated observation/meeting note as historical evidence;
 2. update `Project_Charter.md` only when project-control decisions, scope or tollgates genuinely change;
-3. update `Process_Cleaned_V1.5.md` when the current workflow, operational evidence, task inventory, operational interpretation or opportunity profile changes;
-4. update `Phase_1_Current_Methodology.md` when candidate priority, research design, selection gates or evaluation logic changes;
-5. update `Workload_Definition.md` only when the theoretical workload construct changes;
-6. update `Measurement_Protocol_v1.0.md` when live observation/coding/sampling rules change; after baseline freeze, document deviations rather than silently rewriting rules;
-7. update the company-document register when new formal SOP/WI evidence is received or reinterpreted;
-8. update the TO-BE file when the provisional future-state architecture changes;
-9. update the readable BEP assignment when a major research-scope/framing change requires academic alignment;
-10. preserve useful context unless it is factually obsolete, contradicted by stronger evidence, confidentially inappropriate, or genuinely redundant without analytical value.
+3. update `Project_Timeline.md` when agreed milestones, planning assumptions, dependencies or the contract/project boundary changes;
+4. update `Process_Cleaned_V1.5.md` when the current workflow, operational evidence, task inventory, operational interpretation or opportunity profile changes;
+5. update `Phase_1_Current_Methodology.md` when candidate priority, research design, selection gates or evaluation logic changes;
+6. update `Workload_Definition.md` only when the theoretical workload construct changes;
+7. update `Measurement_Protocol_v1.0.md` when live observation/coding/sampling rules change; after baseline freeze, document deviations rather than silently rewriting rules;
+8. update the company-document register when new formal SOP/WI evidence is received or reinterpreted;
+9. update the TO-BE file when the provisional future-state architecture changes;
+10. update the readable BEP assignment when a major research-scope/framing change requires academic alignment;
+11. preserve useful context unless it is factually obsolete, contradicted by stronger evidence, confidentially inappropriate, or genuinely redundant without analytical value.
 
 ---
 
@@ -200,6 +217,7 @@ flowchart LR
     SOP["Formal company documents"]
     LIT["Literature"]
     CHARTER["Project Charter\nscope + tollgates"]
+    TIME["Project Timeline\ndates + dependencies"]
 
     ASIS["Process_Cleaned_V1.5\nAS-IS + task register + opportunity profiles"]
     WL["Workload_Definition\ncanonical construct"]
@@ -214,6 +232,7 @@ flowchart LR
     ASIS --> MP
     WL --> MP
     CHARTER --> METHOD
+    TIME --> METHOD
     ASIS --> METHOD
     WL --> METHOD
     MP --> METHOD
@@ -223,4 +242,4 @@ flowchart LR
 
 Current practical progression:
 
-`Define / AS-IS → pilot → frozen Measure protocol → workload baseline → Analyze + targeted Exact/Orbis feasibility → focal case selection → DSRM artifact / TO-BE → evaluation → Control recommendations → final thesis`
+`Define / AS-IS → pilot → frozen Measure protocol → workload baseline → Analyze + targeted Exact/Orbis feasibility → focal case selection → DSRM artifact / TO-BE → evaluation → Control recommendations → final thesis / handover`
