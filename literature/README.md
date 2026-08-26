@@ -1,6 +1,22 @@
-# Literature package: operational purchasing, AI support, workload, and research methodology
+# Literature package: operational purchasing, AI support, workload, quality, and research methodology
 
-This register tracks literature by its current likelihood of use and states **where each source supports the BEP**. Detailed methodology, workload definitions and candidate decisions belong in the corresponding authoritative files under `docs/`.
+This register tracks literature by its current likelihood of use and states **where each source supports the BEP**. Detailed methodology, operational definitions and candidate decisions belong in the corresponding authoritative files under `docs/`.
+
+## Current conceptual literature structure
+
+The BEP currently distinguishes the **broad occupational workload construct** from the more specific construct of **mental workload**:
+
+- **Overall / occupational workload:** grounded primarily in Bowling & Kirkendall (2012), who review workload as a broad construct reflecting the amount and/or difficulty of work and distinguish quantitative, qualitative, objective/perceived, and mental/physical aspects.
+- **Quantitative workload:** supported by Spector & Jex (1998), especially their Quantitative Workload Inventory (QWI), which focuses on the quantity/pace of work.
+- **Mental workload:** grounded specifically in Young et al. (2015). Young et al. is no longer treated as the definition of all operational-buyer workload.
+- **Organizational constraints:** Spector & Jex (1998) provides a separate construct for conditions that interfere with work, useful when interpreting interruptions, inadequate information, system limitations or other work-process constraints.
+- **Quality:** grounded generically in ISO 9000:2026 as fulfilment of relevant requirements. The concrete quality criterion is intentionally left activity-specific until the focal purchasing activity is selected.
+
+### Reporting principle
+
+The current literature does **not** justify inventing a composite equation such as `total workload = time + interruptions + mental demand + rework`. Indicators with different meanings and units should therefore be reported as a **multidimensional workload profile** unless a validated composite instrument is explicitly selected for a specific construct (for example NASA-TLX for subjective mental workload).
+
+---
 
 ## Confirmed use
 
@@ -16,19 +32,39 @@ This register tracks literature by its current likelihood of use and states **wh
 
 **Use:** Supports artifact design/development/evaluation in the methodology file.
 
-### Workload definition
+### Overall occupational workload
+
+**Bowling, N. A., & Kirkendall, C. (2012).** *Workload: A Review of Causes, Consequences, and Potential Interventions*. In J. Houdmont, S. Leka, & R. R. Sinclair (Eds.), *Contemporary Occupational Health Psychology: Global Perspectives on Research and Practice, Volume 2* (pp. 221–238). https://doi.org/10.1002/9781119942849.ch13
+
+**Use:** Primary broad workload source for the BEP. Supports treating workload as broader than processing time alone and distinguishes important facets including quantitative workload (amount of work) and qualitative workload (difficulty of work), as well as objective/perceived and mental/physical distinctions. This source provides the umbrella framing; it does **not** imply that heterogeneous workload indicators should be summed into one unvalidated score.
+
+### Quantitative workload and organizational constraints
+
+**Spector, P. E., & Jex, S. M. (1998).** *Development of four self-report measures of job stressors and strain: Interpersonal Conflict at Work Scale, Organizational Constraints Scale, Quantitative Workload Inventory, and Physical Symptoms Inventory*. *Journal of Occupational Health Psychology, 3*(4), 356–367. https://doi.org/10.1037/1076-8998.3.4.356
+
+**Use:** Supports the distinction between quantitative workload and organizational constraints. The Quantitative Workload Inventory is relevant to the quantity/pace of work; the Organizational Constraints Scale is relevant conceptually when interpreting barriers that interfere with task completion. These validated self-report scales are literature anchors, not automatic requirements to administer them in the BEP.
+
+### Mental workload
 
 **Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
 
-**Use:** Governing workload source for the BEP. The canonical interpretation is maintained in `docs/methodology/Workload_Definition.md`; this literature register does not duplicate that definition.
+**Use:** Governing source specifically for **mental workload**, not for all operational-buyer workload. Supports treating mental workload as a multidimensional human-factors construct and cautions against inferring it from processing time alone. The detailed project interpretation belongs in `docs/methodology/Workload_Definition.md`.
+
+### Generic quality definition
+
+**International Organization for Standardization. (2026).** *ISO 9000:2026 — Quality management — Fundamentals and vocabulary*. https://www.iso.org/standard/9000.html
+
+**Use:** Generic quality anchor. ISO 9000 defines quality in relation to the degree to which characteristics fulfil requirements. For this BEP, the relevant purchasing requirements and therefore the concrete quality criterion will depend on the focal activity selected after Measure/Analyze. This avoids prematurely equating quality with accuracy, completeness, decision consistency, or any one task-specific metric.
+
+---
 
 ## High chance to use
 
-### Supporting workload operationalization and measurement
+### Supporting mental-workload operationalization and measurement
 
 **Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
 
-**Use:** Supporting review for workload-measurement choices. It does not replace Young et al. (2015) as the governing definition.
+**Use:** Supporting review for mental-workload theory and measurement choices. It complements rather than replaces Young et al. (2015).
 
 ### Purchasing automation
 
@@ -52,7 +88,9 @@ This register tracks literature by its current likelihood of use and states **wh
 
 **Bansal, G., Nushi, B., Kamar, E., Horvitz, E., & Weld, D. S. (2021).** *Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance*. PDF stored as `open-access/02-human-ai-complementary-team-performance.pdf`. https://doi.org/10.1145/3411764.3445717
 
-**Use:** Relevant if evaluation examines whether human-AI performance is complementary.
+**Use:** Relevant if evaluation examines the performance of a buyer–AI team. It is **not** used as the generic definition of purchasing quality; ISO 9000 provides that broader quality anchor.
+
+---
 
 ## Possible use when we know more
 
@@ -60,7 +98,7 @@ This register tracks literature by its current likelihood of use and states **wh
 
 **Hart, S. G. (2006).** *NASA-Task Load Index (NASA-TLX); 20 years later*. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 50*(9), 904–908. https://doi.org/10.1177/154193120605000909
 
-**Use if needed:** Candidate subjective workload instrument if the final evaluation requires one.
+**Use if needed:** Candidate validated subjective workload instrument if the selected activity or final before/after evaluation requires a mental-workload measure. NASA-TLX should not be interpreted as a measure of the entire operational-buyer workload construct.
 
 ### Supply monitoring and exception handling
 
@@ -106,6 +144,8 @@ This register tracks literature by its current likelihood of use and states **wh
 
 **Use if needed:** Broader implementation / information-system success evaluation.
 
+---
+
 ## Copyright and access note
 
-Only public, open-access or author-posted PDFs are stored in this repository. Publisher-restricted articles are represented by DOI or official repository links and are not copied into the repository.
+Only public, open-access or author-posted PDFs are stored in this repository. Publisher-restricted articles and standards are represented by DOI or official links and are not copied into the repository.
