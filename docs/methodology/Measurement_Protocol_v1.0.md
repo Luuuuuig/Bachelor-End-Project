@@ -4,11 +4,14 @@
 
 **Purpose:** This protocol defines how workload-related evidence will be collected during shadowing of the operational buyer at Hytech-Pommec. It is designed for the broad exploratory Measure phase, before one focal purchasing activity is selected for deeper analysis and artifact evaluation.
 
+**Current sequencing decision:** the live-observation pilot and baseline come first. Detailed Exact/Orbis production-data/interface feasibility work is intentionally deferred until the exploratory Measure phase is complete and the evidence justifies which candidate(s) deserve deeper Analyze-phase technical investigation.
+
 **Related files:**
 
 - Workload construct: `Workload_Definition.md`
 - Current research methodology and candidate selection: `Phase_1_Current_Methodology.md`
 - Current 31-task AS-IS register: `../process/Process_Cleaned_V1.5.md`
+- Project control summary: `../Project_Charter.md`
 
 ---
 
@@ -48,11 +51,11 @@ For this reason, the Measure phase combines observable quantitative indicators w
 
 Use one row per meaningful work episode.
 
-`Case / PO | Task ID | Start | End | Volume | INT | Result / short note`
+`Case ID | Task ID | Start | End | Volume | INT | Result / short note`
 
 | Field | Operational definition | What it provides |
 |---|---|---|
-| **Case / PO** | PO number when permitted and clearly visible; otherwise an anonymized observation ID such as `OBS-01` | Links multiple work episodes belonging to the same case. |
+| **Case ID** | Use an anonymized observation/case ID such as `OBS-01` by default. A production PO number may be retained only in the restricted raw working sheet when company permission and storage rules allow it. | Links multiple work episodes belonging to the same case without requiring commercial identifiers in the research repository. |
 | **Task ID** | Current task number from the 31-task AS-IS register. If uncertain, write the task name and assign the ID afterward. | Enables frequency and task-level workload analysis. |
 | **Start / End** | Clock time for a meaningful active work segment. Leave blank for tally-only activities. | Used to calculate active processing time. |
 | **Volume** | Relevant case quantity, usually number of lines/items, e.g. `12L` | Supports case-size and time-per-line analysis where meaningful. |
@@ -64,9 +67,9 @@ Use one row per meaningful work episode.
 ```text
 OBS-01 | 7     | —     | —     | —   | 0 | HOLD
 OBS-02 | 8-10  | 09:21 | 09:27 | 3L  | 0 | MAX found
-PO-123 | 15-16 | 10:03 | 10:12 | 14L | 1 | 2D
-PO-456 | 26-27 | 10:42 | 10:57 | 22L | 0 | 4D
-PO-789 | 30    | 11:12 | 11:24 | —   | 1 | FIN price issue
+OBS-03 | 15-16 | 10:03 | 10:12 | 14L | 1 | 2D
+OBS-04 | 26-27 | 10:42 | 10:57 | 22L | 0 | 4D
+OBS-05 | 30    | 11:12 | 11:24 | —   | 1 | FIN price issue
 ```
 
 Suggested shorthand:
@@ -80,6 +83,7 @@ Suggested shorthand:
 - `J` = judgement / experience cue
 - `MI` = missing information
 - `FIN` = Finance rework
+- `MISS` = observable activity occurred but could not be fully coded live
 
 ---
 
@@ -89,13 +93,13 @@ Suggested shorthand:
 
 The primary time metric for workload analysis is **active processing time**: the time during which the buyer is actually working on the purchasing activity.
 
-A raw `Start → End` interval only represents active processing time when the buyer remains on that activity. If a substantial unrelated interruption or task switch occurs, the current work segment is paused/closed and a new segment is recorded when the buyer returns.
+A raw `Start → End` interval only represents active processing time when the buyer remains on that activity. If an unrelated interruption or task switch clearly takes the buyer away from the current work, the current segment is paused/closed and a new segment is recorded when the buyer returns.
 
 Example:
 
 ```text
-PO-123 | 26 | 10:00 | 10:06 | 10L | 0 | confirmation check
-PO-123 | 26 | 10:11 | 10:15 | 10L | 0 | resumed
+OBS-03 | 26 | 10:00 | 10:06 | 10L | 0 | confirmation check
+OBS-03 | 26 | 10:11 | 10:15 | 10L | 0 | resumed
 ```
 
 Active processing time:
@@ -108,13 +112,13 @@ Overall elapsed clock time from first start to final end:
 
 The BEP uses the **10 minutes active processing time** as the main buyer-capacity measure.
 
-## 4.2 Small interruptions
+## 4.2 Brief interruptions
 
-Very short interruptions do not need second-level stopwatch treatment. Record them in `INT`. The purpose is to capture work fragmentation without making observation so complex that data quality deteriorates.
+A brief interruption can remain inside the current segment when the buyer does not meaningfully leave the task—for example a very short exchange or notification that does not create a separate work episode. Record it in `INT` rather than trying to stopwatch seconds.
 
 ## 4.3 Substantial interruptions or task switches
 
-If the buyer clearly switches to another activity for a meaningful period, close/pause the current episode and create another row when the original task resumes.
+Close/pause the current episode whenever the buyer clearly switches to a different work activity, conversation or case such that leaving the clock running would materially overstate active work on the original task. The pilot should test whether this behavioural rule is sufficiently reproducible; do not invent a second-level threshold unless the pilot shows that one is necessary.
 
 ## 4.4 Elapsed time
 
@@ -124,7 +128,7 @@ Existing Week-1 observations in the AS-IS file are mainly **single-case elapsed-
 
 ---
 
-# 5. TIME, TALLY and TIME IF rules
+# 5. TIME, TALLY, TIME IF and SYSTEM rules
 
 ### TIME
 
@@ -238,28 +242,51 @@ If they are performed as one inseparable episode, record `12-13`.
 3. Do not record every click or screen navigation as a separate task. The unit of observation is a **meaningful work episode**.
 4. Do not force timing on invisible cognition. For fast judgement, record the occurrence, outcome and relevant cue where visible or elicited.
 5. If a judgement turns into an observable investigation, time the investigation episode.
+6. If work is observed but the observer cannot code it without falling behind, record `MISS` with a short note and reconstruct only what can be supported afterward. Do not fabricate missing timing or Task IDs.
 
 ---
 
-# 8. Data-source rules given current Exact access
+# 8. Sampling and observation-window rules
+
+The exploratory baseline should describe **normal work exposure**, not only interesting cases.
+
+1. During a selected observation window, record all observable operational-purchasing episodes that can be captured without disrupting the buyer; do not selectively follow only candidate activities.
+2. Record the start/end of each observation window and total observed hours so task frequencies have a clear denominator.
+3. The baseline should cover **multiple working days and different dayparts**, including both relatively quiet periods and periods with normal interruption/task-switching exposure where feasible.
+4. A roughly five-working-day baseline was discussed as a possible student proposal with the supervisor, but it is **not yet treated as a fixed validated sample size**. The final baseline window will be frozen after the pilot based on feasibility, coverage and supervisor alignment.
+5. Do not extrapolate a short block directly to a full day/week unless the coverage is demonstrably adequate.
+6. Keep a simple missed-observation count (`MISS`) when workload is too fast to code fully. A high missed-event rate is a pilot failure signal and should trigger simplification before baseline freeze.
+7. Once the baseline version is frozen, do not silently change coding rules. Any necessary deviation must be dated and documented.
+
+---
+
+# 9. Data-source and confidentiality rules
 
 The researcher's own Exact account is a **test environment** and is not linked to the operational buyer's live production environment.
 
 Therefore:
 
-- the **live observation** is the primary source for task occurrence, timing, interruptions, visible outcomes and judgement cues;
-- values visible on the buyer's production screen may be noted during observation where permitted;
-- a company/IT export from the production environment may later supplement the observation baseline if available;
+- the **live observation** is the primary source for task occurrence, timing, interruptions, visible outcomes and judgement cues during Measure;
+- values visible on the buyer's production screen may be noted during observation only where permitted and only to the level necessary for the research variable;
 - the researcher's Exact test environment may be used to understand screen structure, fields, statuses and system functionality;
-- the test environment must **not** be used as evidence of the buyer's actual production workload, frequencies or historical cases.
+- the test environment must **not** be used as evidence of the buyer's actual production workload, frequencies or historical cases;
+- detailed production-data export/API/interface work is **deferred until after the exploratory Measure phase** and will be taken up in Analyze for shortlisted candidates rather than delaying baseline observation.
 
-Because production cases cannot necessarily be reopened independently after shadowing, information that is easy to lose later — especially line count, deviation count, exception type and important outcome — should be captured live when practical.
+Because production cases cannot necessarily be reopened independently after shadowing, information that is easy to lose later—especially line count, deviation count, exception type and important outcome—should be captured live when practical.
+
+### Repository/data-governance rule
+
+- Use anonymized `OBS-xx` / case IDs in GitHub-facing material by default.
+- Do **not** store supplier names, supplier-specific commercial prices, personal data, or unrestricted production exports in GitHub unless the company has explicitly approved that storage.
+- If a production PO number is temporarily needed to reconnect observation segments, retain it only in the restricted raw working file/storage location approved by the company and remove it from shared analytical outputs where possible.
+- GitHub should contain the protocol, schemas, anonymized/aggregated analysis and non-sensitive conclusions—not uncontrolled raw production data.
+- The private status of the repository does not by itself constitute company approval for storing confidential production data.
 
 ---
 
-# 9. How the collected data will quantify workload
+# 10. How the collected data will quantify workload
 
-## 9.1 Task frequency
+## 10.1 Task frequency
 
 For each task:
 
@@ -267,13 +294,13 @@ For each task:
 
 Report the observation period explicitly. Do not extrapolate a short observation block to a full working day without sufficient evidence.
 
-## 9.2 Representative active processing time
+## 10.2 Representative active processing time
 
 For timed tasks, summarize active processing time using the median and spread (for example IQR/range) together with sample size `n`.
 
 The median is preferred as a robust central indicator when unusual cases can be much longer than normal cases.
 
-## 9.3 Operational time burden
+## 10.3 Operational time burden
 
 For comparable recurring activities:
 
@@ -281,7 +308,7 @@ For comparable recurring activities:
 
 This estimates buyer-capacity consumption. It is **not** a total workload or mental-workload score.
 
-## 9.4 Volume-normalized time
+## 10.4 Volume-normalized time
 
 Where line count is meaningful:
 
@@ -289,7 +316,7 @@ Where line count is meaningful:
 
 This helps distinguish a slow process from a simply larger case.
 
-## 9.5 Rework
+## 10.5 Rework
 
 Possible outputs include:
 
@@ -299,7 +326,7 @@ and separately the total/representative active time spent on rework.
 
 Rework occurrence is a process/quality signal; rework time is additional quantitative workload.
 
-## 9.6 Interruptions
+## 10.6 Interruptions
 
 Possible output:
 
@@ -307,7 +334,7 @@ Possible output:
 
 Interruptions are reported separately as work-context constraints rather than added to a total workload score.
 
-## 9.7 Qualitative workload and expertise evidence
+## 10.7 Qualitative workload and expertise evidence
 
 Qualitative observations are summarized by recurring patterns, such as:
 
@@ -323,7 +350,7 @@ These are not converted into arbitrary numerical workload points during the expl
 
 ---
 
-# 10. Intended Measure-phase output
+# 11. Intended Measure-phase output
 
 The baseline should result in a task-level workload profile such as:
 
@@ -336,31 +363,39 @@ The baseline should result in a task-level workload profile such as:
 
 The purpose is to determine **where workload occurs and what kind of workload it is**, not to rank all tasks using one unvalidated composite score.
 
-This profile feeds the Analyze phase and final focal-activity selection together with business value, standardizability, data availability, quality risk, technical feasibility and required human expertise.
+This profile feeds the Analyze phase and final focal-activity selection together with business value, standardizability, quality risk, required human expertise and—after Measure—technical/data feasibility.
 
 ---
 
-# 11. Pilot validation before baseline freeze
+# 12. Pilot validation before baseline freeze
 
 Before full baseline collection, run a short pilot observation (approximately 1–2 hours) and check:
 
 - Can the observer keep up with the work without disrupting the buyer?
 - Are Task IDs recognizable enough with the cheat sheet?
 - Are Start/End boundaries usable for active processing time?
-- Are substantial task switches being separated correctly?
+- Are task switches being separated consistently enough?
 - Is `Volume` practical to record for the tasks where it matters?
 - Are important outcomes/deviations being lost?
 - Are notes remaining short enough for live use?
+- Is the `MISS` rate acceptably low?
+- Does the protocol capture routine work as well as unusual/interesting cases?
+- Are any fields creating confidentiality problems or unnecessary detail?
 
-If only minor changes are needed, revise the protocol once and freeze the baseline version before the larger measurement period.
+After the pilot:
+
+1. document what failed or was ambiguous;
+2. make only the changes required for reliable live use;
+3. define the final observation-window plan/coverage target;
+4. freeze the baseline version before larger-scale collection.
 
 ---
 
-# 12. Scope limitation
+# 13. Scope limitation
 
 This is the **exploratory Measure-phase protocol**, not the final evaluation protocol for the complete BEP.
 
-After the focal activity is selected, a second activity-specific protocol will define the exact inputs, quality criterion, performance measures and — if relevant — validated mental-workload instrument required to evaluate the proposed artifact.
+After the focal activity is selected, a second activity-specific protocol will define the exact inputs, quality criterion, performance measures and—if relevant—validated mental-workload instrument required to evaluate the proposed artifact.
 
 ---
 
