@@ -2,7 +2,7 @@
 
 **Status:** Canonical project definition, synchronized 26 August 2026.
 
-**Ownership:** This file defines what **workload** means in the BEP. Measurement procedure belongs in `Phase_1_Current_Methodology.md`; literature status belongs in `../../literature/README.md`.
+**Ownership:** This file defines what **workload** means in the BEP. Detailed live Measure-phase data-collection procedure belongs in `Measurement_Protocol_v1.0.md`; research/candidate decisions belong in `Phase_1_Current_Methodology.md`; literature status belongs in `../../literature/README.md`.
 
 ---
 
@@ -162,7 +162,7 @@ Where evidence concerns only one aspect, use the more precise term, for example:
 
 Do not claim that one task has greater **total workload** than another solely because it takes more time. Likewise, do not label a task high mental workload solely because it requires expertise.
 
-The specific indicators used during Measure and the evaluation measures used after the focal activity is selected are defined in `Phase_1_Current_Methodology.md` and may be refined as evidence develops.
+The specific exploratory Measure indicators and coding rules are defined in `Measurement_Protocol_v1.0.md`. After the focal activity is selected, the activity-specific evaluation protocol may introduce additional validated measures when justified.
 
 ---
 
