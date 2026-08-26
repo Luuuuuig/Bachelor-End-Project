@@ -1,48 +1,194 @@
-# Documentation Map — Bachelor End Project
+# Project Documentation Navigation — Bachelor End Project
 
-**Last synchronized:** 24 August 2026
+**Last synchronized:** 26 August 2026
 
-This folder follows a **one topic, one authoritative owner** rule. Other files should link to the owner instead of repeating the same current interpretation.
+Use this page as the main navigation map for the BEP repository. The purpose is to make it clear **where to look for each type of information** while preserving useful context instead of deleting it merely because related material exists elsewhere.
 
-## Current authoritative files
+---
 
-| Topic | Authoritative file | Owns |
+# 1. Quick navigation by question
+
+| If you want to know... | Go to... | Role |
 |---|---|---|
-| Final proposal | `proposal/BEP_Assignment_1BEPIEX_Final.docx` | Approved/current BEP assignment |
-| AS-IS operational process | `process/Process_Cleaned_V1.0.md` | Scope, workflow, evidence, Step / Task Register, unresolved current-process facts |
-| Research methodology and candidate selection | `methodology/Phase_1_Current_Methodology.md` | DMAIC/DSRM, measurement design, candidate portfolio, selection gates, evaluation logic, research actions |
-| Workload definition | `methodology/Workload_Definition.md` | Canonical workload construct based on Young et al. (2015) |
-| Formal company evidence | `company-documentation/Official_Document_Register_2026-08-21.md` | What received SOPs/forms/work instructions formally support |
-| TO-BE working hypothesis | `process/TO_BE_Working_Hypothesis_v0.1.md` | Provisional future-state architecture and technology-allocation logic |
-| Literature register | `../literature/README.md` | Literature list, use status and where each source supports the BEP |
+| What is the current academic project scope, objective and research question? | [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Current academic assignment / proposal |
+| What does the purchasing process currently look like in practice? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Current AS-IS operational master |
+| Which improvement areas are interesting and why? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Operational improvement-opportunity profiles and evidence context |
+| Which candidates are currently prioritized for the thesis and what gates determine selection? | [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md) | Authoritative candidate-selection and research-method status |
+| How is workload defined in the project? | [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md) | Canonical workload construct |
+| What formal purchasing SOPs / work instructions support the analysis? | [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md) | Formal-company-evidence register |
+| What could the future process look like? | [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md) | Provisional TO-BE hypothesis, not a selected final design |
+| Which literature is currently confirmed, likely or conditional? | [`../literature/README.md`](../literature/README.md) | Literature selection and source-role register |
+| What happened on a specific observation / meeting date? | [`meetings/`](meetings/) | Historical evidence snapshots |
+| Where are earlier exploratory notes and ideas? | [`research-notes/`](research-notes/) | Historical / supporting research material |
 
-## Historical evidence
+---
 
-### `meetings/`
+# 2. Current core documents
 
-Dated observation and meeting notes are historical snapshots. They may contain questions that were open on that date but have since been resolved. Do not rewrite them to match later knowledge.
+## A. Academic project definition
 
-### `research-notes/`
+### [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx)
+Use for the current formal project title, context, problem description, objective, provisional research question, sub-questions, research design and communication expectations.
 
-Earlier working material is retained for traceability but is not authoritative for current process, methodology, candidate status or open questions.
+This document should stay aligned with major methodology changes, but it does not need to contain every operational detail discovered during shadowing.
 
-## Synchronization rule
+---
 
-When new evidence arrives:
+## B. Current AS-IS process and operational evidence
 
-1. preserve the dated observation/meeting record as historical evidence;
-2. identify the **single authoritative owner** for the new fact;
-3. update that owner;
-4. update other files only when their own content genuinely changes;
-5. replace duplicated explanations with a reference to the authoritative file;
-6. remove resolved items from active open-question or decision-gate lists.
+### [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md)
+This is the main current-state purchasing document.
+
+It contains:
+
+- process scope;
+- evidence basis and evidence labels;
+- current AS-IS workflow;
+- detailed stage explanations;
+- Step / Task Register;
+- observed timing/evidence context;
+- improvement-opportunity profiles explaining why process areas are interesting;
+- current operational interpretation;
+- unresolved AS-IS facts.
+
+**Important:** this file may retain useful candidate/context explanations even when the authoritative candidate ranking itself lives in the methodology file. Operational reasoning should not be deleted merely to eliminate all overlap.
+
+### [`process/README.md`](process/README.md)
+Small navigation page for the process folder.
+
+### [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md)
+Contains the provisional future-state AUTO / REVIEW / MANUAL routing concept and technology-allocation logic.
+
+This is a **hypothesis**, not a conclusion from DMAIC Improve.
+
+---
+
+## C. Research methodology and case selection
+
+### [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md)
+This is the authoritative file for:
+
+- DMAIC and DSRM structure;
+- measurement design;
+- current candidate status;
+- case-selection gates;
+- technical/data feasibility questions;
+- evaluation logic by problem type;
+- immediate research actions.
+
+It determines whether a candidate is active, supporting, evidence-insufficient or deprioritized.
+
+### [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md)
+Canonical definition of workload for the BEP, currently based primarily on Young et al. (2015).
+
+It distinguishes mental workload from operational-effort indicators such as frequency, active processing time, elapsed time, interruptions and rework.
+
+---
+
+## D. Formal company evidence
+
+### [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md)
+Register and analytical summary of the received purchasing SOPs, supplier-control documents, article-management instruction and related company documentation.
+
+The proprietary source files themselves are not stored in the repository. This file records what the formal documentation supports and where operational practice goes beyond the level of detail of the SOP.
+
+---
+
+## E. Literature
+
+### [`../literature/README.md`](../literature/README.md)
+Literature is grouped by current likelihood of use:
+
+- **Confirmed use**;
+- **High chance to use**;
+- **Possible use when we know more**.
+
+### [`../literature/open-access/`](../literature/open-access/)
+Contains permitted open-access / author-posted papers already collected for the project.
+
+---
+
+# 3. Historical and supporting evidence
+
+## [`meetings/`](meetings/)
+Dated evidence should remain historically accurate and should **not be rewritten to match later understanding**.
+
+Current files include:
+
+- [`Academic_Supervisor_Meeting_Notes_2026-08-25.md`](meetings/Academic_Supervisor_Meeting_Notes_2026-08-25.md)
+- [`Internship_notes_2026-08-17.md`](meetings/Internship_notes_2026-08-17.md)
+- [`Internship_notes_2026-08-19.md`](meetings/Internship_notes_2026-08-19.md)
+- [`Internship_notes_2026-08-20.md`](meetings/Internship_notes_2026-08-20.md)
+- [`Internship_notes_2026-08-21.md`](meetings/Internship_notes_2026-08-21.md)
+- [`Meeting notes supervisor 2026-06-10.docx`](meetings/Meeting%20notes%20supervisor%202026-06-10.docx)
+
+Use these files when traceability matters: what was observed, stated or believed at a specific point in time.
+
+## [`research-notes/`](research-notes/)
+Contains earlier exploratory research material, including [`Bachelor_End_Project_Research_Notes.docx`](research-notes/Bachelor_End_Project_Research_Notes.docx).
+
+These notes can contain useful ideas, arguments and historical reasoning even when they are no longer the authoritative source for current project status.
+
+---
+
+# 4. Ownership without information loss
+
+The repository uses a **primary-owner** model, not a strict "delete all duplication" model.
+
+A topic should have one file that determines its **current authoritative status**, while other files may retain useful context when they serve a different purpose.
 
 Examples:
 
-- a newly understood Exact step → update the AS-IS process file;
-- a change in candidate priority → update the methodology file only;
-- a change in the workload construct → update `Workload_Definition.md`;
-- a new SOP/WI → update the formal-document register;
-- a revised future-state design → update the TO-BE hypothesis.
+- `Process_Cleaned_V1.5.md` can explain **why price checking is operationally interesting**; `Phase_1_Current_Methodology.md` determines whether price checking is currently a primary thesis candidate.
+- `Process_Cleaned_V1.5.md` can document the observed maximalisatie process; the methodology file owns the research questions and evidence gates for studying that process.
+- Meeting notes preserve what was known on the meeting date even when later evidence changes the current AS-IS master.
+- The company-document register explains what the SOP formally supports; the AS-IS file explains what people actually do operationally.
 
-This rule is intended to prevent the repository from drifting into multiple conflicting versions of the same project status.
+Useful evidence, interpretations and candidate profiles should therefore **not be removed simply because related material exists elsewhere**.
+
+---
+
+# 5. Update rules
+
+When new evidence arrives:
+
+1. preserve the dated observation/meeting note as historical evidence;
+2. update `Process_Cleaned_V1.5.md` when the current workflow, operational evidence, task inventory, operational interpretation or improvement-opportunity profile changes;
+3. update `Phase_1_Current_Methodology.md` when candidate priority, research design, measurement strategy, case-selection gates or evaluation logic changes;
+4. update `Workload_Definition.md` only when the theoretical workload construct or its canonical interpretation changes;
+5. update the company-document register when new formal SOP/WI evidence is received or reinterpreted;
+6. update the TO-BE file when the provisional future-state architecture changes;
+7. update the formal BEP assignment when a major research-scope change requires academic alignment;
+8. preserve useful context unless it is factually obsolete, contradicted by stronger evidence, confidentially inappropriate, or genuinely redundant without analytical value.
+
+---
+
+# 6. Current document flow
+
+```mermaid
+flowchart LR
+    OBS["Dated observations / meetings"]
+    SOP["Formal company documents"]
+    LIT["Literature"]
+
+    ASIS["Process_Cleaned_V1.5\nAS-IS + task register + opportunity profiles"]
+    METHOD["Phase_1_Current_Methodology\nmeasurement + candidate selection + gates"]
+    WL["Workload_Definition\ncanonical construct"]
+    TOBE["TO_BE_Working_Hypothesis\nprovisional future state"]
+    PROP["1BEPIEX / academic project definition"]
+
+    OBS --> ASIS
+    SOP --> ASIS
+    SOP --> METHOD
+    LIT --> WL
+    LIT --> METHOD
+    WL --> METHOD
+    ASIS --> METHOD
+    METHOD --> TOBE
+    METHOD --> PROP
+    TOBE -. "validated later through Measure/Analyze/Improve" .-> METHOD
+```
+
+The practical progression is:
+
+`historical evidence + formal evidence + literature → AS-IS / workload definition → Measure & Analyze → primary case selection → artifact / TO-BE design → evaluation → Control recommendations → final thesis`.
