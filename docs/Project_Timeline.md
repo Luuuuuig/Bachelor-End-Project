@@ -25,7 +25,9 @@
 gantt
     title Bachelor End Project — Hytech-Pommec
     dateFormat  YYYY-MM-DD
-    axisFormat  %d %b
+    axisFormat  %d-%m
+    tickInterval 1week
+    weekday monday
     excludes    weekends
 
     section DEFINE
@@ -37,46 +39,48 @@ gantt
 
     section MEASURE
     Pilot Measurement Protocol               :crit, m1, 2026-08-27, 1d
-    Pilot review and protocol freeze          :crit, m2, after m1, 2d
-    Exploratory baseline observation          :crit, m3, after m2, 8d
-    Clean/code data and create task summaries :crit, m4, after m3, 3d
-    Measure tollgate                          :milestone, crit, mm, after m4, 0d
+    Pilot review and protocol freeze         :crit, m2, after m1, 2d
+    Exploratory baseline observation         :crit, m3, after m2, 8d
+    Clean/code data and create task summaries:crit, m4, after m3, 3d
+    Measure tollgate                         :milestone, crit, mm, after m4, 0d
 
     section ACADEMIC DELIVERABLES
-    Half-page project description             :milestone, ad1, 2026-09-15, 0d
-    Plan of Work drafting                     :crit, ad2, 2026-09-07, 10d
-    Plan of Work draft to supervisor          :milestone, crit, ad3, 2026-09-20, 0d
-    Supervisor feedback and revision          :ad4, 2026-09-21, 5d
-    Final Plan of Work submission             :milestone, crit, ad5, 2026-09-27, 0d
+    Half-page project description            :milestone, ad1, 2026-09-15, 0d
+    Plan of Work drafting                    :crit, ad2, 2026-09-07, 10d
+    Plan of Work draft to supervisor         :milestone, crit, ad3, 2026-09-20, 0d
+    Supervisor feedback and revision         :ad4, 2026-09-21, 5d
+    Final Plan of Work submission            :milestone, crit, ad5, 2026-09-27, 0d
 
     section ANALYZE
-    Workload profile and candidate evidence   :crit, a1, after m4, 5d
-    Root-cause and candidate analysis          :crit, a2, after a1, 5d
-    Targeted Exact/Orbis feasibility           :crit, a3, after a1, 5d
-    Benchmark / ground-truth feasibility       :a4, after a1, 5d
-    Focal case selection and supervisor gate   :milestone, crit, a5, after a2 a3 a4, 0d
+    Workload profile and candidate evidence  :crit, a1, after m4, 5d
+    Root-cause and candidate analysis        :crit, a2, after a1, 5d
+    Targeted Exact/Orbis feasibility         :crit, a3, after a1, 5d
+    Benchmark / ground-truth feasibility     :a4, after a1, 5d
+    Focal case selection and supervisor gate :milestone, crit, a5, after a2 a3 a4, 0d
 
     section IMPROVE / DSRM
-    Artifact requirements and objectives       :crit, i1, after a5, 5d
-    Artifact / TO-BE design                    :crit, i2, after i1, 7d
-    Prototype / development                    :crit, i3, after i2, 15d
-    Demonstration and refinement               :i4, after i3, 5d
-    Evaluation protocol freeze                 :crit, i5, after i3, 5d
-    Artifact ready for evaluation              :milestone, crit, i6, after i4 i5, 0d
+    Artifact requirements and objectives     :crit, i1, after a5, 5d
+    Artifact / TO-BE design                  :crit, i2, after i1, 7d
+    Prototype / development                  :crit, i3, after i2, 15d
+    Demonstration and refinement             :i4, after i3, 5d
+    Evaluation protocol freeze               :crit, i5, after i3, 5d
+    Artifact ready for evaluation            :milestone, crit, i6, after i4 i5, 0d
 
     section EVALUATE
-    Evaluation / current-practice comparison   :crit, e1, after i6, 10d
-    Analyze evaluation results                 :crit, e2, after e1, 5d
-    Evaluation complete                        :milestone, crit, e3, after e2, 0d
+    Evaluation / current-practice comparison :crit, e1, after i6, 10d
+    Analyze evaluation results               :crit, e2, after e1, 5d
+    Evaluation complete                      :milestone, crit, e3, after e2, 0d
 
     section CONTROL AND THESIS
-    Control plan and implementation safeguards :c1, after e2, 5d
-    Conditional solution risk analysis / FMEA  :c2, after i2, 3d
-    Thesis writing and evidence integration    :t1, 2026-09-01, 2026-12-18
-    Integrate final evaluation results         :crit, t2, after e2, 7d
-    Final review / revisions / handover         :crit, t3, after t2, 7d
-    Company placement outer boundary           :milestone, crit, t4, 2027-01-07, 0d
+    Control plan and implementation safeguards:c1, after e2, 5d
+    Conditional solution risk analysis / FMEA:c2, after i2, 3d
+    Thesis writing and evidence integration  :t1, 2026-09-01, 2026-12-18
+    Integrate final evaluation results        :crit, t2, after e2, 7d
+    Final review / revisions / handover       :crit, t3, after t2, 7d
+    Company placement outer boundary          :milestone, crit, t4, 2027-01-07, 0d
 ```
+
+The axis deliberately uses the numeric format `DD-MM` rather than abbreviated month names. Some embedded Mermaid renderers can display `%b` literally instead of converting it to a month abbreviation. Weekly ticks start on Monday to keep the chart readable when imported into draw.io.
 
 ---
 
@@ -100,15 +104,24 @@ The 7 January 2027 milestone is an **outer contractual boundary, not a required 
 | **Analyze → Improve** | Focal activity selected based on workload, business relevance, standardizability, quality risk, expertise, technical/data feasibility and evaluation feasibility; supervisor aligned. |
 | **Improve → Control** | Artifact evaluated with predeclared workload + quality measures; implementation controls defined. |
 
-## How to edit visually in draw.io / diagrams.net
+## Recommended visual-editing workflow: draw.io / diagrams.net
+
+For this **Gantt chart**, draw.io is the preferred visual editor.
 
 1. Open **app.diagrams.net**.
 2. Create a new diagram and store it in Google Drive or OneDrive if you want a shareable collaborative file.
-3. Choose **Arrange → Insert → Advanced → Mermaid** (menu wording can vary slightly by draw.io version).
+3. Choose **Arrange → Insert → Mermaid** (or `+ → Mermaid`, depending on the editor version).
 4. Copy only the Mermaid code inside the fenced block above.
-5. Insert it as an editable **Diagram**, not as a static image.
-6. Adjust task labels, positions, sizing, styling and notes visually.
-7. Share the Drive/OneDrive diagram link with the supervisor.
+5. Keep the default **Diagram** option so the result is inserted as native draw.io shapes rather than a static SVG image.
+6. If the inserted diagram behaves as one locked Mermaid group, click the **unlock** icon or right-click and **Ungroup** when you want completely independent shape editing. Ungrouping removes the stored Mermaid source from that group, so keep the GitHub source as the canonical code version.
+7. Adjust labels, positions, sizing and styling visually.
+8. Share the Drive/OneDrive diagram link with the supervisor.
+
+### Lucidchart limitation for this Gantt
+
+Lucid can render Mermaid Gantt syntax, but Mermaid diagrams created through Lucid's **diagram-as-code / Mermaid editor** are rendered as an image and are edited by changing the code. Lucid also has a newer direct-paste feature that converts supported Mermaid elements into native Lucid shapes; however, unsupported elements/features are retained as static SVGs. In practice, a Gantt may therefore not become fully shape-editable even when the same Mermaid code renders correctly.
+
+For that reason, use **draw.io as the supervisor-facing visual master** for this Gantt rather than relying on Lucid for direct bar-by-bar editing.
 
 ### Important synchronization rule
 
