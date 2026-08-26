@@ -1,13 +1,15 @@
 # Phase 1 — Current Methodology and Case-Selection Status
 
-**Status:** Current research-method and case-selection source of truth, synchronized 24 August 2026.
+**Status:** Current research-method and case-selection source of truth, synchronized 26 August 2026.
 
-**Ownership:** This file owns the research framework, measurement design, candidate portfolio, selection gates, evaluation logic and current research actions.
+**Ownership:** This file owns the research framework, candidate portfolio, selection gates, evaluation logic and current research actions. Detailed workload theory and live Measure-phase collection rules are maintained in their dedicated files rather than duplicated here.
 
 Related sources:
 
+- Project control / DMAIC tollgates: `docs/Project_Charter.md`
 - AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.5.md`
 - Canonical workload definition: `docs/methodology/Workload_Definition.md`
+- Exploratory Measure protocol: `docs/methodology/Measurement_Protocol_v1.0.md`
 - Formal company evidence: `docs/company-documentation/Official_Document_Register_2026-08-21.md`
 - Working TO-BE hypothesis: `docs/process/TO_BE_Working_Hypothesis_v0.1.md`
 
@@ -19,6 +21,8 @@ The company-level objective is to reduce meaningful workload in operational purc
 
 The thesis-level objective is to select one high-value purchasing activity or coherent TO-BE process component and design and evaluate a digital or AI-supported artifact for that focus.
 
+The current business direction expects an **AI-supported contribution where a suitable activity can be justified**. This does not require every observed problem to receive an AI solution. Conventional process redesign, digital automation and quick wins remain valid company-level recommendations when they are a better fit.
+
 Selecting one thesis case does not remove other improvement opportunities from the wider company improvement portfolio.
 
 ---
@@ -29,9 +33,9 @@ Selecting one thesis case does not remove other improvement opportunities from t
 
 DMAIC structures improvement of the existing purchasing process:
 
-- **Define:** scope, stakeholders, AS-IS process and initial opportunity areas.
-- **Measure:** establish workload, frequency, case mix, complexity, rework, interruptions and relevant performance data.
-- **Analyze:** identify root causes, standardizability, constraints and which work should be eliminated, simplified, standardized, automated or supported.
+- **Define:** scope, stakeholders, AS-IS process, workload problem and initial opportunity areas.
+- **Measure:** establish a defensible multidimensional workload baseline across the operational process.
+- **Analyze:** identify root causes, standardizability, constraints and which work should be eliminated, simplified, standardized, automated or supported; then test technical/data feasibility for the shortlisted candidates.
 - **Improve:** design evidence-based TO-BE alternatives and develop the selected artifact.
 - **Control:** define KPIs, ownership, exception controls and implementation safeguards.
 
@@ -43,81 +47,115 @@ If a digital/AI artifact is developed, its design and evaluation follow DSRM:
 
 `problem identification → objectives → design/development → demonstration → evaluation → communication`
 
-DSRM mainly supports DMAIC's Improve stage.
+DSRM mainly supports DMAIC's Improve stage, while some problem/objective work naturally begins earlier as the focal case is defined.
 
-## Visualizations of DMAIC&DSRM
+## Visual relationship
 
 ```mermaid
 flowchart LR
     D["DEFINE\nAS-IS + scope + opportunities"]
-    M["MEASURE\nworkload + case mix + judgement"]
-    A["ANALYZE\nroot causes + standardizability"]
+    M["MEASURE\nmultidimensional workload baseline"]
+    A["ANALYZE\nroot causes + shortlist + technical feasibility"]
     I["IMPROVE\nTO-BE design + artifact"]
     C["CONTROL\nKPIs + exception controls"]
 
     D --> M --> A --> I --> C
 
-    DSRM["DSRM\nDesign / develop / demonstrate / evaluate artifact"]
-    DSRM -. "mainly inside Improve" .-> I
+    DSRM["DSRM\ndesign / develop / demonstrate / evaluate artifact"]
+    DSRM -. "primarily inside Improve" .-> I
 ```
 
 Within this structure:
 
 - `Process_Cleaned_V1.5.md` mainly supports **Define** and the transition into Measure;
-- Section 7 provides the opportunity portfolio to be tested in **Measure/Analyze**;
+- Section 4 below is the authoritative candidate-status portfolio to be tested by Measure/Analyze;
+- `Measurement_Protocol_v1.0.md` operationalizes the exploratory **Measure** phase;
 - `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
-- the final digital/AI artifact should be selected after the evidence supports a specific TO-BE intervention.
+- the final digital/AI artifact is selected only after the relevant Measure and Analyze gates are satisfied.
 
 ---
 
 ## CTA-informed elicitation
 
-Cognitive Task Analysis-informed questioning is used for tacit buyer expertise, especially the small-order/maximalisatie/hold sequence, suspicious-information recognition, exceptions and override reasoning. For small/non-urgent requirements, elicitation should capture how the buyer searches for additional same-supplier demand, what makes consolidation useful enough to proceed, when a requirement is held, and what later causes it to be reconsidered.
+Cognitive Task Analysis-informed questioning is used where buyer expertise is tacit, especially the small-order/maximalisatie/hold sequence, suspicious-information recognition, exceptions and override reasoning.
+
+For small/non-urgent requirements, elicitation should capture:
+
+- how the buyer searches for additional same-supplier demand;
+- what makes consolidation useful enough to proceed;
+- when a requirement is held;
+- what later causes it to be reconsidered;
+- which cues are explicit in data versus experience-based or undocumented.
+
+This is **CTA-informed elicitation**, not automatically a full standalone CTA study.
 
 ## Human-AI reliance
 
-Judge-Advisor System / reliance concepts remain conditional. They become relevant only if the final artifact gives advice that a buyer can accept, modify or reject.
+Judge-Advisor System / reliance concepts remain conditional. They become relevant only if the final artifact gives advice that a buyer can accept, modify or reject. They are not automatically required for pure administrative automation or discrepancy detection.
 
 ---
 
 # 3. Measure design
 
-Workload is interpreted according to **Young et al. (2015)** through `Workload_Definition.md`; the theoretical definition is not repeated here.
+The broad workload construct is defined in `Workload_Definition.md` and uses a layered structure:
 
-For relevant cases, record where practical:
+- **overall/occupational workload:** amount and difficulty of work, grounded primarily in Bowling & Kirkendall (2012);
+- **quantitative workload / organizational constraints:** conceptually supported by Spector & Jex (1998);
+- **mental workload:** treated specifically through Young et al. (2015);
+- **expertise dependence:** kept analytically separate from mental workload.
 
-`Task ID | Trigger | Order type | # lines | Active time | Elapsed time | Manual actions | Rework | Interruption/task switch | Judgement required | Uncertainty/exception | Experience/tacit knowledge needed | Output`
+The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Use the following measurement principles:
+Detailed live observation rules are owned by `Measurement_Protocol_v1.0.md`. The exploratory Measure phase records a multidimensional task profile using, where relevant:
 
-1. **Active processing time and elapsed time remain separate.** Week-1 timings are single-case elapsed observations, not representative averages.
-2. **Frequency × representative active time** can estimate operational effort volume for comparable tasks, but is not a total mental-workload score.
-3. For judgement-heavy tasks, capture **decision + cues + reason** rather than trying to time invisible cognition to the second.
-4. Transaction complexity should be retained where relevant, for example PO-line count, information sources, deviation count or exception type.
-5. Exploratory TO-BE case labels may be recorded as `Standard candidate`, `Review candidate`, `Manual / exception` or `Unknown`; these labels do not yet prove automation feasibility.
+- frequency;
+- active processing time;
+- case/line volume;
+- rework occurrence and time;
+- interruptions and task switching;
+- qualitative difficulty / uncertainty / exception evidence;
+- expertise dependence.
+
+For comparable recurring execution tasks:
+
+`operational time burden = frequency × representative active processing time`
+
+is a buyer-capacity indicator, not a total workload or mental-workload score.
+
+For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are more informative than artificial second-level timing.
+
+### Current Measure sequencing
+
+1. Pilot `Measurement_Protocol_v1.0.md` for approximately 1–2 hours on the next working day.
+2. Correct only the live-use problems revealed by the pilot.
+3. Freeze the baseline protocol and observation-window plan.
+4. Collect the broader task-level workload baseline.
+5. Move into Analyze after representative baseline evidence exists.
+
+**Exact/Orbis production-data/interface feasibility is intentionally not an immediate Measure-phase task.** It is deferred until after the exploratory workload baseline, when the shortlisted candidate(s) justify targeted technical investigation. This avoids delaying Measure with system-integration work before the workload evidence shows where that effort is most valuable.
 
 ---
 
 # 4. Current candidate portfolio
 
-This is the **only current candidate-status table**. The AS-IS process file retains all tasks even when they are not thesis candidates.
+Candidate names are used instead of reusable letter IDs so that a candidate cannot mean different things in different documents. The AS-IS process file may retain local profile labels for navigation, but this methodology file is authoritative for current thesis-candidate status.
 
 ## 4.1 Active primary-case candidates
 
 | Candidate | Current reason | Main evidence gates | Possible artifact direction |
 |---|---|---|---|
-| **A. Order timing & supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie. Small/non-urgent requirements can first trigger a search for additional same-supplier demand; holding is one possible outcome when useful consolidation is not currently available. | workload contribution, frequency, Exact/Orbis data availability, CTA decision rules, defensible benchmark | decision / information / optimization support |
-| **B. Purchase-price control** | Repeated manual verification with measurable discrepancy outcomes, both pre-PO and post-confirmation | frequency, line complexity, active time, deviation rate, attention demand, supplier/Exact data feasibility | automated retrieval/comparison, stale-price/deviation support |
-| **E. Standard/exception process redesign** | Promising process-level hypothesis if a meaningful share of cases is repeatable and safely classifiable | standard-case share, exception boundary, addressable workload, system/data feasibility, evaluation feasibility | exception-based workflow with rules/automation/AI where justified |
+| **Order timing / maximalisatie / supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie. Small/non-urgent requirements can first trigger a search for additional same-supplier demand; holding is one possible outcome when useful consolidation is not currently available. | Measure-phase workload contribution and frequency; CTA decision rules; after Measure: Exact/Orbis data feasibility and defensible benchmark | decision / information / optimization support |
+| **Purchase-price control** | Repeated manual verification with measurable discrepancy outcomes, both pre-PO and post-confirmation | Measure-phase frequency, line complexity, active time, deviation rate and verification demand; after Measure: supplier/Exact data feasibility | automated retrieval/comparison, stale-price/deviation support |
+| **Standard / review / manual process redesign** | Promising process-level hypothesis if a meaningful share of cases is repeatable and safely classifiable | standard-case share, addressable workload, exception boundary, quality/safety risk; after Measure: system/data feasibility and evaluation feasibility | exception-based workflow with rules/automation/AI where justified |
 
-The detailed AUTO / REVIEW / MANUAL future-state hypothesis is maintained only in `TO_BE_Working_Hypothesis_v0.1.md`.
+The detailed AUTO / REVIEW / MANUAL future-state hypothesis is maintained in `TO_BE_Working_Hypothesis_v0.1.md` and remains provisional.
 
 ## 4.2 Active but evidence-insufficient candidates
 
 | Candidate | Current position | Main evidence needed |
 |---|---|---|
-| **C. Request intake & validation** | Real information-quality/tacit-knowledge burden observed | frequency, investigation time, error types, business impact |
-| **D. Finance-returned rework** | Potentially avoidable rework / weak hand-off | return frequency, causes, investigation time, Finance detection method |
+| **Request intake & validation** | Real information-quality/tacit-knowledge burden observed | frequency, investigation time, error types, business impact |
+| **Finance-returned rework** | Potentially avoidable rework / weak hand-off | return frequency, causes, investigation time, Finance detection method |
 
 ## 4.3 Supporting improvement opportunities, not current primary thesis candidates
 
@@ -130,32 +168,40 @@ The detailed AUTO / REVIEW / MANUAL future-state hypothesis is maintained only i
 
 ### Supplier selection
 
-Supplier selection is removed from the active Arnold-focused portfolio. The operational buyer stated that suppliers are usually predetermined or selected elsewhere, and the formal ownership/control structure is documented in `Official_Document_Register_2026-08-21.md`.
+Supplier selection is removed from the active operational-buyer portfolio. The operational buyer stated that suppliers are usually predetermined or selected elsewhere, and the formal ownership/control structure is documented in `Official_Document_Register_2026-08-21.md`.
 
 It remains background procurement context, not a default operational-buyer workload case.
 
 ---
 
-# 5. Decision-critical gates before final case selection
+# 5. Decision gates before final case selection
 
-1. **Workload baseline:** which candidate contributes the most meaningful workload under the Young et al. framework as well as operational effort?
-2. **Case-mix baseline:** what share of relevant cases is standard, reviewable or genuinely manual/exceptional?
-3. **Exact/Orbis data availability:** which fields and histories are reliably accessible?
-4. **Exact `Advies` logic:** what determines advised quantities and how operationally relevant is it?
-5. **Small-order/maximalisatie/hold logic:** what rules, cues and trade-offs determine whether additional same-supplier demand is searched, which demand is useful to consolidate, whether the resulting order proceeds, and when a held requirement is reconsidered?
-6. **Price-control baseline:** frequency, active time, line complexity, deviation rate and verification demand.
-7. **Finance rework:** frequency, root causes and investigation burden.
-8. **Technical feasibility:** usable supplier-price sources and Exact/Orbis interfaces.
-9. **Standard-case boundary:** which case characteristics can be expressed reliably as rules, and which require AI or human judgement?
-10. **Exception safety:** can unusual/high-risk cases be detected before automatic execution?
-11. **Evaluation feasibility:** sufficient repeated cases, defensible reference/ground truth and participant access.
-12. **University-supervisor alignment:** confirm the final case and evaluation design before freezing artifact scope.
+## 5.1 Measure-phase evidence gates
 
-Unresolved facts about the **current process itself** are maintained in Section 5 of `Process_Cleaned_V1.5.md`, not duplicated here.
+1. **Workload baseline:** which activities contribute meaningful quantitative and/or qualitative workload rather than merely appearing interesting in isolated observations?
+2. **Frequency / case mix:** how often do relevant tasks and case types occur across the observed working periods?
+3. **Active processing time / volume:** for timed activities, what are the representative active-time distributions and how do they relate to line/case volume?
+4. **Rework and organizational constraints:** where do repeated work, interruptions, missing information or hand-off problems materially affect the buyer?
+5. **Expertise dependence:** which activities rely on tacit cues or experience that cannot yet be reproduced from explicit process rules/data?
+6. **Standard-case boundary:** what share of the observed work appears routine/standard versus review/manual/exceptional, without yet assuming automation feasibility?
+
+## 5.2 Analyze-phase feasibility gates — after Measure
+
+7. **Exact/Orbis data availability:** for the shortlisted candidate(s), which production fields, histories and interfaces are reliably accessible?
+8. **Exact `Advies` logic:** investigate only to the degree required by the shortlisted case.
+9. **Technical feasibility:** usable supplier-price sources, Exact/Orbis interfaces and integration constraints for the shortlisted candidate(s).
+10. **Benchmark / ground truth:** can a defensible reference be constructed before AI/artifact evaluation?
+11. **Exception safety / quality risk:** can high-risk or unusual cases be detected and controlled appropriately?
+12. **Evaluation feasibility:** sufficient repeated cases, measurable workload and quality outcomes, and participant/domain-expert access.
+13. **University-supervisor alignment:** confirm the final case and evaluation design before freezing artifact scope.
+
+Unresolved facts about the **current process itself** remain in `Process_Cleaned_V1.5.md` rather than being duplicated here.
 
 ---
 
 # 6. Evaluation logic by problem type
+
+The selected focal activity determines the final evaluation protocol and quality metric.
 
 ## Optimization / decision-support case
 
@@ -165,7 +211,7 @@ Possible measures:
 - constraint violations;
 - consistency;
 - active processing time;
-- workload change using measures consistent with Young et al.;
+- relevant workload measures from the selected activity;
 - human override/reasoning where relevant.
 
 ## Verification / detection case
@@ -177,7 +223,7 @@ Possible measures:
 - false positives/negatives;
 - deviations detected;
 - processing time;
-- workload change;
+- relevant workload change;
 - consistency.
 
 ## Exception-based automation / process-redesign case
@@ -194,19 +240,20 @@ Possible measures:
 - effect on remaining attention/judgement demand;
 - false-positive review burden.
 
-The selected problem type determines the final evaluation design. Processing-time reduction alone should not automatically be reported as mental-workload reduction.
+Processing-time reduction alone should not automatically be reported as mental-workload reduction. Likewise, the project should distinguish **potential/estimated workload reduction** from **realized operational reduction** if the artifact is evaluated only on standardized/historical cases rather than deployed live.
 
 ---
 
 # 7. Immediate research actions
 
-1. Collect structured baseline observations without timing every click.
-2. Obtain normal PO/line volumes and relevant historical fields from Exact where possible.
-3. Clarify Exact/Orbis access and `Advies` logic with IT.
-4. Continue CTA-informed elicitation around real small-order/maximalisatie/hold cases, including how same-supplier demand is searched and what triggers later reconsideration of a held requirement.
-5. Measure pre-PO and post-confirmation price control separately.
-6. Collect and categorize Finance-returned cases.
-7. Explore Standard / Review / Manual case classification without treating it as proven automation feasibility.
-8. Estimate addressable operational effort where appropriate while keeping it distinct from mental workload.
-9. Reassess the candidate portfolio against workload, standardizability, business value, data availability, evaluation quality, implementation risk and required human expertise.
-10. Select one primary thesis artifact with the university supervisor.
+1. Run the Measurement Protocol pilot on the next working day.
+2. Record pilot failures/ambiguities, revise once if needed and freeze the baseline protocol plus observation-window plan.
+3. Collect the exploratory workload baseline across the broader purchasing process without selectively observing only interesting candidate cases.
+4. Preserve pre-PO and post-confirmation price control as separate measurement categories.
+5. Continue CTA-informed notes around real maximalisatie/hold, request-validation and exception cases where tacit cues become visible.
+6. Collect and categorize Finance-returned rework when it occurs.
+7. Produce a task-level multidimensional workload profile and preliminary candidate shortlist at the end of Measure.
+8. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
+9. Reassess the candidate portfolio using workload evidence, business value, standardizability, quality risk, technical feasibility, evaluation quality and required human expertise.
+10. Confirm the selected focal case/evaluation design with the university supervisor before DSRM artifact development.
+11. Keep the Plan of Work skeleton aligned with this sequence and the supervisor milestones documented in the 25 August meeting notes.
