@@ -10,7 +10,7 @@ Use this page as the main navigation map for the BEP repository. The purpose is 
 
 | If you want to know... | Go to... | Role |
 |---|---|---|
-| What is the current academic project scope, objective and research question? | [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Current academic assignment / proposal |
+| What is the current academic project scope, objective and research question? | [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md) | Current academic assignment / proposal |
 | What does the purchasing process currently look like in practice? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Current AS-IS operational master |
 | Which improvement areas are interesting and why? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Operational improvement-opportunity profiles and evidence context |
 | Which candidates are currently prioritized for the thesis and what gates determine selection? | [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md) | Authoritative candidate-selection and research-method status |
@@ -27,8 +27,8 @@ Use this page as the main navigation map for the BEP repository. The purpose is 
 
 ## A. Academic project definition
 
-### [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx)
-Use for the current formal project title, context, problem description, objective, provisional research question, sub-questions, research design and communication expectations.
+### [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md)
+Use for the current formal project title, context, problem description, objective, provisional research question, sub-questions, research design and communication expectations. A Word version remains in the proposal folder for submission/use outside GitHub.
 
 This document should stay aligned with major methodology changes, but it does not need to contain every operational detail discovered during shadowing.
 
