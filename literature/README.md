@@ -20,11 +20,19 @@ The current literature does **not** justify inventing a composite equation such 
 
 ## Confirmed use
 
-### Process-improvement methodology: DMAIC
+### Process-improvement methodology: DMAIC / Six Sigma
+
+**de Mast, J., & Lokkerbol, J. (2012).** *An analysis of the Six Sigma DMAIC method from the perspective of problem solving*. *International Journal of Production Economics, 139*(2), 604–614. https://doi.org/10.1016/j.ijpe.2012.05.035
+
+**Use:** Primary peer-reviewed academic support for treating DMAIC as a structured problem-solving/improvement method and for explaining the logic of Define–Measure–Analyze–Improve–Control in the BEP.
+
+**Schroeder, R. G., Linderman, K., Liedtke, C., & Choo, A. S. (2008).** *Six Sigma: Definition and underlying theory*. *Journal of Operations Management, 26*(4), 536–554. https://doi.org/10.1016/j.jom.2007.06.007
+
+**Use:** Peer-reviewed background on Six Sigma as an organized process-improvement approach and its organizational structure. Useful for academic justification beyond practitioner manuals.
 
 **The Council for Six Sigma Certification. (2018).** *Six Sigma Green Belt Certification Training Manual*. June 2018 edition. https://www.sixsigmacouncil.org/wp-content/uploads/2018/09/Six-Sigma-Green-Belt-Certification-Training-Manual-CSSC-2018-06b.pdf
 
-**Use:** Supports DMAIC terminology and structure in `docs/methodology/Phase_1_Current_Methodology.md`.
+**Use:** Practitioner source for terminology and practical DMAIC structure. It should not be the sole academic justification for DMAIC in the thesis.
 
 ### Artifact design and evaluation: DSRM
 
