@@ -9,6 +9,7 @@ Use [`docs/README.md`](docs/README.md) as the **main project documentation navig
 Current core documents:
 
 - Project charter / DMAIC tollgates: [`docs/Project_Charter.md`](docs/Project_Charter.md)
+- Project timeline / Gantt: [`docs/Project_Timeline.md`](docs/Project_Timeline.md)
 - Current readable BEP assignment: [`docs/proposal/BEP_Assignment_1BEPIEX.md`](docs/proposal/BEP_Assignment_1BEPIEX.md)
 - Word submission/use copy: [`docs/proposal/BEP_Assignment_1BEPIEX_Final.docx`](docs/proposal/BEP_Assignment_1BEPIEX_Final.docx)
 - AS-IS operational process: [`docs/process/Process_Cleaned_V1.5.md`](docs/process/Process_Cleaned_V1.5.md)
@@ -24,5 +25,7 @@ Current core documents:
 The AS-IS and Define work are sufficiently developed to support structured Measure. The next field step is a short pilot of `Measurement_Protocol_v1.0.md`, followed by protocol freeze and exploratory baseline collection.
 
 Detailed Exact/Orbis production-data/interface feasibility is intentionally deferred until after the exploratory Measure phase, when Analyze can focus technical investigation on the shortlisted candidate(s).
+
+The Hytech-Pommec contract runs through **7 January 2027** as the outer company-placement boundary, while the project may conclude earlier if the required work is completed and agreed.
 
 Dated meeting/observation notes are retained as historical evidence. Earlier research notes are retained for traceability and useful reasoning even when they are not authoritative for current project status.
