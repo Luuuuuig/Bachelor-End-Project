@@ -2,7 +2,7 @@
 
 **Status:** Current lightweight Define-phase control document, synchronized 26 August 2026.
 
-This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology or measurement protocol; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
+This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
 
 ## Business problem
 
@@ -62,6 +62,12 @@ Quality remains a separate CTQ. The concrete quality metric will be defined for 
 - Exploratory Measurement Protocol v1.0 prepared for pilot.
 - Representative baseline frequencies and active processing times are not yet established.
 - Exact/Orbis production-data/interface feasibility has not yet been investigated in depth and is intentionally deferred until after exploratory Measure.
+
+## Time boundary
+
+- Company placement / Hytech-Pommec contract runs through **7 January 2027**.
+- This is the **outer contractual boundary**, not a mandatory finish date. The BEP/company work may conclude earlier if the required project activities are completed and this is agreed with the relevant academic/company parties.
+- Detailed sequencing and planning estimates are maintained in `Project_Timeline.md`.
 
 ## DMAIC tollgates
 
