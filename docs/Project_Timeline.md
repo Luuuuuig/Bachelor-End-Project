@@ -7,13 +7,14 @@
 ## Planning assumptions
 
 - Project start: **17 August 2026**.
+- Hytech-Pommec contract end / latest company-placement boundary: **7 January 2027**. The BEP/company work may finish earlier if the required project activities are completed and this is agreed with the relevant parties.
 - Current project state: **Define largely complete; exploratory Measure begins with the next-working-day pilot**.
 - Pilot: planned for **27 August 2026**; if the actual next working day changes, move this task and all dependent Measure tasks accordingly.
 - The baseline observation window below is **provisional**. The exact observation coverage/sample window must be frozen after the pilot according to `methodology/Measurement_Protocol_v1.0.md`.
 - Detailed Exact/Orbis production-data/interface feasibility is intentionally scheduled in **Analyze, after the exploratory Measure baseline**.
 - Supervisor milestones from the 25 August meeting are fixed: **15 September half-page project description; 20 September Plan of Work draft; 27 September final Plan of Work submission**.
 - Weekly academic supervision: **Thursday 15:00–16:00**, with agenda prepared/sent on Wednesday.
-- The **18 December project-completion target is provisional**, used only as a planning anchor for the roughly four-month project. Replace it when the official final BEP submission/presentation date is confirmed.
+- Durations after Measure are **planning estimates**, because the final artifact and evaluation design depend on the selected focal case.
 - FMEA is **not a mandatory timeline item**. A solution-risk analysis/FMEA is added during Improve/Control only if the selected intervention creates failure modes for which systematic risk prioritization is useful.
 
 ---
@@ -71,10 +72,10 @@ gantt
     section CONTROL AND THESIS
     Control plan and implementation safeguards :c1, after e2, 5d
     Conditional solution risk analysis / FMEA  :c2, after i2, 3d
-    Thesis writing and evidence integration    :t1, 2026-09-01, 2026-12-11
+    Thesis writing and evidence integration    :t1, 2026-09-01, 2026-12-18
     Integrate final evaluation results         :crit, t2, after e2, 7d
-    Final review and revisions                 :crit, t3, after t2, 7d
-    Project completion target - provisional    :milestone, t4, 2026-12-18, 0d
+    Final review / revisions / handover         :crit, t3, after t2, 7d
+    Company placement outer boundary           :milestone, crit, t4, 2027-01-07, 0d
 ```
 
 ---
@@ -83,9 +84,11 @@ gantt
 
 The main dependency chain is:
 
-`Pilot → Measurement protocol freeze → workload baseline → workload/candidate analysis → targeted Exact/Orbis feasibility → focal-case selection → artifact design/development → evaluation → final thesis integration`
+`Pilot → Measurement protocol freeze → workload baseline → workload/candidate analysis → targeted Exact/Orbis feasibility → focal-case selection → artifact design/development → evaluation → final thesis integration / handover`
 
 The Plan of Work is developed **in parallel** with Measure/Analyze and should be updated with the strongest evidence available at the time of each submission milestone.
+
+The 7 January 2027 milestone is an **outer contractual boundary, not a required finish date**. If the artifact, evaluation, thesis/handover obligations and academic/company agreements allow it, the project may conclude earlier.
 
 ## DMAIC tollgate interpretation
 
@@ -119,7 +122,8 @@ The following should be revised as evidence becomes available rather than treate
 - exact Analyze duration;
 - artifact-development duration (depends strongly on selected case);
 - evaluation duration and participant/case requirements;
-- final BEP completion/submission date;
+- whether the project finishes before the 7 January 2027 contractual boundary;
+- official final BEP submission/presentation date if different from the company contract;
 - whether FMEA is useful for the selected intervention.
 
-The fixed academic milestones currently known are the **15 / 20 / 27 September 2026** dates documented in the 25 August supervisor meeting notes.
+The fixed dates currently known are the **15 / 20 / 27 September 2026 academic milestones** documented in the 25 August supervisor meeting notes and the **7 January 2027 Hytech-Pommec contract end**.
