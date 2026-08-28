@@ -11,9 +11,12 @@ This folder contains the current and historical Measure-phase data-collection ma
 
 - [Measurement Protocol v1.0](Measurement_Protocol_v1.0.md) — pre-pilot protocol retained for traceability.
 
+## Pilot evidence
+
+- [Pilot Measure Observation — 28 August 2026](Pilot_Measure_Observation_2026-08-28.md) — pilot record that motivated the v1.1 measurement redesign.
+
 ## Related evidence
 
-- Pilot observation record: [Pilot Measure Observation — 28 August 2026](../meetings/Pilot_Measure_Observation_2026-08-28.md)
 - Workload construct: [Workload Definition](../methodology/Workload_Definition.md)
 - Research methodology / case selection: [Phase 1 Current Methodology](../methodology/Phase_1_Current_Methodology.md)
 - Detailed AS-IS task register: [Process Cleaned V1.5](../process/Process_Cleaned_V1.5.md)
