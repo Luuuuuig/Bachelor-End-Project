@@ -12,7 +12,7 @@ Related files:
 - Workload construct: `../methodology/Workload_Definition.md`
 - Current research methodology and candidate selection: `../methodology/Phase_1_Current_Methodology.md`
 - Detailed 31-task AS-IS register: `../process/Process_Cleaned_V1.5.md`
-- Pilot evidence: `../meetings/Pilot_Measure_Observation_2026-08-28.md`
+- Pilot evidence: `Pilot_Measure_Observation_2026-08-28.md`
 - Live observer cheat sheet: `Measure_Live_Cheat_Sheet_v1.1.md`
 
 ---
