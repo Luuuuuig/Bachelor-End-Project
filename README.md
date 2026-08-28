@@ -15,16 +15,16 @@ Current core documents:
 - AS-IS operational process: [`docs/process/Process_Cleaned_V1.5.md`](docs/process/Process_Cleaned_V1.5.md)
 - Research methodology and candidate selection: [`docs/methodology/Phase_1_Current_Methodology.md`](docs/methodology/Phase_1_Current_Methodology.md)
 - Canonical workload definition: [`docs/methodology/Workload_Definition.md`](docs/methodology/Workload_Definition.md)
-- Exploratory Measure protocol: [`docs/methodology/Measurement_Protocol_v1.0.md`](docs/methodology/Measurement_Protocol_v1.0.md)
+- Exploratory Measure protocol: [`docs/methodology/Measurement_Protocol_v1.1.md`](docs/methodology/Measurement_Protocol_v1.1.md)
 - Formal company-document evidence: [`docs/company-documentation/Official_Document_Register_2026-08-21.md`](docs/company-documentation/Official_Document_Register_2026-08-21.md)
 - TO-BE working hypothesis: [`docs/process/TO_BE_Working_Hypothesis_v0.1.md`](docs/process/TO_BE_Working_Hypothesis_v0.1.md)
 - Literature register: [`literature/README.md`](literature/README.md)
 
 ## Current phase
 
-The AS-IS and Define work are sufficiently developed to support structured Measure. The next field step is a short pilot of `Measurement_Protocol_v1.0.md`, followed by protocol freeze and exploratory baseline collection.
+The AS-IS and Define work are sufficiently developed to support structured Measure. The 28 August pilot has been completed and `Measurement_Protocol_v1.1.md` is frozen as the baseline-ready protocol. Official exploratory observations start from 31 August using broad live activity families with post-session detailed Task-ID enrichment.
 
-Detailed Exact/Orbis production-data/interface feasibility is intentionally deferred until after the exploratory Measure phase, when Analyze can focus technical investigation on the shortlisted candidate(s).
+Approved aggregated/system PO-volume information may supplement the observational baseline, but dashboard access is not required to start. Detailed Exact/Orbis production-data/interface feasibility remains deferred until after the exploratory Measure phase, when Analyze can focus technical investigation on the shortlisted candidate(s).
 
 The Hytech-Pommec contract runs through **7 January 2027** as the outer company-placement boundary, while the project may conclude earlier if the required work is completed and agreed.
 
