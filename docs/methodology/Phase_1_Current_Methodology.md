@@ -9,7 +9,7 @@ Related sources:
 - Project control / DMAIC tollgates: `docs/Project_Charter.md`
 - AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.5.md`
 - Canonical workload definition: `docs/methodology/Workload_Definition.md`
-- Exploratory Measure protocol: `docs/methodology/Measurement_Protocol_v1.0.md`
+- Exploratory Measure protocol: `docs/methodology/Measurement_Protocol_v1.1.md`
 - Formal company evidence: `docs/company-documentation/Official_Document_Register_2026-08-21.md`
 - Working TO-BE hypothesis: `docs/process/TO_BE_Working_Hypothesis_v0.1.md`
 
@@ -69,7 +69,7 @@ Within this structure:
 
 - `Process_Cleaned_V1.5.md` mainly supports **Define** and the transition into Measure;
 - Section 4 below is the authoritative candidate-status portfolio to be tested by Measure/Analyze;
-- `Measurement_Protocol_v1.0.md` operationalizes the exploratory **Measure** phase;
+- `Measurement_Protocol_v1.1.md` operationalizes the exploratory **Measure** phase;
 - `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
 - the final digital/AI artifact is selected only after the relevant Measure and Analyze gates are satisfied.
 
@@ -106,7 +106,7 @@ The broad workload construct is defined in `Workload_Definition.md` and uses a l
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Detailed live observation rules are owned by `Measurement_Protocol_v1.0.md`. The exploratory Measure phase records a multidimensional task profile using, where relevant:
+Detailed live observation rules are owned by `Measurement_Protocol_v1.1.md`. The exploratory Measure phase records a multidimensional task profile using, where relevant:
 
 - frequency;
 - active processing time;
@@ -126,10 +126,10 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 
 ### Current Measure sequencing
 
-1. Pilot `Measurement_Protocol_v1.0.md` for approximately 1–2 hours on the next working day.
-2. Correct only the live-use problems revealed by the pilot.
-3. Freeze the baseline protocol and observation-window plan.
-4. Collect the broader task-level workload baseline.
+1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
+2. The pilot-informed `Measurement_Protocol_v1.1.md` is frozen as the official baseline protocol.
+3. Collect the broader workload baseline from 31 August using broad live activity families plus post-session detailed Task-ID enrichment.
+4. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.
 5. Move into Analyze after representative baseline evidence exists.
 
 **Exact/Orbis production-data/interface feasibility is intentionally not an immediate Measure-phase task.** It is deferred until after the exploratory workload baseline, when the shortlisted candidate(s) justify targeted technical investigation. This avoids delaying Measure with system-integration work before the workload evidence shows where that effort is most valuable.
@@ -246,14 +246,15 @@ Processing-time reduction alone should not automatically be reported as mental-w
 
 # 7. Immediate research actions
 
-1. Run the Measurement Protocol pilot on the next working day.
-2. Record pilot failures/ambiguities, revise once if needed and freeze the baseline protocol plus observation-window plan.
-3. Collect the exploratory workload baseline across the broader purchasing process without selectively observing only interesting candidate cases.
-4. Preserve pre-PO and post-confirmation price control as separate measurement categories.
-5. Continue CTA-informed notes around real maximalisatie/hold, request-validation and exception cases where tacit cues become visible.
-6. Collect and categorize Finance-returned rework when it occurs.
-7. Produce a task-level multidimensional workload profile and preliminary candidate shortlist at the end of Measure.
-8. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
-9. Reassess the candidate portfolio using workload evidence, business value, standardizability, quality risk, technical feasibility, evaluation quality and required human expertise.
-10. Confirm the selected focal case/evaluation design with the university supervisor before DSRM artifact development.
-11. Keep the Plan of Work skeleton aligned with this sequence and the supervisor milestones documented in the 25 August meeting notes.
+1. Prepare the blank v1.1 live sheet, activity-family cheat sheet, running OBS case index and session-header area before the first official baseline session.
+2. Start official exploratory baseline observations on 31 August and sample normal operational-purchasing work rather than only interesting candidate cases.
+3. Complete post-session enrichment immediately after each block, mapping to detailed Task IDs only where evidence supports it.
+4. Record MISS, interruptions, J/EXP and recurring unmapped activities consistently; do not silently reconstruct missing information.
+5. Ask Johan for approved aggregated or exportable PO-volume information (for example PO count and PO-line count by week/month) as a supplement, not a prerequisite for observation.
+6. Preserve pre-PO and post-confirmation price control as separate analytical categories during enrichment.
+7. Continue CTA-informed notes around maximalisatie/hold, request validation, clarification and exception cases where tacit cues become visible.
+8. Collect and categorize Finance-returned rework/aftercare when it occurs, but do not calculate a live rework percentage without a matched denominator.
+9. Produce an activity-family multidimensional workload profile first, then detailed Task-ID analysis where mapping confidence and sample size justify it.
+10. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
+11. Reassess the candidate portfolio using workload evidence, business value, standardizability, quality risk, technical feasibility, evaluation quality and required human expertise.
+12. Confirm the selected focal case/evaluation design with the university supervisor before DSRM artifact development.
