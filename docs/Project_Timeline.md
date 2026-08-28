@@ -1,6 +1,6 @@
 # Project Timeline / Gantt — Bachelor End Project
 
-**Status:** Current planning draft, synchronized 26 August 2026.
+**Status:** Current planning draft, synchronized 28 August 2026.
 
 **Purpose:** This file is the project-planning companion to `Project_Charter.md`. It turns the current DMAIC/DSRM sequence, supervisor milestones and known dependencies into a shareable Gantt chart. The Mermaid source can be copied into draw.io / diagrams.net for visual editing.
 
@@ -8,9 +8,9 @@
 
 - Project start: **17 August 2026**.
 - Hytech-Pommec contract end / latest company-placement boundary: **7 January 2027**. The BEP/company work may finish earlier if the required project activities are completed and this is agreed with the relevant parties.
-- Current project state: **Define largely complete; exploratory Measure begins with the next-working-day pilot**.
-- Pilot: planned for **27 August 2026**; if the actual next working day changes, move this task and all dependent Measure tasks accordingly.
-- The baseline observation window below is **provisional**. The exact observation coverage/sample window must be frozen after the pilot according to `methodology/Measurement_Protocol_v1.0.md`.
+- Current project state: **Define largely complete; the Measure pilot is complete and the official exploratory baseline starts 31 August 2026**.
+- Pilot: completed on **28 August 2026**; pilot review and baseline protocol v1.1 freeze were completed the same day.
+- Official baseline observations begin **31 August 2026** under the frozen `methodology/Measurement_Protocol_v1.1.md`. The exact total number of observation days remains a pragmatic coverage decision and should be stopped/extended based on coverage rather than an unsupported fixed sample-size claim.
 - Detailed Exact/Orbis production-data/interface feasibility is intentionally scheduled in **Analyze, after the exploratory Measure baseline**.
 - Supervisor milestones from the 25 August meeting are fixed: **15 September half-page project description; 20 September Plan of Work draft; 27 September final Plan of Work submission**.
 - Weekly academic supervision: **Thursday 15:00–16:00**, with agenda prepared/sent on Wednesday.
@@ -38,9 +38,9 @@ gantt
     Define tollgate                          :milestone, done, dm, 2026-08-26, 0d
 
     section MEASURE
-    Pilot Measurement Protocol               :crit, m1, 2026-08-27, 1d
-    Pilot review and protocol freeze         :crit, m2, after m1, 2d
-    Exploratory baseline observation         :crit, m3, after m2, 8d
+    Pilot Measurement Protocol               :done, m1, 2026-08-28, 1d
+    Pilot review and protocol v1.1 freeze    :done, m2, 2026-08-28, 1d
+    Exploratory baseline observation         :crit, m3, 2026-08-31, 8d
     Clean/code data and create task summaries:crit, m4, after m3, 3d
     Measure tollgate                         :milestone, crit, mm, after m4, 0d
 
