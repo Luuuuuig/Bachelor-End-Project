@@ -7,7 +7,7 @@
 **Last recorded work episode:** 12:02
 **Observed time excluding break:** ≈113 minutes
 **Coded episode time:** ≈103 minutes
-**Purpose:** Pilot run of the live observation format defined in `../methodology/Measurement_Protocol_v1.0.md`.
+**Purpose:** Pilot run of the live observation format defined in `../measurement/Measurement_Protocol_v1.0.md`.
 
 ---
 
