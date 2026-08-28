@@ -41,7 +41,7 @@ gantt
     Pilot Measurement Protocol               :done, m1, 2026-08-28, 1d
     Pilot review and protocol v1.1 freeze    :done, m2, 2026-08-28, 1d
     Exploratory baseline observation         :crit, m3, 2026-08-31, 8d
-    Clean/code data and create task summaries:crit, m4, after m3, 3d
+    Clean/code data and create activity summaries:crit, m4, after m3, 3d
     Measure tollgate                         :milestone, crit, mm, after m4, 0d
 
     section ACADEMIC DELIVERABLES
@@ -100,7 +100,7 @@ The 7 January 2027 milestone is an **outer contractual boundary, not a required 
 |---|---|
 | **Define → Measure** | AS-IS stable enough, scope/workload construct defined, protocol ready for pilot. |
 | **Pilot → baseline** | Observation sheet usable; timing/task-switch rules workable; sampling/confidentiality rules frozen. |
-| **Measure → Analyze** | Representative task-level workload profile with observation coverage, sample sizes and limitations. |
+| **Measure → Analyze** | Representative activity-family workload profile, with detailed Task-ID enrichment where justified, plus observation coverage, sample sizes and limitations. |
 | **Analyze → Improve** | Focal activity selected based on workload, business relevance, standardizability, quality risk, expertise, technical/data feasibility and evaluation feasibility; supervisor aligned. |
 | **Improve → Control** | Artifact evaluated with predeclared workload + quality measures; implementation controls defined. |
 
