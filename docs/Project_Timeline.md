@@ -10,7 +10,7 @@
 - Hytech-Pommec contract end / latest company-placement boundary: **7 January 2027**. The BEP/company work may finish earlier if the required project activities are completed and this is agreed with the relevant parties.
 - Current project state: **Define largely complete; the Measure pilot is complete and the official exploratory baseline starts 31 August 2026**.
 - Pilot: completed on **28 August 2026**; pilot review and baseline protocol v1.1 freeze were completed the same day.
-- Official baseline observations begin **31 August 2026** under the frozen `methodology/Measurement_Protocol_v1.1.md`. The exact total number of observation days remains a pragmatic coverage decision and should be stopped/extended based on coverage rather than an unsupported fixed sample-size claim.
+- Official baseline observations begin **31 August 2026** under the frozen `measurement/Measurement_Protocol_v1.1.md`. The exact total number of observation days remains a pragmatic coverage decision and should be stopped/extended based on coverage rather than an unsupported fixed sample-size claim.
 - Detailed Exact/Orbis production-data/interface feasibility is intentionally scheduled in **Analyze, after the exploratory Measure baseline**.
 - Supervisor milestones from the 25 August meeting are fixed: **15 September half-page project description; 20 September Plan of Work draft; 27 September final Plan of Work submission**.
 - Weekly academic supervision: **Thursday 15:00–16:00**, with agenda prepared/sent on Wednesday.
