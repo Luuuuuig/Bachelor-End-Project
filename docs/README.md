@@ -19,6 +19,7 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 | Which candidates are currently prioritized and what gates determine selection? | [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md) | Authoritative candidate-selection and research-method status |
 | What does workload mean in this BEP? | [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md) | Canonical workload construct |
 | How will the exploratory Measure observations actually be collected? | [`methodology/Measurement_Protocol_v1.1.md`](methodology/Measurement_Protocol_v1.1.md) | Live observation, timing, sampling and data-governance protocol |
+| What should I keep beside me during live shadowing? | [`methodology/Measure_Live_Cheat_Sheet_v1.1.md`](methodology/Measure_Live_Cheat_Sheet_v1.1.md) | One-page activity codes, shorthand and live-use rules |
 | What formal purchasing SOPs / work instructions support the analysis? | [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md) | Formal-company-evidence register |
 | What could the future process look like? | [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md) | Provisional TO-BE hypothesis, not a selected final design |
 | Which literature is currently confirmed, likely or conditional? | [`../literature/README.md`](../literature/README.md) | Literature selection and source-role register |
@@ -130,7 +131,7 @@ It defines:
 - anonymized case-ID and confidentiality rules;
 - activity-family baseline outputs with detailed Task-ID analysis where justified.
 
-Version 1.1 is the frozen baseline-ready protocol for official observations from 31 August. Exact/Orbis technical feasibility is not required to start this Measure baseline.
+Version 1.1 is the frozen baseline-ready protocol for official observations from 31 August. Use [`Measure_Live_Cheat_Sheet_v1.1.md`](methodology/Measure_Live_Cheat_Sheet_v1.1.md) beside the live sheet. Exact/Orbis technical feasibility is not required to start this Measure baseline.
 
 ---
 
