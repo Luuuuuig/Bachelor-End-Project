@@ -20,7 +20,7 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 | What does workload mean in this BEP? | [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md) | Canonical workload construct |
 | How will the exploratory Measure observations actually be collected? | [`measurement/Measurement_Protocol_v1.1.md`](measurement/Measurement_Protocol_v1.1.md) | Live observation, timing, sampling and data-governance protocol |
 | What should I keep beside me during live shadowing? | [`measurement/Measure_Live_Cheat_Sheet_v1.1.md`](measurement/Measure_Live_Cheat_Sheet_v1.1.md) | One-page activity codes, shorthand and live-use rules |
-| Where are all Measure-phase collection materials kept? | [`measurement/`](measurement/) | Dedicated Measure folder with current/historical protocols and observer materials |
+| Where are all Measure-phase collection materials kept? | [`measurement/`](measurement/) | Dedicated Measure folder with current/historical protocols, pilot evidence and observer materials |
 | What formal purchasing SOPs / work instructions support the analysis? | [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md) | Formal-company-evidence register |
 | What could the future process look like? | [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md) | Provisional TO-BE hypothesis, not a selected final design |
 | Which literature is currently confirmed, likely or conditional? | [`../literature/README.md`](../literature/README.md) | Literature selection and source-role register |
@@ -134,6 +134,8 @@ It defines:
 
 Version 1.1 is the frozen baseline-ready protocol for official observations from 31 August. Use [`Measure_Live_Cheat_Sheet_v1.1.md`](measurement/Measure_Live_Cheat_Sheet_v1.1.md) beside the live sheet. Exact/Orbis technical feasibility is not required to start this Measure baseline.
 
+Pilot evidence is retained with the Measure materials in [`measurement/Pilot_Measure_Observation_2026-08-28.md`](measurement/Pilot_Measure_Observation_2026-08-28.md).
+
 ---
 
 ## E. Formal company evidence
@@ -167,7 +169,6 @@ Current files include:
 - [`Internship_notes_2026-08-19.md`](meetings/Internship_notes_2026-08-19.md)
 - [`Internship_notes_2026-08-20.md`](meetings/Internship_notes_2026-08-20.md)
 - [`Internship_notes_2026-08-21.md`](meetings/Internship_notes_2026-08-21.md)
-- [`Pilot_Measure_Observation_2026-08-28.md`](meetings/Pilot_Measure_Observation_2026-08-28.md)
 - [`Internship_notes_2026-08-28.md`](meetings/Internship_notes_2026-08-28.md)
 - [`Meeting notes supervisor 2026-06-10.docx`](meetings/Meeting%20notes%20supervisor%202026-06-10.docx)
 
