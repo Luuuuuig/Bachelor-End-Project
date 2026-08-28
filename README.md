@@ -15,7 +15,7 @@ Current core documents:
 - AS-IS operational process: [`docs/process/Process_Cleaned_V1.5.md`](docs/process/Process_Cleaned_V1.5.md)
 - Research methodology and candidate selection: [`docs/methodology/Phase_1_Current_Methodology.md`](docs/methodology/Phase_1_Current_Methodology.md)
 - Canonical workload definition: [`docs/methodology/Workload_Definition.md`](docs/methodology/Workload_Definition.md)
-- Exploratory Measure protocol: [`docs/methodology/Measurement_Protocol_v1.1.md`](docs/methodology/Measurement_Protocol_v1.1.md)
+- Exploratory Measure protocol: [`docs/measurement/Measurement_Protocol_v1.1.md`](docs/measurement/Measurement_Protocol_v1.1.md)
 - Formal company-document evidence: [`docs/company-documentation/Official_Document_Register_2026-08-21.md`](docs/company-documentation/Official_Document_Register_2026-08-21.md)
 - TO-BE working hypothesis: [`docs/process/TO_BE_Working_Hypothesis_v0.1.md`](docs/process/TO_BE_Working_Hypothesis_v0.1.md)
 - Literature register: [`literature/README.md`](literature/README.md)
