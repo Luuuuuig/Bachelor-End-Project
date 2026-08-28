@@ -20,6 +20,7 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 | What does workload mean in this BEP? | [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md) | Canonical workload construct |
 | How will the exploratory Measure observations actually be collected? | [`measurement/Measurement_Protocol_v1.1.md`](measurement/Measurement_Protocol_v1.1.md) | Live observation, timing, sampling and data-governance protocol |
 | What should I keep beside me during live shadowing? | [`measurement/Measure_Live_Cheat_Sheet_v1.1.md`](measurement/Measure_Live_Cheat_Sheet_v1.1.md) | One-page activity codes, shorthand and live-use rules |
+| Where are all Measure-phase collection materials kept? | [`measurement/`](measurement/) | Dedicated Measure folder with current/historical protocols and observer materials |
 | What formal purchasing SOPs / work instructions support the analysis? | [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md) | Formal-company-evidence register |
 | What could the future process look like? | [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md) | Provisional TO-BE hypothesis, not a selected final design |
 | Which literature is currently confirmed, likely or conditional? | [`../literature/README.md`](../literature/README.md) | Literature selection and source-role register |
