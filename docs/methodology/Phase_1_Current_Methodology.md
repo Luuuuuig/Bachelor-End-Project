@@ -9,7 +9,7 @@ Related sources:
 - Project control / DMAIC tollgates: `docs/Project_Charter.md`
 - AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.5.md`
 - Canonical workload definition: `docs/methodology/Workload_Definition.md`
-- Exploratory Measure protocol: `docs/methodology/Measurement_Protocol_v1.1.md`
+- Exploratory Measure protocol: `docs/measurement/Measurement_Protocol_v1.1.md`
 - Formal company evidence: `docs/company-documentation/Official_Document_Register_2026-08-21.md`
 - Working TO-BE hypothesis: `docs/process/TO_BE_Working_Hypothesis_v0.1.md`
 
@@ -69,7 +69,7 @@ Within this structure:
 
 - `Process_Cleaned_V1.5.md` mainly supports **Define** and the transition into Measure;
 - Section 4 below is the authoritative candidate-status portfolio to be tested by Measure/Analyze;
-- `Measurement_Protocol_v1.1.md` operationalizes the exploratory **Measure** phase;
+- `../measurement/Measurement_Protocol_v1.1.md` operationalizes the exploratory **Measure** phase;
 - `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
 - the final digital/AI artifact is selected only after the relevant Measure and Analyze gates are satisfied.
 
@@ -106,7 +106,7 @@ The broad workload construct is defined in `Workload_Definition.md` and uses a l
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Detailed live observation rules are owned by `Measurement_Protocol_v1.1.md`. The exploratory Measure phase records a multidimensional task profile using, where relevant:
+Detailed live observation rules are owned by `../measurement/Measurement_Protocol_v1.1.md`. The exploratory Measure phase records a multidimensional task profile using, where relevant:
 
 - frequency;
 - active processing time;
@@ -127,7 +127,7 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 ### Current Measure sequencing
 
 1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
-2. The pilot-informed `Measurement_Protocol_v1.1.md` is frozen as the official baseline protocol.
+2. The pilot-informed `../measurement/Measurement_Protocol_v1.1.md` is frozen as the official baseline protocol.
 3. Collect the broader workload baseline from 31 August using broad live activity families plus post-session detailed Task-ID enrichment.
 4. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.
 5. Move into Analyze after representative baseline evidence exists.
