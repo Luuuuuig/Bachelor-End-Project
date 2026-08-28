@@ -1,6 +1,6 @@
 # Phase 1 — Current Methodology and Case-Selection Status
 
-**Status:** Current research-method and case-selection source of truth, synchronized 26 August 2026.
+**Status:** Current research-method and case-selection source of truth, synchronized 28 August 2026.
 
 **Ownership:** This file owns the research framework, candidate portfolio, selection gates, evaluation logic and current research actions. Detailed workload theory and live Measure-phase collection rules are maintained in their dedicated files rather than duplicated here.
 
@@ -106,7 +106,7 @@ The broad workload construct is defined in `Workload_Definition.md` and uses a l
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Detailed live observation rules are owned by `../measurement/Measurement_Protocol_v1.1.md`. The exploratory Measure phase records a multidimensional task profile using, where relevant:
+Detailed live observation rules are owned by `../measurement/Measurement_Protocol_v1.1.md`. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
 
 - frequency;
 - active processing time;
