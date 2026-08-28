@@ -1,6 +1,6 @@
 # Project Documentation Navigation — Bachelor End Project
 
-**Last synchronized:** 26 August 2026
+**Last synchronized:** 28 August 2026
 
 Use this page as the main navigation map for the BEP repository. It shows **where to look for each type of information**, which file owns the current status, and where useful context is intentionally retained.
 
@@ -18,7 +18,7 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 | Which improvement areas are interesting and why? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Operational opportunity profiles and evidence context |
 | Which candidates are currently prioritized and what gates determine selection? | [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md) | Authoritative candidate-selection and research-method status |
 | What does workload mean in this BEP? | [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md) | Canonical workload construct |
-| How will the exploratory Measure observations actually be collected? | [`methodology/Measurement_Protocol_v1.0.md`](methodology/Measurement_Protocol_v1.0.md) | Live observation, timing, sampling and data-governance protocol |
+| How will the exploratory Measure observations actually be collected? | [`methodology/Measurement_Protocol_v1.1.md`](methodology/Measurement_Protocol_v1.1.md) | Live observation, timing, sampling and data-governance protocol |
 | What formal purchasing SOPs / work instructions support the analysis? | [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md) | Formal-company-evidence register |
 | What could the future process look like? | [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md) | Provisional TO-BE hypothesis, not a selected final design |
 | Which literature is currently confirmed, likely or conditional? | [`../literature/README.md`](../literature/README.md) | Literature selection and source-role register |
@@ -114,21 +114,23 @@ Canonical workload definition. The project currently uses:
 
 The project does not create an unvalidated composite `total workload` equation.
 
-### [`methodology/Measurement_Protocol_v1.0.md`](methodology/Measurement_Protocol_v1.0.md)
-Operationalizes the exploratory Measure phase.
+### [`methodology/Measurement_Protocol_v1.1.md`](methodology/Measurement_Protocol_v1.1.md)
+Operationalizes the exploratory Measure baseline after the 28 August pilot.
 
 It defines:
 
-- `TIME`, `TALLY`, `TIME IF` and `SYSTEM` rules for the 31 tasks;
+- broad live activity families (`REQ`, `CLAR`, `DEC`, `PO`, `CHECK`, `SEND`, `EXC`, `OTHER`);
+- `TIME`, `TALLY` and `TIME IF` rules at the live-coding level;
+- post-session mapping to the detailed 31-task register with confidence codes;
 - active processing time versus elapsed time;
-- task-switch/interruption boundaries;
-- observation-window and sampling principles;
-- `MISS` handling when live work cannot be fully coded;
+- interruption attribution, system-wait and non-purchasing-work rules;
+- separate `J` and `EXP` evidence;
+- observation-session headers, case-ID continuity and `MISS` handling;
+- small-sample safeguards and matched-denominator rules for rework;
 - anonymized case-ID and confidentiality rules;
-- task-level baseline outputs;
-- the 1–2 hour pilot and baseline-freeze procedure.
+- activity-family baseline outputs with detailed Task-ID analysis where justified.
 
-The pilot is the next fieldwork step. Exact/Orbis technical feasibility is not required to start this Measure baseline.
+Version 1.1 is the frozen baseline-ready protocol for official observations from 31 August. Exact/Orbis technical feasibility is not required to start this Measure baseline.
 
 ---
 
@@ -182,7 +184,7 @@ Examples:
 
 - `Process_Cleaned_V1.5.md` can explain **why price checking is operationally interesting**; `Phase_1_Current_Methodology.md` determines whether price checking is currently a primary thesis candidate.
 - `Process_Cleaned_V1.5.md` documents the maximalisatie process; the methodology file owns the research gates for selecting/studying it.
-- `Measurement_Protocol_v1.0.md` owns live data-collection rules; the methodology file owns why those measurements are needed for case selection.
+- `Measurement_Protocol_v1.1.md` owns live data-collection rules; the methodology file owns why those measurements are needed for case selection.
 - `Project_Timeline.md` owns the current planning sequence and dates; dated meeting notes remain the evidence source for agreed milestones.
 - Meeting notes preserve what was known on the meeting date even when later evidence changes the current AS-IS master.
 - The company-document register explains what the SOP formally supports; the AS-IS file explains what people actually do operationally.
@@ -201,7 +203,7 @@ When new evidence arrives:
 4. update `Process_Cleaned_V1.5.md` when the current workflow, operational evidence, task inventory, operational interpretation or opportunity profile changes;
 5. update `Phase_1_Current_Methodology.md` when candidate priority, research design, selection gates or evaluation logic changes;
 6. update `Workload_Definition.md` only when the theoretical workload construct changes;
-7. update `Measurement_Protocol_v1.0.md` when live observation/coding/sampling rules change; after baseline freeze, document deviations rather than silently rewriting rules;
+7. treat `Measurement_Protocol_v1.1.md` as the frozen official baseline protocol; after baseline freeze, document/version any necessary deviations rather than silently rewriting rules;
 8. update the company-document register when new formal SOP/WI evidence is received or reinterpreted;
 9. update the TO-BE file when the provisional future-state architecture changes;
 10. update the readable BEP assignment when a major research-scope/framing change requires academic alignment;
