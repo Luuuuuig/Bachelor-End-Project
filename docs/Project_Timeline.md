@@ -8,7 +8,7 @@
 
 - Project start: **17 August 2026**.
 - Hytech-Pommec contract end / latest company-placement boundary: **7 January 2027**. The BEP/company work may finish earlier if the required project activities are completed and this is agreed with the relevant parties.
-- Current project state: **Define largely complete; the Measure pilot is complete and the official exploratory baseline starts 31 August 2026**.
+- Current project state: **Define largely complete; the Measure pilot and first official baseline session are complete, and exploratory baseline collection is ongoing under v1.2**.
 - Pilot: completed on **28 August 2026**; v1.1 established the two-level architecture. The first official baseline session on **31 August 2026** led to the controlled v1.2 clarification for subsequent observations.
 - Official baseline observations began **31 August 2026**. Subsequent observation blocks use the controlled `measurement/Measurement_Protocol_v1.2.md`. The exact total number of observation days remains a pragmatic coverage decision and should be stopped/extended based on coverage rather than an unsupported fixed sample-size claim.
 - Detailed Exact/Orbis production-data/interface feasibility is intentionally scheduled in **Analyze, after the exploratory Measure baseline**.
@@ -89,7 +89,7 @@ The axis deliberately uses the numeric format `DD-MM` rather than abbreviated mo
 
 The main dependency chain is:
 
-`Pilot → Measurement protocol freeze → workload baseline → workload/candidate analysis → targeted Exact/Orbis feasibility → focal-case selection → artifact design/development → evaluation → final thesis integration / handover`
+`Pilot → first official baseline session → controlled v1.2 baseline → workload/candidate analysis → targeted Exact/Orbis feasibility → focal-case selection → artifact design/development → evaluation → final thesis integration / handover`
 
 The Plan of Work is developed **in parallel** with Measure/Analyze and should be updated with the strongest evidence available at the time of each submission milestone.
 
