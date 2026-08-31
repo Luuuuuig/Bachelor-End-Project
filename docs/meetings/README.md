@@ -16,3 +16,7 @@ For formal SOP/work-instruction evidence, use:
 For Measure protocols and observation evidence, use the dedicated `../measurement/` folder. Measurement observations are kept there rather than duplicated into dated meeting notes.
 
 Do not rewrite old notes to make them look as though later knowledge was already available at the time. Instead, synchronize new conclusions into the current master files above.
+
+Latest progress record:
+
+- `Internship_notes_2026-08-31.md` — first official Measure baseline, v1.2 clarification and repository synchronization.
