@@ -190,6 +190,8 @@ This is one of the clearest judgement-intensive parts of the process and remains
 
 The current working interpretation is that the buyer performs a **maximalisatie check as a standard part of processing each order**, rather than only for orders already classified as small/non-urgent.
 
+**31 August validation status:** this is a researcher-level AS-IS clarification based on the 31 August observation and subsequent process interpretation. It has **not yet been separately recorded as buyer-validated for every order**. The next baseline sessions should therefore explicitly check whether a MAX check is observable for each PO episode (Y / — / ?) before this universal-frequency interpretation is treated as fully validated.
+
 The sequence is:
 
 1. Check whether useful additional demand from the same supplier can be included.
