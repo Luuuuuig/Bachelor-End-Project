@@ -144,7 +144,7 @@ The observer confirmed that the observed activity content is confidently recalle
 | OBS-09 PO | PO | 17–19 | Mapped | C | PO preparation/release sequence. |
 | OBS-09 SEND | SEND | 23 | Mapped | C | PO forwarded. |
 | OBS-10 | CLAR / credit-card variant | — | U | C | One-time credit-card purchase route is a process variant outside the current register. |
-| OBS-11 | DEC + PO | 8–11 + 17? | Mapped/uncertain | ? | MAX attempt failed, initial HOLD intention, then order approximately one minute later for an unknown reason. Do not use as a clean decision-rule case. |
+| OBS-11 | DEC + PO | 7–8 + 10–11 + 17? | Mapped/uncertain | ? | MAX check found no useful addition, initial HOLD intention, then order approximately one minute later for an unknown reason. Task IDs reflect the 31 August AS-IS clarification; do not use this as a clean decision-rule case. |
 | OBS-12 REQ | REQ | 1 | Mapped | C | Exact-originated demand. |
 | OBS-12 PO | PO | 17–19 | Mapped | C | PO preparation/release sequence. |
 | OBS-12 SEND | SEND | 23 | Mapped | C | PO forwarded. |
@@ -152,7 +152,7 @@ The observer confirmed that the observed activity content is confidently recalle
 | OBS-13 | CLAR | 4 | Mapped | C | External and internal information request before case could continue. |
 | OBS-14 | DEC / credit-card variant | — | U | C | Credit-card route is outside current register. |
 | OBS-14 SEND | SEND | — | U | C | Informing colleague rather than standard supplier PO forwarding. |
-| OBS-15 | PO with MAX | 8–10 + 17 | Mapped | C | MAX and PO were seamless; 12 original lines became 16 after 4 lines were added. Five minutes is combined PO/MAX active time. |
+| OBS-15 | PO with MAX | 7–9 + 17 | Mapped | C | MAX and PO were seamless; 12 original lines became 16 after 4 lines were added. Five minutes is combined PO/MAX active time. Task IDs reflect the 31 August AS-IS clarification. |
 | OBS-15 SEND | SEND | 23 | Mapped | C | PO forwarded. |
 | OBS-16 PO | PO | 17–19 | Mapped | C | PO preparation/release sequence. |
 | OBS-16 SEND | SEND | 23 | Mapped | C | Corrected timing 13:34–13:35. |
@@ -162,5 +162,7 @@ The observer confirmed that the observed activity content is confidently recalle
 | OBS-07 afternoon | CLAR | 4 | Mapped | C | Clarification for item 3; case waiting for response. |
 
 ### Enrichment limitation
+
+The detailed MAX-related Task IDs in this enrichment were synchronized to the clarified 31 August AS-IS register (Task 7 = standard MAX check; Task 8 = useful-demand decision; Task 9 = combine; Tasks 10–11 = no-add order/hold logic). The original live rows remain historical observation evidence.
 
 The Task-ID ranges above describe the **best-supported detailed mapping from the notes**. Combined episodes are intentionally not split into artificial minute-level Task-ID durations. In particular, OBS-15 remains a combined MAX/PO episode, and OBS-11 remains uncertain.
