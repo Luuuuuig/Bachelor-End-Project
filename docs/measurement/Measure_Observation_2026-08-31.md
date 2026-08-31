@@ -91,14 +91,13 @@
 | OBS-01 | CLAR | 13:52 | 13:55 | — | 0 |  | Call back to colleague. Primer-C case; two small portions of Primer-C. |
 | OBS-01 | PO | 13:55 | 13:56 | — | 0 |  | Timing retained as originally recorded; overlaps OBS-16 CLAR and still requires boundary confirmation. |
 | OBS-16 | REQ-call | — | — | — | 0 |  |  |
-| OBS-16 | CLAR | 13:55 | 14:02 | — | 0 |  | Supplier call. There are old POs for which Finance has not paid. The supplier informed Arno that they therefore could not proceed with the OBS-16 order. Timing overlaps OBS-01 PO 13:55–13:56 and still requires boundary confirmation. |
+| OBS-16 | CLAR | 13:56 | 14:02 | — | 0 |  | Supplier call. There are old POs for which Finance has not paid. The supplier informed Arno that they therefore could not proceed with the OBS-16 order. |
 | OBS-16 | OTHER | 14:02 | 14:04 | — | 0 |  | Inform Finance |
 | OBS-07 | CLAR | 14:04 | 14:05 | — | 0 |  | Clarification needed for item 3; waiting for response. |
 
 ### Measurement-quality notes
 
 - No additional `MISS` events are asserted for the unexplained gaps. The observer does not recall a distinct harder-to-capture purchasing episode that should be reconstructed as MISS.
-- The remaining clock conflict is **OBS-01 PO 13:55–13:56 versus OBS-16 CLAR 13:55–14:02**. The activities are retained, but the precise boundary is unresolved and should not be double-counted in time totals until confirmed.
 - Blank `DEC?` cells in this day's raw observation are **not** coded as `No`; they mean the DEC flag was not recorded.
 
 ### Additional written notes
@@ -158,7 +157,7 @@ The observer confirmed that the observed activity content is confidently recalle
 | OBS-16 PO | PO | 17–19 | Mapped | C | PO preparation/release sequence. |
 | OBS-16 SEND | SEND | 23 | Mapped | C | Corrected timing 13:34–13:35. |
 | OBS-17 | EXC | — | U | C | Aftercare of a prior-week PO; no current detailed row cleanly represents the work. |
-| OBS-01 afternoon | CLAR + PO | 4 + 17 | Mapped | C | Primer-C clarification followed by PO action; clock boundary with OBS-16 remains unresolved. |
+| OBS-01 afternoon | CLAR + PO | 4 + 17 | Mapped | C | Primer-C clarification followed by PO action. |
 | OBS-16 supplier/Finance issue | CLAR + OTHER | — | U | C | Supplier blocked order because older POs were unpaid; Finance hand-off is related to, but not the same as, Task 30 Finance-returned rework. |
 | OBS-07 afternoon | CLAR | 4 | Mapped | C | Clarification for item 3; case waiting for response. |
 
