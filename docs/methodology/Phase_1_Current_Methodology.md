@@ -1,6 +1,6 @@
 # Phase 1 — Current Methodology and Case-Selection Status
 
-**Status:** Current research-method and case-selection source of truth, synchronized 28 August 2026.
+**Status:** Current research-method and case-selection source of truth, synchronized 31 August 2026.
 
 **Ownership:** This file owns the research framework, candidate portfolio, selection gates, evaluation logic and current research actions. Detailed workload theory and live Measure-phase collection rules are maintained in their dedicated files rather than duplicated here.
 
@@ -9,7 +9,7 @@ Related sources:
 - Project control / DMAIC tollgates: `docs/Project_Charter.md`
 - AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.5.md`
 - Canonical workload definition: `docs/methodology/Workload_Definition.md`
-- Exploratory Measure protocol: `docs/measurement/Measurement_Protocol_v1.1.md`
+- Exploratory Measure protocol: `docs/measurement/Measurement_Protocol_v1.2.md`
 - Formal company evidence: `docs/company-documentation/Official_Document_Register_2026-08-21.md`
 - Working TO-BE hypothesis: `docs/process/TO_BE_Working_Hypothesis_v0.1.md`
 
@@ -69,7 +69,7 @@ Within this structure:
 
 - `Process_Cleaned_V1.5.md` mainly supports **Define** and the transition into Measure;
 - Section 4 below is the authoritative candidate-status portfolio to be tested by Measure/Analyze;
-- `../measurement/Measurement_Protocol_v1.1.md` operationalizes the exploratory **Measure** phase;
+- `../measurement/Measurement_Protocol_v1.2.md` operationalizes the exploratory **Measure** phase;
 - `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
 - the final digital/AI artifact is selected only after the relevant Measure and Analyze gates are satisfied.
 
@@ -106,7 +106,7 @@ The broad workload construct is defined in `Workload_Definition.md` and uses a l
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Detailed live observation rules are owned by `../measurement/Measurement_Protocol_v1.1.md`. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
+Detailed live observation rules are owned by `../measurement/Measurement_Protocol_v1.2.md`. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
 
 - frequency;
 - active processing time;
@@ -127,8 +127,8 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 ### Current Measure sequencing
 
 1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
-2. The pilot-informed `../measurement/Measurement_Protocol_v1.1.md` is frozen as the official baseline protocol.
-3. Collect the broader workload baseline from 31 August using broad live activity families plus post-session detailed Task-ID enrichment.
+2. The first official baseline observation was completed on 31 August. It confirmed the two-level architecture but exposed structural clarifications around timed REQ, DEC as an embedded attribute, blank/zero conventions and seamless MAX/PO work.
+3. `../measurement/Measurement_Protocol_v1.2.md` is the controlled protocol for subsequent observations. Continue the broader workload baseline using case context, observable work families, decision attributes and post-session detailed Task-ID enrichment.
 4. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.
 5. Move into Analyze after representative baseline evidence exists.
 
@@ -144,7 +144,7 @@ Candidate names are used instead of reusable letter IDs so that a candidate cann
 
 | Candidate | Current reason | Main evidence gates | Possible artifact direction |
 |---|---|---|---|
-| **Order timing / maximalisatie / supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie. Small/non-urgent requirements can first trigger a search for additional same-supplier demand; holding is one possible outcome when useful consolidation is not currently available. | Measure-phase workload contribution and frequency; CTA decision rules; after Measure: Exact/Orbis data feasibility and defensible benchmark | decision / information / optimization support |
+| **Order timing / maximalisatie / supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie. The buyer performs a maximalisatie check as a standard part of order processing; useful same-supplier demand can be combined, while a remaining small/non-urgent order can be held when nothing useful is added. | Measure-phase workload contribution and frequency; CTA decision rules; after Measure: Exact/Orbis data feasibility and defensible benchmark | decision / information / optimization support |
 | **Purchase-price control** | Repeated manual verification with measurable discrepancy outcomes, both pre-PO and post-confirmation | Measure-phase frequency, line complexity, active time, deviation rate and verification demand; after Measure: supplier/Exact data feasibility | automated retrieval/comparison, stale-price/deviation support |
 | **Standard / review / manual process redesign** | Promising process-level hypothesis if a meaningful share of cases is repeatable and safely classifiable | standard-case share, addressable workload, exception boundary, quality/safety risk; after Measure: system/data feasibility and evaluation feasibility | exception-based workflow with rules/automation/AI where justified |
 
@@ -246,8 +246,8 @@ Processing-time reduction alone should not automatically be reported as mental-w
 
 # 7. Immediate research actions
 
-1. Prepare the blank v1.1 live sheet, activity-family cheat sheet, running OBS case index and session-header area before the first official baseline session.
-2. Start official exploratory baseline observations on 31 August and sample normal operational-purchasing work rather than only interesting candidate cases.
+1. Use the v1.2 live sheet and cheat sheet for subsequent baseline blocks, with the restricted case index recording Origin and Channel once per case.
+2. Continue official exploratory baseline observations after the completed 31 August first session and sample normal operational-purchasing work rather than only interesting candidate cases.
 3. Complete post-session enrichment immediately after each block, mapping to detailed Task IDs only where evidence supports it.
 4. Record MISS, interruptions, J/EXP and recurring unmapped activities consistently; do not silently reconstruct missing information.
 5. Ask Johan for approved aggregated or exportable PO-volume information (for example PO count and PO-line count by week/month) as a supplement, not a prerequisite for observation.
