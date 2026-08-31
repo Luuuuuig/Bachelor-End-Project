@@ -1,5 +1,7 @@
 # Measure Observation Notes — 31 August 2026
 
+## Morning observation
+
 **Observation window:** 10:30–12:27  
 **Recorded fields:** Case | Activity | Start | End | Volume | INT | DEC | Note
 
@@ -46,3 +48,35 @@
 | OBS-12 | SEND | 12:17 | 12:19 |  |  |  |  |
 | OBS-13 | REQ-Exact |  |  |  |  |  |  |
 | OBS-13 | CLAR | 12:19 | 12:20 |  |  |  | Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left. |
+
+## Afternoon observation
+
+**Observation window:** 13:16–14:12
+
+| Case | Activity | Start | End | Volume | INT | DEC | Note |
+|---|---|---:|---:|---:|---:|---|---|
+| OBS-12 | CHECK | 13:19 | 13:23 | 1L |  |  | Geen leverdatum |
+| OBS-09 | CHECK | 13:23 | 13:24 | 1L |  |  |  |
+| OBS-14 | REQ-Exact |  |  |  |  |  |  |
+| OBS-14 | DEC |  |  |  |  |  | Credit card |
+| OBS-14 | SEND | 13:25 | 13:26 |  |  |  | Inform colleague |
+| OBS-15 | REQ-Exact |  |  |  |  |  |  |
+| OBS-15 | DEC |  |  |  |  |  | MAX |
+| OBS-15 | PO | 13:26 | 13:31 | 16L |  |  | 12L original; 4L added; 16L total |
+| OBS-15 | SEND | 13:33 | 13:34 |  |  |  |  |
+| OBS-16 | REQ-Exact |  |  |  |  |  |  |
+| OBS-16 | PO | 13:32 | 13:33 | 4L |  |  | Order amount: €422 |
+| OBS-16 | SEND | 13:33 | 13:35 |  |  |  |  |
+| OBS-17 | EXC | 13:50 | 13:52 |  |  |  | Aftercare of a PO from last week |
+| OBS-01 | CLAR | 13:52 | 13:55 |  |  |  | Call back to colleague. Primer-C case; two small portions of Primer-C. |
+| OBS-01 | PO | 13:55 | 13:56 |  |  |  |  |
+| OBS-16 | REQ-call |  |  |  |  |  |  |
+| OBS-16 | CLAR | 13:55 | 14:02 |  |  |  | Supplier call. There are old POs for which Finance has not paid. The supplier informed Arno that they therefore could not proceed with the OBS-16 order. |
+| OBS-16 | OTHER | 14:02 | 14:04 |  |  |  | Inform Finance |
+| OBS-07 | CLAR | 14:04 | 14:05 |  |  |  | Clarification needed for item 3; waiting for response. |
+
+### Additional written notes
+
+- All POs were processed by approximately **13:38**.
+- Arno walked away from **13:38–13:40**.
+- No POs were being processed around **13:50**; additional checking of components in Exact was being done.
