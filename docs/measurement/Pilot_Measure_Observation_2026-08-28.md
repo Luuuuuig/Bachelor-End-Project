@@ -2,6 +2,8 @@
 
 **Status:** Pilot-observation record, Task-ID coding applied 28 August 2026.
 
+**Task-ID version warning:** Task IDs in this pilot follow the **pre-31-August 2026 Task 7–11 numbering**. On 31 August the maximalisatie block was clarified/reordered in `Process_Cleaned_V1.5.md`. In this pilot, `8–9` means the old MAX search/assessment steps and `Task 10` means the old combine step. Do **not** compare those numerals directly with 31 August or later enrichment without using the dated mapping in the AS-IS master.
+
 **Observation window:** 09:36–12:10
 **Break:** 10:02–10:35
 **Last recorded work episode:** 12:02
