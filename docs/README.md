@@ -13,7 +13,7 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 | What are the current project-control decisions, scope and DMAIC tollgates? | [`Project_Charter.md`](Project_Charter.md) | Lightweight project charter / control summary |
 | What is the current project schedule and Gantt? | [`Project_Timeline.md`](Project_Timeline.md) | DMAIC/DSRM timeline, dependencies, milestones and contract boundary |
 | What is the current academic project scope, objective and research question? | [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md) | Current readable academic project definition |
-| Where is the Word submission/use copy? | [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Binary Word copy retained for external use/submission |
+| Where is the older Word external/submission copy? | [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Historical binary copy; the Markdown assignment is authoritative for later repository synchronizations |
 | What does the purchasing process currently look like in practice? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Current AS-IS operational master |
 | Which improvement areas are interesting and why? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Operational opportunity profiles and evidence context |
 | Which candidates are currently prioritized and what gates determine selection? | [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md) | Authoritative candidate-selection and research-method status |
@@ -63,7 +63,7 @@ The Mermaid Gantt can be copied into draw.io / diagrams.net for visual editing a
 ### [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md)
 Use for the current readable project title, context, problem description, objective, provisional research question, sub-questions, research design and communication expectations.
 
-The Word file remains beside it as the external/submission copy. The Markdown version is the easier repository source to keep synchronized when framing changes.
+The older Word file remains beside it for external/submission history. The Markdown version is the authoritative readable repository source for later framing and methodology synchronizations.
 
 ---
 
@@ -121,16 +121,15 @@ Operationalizes the exploratory Measure baseline after the 28 August pilot.
 
 It defines:
 
-- broad live activity families (`REQ`, `CLAR`, `DEC`, `PO`, `CHECK`, `SEND`, `EXC`, `OTHER`);
-- `TIME`, `TALLY` and `TIME IF` rules at the live-coding level;
-- post-session mapping to the detailed 31-task register with confidence codes;
-- active processing time versus elapsed time;
-- interruption attribution, system-wait and non-purchasing-work rules;
-- separate `J` and `EXP` evidence;
-- observation-session headers, case-ID continuity and `MISS` handling;
-- small-sample safeguards and matched-denominator rules for rework;
-- anonymized case-ID and confidentiality rules;
-- activity-family baseline outputs with detailed Task-ID analysis where justified.
+- a restricted case-context index with separate Origin and Channel;
+- observable live work families (`REQ`, `CLAR`, standalone `DEC`, `PO`, `CHECK`, `SEND`, `EXC`, `OTHER`);
+- timed REQ intake when receiving/reading/listening/comprehending is itself meaningful work;
+- `DEC?` as an embedded decision attribute when judgement occurs inside another timed episode;
+- seamless MAX/PO handling, including `MAX=ADD`, `MAX=NONE` and order/hold outcomes without inventing pure decision time;
+- mandatory non-blank conventions for Start/End, Volume, INT and DEC?;
+- post-session mapping to the detailed 31-task register with `C/P/U/?`;
+- active processing time, interruption attribution, observer-unavailable time, system waiting and `MISS`;
+- small-sample safeguards, rework-denominator rules, confidentiality and a predeclared trigger for reviewing recurring unmapped work.
 
 Version 1.2 is the controlled baseline protocol for observations after the first official 31 August session. Use [`Measure_Live_Cheat_Sheet_v1.2.md`](measurement/Measure_Live_Cheat_Sheet_v1.2.md) beside the live sheet. Exact/Orbis technical feasibility is not required to start this Measure baseline.
 
@@ -249,4 +248,4 @@ flowchart LR
 
 Current practical progression:
 
-`Define / AS-IS → pilot → frozen Measure protocol → workload baseline → Analyze + targeted Exact/Orbis feasibility → focal case selection → DSRM artifact / TO-BE → evaluation → Control recommendations → final thesis / handover`
+`Define / AS-IS → pilot → first official baseline → controlled v1.2 baseline → workload profile → Analyze + targeted Exact/Orbis feasibility → focal case selection → DSRM artifact / TO-BE → evaluation → Control recommendations → final thesis / handover`
