@@ -339,6 +339,20 @@ This register is the structured **Task Inventory** for the current process. It i
 | 30 | If Finance returns an issue, buyer investigates the returned case | Buyer | C+B | **Single observation + Stated** | Observed practice / downstream control | Investigation time + root causes + information needed |
 | 31 | If supplier reports an unavailable component, handle the exception and preserve the unresolved purchasing need | Buyer | B+C | **Single observation** | Observed practice | How the unresolved need is tracked after removal |
 
+### 31 August 2026 Task 7–11 renumbering / reinterpretation note
+
+The maximalisatie block was clarified on 31 August 2026. **Historical observations coded before this date keep the Task IDs that were valid when they were recorded. Do not compare the numerals across the change without using this mapping.**
+
+| Pre-31-August Task ID | Pre-31-August meaning | Current Task ID / treatment |
+|---:|---|---|
+| 7 | Determine whether requirement is small/non-urgent or otherwise ready to proceed | **10** — now evaluated after an unsuccessful MAX check |
+| 8 | Check additional same-supplier demand for maximalisatie | **7** |
+| 9 | Determine whether useful same-supplier demand is available | **8** |
+| 10 | Combine useful same-supplier demand | **9** |
+| 11 | Hold when useful consolidation is not available | **11**, but wording now explicitly includes the alternative proceed outcome when the remaining order is not small/non-urgent |
+
+This is not only a cosmetic renumbering: Task 7 moved downstream and Tasks 10–11 were clarified to represent the **post-MAX no-add order/hold logic**. The 28 August pilot therefore remains coded in the pre-31-August numbering and must be translated through this table for later comparison.
+
 ### Cross-cutting interruptions
 
 Interruptions and task switching affect many rows rather than forming one sequential step. Their measurement and workload interpretation are defined in the methodology files.
