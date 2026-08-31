@@ -169,6 +169,7 @@ Current files include:
 - [`Internship_notes_2026-08-20.md`](meetings/Internship_notes_2026-08-20.md)
 - [`Internship_notes_2026-08-21.md`](meetings/Internship_notes_2026-08-21.md)
 - [`Internship_notes_2026-08-28.md`](meetings/Internship_notes_2026-08-28.md)
+- [`Internship_notes_2026-08-31.md`](meetings/Internship_notes_2026-08-31.md)
 - [`Meeting notes supervisor 2026-06-10.docx`](meetings/Meeting%20notes%20supervisor%202026-06-10.docx)
 
 Use these files when traceability matters: what was observed, stated or believed at a specific point in time.
