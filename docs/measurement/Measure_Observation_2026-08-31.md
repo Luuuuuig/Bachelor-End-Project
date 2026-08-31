@@ -53,7 +53,7 @@
 | OBS-11 | PO | 12:09 | 12:12 | — | 0 | Yes | MAX/PO episode. Initial decision was to leave it until tomorrow because the MAX attempt failed. About one minute later he returned and ordered it anyway; reason is unknown. |
 | OBS-11 | PO | — | — | — | 0 | Yes | Returned approximately one minute later and ordered after the earlier HOLD intention. Exact resumption time and reason were not captured; retained as an untimed known resumption. |
 | OBS-12 | REQ-Exact | — | — | — | 0 |  |  |
-| OBS-12 | PO | 12:15 | 12:17 | 1L |  | Yes | 1 line, purchase amount of €411 |
+| OBS-12 | PO | 12:15 | 12:17 | 1L | 0 | Yes | 1 line, purchase amount of €411 |
 | OBS-12 | SEND | 12:17 | 12:19 | — | 0 |  |  |
 | OBS-13 | REQ-Exact | — | — | — | 0 |  |  |
 | OBS-13 | CLAR | 12:19 | 12:20 | — | 0 |  | Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left. |
@@ -89,7 +89,7 @@
 | OBS-16 | SEND | 13:34 | 13:35 | — | 0 |  | Corrected from 13:33–13:35; original entry was a timing typo. |
 | OBS-17 | EXC | 13:50 | 13:52 | — | 0 |  | Aftercare of a PO from last week |
 | OBS-01 | CLAR | 13:52 | 13:55 | — | 0 |  | Call back to colleague. Primer-C case; two small portions of Primer-C. |
-| OBS-01 | PO | 13:55 | 13:56 | — | 0 |  | Timing retained as originally recorded; overlaps OBS-16 CLAR and still requires boundary confirmation. |
+| OBS-01 | PO | 13:55 | 13:56 | — | 0 |  | Timing retained as originally recorded. OBS-16 CLAR starts at 13:56, so there is no remaining overlap. |
 | OBS-16 | REQ-call | — | — | — | 0 |  |  |
 | OBS-16 | CLAR | 13:56 | 14:02 | — | 0 |  | Supplier call. There are old POs for which Finance has not paid. The supplier informed Arno that they therefore could not proceed with the OBS-16 order. |
 | OBS-16 | OTHER | 14:02 | 14:04 | — | 0 |  | Inform Finance |
@@ -98,6 +98,7 @@
 ### Measurement-quality notes
 
 - No additional `MISS` events are asserted for the unexplained gaps. The observer does not recall a distinct harder-to-capture purchasing episode that should be reconstructed as MISS.
+- **13:40–13:50 is not entered as a 10-minute timed CHECK episode.** The written note supports that component checking in Exact was occurring **around 13:50**, but it does not establish a reliable start time, case ID or continuous 10-minute duration. It is retained as known contextual purchasing work and excluded from timed-family totals rather than being fabricated as precise data or labelled MISS.
 - Blank `DEC?` cells in this day's raw observation are **not** coded as `No`; they mean the DEC flag was not recorded.
 
 ### Additional written notes
