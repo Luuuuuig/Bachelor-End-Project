@@ -34,7 +34,7 @@ Expertise dependence is also kept analytically separate from mental workload bec
 
 - Updated `literature/README.md` to reflect the revised workload and quality literature structure.
 - Updated `docs/methodology/Workload_Definition.md` so Young et al. is no longer treated as the governing definition of all workload.
-- Continued development/review of `docs/methodology/Measurement_Protocol_v1.0.md` for pilot use.
+- Continued development/review of `docs/measurement/Measurement_Protocol_v1.0.md` for pilot use.
 
 ## Status at end of day
 
