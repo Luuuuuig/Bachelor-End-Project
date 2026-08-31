@@ -1,6 +1,6 @@
 # BEP Assignment 1BEPIEX
 
-**Status:** Current readable repository version, synchronized 26 August 2026. The Word file in this folder is retained as the submission/use copy; this Markdown version is the easiest source to keep aligned with current project framing.
+**Status:** Current readable repository version, synchronized 31 August 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
 
 **Project title:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI  
 **Student:** Yijie Wang  
@@ -22,7 +22,7 @@ The operational purchasing process at Hytech-Pommec currently involves substanti
 
 Initial observations show that the workload does not come from one single problem. It consists of several types of work. Some activities are repetitive and administrative, such as manually creating purchasing lines, forwarding purchase orders to suppliers and updating information in Exact. Other activities involve manual verification, for example comparing current supplier prices with prices stored in Exact or checking supplier confirmations line by line. The buyer also performs judgement-intensive activities, such as deciding whether an item should be ordered immediately or whether the order can be postponed and combined with other demand. In addition, incomplete or suspicious purchasing requests may require the buyer to search through historical orders and use his own experience to determine whether the supplied information is plausible.
 
-The process is also affected by interruptions and rework. Purchasing requests can arrive through different channels, including Exact, email, screenshots or direct requests from colleagues. Cases can also be returned by Finance when a possible discrepancy is detected, requiring the buyer to investigate an order again. Furthermore, some system actions are important for preventing later problems. For example, purchased quantities need to be correctly assigned to the underlying project or production demand; otherwise the system may continue to regard the demand as unresolved, which can create a risk of duplicate purchasing.
+The process is also affected by interruptions and rework. Purchasing requests can arrive through different channels, including Exact, email, phone/desk contact, screenshots, direct requests from colleagues and occasionally letter/paper input. Cases can also be returned by Finance when a possible discrepancy is detected, requiring the buyer to investigate an order again. Furthermore, some system actions are important for preventing later problems. For example, purchased quantities need to be correctly assigned to the underlying project or production demand; otherwise the system may continue to regard the demand as unresolved, which can create a risk of duplicate purchasing.
 
 The main problem for the company is therefore that a substantial part of the operational buyer's workload is spent on manual information handling, repetitive checking, investigating exceptions and switching between different tasks. This primarily affects employees involved in the purchasing process, but inefficient purchasing can also indirectly affect production and projects when information is incorrect, purchasing decisions are delayed or unnecessary rework occurs.
 
@@ -55,7 +55,7 @@ Furthermore, one purchasing activity from the operational purchasing process wil
 
 This project uses **DMAIC** as the overall framework for improving the operational purchasing process at Hytech-Pommec. Define, Measure and Analyze are used to understand the current process, establish a workload baseline and identify the most suitable improvement opportunity.
 
-The exploratory Measure phase first uses structured live observation. Detailed Exact/Orbis production-data/interface feasibility work is intentionally deferred until after the workload baseline, when Analyze can target the shortlisted candidate(s) rather than investigating every possible technical route in advance.
+The exploratory Measure phase uses structured live observation under the controlled Measurement Protocol v1.2. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. The first official baseline observation was completed on 31 August. Case origin/channel, active processing time, interruptions, decision attributes, MAX outcomes and recurring unmapped work are retained without forcing artificial timing of invisible cognition. Detailed Exact/Orbis production-data/interface feasibility work remains intentionally deferred until after the workload baseline, when Analyze can target the shortlisted candidate(s) rather than investigating every possible technical route in advance.
 
 Within the **Improve** phase, **DSRM** is used to guide the design, development, demonstration and evaluation of the selected digital or AI-supported artifact. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
 
@@ -73,4 +73,4 @@ Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State o
 
 ---
 
-**Origin:** Markdown mirror created from the 26 August 1BEPIEX Word draft and subsequently synchronized with the repository's current workload and methodology framing.
+**Origin:** Markdown mirror created from the 26 August 1BEPIEX Word draft and subsequently synchronized through 31 August with the repository's current workload, Measure and methodology framing.
