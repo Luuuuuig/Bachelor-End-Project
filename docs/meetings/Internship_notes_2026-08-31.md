@@ -40,7 +40,9 @@ The AS-IS process was clarified to reflect the observed/current working interpre
 
 This replaces the earlier interpretation that maximalisatie was triggered only after the requirement had already been classified as small/non-urgent.
 
-The detailed Task Register remains 31 tasks, but Tasks 7–11 were clarified/reordered around this logic.
+**Basis / validation status:** this clarification is currently a researcher-level interpretation from the 31 August observation and subsequent process review; it is **not yet documented as universal buyer validation**. The next baseline sessions should test the prediction explicitly: for each PO episode, note in the existing Result/note field whether a MAX check was observed (`MAXOBS=Y`), not observed (`MAXOBS=—`), or uncertain (`MAXOBS=?`). This is a validation annotation inside the existing field, not a new protocol column or v1.3 revision.
+
+The detailed Task Register remains 31 tasks, but Tasks 7–11 were clarified/reordered around this logic. A dated old-to-new Task-ID mapping is maintained in `../process/Process_Cleaned_V1.5.md`, while the 28 August pilot keeps its historical pre-31-August IDs.
 
 ### Repository synchronization
 
@@ -65,9 +67,13 @@ Historical dated notes, v1.0/v1.1 measurement protocols, the formal-document reg
 - **Analyze:** not yet entered as the primary phase; wait for representative baseline evidence.
 - **Final focal thesis activity/artifact:** not yet selected.
 
+### Known measurement-model improvement — hold for next genuine revision
+
+The 31 August enrichment usefully separated **register status** (`Mapped` / `U`) from **mapping confidence** (`C` / `P` / `?`). Protocol v1.2 §2.4 still compresses these ideas into one C/P/U/? scale. The split is retained as a known improvement from use, but **no v1.3 is created for this alone**.
+
 ## Next actions
 
-1. Continue normal baseline observation with v1.2 across additional sessions/dayparts.
+1. Continue normal baseline observation with v1.2 across additional sessions/dayparts and record `MAXOBS=Y / — / ?` in the existing note field for each PO while the universal MAX-check interpretation is being validated.
 2. Enrich each observation block immediately while memory is fresh.
 3. Track MAX outcomes, decision attributes, clarification/exception work, interruptions, volume and recurring unmapped subtypes.
 4. Build the activity-family workload profile before ranking candidates.
