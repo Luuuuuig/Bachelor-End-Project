@@ -4,16 +4,19 @@ This folder contains the current and historical Measure-phase data-collection ma
 
 ## Current baseline materials
 
-- [Measurement Protocol v1.1](Measurement_Protocol_v1.1.md) — frozen baseline protocol after the 28 August 2026 pilot.
-- [Measure Live Cheat Sheet v1.1](Measure_Live_Cheat_Sheet_v1.1.md) — compact observer guide for official baseline observations from 31 August 2026.
+- [Measurement Protocol v1.2](Measurement_Protocol_v1.2.md) — controlled baseline protocol frozen 31 August 2026 after the first official observation.
+- [Measure Live Cheat Sheet v1.2](Measure_Live_Cheat_Sheet_v1.2.md) — compact observer guide for subsequent baseline observations.
 
-## Historical protocol
+## Historical protocols
 
+- [Measurement Protocol v1.1](Measurement_Protocol_v1.1.md) — pilot-informed protocol used to start the 31 August baseline; retained for traceability.
+- [Measure Live Cheat Sheet v1.1](Measure_Live_Cheat_Sheet_v1.1.md) — historical observer guide used before v1.2.
 - [Measurement Protocol v1.0](Measurement_Protocol_v1.0.md) — pre-pilot protocol retained for traceability.
 
-## Pilot evidence
+## Observation evidence
 
-- [Pilot Measure Observation — 28 August 2026](Pilot_Measure_Observation_2026-08-28.md) — pilot record that motivated the v1.1 measurement redesign.
+- [Pilot Measure Observation — 28 August 2026](Pilot_Measure_Observation_2026-08-28.md) — pilot record that motivated the v1.1 two-level measurement architecture.
+- [Measure Observation — 31 August 2026](Measure_Observation_2026-08-31.md) — first official baseline session; cleanup/enrichment and the documented evidence that motivated the controlled v1.2 clarification.
 
 ## Related evidence
 
