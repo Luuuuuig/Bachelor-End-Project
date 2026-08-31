@@ -11,7 +11,7 @@ Current core documents:
 - Project charter / DMAIC tollgates: [`docs/Project_Charter.md`](docs/Project_Charter.md)
 - Project timeline / Gantt: [`docs/Project_Timeline.md`](docs/Project_Timeline.md)
 - Current readable BEP assignment: [`docs/proposal/BEP_Assignment_1BEPIEX.md`](docs/proposal/BEP_Assignment_1BEPIEX.md)
-- Word submission/use copy: [`docs/proposal/BEP_Assignment_1BEPIEX_Final.docx`](docs/proposal/BEP_Assignment_1BEPIEX_Final.docx)
+- Older Word external/submission copy (not authoritative for later synchronizations): [`docs/proposal/BEP_Assignment_1BEPIEX_Final.docx`](docs/proposal/BEP_Assignment_1BEPIEX_Final.docx)
 - AS-IS operational process: [`docs/process/Process_Cleaned_V1.5.md`](docs/process/Process_Cleaned_V1.5.md)
 - Research methodology and candidate selection: [`docs/methodology/Phase_1_Current_Methodology.md`](docs/methodology/Phase_1_Current_Methodology.md)
 - Canonical workload definition: [`docs/methodology/Workload_Definition.md`](docs/methodology/Workload_Definition.md)
