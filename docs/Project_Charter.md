@@ -1,6 +1,6 @@
 # Project Charter — Operational Purchasing Workload Reduction
 
-**Status:** Current lightweight Define-phase control document, synchronized 26 August 2026.
+**Status:** Current lightweight project-control document, synchronized 31 August 2026.
 
 This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
 
@@ -27,7 +27,7 @@ Use DMAIC to establish the current process, workload baseline and improvement op
 
 ## In scope
 
-The operational purchasing process from purchasing need arising through `Bevestigd`, including the task families represented in the 31-task AS-IS register.
+The operational purchasing process from purchasing need arising through `Bevestigd`, represented by the current AS-IS workflow and 31-task detailed register. The Measure phase uses broader live work families and post-session Task-ID enrichment rather than forcing the detailed register into live coding.
 
 Define/Measure/Analyze cover the broader operational process. Improve/DSRM will focus deeply on **one selected primary activity or coherent process component**. Other supported opportunities remain company recommendations/quick wins rather than disappearing from scope.
 
@@ -55,13 +55,15 @@ Quality remains a separate CTQ. The concrete quality metric will be defined for 
 
 ## Current evidence state
 
-- AS-IS process mapped through `Bevestigd`.
-- 31-task register aligned with the workflow.
+- AS-IS process mapped through `Bevestigd` and synchronized through 31 August.
+- 31-task register aligned with the workflow; maximalisatie is clarified as a standard order-processing check before the downstream order/hold outcome.
 - Buyer walkthrough completed and formal SOP/WI evidence integrated.
 - Workload construct defined.
-- Exploratory Measurement Protocol v1.0 prepared for pilot.
-- Representative baseline frequencies and active processing times are not yet established.
-- Exact/Orbis production-data/interface feasibility has not yet been investigated in depth and is intentionally deferred until after exploratory Measure.
+- 28 August Measure pilot completed.
+- First official baseline observation completed on 31 August and post-session enrichment documented.
+- Measurement Protocol v1.2 is the controlled protocol for subsequent baseline observations.
+- Representative baseline frequencies and active processing-time distributions are still being established across additional sessions.
+- Exact/Orbis production-data/interface feasibility remains intentionally deferred until after exploratory Measure.
 
 ## Time boundary
 
@@ -73,19 +75,19 @@ Quality remains a separate CTQ. The concrete quality metric will be defined for 
 
 | Gate | Exit condition |
 |---|---|
-| **Define → Measure** | AS-IS sufficiently stable, scope/workload construct defined, measurement protocol ready for pilot. **Current status: passed provisionally.** |
-| **Measure pilot → baseline** | Pilot shows the observation sheet is usable; timing/task-switch rules are workable; confidentiality and sampling rules are clear; protocol is frozen. |
-| **Measure → Analyze** | Representative task-level workload evidence exists with documented observation coverage, sample sizes and limitations. |
+| **Define → Measure** | AS-IS sufficiently stable, scope/workload construct defined, measurement protocol ready for pilot. **Current status: passed.** |
+| **Measure pilot → baseline** | Pilot shows the observation sheet is usable; timing/task-switch rules are workable; confidentiality and sampling rules are clear; controlled protocol established. **Current status: passed; pilot completed 28 August and v1.2 controlled after the first official session on 31 August.** |
+| **Measure → Analyze** | Representative activity-family workload evidence exists, with detailed Task-ID enrichment where justified, plus documented observation coverage, sample sizes, unmapped work and limitations. |
 | **Analyze → Improve** | One focal activity is selected using workload contribution, business value, standardizability, quality risk, required expertise, evaluation feasibility and post-Measure technical/data feasibility. Supervisor alignment obtained. |
 | **Improve → Control** | Artifact/future-state intervention is evaluated against current practice using predeclared workload and quality measures; implementation safeguards/KPIs are defined. |
 
 ## Current priority
 
-1. Run the Measurement Protocol pilot on the next working day.
-2. Revise once if required and freeze the baseline protocol.
-3. Collect the exploratory workload baseline.
+1. Continue official baseline observations using Measurement Protocol v1.2 and the v1.2 live cheat sheet.
+2. Complete Task-ID enrichment immediately after each block and preserve `C/P/U/?`, MAX outcome, interruptions and measurement limitations.
+3. Build the activity-family workload profile across multiple sessions/dayparts and supplement it with approved aggregated PO/line-volume data where available.
 4. After Measure, investigate Exact/Orbis and other technical/data feasibility for the shortlisted candidate(s) during Analyze.
-5. Select the focal thesis artifact with supervisor alignment.
+5. Select the focal thesis activity/artifact only after the Measure/Analyze gates and supervisor alignment.
 
 ## Key control rule
 
