@@ -1,6 +1,6 @@
 # Operational Purchasing Current State — AS-IS master (V1.5)
 
-**Status:** Current operational-process source of truth, synchronized 26 August 2026.
+**Status:** Current operational-process source of truth, synchronized 31 August 2026.
 
 **Ownership:** This file describes the **current AS-IS purchasing process** and preserves the useful process context around it: workflow, detailed stage interpretation, evidence, task inventory, observed improvement-opportunity profiles and unresolved process facts. Formal research-method decisions and final candidate prioritization are maintained in their dedicated files.
 
@@ -22,9 +22,10 @@ Operational purchasing from the appearance of a purchasing need through `Bevesti
 - manual creation/transfer of externally supplied purchasing information into Exact;
 - validation of incoming information;
 - stock/demand assessment;
-- assessment of whether a requirement is ready to place or is a small/non-urgent candidate for maximalisatie;
-- maximalisatie / checking and consolidating demand from the same supplier;
-- holding/pausing a small requirement when useful consolidation is not currently possible;
+- maximalisatie / checking same-supplier demand as a standard step for each order;
+- consolidating useful additional same-supplier demand when available;
+- after an unsuccessful maximalisatie check, deciding whether the remaining order should proceed or be held based on size and urgency;
+- holding/pausing a small, non-urgent requirement when no useful additional same-supplier demand is available;
 - Exact `Advies` and `Toewijzen`;
 - pre-PO and post-confirmation price checking;
 - authorization and `Fiatteren`;
@@ -113,11 +114,11 @@ flowchart LR
     routeB --> create --> transfer --> validate
     validate -- "yes" --> assess
     validate -- "no / suspicious" --> investigate --> assess
-    assess --> smallQ
-    smallQ -- "no / ready to place" --> advice
-    smallQ -- "yes" --> maxCheck --> maxQ
+    assess --> maxCheck --> maxQ
     maxQ -- "yes" --> combine --> advice
-    maxQ -- "no" --> hold
+    maxQ -- "no" --> smallQ
+    smallQ -- "yes" --> hold
+    smallQ -- "no / urgent or large enough" --> advice
     hold -. "new demand / urgency changes" .-> maxCheck
     advice --> assign --> prePrice
     prePrice -- "yes" --> webPrice --> updatePrice --> prep
@@ -185,12 +186,20 @@ Before continuing with a purchase, the buyer considers information such as:
 
 This is one of the clearest judgement-intensive parts of the process and remains important for CTA-informed elicitation.
 
-## 4.4 Small-order maximalisatie and hold logic
+## 4.4 Maximalisatie and order/hold logic
 
-For a small/non-urgent requirement, the buyer first checks whether additional relevant demand from the same supplier can be included.
+The current working interpretation is that the buyer performs a **maximalisatie check as a standard part of processing each order**, rather than only for orders already classified as small/non-urgent.
 
-- If useful same-supplier demand is available, the buyer can combine that demand and continue purchasing.
-- If useful same-supplier demand is not currently available, the requirement can be held/paused until new demand appears or urgency changes.
+The sequence is:
+
+1. Check whether useful additional demand from the same supplier can be included.
+2. If useful same-supplier demand exists, combine the relevant demand and continue purchasing.
+3. If nothing useful can be added, assess the remaining order:
+   - **small + non-urgent** -> hold/pause the requirement;
+   - **small + urgent** -> proceed with the order;
+   - **not small / otherwise ready to place** -> proceed with the order.
+
+This means maximalisatie is a recurring **search + judgement + PO-adjustment subprocess**. In practice, maximalisatie and PO processing can happen seamlessly, so observational timing should not force an artificial split unless the boundary is clearly visible.
 
 One observed addition of another item during maximalisatie took approximately **4 minutes elapsed time**.
 
@@ -302,11 +311,11 @@ This register is the structured **Task Inventory** for the current process. It i
 | 4 | Validate supplied article / machine / service information | Buyer | B | **Observed** | Observed practice + WI article-management context | Frequency + error/incompleteness categories |
 | 5 | Search historical POs to resolve suspicious information when validation raises doubt | Buyer | B | **Observed; single case ~10–15 min elapsed** | Observed practice | Frequency + representative active time |
 | 6 | Assess stock, future demand, open POs, receipts, lead time and urgency | Buyer | B | **Observed + Formal high-level inputs** | Formal + observed practice | Data availability + relative importance of inputs |
-| 7 | Determine whether the requirement is small/non-urgent or otherwise ready to proceed | Buyer | B | **Observed** | Observed practice | Decision rules/cues + frequency by case type |
-| 8 | For a small/non-urgent requirement, check additional same-supplier demand for maximalisatie | Buyer | B+A | **Observed** | Observed practice | Search method, frequency, information sources + active time |
-| 9 | Determine whether useful same-supplier demand is currently available for consolidation | Buyer | B | **Observed** | Observed practice | Decision criteria for what counts as useful consolidation |
-| 10 | If useful demand is available, combine the relevant same-supplier demand and continue purchasing | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency + amount/value combined + representative active time |
-| 11 | If useful demand is not available, hold/pause the requirement until new demand or changed urgency | Buyer | B | **Observed** | Observed practice | Hold frequency + waiting duration + reconsideration trigger |
+| 7 | Check additional same-supplier demand for maximalisatie as part of normal order processing | Buyer | B+A | **Observed; process interpretation clarified 31 Aug** | Observed practice | Search method, frequency, information sources + active time |
+| 8 | Determine whether useful same-supplier demand is currently available for consolidation | Buyer | B | **Observed** | Observed practice | Decision criteria for what counts as useful consolidation |
+| 9 | If useful demand is available, combine the relevant same-supplier demand and continue purchasing | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency + amount/value combined + representative active time |
+| 10 | If nothing useful can be added, determine whether the remaining order is small and non-urgent | Buyer | B | **Observed; process interpretation clarified 31 Aug** | Observed practice | Decision rules/cues for size + urgency |
+| 11 | If the remaining order is small and non-urgent, hold/pause it; otherwise proceed with ordering | Buyer | B | **Observed; process interpretation clarified 31 Aug** | Observed practice | Hold frequency + proceed/hold outcome + reconsideration trigger |
 | 12 | Review Exact `Advies` and underlying demand | Buyer | B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Calculation logic + frequency + override behaviour |
 | 13 | `Toewijzen` purchased quantity to underlying project/production demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Miss/failure frequency + active-time split |
 | 14 | Determine whether proactive pre-PO price check is required | Buyer | V+B | **Observed + Stated** | Observed practice | Frequency + whether services are included |
@@ -342,11 +351,11 @@ These profiles are retained because they summarize why specific parts of the AS-
 
 Observed issues/opportunities include:
 
-- assessing whether a requirement is ready to place;
-- checking for additional same-supplier demand;
-- balancing urgency against small-order/MOQ/minimum-value considerations;
+- checking additional same-supplier demand as a standard part of order processing;
+- deciding whether useful additional demand should be combined;
+- when nothing can be added, balancing urgency against small-order/MOQ/minimum-value considerations;
 - interpreting current/future stock and open POs;
-- deciding whether to proceed or hold the requirement.
+- deciding whether the remaining order should proceed or be held.
 
 **Current profile:** Strong active thesis candidate because it is judgement-intensive and repeatedly observed, but feasibility depends heavily on Exact/Orbis data availability and whether the buyer's decision rules/tacit constraints can be represented defensibly.
 
@@ -506,9 +515,11 @@ Different problem types may therefore require different intervention mechanisms.
 
 Pre-PO price checking and post-confirmation price checking serve different purposes and should not be merged into one measurement category.
 
-## 11.3 Maximalisatie is an active decision/search activity, not merely a hold state
+## 11.3 Maximalisatie is a standard order-processing subprocess, not merely a hold state
 
-For a small/non-urgent requirement, the buyer checks whether additional same-supplier demand can be usefully consolidated. Holding is one possible outcome when sufficient consolidation is not currently available.
+The current working interpretation is that each order receives a maximalisatie check for useful additional same-supplier demand. If additional demand is available, it can be combined. If nothing useful can be added, the buyer then decides whether the remaining order is small and non-urgent enough to hold or should proceed because it is urgent or otherwise ready to order.
+
+Maximalisatie can therefore be embedded seamlessly within PO processing and should not automatically be treated as a separately timed activity in live observation.
 
 ## 11.4 `Advies` and `Toewijzen` should remain conceptually separate
 
