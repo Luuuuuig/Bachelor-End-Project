@@ -77,14 +77,14 @@ Within this structure:
 
 ## CTA-informed elicitation
 
-Cognitive Task Analysis-informed questioning is used where buyer expertise is tacit, especially the small-order/maximalisatie/hold sequence, suspicious-information recognition, exceptions and override reasoning.
+Cognitive Task Analysis-informed questioning is used where buyer expertise is tacit, especially the standard maximalisatie check and downstream order/hold logic, suspicious-information recognition, exceptions and override reasoning.
 
-For small/non-urgent requirements, elicitation should capture:
+For the maximalisatie/order-hold sequence, elicitation should capture:
 
 - how the buyer searches for additional same-supplier demand;
 - what makes consolidation useful enough to proceed;
-- when a requirement is held;
-- what later causes it to be reconsidered;
+- after an unsuccessful MAX check, what makes the remaining order proceed versus be held (including size and urgency);
+- what later causes a held requirement to be reconsidered;
 - which cues are explicit in data versus experience-based or undocumented.
 
 This is **CTA-informed elicitation**, not automatically a full standalone CTA study.
