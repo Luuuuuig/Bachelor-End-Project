@@ -28,7 +28,7 @@
 | OBS-04 | CHECK | 10:55 | 10:59 | 3L | 0 |  | 2L checked |
 | OBS-04 | SEND |  |  |  |  |  |  |
 | OBS-05 | CHECK | 10:59 | 11:02 | 3L | 0 |  |  |
-| OBS-05 | EXC | 11:51 | 11:53 | — | 0 |  | The Rqeuest was toegtehr with obs-04 so in the same request but 2 PO |
+| OBS-05 | EXC | 10:51 | 10:53 | — | 0 |  | The Rqeuest was toegtehr with obs-04 so in the same request but 2 PO |
 | OBS-06 | REQ-mail | — | — | — | 0 |  |  |
 | OBS-06 | CLAR | 11:03 | 11:04 | 1L | 0 | Yes | Onderhoud, so it is service |
 | OBS-06 | PO | 11:04 | 11:08 | 1L | 0 |  |  |
@@ -41,7 +41,7 @@
 | OBS-07 | OTHER | 11:35 | 11:37 | 1L | 0 |  | Attached info to article |
 | OBS-07 | CLAR | 11:37 | 11:39 | 1L | 0 | Yes | 2nd item that needs be inputted; asking question |
 | OBS-07 | CLAR | 11:39 | 11:43 | 1L | 1 |  | 2nd item, different comp. |
-| OBS-04 | EXC | 11:51 | 10:53 | 3L | 0 |  | aftercare |
+| OBS-04 | EXC | 11:51 | 11:53 | 3L | 0 |  | aftercare |
 | OBS-08 | REQ-Exact | — | — | — | 0 |  |  |
 | OBS-08 | PO | 11:54 | 11:55 | 1L | 1 | Yes | Buy order amount of €900 |
 | OBS-08 | SEND | 11:58 | 11:59 | — | 0 |  |  |
