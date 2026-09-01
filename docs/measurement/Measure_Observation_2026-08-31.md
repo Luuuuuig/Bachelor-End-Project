@@ -28,7 +28,7 @@
 | OBS-04 | CHECK | 10:55 | 10:59 | 3L | 0 |  | 2L checked |
 | OBS-04 | SEND |  |  |  |  |  |  |
 | OBS-05 | CHECK | 10:59 | 11:02 | 3L | 0 |  |  |
-| OBS-05 | EXC | 10:51 | 10:53 | — | 0 |  | The Rqeuest was toegtehr with obs-04 so in the same request but 2 PO |
+| OBS-05 | EXC | 10:51 | 10:53 | — | 0 |  | The Request was toegether with obs-04 so in the same request but 2 PO |
 | OBS-06 | REQ-mail | — | — | — | 0 |  |  |
 | OBS-06 | CLAR | 11:03 | 11:04 | 1L | 0 | Yes | Onderhoud, so it is service |
 | OBS-06 | PO | 11:04 | 11:08 | 1L | 0 |  |  |
@@ -60,9 +60,7 @@
 | OBS-13 | REQ-Exact | — | — | — | 0 |  |  |
 | OBS-13 | CLAR | 12:19 | 12:27 | — | 0 |  | Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left. |
 
-### Morning case-index note
 
-- **OBS-05 is intentionally absent from the timed episode table.** It referred to a case originating in the previous week. Arno performed only a very quick check/aftercare action (for example, copying the corresponding department). No meaningful active episode was timed, so no EXC duration is assigned and the case ID is retained only to explain the numbering gap.
 
 ## Afternoon observation
 
