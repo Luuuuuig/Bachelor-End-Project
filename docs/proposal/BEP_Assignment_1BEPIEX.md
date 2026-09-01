@@ -1,6 +1,6 @@
 # BEP Assignment 1BEPIEX
 
-**Status:** Current readable repository version, synchronized 31 August 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
+**Status:** Current readable repository version, synchronized 2 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
 
 **Project title:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI  
 **Student:** Yijie Wang  
@@ -26,19 +26,19 @@ The process is also affected by interruptions and rework. Purchasing requests ca
 
 The main problem for the company is therefore that a substantial part of the operational buyer's workload is spent on manual information handling, repetitive checking, investigating exceptions and switching between different tasks. This primarily affects employees involved in the purchasing process, but inefficient purchasing can also indirectly affect production and projects when information is incorrect, purchasing decisions are delayed or unnecessary rework occurs.
 
-The exact size and causes of the workload have not yet been fully quantified. The first phase of the project therefore focuses on mapping and measuring the current purchasing process in order to determine which activities create the most workload and which of these can realistically be improved through process redesign, automation, optimization or AI-supported decision support.
+The exact size and causes of the workload have not yet been fully quantified. The first phase therefore maps and measures the current process to determine which activities create the most workload and which can support a responsible, testable AI contribution. Conventional process redesign, rules and automation remain possible supporting components and company recommendations.
 
 ## Research question and objective
 
-The objective of this BEP is to identify where the main sources of workload occur within the operational purchasing process at Hytech-Pommec and to investigate how this workload can be reduced through process improvement and digital or AI-supported solutions, while preserving purchasing activities that require human expertise.
+The objective of this BEP is to identify where the main sources of workload occur within the operational purchasing process at Hytech-Pommec and to reduce this workload through a focal solution containing a meaningful AI-supported contribution, while preserving purchasing activities that require human expertise. Conventional automation and process redesign may support the artifact or remain separate recommendations. A non-AI focal artifact requires evidence that no candidate passes the responsible-AI/data/quality/evaluation gates and explicit company plus academic-supervisor approval.
 
-Furthermore, one purchasing activity from the operational purchasing process will be selected for design and evaluation. Selection is based on workload contribution, standardizability, business relevance, required human expertise, evaluation feasibility and—after the exploratory Measure phase—technical/data feasibility. The design, artifact and evaluation in this report address only that activity. The remaining activities are analysed in the workload measurement but are not developed further; improvement directions for them are reported as recommendations to Hytech-Pommec.
+Furthermore, one purchasing activity will be selected for design and evaluation. Candidates first pass non-compensable permission/data, ground-truth, risk-control, BEP-feasibility and meaningful-AI-fit gates. Surviving candidates are compared with literature-grounded, evidence-anchored criteria whose weights are agreed with project stakeholders and checked through sensitivity analysis. The design, artifact and evaluation address only the selected activity; other supported opportunities remain recommendations to Hytech-Pommec.
 
 ### Definitions
 
 **Workload.** In this project, operational buyer workload is the broad burden associated with carrying out operational purchasing work. Following Bowling and Kirkendall (2012), the project distinguishes the **amount of work** from the **difficulty of work** rather than defining workload through processing time alone. Observable indicators such as task frequency, active processing time, case volume and rework are used to describe quantitative work burden, while uncertainty, exceptions and problem solving provide qualitative difficulty evidence. **Mental workload** is treated as one specific component of this broader construct and is interpreted using Young et al. (2015). Expertise dependence and organizational constraints are kept analytically distinct where relevant. The exploratory Measure phase therefore produces a multidimensional workload profile rather than one unvalidated total-workload score.
 
-**Quality.** Quality refers to the extent to which the outcome of a purchasing activity fulfils the requirements relevant to that activity. Because these requirements differ between purchasing activities, the specific quality criterion and measurement approach will be defined after the focal activity has been selected.
+**Quality.** Quality refers to the extent to which the outcome of a purchasing activity fulfils the requirements relevant to that activity. The specific rubric is defined after focal-case selection, but success is always conjunctive: the predeclared workload endpoint must improve by at least a meaningful threshold and the final human-approved outcome must pass its quality guardrail. The case-specific threshold, comparator, rubric and acceptable minor-error margin are frozen before artifact development/formal testing.
 
 ### Provisional research question
 
@@ -55,9 +55,9 @@ Furthermore, one purchasing activity from the operational purchasing process wil
 
 This project uses **DMAIC** as the overall framework for improving the operational purchasing process at Hytech-Pommec. Define, Measure and Analyze are used to understand the current process, establish a workload baseline and identify the most suitable improvement opportunity.
 
-The exploratory Measure phase uses structured live observation under the controlled Measurement Protocol v1.2. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. The first official baseline observation was completed on 31 August. Case origin/channel, active processing time, interruptions, decision attributes, MAX outcomes and recurring unmapped work are retained without forcing artificial timing of invisible cognition. Detailed Exact/Orbis production-data/interface feasibility work remains intentionally deferred until after the workload baseline, when Analyze can target the shortlisted candidate(s) rather than investigating every possible technical route in advance.
+The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Two official baseline days are complete: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net / 162 timed coded-active minutes), totaling **351 net observed minutes** and **265 timed coded-active minutes**. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. The current target is five distinct observation days followed by a coverage review; five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
 
-Within the **Improve** phase, **DSRM** is used to guide the design, development, demonstration and evaluation of the selected digital or AI-supported artifact. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
+Within the **Improve** phase, **DSRM** guides design, development, demonstration and evaluation of the selected AI-supported artifact. Before development/formal testing, the project freezes the primary workload endpoint (normally active human handling time per eligible case/line), meaningful-improvement threshold and final-human-outcome quality guardrail. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
 
 In this way, DMAIC structures the overall process-improvement project, while DSRM provides the detailed artifact-development and evaluation structure within the Improve phase.
 
@@ -73,4 +73,4 @@ Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State o
 
 ---
 
-**Origin:** Markdown mirror created from the 26 August 1BEPIEX Word draft and subsequently synchronized through 31 August with the repository's current workload, Measure and methodology framing.
+**Origin:** Markdown mirror created from the 26 August 1BEPIEX Word draft and subsequently synchronized through 2 September with the repository's current workload, Measure and methodology framing.

@@ -135,7 +135,7 @@ Only context supported by the notes is asserted. `Unknown` is used rather than i
 | OBS-24 | PO | 14:09 | 14:11 | — | 0 | Y | `MAXOBS=Y; MAX=?; HOLD`. MAX occurred, but ADD/NONE result was not separately captured. |
 | OBS-26 | PO | 14:11 | 14:12 | — | 0 | Y | `MAXOBS=Y; MAX=?; HOLD`. |
 | OBS-29 | PO | 14:12 | 14:17 | 7L | 1 | Y | `MAXOBS=Y; MAX=ADD; 5L original; +2L; 7L total`. Final ORD/HOLD outcome not captured. Interruption recorded; subtype not captured. |
-| OBS-27 | PO | 14:17 | 14:19 | 27L | 0 | Y | `MAXOBS=Y; MAX=ADD; 23L original; +4L; HOLD`. Preserve as observed; ADD+HOLD does not cleanly fit the current working MAX logic and requires later clarification. |
+| OBS-27 | PO | 14:17 | 14:19 | 27L | 0 | Y | `MAXOBS=Y; MAX=ADD; 23L original; +4L; HOLD`. Preserve as observed. This supports the clarified AS-IS rule that post-MAX HOLD/ORD is assessed whether or not demand was added; the specific HOLD cues were not captured. |
 | OBS-30 | PO | 14:20 | 14:21 | 15L | 0 | Y | `MAXOBS=Y; 8L original; 15L total; HOLD`. Recorded totals imply added demand, but the exact MAX result was not separately written; verify before coding `MAX=ADD`. |
 
 ### Afternoon written-note boundary
@@ -189,7 +189,7 @@ For comparability with the 31 August enrichment, **register status** is kept sep
 | OBS-26 initial PO | PO | 17–19 | Mapped | P | PO creation. |
 | OBS-26 MAX/HOLD | PO | 7–8 + 10–11 | Mapped | P | MAX observed; result not separately captured. |
 | OBS-27 initial PO | PO | 17–19 | Mapped | P | PO creation. |
-| OBS-27 MAX/add/HOLD | PO | 7–9 + 11? | Mapped/uncertain | ? | +4 lines and HOLD both recorded; preserve contradiction to working logic for clarification. |
+| OBS-27 MAX/add/HOLD | PO | 7–11 + 17? | Mapped/uncertain | P | +4 lines and HOLD were both recorded. ADD+HOLD is consistent with the clarified post-MAX AS-IS sequence; exact HOLD cues and boundaries remain uncertain. |
 | OBS-28 | PO | 17–19 | Mapped | P | PO creation. |
 | OBS-29 | PO with MAX | 7–9 + 17 | Mapped | C | 5 original lines +2 added; final ORD/HOLD not recorded. |
 | OBS-30 | PO with MAX/HOLD | 7–11 + 17? | Mapped/uncertain | ? | 8 original, 15 total and HOLD recorded; exact MAX result needs verification. |
@@ -208,11 +208,11 @@ The afternoon provides direct evidence for the open MAX-frequency question:
 
 Therefore this session supports that MAX is **frequent during PO processing**, but it still does not prove that every order receives an observable MAX check.
 
-Two cases require process clarification rather than reinterpretation:
-- **OBS-27:** `MAX=ADD` (+4 lines) and HOLD were both recorded.
-- **OBS-30:** total lines increased relative to the original count and HOLD was recorded.
+These cases informed the current AS-IS clarification:
+- **OBS-27:** `MAX=ADD` (+4 lines) and HOLD were both recorded. This is now treated as valid evidence that the post-MAX HOLD/ORD decision is separate from the ADD/NONE result.
+- **OBS-30:** total lines increased relative to the original count and HOLD was recorded. HOLD is compatible with the current AS-IS sequence, but the exact MAX result was not separately recorded and remains uncertain.
 
-These observations do not cleanly fit the current working rule `ADD → continue ordering`. Keep the data as observed and clarify the meaning of HOLD / the MAX sequence with the buyer later; do not rewrite the rows to force the model.
+The evidence should remain as observed. Later clarification should focus on the cues and boundary of the post-MAX decision, not on forcing `MAX=ADD` to imply ORD.
 
 ## 5.2 Register-review signals
 

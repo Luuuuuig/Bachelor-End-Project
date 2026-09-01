@@ -1,6 +1,6 @@
 # Project Charter — Operational Purchasing Workload Reduction
 
-**Status:** Current lightweight project-control document, synchronized 31 August 2026.
+**Status:** Current lightweight project-control document, synchronized 2 September 2026.
 
 This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
 
@@ -12,7 +12,7 @@ The operational purchasing process contains recurring administrative work, manua
 
 Reduce meaningful operational-buyer workload while maintaining the required quality of purchasing outcomes.
 
-The current company direction expects the BEP to produce an **AI-supported contribution where a suitable high-value activity can be justified**. The broader DMAIC analysis remains open to identifying conventional digital/process improvements and quick wins that should be recommended even when they are not appropriate as the main AI artifact.
+The company expects the focal thesis artifact to contain a **meaningful AI-supported contribution**. Conventional automation and process redesign may be supporting components or separate quick-win recommendations. A non-AI focal artifact is an exception and requires documented Analyze evidence that no candidate passes the responsible-AI, data, quality and evaluation-feasibility gates, followed by explicit company and academic-supervisor approval.
 
 ## Academic objective
 
@@ -51,17 +51,18 @@ The Measure-phase outcome is a multidimensional workload profile using, where re
 - qualitative difficulty / uncertainty / exception evidence;
 - expertise dependence.
 
-Quality remains a separate CTQ. The concrete quality metric will be defined for the selected focal activity.
+Quality remains a separate CTQ. The concrete quality metric is focal-activity-specific, but the success structure is already fixed: the predeclared workload endpoint must improve by at least a meaningful threshold **and** the quality guardrail must pass. Thresholds and the activity-specific rubric are frozen after focal-case selection and manual-baseline review, before artifact development/formal testing.
 
 ## Current evidence state
 
-- AS-IS process mapped through `Bevestigd` and synchronized through 31 August.
-- 31-task register aligned with the workflow; maximalisatie is clarified as a standard order-processing check before the downstream order/hold outcome.
+- AS-IS process mapped through `Bevestigd` and synchronized through 2 September; post-MAX HOLD/ORD is assessed whether or not demand was added.
+- 31-task register aligned with the workflow; maximalisatie outcome (ADD/NONE) is separated from the downstream HOLD/ORD outcome.
 - Buyer walkthrough completed and formal SOP/WI evidence integrated.
 - Workload construct defined.
 - 28 August Measure pilot completed.
-- First official baseline observation completed on 31 August and post-session enrichment documented.
-- Measurement Protocol v1.2 is the controlled protocol for subsequent baseline observations.
+- Two official baseline days completed: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 correction) and 1 September (186 net / 162 timed coded-active minutes). Current totals: **351 net observed minutes** and **265 timed coded-active minutes**.
+- Measurement Protocol v1.3 is controlled for observations from 2 September onward; its live fields/timing remain comparable with v1.2.
+- The current planning target is five distinct observation days, followed by the predeclared coverage review; 40 net hours is not assumed to be equivalent.
 - Representative baseline frequencies and active processing-time distributions are still being established across additional sessions.
 - Exact/Orbis production-data/interface feasibility remains intentionally deferred until after exploratory Measure.
 
@@ -76,18 +77,19 @@ Quality remains a separate CTQ. The concrete quality metric will be defined for 
 | Gate | Exit condition |
 |---|---|
 | **Define → Measure** | AS-IS sufficiently stable, scope/workload construct defined, measurement protocol ready for pilot. **Current status: passed.** |
-| **Measure pilot → baseline** | Pilot shows the observation sheet is usable; timing/task-switch rules are workable; confidentiality and sampling rules are clear; controlled protocol established. **Current status: passed; pilot completed 28 August and v1.2 controlled after the first official session on 31 August.** |
-| **Measure → Analyze** | Representative activity-family workload evidence exists, with detailed Task-ID enrichment where justified, plus documented observation coverage, sample sizes, unmapped work and limitations. |
-| **Analyze → Improve** | One focal activity is selected using workload contribution, business value, standardizability, quality risk, required expertise, evaluation feasibility and post-Measure technical/data feasibility. Supervisor alignment obtained. |
-| **Improve → Control** | Artifact/future-state intervention is evaluated against current practice using predeclared workload and quality measures; implementation safeguards/KPIs are defined. |
+| **Measure pilot → baseline** | Pilot shows the observation sheet is usable; timing/task-switch rules are workable; confidentiality and sampling rules are clear; controlled protocol established. **Current status: passed; v1.3 is controlled from 2 September without changing the live coding structure.** |
+| **Measure → Analyze** | At least five distinct observation days are documented; the v1.3 Day-5 coverage review passes; representative activity-family workload evidence exists, with detailed Task-ID enrichment where justified, plus documented windows, net observed time, coded-active time, case mix, unmapped work and limitations. |
+| **Analyze → Improve** | Candidates first pass non-compensable AI/data/ground-truth/risk/time gates, then are compared with pre-agreed weighted criteria and sensitivity analysis. One focal activity is selected and supervisor alignment obtained. |
+| **Improve → Control** | Before development/formal testing, the primary workload endpoint, meaningful-improvement threshold, quality rubric and guardrail are frozen. The artifact is then evaluated against current practice; implementation safeguards/KPIs are defined. |
 
 ## Current priority
 
-1. Continue official baseline observations using Measurement Protocol v1.2 and the v1.2 live cheat sheet.
-2. Complete Task-ID enrichment immediately after each block and preserve `C/P/U/?`, MAX outcome, interruptions and measurement limitations.
+1. Continue official baseline observations using Measurement Protocol v1.3 and the v1.3 live cheat sheet; reach five distinct working days and then apply the coverage review.
+2. Complete Task-ID enrichment immediately after each block and preserve `C/P/U/?`, separate MAX and HOLD/ORD outcomes, interruptions and measurement limitations.
 3. Build the activity-family workload profile across multiple sessions/dayparts and supplement it with approved aggregated PO/line-volume data where available.
 4. After Measure, investigate Exact/Orbis and other technical/data feasibility for the shortlisted candidate(s) during Analyze.
-5. Select the focal thesis activity/artifact only after the Measure/Analyze gates and supervisor alignment.
+5. Apply veto gates, stakeholder weighting, anchored scoring and sensitivity analysis before selecting the focal case.
+6. Freeze the focal-case workload threshold and quality guardrail before artifact development/formal testing.
 
 ## Key control rule
 

@@ -1,6 +1,6 @@
 # Project Documentation Navigation — Bachelor End Project
 
-**Last synchronized:** 31 August 2026
+**Last synchronized:** 2 September 2026
 
 Use this page as the main navigation map for the BEP repository. It shows **where to look for each type of information**, which file owns the current status, and where useful context is intentionally retained.
 
@@ -18,8 +18,8 @@ Use this page as the main navigation map for the BEP repository. It shows **wher
 | Which improvement areas are interesting and why? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Operational opportunity profiles and evidence context |
 | Which candidates are currently prioritized and what gates determine selection? | [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md) | Authoritative candidate-selection and research-method status |
 | What does workload mean in this BEP? | [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md) | Canonical workload construct |
-| How will the exploratory Measure observations actually be collected? | [`measurement/Measurement_Protocol_v1.2.md`](measurement/Measurement_Protocol_v1.2.md) | Live observation, timing, sampling and data-governance protocol |
-| What should I keep beside me during live shadowing? | [`measurement/Measure_Live_Cheat_Sheet_v1.2.md`](measurement/Measure_Live_Cheat_Sheet_v1.2.md) | One-page activity codes, shorthand and live-use rules |
+| How will the exploratory Measure observations actually be collected? | [`measurement/Measurement_Protocol_v1.3.md`](measurement/Measurement_Protocol_v1.3.md) | Live observation, timing, sampling and data-governance protocol |
+| What should I keep beside me during live shadowing? | [`measurement/Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md) | One-page activity codes, shorthand and live-use rules |
 | Where are all Measure-phase collection materials kept? | [`measurement/`](measurement/) | Dedicated Measure folder with current/historical protocols, pilot evidence and observer materials |
 | What formal purchasing SOPs / work instructions support the analysis? | [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md) | Formal-company-evidence register |
 | What could the future process look like? | [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md) | Provisional TO-BE hypothesis, not a selected final design |
@@ -116,7 +116,7 @@ Canonical workload definition. The project currently uses:
 
 The project does not create an unvalidated composite `total workload` equation.
 
-### [`measurement/Measurement_Protocol_v1.2.md`](measurement/Measurement_Protocol_v1.2.md)
+### [`measurement/Measurement_Protocol_v1.3.md`](measurement/Measurement_Protocol_v1.3.md)
 Operationalizes the exploratory Measure baseline after the 28 August pilot.
 
 It defines:
@@ -125,13 +125,14 @@ It defines:
 - observable live work families (`REQ`, `CLAR`, standalone `DEC`, `PO`, `CHECK`, `SEND`, `EXC`, `OTHER`);
 - timed REQ intake when receiving/reading/listening/comprehending is itself meaningful work;
 - `DEC?` as an embedded decision attribute when judgement occurs inside another timed episode;
-- seamless MAX/PO handling, including `MAX=ADD`, `MAX=NONE` and order/hold outcomes without inventing pure decision time;
+- seamless MAX/PO handling, separating `MAX=ADD/NONE/?` from the later post-MAX `ORD/HOLD/?` outcome without inventing pure decision time;
 - mandatory non-blank conventions for Start/End, Volume, INT and DEC?;
 - post-session mapping to the detailed 31-task register with `C/P/U/?`;
 - active processing time, interruption attribution, observer-unavailable time, system waiting and `MISS`;
-- small-sample safeguards, rework-denominator rules, confidentiality and a predeclared trigger for reviewing recurring unmapped work.
+- a five-distinct-day planning minimum with a Day-5 coverage/extension review; five days is not automatically 40 net hours;
+- small-sample safeguards, rework-denominator rules, private-repository governance and a predeclared trigger for recurring unmapped work.
 
-Version 1.2 is the controlled baseline protocol for observations after the first official 31 August session. Use [`Measure_Live_Cheat_Sheet_v1.2.md`](measurement/Measure_Live_Cheat_Sheet_v1.2.md) beside the live sheet. Exact/Orbis technical feasibility is not required to start this Measure baseline.
+Version 1.3 is controlled for observations from 2 September onward; it preserves the v1.2 live fields/timing and updates MAX interpretation, stopping/coverage logic and private-repository governance. Use [`Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md). Two official baseline days currently total **351 net observed minutes** and, after the OBS-05 correction, **265 timed coded-active minutes**. Version 1.2 remains historical for the 1 September session. Exact/Orbis technical feasibility is not required to continue Measure.
 
 Pilot evidence is retained with the Measure materials in [`measurement/Pilot_Measure_Observation_2026-08-28.md`](measurement/Pilot_Measure_Observation_2026-08-28.md).
 
@@ -189,7 +190,7 @@ Examples:
 
 - `Process_Cleaned_V1.5.md` can explain **why price checking is operationally interesting**; `Phase_1_Current_Methodology.md` determines whether price checking is currently a primary thesis candidate.
 - `Process_Cleaned_V1.5.md` documents the maximalisatie process; the methodology file owns the research gates for selecting/studying it.
-- `Measurement_Protocol_v1.2.md` owns live data-collection rules; the methodology file owns why those measurements are needed for case selection.
+- `Measurement_Protocol_v1.3.md` owns current live data-collection rules; the methodology file owns why those measurements are needed for case selection.
 - `Project_Timeline.md` owns the current planning sequence and dates; dated meeting notes remain the evidence source for agreed milestones.
 - Meeting notes preserve what was known on the meeting date even when later evidence changes the current AS-IS master.
 - The company-document register explains what the SOP formally supports; the AS-IS file explains what people actually do operationally.
@@ -208,7 +209,7 @@ When new evidence arrives:
 4. update `Process_Cleaned_V1.5.md` when the current workflow, operational evidence, task inventory, operational interpretation or opportunity profile changes;
 5. update `Phase_1_Current_Methodology.md` when candidate priority, research design, selection gates or evaluation logic changes;
 6. update `Workload_Definition.md` only when the theoretical workload construct changes;
-7. treat `Measurement_Protocol_v1.2.md` as the frozen official baseline protocol; after baseline freeze, document/version any necessary deviations rather than silently rewriting rules;
+7. treat `Measurement_Protocol_v1.3.md` as the controlled protocol from 2 September; preserve v1.2 for the earlier session and document/version any future deviation rather than silently rewriting rules;
 8. update the company-document register when new formal SOP/WI evidence is received or reinterpreted;
 9. update the TO-BE file when the provisional future-state architecture changes;
 10. update the readable BEP assignment when a major research-scope/framing change requires academic alignment;
@@ -249,4 +250,4 @@ flowchart LR
 
 Current practical progression:
 
-`Define / AS-IS → pilot → first official baseline → controlled v1.2 baseline → workload profile → Analyze + targeted Exact/Orbis feasibility → focal case selection → DSRM artifact / TO-BE → evaluation → Control recommendations → final thesis / handover`
+`Define / AS-IS → pilot → controlled v1.2/v1.3 baseline → five-day coverage review → workload profile → Analyze + targeted Exact/Orbis feasibility → gated/weighted focal-case selection → evaluation-protocol freeze → DSRM artifact / TO-BE → held-out evaluation → Control recommendations → final thesis / handover`

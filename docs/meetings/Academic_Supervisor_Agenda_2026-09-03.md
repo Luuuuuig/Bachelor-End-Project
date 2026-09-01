@@ -15,7 +15,7 @@ Review progress since the 25 August supervision meeting, validate the current Me
 - Started the official exploratory baseline:
   - 31 August: 165 minutes net observed time.
   - 1 September: 186 minutes net observed time.
-  - Current official baseline total: **351 minutes (5 h 51 min)** across two observation days.
+  - Current official baseline total: **351 net observed minutes (5 h 51 min)** across two partial observation days; after the OBS-05 correction, **265 timed coded-active minutes**. These are different quantities.
 - Measurement Protocol v1.2 is now the controlled protocol for subsequent observations.
 - Updated the AS-IS process understanding:
   - external/email request handling and Exact/PO work are parallel work streams rather than one mandatory sequence;
@@ -59,21 +59,19 @@ The live sheet does not directly quantify mental workload. A validated activity-
 1. Does this layered workload framework address the concern from the previous meeting about defining and measuring workload clearly?
 2. Is it acceptable to use objective/observational workload indicators during exploratory Measure and only add a subjective mental-workload instrument later if it is needed for the selected focal activity?
 
-## 4. Baseline coverage: five working days or approximately 40 observation hours? — 10 min
+## 4. Baseline coverage: operationalize the five-working-day guidance — 10 min
 
-At the 25 August meeting, approximately **five working days** of baseline measurement was discussed as a student-proposed approach. This was not finalized as the formal sampling rule.
+The student's recollection is that the academic advisor specifically indicated that approximately **five working days should be sufficient**. The 25 August written notes currently describe five days as student-proposed and not finalized. Preserve that historical note and resolve the evidence discrepancy explicitly in this meeting's decision log.
 
-Because a full working day is approximately eight hours, a possible alternative interpretation is to define the target as approximately **40 net observation hours**, rather than simply counting five calendar days.
+The later idea of **40 net observed hours** is a separate, stricter student interpretation. Five scheduled working days normally include breaks and unavailable/non-observed periods, so five days must not be converted automatically into 40 net hours.
 
-Current official baseline coverage is 351 minutes across two partial observation days.
+Current coverage is 351 net observed minutes across two partial days; these partial windows contribute evidence but are not silently treated as two full-day equivalents.
 
-**Clarification requested:**
+**Confirmation requested:**
 
-1. Should the baseline target be interpreted primarily as:
-   - approximately five working days of observation, or
-   - approximately 40 net observed hours (5 × 8 hours)?
-2. If approximately 40 hours is preferable, should those hours still be distributed over several days and different dayparts to capture variation in normal purchasing work?
-3. What evidence should determine that the baseline is sufficiently representative to move into Analyze: total hours, number of days, activity-family coverage, case diversity, or a combination?
+1. Confirm five distinct working days with meaningful coverage as the planning minimum, rather than 40 net hours.
+2. Confirm that actual windows, breaks/unavailable time and net minutes should be reported separately.
+3. Confirm the proposed Day-5 extension rule: continue only for a documented abnormal day, missing daypart, material measurement failure, missing recurring work pattern, or materially new recurring pattern on the final day.
 
 ## 5. Measure → Analyze and focal-case selection — 10 min
 
@@ -89,7 +87,9 @@ Planned sequence:
 
 1. Is this sequence appropriate, especially deferring detailed technical feasibility until after the workload baseline?
 2. What level of quantitative Measure evidence would be sufficient before selecting the focal activity?
-3. Should candidate selection be documented with a formal decision matrix, or is a transparent evidence-based comparison sufficient?
+3. Confirm a two-stage selection method: non-compensable AI/data/ground-truth/risk/time veto gates, followed by anchored weighted scoring.
+4. Confirm that literature/theory should justify criteria and method, while the buyer/company stakeholders set local trade-off weights and the academic supervisor validates them.
+5. Confirm the proposed sensitivity check before declaring one winner.
 
 ## 6. 1BEPIEX feedback and project framing — 7 min
 
@@ -100,7 +100,7 @@ Review the intended revisions based on the supervisor's comments:
 - maintain a clear logical transition from practical problem → workload measurement → focal solution;
 - retain the current RQ/SQ direction focused on workload reduction and quality.
 
-**Discussion:** Confirm that the revised framing is suitable to carry into the Plan of Work.
+**Discussion:** Confirm that the company expects a meaningful AI-supported focal artifact; conventional automation/process redesign may support it or remain recommendations. If no candidate passes the responsible-AI/data/quality/evaluation gates, confirm that any non-AI focal artifact requires explicit company and academic approval.
 
 ## 7. Plan of Work and planning milestones — 5 min
 
@@ -113,7 +113,10 @@ Known milestones:
 **Discussion:**
 
 - Confirm whether the current DMAIC → DSRM sequence and Gantt are suitable for the Plan of Work.
-- Confirm that DMAIC is being used as the overarching improvement structure, while specific Lean Six Sigma tools are selected only when relevant rather than applied mechanically.
+- The attached template requires a prospective method and detailed Gantt, but does not state that the focal use case must already be selected. Confirm that a post-submission focal-case gate is acceptable when the candidate set, veto/score method, fallback and evaluation-freeze milestone are predefined.
+- Confirm that the focal-case workload endpoint and quality guardrail will be frozen before artifact development/formal testing.
+- Confirm the submission package includes the template's Part C five professional-skill reflections and Part D scientific-conduct declaration, in addition to the proposal and Gantt.
+- Confirm that DMAIC is the overarching improvement structure, while specific Lean Six Sigma tools are selected only when relevant rather than applied mechanically.
 
 ## 8. Decisions / next actions — 3 min
 
@@ -123,13 +126,16 @@ Before closing, record agreement on:
 - workload operationalization;
 - baseline target/coverage rule;
 - Measure → Analyze gate;
+- AI requirement and no-feasible-AI escalation rule;
+- candidate-selection matrix/weighting owner;
+- workload endpoint and quality-guardrail freeze;
 - any required changes to the 1BEPIEX / Plan of Work;
 - activities to complete before the next supervision meeting.
 
 ## Useful repository references
 
 - Current AS-IS process: `../process/Process_Cleaned_V1.5.md`
-- Current Measure protocol: `../measurement/Measurement_Protocol_v1.2.md`
+- Current Measure protocol: `../measurement/Measurement_Protocol_v1.3.md`
 - 31 August baseline: `../measurement/Measure_Observation_2026-08-31.md`
 - 1 September baseline: `../measurement/Measure_Observation_2026-09-01.md`
 - Workload definition: `../methodology/Workload_Definition.md`

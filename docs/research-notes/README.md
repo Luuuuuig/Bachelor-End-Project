@@ -10,6 +10,6 @@ Use these files for current decisions:
 - `../methodology/Phase_1_Current_Methodology.md` — current research framework and case-selection status.
 - `../company-documentation/Official_Document_Register_2026-08-21.md` — formal SOP/work-instruction evidence.
 - `../proposal/BEP_Assignment_1BEPIEX.md` — current readable BEP assignment/proposal framing.
-- `../measurement/Measurement_Protocol_v1.2.md` — current controlled exploratory Measure protocol.
+- `../measurement/Measurement_Protocol_v1.3.md` — current controlled exploratory Measure protocol from 2 September; v1.2 remains historical.
 
 When information in this older research-notes document conflicts with a current master file, the current master file takes precedence.

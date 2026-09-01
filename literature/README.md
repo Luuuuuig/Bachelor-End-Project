@@ -10,7 +10,7 @@ The BEP currently distinguishes the **broad occupational workload construct** fr
 - **Quantitative workload:** supported by Spector & Jex (1998), especially their Quantitative Workload Inventory (QWI), which focuses on the quantity/pace of work.
 - **Mental workload:** grounded specifically in Young et al. (2015). Young et al. is no longer treated as the definition of all operational-buyer workload.
 - **Organizational constraints:** Spector & Jex (1998) provides a separate construct for conditions that interfere with work, useful when interpreting interruptions, inadequate information, system limitations or other work-process constraints.
-- **Quality:** grounded generically in ISO 9000:2026 as fulfilment of relevant requirements. The concrete quality criterion is intentionally left activity-specific until the focal purchasing activity is selected.
+- **Quality:** grounded generically in ISO 9000:2026 as fulfilment of relevant requirements. The concrete rubric remains activity-specific; the project predeclares that workload improvement cannot compensate for a failed quality guardrail.
 
 ### Reporting principle
 
@@ -39,6 +39,20 @@ The current literature does **not** justify inventing a composite equation such 
 **Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007).** *A Design Science Research Methodology for Information Systems Research*. Accessible process paper stored as `open-access/05-design-science-research-process.pdf`; cite the original DSRM article: https://doi.org/10.2753/MIS0742-1222240302
 
 **Use:** Supports artifact design/development/evaluation in the methodology file.
+
+### Multi-criteria focal-case selection
+
+**Belton, V., & Stewart, T. J. (2002).** *Multiple Criteria Decision Analysis: An Integrated Approach*. Springer. https://doi.org/10.1007/978-1-4615-1495-4
+
+**Use:** Governing academic basis for structuring the candidate decision, separating objectives/criteria, modelling stakeholder preferences and using MCDA as decision support rather than as an automatic truth machine.
+
+**Triantaphyllou, E., & Sánchez, A. (1997).** *A sensitivity analysis approach for some deterministic multi-criteria decision-making methods*. *Decision Sciences, 28*(1), 151–194. https://doi.org/10.1111/j.1540-5915.1997.tb01306.x
+
+**Use:** Supports testing whether the candidate ranking is robust to plausible changes in weights and evidence scores. The BEP uses a proportionate sensitivity check rather than claiming that one provisional weight set is objectively correct.
+
+**Goodhue, D. L., & Thompson, R. L. (1995).** *Task-Technology Fit and Individual Performance*. https://doi.org/10.2307/249689
+
+**Use:** Supports the AI–task-fit criterion: technology should match the actual task if it is expected to improve individual performance. Literature supports the criteria and method; local stakeholder preferences determine the project-specific trade-off weights.
 
 ### Overall occupational workload
 
@@ -104,6 +118,8 @@ The current literature does **not** justify inventing a composite equation such 
 
 ### Subjective mental-workload measurement
 
+**Hart, S. G., & Staveland, L. E. (1988).** *Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research*. In P. A. Hancock & N. Meshkati (Eds.), *Human Mental Workload* (pp. 139–183). Elsevier. https://doi.org/10.1016/S0166-4115(08)62386-9
+
 **Hart, S. G. (2006).** *NASA-Task Load Index (NASA-TLX); 20 years later*. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 50*(9), 904–908. https://doi.org/10.1177/154193120605000909
 
 **Use if needed:** Candidate validated subjective workload instrument if the selected activity or final before/after evaluation requires a mental-workload measure. NASA-TLX should not be interpreted as a measure of the entire operational-buyer workload construct.
@@ -143,10 +159,6 @@ The current literature does **not** justify inventing a composite equation such 
 **Use if needed:** Counterpoint to algorithm aversion in a buyer-advice study.
 
 ### Task-solution fit and implementation evaluation
-
-**Goodhue, D. L., & Thompson, R. L. (1995).** *Task-Technology Fit and Individual Performance*. https://doi.org/10.2307/249689
-
-**Use if needed:** Explicit task-technology-fit evaluation.
 
 **DeLone, W. H., & McLean, E. R. (2003).** *The DeLone and McLean Model of Information Systems Success: A Ten-Year Update*. https://doi.org/10.1080/07421222.2003.11045748
 

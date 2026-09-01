@@ -28,7 +28,6 @@
 | OBS-04 | CHECK | 10:55 | 10:59 | 3L | 0 |  | 2L checked |
 | OBS-04 | SEND |  |  |  |  |  |  |
 | OBS-05 | CHECK | 10:59 | 11:02 | 3L | 0 |  |  |
-| OBS-05 | EXC | 10:51 | 10:53 | — | 0 |  | The Request was toegether with obs-04 so in the same request but 2 PO |
 | OBS-06 | REQ-mail | — | — | — | 0 |  |  |
 | OBS-06 | CLAR | 11:03 | 11:04 | 1L | 0 | Yes | Onderhoud, so it is service |
 | OBS-06 | PO | 11:04 | 11:08 | 1L | 0 |  |  |
@@ -60,7 +59,9 @@
 | OBS-13 | REQ-Exact | — | — | — | 0 |  |  |
 | OBS-13 | CLAR | 12:19 | 12:27 | — | 0 |  | Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left. |
 
+### 2 September transcription correction
 
+The overlapping `OBS-05 EXC 10:51–10:53` row was an upload/transcription error and was removed after the student checked the source. The separate `OBS-05 CHECK 10:59–11:02` row remains. After this correction, 31 August contains **103 timed coded-active minutes** across the morning and afternoon, compared with **165 minutes net observed time**.
 
 ## Afternoon observation
 
@@ -129,7 +130,7 @@ The observer confirmed that the observed activity content is confidently recalle
 | OBS-04 REQ | REQ | 1 | Mapped | C | New article associated with an existing PO. |
 | OBS-04 CHECK/PO/CHECK block | CHECK + PO | 14–17 | Mapped | C | Pre-send checking and PO modification block; one line added. |
 | OBS-04 11:51–11:53 | EXC | — | U | C | Exception/aftercare content known, but no current detailed register row cleanly represents it. |
-| OBS-05 | — | — | — | C | Prior-week case retained only to explain the case-number gap; no meaningful timed episode. |
+| OBS-05 CHECK | CHECK | — | U | C | Three-minute check retained at 10:59–11:02; the exact CHECK subtype/detailed Task ID was not captured. The separate overlapping EXC transcription was removed on 2 September. |
 | OBS-06 REQ | REQ | 1 | Mapped | C | External request. |
 | OBS-06 11:03–11:04 | CLAR | 4 | Mapped | C | Request classification/validation (maintenance/service). |
 | OBS-06 11:04–11:08 | PO | 2–3 + 17 | Mapped | C | PO processing. |
@@ -164,6 +165,6 @@ The observer confirmed that the observed activity content is confidently recalle
 
 ### Enrichment limitation
 
-The detailed MAX-related Task IDs in this enrichment were synchronized to the clarified 31 August AS-IS register (Task 7 = standard MAX check; Task 8 = useful-demand decision; Task 9 = combine; Tasks 10–11 = no-add order/hold logic). The original live rows remain historical observation evidence.
+The detailed MAX-related Task IDs in this enrichment are interpreted through the current AS-IS register (Task 7 = standard MAX check; Task 8 = useful-demand decision; Task 9 = combine; Tasks 10–11 = post-MAX order/hold logic whether or not demand was added). The original live rows remain historical observation evidence.
 
 The Task-ID ranges above describe the **best-supported detailed mapping from the notes**. Combined episodes are intentionally not split into artificial minute-level Task-ID durations. In particular, OBS-15 remains a combined MAX/PO episode, and OBS-11 remains uncertain.
