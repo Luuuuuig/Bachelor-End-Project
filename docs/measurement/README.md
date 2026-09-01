@@ -17,6 +17,7 @@ This folder contains the current and historical Measure-phase data-collection ma
 
 - [Pilot Measure Observation — 28 August 2026](Pilot_Measure_Observation_2026-08-28.md) — pilot record that motivated the v1.1 two-level measurement architecture.
 - [Measure Observation — 31 August 2026](Measure_Observation_2026-08-31.md) — first official baseline session; cleanup/enrichment and the documented evidence that motivated the controlled v1.2 clarification.
+- [Measure Observation — 1 September 2026](Measure_Observation_2026-09-01.md) — second official baseline day, normalized to v1.2 with case context, non-blank fields, MAX evidence and post-session enrichment.
 
 ## Related evidence
 
