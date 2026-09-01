@@ -1,6 +1,6 @@
 # Operational Purchasing Current State — AS-IS master (V1.5)
 
-**Status:** Current operational-process source of truth, synchronized 31 August 2026.
+**Status:** Current operational-process source of truth, synchronized 1 September 2026.
 
 **Ownership:** This file describes the **current AS-IS purchasing process** and preserves the useful process context around it: workflow, detailed stage interpretation, evidence, task inventory, observed improvement-opportunity profiles and unresolved process facts. Formal research-method decisions and final candidate prioritization are maintained in their dedicated files.
 
@@ -17,15 +17,16 @@
 
 Operational purchasing from the appearance of a purchasing need through `Bevestigd`, including:
 
-- demand already present in Exact;
-- requests arriving through email, screenshots or colleagues;
-- manual creation/transfer of externally supplied purchasing information into Exact;
+- external purchasing requests arriving through email, phone/desk contact, screenshots or colleagues as a **request-handling stream distinct from PO processing**;
+- existing/open PO work in Exact as a parallel **Exact/PO stream**;
+- when neither an open PO nor an external request currently requires attention, generating the next PO record from Exact demand;
+- the observed Exact status behavior that a newly generated PO record appears as `Besteld` and then becomes open PO work;
+- manual creation/transfer of externally supplied purchasing information into Exact where required;
 - validation of incoming information;
 - stock/demand assessment;
-- maximalisatie / checking same-supplier demand as a standard step for each order;
+- maximalisatie / checking same-supplier demand as a standard part of PO processing;
 - consolidating useful additional same-supplier demand when available;
-- after an unsuccessful maximalisatie check, deciding whether the remaining order should proceed or be held based on size and urgency;
-- holding/pausing a small, non-urgent requirement when no useful additional same-supplier demand is available;
+- assessing the resulting order **after maximalisatie whether or not demand was added**, then deciding whether to hold or proceed based on size, urgency and the current purchasing context;
 - Exact `Advies` and `Toewijzen`;
 - pre-PO and post-confirmation price checking;
 - authorization and `Fiatteren`;
@@ -68,71 +69,85 @@ Observed Week-1 timings are clock-measured **single-case elapsed-time observatio
 
 # 3. Current AS-IS workflow
 
+The current-state map distinguishes **two parallel operating streams** rather than treating an external request as the mandatory start of a PO:
+
+1. **External request stream** — email, phone/desk, screenshot or colleague requests are received, clarified and processed as request work.
+2. **Exact / PO stream** — the buyer works existing/open POs in Exact. When there is **no open PO and no external request currently requiring attention**, the buyer generates the next PO record from Exact demand. The generated PO appears as `Besteld` in Exact and then becomes open PO work.
+
+The streams can interact, but they are not one mandatory sequence. In particular, an email request is **not itself a PO**.
+
 ```mermaid
 flowchart LR
     classDef open stroke-dasharray: 6 4,stroke:#888
 
-    need["Purchasing need arises"]
-    routeA["Route A: demand already visible in Exact"]
-    routeB["Route B: email / screenshot / colleague request"]
-    create["Create purchasing entry / PO lines in Exact"]
-    transfer["Transfer supplied information into Exact"]
-    validate{"Information plausible / complete?"}
-    investigate["Investigate historical POs / machine / serial / article information"]
-    assess["Assess stock, future demand, open POs, receipts, lead time and urgency"]
-    smallQ{"Small / non-urgent requirement?"}
-    maxCheck["Check additional same-supplier demand for maximalisatie"]
-    maxQ{"Useful same-supplier demand available now?"}
-    combine["Combine relevant same-supplier demand"]
-    hold["Hold / pause requirement for now"]
-    advice["Review Exact Advies"]
-    assign["Toewijzen to underlying project / production demand"]
-    prePrice{"Pre-PO price check required?"}
-    webPrice["Compare current supplier price with Exact"]
-    updatePrice["Correct price in Exact where needed"]
-    prep["Prepare / complete supplier PO using selected / combined demand"]
-    auth{"Within buyer authorization?"}
-    release["Fiatteren + Verrichten"]
-    approval["Route to higher-authority approver for Fiatteren"]
-    approvalNext["Continue Exact workflow after higher-authority Fiatteren"]:::open
-    pdf["Exact generates PO and emails buyer"]
-    forward["Buyer manually forwards PO to supplier"]
-    best["Practical ordered / Besteld stage"]
-    confirmation["Supplier confirmation"]
-    compare["Compare confirmation with PO / Exact"]
-    correct["Correct relevant deviations"]
-    bevestigd["Attach / archive confirmation + Bevestigd"]
-    finance{"Finance later detects issue?"}
-    rework["Buyer investigates returned Finance case"]
-    unavailable["Handle supplier-reported unavailable component"]
-    unresolved["Preserve unresolved purchasing need; subsequent tracking mechanism open"]:::open
-    later["Later stages outside detailed scope"]:::open
+    subgraph REQ["External request stream"]
+        req["Email / phone / desk / screenshot / colleague request"]
+        reqValid{"Information plausible / complete?"}
+        reqInvestigate["Investigate historical POs / machine / serial / article information"]
+        reqProcess["Clarify / process / transfer request information as needed"]
+        reqState["Request handled, routed or waiting"]
+        req --> reqValid
+        reqValid -- "yes" --> reqProcess --> reqState
+        reqValid -- "no / suspicious" --> reqInvestigate --> reqProcess
+    end
 
-    need --> routeA
-    need --> routeB
-    routeA --> validate
-    routeB --> create --> transfer --> validate
-    validate -- "yes" --> assess
-    validate -- "no / suspicious" --> investigate --> assess
-    assess --> maxCheck --> maxQ
-    maxQ -- "yes" --> combine --> advice
-    maxQ -- "no" --> smallQ
-    smallQ -- "yes" --> hold
-    smallQ -- "no / urgent or large enough" --> advice
-    hold -. "new demand / urgency changes" .-> maxCheck
-    advice --> assign --> prePrice
-    prePrice -- "yes" --> webPrice --> updatePrice --> prep
-    prePrice -- "no" --> prep
-    prep --> auth
-    auth -- "yes" --> release --> pdf
-    auth -- "no" --> approval --> approvalNext -.-> pdf
-    pdf --> forward --> best --> confirmation --> compare
-    best -. "supplier reports component unavailable" .-> unavailable --> unresolved
-    compare -- "difference" --> correct --> bevestigd
-    compare -- "match" --> bevestigd
-    bevestigd --> finance
-    finance -- "issue" --> rework
-    finance -- "no issue" --> later
+    subgraph PO["Exact / PO stream"]
+        openPO["Existing / open PO available in Exact"]
+        noOpen["No open PO and no external request currently requiring attention"]
+        generate["Buyer generates next PO record from Exact demand"]
+        best["Generated PO appears as Besteld in Exact"]
+        poWork["Open / generated PO work in Exact"]
+
+        assess["Assess stock, future demand, open POs, receipts, lead time and urgency"]
+        maxCheck["Check additional same-supplier demand for maximalisatie"]
+        maxQ{"Useful same-supplier demand available now?"}
+        combine["Combine relevant same-supplier demand"]
+        postMax["Assess resulting order after MAX"]
+        hold["Hold / pause requirement for now"]
+        advice["Review Exact Advies"]
+        assign["Toewijzen to underlying project / production demand"]
+        prePrice{"Pre-PO price check required?"}
+        webPrice["Compare current supplier price with Exact"]
+        updatePrice["Correct price in Exact where needed"]
+        prep["Prepare / complete supplier PO"]
+        auth{"Within buyer authorization?"}
+        release["Fiatteren + Verrichten"]
+        approval["Route to higher-authority approver for Fiatteren"]
+        approvalNext["Continue Exact workflow after higher-authority Fiatteren"]:::open
+        pdf["Exact generates supplier-facing PO document and emails buyer"]
+        forward["Buyer manually forwards PO to supplier"]
+        confirmation["Supplier confirmation"]
+        compare["Compare confirmation with PO / Exact"]
+        correct["Correct relevant deviations"]
+        bevestigd["Attach / archive confirmation + Bevestigd"]
+        finance{"Finance later detects issue?"}
+        rework["Buyer investigates returned Finance case"]
+        unavailable["Handle supplier-reported unavailable component"]
+        unresolved["Preserve unresolved purchasing need; subsequent tracking mechanism open"]:::open
+        later["Later stages outside detailed scope"]:::open
+
+        openPO --> poWork
+        noOpen --> generate --> best --> poWork
+        poWork --> assess --> maxCheck --> maxQ
+        maxQ -- "yes" --> combine --> postMax
+        maxQ -- "no" --> postMax
+        postMax -- "small + non-urgent" --> hold
+        postMax -- "urgent / large enough / otherwise proceed" --> advice
+        hold -. "new demand / urgency changes" .-> poWork
+        advice --> assign --> prePrice
+        prePrice -- "yes" --> webPrice --> updatePrice --> prep
+        prePrice -- "no" --> prep
+        prep --> auth
+        auth -- "yes" --> release --> pdf
+        auth -- "no" --> approval --> approvalNext -.-> pdf
+        pdf --> forward --> confirmation --> compare
+        poWork -. "supplier reports component unavailable" .-> unavailable --> unresolved
+        compare -- "difference" --> correct --> bevestigd
+        compare -- "match" --> bevestigd
+        bevestigd --> finance
+        finance -- "issue" --> rework
+        finance -- "no issue" --> later
+    end
 ```
 
 The 21 August buyer walkthrough established the current working sequence around purchasing advice as:
@@ -145,19 +160,25 @@ The 21 August buyer walkthrough established the current working sequence around 
 
 This section preserves the operational detail behind the compact flowchart. It is descriptive evidence, not a TO-BE design.
 
-## 4.1 Purchasing need enters through two main routes
+## 4.1 Parallel request handling and Exact / PO work
 
-### Route A — demand already exists in Exact
+The buyer's work is better represented as **two parallel streams** than as two alternative entry routes into one immediate PO sequence.
 
-The buyer can start from an open purchasing requirement/demand that is already visible in Exact and still requires purchasing action.
+### External request stream
 
-Who creates every Route-A requirement is not fully mapped and is not currently a major case-selection gate.
+Requests can arrive through email, phone/desk contact, screenshots, direct colleague requests or other informal communication. The buyer may need to read/listen to the request, clarify missing information, investigate historical information, answer a question, route the request or transfer information into Exact.
 
-### Route B — request originates outside Exact
-
-Requests can also arrive through email, screenshots, direct colleague requests or other informal communication. The buyer then creates/transfers the required information into Exact before continuing.
+An external request is **not automatically a PO** and should not be modeled as if every email/request necessarily creates a PO next.
 
 One observed service-order case involving two lines took approximately **5 minutes elapsed time**. This is a single case, not an average.
+
+### Exact / PO stream
+
+Separately, the buyer works with existing/open PO records in Exact.
+
+The 1 September observation clarified an additional work-selection behavior: when there is **no open PO and no external request currently requiring attention**, the buyer generates a new PO record from Exact demand. Once generated, the PO is shown as `Besteld` in Exact and can then be handled as open PO work.
+
+This observation supports the condition above, but it does **not** establish a complete strict priority rule between every possible type of buyer work.
 
 ## 4.2 Validate supplied information
 
@@ -195,11 +216,13 @@ The current working interpretation is that the buyer performs a **maximalisatie 
 The sequence is:
 
 1. Check whether useful additional demand from the same supplier can be included.
-2. If useful same-supplier demand exists, combine the relevant demand and continue purchasing.
-3. If nothing useful can be added, assess the remaining order:
+2. If useful same-supplier demand exists, combine the relevant demand.
+3. **After the MAX step, whether or not demand was added, assess the resulting order.**
+4. Decide whether the resulting order should be held or proceed:
    - **small + non-urgent** -> hold/pause the requirement;
-   - **small + urgent** -> proceed with the order;
-   - **not small / otherwise ready to place** -> proceed with the order.
+   - **urgent / large enough / otherwise ready to place** -> proceed with the order.
+
+Therefore, **MAX outcome and HOLD/ORDER outcome are separate decisions**. Adding demand during maximalisatie does not by itself imply that the order must immediately proceed.
 
 This means maximalisatie is a recurring **search + judgement + PO-adjustment subprocess**. In practice, maximalisatie and PO processing can happen seamlessly, so observational timing should not force an artificial split unless the boundary is clearly visible.
 
@@ -239,15 +262,19 @@ The operational buyer's normal authority is approximately **€10,000**. Above t
 
 The practical route is partly known, but the exact routing trigger, selection between approvers, Exact recording and continuation after approval still require a traced real case.
 
-## 4.9 PO generation and supplier communication
+## 4.9 PO generation, `Besteld` status and supplier communication
 
-After the relevant `Fiatteren`/`Verrichten` path, Exact generates the PO document and emails it to the buyer in Outlook.
+The current evidence distinguishes **PO-record generation in Exact** from **supplier communication**.
 
-The buyer then forwards the generated PO to the supplier and adds a short standard message.
+During the 1 September observation, when no open PO and no external request required attention, the buyer generated new PO records from Exact demand. A newly generated PO record then appeared as `Besteld` in Exact and became available as open PO work.
 
-This forwarding is currently manual. A more automated supplier-email approach existed previously but was described as unreliable, including because supplier contact information could become outdated or change.
+This means `Besteld` is an **Exact system status associated with the generated PO record**. It should not be interpreted as evidence that the PO has already been manually forwarded to, or received by, the supplier.
 
-**Work type:** repetitive administration.
+Later in the purchasing process, after the relevant `Fiatteren`/`Verrichten` path, Exact can generate the supplier-facing PO document and email it to the buyer in Outlook. The buyer then manually forwards that document to the supplier and adds a short standard message.
+
+A more automated supplier-email approach existed previously but was described as unreliable, including because supplier contact information could become outdated or change.
+
+**Work type:** PO generation/system work + repetitive supplier communication.
 
 ## 4.10 Supplier confirmation and post-PO control
 
@@ -289,7 +316,7 @@ This is why **active processing time** and **elapsed time** must remain separate
 
 # 5. Step / task register
 
-This register is the structured **Task Inventory** for the current process. It is aligned with the AS-IS flow above. Decision points and branch outcomes that create distinct work or measurement needs are kept separate rather than merged into one row.
+This register is the structured **Task Inventory** for the current process. Task IDs are retained as stable analytical identifiers; because the current process contains parallel streams, loops and system-status transitions, the numerical IDs should not be interpreted as a perfectly strict chronological sequence. Decision points and branch outcomes that create distinct work or measurement needs are kept separate rather than merged into one row.
 
 `Type`
 
@@ -315,9 +342,9 @@ This register is the structured **Task Inventory** for the current process. It i
 | 6 | Assess stock, future demand, open POs, receipts, lead time and urgency | Buyer | B | **Observed + Formal high-level inputs** | Formal + observed practice | Data availability + relative importance of inputs |
 | 7 | Check additional same-supplier demand for maximalisatie as part of normal order processing | Buyer | B+A | **Observed; process interpretation clarified 31 Aug** | Observed practice | Search method, frequency, information sources + active time |
 | 8 | Determine whether useful same-supplier demand is currently available for consolidation | Buyer | B | **Observed** | Observed practice | Decision criteria for what counts as useful consolidation |
-| 9 | If useful demand is available, combine the relevant same-supplier demand and continue purchasing | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency + amount/value combined + representative active time |
-| 10 | If nothing useful can be added, determine whether the remaining order is small and non-urgent | Buyer | B | **Observed; process interpretation clarified 31 Aug** | Observed practice | Decision rules/cues for size + urgency |
-| 11 | If the remaining order is small and non-urgent, hold/pause it; otherwise proceed with ordering | Buyer | B | **Observed; process interpretation clarified 31 Aug** | Observed practice | Hold frequency + proceed/hold outcome + reconsideration trigger |
+| 9 | If useful demand is available, combine the relevant same-supplier demand; the resulting order still proceeds to the post-MAX hold/proceed assessment | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency + amount/value combined + representative active time |
+| 10 | After MAX, whether or not demand was added, assess whether the resulting order is small/non-urgent or otherwise ready to proceed | Buyer | B | **Observed; process interpretation clarified through 1 Sep** | Observed practice | Decision rules/cues for size + urgency |
+| 11 | If the resulting post-MAX order is small and non-urgent, hold/pause it; otherwise proceed with ordering | Buyer | B | **Observed; process interpretation clarified through 1 Sep** | Observed practice | Hold frequency + proceed/hold outcome + reconsideration trigger |
 | 12 | Review Exact `Advies` and underlying demand | Buyer | B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Calculation logic + frequency + override behaviour |
 | 13 | `Toewijzen` purchased quantity to underlying project/production demand | Buyer | A+B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Miss/failure frequency + active-time split |
 | 14 | Determine whether proactive pre-PO price check is required | Buyer | V+B | **Observed + Stated** | Observed practice | Frequency + whether services are included |
@@ -328,9 +355,9 @@ This register is the structured **Task Inventory** for the current process. It i
 | 19 | If within authority, perform `Fiatteren` / `Verrichten` | Buyer / Exact | A | **Observed + Stated** | System + Formal authorization/release requirement | Representative time; exact formal status mapping if needed |
 | 20 | If above authority, route order to higher-authority approver for `Fiatteren` | Buyer / Approver | C+A | **Stated by manager, 21 Aug** | Company control | Routing trigger/rule + Exact/email recording + delay |
 | 21 | Continue Exact workflow after higher-authority `Fiatteren` | Buyer / Approver / Exact | A+C | **Partly mapped** | Company control + System | Exact actor/action after approval |
-| 22 | Exact generates PO document and emails buyer | Exact / Outlook | A | **Observed + Stated** | System; Formal PO creation supported | Timing + automation details |
+| 22 | After release, Exact generates the supplier-facing PO document and emails the buyer | Exact / Outlook | A | **Observed + Stated** | System; Formal PO creation supported | Timing + automation details |
 | 23 | Buyer forwards generated PO with standard supplier message | Buyer | A | **Observed + Stated** | Observed practice; placing PO with supplier is Formal | Daily volume + total effort |
-| 24 | PO reaches practical ordered / `Besteld` stage | Buyer / Exact | A | **Current buyer-validated working model** | System + observed practice | Exact technical trigger only if it becomes analytically relevant |
+| 24 | A newly generated PO record appears as `Besteld` in Exact and becomes open PO work; this status is distinct from manual supplier forwarding | Buyer / Exact | A | **Observed 1 Sep; current working model** | System + observed practice | Validate exact technical trigger/meaning if later analytically relevant |
 | 25 | Supplier sends order confirmation | Supplier | — | **Observed + Formal if confirmation received** | External + Formal archiving requirement | Confirmation receipt rate / format variability if relevant |
 | 26 | Compare supplier confirmation with PO / Exact | Buyer | V+A | **Observed; one large case ~30–40 min elapsed including task switching** | Observed practice | Active/elapsed time by line count + deviation rate |
 | 27 | Correct relevant confirmation deviations in Exact | Buyer | A | **Observed** | Observed practice | Frequency + correction time |
@@ -345,13 +372,13 @@ The maximalisatie block was clarified on 31 August 2026. **Historical observatio
 
 | Pre-31-August Task ID | Pre-31-August meaning | Current Task ID / treatment |
 |---:|---|---|
-| 7 | Determine whether requirement is small/non-urgent or otherwise ready to proceed | **10** — now evaluated after an unsuccessful MAX check |
+| 7 | Determine whether requirement is small/non-urgent or otherwise ready to proceed | **10** — now evaluated after the MAX step, whether or not useful demand was added |
 | 8 | Check additional same-supplier demand for maximalisatie | **7** |
 | 9 | Determine whether useful same-supplier demand is available | **8** |
 | 10 | Combine useful same-supplier demand | **9** |
-| 11 | Hold when useful consolidation is not available | **11**, but wording now explicitly includes the alternative proceed outcome when the remaining order is not small/non-urgent |
+| 11 | Hold when useful consolidation is not available | **11**, now generalized to the post-MAX HOLD/proceed outcome whether or not useful demand was added |
 
-This is not only a cosmetic renumbering: Task 7 moved downstream and Tasks 10–11 were clarified to represent the **post-MAX no-add order/hold logic**. The 28 August pilot therefore remains coded in the pre-31-August numbering and must be translated through this table for later comparison.
+This is not only a cosmetic renumbering: Task 7 moved downstream and Tasks 10–11 were subsequently clarified to represent the **post-MAX order/hold logic regardless of whether demand was added**. The 28 August pilot therefore remains coded in the pre-31-August numbering and must be translated through this table for later comparison.
 
 ### Cross-cutting interruptions
 
@@ -533,9 +560,9 @@ Pre-PO price checking and post-confirmation price checking serve different purpo
 
 ## 11.3 Maximalisatie is a standard order-processing subprocess, not merely a hold state
 
-The current working interpretation is that each order receives a maximalisatie check for useful additional same-supplier demand. If additional demand is available, it can be combined. If nothing useful can be added, the buyer then decides whether the remaining order is small and non-urgent enough to hold or should proceed because it is urgent or otherwise ready to order.
+The current working interpretation is that each order receives a maximalisatie check for useful additional same-supplier demand. If additional demand is available, it can be combined. **After MAX, whether or not additional demand was added, the buyer assesses the resulting order and can either hold it or proceed.**
 
-Maximalisatie can therefore be embedded seamlessly within PO processing and should not automatically be treated as a separately timed activity in live observation.
+Maximalisatie can therefore be embedded seamlessly within PO processing and should not automatically be treated as a separately timed activity in live observation. MAX addition and the later HOLD/ORDER outcome should remain analytically separate.
 
 ## 11.4 `Advies` and `Toewijzen` should remain conceptually separate
 
