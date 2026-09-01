@@ -65,3 +65,9 @@
 | OBS-29 | PO | 14:12 | 14:17 | 7L | 1 |  | MAX. 5L original, 2L added. |
 | OBS-27 | PO | 14:17 | 14:19 | 27L |  |  | 23L original. MAX and HOLD. 4L added. |
 | OBS-30 | PO | 14:20 | 14:21 | 15L |  |  | 8L original. Maximalisatie and HOLD. |
+
+
+### General written notes
+
+- When there is no open PO, the buyer selects/processes the order and a PO is created.
+- The observation was interrupted by a colleague near the end of the session; the remaining handwritten wording was unclear.
