@@ -1,5 +1,7 @@
 # Measure Observation Notes — 1 September 2026
 
+## Morning observation
+
 **Observation window:** 10:31–12:30
 
 | Case | Activity | Start | End | Volume | INT | DEC | Note |
@@ -38,3 +40,28 @@
 | OBS-19 | EXC | 12:22 | 12:25 |  |  |  | PO sent, but the supplier confirmed only the first page, so calling about this. |
 
 **General note for OBS-17:** Adding the items to Exact had already been done, and the items were already included in the PO.
+
+## Afternoon observation
+
+**Observation window:** 13:15–14:22
+
+| Case | Activity | Start | End | Volume | INT | DEC | Note |
+|---|---|---:|---:|---:|---:|---|---|
+| OBS-07 | OTHER | 13:15 | 13:23 |  |  |  | Inputting the item into Exact on 31 August was not finished due to missing data. |
+| OBS-20 | OTHER | 13:23 | 13:27 |  |  |  | Read mail |
+| OBS-21 | EXC | 13:25 | 13:29 |  |  |  | Ask supplier a question from Sales department |
+| OBS-22 | PO | 13:29 | 13:50 |  |  |  | Trying to find out what needs to be ordered. 1 PO created. |
+| OBS-23 | PO | 13:50 | 13:53 |  |  |  | 1 PO created |
+| OBS-24 | PO | 13:53 | 13:54 |  | 1 |  |  |
+| OBS-25 | REQ-phone |  |  |  |  |  |  |
+| OBS-25 | PO | 13:54 | 13:55 | 1L |  | 1 | Adjusted PO |
+| OBS-24 | PO | 13:55 | 13:57 |  |  |  | 1 PO created |
+| OBS-26 | PO | 13:57 | 13:58 |  |  |  | 1 PO created |
+| OBS-27 | PO | 13:58 | 14:03 |  |  |  | 1 PO created |
+| OBS-28 | PO | 14:03 | 14:05 |  |  |  | 1 PO created |
+| OBS-23 | PO | 14:05 | 14:09 |  |  |  | Hold |
+| OBS-24 | PO | 14:09 | 14:11 |  |  |  | MAX and HOLD |
+| OBS-26 | PO | 14:11 | 14:12 |  |  |  | MAX and HOLD |
+| OBS-29 | PO | 14:12 | 14:17 | 7L | 1 |  | MAX. 5L original, 2L added. |
+| OBS-27 | PO | 14:17 | 14:19 | 27L |  |  | 23L original. MAX and HOLD. 4L added. |
+| OBS-30 | PO | 14:20 | 14:21 | 15L |  |  | 8L original. Maximalisatie and HOLD. |
