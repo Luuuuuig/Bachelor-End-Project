@@ -17,6 +17,11 @@ For Measure protocols and observation evidence, use the dedicated `../measuremen
 
 Do not rewrite old notes to make them look as though later knowledge was already available at the time. Instead, synchronize new conclusions into the current master files above.
 
+
+Upcoming academic-supervisor agenda:
+
+- `Academic_Supervisor_Agenda_2026-09-03.md` — Measure-method validation, workload operationalization, baseline coverage (five working days vs approximately 40 net observation hours), Measure→Analyze gate, 1BEPIEX framing and Plan of Work milestones.
+
 Latest progress record:
 
 - `Internship_notes_2026-08-31.md` — first official Measure baseline, v1.2 clarification and repository synchronization.
