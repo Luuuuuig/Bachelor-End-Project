@@ -11,7 +11,7 @@
 **Acclimatization:** No — a separate pilot had already been completed on 28 August  
 **Recorded fields:** Case | Activity | Start | End | Volume | INT | DEC? | Note
 
-**Session-specific recording note:** a `DEC?` flag was used in this session even though it was not part of v1.1's original live row. `Yes` means judgement was explicitly noted. A blank DEC? cell means **not recorded**, not `No`, and must not be interpreted as absence of judgement.
+**Session-specific recording note:** a `DEC?` flag was used in this session due to the inability to capture it alone
 
 | Case | Activity | Start | End | Volume | INT | DEC? | Note |
 |---|---|---:|---:|---:|---:|---|---|
