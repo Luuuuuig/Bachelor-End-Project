@@ -23,11 +23,12 @@
 | OBS-03 | REQ-mail | — | — | — | 0 |  |  |
 | OBS-03 | CLAR | — | — | — | 0 |  | Forward; instantaneous/tally occurrence, not a timed episode. |
 | OBS-04 | REQ-mail | — | — | — | 0 |  | New article to old PO |
-| OBS-04 | CHECK | 10:52 | 10:53 | 1L | 0 |  |  |
-| OBS-04 | PO | 10:53 | 10:56 | 1L | 0 |  | 1L added |
-| OBS-04 | CHECK | 10:56 | 10:59 | 2L | 0 |  |  |
-| OBS-04 | CHECK | 10:59 | 11:02 | 2L | 0 |  |  |
-| OBS-04 | EXC | 11:51 | 11:53 | — | 0 |  |  |
+| OBS-04 | CHECK | 10:52 | 10:53 | 3L | 0 |  |1L checked  |
+| OBS-04 | PO | 10:53 | 10:55 | 1L | 0 |  | 1L added |
+| OBS-04 | CHECK | 10:55 | 10:59 | 3L | 0 |  | 2L checked |
+| OBS-04 | SEND |  |  |  |  |  |  |
+| OBS-05 | CHECK | 10:59 | 11:02 | 3L | 0 |  |  |
+| OBS-05 | EXC | 11:51 | 11:53 | — | 0 |  | The Rqeuest was toegtehr with obs-04 so in the same request but 2 PO |
 | OBS-06 | REQ-mail | — | — | — | 0 |  |  |
 | OBS-06 | CLAR | 11:03 | 11:04 | 1L | 0 | Yes | Onderhoud, so it is service |
 | OBS-06 | PO | 11:04 | 11:08 | 1L | 0 |  |  |
@@ -35,14 +36,15 @@
 | OBS-07 | REQ-email | — | — | — | 0 |  | Request: article input in Exact |
 | OBS-07 | CLAR | 11:23 | 11:25 | 1L | 0 |  | Write up information |
 | OBS-07 | OTHER | 11:25 | 11:29 | 1L | 0 |  | Input to Exact |
-| OBS-07 | SEND | — | — | 1L | 0 |  | Asking price? Instantaneous/tally occurrence; exact duration not measured. |
+| OBS-07 | SEND | — | — | 1L | 0 |  | Asking price? Instantaneous/tally occurrence; exact duration not measured because it happens in 30 seonds |
 | OBS-07 | OTHER | 11:29 | 11:31 | 1L | 0 |  | Attached info to article |
 | OBS-07 | OTHER | 11:35 | 11:37 | 1L | 0 |  | Attached info to article |
-| OBS-07 | CLAR | 11:37 | 11:39 | 1L | 0 | Yes | 2nd item that needs new [unclear]; asking question |
+| OBS-07 | CLAR | 11:37 | 11:39 | 1L | 0 | Yes | 2nd item that needs be inputted; asking question |
 | OBS-07 | CLAR | 11:39 | 11:43 | 1L | 1 |  | 2nd item, different comp. |
+| OBS-04 | EXC | 11:51 | 10:53 | 3L | 0 |  | aftercare |
 | OBS-08 | REQ-Exact | — | — | — | 0 |  |  |
 | OBS-08 | PO | 11:54 | 11:55 | 1L | 1 | Yes | Buy order amount of €900 |
-| OBS-08 | SEND | 12:00 | 12:02 | — | 0 |  |  |
+| OBS-08 | SEND | 11:58 | 11:59 | — | 0 |  |  |
 | OBS-09 | REQ-email | — | — | — | 0 |  |  |
 | OBS-09 | PO | 11:59 | 12:00 | 1L | 1 | Yes | Buy amount of €2,000 |
 | OBS-09 | SEND | 12:02 | 12:03 | — | 0 |  |  |
@@ -56,7 +58,7 @@
 | OBS-12 | PO | 12:15 | 12:17 | 1L | 0 | Yes | 1 line, purchase amount of €411 |
 | OBS-12 | SEND | 12:17 | 12:19 | — | 0 |  |  |
 | OBS-13 | REQ-Exact | — | — | — | 0 |  |  |
-| OBS-13 | CLAR | 12:19 | 12:20 | — | 0 |  | Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left. |
+| OBS-13 | CLAR | 12:19 | 12:27 | — | 0 |  | Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left. |
 
 ### Morning case-index note
 
