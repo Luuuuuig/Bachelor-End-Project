@@ -47,7 +47,7 @@
 
 | Case | Activity | Start | End | Volume | INT | DEC | Note |
 |---|---|---:|---:|---:|---:|---|---|
-| OBS-07 | OTHER | 13:15 | 13:23 |  |  |  | Inputting the item into Exact on 31 August was not finished due to missing data. |
+| OBS-07 from 31 aug measurement | OTHER | 13:15 | 13:23 |  |  |  | Inputting the item into Exact on 31 August was not finished due to missing data. |
 | OBS-20 | OTHER | 13:23 | 13:27 |  |  |  | Read mail |
 | OBS-21 | EXC | 13:25 | 13:29 |  |  |  | Ask supplier a question from Sales department |
 | OBS-22 | PO | 13:29 | 13:50 |  |  |  | Trying to find out what needs to be ordered. 1 PO created. |
