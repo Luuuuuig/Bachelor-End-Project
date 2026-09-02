@@ -47,12 +47,13 @@ Current Gantt/planning source. It contains:
 
 - completed Define work;
 - the Measure pilot and baseline sequence;
-- the known 15 / 20 / 27 September academic milestones;
+- the 15 / 20 / 27 / 28 September project, PoW and ILBEP milestones;
 - Analyze, targeted Exact/Orbis feasibility and focal-case selection;
 - Improve/DSRM, evaluation and Control/thesis work;
-- the **7 January 2027 Hytech-Pommec contract end as the outer company-placement boundary**.
+- the **420-hour combined 1BEPIE + 1BEPIEX study load** with separate planned/actual effort control;
+- the **7 January 2027 company-placement boundary**, **15 January final-report deadline**, **29 January presentation deadline** and **7 February assessment deadline**.
 
-The project may conclude before that boundary if the required work is completed and this is agreed. Post-Measure task durations are planning estimates and should be refined after the focal case is selected.
+The company-dependent work may conclude at or before the 7 January boundary, while academic finalization continues through 7 February. Post-Measure task durations are planning estimates and should be refined after the focal case is selected.
 
 The Mermaid Gantt can be copied into draw.io / diagrams.net for visual editing and supervisor sharing.
 
@@ -61,7 +62,7 @@ The Mermaid Gantt can be copied into draw.io / diagrams.net for visual editing a
 ## B. Academic project definition
 
 ### [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md)
-Use for the current readable project title, context, problem description, objective, provisional research question, sub-questions, research design and communication expectations.
+Use for the current readable project title, context, problem description, objective, **supervisor-approved research question and sub-questions**, research design and communication expectations.
 
 The older Word file remains beside it for external/submission history. The Markdown version is the authoritative readable repository source for later framing and methodology synchronizations.
 
