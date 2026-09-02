@@ -1,6 +1,6 @@
 # TO-BE Working Hypothesis v0.1
 
-**Status:** Working future-state hypothesis, 24 August 2026. Not yet validated or selected as the final intervention.
+**Status:** Working future-state hypothesis, synchronized 2 September 2026. Not yet validated or selected as the final intervention.
 
 **Ownership:** This file contains the proposed future-state architecture only. Measurement gates, candidate prioritization and evaluation design are maintained in `docs/methodology/Phase_1_Current_Methodology.md`.
 
@@ -17,7 +17,7 @@ The process design comes first. Technology is selected afterwards for each step:
 - AI where unstructured information, ambiguity or flexible orchestration creates value;
 - human expertise for exceptional, ambiguous or high-risk work.
 
-An AI agent is therefore a possible implementation mechanism, not an assumed starting point.
+The company expects the focal thesis artifact to include a **meaningful AI-supported contribution**. That does not make an autonomous AI agent the assumed mechanism: deterministic rules, conventional automation and human review may remain essential components. A non-AI focal artifact is an exception that requires documented Analyze evidence that no candidate passes the responsible-AI/data/quality/evaluation gates and explicit company plus academic-supervisor approval.
 
 ---
 

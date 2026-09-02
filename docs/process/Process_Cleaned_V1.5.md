@@ -1,6 +1,6 @@
 # Operational Purchasing Current State — AS-IS master (V1.5)
 
-**Status:** Current operational-process source of truth, synchronized 1 September 2026.
+**Status:** Current operational-process source of truth, synchronized 2 September 2026.
 
 **Ownership:** This file describes the **current AS-IS purchasing process** and preserves the useful process context around it: workflow, detailed stage interpretation, evidence, task inventory, observed improvement-opportunity profiles and unresolved process facts. Formal research-method decisions and final candidate prioritization are maintained in their dedicated files.
 
@@ -46,7 +46,7 @@ Operational purchasing from the appearance of a purchasing need through `Bevesti
 
 This AS-IS model combines:
 
-1. direct observation of the operational buyer on 17, 19, 20 and 21 August 2026;
+1. direct observation of the operational buyer on 17, 19, 20, 21, 28 and 31 August and 1 September 2026;
 2. buyer/manager explanations and the 21 August workflow walkthrough;
 3. formal company documentation received on 21 August.
 
@@ -396,9 +396,9 @@ Observed issues/opportunities include:
 
 - checking additional same-supplier demand as a standard part of order processing;
 - deciding whether useful additional demand should be combined;
-- when nothing can be added, balancing urgency against small-order/MOQ/minimum-value considerations;
 - interpreting current/future stock and open POs;
-- deciding whether the remaining order should proceed or be held.
+- after MAX, assessing the resulting order whether or not demand was added;
+- deciding whether the resulting order should proceed or be held based on size, urgency, MOQ/minimum-value considerations and current purchasing context.
 
 **Current profile:** Strong active thesis candidate because it is judgement-intensive and repeatedly observed, but feasibility depends heavily on Exact/Orbis data availability and whether the buyer's decision rules/tacit constraints can be represented defensibly.
 

@@ -1,8 +1,8 @@
 # Workload Definition — Operational Purchasing BEP
 
-**Status:** Canonical project definition, synchronized 31 August 2026.
+**Status:** Canonical project definition, synchronized 2 September 2026.
 
-**Ownership:** This file defines what **workload** means in the BEP. Detailed live Measure-phase data-collection procedure belongs in `../measurement/Measurement_Protocol_v1.2.md`; research/candidate decisions belong in `Phase_1_Current_Methodology.md`; literature status belongs in `../../literature/README.md`.
+**Ownership:** This file defines what **workload** means in the BEP. Detailed live Measure-phase data-collection procedure belongs in `../measurement/Measurement_Protocol_v1.3.md`; research/candidate decisions belong in `Phase_1_Current_Methodology.md`; literature status belongs in `../../literature/README.md`.
 
 ---
 
@@ -162,7 +162,7 @@ Where evidence concerns only one aspect, use the more precise term, for example:
 
 Do not claim that one task has greater **total workload** than another solely because it takes more time. Likewise, do not label a task high mental workload solely because it requires expertise.
 
-The specific exploratory Measure indicators and coding rules are defined in `../measurement/Measurement_Protocol_v1.2.md`. After the focal activity is selected, the activity-specific evaluation protocol may introduce additional validated measures when justified.
+The specific exploratory Measure indicators and coding rules are defined in `../measurement/Measurement_Protocol_v1.3.md`. After the focal activity is selected, the activity-specific evaluation protocol may introduce additional validated measures when justified.
 
 ---
 

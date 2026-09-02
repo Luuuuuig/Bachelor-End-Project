@@ -1,6 +1,6 @@
 # Phase 1 — Current Methodology and Case-Selection Status
 
-**Status:** Current research-method and case-selection source of truth, synchronized 31 August 2026.
+**Status:** Current research-method and case-selection source of truth, synchronized 2 September 2026.
 
 **Ownership:** This file owns the research framework, candidate portfolio, selection gates, evaluation logic and current research actions. Detailed workload theory and live Measure-phase collection rules are maintained in their dedicated files rather than duplicated here.
 
@@ -9,7 +9,7 @@ Related sources:
 - Project control / DMAIC tollgates: `docs/Project_Charter.md`
 - AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.5.md`
 - Canonical workload definition: `docs/methodology/Workload_Definition.md`
-- Exploratory Measure protocol: `docs/measurement/Measurement_Protocol_v1.2.md`
+- Exploratory Measure protocol: `docs/measurement/Measurement_Protocol_v1.3.md`
 - Formal company evidence: `docs/company-documentation/Official_Document_Register_2026-08-21.md`
 - Working TO-BE hypothesis: `docs/process/TO_BE_Working_Hypothesis_v0.1.md`
 
@@ -19,9 +19,9 @@ Related sources:
 
 The company-level objective is to reduce meaningful workload in operational purchasing by reducing unnecessary administrative effort, repetitive verification, avoidable rework and information-handling burden while preserving or supporting work that depends on purchasing expertise.
 
-The thesis-level objective is to select one high-value purchasing activity or coherent TO-BE process component and design and evaluate a digital or AI-supported artifact for that focus.
+The thesis-level objective is to select one high-value purchasing activity or coherent TO-BE process component and design and evaluate a focal artifact containing a **meaningful AI-supported contribution**.
 
-The current business direction expects an **AI-supported contribution where a suitable activity can be justified**. This does not require every observed problem to receive an AI solution. Conventional process redesign, digital automation and quick wins remain valid company-level recommendations when they are a better fit.
+The company expects AI to be part of the focal thesis solution. Conventional process redesign, deterministic rules and digital automation may be supporting components or separate quick-win recommendations. A non-AI focal artifact is an exception: it requires documented Analyze evidence that no candidate passes the responsible-AI, data, quality and evaluation-feasibility gates, followed by explicit company and academic-supervisor approval. The project must not relabel a deterministic rule as AI merely to satisfy the expectation.
 
 Selecting one thesis case does not remove other improvement opportunities from the wider company improvement portfolio.
 
@@ -69,7 +69,7 @@ Within this structure:
 
 - `Process_Cleaned_V1.5.md` mainly supports **Define** and the transition into Measure;
 - Section 4 below is the authoritative candidate-status portfolio to be tested by Measure/Analyze;
-- `../measurement/Measurement_Protocol_v1.2.md` operationalizes the exploratory **Measure** phase;
+- `../measurement/Measurement_Protocol_v1.3.md` operationalizes the exploratory **Measure** phase;
 - `TO_BE_Working_Hypothesis_v0.1.md` is an early **Improve hypothesis**, not yet an Improve conclusion;
 - the final digital/AI artifact is selected only after the relevant Measure and Analyze gates are satisfied.
 
@@ -83,7 +83,7 @@ For the maximalisatie/order-hold sequence, elicitation should capture:
 
 - how the buyer searches for additional same-supplier demand;
 - what makes consolidation useful enough to proceed;
-- after an unsuccessful MAX check, what makes the remaining order proceed versus be held (including size and urgency);
+- after MAX, whether or not demand was added, what makes the resulting order proceed versus be held (including size, urgency, MOQ/minimum-value considerations and current purchasing context);
 - what later causes a held requirement to be reconsidered;
 - which cues are explicit in data versus experience-based or undocumented.
 
@@ -106,7 +106,7 @@ The broad workload construct is defined in `Workload_Definition.md` and uses a l
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Detailed live observation rules are owned by `../measurement/Measurement_Protocol_v1.2.md`. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
+Detailed live observation rules are owned by `../measurement/Measurement_Protocol_v1.3.md`. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
 
 - frequency;
 - active processing time;
@@ -124,13 +124,18 @@ is a buyer-capacity indicator, not a total workload or mental-workload score.
 
 For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are more informative than artificial second-level timing.
 
+**Role of the exploratory Measurement Protocol.** Measurement Protocol v1.3 characterizes the current procurement process and screens for recurring sources of observable operational effort. It records occurrence, reliable active processing time, case context, interruptions, clarification, exception work and supported decision/expertise cues at activity-family level. These observations justify candidate generation and focal-case selection, but they do not estimate the effect of an AI artifact and do not measure purchasing outcome quality. The protocol therefore contributes indirect baseline evidence to the main research question rather than answering it independently.
+
+**Transition to focal evaluation.** After Analyze selects one focal activity, a separate activity-specific protocol will define eligible cases, the manual comparator, total active human handling time per comparable unit, the final purchasing-quality rubric, critical-error definitions, workload-improvement threshold, acceptable quality margin, sampling design and analysis plan. These elements are frozen before formal artifact evaluation. The main research question is answered from the matched comparison of the manual and AI-assisted workflows; the broad Measure dataset supplies process context and the justification for focal-case selection.
+
 ### Current Measure sequencing
 
 1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
-2. The first official baseline observation was completed on 31 August. It confirmed the two-level architecture but exposed structural clarifications around timed REQ, DEC as an embedded attribute, blank/zero conventions and seamless MAX/PO work.
-3. `../measurement/Measurement_Protocol_v1.2.md` is the controlled protocol for subsequent observations. Continue the broader workload baseline using case context, observable work families, decision attributes and post-session detailed Task-ID enrichment.
-4. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.
-5. Move into Analyze after representative baseline evidence exists.
+2. Two official baseline days are complete: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Current totals are therefore **351 net observed minutes** and **265 timed coded-active minutes**; these are different quantities.
+3. `../measurement/Measurement_Protocol_v1.3.md` is controlled for observations from 2 September onward. Its live fields/timing rules remain comparable with v1.2, while its MAX interpretation, five-day coverage rule and repository governance are updated.
+4. Continue until at least five distinct working days have been covered, then apply the v1.3 Day-5 coverage review. Five working days is not automatically interpreted as 40 net observed hours.
+5. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.
+6. Move into Analyze only after the Measure coverage rule and evidence gate are satisfied.
 
 **Exact/Orbis production-data/interface feasibility is intentionally not an immediate Measure-phase task.** It is deferred until after the exploratory workload baseline, when the shortlisted candidate(s) justify targeted technical investigation. This avoids delaying Measure with system-integration work before the workload evidence shows where that effort is most valuable.
 
@@ -144,7 +149,7 @@ Candidate names are used instead of reusable letter IDs so that a candidate cann
 
 | Candidate | Current reason | Main evidence gates | Possible artifact direction |
 |---|---|---|---|
-| **Order timing / maximalisatie / supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie. The buyer performs a maximalisatie check as a standard part of order processing; useful same-supplier demand can be combined, while a remaining small/non-urgent order can be held when nothing useful is added. | Measure-phase workload contribution and frequency; CTA decision rules; after Measure: Exact/Orbis data feasibility and defensible benchmark | decision / information / optimization support |
+| **Order timing / maximalisatie / supplier-order consolidation** | Repeated judgement-intensive activity involving stock, future demand, open POs, lead time, urgency and maximalisatie. Useful same-supplier demand can be combined; after MAX, the resulting order is assessed and may be held or ordered whether or not demand was added. | Measure-phase workload contribution and frequency; CTA decision rules; after Measure: Exact/Orbis data feasibility and defensible benchmark | decision / information / optimization support |
 | **Purchase-price control** | Repeated manual verification with measurable discrepancy outcomes, both pre-PO and post-confirmation | Measure-phase frequency, line complexity, active time, deviation rate and verification demand; after Measure: supplier/Exact data feasibility | automated retrieval/comparison, stale-price/deviation support |
 | **Standard / review / manual process redesign** | Promising process-level hypothesis if a meaningful share of cases is repeatable and safely classifiable | standard-case share, addressable workload, exception boundary, quality/safety risk; after Measure: system/data feasibility and evaluation feasibility | exception-based workflow with rules/automation/AI where justified |
 
@@ -195,13 +200,65 @@ It remains background procurement context, not a default operational-buyer workl
 12. **Evaluation feasibility:** sufficient repeated cases, measurable workload and quality outcomes, and participant/domain-expert access.
 13. **University-supervisor alignment:** confirm the final case and evaluation design before freezing artifact scope.
 
+## 5.3 Formal two-stage selection rule
+
+The focal case is selected in two stages. A weighted score may not compensate for a failed veto gate.
+
+### Stage A — veto gates (Pass / Redesign / Reject)
+
+1. Required data and tooling are permitted for the intended research use.
+2. Accessible data are sufficiently representative for a prototype and test.
+3. A reproducible ground truth/reference standard and manual baseline can be created.
+4. Critical errors are detectable/reversible and residual risk can be controlled through human review, an audit trail and fallback.
+5. Prototype development and evaluation fit the BEP's time, access and participant constraints.
+6. The task has a non-trivial AI fit: unstructured, probabilistic or pattern-based support creates value beyond a simpler deterministic rule.
+
+If no candidate passes all gates, no candidate enters the weighted comparison and no unsuitable AI case is forced. First test a bounded redesign, such as narrowing the task, reducing AI autonomy, adding human review or improving the usable data. If no responsible and evaluable AI-supported case remains, report the failed gates as a feasibility finding and seek an explicit scope decision: the academic supervisor determines academic acceptability and the company supervisor confirms operational feasibility/permission. A conventional digital solution may remain a benchmark or recommendation, but it does not silently replace the intended AI-supported focal artifact.
+
+### Stage B — evidence-scored comparison
+
+Criteria and scoring anchors are grounded in the project objective, the workload construct, Task–Technology Fit and MCDA practice (Goodhue & Thompson, 1995; Belton & Stewart, 2002; Department for Communities and Local Government [DCLG], 2009). The student constructs the matrix, documents the evidence, calculates scores and makes the final reasoned recommendation. The student and academic supervisor prospectively agree the criteria definitions, scoring anchors, plausible scoring ranges and weights. The company supervisor validates operational evidence—such as workload, business relevance, data/system access, implementation constraints and risk controls—but does not own the academic weights or final research ranking.
+
+| Criterion | Provisional workshop start | What it means |
+|---|---:|---|
+| Observed workload contribution | 25% | Human minutes/frequency and qualitative burden; do not also count business effects here. |
+| Business value beyond counted workload | 15% | Lead time, service, compliance, scalability or strategic priority not already counted above. |
+| AI–task fit | 15% | Degree to which AI capability fits the actual information/decision task. |
+| Data readiness above the gate minimum | 15% | Representativeness, traceability, labelling/annotation and cleaning burden. |
+| Repetition / process standardization | 10% | Recurrence and stability of inputs, outputs and exception boundaries. |
+| Prototype / technical feasibility | 10% | Access, integration dependencies and ability to build a credible prototype. |
+| Evaluation feasibility | 10% | Availability of comparable cases, a clear rubric, benchmark and participant access. |
+
+These weights are a **provisional discussion starting point**, not a literature-derived truth. Define plausible best-to-worst scoring ranges first; then agree and freeze the weights before aggregate scores or rankings are calculated or revealed.
+
+Use anchored 1–5 scores: `1 = weak/poorly supported`, `3 = moderate with direct evidence`, `5 = strong with direct evidence`; define candidate-specific 1/3/5 anchors before seeing the total. Record evidence and uncertainty for each score. The total is `Σ(weight × score/5)`.
+
+Run a proportionate sensitivity check using (a) the agreed weights, (b) equal weights, (c) each weight changed by ±20% with renormalization and (d) disputed scores changed by ±1. If the winner changes, report the ranking as unstable and collect more evidence or retain a shortlist rather than hiding the dependence on assumptions.
+
 Unresolved facts about the **current process itself** remain in `Process_Cleaned_V1.5.md` rather than being duplicated here.
 
 ---
 
 # 6. Evaluation logic by problem type
 
-The selected focal activity determines the final evaluation protocol and quality metric.
+The selected focal activity determines the final activity-specific metric, but the **success logic is predeclared now**.
+
+## 6.1 Workload endpoint and quality guardrail
+
+The artifact is successful only when **both** conditions hold:
+
+1. the primary workload endpoint improves by at least the predeclared meaningful threshold; and
+2. the quality guardrail passes.
+
+The default primary endpoint is **active human handling time per eligible case** (or per line/item when case size varies materially), comparing matched manual and AI-assisted work. Include reading, searching, entering data, reviewing AI output, correcting it and completing the required hand-off/documentation. Exclude passive supplier/system waiting and unrelated interruptions; report those separately. Report the median and distribution, with mean and percentage change as supporting statistics, and match/stratify by case complexity.
+
+Secondary endpoints may include manual actions, system switches, rework/correction time, throughput and a validated post-task workload measure such as NASA-TLX when justified. These do not replace the primary endpoint.
+
+Quality is measured on the **final human-approved outcome**, not only the AI output. After focal-case selection, define a case-specific rubric, a trusted reference/adjudicator and critical versus minor errors. The default guardrail is zero observed critical errors plus final-decision correctness no more than a pre-agreed margin `δ` below the matched manual baseline. `δ = 0` for critical errors; any non-zero margin for minor errors requires explicit process-owner acceptance. With a small BEP sample, report that the guardrail passed in the observed cases rather than claiming statistical non-inferiority.
+
+After the manual baseline and focal case are known, the company/process owner defines the smallest worthwhile workload improvement `Δ` and acceptable minor-error margin `δ`; the academic supervisor validates the research rule. Freeze eligible cases, comparator, rubric, `Δ`, `δ` and analysis before prototype development/formal testing. Keep development examples separate from held-out evaluation cases where feasible.
+
+BEP-ready rule: `For eligible [case type], the AI-assisted workflow is successful only if median active buyer handling time per [case/line] decreases by at least [Δ minutes or r%] versus a matched manual baseline, while final human-approved decisions contain zero critical errors and their correctness rate is no more than [δ percentage points] below baseline.`
 
 ## Optimization / decision-support case
 
@@ -246,8 +303,8 @@ Processing-time reduction alone should not automatically be reported as mental-w
 
 # 7. Immediate research actions
 
-1. Use the v1.2 live sheet and cheat sheet for subsequent baseline blocks, with the restricted case index recording Origin and Channel once per case.
-2. Continue official exploratory baseline observations after the completed 31 August first session and sample normal operational-purchasing work rather than only interesting candidate cases.
+1. Use the v1.3 live sheet and cheat sheet from 2 September onward, with the restricted case index recording Origin and Channel once per case.
+2. Continue official exploratory baseline observations after the completed 31 August and 1 September sessions; reach five distinct working days and then apply the predeclared coverage review rather than substituting an unconfirmed 40-net-hour target.
 3. Complete post-session enrichment immediately after each block, mapping to detailed Task IDs only where evidence supports it.
 4. Record MISS, interruptions, J/EXP and recurring unmapped activities consistently; do not silently reconstruct missing information.
 5. Ask Johan for approved aggregated or exportable PO-volume information (for example PO count and PO-line count by week/month) as a supplement, not a prerequisite for observation.
@@ -256,5 +313,19 @@ Processing-time reduction alone should not automatically be reported as mental-w
 8. Collect and categorize Finance-returned rework/aftercare when it occurs, but do not calculate a live rework percentage without a matched denominator.
 9. Produce an activity-family multidimensional workload profile first, then detailed Task-ID analysis where mapping confidence and sample size justify it.
 10. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
-11. Reassess the candidate portfolio using workload evidence, business value, standardizability, quality risk, technical feasibility, evaluation quality and required human expertise.
-12. Confirm the selected focal case/evaluation design with the university supervisor before DSRM artifact development.
+11. Run the veto gates, student–academic-supervisor swing weighting, anchored evidence scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
+12. Define and freeze the focal case's active-handling-time endpoint, quality rubric, `Δ` and `δ` before artifact development/formal evaluation.
+13. Confirm the selected focal case and evaluation design with the university supervisor before DSRM artifact development.
+
+
+# References added for selection and evaluation design
+
+Belton, V., & Stewart, T. J. (2002). *Multiple Criteria Decision Analysis: An Integrated Approach*. Kluwer Academic Publishers. https://doi.org/10.1007/978-1-4615-1495-4
+
+Department for Communities and Local Government. (2009). *Multi-Criteria Analysis: A Manual*. https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy
+
+Goodhue, D. L., & Thompson, R. L. (1995). Task-technology fit and individual performance. *MIS Quarterly, 19*(2), 213–236. https://doi.org/10.2307/249689
+
+Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In P. A. Hancock & N. Meshkati (Eds.), *Human Mental Workload* (pp. 139–183). Elsevier. https://doi.org/10.1016/S0166-4115(08)62386-9
+
+Triantaphyllou, E., & Sánchez, A. (1997). A sensitivity analysis approach for some deterministic multi-criteria decision-making methods. *Decision Sciences, 28*(1), 151–194. https://doi.org/10.1111/j.1540-5915.1997.tb01306.x

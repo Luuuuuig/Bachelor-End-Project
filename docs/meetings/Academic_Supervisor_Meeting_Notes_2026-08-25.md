@@ -12,6 +12,10 @@
 
 The main feedback was that the research question should be more specific and directly aligned with the objective of reducing workload rather than using the broad wording of “identifying opportunities.” The supervisor agreed that DMAIC can structure the overall project and that DSRM can support artifact development, provided the relationship between the methodologies and the actual project activities is clearly explained. Before the Measure phase is operationalized, the workload construct based on Young et al. needs to be clearly defined and the relevant dimensions need a defensible measurement approach, while any eventual solution should also allow quantitative evaluation of improvement.
 
+### 2 September 2026 clarification note
+
+The student clarified that their recollection of the 25 August discussion is that the academic advisor specifically indicated that approximately **five working days should be sufficient**. The original note below records the five-day design as student-proposed and not finalized. This addendum preserves both accounts rather than silently rewriting the historical note. The separate idea of converting five days into **40 net observed hours** arose later from the student and still requires explicit confirmation; five working days and 40 net hours are not treated as equivalent.
+
 ## 3. **Key Discussion Points**
 
 ### Research question and sub-questions

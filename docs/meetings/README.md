@@ -20,8 +20,8 @@ Do not rewrite old notes to make them look as though later knowledge was already
 
 Upcoming academic-supervisor agenda:
 
-- `Academic_Supervisor_Agenda_2026-09-03.md` — Measure-method validation, workload operationalization, baseline coverage (five working days vs approximately 40 net observation hours), Measure→Analyze gate, 1BEPIEX framing and Plan of Work milestones.
+- `Academic_Supervisor_Agenda_2026-09-03.md` — Measure-method validation, operationalizing the five-working-day guidance, Measure→Analyze and formal candidate-selection gates, AI fallback, evaluation-protocol freeze, 1BEPIEX framing and Plan of Work milestones.
 
 Latest progress record:
 
-- `Internship_notes_2026-08-31.md` — first official Measure baseline, v1.2 clarification and repository synchronization.
+- `../measurement/Measure_Observation_2026-09-01.md` — second official baseline day; the 2 September synchronization is reflected in current master files and protocol v1.3.

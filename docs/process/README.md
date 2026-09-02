@@ -1,6 +1,6 @@
 # Process Documentation
 
-**Status:** Navigation page, synchronized 31 August 2026.
+**Status:** Navigation page, synchronized 2 September 2026.
 
 This folder separates the **current AS-IS process** from the **provisional TO-BE hypothesis**.
 
@@ -36,7 +36,7 @@ It is not yet the selected final process or artifact.
 - Project charter / tollgates: `../Project_Charter.md`
 - Research methodology and candidate portfolio: `../methodology/Phase_1_Current_Methodology.md`
 - Workload definition: `../methodology/Workload_Definition.md`
-- Exploratory Measure protocol: `../measurement/Measurement_Protocol_v1.2.md`
+- Exploratory Measure protocol: `../measurement/Measurement_Protocol_v1.3.md`
 - Formal SOP/WI evidence: `../company-documentation/Official_Document_Register_2026-08-21.md`
 
-The bridge from AS-IS evidence to an accepted TO-BE design is handled through DMAIC Measure/Analyze. Current sequence: pilot → baseline → Analyze/technical feasibility → focal-case selection → Improve/DSRM.
+The bridge from AS-IS evidence to an accepted TO-BE design is handled through DMAIC Measure/Analyze. Current sequence: pilot → v1.2/v1.3 baseline → five-day coverage review → Analyze/technical feasibility → gated and sensitivity-tested focal-case selection → evaluation-protocol freeze → Improve/DSRM.
