@@ -5,116 +5,170 @@
 **Supervisor:** Zhongxin Hu  
 **Project:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI
 
-## Intended meeting outcome
+## Meeting objective
 
-Record the decisions that are still genuinely open. The RQ/SQ wording from the approved 1BEPIEX assignment is treated as the source of truth and is not reopened substantively.
+Review the work completed since last week's meeting, validate the workload definition and Measurement Protocol, and confirm that the project and observation stopping rule are on the right track.
 
-## 0. Progress and source corrections — 5 min
+## 1. Review what has been added since last week — 10 min
 
-- Pilot completed on 28 August.
-- Official exploratory baseline:
+### Main additions and corrections
+
+- The current AS-IS workflow has been synchronized with the latest observations:
+  - after maximalisatie, either HOLD or ORD can follow, whether or not additional demand was added.
+- The Measure pilot was completed on 28 August.
+- Two official observation sessions were completed:
   - 31 August: 165 net observed minutes; 103 timed coded-active minutes.
   - 1 September: 186 net observed minutes; 162 timed coded-active minutes.
   - Combined: **351 net observed minutes** and **265 timed coded-active minutes**.
-- **OBS-04 SEND** and **OBS-05 EXC** were genuine sub-minute actions. They remain untimed tally occurrences and add no fabricated duration.
-- Measurement Protocol v1.3 is controlled from 2 September.
-- Current AS-IS rule: after maximalisatie, HOLD or ORD can follow whether or not demand was added.
+- **OBS-04 SEND** and **OBS-05 EXC** were confirmed as genuine sub-minute actions. They are retained as untimed tally occurrences; no duration is invented.
+- Measurement Protocol v1.3 and its live cheat sheet were created.
+- The workload definition, candidate-selection structure and later evaluation logic were clarified.
+- The supervisor-approved RQ/SQ wording and order were synchronized across the current project-definition documents.
+- The Gantt was updated with Plan of Work, ILBEP, final-report, presentation and assessment deadlines.
 
-## 1. Measure validity and stopping rule — 15 min
+### Question for the supervisor
 
-The exploratory protocol is intended to characterize current work and identify candidate workload hotspots. It does not by itself prove that an AI artifact reduces workload or preserves quality.
+Are any of these additions, corrections or interpretations inconsistent with what we agreed last week?
 
-### Decisions required
+## 2. Workload definition: which literature is used and why — 12 min
 
-1. Confirm the two-level architecture: broad live activity coding plus evidence-supported post-session Task-ID enrichment.
-2. Decide whether the two partial sessions count as **Day 1 and Day 2 of five distinct working days**. Student proposal: count both as distinct days because they occurred on separate working days, but do not label either a full day and do not convert five days into 40 net observed hours.
-3. Separately agree the minimum coverage needed across morning/afternoon, activities and request channels.
-4. Agree the Day-5 extension rule: extend when there is an abnormal day, a missing material daypart, a measurement failure, a missing recurring pattern or a materially new recurring pattern on the final day.
-5. Confirm same-observer recoding, buyer validation of ambiguous mappings and explicit uncertainty instead of retrospective reconstruction.
+### Primary definition
 
-## 2. Approved RQ/SQ source and AI contingency — 8 min
+The primary conceptual source is:
 
-### Locked source wording
+**Bowling, N. A., & Kirkendall, C. (2012). _Workload: A review of causes, consequences, and potential interventions._**
 
-The following wording and order come from the supervisor-approved 1BEPIEX assignment. Only obvious grammar, capitalization and punctuation errors are normalized.
+This source is used because it treats workload as involving both:
 
-**RQ:** To what extent can an AI-supported solution reduce the operational buyers' workload at Hytech-Pommec without reducing the quality of the purchasing outcome?
+- the **amount of work**; and
+- the **difficulty of work**.
 
-1. Which parts of the operational purchasing workflow contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
-2. What conditions and control measures are required for the proposed solution to be implemented reliably in the operational purchasing workflow?
-3. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility and the need for human expertise?
-4. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
+That distinction fits this BEP better than defining workload as processing time alone. Operational purchasing contains repetitive volume and active handling time, but also clarification, exceptions, judgement, uncertainty, task switching and expertise-dependent work.
 
-### Decision required
+### Supporting sources
 
-Confirm the contingency for the methodology: if no candidate passes the responsible-use, data, ground-truth, technical-access and evaluation-feasibility gates, document the failed gates, test bounded redesigns where sensible and obtain an explicit academic/company scope decision before replacing the intended AI-supported focal solution.
+- **Spector and Jex (1998):** supports the distinction between quantitative workload and organizational constraints such as interruptions.
+- **Young et al. (2015):** supports treating mental workload as multidimensional and as one component of the broader workload construct, rather than assuming that duration directly represents mental workload.
 
-## 3. Plan of Work, second assessor and deadlines — 17 min
+### Current interpretation
 
-### Confirmed planning dates
+The project therefore does **not** create one arbitrary “total workload score.” It reports several defensible indicators:
 
-- **15 September:** send half-page project description for second-assessor identification.
-- **18 September:** internal complete-draft buffer.
-- **20 September:** supervisor-review Plan of Work draft target; this is not a Canvas assignment deadline.
-- **25 September:** internal final-package buffer.
-- **27 September, 23:59:** safe operational Canvas deadline for the final Plan of Work. Canvas contains a conflicting 28 September date elsewhere, so use the earlier assignment deadline unless TU/e resolves it.
-- **28 September, 23:59:** ILBEP / Dealing with Scientific Information deadline.
-- **15 January 2027, 23:59:** final report, scientific-conduct item and end-BEP reflection.
-- **29 January 2027:** final presentation and assessment meeting completed on or before this date.
-- **7 February 2027:** final assessment deadline.
+- frequency and volume;
+- active processing time;
+- rework and exception work;
+- interruptions and task switching;
+- qualitative evidence of difficulty, judgement and expertise.
 
-### Compliance checks
+### Questions for the supervisor
 
-1. Confirm who identifies the second assessor, when the name must be known and whether the PoW header may temporarily state TBD.
-2. Confirm the PoW Part A 2–6 page limit and coverage of: problem/literature/aim; approved RQ/SQs; empirical context; justified research approach; data sources and collection; analysis approach mapped to the questions; anticipated practical and theoretical insights; APA references.
-3. Confirm Part B covers the full project, literature, data collection/analysis, thesis writing, milestones and Gantt.
-4. Schedule completion and start-BEP discussion of the five Part C reflections (Planning & Organizing, Writing, Presenting, Collaborating, Dealing with Scientific Information), approximately 300–400 words each.
-5. Clarify the current Part D declaration procedure: student signature, whether Canvas also needs a copy and the current department student-administration route.
-6. Confirm that the PoW PDF is submitted in Canvas and emailed to the first supervisor and second assessor for approval.
-7. Confirm that the combined 1BEPIE + 1BEPIEX normative workload is **420 hours total** and agree how planned versus actual hours will be tracked.
+1. Is Bowling and Kirkendall (2012) suitable as the primary umbrella definition for workload in this BEP?
+2. Is the distinction between amount, difficulty, mental workload, organizational constraints and expertise sufficiently clear?
+3. Should another source or construct be added before the Plan of Work is finalized?
 
-## 4. Candidate selection and evaluation governance — 10 min
+## 3. Review the Measurement Protocol and explain what it captures — 23 min
 
-### Proposed selection rule
+### Purpose of the protocol
 
-1. Apply non-compensatory gates first: responsible-use boundary, usable data, ground truth/quality benchmark, technical access, evaluation feasibility and remaining project time.
-2. Score only candidates that pass all gates using anchored 1–5 criteria.
-3. The student and academic supervisor agree the academic criteria, anchors, plausible weight ranges and final weights; the company supervisor validates operational evidence, access and feasibility.
-4. Perform sensitivity analysis before declaring a robust winner.
+The protocol is designed to answer the exploratory Measure question:
 
-### Proposed evaluation boundary
+> Which parts of the operational purchasing workflow contribute most to the operational buyer's observable workload, and which activities should be investigated further as possible AI-support candidates?
 
-- After focal-case selection, define the unit, comparator, primary workload endpoint, meaningful threshold Δ, quality rubric, critical-error definition and acceptable quality margin δ.
-- Freeze success criteria and guardrails before development decisions can be influenced by results.
-- Permit documented formative prototyping and pilot refinement.
-- Freeze the final held-out evaluation protocol before formal testing.
-- Student drafts Δ and δ from literature, baseline evidence and business tolerance; academic supervisor and relevant company process owner confirm them before formal evaluation.
+### Construct-to-measurement mapping
 
-## 5. Decision record and actions — 5 min
+| What we need to understand | What the protocol records | How it is interpreted |
+|---|---|---|
+| Amount and recurrence of work | Activity occurrences, case IDs, line/item volume and net observed time | Occurrences per observed hour and activity distribution |
+| Operational effort | Reliable start/end times for active work episodes | Active processing-time distribution; not total workload by itself |
+| Rework, clarification and exceptions | CLAR/EXC codes, recurrence, active time and short cause/result notes | Where avoidable workload and process friction occur |
+| Interruptions and task switching | INT count and segmentation when the buyer leaves and resumes work | Organizational constraint/interruption rate |
+| Judgement and expertise | DEC?, J and EXP markers supported by an observed action or explanation | Qualitative evidence; not converted into invented minutes or points |
+| Case and channel context | OBS case ID, Origin, Channel, result and relevant notes | Identifies whether patterns differ by request source or case type |
+| Observation coverage | Date, daypart, session start/end, breaks, observer-unavailable time and net minutes | Shows what was and was not covered; prevents false full-day claims |
+| Measurement quality | Protocol version, timed-versus-tally status, MISS/Unknown conventions, mapping confidence and recoding checks | Makes uncertainty and comparability auditable |
 
-| Decision/action | Owner | Due date | File/evidence to update |
-|---|---|---|---|
-| Partial days and Measure coverage/extension rule |  |  |  |
-| Approved RQ/SQ source locked |  |  |  |
-| AI contingency |  |  |  |
-| Half-page description and second-assessor identification |  |  |  |
-| PoW Part A/B compliance and Gantt |  |  |  |
-| Part C reflections and supervisor discussion |  |  |  |
-| Part D route and signature requirement |  |  |  |
-| Candidate-selection governance |  |  |  |
-| Evaluation freeze, Δ and δ confirmation |  |  |  |
+### Important timing rule
 
-## Written follow-up if time runs out
+- Meaningful active episodes are timed.
+- Extremely fast but genuine actions, such as OBS-04 SEND and OBS-05 EXC, are recorded as **tallies without fabricated duration**.
+- Net observed time and timed coded-active time remain separate.
 
-- Whether NASA-TLX is warranted for the selected focal task.
-- Detailed Exact/Orbis interface questions.
-- Whether FMEA is useful for the selected solution.
+### What the protocol can answer
+
+- which activity families occur most often;
+- where reliable active handling time is concentrated;
+- where clarification, exceptions, rework and interruptions occur;
+- where observable judgement or expertise appears;
+- which activities deserve deeper Analyze-phase investigation.
+
+### What the protocol cannot answer by itself
+
+- whether an AI artifact causally reduces workload;
+- whether purchasing outcome quality is maintained;
+- a validated psychometric score for mental workload;
+- whether five days or 40 hours are sufficient without checking coverage.
+
+Those questions require a later focal-activity baseline and a separate manual-versus-AI evaluation protocol.
+
+### Questions for the supervisor
+
+1. Does this construct-to-measurement mapping capture the workload dimensions needed for SQ1 and focal-case screening?
+2. Are any important observable indicators missing or unnecessary?
+3. Is tally-only recording acceptable for genuine sub-minute actions whose duration cannot be measured reliably?
+4. Is the two-level design defensible: broad live activity coding followed by evidence-supported Task-ID enrichment?
+5. Should a validated mental-workload instrument be considered only after the focal activity is selected?
+
+## 4. Confirm that the project is on the right track and decide the observation target — 15 min
+
+### Current position
+
+- Define is largely complete.
+- Measure is in progress.
+- Analyze should begin only after the observation evidence and coverage are sufficient.
+- The current protocol uses **five distinct working days plus a Day-5 coverage review** as the planned minimum.
+
+### Student's current preference
+
+Count 31 August and 1 September as **Day 1 and Day 2** because they are separate working days. Continue to report their actual observation windows and net minutes, without presenting either as a full eight-hour day.
+
+After the fifth distinct day, check whether morning/afternoon periods, recurring activities and important request channels are sufficiently covered. If a material gap or a new recurring pattern remains, add a targeted observation block or day.
+
+### Decision question
+
+**Does the supervisor think the stopping rule should remain five distinct working days with a coverage review, switch to a minimum of 40 net observed hours, or combine both requirements?**
+
+### Clarifications to record
+
+1. Do the two completed partial sessions count as two of the five distinct working days?
+2. If 40 hours is preferred, does “40 hours” mean net observable working time after breaks and observer-unavailable periods?
+3. Is one buyer sufficient for this case study, or is additional buyer coverage expected?
+4. Which dayparts, activity families or request channels must be covered before Measure can close?
+5. What evidence should trigger an extension beyond the minimum?
+
+### Final overall question
+
+Based on the current AS-IS model, workload definition, observations and Measurement Protocol, are we on the right track to continue Measure and then proceed to Analyze?
+
+## Decision record
+
+| Decision | Supervisor conclusion | Follow-up action |
+|---|---|---|
+| Work added since last week is correctly interpreted |  |  |
+| Workload definition and literature are appropriate |  |  |
+| Measurement Protocol captures the intended constructs |  |  |
+| Partial sessions count as Day 1 and Day 2 |  |  |
+| Final stopping rule: 5 days / 40 net hours / combined |  |  |
+| Additional coverage required before Analyze |  |  |
+| Overall project direction is on track |  |  |
 
 ## Pre-read repository references
 
+- Current workload definition: ../methodology/Workload_Definition.md
+- Current Measurement Protocol: ../measurement/Measurement_Protocol_v1.3.md
+- Live observation cheat sheet: ../measurement/Measure_Live_Cheat_Sheet_v1.3.md
 - Current AS-IS process: ../process/Process_Cleaned_V1.5.md
-- Current Measure protocol: ../measurement/Measurement_Protocol_v1.3.md
-- 31 August baseline: ../measurement/Measure_Observation_2026-08-31.md
-- 1 September baseline: ../measurement/Measure_Observation_2026-09-01.md
-- Methodology and case-selection logic: ../methodology/Phase_1_Current_Methodology.md
+- 31 August observation: ../measurement/Measure_Observation_2026-08-31.md
+- 1 September observation: ../measurement/Measure_Observation_2026-09-01.md
+- Literature register: ../../literature/README.md
 - Project timeline/Gantt: ../Project_Timeline.md
+
