@@ -42,17 +42,21 @@ The current literature does **not** justify inventing a composite equation such 
 
 ### Multi-criteria focal-case selection
 
-**Belton, V., & Stewart, T. J. (2002).** *Multiple Criteria Decision Analysis: An Integrated Approach*. Springer. https://doi.org/10.1007/978-1-4615-1495-4
+**Belton, V., & Stewart, T. J. (2002).** *Multiple Criteria Decision Analysis: An Integrated Approach*. Kluwer Academic Publishers. https://doi.org/10.1007/978-1-4615-1495-4
 
 **Use:** Governing academic basis for structuring the candidate decision, separating objectives/criteria, modelling stakeholder preferences and using MCDA as decision support rather than as an automatic truth machine.
+
+**Department for Communities and Local Government. (2009).** *Multi-Criteria Analysis: A Manual*. ISBN 978-1-4098-1023-0. https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy
+
+**Use:** Official practitioner guidance for documenting the decision context, options, criteria, performance matrix, scoring, weighting and uncertainty. It supports the transparent selection procedure but does not supply universally correct project weights.
 
 **Triantaphyllou, E., & Sánchez, A. (1997).** *A sensitivity analysis approach for some deterministic multi-criteria decision-making methods*. *Decision Sciences, 28*(1), 151–194. https://doi.org/10.1111/j.1540-5915.1997.tb01306.x
 
 **Use:** Supports testing whether the candidate ranking is robust to plausible changes in weights and evidence scores. The BEP uses a proportionate sensitivity check rather than claiming that one provisional weight set is objectively correct.
 
-**Goodhue, D. L., & Thompson, R. L. (1995).** *Task-Technology Fit and Individual Performance*. https://doi.org/10.2307/249689
+**Goodhue, D. L., & Thompson, R. L. (1995).** Task-technology fit and individual performance. *MIS Quarterly, 19*(2), 213–236. https://doi.org/10.2307/249689
 
-**Use:** Supports the AI–task-fit criterion: technology should match the actual task if it is expected to improve individual performance. Literature supports the criteria and method; local stakeholder preferences determine the project-specific trade-off weights.
+**Use:** Supports the AI–task-fit criterion: technology should match the actual task if it is expected to improve individual performance. Literature supports the criteria and method; the student and academic supervisor agree project-specific research weights, while the company supervisor validates the operational evidence and feasibility.
 
 ### Overall occupational workload
 

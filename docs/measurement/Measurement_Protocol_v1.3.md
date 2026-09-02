@@ -77,7 +77,7 @@ Origin and Channel are different variables. For example, an external request can
 
 Use **Unknown** when a case is already in flight when observation begins or the origin/channel cannot be established reliably.
 
-The case index is restricted working material used to preserve continuity. The private repository may retain only the data categories covered by the recorded company permission in Section 13; external or public evidence remains anonymized/aggregated by default.
+The case index is restricted working material used to preserve continuity. The private repository may retain only the data categories covered by the company permission described in Section 13.
 
 ## 2.2 Level 1 — live work episodes
 
@@ -391,11 +391,12 @@ System/dashboard volume is not direct evidence of clarification, judgement, inte
 
 Repository rules:
 - use anonymized `OBS-xx` case IDs in the analytical record;
-- this repository is private; based on company permission confirmed by the student on 2 September 2026, the buyer names and case-specific commercial values already recorded may be retained for the authorized research audience;
-- that permission does **not** authorize public release, screenshots, external sharing or a visibility/access change; thesis/public evidence remains anonymized or aggregated by default;
-- personal contact details, unrestricted production exports and any additional confidential data category require separate approval before upload;
+- this repository is the student's private personal working repository for keeping track of the BEP;
+- based on company permission confirmed by the student on 2 September 2026, the buyer names and case-specific commercial values already recorded may be retained here;
+- no separate company-permission audit register is created within the current thesis scope for this personal working repository;
+- personal contact details, unrestricted production exports and any additional confidential data category remain outside the current permission unless separately agreed;
 - temporary production identifiers remain in approved restricted storage;
-- record the approving company role, approval date, permitted data categories and permitted audience in a dated company/supervisor decision note; if repository access or visibility changes, review both the current tree and Git history.
+- rules for a thesis, presentation, screenshot or other external output are assessed separately when material is exported; a later repository visibility/access change requires a new review before the change.
 
 ---
 

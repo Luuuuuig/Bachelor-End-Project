@@ -88,7 +88,7 @@ Planned sequence:
 1. Is this sequence appropriate, especially deferring detailed technical feasibility until after the workload baseline?
 2. What level of quantitative Measure evidence would be sufficient before selecting the focal activity?
 3. Confirm a two-stage selection method: non-compensable AI/data/ground-truth/risk/time veto gates, followed by anchored weighted scoring.
-4. Confirm that literature/theory should justify criteria and method, while the buyer/company stakeholders set local trade-off weights and the academic supervisor validates them.
+4. Confirm that the student and academic supervisor will agree the criteria, scoring anchors, plausible ranges and weights before aggregate rankings are calculated; the company supervisor will validate operational evidence and feasibility rather than own the academic weights.
 5. Confirm the proposed sensitivity check before declaring one winner.
 
 ## 6. 1BEPIEX feedback and project framing — 7 min
@@ -100,7 +100,7 @@ Review the intended revisions based on the supervisor's comments:
 - maintain a clear logical transition from practical problem → workload measurement → focal solution;
 - retain the current RQ/SQ direction focused on workload reduction and quality.
 
-**Discussion:** Confirm that the company expects a meaningful AI-supported focal artifact; conventional automation/process redesign may support it or remain recommendations. If no candidate passes the responsible-AI/data/quality/evaluation gates, confirm that any non-AI focal artifact requires explicit company and academic approval.
+**Discussion:** Confirm that the company expects a meaningful AI-supported focal artifact; conventional automation/process redesign may support it or remain recommendations. If no candidate passes the responsible-AI/data/quality/evaluation gates, confirm the predeclared contingency: test bounded redesigns first, report failed gates as a feasibility finding, and obtain an explicit scope decision before any non-AI focal artifact replaces the intended AI-supported intervention.
 
 ## 7. Plan of Work and planning milestones — 5 min
 
@@ -122,7 +122,7 @@ Known milestones:
 
 Before closing, record agreement on:
 
-- Measurement Protocol v1.2;
+- Measurement Protocol v1.3;
 - workload operationalization;
 - baseline target/coverage rule;
 - Measure → Analyze gate;

@@ -209,11 +209,11 @@ The focal case is selected in two stages. A weighted score may not compensate fo
 5. Prototype development and evaluation fit the BEP's time, access and participant constraints.
 6. The task has a non-trivial AI fit: unstructured, probabilistic or pattern-based support creates value beyond a simpler deterministic rule.
 
-If no candidate passes all gates, do not force an unsuitable AI case. Document the evidence and escalate the focal-artifact decision to the company and academic supervisor.
+If no candidate passes all gates, no candidate enters the weighted comparison and no unsuitable AI case is forced. First test a bounded redesign, such as narrowing the task, reducing AI autonomy, adding human review or improving the usable data. If no responsible and evaluable AI-supported case remains, report the failed gates as a feasibility finding and seek an explicit scope decision: the academic supervisor determines academic acceptability and the company supervisor confirms operational feasibility/permission. A conventional digital solution may remain a benchmark or recommendation, but it does not silently replace the intended AI-supported focal artifact.
 
 ### Stage B — evidence-scored comparison
 
-Criteria and scoring anchors are grounded in the project objective, the workload construct, Task–Technology Fit and MCDA practice. Weights express local value trade-offs and are therefore set in a short stakeholder swing-weighting session, not copied as universal percentages from literature. The buyer/process owner and company supervisor set business/risk preferences; the student prepares evidence scores; the academic supervisor checks methodological defensibility.
+Criteria and scoring anchors are grounded in the project objective, the workload construct, Task–Technology Fit and MCDA practice (Goodhue & Thompson, 1995; Belton & Stewart, 2002; Department for Communities and Local Government [DCLG], 2009). The student constructs the matrix, documents the evidence, calculates scores and makes the final reasoned recommendation. The student and academic supervisor prospectively agree the criteria definitions, scoring anchors, plausible scoring ranges and weights. The company supervisor validates operational evidence—such as workload, business relevance, data/system access, implementation constraints and risk controls—but does not own the academic weights or final research ranking.
 
 | Criterion | Provisional workshop start | What it means |
 |---|---:|---|
@@ -225,7 +225,7 @@ Criteria and scoring anchors are grounded in the project objective, the workload
 | Prototype / technical feasibility | 10% | Access, integration dependencies and ability to build a credible prototype. |
 | Evaluation feasibility | 10% | Availability of comparable cases, a clear rubric, benchmark and participant access. |
 
-These weights are a **provisional discussion starting point**, not a literature-derived truth. Freeze the agreed weights before scoring candidates.
+These weights are a **provisional discussion starting point**, not a literature-derived truth. Define plausible best-to-worst scoring ranges first; then agree and freeze the weights before aggregate scores or rankings are calculated or revealed.
 
 Use anchored 1–5 scores: `1 = weak/poorly supported`, `3 = moderate with direct evidence`, `5 = strong with direct evidence`; define candidate-specific 1/3/5 anchors before seeing the total. Record evidence and uncertainty for each score. The total is `Σ(weight × score/5)`.
 
@@ -309,14 +309,16 @@ Processing-time reduction alone should not automatically be reported as mental-w
 8. Collect and categorize Finance-returned rework/aftercare when it occurs, but do not calculate a live rework percentage without a matched denominator.
 9. Produce an activity-family multidimensional workload profile first, then detailed Task-ID analysis where mapping confidence and sample size justify it.
 10. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
-11. Run the veto gates, stakeholder weighting, anchored evidence scoring and sensitivity analysis before selecting the focal case.
+11. Run the veto gates, student–academic-supervisor swing weighting, anchored evidence scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
 12. Define and freeze the focal case's active-handling-time endpoint, quality rubric, `Δ` and `δ` before artifact development/formal evaluation.
 13. Confirm the selected focal case and evaluation design with the university supervisor before DSRM artifact development.
 
 
 # References added for selection and evaluation design
 
-Belton, V., & Stewart, T. J. (2002). *Multiple Criteria Decision Analysis: An Integrated Approach*. Springer. https://doi.org/10.1007/978-1-4615-1495-4
+Belton, V., & Stewart, T. J. (2002). *Multiple Criteria Decision Analysis: An Integrated Approach*. Kluwer Academic Publishers. https://doi.org/10.1007/978-1-4615-1495-4
+
+Department for Communities and Local Government. (2009). *Multi-Criteria Analysis: A Manual*. https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy
 
 Goodhue, D. L., & Thompson, R. L. (1995). Task-technology fit and individual performance. *MIS Quarterly, 19*(2), 213–236. https://doi.org/10.2307/249689
 
