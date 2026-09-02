@@ -1,6 +1,6 @@
 # Measure Live Cheat Sheet v1.3
 
-Use beside the observer for official exploratory Measure observations from 2 September 2026 onward. The live fields and timing rules are unchanged from v1.2; v1.3 aligns MAX interpretation, baseline coverage and repository governance.
+Use beside the observer for official exploratory Measure observations from 2 September 2026 onward. The live fields and core timing/non-fabrication logic remain comparable with v1.2; v1.3 aligns MAX interpretation, baseline coverage and repository governance and makes the untimed sub-minute SEND rule explicit.
 
 ## 1. Session header
 
@@ -45,7 +45,7 @@ Acclimatization? yes/no
 | **DEC** | genuinely standalone decision | TALLY only |
 | **PO** | create/change/prepare/process PO/order work in Exact | TIME |
 | **CHECK** | price / confirmation / information verification | TIME |
-| **SEND** | forward/send purchasing communication | TIME |
+| **SEND** | forward/send purchasing communication | TIME by default; TALLY only if the complete sub-minute action cannot be timed reliably |
 | **EXC** | aftercare / tracing / rework / exception | TIME IF |
 | **OTHER** | relevant purchasing work that does not fit | TIME IF |
 
@@ -107,7 +107,8 @@ If decision is embedded in PO/REQ/CLAR/CHECK/EXC, use `DEC?=Y` and **do not add 
 11. If work happened but could not be coded, record MISS.
 12. Do not infer J/EXP or reasoning when uncertain.
 13. Do not create overlapping active time for one buyer; resolve the boundary or mark it uncertain.
-14. No example rows are pre-filled in the actual data area.
+14. A genuine complete sub-minute SEND that cannot be timed reliably is a tally with Start/End = `—`; explain it and do not invent a duration.
+15. No example rows are pre-filled in the actual data area.
 
 ## 11. Post-session — do immediately
 

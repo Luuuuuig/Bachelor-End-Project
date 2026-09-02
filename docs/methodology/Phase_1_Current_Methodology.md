@@ -124,10 +124,14 @@ is a buyer-capacity indicator, not a total workload or mental-workload score.
 
 For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are more informative than artificial second-level timing.
 
+**Role of the exploratory Measurement Protocol.** Measurement Protocol v1.3 characterizes the current procurement process and screens for recurring sources of observable operational effort. It records occurrence, reliable active processing time, case context, interruptions, clarification, exception work and supported decision/expertise cues at activity-family level. These observations justify candidate generation and focal-case selection, but they do not estimate the effect of an AI artifact and do not measure purchasing outcome quality. The protocol therefore contributes indirect baseline evidence to the main research question rather than answering it independently.
+
+**Transition to focal evaluation.** After Analyze selects one focal activity, a separate activity-specific protocol will define eligible cases, the manual comparator, total active human handling time per comparable unit, the final purchasing-quality rubric, critical-error definitions, workload-improvement threshold, acceptable quality margin, sampling design and analysis plan. These elements are frozen before formal artifact evaluation. The main research question is answered from the matched comparison of the manual and AI-assisted workflows; the broad Measure dataset supplies process context and the justification for focal-case selection.
+
 ### Current Measure sequencing
 
 1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
-2. Two official baseline days are complete: 31 August (165 net observed minutes; 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Current totals are therefore **351 net observed minutes** and **265 timed coded-active minutes**; these are different quantities.
+2. Two official baseline days are complete: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Current totals are therefore **351 net observed minutes** and **265 timed coded-active minutes**; these are different quantities.
 3. `../measurement/Measurement_Protocol_v1.3.md` is controlled for observations from 2 September onward. Its live fields/timing rules remain comparable with v1.2, while its MAX interpretation, five-day coverage rule and repository governance are updated.
 4. Continue until at least five distinct working days have been covered, then apply the v1.3 Day-5 coverage review. Five working days is not automatically interpreted as 40 net observed hours.
 5. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.

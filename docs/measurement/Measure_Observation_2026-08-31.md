@@ -26,7 +26,7 @@
 | OBS-04 | CHECK | 10:52 | 10:53 | 3L | 0 |  |1L checked  |
 | OBS-04 | PO | 10:53 | 10:55 | 1L | 0 |  | 1L added |
 | OBS-04 | CHECK | 10:55 | 10:59 | 3L | 0 |  | 2L checked |
-| OBS-04 | SEND |  |  |  |  |  |  |
+| OBS-04 | SEND | — | — | — | 0 | ? | Genuine sub-minute SEND action after the CHECK/PO/CHECK block. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals. |
 | OBS-05 | CHECK | 10:59 | 11:02 | 3L | 0 |  |  |
 | OBS-05 | EXC | — | — | — | 0 | ? | Sub-minute exception/aftercare action immediately after the CHECK. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals. |
 | OBS-06 | REQ-mail | — | — | — | 0 |  |  |
@@ -62,7 +62,11 @@
 
 ### 2 September source-verification correction
 
-The original `OBS-05 EXC 10:51–10:53` timing was an upload/transcription error. Source verification confirmed a genuine sub-minute EXC/aftercare action immediately after `OBS-05 CHECK 10:59–11:02`. It is retained as an untimed tally (`Start/End = —`), not as a zero-minute timed episode. It adds one EXC occurrence but is excluded from timed-episode and active-minute totals. Consequently, 31 August remains at **103 timed coded-active minutes** within **165 net observed minutes**.
+The original `OBS-05 EXC 10:51–10:53` timing was an upload/transcription error. Source verification confirmed a genuine sub-minute EXC/aftercare action immediately after `OBS-05 CHECK 10:59–11:02`. It is retained as an untimed tally (`Start/End = —`), not as a zero-minute timed episode. It adds one EXC occurrence but is excluded from timed-episode and active-minute totals.
+
+The previously blank `OBS-04 SEND` row was also verified against the source as a genuine sub-minute SEND action after the OBS-04 CHECK/PO/CHECK block. It is retained as an untimed tally, not assigned a zero-minute duration. It confirms one SEND occurrence but is excluded from timed-episode and active-minute totals.
+
+Consequently, 31 August remains at **103 timed coded-active minutes** within **165 net observed minutes**.
 
 ## Afternoon observation
 
@@ -130,6 +134,7 @@ The observer confirmed that the observed activity content is confidently recalle
 | OBS-03 brief CLAR | CLAR | 4 | Mapped | C | Instantaneous clarification/forwarding occurrence; not timed. |
 | OBS-04 REQ | REQ | 1 | Mapped | C | New article associated with an existing PO. |
 | OBS-04 CHECK/PO/CHECK block | CHECK + PO | 14–17 | Mapped | C | Pre-send checking and PO modification block; one line added. |
+| OBS-04 brief SEND after CHECK/PO/CHECK | SEND | — | U | C | Genuine sub-minute SEND action; the exact communication subtype/detailed Task ID was not captured. Retained as an untimed tally and excluded from timed active-minute totals. |
 | OBS-04 11:51–11:53 | EXC | — | U | C | Exception/aftercare content known, but no current detailed register row cleanly represents it. |
 | OBS-05 CHECK | CHECK | — | U | C | Three-minute check retained at 10:59–11:02; the exact CHECK subtype/detailed Task ID was not captured. |
 | OBS-05 brief EXC after CHECK | EXC | — | U | C | Genuine sub-minute aftercare/exception action; retained as an untimed tally and excluded from timed active-minute totals. |

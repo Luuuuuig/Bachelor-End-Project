@@ -4,7 +4,7 @@
 
 **Purpose:** This protocol defines how workload-related evidence is collected during shadowing of the operational buyer at Hytech-Pommec. It is designed for the broad exploratory Measure phase, before one focal purchasing activity is selected for deeper Analyze/Improve work.
 
-**Why v1.3 exists:** The 1 September observation confirmed that HOLD can follow maximalisatie whether or not demand was added, exposed the need for an explicit Measure stopping rule, and prompted a clarification of the approved data categories in the private repository. Version 1.3 does **not** change the live activity families, fields, timing rules or post-session mapping structure used in v1.2; the two protocol versions therefore remain analytically comparable when their dated governance differences are reported.
+**Why v1.3 exists:** The 1 September observation confirmed that HOLD can follow maximalisatie whether or not demand was added, exposed the need for an explicit Measure stopping rule, and prompted a clarification of the approved data categories in the private repository. Version 1.3 does **not** change the live activity families, fields, core active-time/non-fabrication logic or post-session mapping structure used in v1.2; the two protocol versions therefore remain analytically comparable when their dated clarifications are reported.
 
 ### Controlled changes from v1.2
 
@@ -13,6 +13,7 @@
 3. A predeclared **coverage review and extension rule** determines whether observation continues after Day 5.
 4. **Private-repository governance is aligned with the company permission confirmed by the student on 2 September 2026**, while external publication and new confidential categories remain controlled.
 5. The v1.2 live coding structure remains unchanged to preserve baseline comparability.
+6. The existing non-fabrication rule is made explicit for SEND: a genuine complete sub-minute action that cannot be timed reliably is retained as an untimed occurrence rather than assigned an artificial zero- or one-minute duration.
 
 Related files:
 - Workload construct: `../methodology/Workload_Definition.md`
@@ -39,6 +40,12 @@ The protocol does **not** create one total workload score. It collects a multidi
 | Expertise dependence | explicit/tacit cues, prior-case knowledge, experience-based recognition | Helps identify what may require human expertise or careful support. |
 
 **Mental workload is not directly quantified by the live observation sheet.** A validated instrument such as NASA-TLX may be considered later only if the selected focal activity requires it.
+
+### 1.1 Relationship to the main research question
+
+This protocol can identify which activity families recur during the observed windows, how much reliable active buyer time they consume, and where clarification, interruptions, exceptions, rework and supported judgement/expertise cues occur. It supports hotspot screening and focal-case selection.
+
+It cannot by itself show that an AI artifact reduces workload or preserves purchasing outcome quality, because exploratory Measure contains no intervention comparison and no focal quality rubric/ground truth. Observed active time is not automatically potential time saving, and the baseline is not claimed to be a statistically representative week. Those claims require the later activity-specific manual-versus-AI evaluation protocol described in Section 17.
 
 ---
 
@@ -124,7 +131,7 @@ The original live record must be retained. Do not retrospectively rewrite it to 
 | **DEC** | Standalone purchasing decision | **TALLY only** | Use only when a decision is genuinely separate from another active episode. Otherwise use `DEC?=Y`. |
 | **PO** | Create/change/prepare/process PO or related order work in Exact | **TIME** | Tasks 2–3 and 6–21 where they form observable order-processing episodes; may include seamless maximalisatie work. |
 | **CHECK** | Verify price, supplier confirmation or purchasing information | **TIME** | Tasks 14–16 and 26–28 where verification is active work. |
-| **SEND** | Forward/send purchasing communication | **TIME** | Mainly Task 23; other send-only communication can be noted explicitly. |
+| **SEND** | Forward/send purchasing communication | **TIME by default; TALLY if unmeasurably brief** | Mainly Task 23; other send-only communication can be noted explicitly. A genuine complete sub-minute action may be tallied when precise timing is not reliable. |
 | **EXC** | Aftercare, tracing, rework or exception handling | **TIME IF** | Tasks 29–31 plus PO aftercare/expediting not yet represented in the register. |
 | **OTHER** | Relevant operational purchasing work that genuinely does not fit | **TIME IF** | Temporary safety net; retain subtype in note and review after session. |
 
@@ -135,6 +142,8 @@ The original live record must be retained. Do not retrospectively rewrite it to 
 - **TIME IF:** time the activity when it becomes a meaningful visible episode; otherwise tally it.
 
 System/external events that do not require active buyer work are not timed as buyer workload.
+
+SEND is normally timed. If the entire SEND action is genuinely sub-minute and cannot be timed reliably, retain it as a tally with Start/End = `—`, explain the reason in the note, and exclude it from timed-episode and active-minute totals. Do not assign a fabricated zero- or one-minute duration.
 
 ---
 
@@ -479,7 +488,7 @@ The final selection must use measured burden, recurrence, business value, qualit
 
 Version 1.3 is the **controlled protocol for observations from 2 September 2026 onward**. Version 1.2 remains the protocol used for the 1 September session.
 
-The 31 August and 1 September sessions remain valid historical evidence. Their documented session-specific differences and protocol versions are preserved in the dated observation files. Version 1.3 changes MAX interpretation, stopping/coverage logic and repository governance, but not the live coding fields or time rules; do not rewrite historical raw records to look as though v1.3 existed earlier.
+The 31 August and 1 September sessions remain valid historical evidence. Their documented session-specific differences and protocol versions are preserved in the dated observation files. Version 1.3 changes MAX interpretation, stopping/coverage logic and repository governance, and makes explicit the existing treatment of unmeasurably brief SEND actions. The live coding fields and the principle of timing only reliable active episodes remain unchanged; do not rewrite historical raw records to look as though v1.3 existed earlier.
 
 If a serious defect appears:
 1. preserve the affected session;

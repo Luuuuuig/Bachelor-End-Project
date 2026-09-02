@@ -5,139 +5,119 @@
 **Supervisor:** Zhongxin Hu  
 **Project:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI
 
-## Meeting objective
+## Meeting outcome
 
-Review progress since the 25 August supervision meeting, validate the current Measure approach, clarify the intended baseline-observation coverage, and confirm the next steps toward Analyze and the Plan of Work.
+Leave the meeting with four decisions recorded in the meeting notes. These are the items that currently determine whether Measure can close cleanly and whether the later evaluation can answer the main research question.
 
-## 1. Progress since the previous meeting — 5 min
+### Must decide today
 
-- Completed the live Measure pilot on 28 August.
-- Started the official exploratory baseline:
-  - 31 August: 165 minutes net observed time.
-  - 1 September: 186 minutes net observed time.
-  - Current official baseline total: **351 net observed minutes (5 h 51 min)** across two partial observation days; after the OBS-05 correction, **265 timed coded-active minutes**. These are different quantities.
-- Measurement Protocol v1.2 is now the controlled protocol for subsequent observations.
-- Updated the AS-IS process understanding:
-  - external/email request handling and Exact/PO work are parallel work streams rather than one mandatory sequence;
-  - when there is no open PO and no external request currently requiring attention, the buyer generates the next PO record from Exact demand;
-  - a newly generated PO appears as `Besteld` in Exact and then becomes open PO work;
-  - `Besteld` is treated as an Exact system status, not as proof that the PO has already been forwarded to the supplier;
-  - after maximalisatie, the resulting order can still be either held or allowed to proceed, regardless of whether additional demand was added.
+1. Approve Measurement Protocol v1.3 as the exploratory Measure architecture and decide how the five-day coverage rule treats the two completed partial days.
+2. Approve the exact RQ/SQ wording and the contingency if no responsible, feasible and evaluable AI candidate passes the gates.
+3. Approve the candidate-selection method and ownership of gates, scoring anchors and weights.
+4. Approve the Plan-of-Work sequencing and the rule that the focal evaluation protocol is frozen before artifact development and formal testing.
 
-**Discussion:** Is this level of AS-IS detail sufficient for continuing Measure, with remaining operational details validated during observation/buyer clarification rather than delaying the baseline?
+## 0. Progress and source corrections — 5 min
 
-## 2. Measurement Protocol v1.2 — methodological validation — 10 min
+- Pilot completed on 28 August.
+- Official exploratory baseline so far:
+  - 31 August: 165 net observed minutes and 103 timed coded-active minutes.
+  - 1 September: 186 net observed minutes and 162 timed coded-active minutes.
+  - Combined: **351 net observed minutes** and **265 timed coded-active minutes**. These quantities must remain separate.
+- Measurement Protocol v1.3 is internally controlled from 2 September; v1.2 remains the historical protocol for 1 September.
+- Source verification confirms that both **OBS-04 SEND** and **OBS-05 EXC** on 31 August were genuine sub-minute actions. They are retained as untimed tally occurrences and do not change the 103-minute or 265-minute totals.
+- Current AS-IS rule: after maximalisatie, HOLD or ORD can follow whether or not additional demand was added.
 
-The pilot showed that directly coding the full detailed task register live was too granular for one observer. The current two-level design therefore uses:
+## 1. Must decide: protocol validity and baseline coverage — 15 min
 
-- broad activity families during live observation;
-- `DEC?` as an attribute when judgement is embedded in another observable activity;
-- case context recorded separately;
-- post-session Task-ID enrichment only where the evidence supports it;
-- explicit uncertainty rather than reconstructing missing detail.
+The protocol is intended to characterize the current process and screen for recurring workload hotspots. It measures activity-family occurrence, reliable active time, case context, interruptions, clarification, exception/rework and supported judgement/expertise cues. It does **not** by itself estimate the effect of an AI artifact or prove that purchasing outcome quality is preserved.
 
-**Questions for supervisor:**
+### Decision questions
 
-1. Is this two-level measurement architecture academically defensible for the exploratory Measure phase?
-2. Is post-session Task-ID enrichment acceptable when the original live observation record is preserved?
-3. Are there additional reliability/validity checks that should be added before collecting substantially more baseline data?
+1. Is the two-level architecture—broad live coding plus evidence-supported post-session Task-ID enrichment—academically defensible for exploratory Measure?
+2. Is the intended research architecture correct: exploratory Measure selects the focal case, followed by a separate activity-specific manual-versus-AI evaluation protocol?
+3. Do 31 August and 1 September count as two of the five distinct observation days when their combined coverage contributes both dayparts, or are five substantially covered days required?
+4. Confirm five distinct days plus the Day-5 coverage review as the planning rule, rather than converting five working days into 40 net observed hours.
+5. Confirm the extension triggers: abnormal day, missing daypart, material measurement failure, missing recurring pattern, or a materially new recurring pattern on the final day.
+6. Confirm the reliability checks: delayed same-observer recoding of a sample, targeted buyer validation of ambiguous mappings, and explicit uncertainty rather than reconstruction.
+7. Confirm the analysis table records protocol version, timed-versus-tally status, occurrence inclusion, mapping confidence and Unknown conventions.
 
-## 3. Workload construct and operationalization — 10 min
+## 2. Must decide: RQ/SQ wording and AI contingency — 12 min
 
-Current framing:
+### Proposed main research question
 
-- broad/occupational workload: amount and difficulty of work;
-- quantitative burden: frequency, active processing time, volume and rework;
-- organizational constraints: interruptions, missing information and system/process obstacles;
-- mental workload: treated as a specific component rather than equated with processing time;
-- expertise dependence: kept separate from mental workload.
+**To what extent can an AI-supported artifact reduce operational buyer workload at Hytech-Pommec without reducing purchasing outcome quality?**
 
-The live sheet does not directly quantify mental workload. A validated activity-specific instrument such as NASA-TLX remains an option later if the selected focal activity requires it.
+### Proposed subquestion order
 
-**Questions for supervisor:**
+1. Which current purchasing activities contribute most to observable operational buyer workload?
+2. Which recurring activity is most suitable for responsible and feasible AI support?
+3. To what extent does the selected artifact reduce active human handling time while meeting the predeclared purchasing-quality guardrail?
+4. Which implementation controls and human-oversight arrangements are required for responsible use?
 
-1. Does this layered workload framework address the concern from the previous meeting about defining and measuring workload clearly?
-2. Is it acceptable to use objective/observational workload indicators during exploratory Measure and only add a subjective mental-workload instrument later if it is needed for the selected focal activity?
+### Decision questions
 
-## 4. Baseline coverage: operationalize the five-working-day guidance — 10 min
+1. Approve the exact RQ and SQ order.
+2. Confirm that the company expectation makes an AI-supported artifact the intended intervention.
+3. Confirm the predeclared contingency: if no candidate passes the non-compensable gates, test bounded redesigns where sensible, report the failed gates as a feasibility finding, and obtain an explicit scope decision before replacing the AI-supported focal artifact.
+4. Confirm that this contingency belongs in the thesis methodology; it becomes a substantive result only if it is triggered.
 
-The student's recollection is that the academic advisor specifically indicated that approximately **five working days should be sufficient**. The 25 August written notes currently describe five days as student-proposed and not finalized. Preserve that historical note and resolve the evidence discrepancy explicitly in this meeting's decision log.
+## 3. Must decide: focal-case selection and ownership — 10 min
 
-The later idea of **40 net observed hours** is a separate, stricter student interpretation. Five scheduled working days normally include breaks and unavailable/non-observed periods, so five days must not be converted automatically into 40 net hours.
+Proposed method:
 
-Current coverage is 351 net observed minutes across two partial days; these partial windows contribute evidence but are not silently treated as two full-day equivalents.
+1. Apply non-compensable veto gates first: responsible-use boundary, usable data, ground truth/quality benchmark, technical access, evaluation feasibility and remaining project time.
+2. Score only candidates that pass all gates using predeclared criteria and anchored 1–5 scales.
+3. Agree criteria, anchors, plausible weight ranges and final weights before aggregate scores are calculated.
+4. Perform sensitivity analysis before declaring a robust winner.
 
-**Confirmation requested:**
+### Decision questions
 
-1. Confirm five distinct working days with meaningful coverage as the planning minimum, rather than 40 net hours.
-2. Confirm that actual windows, breaks/unavailable time and net minutes should be reported separately.
-3. Confirm the proposed Day-5 extension rule: continue only for a documented abnormal day, missing daypart, material measurement failure, missing recurring work pattern, or materially new recurring pattern on the final day.
+1. Confirm that the student and academic supervisor own the academic criteria, anchors, ranges and weights.
+2. Confirm that the company supervisor validates operational evidence, access, constraints and feasibility rather than owning the academic weights.
+3. Confirm that literature justifies the structure and criteria, while project-specific weights are transparently agreed for this case rather than presented as universal values.
 
-## 5. Measure → Analyze and focal-case selection — 10 min
+## 4. Must decide: evaluation logic, Plan of Work and Gantt — 13 min
 
-Planned sequence:
+### Proposed success logic
 
-1. Complete the exploratory workload baseline.
-2. Build an activity-family workload profile using frequency, active time, rework, interruptions, qualitative difficulty and expertise evidence.
-3. Identify the strongest candidate activities.
-4. Only then perform targeted Exact/Orbis/data/technical feasibility for the shortlisted candidates.
-5. Select one focal activity based on workload contribution, business relevance, standardizability, quality risk, expertise dependence, technical feasibility and evaluation feasibility.
+- Primary endpoint: total active human handling time per comparable eligible case or line, including AI review, correction and required documentation.
+- Quality guardrail: evaluate the final human-approved outcome against a frozen rubric and trusted reference; separately report raw AI errors, critical/minor errors, overrides, correction time and review burden.
+- Freeze before development/formal testing: eligible cases, manual comparator, unit of analysis, rubric, adjudication, critical-error definition, meaningful workload threshold Δ, acceptable quality margin δ, sampling/matching and analysis plan.
+- Default rule: zero observed critical errors; any non-zero minor-error margin requires explicit process-owner acceptance and academic validation.
 
-**Questions for supervisor:**
+### Planning questions
 
-1. Is this sequence appropriate, especially deferring detailed technical feasibility until after the workload baseline?
-2. What level of quantitative Measure evidence would be sufficient before selecting the focal activity?
-3. Confirm a two-stage selection method: non-compensable AI/data/ground-truth/risk/time veto gates, followed by anchored weighted scoring.
-4. Confirm that the student and academic supervisor will agree the criteria, scoring anchors, plausible ranges and weights before aggregate rankings are calculated; the company supervisor will validate operational evidence and feasibility rather than own the academic weights.
-5. Confirm the proposed sensitivity check before declaring one winner.
+1. Confirm that the evaluation protocol freeze must precede artifact design/prototype testing.
+2. Confirm that the Plan of Work can be submitted before final focal-case selection when the candidate population, gates, scoring method, contingency and later evaluation freeze are predefined.
+3. Confirm the known milestones: 15 September description, 20 September official draft and 27 September official final submission, with internal complete-draft targets on 18 and 25 September.
+4. Confirm Part C reflections and Part D scientific-conduct declaration/signing logistics.
+5. Record the official final BEP submission/presentation date if it differs from the 7 January company-placement boundary.
 
-## 6. 1BEPIEX feedback and project framing — 7 min
+## 5. Decisions, owners and next actions — 5 min
 
-Review the intended revisions based on the supervisor's comments:
+For every decision, record:
 
-- keep the problem description focused on observed/current-state evidence;
-- avoid putting Analyze-phase conclusions into the problem description;
-- maintain a clear logical transition from practical problem → workload measurement → focal solution;
-- retain the current RQ/SQ direction focused on workload reduction and quality.
+| Decision/action | Owner | Due date | Evidence/file to update |
+|---|---|---|---|
+| Protocol and partial-day interpretation |  |  |  |
+| Final RQ/SQ and AI contingency |  |  |  |
+| Selection model and weights process |  |  |  |
+| Evaluation freeze and PoW sequence |  |  |  |
+| Next Measure sessions / coverage gaps |  |  |  |
 
-**Discussion:** Confirm that the company expects a meaningful AI-supported focal artifact; conventional automation/process redesign may support it or remain recommendations. If no candidate passes the responsible-AI/data/quality/evaluation gates, confirm the predeclared contingency: test bounded redesigns first, report failed gates as a feasibility finding, and obtain an explicit scope decision before any non-AI focal artifact replaces the intended AI-supported intervention.
+## Written follow-up if time runs out
 
-## 7. Plan of Work and planning milestones — 5 min
+- Whether NASA-TLX is warranted for the selected focal task.
+- Detailed Exact/Orbis interface questions.
+- Whether FMEA is useful for the selected solution.
+- Lower-priority wording and formatting issues.
 
-Known milestones:
+## Pre-read repository references
 
-- **15 September:** half-page project description for identifying the second supervisor.
-- **20 September:** Plan of Work draft for feedback.
-- **27 September:** final Plan of Work submission.
-
-**Discussion:**
-
-- Confirm whether the current DMAIC → DSRM sequence and Gantt are suitable for the Plan of Work.
-- The attached template requires a prospective method and detailed Gantt, but does not state that the focal use case must already be selected. Confirm that a post-submission focal-case gate is acceptable when the candidate set, veto/score method, fallback and evaluation-freeze milestone are predefined.
-- Confirm that the focal-case workload endpoint and quality guardrail will be frozen before artifact development/formal testing.
-- Confirm the submission package includes the template's Part C five professional-skill reflections and Part D scientific-conduct declaration, in addition to the proposal and Gantt.
-- Confirm that DMAIC is the overarching improvement structure, while specific Lean Six Sigma tools are selected only when relevant rather than applied mechanically.
-
-## 8. Decisions / next actions — 3 min
-
-Before closing, record agreement on:
-
-- Measurement Protocol v1.3;
-- workload operationalization;
-- baseline target/coverage rule;
-- Measure → Analyze gate;
-- AI requirement and no-feasible-AI escalation rule;
-- candidate-selection matrix/weighting owner;
-- workload endpoint and quality-guardrail freeze;
-- any required changes to the 1BEPIEX / Plan of Work;
-- activities to complete before the next supervision meeting.
-
-## Useful repository references
-
-- Current AS-IS process: `../process/Process_Cleaned_V1.5.md`
-- Current Measure protocol: `../measurement/Measurement_Protocol_v1.3.md`
-- 31 August baseline: `../measurement/Measure_Observation_2026-08-31.md`
-- 1 September baseline: `../measurement/Measure_Observation_2026-09-01.md`
-- Workload definition: `../methodology/Workload_Definition.md`
-- Current methodology/case-selection logic: `../methodology/Phase_1_Current_Methodology.md`
-- Project timeline/Gantt: `../Project_Timeline.md`
+- Current AS-IS process: ../process/Process_Cleaned_V1.5.md
+- Current Measure protocol: ../measurement/Measurement_Protocol_v1.3.md
+- 31 August baseline: ../measurement/Measure_Observation_2026-08-31.md
+- 1 September baseline: ../measurement/Measure_Observation_2026-09-01.md
+- Workload definition: ../methodology/Workload_Definition.md
+- Methodology and case-selection logic: ../methodology/Phase_1_Current_Methodology.md
+- Project timeline/Gantt: ../Project_Timeline.md
