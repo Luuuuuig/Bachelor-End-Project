@@ -23,6 +23,7 @@ Use DMAIC to establish the current process, workload baseline and improvement op
 - Operational buyer — main process user and domain expert.
 - Company manager / project sponsor — business relevance and implementation direction.
 - TU/e supervisor — academic scope, methodology and evaluation validity.
+- Second academic assessor — Plan of Work approval and co-assessment of the final report under the 1BEPIE procedure.
 - Supporting stakeholders as required — Finance, IT/system owners and other purchasing roles.
 
 ## In scope
@@ -66,11 +67,14 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 - Representative baseline frequencies and active processing-time distributions are still being established across additional sessions.
 - Exact/Orbis production-data/interface feasibility remains intentionally deferred until after exploratory Measure.
 
-## Time boundary
+## Time boundary and study load
 
-- Company placement / Hytech-Pommec contract runs through **7 January 2027**.
-- This is the **outer contractual boundary**, not a mandatory finish date. The BEP/company work may conclude earlier if the required project activities are completed and this is agreed with the relevant academic/company parties.
-- Detailed sequencing and planning estimates are maintained in `Project_Timeline.md`.
+- The combined normative workload for **1BEPIE + 1BEPIEX is 420 hours in total**.
+- Company placement / Hytech-Pommec contract runs through **7 January 2027**. This is the company-work boundary, not the end of all academic obligations.
+- Final report, scientific-conduct item and end-BEP reflection: **15 January 2027 at 23:59**.
+- Final presentation / assessment meeting: **on or before 29 January 2027**.
+- Final assessment deadline: **7 February 2027**.
+- Detailed sequencing, deadline-control notes and planned-versus-actual effort tracking are maintained in `Project_Timeline.md`.
 
 ## DMAIC tollgates
 

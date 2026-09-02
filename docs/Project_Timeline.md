@@ -9,15 +9,44 @@
 ## Planning assumptions
 
 - Project start: **17 August 2026**.
-- Hytech-Pommec contract end / latest company-placement boundary: **7 January 2027**. The BEP/company work may finish earlier if the required project activities are completed and this is agreed with the relevant parties.
+- The combined normative workload for **1BEPIE + 1BEPIEX is 420 hours in total**, not 420 hours per course. Gantt bars show elapsed planning windows; planned and actual effort are tracked separately.
+- Hytech-Pommec contract end / latest company-placement boundary: **7 January 2027**. This is the company-placement boundary only. Academic finalization continues through the final report, presentation and assessment milestones ending **7 February 2027**.
 - Current project state: **Define largely complete; the pilot and two official baseline days are complete, and exploratory baseline collection continues under v1.3 from 2 September**. Current evidence totals 351 net observed minutes and 265 timed coded-active minutes.
 - Pilot: completed on **28 August 2026**; v1.1 established the two-level architecture. The 31 August session led to v1.2. The 1 September session then exposed the post-MAX interpretation, stopping-rule and governance clarifications internally controlled in v1.3 from 2 September. Academic methodological review is scheduled for 3 September. Any supervisor-required change will be dated and versioned; earlier data remain usable unless the review identifies a material measurement-system validity problem.
 - Official baseline observations began **31 August 2026**. The eight-day Gantt bar is the collection window, not a promise of eight observation days. The current planning minimum is meaningful coverage on **five distinct working days**, followed by the v1.3 Day-5 coverage review. The two completed partial days contribute evidence, but whether they count as two of the five days must be confirmed with the academic supervisor. Five days is not automatically 40 net observed hours; both days/windows and net minutes are reported.
 - Detailed Exact/Orbis production-data/interface feasibility is intentionally scheduled in **Analyze, after the exploratory Measure baseline**.
-- Supervisor milestones from the 25 August meeting are fixed: **15 September half-page project description; 20 September Plan of Work draft; 27 September final Plan of Work submission**. Internal complete-package targets are **18 September** for the draft and **25 September** for the final package. The attached template also requires five start-BEP professional-skill reflections (approximately 1,500–2,000 words total) and the scientific-conduct declaration; these are part of the submission workload.
+- Supervisor/internal milestones from the 25 August meeting are: **15 September half-page project description; 20 September Plan of Work draft for supervisor review; 27 September final Plan of Work submission**. The **20 September date is a supervisor-review target, not a Canvas assignment deadline**. Internal complete-package targets are **18 September** for the draft and **25 September** for the final package.
+- Confirmed Canvas/academic dates are: **Plan of Work — 27 September 2026 at 23:59 (use this earlier assignment cutoff despite a conflicting 28 September course-page date); ILBEP — 28 September 2026 at 23:59; final report, scientific-conduct item and end-BEP reflection — 15 January 2027 at 23:59; presentation completed by — 29 January 2027; final assessment — 7 February 2027**.
+- The Plan of Work workload includes five start-BEP professional-skill reflections (approximately 1,500–2,000 words total) and clarification of the current scientific-conduct declaration route.
 - Weekly academic supervision: **Thursday 15:00–16:00**, with agenda prepared/sent on Wednesday.
 - Durations after Measure are **planning estimates**, because the final artifact and evaluation design depend on the selected focal case.
 - FMEA is **not a mandatory timeline item**. A solution-risk analysis/FMEA is added during Improve/Control only if the selected intervention creates failure modes for which systematic risk prioritization is useful.
+
+## Confirmed academic deadlines
+
+| Deliverable / event | Authoritative planning date | Control note |
+|---|---|---|
+| Half-page project description | 15 September 2026 | Supervisor milestone for second-assessor identification. |
+| Plan of Work draft | 20 September 2026 | Supervisor-review target; not a Canvas assignment deadline. |
+| Plan of Work | **27 September 2026, 23:59** | Canvas assignment cutoff used for safety; another course page says 28 September, so the earlier date controls until clarified. |
+| ILBEP / Dealing with Scientific Information | **28 September 2026, 23:59** | Separate mandatory P&PD requirement. |
+| Final report + scientific conduct + end-BEP reflection | **15 January 2027, 23:59** | Academic work continues after the 7 January company boundary. |
+| Final presentation / assessment meeting | **On or before 29 January 2027** | Student schedules the meeting. |
+| Final assessment | **7 February 2027** | Administrative assessment deadline. |
+
+## Effort control
+
+The date-based Gantt does not prove compliance with the 420-hour study load. Phase allocations are agreed rather than invented, and actual effort is maintained separately.
+
+| Phase | Planned hours | Actual hours | Remaining hours | Evidence/source |
+|---|---:|---:|---:|---|
+| Define | TBD |  |  | Time log / completed outputs |
+| Measure | TBD |  |  | Observation logs / analysis files |
+| Analyze | TBD |  |  | Analysis outputs |
+| Improve / DSRM | TBD |  |  | Design and development log |
+| Evaluate | TBD |  |  | Evaluation records |
+| Control / report / presentation | TBD |  |  | Thesis and presentation log |
+| **Total 1BEPIE + 1BEPIEX** | **420** |  |  | Course study load |
 
 ---
 
@@ -53,16 +82,16 @@ gantt
     Measure tollgate                         :milestone, crit, mm, after m4b, 0d
 
     section ACADEMIC DELIVERABLES
-    Confirm final TU/e completion dates      :milestone, crit, ad0, 2026-09-03, 0d
     Half-page project description            :milestone, ad1, 2026-09-15, 0d
     PoW Parts A+B - proposal and Gantt       :crit, ad2, 2026-09-07, 10d
     PoW Part C - professional reflections    :crit, ad2b, 2026-09-07, 10d
     Internal complete draft                  :milestone, crit, ad2c, 2026-09-18, 0d
-    Official Plan of Work draft deadline     :milestone, crit, ad3, 2026-09-20, 0d
+    Supervisor-review PoW draft target       :milestone, crit, ad3, 2026-09-20, 0d
     Scientific-conduct declaration           :ad3b, 2026-09-21, 1d
     Supervisor feedback and revision         :crit, ad4, 2026-09-21, 5d
     Internal final package ready             :milestone, crit, ad4b, 2026-09-25, 0d
-    Official final Plan of Work submission   :milestone, crit, ad5, 2026-09-27, 0d
+    PoW Canvas deadline - 23:59              :milestone, crit, ad5, 2026-09-27, 0d
+    ILBEP deadline - 23:59                    :milestone, crit, ad6, 2026-09-28, 0d
 
     section ANALYZE
     Workload profile and candidate evidence  :crit, a1, after m4b, 5d
@@ -91,8 +120,12 @@ gantt
     Control plan and safeguards              :c1, after e2, 5d
     Thesis writing and evidence integration  :t1, 2026-09-01, 2026-12-18
     Integrate final evaluation results       :crit, t2, after e2, 7d
-    Final review revisions and handover      :crit, t3, after t2, 7d
-    Company placement outer boundary         :milestone, crit, t4, 2027-01-07, 0d
+    Final report consolidation and checks    :crit, t3, 2027-01-04, 10d
+    Company placement boundary               :milestone, t4, 2027-01-07, 0d
+    Final report submission - 23:59          :milestone, crit, t5, 2027-01-15, 0d
+    Presentation preparation                 :crit, t6, 2027-01-18, 10d
+    Presentation completed by                :milestone, crit, t7, 2027-01-29, 0d
+    Final assessment                         :milestone, crit, t8, 2027-02-07, 0d
 ```
 
 The axis deliberately uses the numeric format `DD-MM` rather than abbreviated month names. Some embedded Mermaid renderers can display `%b` literally instead of converting it to a month abbreviation. Weekly ticks start on Monday to keep the chart readable when imported into draw.io.
@@ -103,11 +136,11 @@ The axis deliberately uses the numeric format `DD-MM` rather than abbreviated mo
 
 The main dependency chain is:
 
-`Pilot → v1.2/v1.3 controlled baseline → five-day coverage review → workload/candidate analysis → targeted Exact/Orbis feasibility → veto gates + weighted/sensitivity-tested focal-case selection → evaluation-protocol freeze → artifact design/development → held-out evaluation → final thesis integration / handover`
+`Pilot → v1.2/v1.3 controlled baseline → five-day coverage review → workload/candidate analysis → targeted Exact/Orbis feasibility → veto gates + weighted/sensitivity-tested focal-case selection → evaluation-protocol freeze → artifact design/development → held-out evaluation → final report → presentation → assessment`
 
 The Plan of Work is developed **in parallel** with Measure/Analyze and should use the strongest evidence available at each submission milestone. The TU/e template requires a defensible prospective research method and detailed Gantt; it does not state that the focal use case must already be selected. Therefore the 27 September submission and a later focal-case gate are compatible only if the Plan of Work predefines the candidate population, veto/score method, evidence, decision owner, fallback and evaluation-freeze milestone. A provisional shortlist before submission is preferable.
 
-The 7 January 2027 milestone is an **outer contractual boundary, not a required finish date**. If the artifact, evaluation, thesis/handover obligations and academic/company agreements allow it, the project may conclude earlier.
+The 7 January 2027 milestone is the **company-placement boundary only**. Company-dependent work should be completed before it; academic report revision, presentation and assessment continue to the confirmed dates above, ending 7 February 2027.
 
 ## DMAIC tollgate interpretation
 
@@ -151,7 +184,7 @@ The following should be revised as evidence becomes available rather than treate
 - artifact-development duration (depends strongly on selected case);
 - evaluation duration and participant/case requirements after the predevelopment protocol freeze;
 - whether the project finishes before the 7 January 2027 contractual boundary;
-- Part D signing/logistics and the official final BEP submission/presentation date if different from the company contract;
+- Part D signing/logistics and current department student-administration route;
 - whether FMEA is useful for the selected intervention.
 
-The fixed dates currently known are the **15 / 20 / 27 September 2026 academic milestones** documented in the 25 August supervisor meeting notes and the **7 January 2027 Hytech-Pommec contract end**.
+Fixed control dates now include the **15 / 20 / 27 / 28 September 2026 milestones**, the **7 January 2027 company-placement boundary**, the **15 January final-report deadline**, the **29 January presentation deadline** and the **7 February assessment deadline**. The 20 September item remains a supervisor-review target rather than a Canvas deadline.

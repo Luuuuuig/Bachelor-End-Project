@@ -40,16 +40,18 @@ Furthermore, one purchasing activity will be selected for design and evaluation.
 
 **Quality.** Quality refers to the extent to which the outcome of a purchasing activity fulfils the requirements relevant to that activity. The specific rubric is defined after focal-case selection, but success is always conjunctive: the predeclared workload endpoint must improve by at least a meaningful threshold and the final human-approved outcome must pass its quality guardrail. The case-specific threshold, comparator, rubric and acceptable minor-error margin are frozen before artifact development/formal testing.
 
-### Provisional research question
+### Supervisor-approved research question
 
-> **To what extent can an AI-supported artifact reduce the operational buyer's workload at Hytech-Pommec without reducing the quality of the purchasing outcome?**
+The wording below follows the 1BEPIEX assignment version approved by the TU/e supervisor. Only obvious grammar, capitalization and punctuation errors have been normalized; the meaning and sub-question order are unchanged.
 
-### Sub-questions
+> **To what extent can an AI-supported solution reduce the operational buyers' workload at Hytech-Pommec without reducing the quality of the purchasing outcome?**
 
-1. Which activities in the operational purchasing process contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
-2. What conditions and control measures are required for the proposed solution to be implemented reliably in the operational purchasing process?
+### Supervisor-approved sub-questions
+
+1. Which parts of the operational purchasing workflow contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
+2. What conditions and control measures are required for the proposed solution to be implemented reliably in the operational purchasing workflow?
 3. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility and the need for human expertise?
-4. To what extent does the proposed solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
+4. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
 
 ## Research Design
 
@@ -63,7 +65,7 @@ In this way, DMAIC structures the overall process-improvement project, while DSR
 
 ## Communication / Expectations
 
-A meeting with the university supervisor is scheduled on a weekly basis. These meetings will be used to discuss the progress of the BEP, methodological decisions, research findings and upcoming activities. The student is responsible for planning and carrying out the research, communicating progress and preparing material for feedback. Feedback from the supervisor will primarily be provided during the weekly meetings and, when necessary, through email or Teams. The university supervisor has an advisory and academic supervisory role, while the company supervisor supports access to company information, employees and the operational context.
+A meeting with the university supervisor is scheduled on a weekly basis. These meetings will be used to discuss the progress of the BEP, methodological decisions, research findings and upcoming activities. The student is responsible for planning and carrying out the research, communicating progress and preparing material for feedback. Feedback from the supervisor will primarily be provided during the weekly meetings and, when necessary, through email or Teams. The university supervisor has an advisory and academic supervisory role, while the company supervisor supports access to company information, employees and the operational context. The second academic assessor reviews and approves the Plan of Work and co-assesses the final report under the 1BEPIE procedure; the person's name and any additional formative role are recorded once TU/e confirms the assignment.
 
 ## References
 
