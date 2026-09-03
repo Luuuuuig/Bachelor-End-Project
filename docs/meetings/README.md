@@ -18,9 +18,10 @@ For Measure protocols and observation evidence, use the dedicated `../measuremen
 Do not rewrite old notes to make them look as though later knowledge was already available at the time. Instead, synchronize new conclusions into the current master files above.
 
 
-Upcoming academic-supervisor agenda:
+Latest academic-supervisor records:
 
-- `Academic_Supervisor_Agenda_2026-09-03.md` — Measure-method validation, operationalizing the five-working-day guidance, Measure→Analyze and formal candidate-selection gates, AI fallback, evaluation-protocol freeze, 1BEPIEX framing and Plan of Work milestones.
+- `Academic_Supervisor_Meeting_Notes_2026-09-03.md` — five-day sufficiency review, pattern stability and saturation, mandatory AI scope, defensible variable selection, methodology justification and follow-up actions.
+- `Academic_Supervisor_Agenda_2026-09-03.md` — pre-meeting agenda covering the workload definition, Measurement Protocol and observation stopping rule.
 
 Latest progress record:
 
