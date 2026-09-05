@@ -76,6 +76,36 @@ The current literature does **not** justify inventing a composite equation such 
 
 **Use:** Governing source specifically for **mental workload**, not for all operational-buyer workload. Supports treating mental workload as a multidimensional human-factors construct and cautions against inferring it from processing time alone. The detailed project interpretation belongs in `docs/methodology/Workload_Definition.md`.
 
+### Structured workflow observation and time-and-motion
+
+**Mintzberg, H. (1970).** *Structured observation as a method to study managerial work*. *Journal of Management Studies, 7*(1), 87–104. https://doi.org/10.1111/j.1467-6486.1970.tb00484.x
+
+**Use:** Management-domain precedent for using structured observation to study how work is actually performed. It supports the general choice of method, not the BEP's specific workload indicators or procurement categories.
+
+**Fix, G. M., Kim, B., Ruben, M. A., & McCullough, M. B. (2022).** *Direct observation methods: A practical guide for health researchers*. *PEC Innovation, 1*, 100036. https://doi.org/10.1016/j.pecinn.2022.100036
+
+**Use:** Supports defining what abstract, theory-informed concepts look like in observable practice, using a systematic collection tool and refining it through pilot testing. Its healthcare examples do not validate the procurement codebook.
+
+**Zheng, K., Guo, M. H., & Hanauer, D. A. (2011).** *Using the time and motion method to study clinical work processes and workflow: Methodological inconsistencies and a call for standardized research*. *Journal of the American Medical Informatics Association, 18*(5), 704–710. https://doi.org/10.1136/amiajnl-2011-000083
+
+**Use:** Primary methodological basis for describing the Measure approach as structured continuous observation and for reporting fieldwork duration, daypart/shift coverage, observation hours, task definitions, category development, observer preparation, non-observed periods, task transitions, analytical measures and interruptions. STAMP was developed in healthcare; it supports the generic method architecture, not validation of the procurement taxonomy.
+
+**Westbrook, J. I., & Ampt, A. (2009).** *Design, application and testing of the Work Observation Method by Activity Timing (WOMBAT) to measure clinicians' patterns of work and communication*. *International Journal of Medical Informatics, 78*(Supplement 1), S25–S33. https://doi.org/10.1016/j.ijmedinf.2008.09.003
+
+**Westbrook, J. I., Creswick, N. J., Duffield, C., Li, L., & Dunsmuir, W. T. M. (2012).** *Changes in nurses' work associated with computerised information systems: Opportunities for international comparative studies using the revised Work Observation Method By Activity Timing (WOMBAT).* *Nursing Informatics 2012*, 448. https://pmc.ncbi.nlm.nih.gov/articles/PMC3799166/
+
+**Use:** Closest published structural analogue for broad task categories, timestamped activity changes, interruptions/resumption and outputs such as task frequency, task duration, time allocation and interruptions per observed hour. The BEP adopts these design principles but does not reuse the clinical taxonomy or inherit WOMBAT's setting-specific validation.
+
+**Lopetegui, M., Yen, P.-Y., Lai, A., Jeffries, J., Embi, P., & Payne, P. (2014).** *Time motion studies in healthcare: What are we talking about?* *Journal of Biomedical Informatics, 49*, 292–299. https://doi.org/10.1016/j.jbi.2014.02.017
+
+**Use:** Supports the explicit distinction between continuous observation and work sampling. This matters because the BEP records complete observable task episodes and durations within selected windows rather than sampling the activity present at periodic instants.
+
+### Cognitive task analysis for judgement and expertise cues
+
+**Militello, L. G., & Hutton, R. J. B. (1998).** *Applied cognitive task analysis (ACTA): A practitioner's toolkit for understanding cognitive task demands*. *Ergonomics, 41*(11), 1618–1641. https://doi.org/10.1080/001401398186108
+
+**Use:** Supports structured follow-up elicitation of cognitive skills, cues and demands for judgement-heavy work. It does not turn visually observed `DEC?`, `J` or `EXP` flags into validated mental-workload measurements; those remain screening prompts unless a fuller CTA procedure is used.
+
 ### Generic quality definition
 
 **International Organization for Standardization. (2026).** *ISO 9000:2026 — Quality management — Fundamentals and vocabulary*. https://www.iso.org/standard/9000.html

@@ -19,6 +19,8 @@ This distinction is necessary because purchasing work can consume substantial bu
 
 The broad workload framing is grounded primarily in occupational-workload literature, especially **Bowling & Kirkendall (2012)**, while mental workload is grounded specifically in **Young et al. (2015)**.
 
+These sources define and distinguish the constructs; they do not supply the project's live observation sheet. The separate evidence chain from theory to observation method and procurement-specific operationalization is documented in `../measurement/Measurement_Method_Justification.md`.
+
 ---
 
 # 2. Broad workload: amount and difficulty of work

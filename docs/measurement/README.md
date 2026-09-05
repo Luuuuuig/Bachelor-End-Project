@@ -5,6 +5,7 @@ This folder contains the current and historical Measure-phase data-collection ma
 ## Current baseline materials
 
 - [Measurement Protocol v1.3](Measurement_Protocol_v1.3.md) — controlled from 2 September 2026; aligns post-MAX logic, five-day coverage/stopping and private-repository governance without changing v1.2 live fields/timing.
+- [Measurement Method Justification](Measurement_Method_Justification.md) — evidence chain from workload theory through continuous-observation time-and-motion principles to the procurement-specific codebook; also states what the protocol cannot claim.
 - [Measure Live Cheat Sheet v1.3](Measure_Live_Cheat_Sheet_v1.3.md) — compact observer guide for observations from 2 September onward.
 
 ## Historical protocols

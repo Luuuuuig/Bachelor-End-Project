@@ -10,6 +10,7 @@ Related sources:
 - AS-IS process and open process facts: `docs/process/Process_Cleaned_V1.5.md`
 - Canonical workload definition: `docs/methodology/Workload_Definition.md`
 - Exploratory Measure protocol: `docs/measurement/Measurement_Protocol_v1.3.md`
+- Measurement-method justification: `docs/measurement/Measurement_Method_Justification.md`
 - Formal company evidence: `docs/company-documentation/Official_Document_Register_2026-08-21.md`
 - Working TO-BE hypothesis: `docs/process/TO_BE_Working_Hypothesis_v0.1.md`
 
@@ -115,6 +116,8 @@ Detailed live observation rules are owned by `../measurement/Measurement_Protoco
 - interruptions and task switching;
 - qualitative difficulty / uncertainty / exception evidence;
 - expertise dependence.
+
+The method source and the construct source are deliberately separated. The workload literature defines what the project means by workload; a researcher-developed structured continuous-observation time-and-motion protocol, informed by STAMP and WOMBAT principles and adapted through the local AS-IS process and pilot, records the observable objective component. The exact source-to-field mapping and claim limits are documented in `../measurement/Measurement_Method_Justification.md`.
 
 For comparable recurring execution tasks:
 

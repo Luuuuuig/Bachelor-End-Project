@@ -17,6 +17,7 @@
 
 Related files:
 - Workload construct: `../methodology/Workload_Definition.md`
+- Method provenance and construct-to-indicator justification: `Measurement_Method_Justification.md`
 - Current research methodology and candidate selection: `../methodology/Phase_1_Current_Methodology.md`
 - Current AS-IS workflow and 31-task register: `../process/Process_Cleaned_V1.5.md`
 - Pilot evidence: `Pilot_Measure_Observation_2026-08-28.md`
@@ -27,17 +28,19 @@ Related files:
 
 # 1. What this protocol measures
 
-The protocol does **not** create one total workload score. It collects a multidimensional workload profile.
+This is a researcher-developed, procurement-specific application of structured continuous-observation time-and-motion principles; it is not an instrument reproduced from the workload-definition articles. Bowling and Kirkendall (2012), Spector and Jex (1998), and Young et al. (2015) define or distinguish the relevant workload constructs. Zheng et al. (2011), Westbrook and Ampt (2009), and related observation-method literature support the observation architecture. The AS-IS process, task register and pilot evidence define the local activity taxonomy. The complete evidence chain and claim limits are documented in `Measurement_Method_Justification.md`. This documentation clarification does not change any v1.3 live coding rule.
+
+The protocol does **not** create one total workload score. It collects a multidimensional profile of **observable workload-related process indicators**.
 
 | Dimension | Observable indicator | Interpretation |
 |---|---|---|
-| Quantitative workload — occurrence/frequency | number of observed episodes/occurrences by activity family | Short activities can matter if they happen often. |
-| Quantitative workload — active processing time | clock-time duration of meaningful active episodes | Buyer-capacity consumption, not mental workload. |
+| Project-specific quantitative-workload indicator — occurrence/frequency | number of observed episodes/occurrences by activity family | Short activities can matter if they happen often. |
+| Project-specific quantitative-workload indicator — active processing time | clock-time duration of meaningful active episodes | Buyer-capacity consumption, not mental workload. |
 | Work volume / case size | lines/items where meaningful | Helps interpret duration in relation to case size. |
 | Rework / exception burden | occurrence and active time | Additional work and possible process/quality signal. |
 | Organizational constraints | interruptions/task switches, missing information, system problems | Conditions that fragment or obstruct work. |
-| Qualitative difficulty evidence | exceptions, uncertainty, investigation, problem solving, decision notes | Important work can be difficult even when fast. |
-| Expertise dependence | explicit/tacit cues, prior-case knowledge, experience-based recognition | Helps identify what may require human expertise or careful support. |
+| Observable difficulty-related evidence | exceptions, uncertainty, investigation, problem solving, decision notes | Screening evidence only: important work can be difficult even when fast. |
+| Expertise-dependence screening evidence | explicit/tacit cues, prior-case knowledge, experience-based recognition | Helps identify what may require human expertise or careful support; it is not a validated expertise measure. |
 
 **Mental workload is not directly quantified by the live observation sheet.** A validated instrument such as NASA-TLX may be considered later only if the selected focal activity requires it.
 
@@ -515,3 +518,7 @@ Bowling, N. A., & Kirkendall, C. (2012). Workload: A review of causes, consequen
 Spector, P. E., & Jex, S. M. (1998). Development of four self-report measures of job stressors and strain: Interpersonal Conflict at Work Scale, Organizational Constraints Scale, Quantitative Workload Inventory, and Physical Symptoms Inventory. *Journal of Occupational Health Psychology, 3*(4), 356–367. https://doi.org/10.1037/1076-8998.3.4.356
 
 Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State of science: Mental workload in ergonomics. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
+
+Westbrook, J. I., & Ampt, A. (2009). Design, application and testing of the Work Observation Method by Activity Timing (WOMBAT) to measure clinicians' patterns of work and communication. *International Journal of Medical Informatics, 78*(Supplement 1), S25–S33. https://doi.org/10.1016/j.ijmedinf.2008.09.003
+
+Zheng, K., Guo, M. H., & Hanauer, D. A. (2011). Using the time and motion method to study clinical work processes and workflow: Methodological inconsistencies and a call for standardized research. *Journal of the American Medical Informatics Association, 18*(5), 704–710. https://doi.org/10.1136/amiajnl-2011-000083
