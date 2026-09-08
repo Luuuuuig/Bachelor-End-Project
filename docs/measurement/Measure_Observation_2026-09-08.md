@@ -28,20 +28,20 @@
 
 | Case | Activity as written | Start | End | Volume | INT | DEC? | Result / short note |
 |---|---|---:|---:|---:|---:|---|---|
-| OBS-01 | EXC | 10:30 | 10:37 | / | / | 1 |  |
+| OBS-01 | EXC | 10:30 | 10:37 | / | / | 1 | There is something wrong with the order |
 | OBS-01 | SEND | 10:37 | 10:39 | / | 1 | / |  |
 | OBS-02 | EXC | 10:39 | 10:41 | / | / | / | Finance unpaid. |
-| OBS-01 | SEND | 10:41 | 10:42 | / | / | / | [unclear] |
-| OBS-01 | OTHER | 10:42 | 10:46 | / | / | / | Discuss with Johan; no mail. |
-| OBS-01 | SEND | 10:46 | 10:50 | / | / | / |  |
+| OBS-01 | SEND | 10:41 | 10:42 | / | / | / | Arno was drafting mail, coincidentally Johan walk through |
+| OBS-01 | OTHER | 10:42 | 10:46 | / | / | / | Discuss with Johan; no mail.|
+| OBS-01 | SEND | 10:46 | 10:50 | / | / | / | cancellation attmept for component |
 | OBS-03 | REQ-mail | / | / | / | / | / |  |
 | OBS-03 | CLAR | 10:51 | 10:53 | / | / | / |  |
-| OBS-03 | PO | 10:53 | 10:55 | 1L | / | / | See price [commercial value omitted]. |
+| OBS-03 | PO | 10:53 | 10:55 | 1L | 1 | / | See price 196 Euro, It is for transport |
 | OBS-04 | SEND | 10:55 | 10:57 | / | / | / | Send 1 mail to supplier, 1 to colleague; as following, they came pick up. |
 | OBS-03 | SEND | 10:57 | 10:59 | / | / | / |  |
 | OBS-05 | EXC | 10:59 | 11:05 | / | / | / | Call supplier to ask when and why; forwarding to colleague. |
-| OBS-06 | OTHER | 11:06 | 11:10 | / | / | 1 | Discussion with Dennis; decide to call [name unclear]. |
-| OBS-06 | EXC | 11:10 | 11:17 | / | / | / | Macro; [unclear] happens here. Then from macro, Arno has to ask Rudi. |
+| OBS-06 | OTHER | 11:06 | 11:10 | / | / | 1 | Discussion with Dennis; decide to call Kayne . |
+| OBS-06 | EXC | 11:10 | 11:17 | / | / | / | Kayne tell, to call Macro; so there is 2 calls happens here. Then from macro, Arno has to ask Rudi. |
 | OBS-06 | SEND | 11:17 | 11:18 | / | / | / | Attempt to call Rudi; failed, so writing email. |
 | OBS-01 | SEND | / | / | / | / | / | Allow cancellation and respond; remaining wording unclear. |
 | OBS-01 | PO | 11:18 | 11:22 | / | / | / | Adjust the corresponding PO. |
@@ -49,14 +49,14 @@
 | OBS-07 | EXC | 11:23 | 11:25 | / | / | / | Binnenboeken. |
 | OBS-08 | REQ-letter | / | / | / | / | / |  |
 | OBS-08 | CHECK | 11:25 | 11:28 | 7L | / | / | Price comparison; check first the physical quotation, then the website. |
-| OBS-08 | OTHER | 11:28 | 11:34 | / | / | 1 | Check [unclear] and give Dennis a photo of the component. |
-| OBS-09 | REQ-mail | / | / | / | / | / |  |
+| OBS-08 | OTHER | 11:28 | 11:34 | / | / | 1 | Check fittings and decide to give Dennis. |
+| OBS-09 | REQ-mail | / | / | / | / | / | A photo with requested component |
 | OBS-09 | CLAR | 11:34 | 11:36 | / | / | / |  |
 | OBS-09 | OTHER | 11:36 | 11:40 | / | / | / | Update it in Exact. |
-| OBS-10 | OTHER | 11:40 | 11:44 | / | / | / |  |
+| OBS-10 | OTHER | 11:40 | 11:44 | / | / | / | Supplier not avaliable so Arno found a new one and ask Katja to add in exact. And than he update it in exact  |
 | OBS-10 | PO | 11:44 | 11:46 | 2L | / | / |  |
 | OBS-10 | SEND | 11:47 | 11:49 | / | / | / |  |
-| OBS-10 | OTHER | 11:49 | 11:50 | / | / | / | [unclear] |
+| OBS-10 | OTHER | 11:49 | 11:50 | / | / | / | Remove that component from old PO |
 | OBS-11 | PO | 11:51 | 11:53 | / | / | / | Combine it to the existing PO. |
 | OBS-12 | PO | 11:55 | 11:58 | 12L | / | / | Same as note above; 12L total when 4L added. |
 | OBS-13 | PO | 11:58 | 12:00 | / | / | / |  |
