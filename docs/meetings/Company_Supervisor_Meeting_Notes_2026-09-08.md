@@ -4,81 +4,86 @@
 
 - **Date:** 8 September 2026
 - **Attendees:** Yijie Wang; Johan, company supervisor / purchasing manager
-- **Purpose:** Review progress, validate the current AS-IS workflow, and align the breadth of the purchasing-process investigation.
+- **Purpose:** Review progress, validate the current AS-IS workflow, and discuss how broadly the purchasing process should be understood.
 - **Record status:** Reconstructed from the student's debrief immediately after the meeting. It is a dated evidence record, not a verbatim transcript or signed set of minutes.
 
-## 2. Executive summary
+## 2. Confirmed meeting points
 
-Johan agreed with the current AS-IS purchasing workflow and indicated that the work completed so far is useful and should be **widened rather than restarted**.
-
-The project should gain a broader understanding of the overall purchasing workflow, including how Dennis works and how logistics / goods receipt connects to Purchasing. The purpose of widening the investigation is to identify weak spots in the broader process and then develop AI-supported improvement solutions for a selected opportunity.
-
-The discussion did not produce a fully unambiguous statement on whether the primary objective is formally "reduce Arno's workload through process improvement" or "improve the purchasing process itself." What was clear is that the current approach can continue if the process understanding is broadened.
-
-## 3. Confirmed directions from Johan
-
-### Current AS-IS remains valid
+### Current AS-IS workflow
 
 - Johan agreed with the current connected AS-IS workflow.
-- The current Arno-focused operational process work was not rejected.
-- The work completed to date was described as good/useful; the next step is to broaden the surrounding process understanding.
+- Johan indicated that the work completed so far is good/useful.
+- The current work should be **widened rather than restarted**.
 
-### Broaden the purchasing-process understanding
+### Broader purchasing-process understanding
 
-- Do not understand only Arno's desk-level operational work.
-- Also understand how Dennis works and how his activities connect with the operational purchasing flow.
-- Include logistics / goods receipt sufficiently to understand the relevant downstream process and handoffs.
-- Use the broader understanding to identify weak spots before selecting and designing the AI-supported improvement.
+- Johan wants the project to understand the **overall purchasing workflow** more broadly.
+- This includes understanding how Dennis works and how the different purchasing roles connect.
+- Logistics / goods receipt should also be included in the broader process understanding.
+- The broader understanding should be used to identify weak spots before AI-supported improvements are designed.
+
+### Primary objective remained ambiguous
+
+Yijie explicitly asked whether the objective is:
+
+1. reducing Arno's workload **through process improvement**, or
+2. improving the purchasing process itself.
+
+Johan's answer did not create a clear black-and-white separation between these formulations.
+
+What was confirmed is that the current approach can continue while the process understanding becomes broader.
 
 ### Van Weele purchasing-process framing
 
-Johan referred to the Van Weele purchasing-process framework as a useful high-level way to understand role distribution.
+- Johan referred to the Van Weele purchasing-process framework as an important high-level reference.
+- He specifically referred to **bestellen, bewaken and nazorg** as phases in which Arno's work is concentrated.
+- The earlier three phases were described as being more associated with Dennis and Johan.
+- Johan emphasized that this role split is **not black-and-white**.
 
-The meeting discussion grouped the six stages broadly as follows:
+### Role overlap
 
-- the first three stages are more associated with Dennis and Johan;
-- **bestellen, bewaken and nazorg** are more associated with Arno.
-
-Johan explicitly emphasized that this division is **not black-and-white**.
-
-### Role boundaries and backup
-
-- Purchasing responsibilities overlap in practice.
-- When Dennis is on holiday, Arno may perform some activities that normally sit more on Dennis's side, and vice versa.
-- This does not mean the roles are fully interchangeable or that either person can completely perform the other's side.
-- The wider process map should therefore avoid hard role boundaries that imply complete exclusivity.
+- Responsibilities can overlap in practice.
+- When Dennis is on holiday, Arno may perform some work that would normally sit more on Dennis's side, and vice versa.
+- This does not mean that Arno can completely perform Dennis's side or that Dennis can completely perform Arno's side.
 
 ### Logistics timing
 
-- Johan identified Mike as one of the logistics colleagues relevant to the goods-receipt side.
-- Mike is expected to be on holiday next week.
-- This creates a practical reason to prioritize a walkthrough / observation with Mike before his holiday if possible.
+- Johan mentioned Mike as one of two colleagues on the logistics side.
+- Mike will be on holiday next week.
+- This makes it useful to speak with / observe Mike before his holiday if possible.
 
-## 4. Scope implication recorded from the meeting
+## 3. Working direction supported by the discussion
 
-The meeting supports the following practical direction without discarding the submitted project approach:
+The discussion supports keeping the current evidence and widening the surrounding process understanding:
 
-`broader process understanding → identify weak spots / workload drivers → investigate causes and handoffs → select one coherent process component → design and evaluate an AI-supported improvement`
+```text
+Broader purchasing-process understanding
+        +
+Current detailed operational-purchasing evidence
+        ↓
+Spot weak points
+        ↓
+Investigate the relevant causes / handoffs
+        ↓
+Select a coherent improvement area
+        ↓
+Design an AI-supported improvement
+```
 
-The detailed operational-buyer measurement collected so far remains relevant evidence inside this wider process investigation.
+This is a **researcher working direction based on the meeting**, not a verbatim statement from Johan and not a rewrite of the approved academic research question.
 
-The meeting did **not** establish that Dennis, logistics and Arno must all receive identical full workload baselines.
+## 4. Immediate researcher follow-up
 
-## 5. Items still open
+- Keep the current Arno observation evidence.
+- Broaden process discovery to Dennis and the relevant purchasing activities around him.
+- Prioritize a walkthrough / observation with Mike / logistics before his holiday if possible.
+- Add a higher-level purchasing-process view around the accepted detailed AS-IS workflow.
+- Preserve role overlap rather than drawing rigid exclusive boundaries where the evidence shows crossover.
 
-- The exact wording of the primary business objective: operational-buyer workload reduction through process improvement versus broader purchasing-process improvement with workload as one outcome.
-- How much detailed observation is required for Dennis versus process walkthrough / handoff understanding.
-- How much of logistics / goods receipt must be mapped beyond the points that connect back into Purchasing.
-- The final focal process component and AI artifact remain intentionally unselected until sufficient Measure/Analyze evidence is available.
-- Whether the academic research question or project-control documents require wording changes should be aligned with the academic supervisor rather than inferred from this meeting alone.
+## 5. Still open
 
-## 6. Immediate follow-up actions
-
-| Action | Owner | Timing |
-|---|---|---|
-| Preserve the current Arno workload measurement approach and continue the baseline evidence collection. | Yijie | Current Measure phase |
-| Arrange a process walkthrough / observation with Mike in logistics before his holiday if possible. | Yijie | This week |
-| Arrange targeted shadowing / process walkthrough with Dennis to understand his work, responsibilities, decisions and handoffs. | Yijie | Next available session |
-| Build a high-level end-to-end purchasing view around the current detailed operational-buyer AS-IS. | Yijie | During broadened Define/Measure work |
-| Record role overlap as primary/supporting responsibility rather than rigid ownership where evidence shows crossover. | Yijie | Process mapping |
-| Use the widened evidence to identify weak spots and root causes before selecting the AI-supported focal improvement. | Yijie | Analyze |
+- The exact wording of the primary business objective.
+- How much detailed observation is needed for Dennis.
+- How much of logistics / goods receipt should be mapped.
+- Which weak spot will become the final focal AI-supported improvement.
+- Whether any academic wording or planning document needs revision after this company-side broadening.
