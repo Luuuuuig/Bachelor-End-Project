@@ -21,8 +21,9 @@ This folder contains the current and historical Measure-phase data-collection ma
 - [Pilot Measure Observation — 28 August 2026](Pilot_Measure_Observation_2026-08-28.md) — pilot record that motivated the v1.1 two-level measurement architecture.
 - [Measure Observation — 31 August 2026](Measure_Observation_2026-08-31.md) — first official baseline session; cleanup/enrichment and the documented evidence that motivated the controlled v1.2 clarification.
 - [Measure Observation — 1 September 2026](Measure_Observation_2026-09-01.md) — second official baseline day, normalized to v1.2 with case context, non-blank fields, MAX evidence and post-session enrichment.
+- [Measure Observation — 8 September 2026](Measure_Observation_2026-09-08.md) — third official baseline session; morning handwritten notes transcribed/polished without adding post-session interpretation. OBS-16 is explicitly flagged from the source as contaminated and excluded from interpretation pending clarification.
 
-Current two-day totals after the OBS-05 transcription correction are **351 net observed minutes** and **265 timed coded-active minutes**. Keep these quantities separate.
+The cleaned two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes**. The 8 September session has been added as source evidence but is **not yet included in those cross-day totals** in this transcription-only update.
 
 ## Related evidence
 
