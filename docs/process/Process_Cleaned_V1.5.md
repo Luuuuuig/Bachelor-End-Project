@@ -1,6 +1,6 @@
 # Operational Purchasing Current State — AS-IS master (V1.5)
 
-**Status:** Current operational-process source of truth, synchronized 2 September 2026.
+**Status:** Current operational-process source of truth. Diagram presentation and related wording corrected 8 September 2026; the existing observation dates and validation limits remain as recorded.
 
 **Ownership:** This file describes the **current AS-IS purchasing process** and preserves the useful process context around it: workflow, detailed stage interpretation, evidence, task inventory, observed improvement-opportunity profiles and unresolved process facts. Formal research-method decisions and final candidate prioritization are maintained in their dedicated files.
 
@@ -17,8 +17,8 @@
 
 Operational purchasing from the appearance of a purchasing need through `Bevestigd`, including:
 
-- external purchasing requests arriving through email, phone/desk contact, screenshots or colleagues as a **request-handling stream distinct from PO processing**;
-- existing/open PO work in Exact as a parallel **Exact/PO stream**;
+- purchasing needs and requests identified through Exact, email, phone/desk contact, screenshots or colleagues within one purchasing workflow;
+- existing/open PO work in Exact, resumed at the relevant process stage;
 - when neither an open PO nor an external request currently requires attention, generating the next PO record from Exact demand;
 - the observed Exact status behavior that a newly generated PO record appears as `Besteld` and then becomes open PO work;
 - manual creation/transfer of externally supplied purchasing information into Exact where required;
@@ -69,85 +69,68 @@ Observed Week-1 timings are clock-measured **single-case elapsed-time observatio
 
 # 3. Current AS-IS workflow
 
-The current-state map distinguishes **two parallel operating streams** rather than treating an external request as the mandatory start of a PO:
+The overview presents **one connected purchasing workflow**. External requests, Exact demand and existing/open POs are inputs to the same process. Work already in progress resumes at the relevant stage; the map does not imply that every interaction repeats the entire sequence.
 
-1. **External request stream** — email, phone/desk, screenshot or colleague requests are received, clarified and processed as request work.
-2. **Exact / PO stream** — the buyer works existing/open POs in Exact. When there is **no open PO and no external request currently requiring attention**, the buyer generates the next PO record from Exact demand. The generated PO appears as `Besteld` in Exact and then becomes open PO work.
+A request may be answered, routed or left waiting without PO work. The conditional outcome below preserves that distinction within the single workflow. PO-record generation and the observed `Besteld` status are explained in Sections 4.1 and 4.9.
 
-The streams can interact, but they are not one mandatory sequence. In particular, an email request is **not itself a PO**.
+The separate supplier-unavailability side branch has been removed from this overview. The observed exception remains documented in Section 4.12 and Task 31. Its subsequent tracking mechanism remains open question P3, rather than an established AS-IS step.
 
 ```mermaid
-flowchart LR
+flowchart TD
     classDef open stroke-dasharray: 6 4,stroke:#888
 
-    subgraph REQ["External request stream"]
-        req["Email / phone / desk / screenshot / colleague request"]
-        reqValid{"Information plausible / complete?"}
-        reqInvestigate["Investigate historical POs / machine / serial / article information"]
-        reqProcess["Clarify / process / transfer request information as needed"]
-        reqState["Request handled, routed or waiting"]
-        req --> reqValid
-        reqValid -- "yes" --> reqProcess --> reqState
-        reqValid -- "no / suspicious" --> reqInvestigate --> reqProcess
-    end
+    need["Identify purchasing work: request, Exact demand or open PO"]
+    intake["Review and clarify information as needed"]
+    poNeeded{"PO work required?"}
+    requestState["Request answered, routed or waiting"]
+    poWork["Create, update or continue the relevant PO in Exact"]
+    assess["Assess stock, future demand, open POs, receipts, lead time and urgency"]
+    maxCheck["Check additional same-supplier demand for maximalisatie"]
+    maxQ{"Useful same-supplier demand available now?"}
+    combine["Combine relevant same-supplier demand"]
+    postMax{"Proceed after assessing the resulting order?"}
+    hold["Hold / pause requirement for now"]
+    advice["Review Exact Advies"]
+    assign["Toewijzen to underlying project / production demand"]
+    prePrice{"Pre-PO price check required?"}
+    webPrice["Compare current supplier price with Exact"]
+    updatePrice["Correct price in Exact where needed"]
+    prep["Prepare / complete supplier PO"]
+    auth{"Within buyer authorization?"}
+    release["Fiatteren + Verrichten"]
+    approval["Route to higher-authority approver for Fiatteren"]
+    approvalNext["Continue Exact workflow after higher-authority Fiatteren"]:::open
+    pdf["Exact generates supplier-facing PO document and emails buyer"]
+    forward["Buyer manually forwards PO to supplier"]
+    confirmation["Supplier confirmation"]
+    compare["Compare confirmation with PO / Exact"]
+    correct["Correct relevant deviations"]
+    bevestigd["Attach / archive confirmation + Bevestigd"]
+    finance{"Finance later detects issue?"}
+    rework["Buyer investigates returned Finance case"]
+    later["Later stages outside detailed scope"]:::open
 
-    subgraph PO["Exact / PO stream"]
-        openPO["Existing / open PO available in Exact"]
-        noOpen["No open PO and no external request currently requiring attention"]
-        generate["Buyer generates next PO record from Exact demand"]
-        best["Generated PO appears as Besteld in Exact"]
-        poWork["Open / generated PO work in Exact"]
-
-        assess["Assess stock, future demand, open POs, receipts, lead time and urgency"]
-        maxCheck["Check additional same-supplier demand for maximalisatie"]
-        maxQ{"Useful same-supplier demand available now?"}
-        combine["Combine relevant same-supplier demand"]
-        postMax["Assess resulting order after MAX"]
-        hold["Hold / pause requirement for now"]
-        advice["Review Exact Advies"]
-        assign["Toewijzen to underlying project / production demand"]
-        prePrice{"Pre-PO price check required?"}
-        webPrice["Compare current supplier price with Exact"]
-        updatePrice["Correct price in Exact where needed"]
-        prep["Prepare / complete supplier PO"]
-        auth{"Within buyer authorization?"}
-        release["Fiatteren + Verrichten"]
-        approval["Route to higher-authority approver for Fiatteren"]
-        approvalNext["Continue Exact workflow after higher-authority Fiatteren"]:::open
-        pdf["Exact generates supplier-facing PO document and emails buyer"]
-        forward["Buyer manually forwards PO to supplier"]
-        confirmation["Supplier confirmation"]
-        compare["Compare confirmation with PO / Exact"]
-        correct["Correct relevant deviations"]
-        bevestigd["Attach / archive confirmation + Bevestigd"]
-        finance{"Finance later detects issue?"}
-        rework["Buyer investigates returned Finance case"]
-        unavailable["Handle supplier-reported unavailable component"]
-        unresolved["Preserve unresolved purchasing need; subsequent tracking mechanism open"]:::open
-        later["Later stages outside detailed scope"]:::open
-
-        openPO --> poWork
-        noOpen --> generate --> best --> poWork
-        poWork --> assess --> maxCheck --> maxQ
-        maxQ -- "yes" --> combine --> postMax
-        maxQ -- "no" --> postMax
-        postMax -- "small + non-urgent" --> hold
-        postMax -- "urgent / large enough / otherwise proceed" --> advice
-        hold -. "new demand / urgency changes" .-> poWork
-        advice --> assign --> prePrice
-        prePrice -- "yes" --> webPrice --> updatePrice --> prep
-        prePrice -- "no" --> prep
-        prep --> auth
-        auth -- "yes" --> release --> pdf
-        auth -- "no" --> approval --> approvalNext -.-> pdf
-        pdf --> forward --> confirmation --> compare
-        poWork -. "supplier reports component unavailable" .-> unavailable --> unresolved
-        compare -- "difference" --> correct --> bevestigd
-        compare -- "match" --> bevestigd
-        bevestigd --> finance
-        finance -- "issue" --> rework
-        finance -- "no issue" --> later
-    end
+    need --> intake --> poNeeded
+    poNeeded -- "yes" --> poWork
+    poNeeded -- "no" --> requestState
+    poWork --> assess --> maxCheck --> maxQ
+    maxQ -- "yes" --> combine --> postMax
+    maxQ -- "no" --> postMax
+    postMax -- "small + non-urgent: hold" --> hold
+    postMax -- "urgent / large enough / otherwise proceed" --> advice
+    hold -. "new demand / urgency changes" .-> poWork
+    advice --> assign --> prePrice
+    prePrice -- "yes" --> webPrice --> updatePrice --> prep
+    prePrice -- "no" --> prep
+    prep --> auth
+    auth -- "yes" --> release --> pdf
+    auth -- "no" --> approval --> approvalNext -.-> pdf
+    pdf --> forward --> confirmation --> compare
+    compare -- "difference" --> correct --> bevestigd
+    compare -- "match" --> bevestigd
+    bevestigd --> finance
+    finance -- "issue" --> rework
+    finance -- "no issue" --> later
 ```
 
 The 21 August buyer walkthrough established the current working sequence around purchasing advice as:
@@ -160,25 +143,17 @@ The 21 August buyer walkthrough established the current working sequence around 
 
 This section preserves the operational detail behind the compact flowchart. It is descriptive evidence, not a TO-BE design.
 
-## 4.1 Parallel request handling and Exact / PO work
+## 4.1 Purchasing work in one connected workflow
 
-The buyer's work is better represented as **two parallel streams** than as two alternative entry routes into one immediate PO sequence.
+The workflow includes externally supplied requests, demand visible in Exact and existing/open PO work. These are different inputs and case contexts within one process.
 
-### External request stream
-
-Requests can arrive through email, phone/desk contact, screenshots, direct colleague requests or other informal communication. The buyer may need to read/listen to the request, clarify missing information, investigate historical information, answer a question, route the request or transfer information into Exact.
-
-An external request is **not automatically a PO** and should not be modeled as if every email/request necessarily creates a PO next.
+Requests can arrive through email, phone/desk contact, screenshots, direct colleague requests or other informal communication. The buyer may read/listen to the request, clarify missing information, investigate historical information, answer a question, route the request or transfer information into Exact. Where PO work is required, the buyer creates, updates or continues the relevant PO. A request handled through an answer or routing does not necessarily create a PO.
 
 One observed service-order case involving two lines took approximately **5 minutes elapsed time**. This is a single case, not an average.
 
-### Exact / PO stream
+Existing/open POs can be resumed at the relevant stage. The 1 September observation also established a specific work-selection condition: when there is **no open PO and no external request currently requiring attention**, the buyer generates a new PO record from Exact demand. Once generated, the PO is shown as `Besteld` in Exact and can then be handled as open PO work.
 
-Separately, the buyer works with existing/open PO records in Exact.
-
-The 1 September observation clarified an additional work-selection behavior: when there is **no open PO and no external request currently requiring attention**, the buyer generates a new PO record from Exact demand. Once generated, the PO is shown as `Besteld` in Exact and can then be handled as open PO work.
-
-This observation supports the condition above, but it does **not** establish a complete strict priority rule between every possible type of buyer work.
+This condition does **not** establish a complete strict priority rule between all types of buyer work. The single-flow presentation preserves the distinction between receiving a request, creating a PO record and sending the supplier-facing document.
 
 ## 4.2 Validate supplied information
 
@@ -316,7 +291,7 @@ This is why **active processing time** and **elapsed time** must remain separate
 
 # 5. Step / task register
 
-This register is the structured **Task Inventory** for the current process. Task IDs are retained as stable analytical identifiers; because the current process contains parallel streams, loops and system-status transitions, the numerical IDs should not be interpreted as a perfectly strict chronological sequence. Decision points and branch outcomes that create distinct work or measurement needs are kept separate rather than merged into one row.
+This register is the structured **Task Inventory** for the current process. Task IDs are retained as stable analytical identifiers; because the workflow includes different inputs, conditional work, loops and system-status transitions, the numerical IDs should not be interpreted as a perfectly strict chronological sequence. Decision points and branch outcomes that create distinct work or measurement needs are kept separate rather than merged into one row.
 
 `Type`
 
@@ -364,7 +339,7 @@ This register is the structured **Task Inventory** for the current process. Task
 | 28 | Attach/archive confirmation and set `Bevestigd` | Buyer | A | **Observed + Formal high-level confirmation archiving** | Formal + System + observed practice | Representative time / exact mailbox-system relationship if relevant |
 | 29 | Finance performs later control and determines whether an issue exists | Finance | C+V | **Single observation + Stated** | Observed practice / downstream control | Detection method + issue frequency + cause categories |
 | 30 | If Finance returns an issue, buyer investigates the returned case | Buyer | C+B | **Single observation + Stated** | Observed practice / downstream control | Investigation time + root causes + information needed |
-| 31 | If supplier reports an unavailable component, handle the exception and preserve the unresolved purchasing need | Buyer | B+C | **Single observation** | Observed practice | How the unresolved need is tracked after removal |
+| 31 | Handle a supplier-reported unavailable component: search for an alternative and remove the unavailable line if no alternative is found | Buyer | B+C | **Single observation** | Observed practice | How the unresolved need is tracked after removal |
 
 ### 31 August 2026 Task 7–11 renumbering / reinterpretation note
 
