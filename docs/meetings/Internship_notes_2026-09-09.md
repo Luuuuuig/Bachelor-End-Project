@@ -1,4 +1,4 @@
-# Internship Notes — 10 September 2026
+# Internship Notes — 9 September 2026
 
 **Main focus:** Logistics receiving process and Maurice's responsibilities.
 
@@ -163,4 +163,4 @@ Maurice then updates Exact to register the quantity used, the tube type, and the
 
 ## Scope of this note
 
-The tasks above describe the activities discussed for **Maurice** on 10 September 2026. Mike has different Logistics responsibilities, which are not documented in this note.
+The tasks above describe the activities discussed for **Maurice** on 9 September 2026. Mike has different Logistics responsibilities, which are not documented in this note.
