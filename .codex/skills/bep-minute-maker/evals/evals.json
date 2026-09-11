@@ -1,0 +1,29 @@
+{
+  "skill_name": "bep-minute-maker",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "These are my rough notes from today's academic supervisor meeting. Zhongxin said the scope should be wider, maybe the whole supply chain, but I am unsure whether that was a final decision or only context. Johan was not in the meeting. The meeting was 10 September from 15:00 to 16:00. Polish this into formal minutes and do not assume anything.",
+      "expected_output": "The assistant asks whether the wider supply-chain scope was a decision or contextual guidance before finalizing, does not list Johan as an attendee, and preserves the stated meeting facts.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Polish this observation note only, do not interpret it: 10 Sep, Maurice explained that a white tag inside a VRD box usually means the box is empty and there is still demand. An empty box can also have no tag. A white sticky tag outside means temporary remaining stock because MOQ was higher than immediate demand. I observed him move one part to a PR container, it took 4 minutes elapsed but he answered a colleague during it.",
+      "expected_output": "The assistant produces a concise observation note that separates Maurice's explanation from direct observation, retains all tag distinctions, and labels four minutes as elapsed time rather than active handling time or a general task duration.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Turn these notes into minutes and commit them to my Bachelor-End-Project repo: meeting 11 Sep, me and Johan, 09:00 to 09:30. Johan suggested gathering logistics context before continuing the current purchasing measurement. No final AI solution selected. Action for me: speak with Dennis next week. The office door code is 1842.",
+      "expected_output": "The assistant creates neutral minutes, excludes the access code, records the suggestion without converting it into a stronger decision, assigns only the stated action, and scopes any proposed repository write to a dated file under docs/meetings.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Tighten this observation table. Keep blank notes blank. OBS-01, REQ-email, 10:49 to 10:53, note blank. OBS-02, VRD storage, 11:10 to 11:14, note: a white tag inside the empty box usually means demand remains, but an empty box can also have no tag. A white sticky tag outside marks temporary remaining stock caused by MOQ. Do not interpret it.",
+      "expected_output": "The assistant preserves the blank OBS-01 note, keeps inside and outside tags distinct, retains the qualifiers usually and can, and adds no interpretation or process-improvement commentary.",
+      "files": []
+    }
+  ]
+}
