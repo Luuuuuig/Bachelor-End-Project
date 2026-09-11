@@ -1,0 +1,4 @@
+interface:
+  display_name: "BEP Minute Maker"
+  short_description: "Polish BEP notes without changing their meaning"
+  default_prompt: "Use $bep-minute-maker to turn these raw notes into concise meeting minutes."
