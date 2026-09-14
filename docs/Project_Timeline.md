@@ -1,10 +1,10 @@
 # Project Timeline / Gantt — Bachelor End Project
 
-**Status:** Current planning draft, synchronized 2 September 2026.
+**Status:** Planning reference checked 14 September 2026. The linked Drive Gantt was updated 11 September and is the current visual schedule. The Mermaid schedule and detailed assumptions retained below are the older 2 September baseline; use the Drive version and the [14 September follow-up register](planning/Supervisor_Follow_Up_2026-09-14.md) for current work and dependencies.
 
 **Purpose:** This file is the project-planning companion to `Project_Charter.md`. It turns the current DMAIC/DSRM sequence, supervisor milestones and known dependencies into a shareable Gantt chart. The Mermaid source can be copied into draw.io / diagrams.net for visual editing.
 
-**Supervisor-facing visual master:** [Ganttchart.drawio.png](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing). Keep this Drive copy synchronized with the Mermaid planning source below.
+**Supervisor-facing visual master:** [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing). Keep this Drive copy synchronized with the Mermaid planning source below.
 
 ## Planning assumptions
 
@@ -50,7 +50,7 @@ The date-based Gantt does not prove compliance with the 420-hour study load. Pha
 
 ---
 
-## Gantt chart
+## Historical Mermaid Gantt from 2 September
 
 ```mermaid
 gantt
@@ -188,3 +188,4 @@ The following should be revised as evidence becomes available rather than treate
 - whether FMEA is useful for the selected intervention.
 
 Fixed control dates now include the **15 / 20 / 27 / 28 September 2026 milestones**, the **7 January 2027 company-placement boundary**, the **15 January final-report deadline**, the **29 January presentation deadline** and the **7 February assessment deadline**. The 20 September item remains a supervisor-review target rather than a Canvas deadline.
+

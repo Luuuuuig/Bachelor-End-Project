@@ -1,0 +1,9 @@
+# Reducing operational purchasing workload with AI
+
+Yijie Wang | Hytech-Pommec | TU/e OPAC | 15 September 2026
+
+Hytech-Pommec develops and manufactures hyperbaric and life-support systems. Its operational buyer processes purchasing requirements in Exact, prepares purchase orders, checks prices and supplier confirmations, and obtains missing information from colleagues. Initial observations show manual information handling, verification and judgement within these tasks. The amount of work and the causes of the observed workload still require analysis.
+
+This Bachelor End Project investigates how an artificial intelligence (AI) supported solution can reduce the operational buyer's workload while maintaining purchasing quality. The study includes relevant tactical purchasing work to understand information flows and responsibilities within Purchasing. Logistics remains outside the thesis. One purchasing task or coherent process component will be selected for detailed improvement; other supported opportunities will become recommendations.
+
+Define, Measure, Analyze, Improve and Control (DMAIC) structures the project. Process mapping, document review and structured observations establish the current workflow and workload profile. Task frequency, active handling time and qualitative evidence of difficulty inform the analysis. Root-cause investigation and an assessment of data availability, AI suitability and evaluation feasibility guide the selection. Design Science Research Methodology (DSRM) then guides the design and evaluation of the selected artifact within Improve. A quantitative comparison with current practice will assess workload reduction and purchasing quality, including the time needed to review and correct AI output. The expected deliverables are a tested AI-supported improvement and recommendations for its use and monitoring. The specific solution and its benefits remain to be established.

@@ -2,6 +2,10 @@
 
 Repository for the TU/e Bachelor End Project on operational purchasing process improvement and digital/AI-supported decision support at Hytech-Pommec.
 
+## Current deliverables
+
+The [14 September follow-up register](docs/planning/Supervisor_Follow_Up_2026-09-14.md) links the half-page description, Plan of Work academic draft, Van Weele mapping and Dennis preparation. It applies the 10 September academic scope decision and distinguishes prepared outputs from remaining fieldwork and submissions.
+
 ## Start here
 
 Use [`docs/README.md`](docs/README.md) as the **main project documentation navigation page**. It explains which file owns which topic, where historical evidence is stored, and how useful context is preserved without creating conflicting sources of truth.
@@ -22,10 +26,11 @@ Current core documents:
 
 ## Current phase
 
-The AS-IS and Define work are sufficiently developed to support structured Measure. The 28 August pilot established the two-level architecture. Two official baseline days are complete: 165 net minutes on 31 August and 186 on 1 September, totaling **351 net observed minutes**; after the OBS-05 transcription correction they contain **265 timed coded-active minutes**. `Measurement_Protocol_v1.3.md` is controlled from 2 September and retains the v1.2 live fields/timing while aligning post-MAX logic, the five-day coverage rule and private-repository governance.
+The existing operational AS-IS and pilot support ongoing Measure. Three official Arno sessions are recorded, on 31 August, 1 September and 8 September. Historical validated summaries cover the first two sessions only, with 351 net observed minutes and 265 timed coded-active minutes under the earlier broader scope. The third session remains a transcription with an OBS-16 exclusion. The 10 September academic decision adds Dennis to purchasing context and excludes logistics and EXC time from thesis analysis. Use the 14 September scope addendum alongside v1.3 timing rules. Further observation, enrichment and the coverage review remain open.
 
 Approved aggregated/system PO-volume information may supplement the observational baseline, but dashboard access is not required to start. Detailed Exact/Orbis production-data/interface feasibility remains deferred until after the exploratory Measure phase, when Analyze can focus technical investigation on the shortlisted candidate(s).
 
 The Hytech-Pommec contract runs through **7 January 2027** as the outer company-placement boundary, while the project may conclude earlier if the required work is completed and agreed.
 
 Dated meeting/observation notes are retained as historical evidence. Earlier research notes are retained for traceability and useful reasoning even when they are not authoritative for current project status.
+

@@ -1,6 +1,6 @@
 # Measurement Protocol v1.3 — Exploratory Measure Baseline
 
-**Status:** Controlled baseline revision effective 2 September 2026 after the second official baseline observation. Use this version for official observations from 2 September onward unless a documented measurement-system failure requires a dated deviation.
+**Status:** Historical controlled baseline revision effective 2 September 2026. From 14 September, read its timing rules together with the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md), which applies the 10 September academic scope decision. The original code definitions below are preserved for interpretation of earlier observations; EXC is now excluded from thesis timed analysis and focal-case selection.
 
 **Purpose:** This protocol defines how workload-related evidence is collected during shadowing of the operational buyer at Hytech-Pommec. It is designed for the broad exploratory Measure phase, before one focal purchasing activity is selected for deeper Analyze/Improve work.
 
@@ -522,3 +522,4 @@ Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State o
 Westbrook, J. I., & Ampt, A. (2009). Design, application and testing of the Work Observation Method by Activity Timing (WOMBAT) to measure clinicians' patterns of work and communication. *International Journal of Medical Informatics, 78*(Supplement 1), S25–S33. https://doi.org/10.1016/j.ijmedinf.2008.09.003
 
 Zheng, K., Guo, M. H., & Hanauer, D. A. (2011). Using the time and motion method to study clinical work processes and workflow: Methodological inconsistencies and a call for standardized research. *Journal of the American Medical Informatics Association, 18*(5), 704–710. https://doi.org/10.1136/amiajnl-2011-000083
+

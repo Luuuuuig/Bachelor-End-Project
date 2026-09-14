@@ -1,0 +1,32 @@
+Task_ID,Original_task_description,Short_label,Typical_family_not_imputed,Van_Weele_stage,Assignment_basis,Rule
+1,Receive / identify purchasing need through Exact or external request,Receive the purchasing need,REQ,VW1 / VW4,Conditional,VW1 if requirements are developed; VW4 for an already defined request.
+2,Create purchasing entry / PO lines in Exact for an external request,Create order lines for an external request,PO,VW4,Direct,Create the order from the received request.
+3,Transfer information from screenshot / email / colleague request into Exact,Transfer request information into Exact,PO,VW4,Direct,Data entry for order preparation; retain any separate clarification episode.
+4,Validate supplied article / machine / service information,Validate article or service information,CLAR / CHECK,VW1 / VW4,Conditional,VW1 if defining requirements; VW4 if validating an existing order request.
+5,Search historical POs to resolve suspicious information when validation raises doubt,Investigate doubtful information in old POs,CLAR,VW1 / VW4,Conditional,History is an information source; the purpose decides the stage.
+6,"Assess stock, future demand, open POs, receipts, lead time and urgency",Assess stock demand lead time and urgency,PO / DEC,VW4,Direct,Supports order quantity and timing; reading receipt data does not make this logistics work.
+7,Check additional same-supplier demand for maximalisatie as part of normal order processing,Search same supplier demand for MAX,PO,VW4,Direct,Consolidation within order preparation.
+8,Determine whether useful same-supplier demand is currently available for consolidation,Decide whether useful demand can be added,DEC or host episode,VW4,Direct,Embedded decisions remain attributes of the timed episode.
+9,"If useful demand is available, combine the relevant same-supplier demand; the resulting order still proceeds to the post-MAX hold/proceed assessment",Combine useful same supplier demand,PO,VW4,Direct,Retain combined PO and MAX time when inseparable.
+10,"After MAX, whether or not demand was added, assess whether the resulting order is small/non-urgent or otherwise ready to proceed",Assess the order after MAX,DEC or host episode,VW4,Direct,Assess the resulting order whether demand was added or not.
+11,"If the resulting post-MAX order is small and non-urgent, hold/pause it; otherwise proceed with ordering",Hold the order or proceed,DEC or host episode,VW4,Direct,HOLD is an outcome; the waiting interval is not active buyer time.
+12,Review Exact `Advies` and underlying demand,Review Exact Advies,PO / CHECK,VW4,Direct,Review demand for order preparation.
+13,`Toewijzen` purchased quantity to underlying project/production demand,Allocate quantities with Toewijzen,PO,VW4,Direct,Purchasing allocation to underlying project or production demand.
+14,Determine whether proactive pre-PO price check is required,Decide whether a price check is needed,DEC or CHECK episode,VW4,Direct,Determine the need for a pre-order check.
+15,Search current supplier price and compare with stored Exact price,Compare supplier and Exact prices,CHECK,VW4,Direct,Applying existing supplier information; VW3 only if actual negotiation occurs.
+16,Update pre-PO price in Exact when outdated/deviating,Update the pre-order price in Exact,PO / CHECK,VW4,Direct,Correct the record during order preparation.
+17,Prepare / complete supplier PO using the selected or already consolidated demand,Complete the supplier PO,PO,VW4,Direct,Prepare the purchase order.
+18,Check whether order is within buyer authorization,Check purchasing authorization,CHECK or host episode,VW4,Direct,Internal order authorization does not itself establish contract negotiation.
+19,"If within authority, perform `Fiatteren` / `Verrichten`",Fiatteren and Verrichten within authority,PO,VW4,Direct,Approve and release the order.
+20,"If above authority, route order to higher-authority approver for `Fiatteren`",Route the order to an approver,PO / SEND,VW4,Direct,Internal order approval handoff.
+21,Continue Exact workflow after higher-authority `Fiatteren`,Continue after higher approval,PO,VW4,Provisional,Stage is clear; the exact actor and action still need a case trace.
+22,"After release, Exact generates the supplier-facing PO document and emails the buyer",Generate the PO document and buyer email,System event,VW4,Direct,System event only; count buyer time only for a separately observed action.
+23,Buyer forwards generated PO with standard supplier message,Forward the PO to the supplier,SEND,VW4,Direct,Sending places the order with the supplier.
+24,A newly generated PO record appears as `Besteld` in Exact and becomes open PO work; this status is distinct from manual supplier forwarding,Record Besteld status,System event or PO,VW4,Provisional,Status event is distinct from supplier forwarding; do not add automatic workload.
+25,Supplier sends order confirmation,Receive the supplier confirmation,External event / REQ,VW5,Direct,Supplier action is not buyer time; classify actual receipt or reading separately.
+26,Compare supplier confirmation with PO / Exact,Compare confirmation with the PO,CHECK,VW5,Direct,Check the supplier response against the order.
+27,Correct relevant confirmation deviations in Exact,Correct confirmation deviations,PO / CHECK,VW5,Direct,Administration belonging to confirmation control.
+28,Attach/archive confirmation and set `Bevestigd`,Archive confirmation and set Bevestigd,PO / CHECK,VW5,Direct,Completes confirmation processing; it does not mean goods are received.
+29,Finance performs later control and determines whether an issue exists,Finance performs a later control,Finance event,VW6 / UNKNOWN,Provisional,Outside the buyer time profile; the transaction stage must be established.
+30,"If Finance returns an issue, buyer investigates the returned case",Investigate a Finance returned case,EXC,VW6 / UNKNOWN,Provisional,EXC is excluded. Do not infer completed delivery from a Finance question alone.
+31,Handle a supplier-reported unavailable component: search for an alternative and remove the unavailable line if no alternative is found,Resolve an unavailable component,EXC or separate episodes,MULTI / UNKNOWN,Conditional,"May involve VW5 follow-up, VW1 substitution or VW4 amendment; VW2 only if supplier choice is evidenced. Apply EXC scope independently."

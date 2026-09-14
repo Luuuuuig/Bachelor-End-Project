@@ -1,5 +1,17 @@
 # Project Documentation Navigation — Bachelor End Project
 
+## Deliverables prepared on 14 September
+
+- [Half-page project description for 15 September](proposal/Half_Page_Project_Description_2026-09-15.md).
+- [Plan of Work academic text](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md).
+- [Van Weele mapping of eight codes and 31 tasks](process/Van_Weele_Activity_Mapping_2026-09-14.md).
+- [Measure scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md).
+- [Dennis observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
+- [Follow-up register and remaining evidence needs](planning/Supervisor_Follow_Up_2026-09-14.md).
+
+The 10 September academic scope decision supersedes older descriptions of logistics and EXC eligibility. Earlier observations retain their original evidence status. Prepared text and mapping do not establish submission, completed fieldwork or supervisor validation.
+
+
 **Last synchronized:** 2 September 2026
 
 Use this page as the main navigation map for the BEP repository. It shows **where to look for each type of information**, which file owns the current status, and where useful context is intentionally retained.
@@ -252,3 +264,4 @@ flowchart LR
 Current practical progression:
 
 `Define / AS-IS → pilot → controlled v1.2/v1.3 baseline → five-day coverage review → workload profile → Analyze + targeted Exact/Orbis feasibility → gated/weighted focal-case selection → evaluation-protocol freeze → DSRM artifact / TO-BE → held-out evaluation → Control recommendations → final thesis / handover`
+

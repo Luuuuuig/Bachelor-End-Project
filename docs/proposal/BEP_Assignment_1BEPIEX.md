@@ -1,6 +1,6 @@
 # BEP Assignment 1BEPIEX
 
-**Status:** Current readable repository version, synchronized 2 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
+**Status:** Current readable repository version, synchronized 14 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
 
 **Project title:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI  
 **Student:** Yijie Wang  
@@ -8,13 +8,17 @@
 **TU/e supervisor:** Zhongxin Hu  
 **Company:** Hytech-Pommec
 
+### Scope update of 14 September 2026
+
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The main research question and sub-question wording below are retained; these documents do not record new supervisor approval of their implementation details.
+
 ## Description of the context
 
 Hytech-Pommec B.V. is a Netherlands-based company that designs, manufactures and maintains advanced hyperbaric and life-support systems for sectors such as commercial diving, medical applications, governmental and defence organizations, tunnelling and yachting. The company provides both customer-specific systems and standardized products, as well as maintenance, certification and other support services for its equipment.
 
 Hytech-Pommec’s mission is to be an innovation, quality and knowledge leader in hyperbaric and diving solutions. Its vision is to contribute to safer, more efficient and more sustainable operations by remaining at the forefront of technology, investing in people and working closely with customers. Furthermore, recurring principles throughout the company's mission and activities include safety, quality, reliability, innovation, technical expertise and customer focus.
 
-This BEP focuses on the operational purchasing process at Hytech-Pommec and investigates how the workload within this process can be reduced while improving its efficiency and supporting purchasing activities that require human expertise. This fits well with the Operations, Planning, Accounting & Control (OPAC) research group, which focuses on controlling and improving operational processes and supporting organizations in making informed decisions, using resources efficiently and improving operational performance.
+This BEP focuses on reducing the operational buyer's workload at Hytech-Pommec while maintaining purchasing quality. It includes relevant tactical purchasing work through Dennis to understand purchasing tasks and their connections. Logistics and the EXC time category are outside the thesis analysis and focal-case selection. This fits well with the Operations, Planning, Accounting & Control (OPAC) research group, which focuses on controlling and improving operational processes and supporting organizations in making informed decisions, using resources efficiently and improving operational performance.
 
 ## Description of problem
 
@@ -26,7 +30,7 @@ The process is also affected by interruptions and rework. Purchasing requests ca
 
 The main problem for the company is therefore that a substantial part of the operational buyer's workload is spent on manual information handling, repetitive checking, investigating exceptions and switching between different tasks. This primarily affects employees involved in the purchasing process, but inefficient purchasing can also indirectly affect production and projects when information is incorrect, purchasing decisions are delayed or unnecessary rework occurs.
 
-The exact size and causes of the workload have not yet been fully quantified. The first phase therefore maps and measures the current process to determine which activities create the most workload and which can support a responsible, testable AI contribution. Conventional process redesign, rules and automation remain possible supporting components and company recommendations.
+These observations include historical work recorded before the 10 September scope decision. Logistics and EXC aftercare remain preserved in the raw evidence but do not enter the thesis workload profile or focal-case selection. The exact size and causes of the included workload have not yet been fully quantified. The first phase therefore maps and measures the current process to determine which activities create the most workload and which can support a responsible, testable AI contribution. Conventional process redesign, rules and automation remain possible supporting components and company recommendations.
 
 ## Research question and objective
 
@@ -57,7 +61,7 @@ The wording below follows the 1BEPIEX assignment version approved by the TU/e su
 
 This project uses **DMAIC** as the overall framework for improving the operational purchasing process at Hytech-Pommec. Define, Measure and Analyze are used to understand the current process, establish a workload baseline and identify the most suitable improvement opportunity.
 
-The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Two official baseline days are complete: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net / 162 timed coded-active minutes), totaling **351 net observed minutes** and **265 timed coded-active minutes**. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. The current target is five distinct observation days followed by a coverage review; five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
+The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Three official sessions are recorded: 31 August, 1 September and 8 September. The third remains a transcription with an explicit OBS-16 data-quality exclusion. The first two sessions have historical totals under the earlier broader scope: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net / 162 timed coded-active minutes), totaling **351 net observed minutes** and **265 timed coded-active minutes** before applying the narrower analytical scope. These are not updated three-session or EXC-filtered totals. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. Apply the 14 September scope addendum to subsequent collection and derived analysis. The initial Arno target remains five distinct observation days followed by a coverage, stability and saturation review; Dennis's evidence need not have the same quantity. For Arno, five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
 
 Within the **Improve** phase, **DSRM** guides design, development, demonstration and evaluation of the selected AI-supported artifact. Before development/formal testing, the project freezes the primary workload endpoint (normally active human handling time per eligible case/line), meaningful-improvement threshold and final-human-outcome quality guardrail. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
 
@@ -76,3 +80,4 @@ Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State o
 ---
 
 **Origin:** Markdown mirror created from the 26 August 1BEPIEX Word draft and subsequently synchronized through 2 September with the repository's current workload, Measure and methodology framing.
+
