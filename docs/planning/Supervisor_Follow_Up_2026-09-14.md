@@ -9,7 +9,7 @@ This register uses repository snapshot `961ced3220bbfefed1bf20c15fcc0876739cfbfe
 | Output | Location | What is complete |
 |---|---|---|
 | Half-page project description | [Project description](../proposal/Half_Page_Project_Description_2026-09-15.md) | Supervisor-revised text from the supplied Project descriptions.docx.pdf is preserved in an editable Word copy for the 15 September milestone. Sending remains the student's action. |
-| Plan of Work in the university template | [Plan of Work draft](../proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) | Parts A-D prepared: five-page proposal, planning with all 62 supplied Gantt tasks, prompts for the five required reflections and the original unsigned declaration. The proposal framing follows the supervisor-revised short description. |
+| Plan of Work in the university template | [Plan of Work draft](../proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) | Parts A-D prepared: five-page proposal, planning with all 62 supplied Gantt tasks, prompts for the five required reflections and the original unsigned declaration. The proposal now keeps Arno as the primary outcome, integrates Dennis in diagnosis and selection, and defines workload through active handling time. |
 | Van Weele mapping | [Mapping](../process/Van_Weele_Activity_Mapping_2026-09-14.md) | All eight existing codes and all 31 registered tasks mapped, including conditional and unresolved boundaries. |
 | Editable crosswalk data | [Task CSV](../process/Van_Weele_Task_Crosswalk_2026-09-14.csv) and [family CSV](../process/Van_Weele_Work_Family_Crosswalk_2026-09-14.csv) | Original task descriptions retained alongside the stage assignment rules. No baseline episode is silently recoded. |
 | Measurement scope implementation | [Addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) | EXC and logistics exclusions, historical-data preservation, phase coding and denominator rules documented. |
@@ -40,7 +40,7 @@ The research windows are planning targets, not evidence that the work has occurr
 - Confirm that the narrowed workload reporting and EXC exclusion are described clearly. Historical broad totals remain distinct from thesis scope-specific totals.
 - Review actual Dennis coverage and whether the evidence supports an interpretable task pattern.
 - Decide whether the planned 18 September sufficiency review can close Measure or whether targeted extension is needed.
-- Review the template-based Plan of Work, including the retained research questions and the framing from the supervisor-revised description.
+- Review the revised Plan of Work questions, including the explicit root-cause question, Dennis's role and the definition of the measured workload outcome. These are proposed revisions to the earlier approved question wording; no new supervisor approval is recorded.
 
 ## Evidence needed to finish the remaining work
 
