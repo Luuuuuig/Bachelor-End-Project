@@ -130,7 +130,7 @@ Zheng, K., Guo, M. H., & Hanauer, D. A. (2011). Using the time and motion method
 
 ## Part B - Planning
 
-The BEP combines 420 study hours for 1BEPIE and 1BEPIEX. The supplied Ganttchart.drawio schedules work from 17 August 2026 to the final assessment on 7 February 2027. Its task dates and milestones are retained in Figures 1-3. Company-dependent access, observation and evaluation must fit before the placement ends on 7 January. Actual effort will be logged by work package and reviewed weekly with progress and remaining tasks.
+The BEP combines 420 study hours for 1BEPIE and 1BEPIEX. The supplied Ganttchart.drawio schedules work from 17 August 2026 to the final assessment on 7 February 2027. Figures 1-3 retain its dates and statuses, use full task names and mark milestones with diamonds. Company-dependent access, observation and evaluation must fit before the placement ends on 7 January. Actual effort will be logged by work package and reviewed weekly with progress and remaining tasks.
 
 The literature study supports the workload and measurement framework, the September candidate comparison and the design and evaluation of the selected artifact. Data collection continues alongside process validation and cleaning. Analyze depends on the Measure coverage review and usable summaries. Artifact design and testing follow the focal-case and evaluation-protocol gates. Thesis writing runs alongside the research, with final result integration in December and report checks in January.
 
@@ -140,15 +140,15 @@ The repository records the pilot and three official Arno sessions. The 8 Septemb
 |---|---|
 | Half-page project description | 15 September 2026 |
 | Internal complete PoW draft; Measure sufficiency review | 18 September 2026 |
-| Supervisor PoW review draft; Measure tollgate | 20 September; 22 September 2026 |
+| Supervisor draft review; Measure phase review | 20 September; 22 September 2026 |
 | Final Plan of Work | 27 September 2026 at 23:59 |
 | ILBEP | 28 September 2026 at 23:59 |
-| Focal AI case gate; evaluation protocol freeze | 7 October; 15 October 2026 |
+| Select AI improvement; finalize evaluation protocol | 7 October; 15 October 2026 |
 | Artifact ready; evaluation complete | 20 November; 11 December 2026 |
 | Company placement ends; final report | 7 January; 15 January 2027 at 23:59 |
 | Presentation completed by; final assessment | 29 January; 7 February 2027 |
 
-The planned focal-case gate follows Plan of Work submission. The proposal therefore defines how the improvement will be selected and tested. Research gates require sufficient evidence. If data or feasibility conditions are unmet, targeted extension and its effect on later tasks will be discussed at the weekly supervisor meeting.
+Selection of the AI improvement is planned after Plan of Work submission. The proposal therefore defines how the improvement will be selected and tested. Phase reviews require sufficient evidence. If data or feasibility conditions are unmet, targeted extension and its effect on later tasks will be discussed at the weekly supervisor meeting.
 
 Source: [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view), supplied 14 September 2026. Figures 1-3 retain its recorded statuses. The historical logistics walkthrough is background activity; logistics remains outside the thesis.
 
