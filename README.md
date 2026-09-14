@@ -4,7 +4,7 @@ Repository for the TU/e Bachelor End Project on operational purchasing process i
 
 ## Current deliverables
 
-The [14 September follow-up register](docs/planning/Supervisor_Follow_Up_2026-09-14.md) links the half-page description, Plan of Work academic draft, Van Weele mapping and Dennis preparation. It applies the 10 September academic scope decision and distinguishes prepared outputs from remaining fieldwork and submissions.
+The [14 September follow-up register](docs/planning/Supervisor_Follow_Up_2026-09-14.md) links the supervisor-revised short description, Plan of Work in the university template, Van Weele mapping and Dennis preparation. It applies the 10 September academic scope decision and distinguishes prepared outputs from remaining fieldwork and submissions.
 
 ## Start here
 

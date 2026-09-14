@@ -3,7 +3,7 @@
 ## Deliverables prepared on 14 September
 
 - [Half-page project description for 15 September](proposal/Half_Page_Project_Description_2026-09-15.md).
-- [Plan of Work academic text](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md).
+- [Plan of Work in the university template](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md), including the proposal, Gantt chart, reflection prompts and unsigned declaration.
 - [Van Weele mapping of eight codes and 31 tasks](process/Van_Weele_Activity_Mapping_2026-09-14.md).
 - [Measure scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md).
 - [Dennis observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).

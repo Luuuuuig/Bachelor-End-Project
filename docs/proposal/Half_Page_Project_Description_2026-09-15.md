@@ -1,9 +1,19 @@
-# Reducing operational purchasing workload with AI
+# AI-supported operational procurement at Hytech-Pommec
 
-Yijie Wang | Hytech-Pommec | TU/e OPAC | 15 September 2026
+## About the company and problem context
 
-Hytech-Pommec develops and manufactures hyperbaric and life-support systems. Its operational buyer processes purchasing requirements in Exact, prepares purchase orders, checks prices and supplier confirmations, and obtains missing information from colleagues. Initial observations show manual information handling, verification and judgement within these tasks. The amount of work and the causes of the observed workload still require analysis.
+Hytech-Pommec develops and manufactures hyperbaric oxygen and life support systems. Its procurement ensures that the company receives the right materials from suitable suppliers at the required time, price, and quality. The procurement includes strategic, tactical, and operational activities. Strategic and tactical procurement concerns matter such as supplier selection, contracts, sourcing decisions, and supplier relationships.
 
-This Bachelor End Project investigates how an artificial intelligence (AI) supported solution can reduce the operational buyer's workload while maintaining purchasing quality. The study includes relevant tactical purchasing work to understand information flows and responsibilities within Purchasing. Logistics remains outside the thesis. One purchasing task or coherent process component will be selected for detailed improvement; other supported opportunities will become recommendations.
+Operational procurement focuses on the daily execution of these decisions, including processing procurement requests, creating and monitoring purchase orders, verifying prices and supplier confirmations, and resolving missing or incorrect data.
 
-Define, Measure, Analyze, Improve and Control (DMAIC) structures the project. Process mapping, document review and structured observations establish the current workflow and workload profile. Task frequency, active handling time and qualitative evidence of difficulty inform the analysis. Root-cause investigation and an assessment of data availability, AI suitability and evaluation feasibility guide the selection. Design Science Research Methodology (DSRM) then guides the design and evaluation of the selected artifact within Improve. A quantitative comparison with current practice will assess workload reduction and purchasing quality, including the time needed to review and correct AI output. The expected deliverables are a tested AI-supported improvement and recommendations for its use and monitoring. The specific solution and its benefits remain to be established.
+## Project Aim and Scope
+
+This project focuses primarily on the operational procurement and investigates how AI-supported tools can reduce the workload of operational procurement specialists while maintaining procurement quality. Relevant tactical procurement activities will also be examined where necessary to understand information flows, decision-making responsibilities, and the division of work within the procurement department.
+
+## Research Design and Approach
+
+One procurement task or a coherent process step will be selected for detailed redesign and optimization using AI. Depending on the selected procurement activity, the solution could support tasks such as extracting and validating information, comparing procurement documents, identifying missing or inconsistent data, or assisting employees in making routine decisions.
+
+This project follows the “Define, Measure, Analyze, Improve, and Control (DMAIC)” framework. The existing workflow and workload profile will be established through process mapping, document analysis, interviews, and structured workplace observations. Design Science Research Methodology (DSRM) will guide the design, development, and evaluation of the proposed AI-supported solution.
+
+The final evaluation will compare the AI-assisted approach with current practices in terms of both workload reduction and activity-specific quality.
