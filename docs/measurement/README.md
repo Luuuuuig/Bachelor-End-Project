@@ -1,5 +1,10 @@
 # Measurement
 
+## Scope update of 14 September
+
+Use the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md) alongside the v1.3 timing rules. It implements the 10 September logistics and EXC exclusion, preserves historical raw data and separates Van Weele phases from live work families. The [Dennis guide](Dennis_Observation_Guide_2026-09-14.md) prepares the added tactical purchasing discovery.
+
+
 This folder contains the current and historical Measure-phase data-collection materials for the BEP.
 
 ## Current baseline materials
@@ -32,3 +37,4 @@ The cleaned two-day totals through **1 September** remain **351 net observed min
 - Detailed AS-IS task register: [Process Cleaned V1.5](../process/Process_Cleaned_V1.5.md)
 
 The repository is private. Company permission, as confirmed by the student on 2 September, allows the currently recorded buyer names and case-specific commercial values to remain for the authorized research audience. Public/thesis evidence remains anonymized or aggregated by default; personal contact details, unrestricted production exports and new confidential data categories require separate approval.
+

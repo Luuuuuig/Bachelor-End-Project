@@ -1,6 +1,6 @@
 # Project Charter — Operational Purchasing Workload Reduction
 
-**Status:** Current lightweight project-control document, synchronized 2 September 2026.
+**Status:** Current lightweight project-control document, synchronized 15 September 2026.
 
 This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
 
@@ -20,7 +20,8 @@ Use DMAIC to establish the current process, workload baseline and improvement op
 
 ## Primary stakeholders
 
-- Operational buyer — main process user and domain expert.
+- Operational buyer — main workload outcome and domain expert.
+- Tactical buyer Dennis — relevant tasks, information exchanges, and participation in design and evaluation where the selected improvement affects his work.
 - Company manager / project sponsor — business relevance and implementation direction.
 - TU/e supervisor — academic scope, methodology and evaluation validity.
 - Second academic assessor — Plan of Work approval and co-assessment of the final report under the 1BEPIE procedure.
@@ -28,21 +29,21 @@ Use DMAIC to establish the current process, workload baseline and improvement op
 
 ## In scope
 
-The operational purchasing process from purchasing need arising through `Bevestigd`, represented by the current AS-IS workflow and 31-task detailed register. The Measure phase uses broader live work families and post-session Task-ID enrichment rather than forcing the detailed register into live coding.
+The detailed operational purchasing flow runs from purchasing need through `Bevestigd`. Include Dennis's tactical purchasing work in the surrounding process investigation, as decided on 10 September. Arno's workload remains the primary outcome; retain separate actor-specific evidence. The existing 31-task register describes operational work, not a completed Dennis inventory. Add Van Weele stages after observation using the [crosswalk](process/Van_Weele_Activity_Mapping_2026-09-14.md).
 
-Define/Measure/Analyze cover the broader operational process. Improve/DSRM will focus deeply on **one selected primary activity or coherent process component**. Other supported opportunities remain company recommendations/quick wins rather than disappearing from scope.
+Define/Measure/Analyze cover operational purchasing and Dennis's relevant tactical tasks and connections with Arno. Improve/DSRM will focus deeply on **one selected primary activity or coherent process component**. Other supported opportunities remain company recommendations/quick wins rather than disappearing from scope.
 
 ## Out of detailed scope for now
 
-- Later stages `Ontvangen → Gefactureerd → Betaald`, except where they generate material buyer rework.
-- Supplier selection as a recurring operational-buyer thesis case unless new evidence contradicts the current formal/observational evidence.
+- Logistics and EXC time in the thesis Measure analysis and focal-case selection, following the [10 September academic decision](meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md). This supersedes the earlier logistics/buyer-rework exception. Preserve historical raw evidence and use explicit analytical exclusions.
+- Independent optimization of Dennis's workload. Tactical purchasing tasks, including supplier selection where observed, can inform a coherent purchasing improvement tied to the primary objective.
 - Full technical integration or production deployment before the focal use case and feasibility gates are justified.
 
 ## Y / outcome structure
 
 The project does **not** use one invented total-workload score.
 
-The Measure-phase outcome is a multidimensional workload profile using, where relevant:
+The Measure-phase outcome is a multidimensional profile of included purchasing work. Apply the [scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md); excluded EXC and logistics work cannot contribute to the profile or candidate ranking. The profile uses, where relevant:
 
 - task frequency;
 - active processing time;
@@ -61,10 +62,10 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 - Buyer walkthrough completed and formal SOP/WI evidence integrated.
 - Workload construct defined.
 - 28 August Measure pilot completed.
-- Two official baseline days completed: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 correction) and 1 September (186 net / 162 timed coded-active minutes). Current totals: **351 net observed minutes** and **265 timed coded-active minutes**.
+- Three official sessions are recorded, including 8 September as a raw transcription with the OBS-16 exclusion. Validated historical summaries currently cover two sessions: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 correction) and 1 September (186 net / 162 timed coded-active minutes). Historical totals before the narrower scope filter: **351 net observed minutes** and **265 timed coded-active minutes**. Do not present them as updated three-session or EXC-filtered totals.
 - Measurement Protocol v1.3 is controlled for observations from 2 September onward; its live fields/timing remain comparable with v1.2.
 - The current planning target is five distinct observation days, followed by the predeclared coverage review; 40 net hours is not assumed to be equivalent.
-- Representative baseline frequencies and active processing-time distributions are still being established across additional sessions.
+- Representative in-scope baseline frequencies and active processing-time patterns are still being established. Dennis discovery and a separate pattern-sufficiency review remain required.
 - Exact/Orbis production-data/interface feasibility remains intentionally deferred until after exploratory Measure.
 
 ## Time boundary and study load
@@ -88,13 +89,15 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 
 ## Current priority
 
-1. Continue official baseline observations using Measurement Protocol v1.3 and the v1.3 live cheat sheet; reach five distinct working days and then apply the coverage review.
-2. Complete Task-ID enrichment immediately after each block and preserve `C/P/U/?`, separate MAX and HOLD/ORD outcomes, interruptions and measurement limitations.
-3. Build the activity-family workload profile across multiple sessions/dayparts and supplement it with approved aggregated PO/line-volume data where available.
-4. After Measure, investigate Exact/Orbis and other technical/data feasibility for the shortlisted candidate(s) during Analyze.
-5. Apply veto gates, student–academic-supervisor weighting, anchored scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
-6. Freeze the focal-case workload threshold and quality guardrail before artifact development/formal testing.
+1. Prepare/send the [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md) by 15 September. Use the [Plan of Work academic draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) for the 18/20 September draft milestones.
+2. Continue baseline observations using v1.3 timing rules plus the 14 September scope addendum. Conduct targeted Dennis discovery using the [observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
+3. Complete Task-ID and Van Weele enrichment immediately after each block and preserve `C/P/U/?`, separate MAX and HOLD/ORD outcomes, interruptions and measurement limitations.
+4. Build the in-scope, actor-specific activity-family workload profile across multiple sessions/dayparts and supplement it with approved aggregated PO/line-volume data where available.
+5. After Measure, investigate Exact/Orbis and other technical/data feasibility for the shortlisted candidate(s) during Analyze.
+6. Apply veto gates, student–academic-supervisor weighting, anchored scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
+7. Freeze the focal-case workload threshold and quality guardrail before artifact development/formal testing.
 
 ## Key control rule
 
 Do not select or build the final artifact because a single observed case appears interesting. The focal case must pass the Measure/Analyze evidence gates above.
+

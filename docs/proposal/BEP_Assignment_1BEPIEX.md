@@ -1,6 +1,6 @@
 # BEP Assignment 1BEPIEX
 
-**Status:** Current readable repository version, synchronized 2 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
+**Status:** Current readable repository version, synchronized 15 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
 
 **Project title:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI  
 **Student:** Yijie Wang  
@@ -8,13 +8,17 @@
 **TU/e supervisor:** Zhongxin Hu  
 **Company:** Hytech-Pommec
 
+### Scope update of 14 September 2026
+
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The four-question structure and order are retained. The wording below incorporates the student-confirmed clarification of one operational buyer and relevant tactical purchasing tasks; it does not record new supervisor approval of measurement or evaluation details.
+
 ## Description of the context
 
 Hytech-Pommec B.V. is a Netherlands-based company that designs, manufactures and maintains advanced hyperbaric and life-support systems for sectors such as commercial diving, medical applications, governmental and defence organizations, tunnelling and yachting. The company provides both customer-specific systems and standardized products, as well as maintenance, certification and other support services for its equipment.
 
 Hytech-Pommec’s mission is to be an innovation, quality and knowledge leader in hyperbaric and diving solutions. Its vision is to contribute to safer, more efficient and more sustainable operations by remaining at the forefront of technology, investing in people and working closely with customers. Furthermore, recurring principles throughout the company's mission and activities include safety, quality, reliability, innovation, technical expertise and customer focus.
 
-This BEP focuses on the operational purchasing process at Hytech-Pommec and investigates how the workload within this process can be reduced while improving its efficiency and supporting purchasing activities that require human expertise. This fits well with the Operations, Planning, Accounting & Control (OPAC) research group, which focuses on controlling and improving operational processes and supporting organizations in making informed decisions, using resources efficiently and improving operational performance.
+This BEP focuses on reducing the operational buyer's workload at Hytech-Pommec while maintaining purchasing quality. It includes relevant tactical purchasing work through Dennis to understand purchasing tasks and their connections. Logistics and the EXC time category are outside the thesis analysis and focal-case selection. This fits well with the Operations, Planning, Accounting & Control (OPAC) research group, which focuses on controlling and improving operational processes and supporting organizations in making informed decisions, using resources efficiently and improving operational performance.
 
 ## Description of problem
 
@@ -26,7 +30,7 @@ The process is also affected by interruptions and rework. Purchasing requests ca
 
 The main problem for the company is therefore that a substantial part of the operational buyer's workload is spent on manual information handling, repetitive checking, investigating exceptions and switching between different tasks. This primarily affects employees involved in the purchasing process, but inefficient purchasing can also indirectly affect production and projects when information is incorrect, purchasing decisions are delayed or unnecessary rework occurs.
 
-The exact size and causes of the workload have not yet been fully quantified. The first phase therefore maps and measures the current process to determine which activities create the most workload and which can support a responsible, testable AI contribution. Conventional process redesign, rules and automation remain possible supporting components and company recommendations.
+These observations include historical work recorded before the 10 September scope decision. Logistics and EXC aftercare remain preserved in the raw evidence but do not enter the thesis workload profile or focal-case selection. The exact size and causes of the included workload have not yet been fully quantified. The first phase therefore maps and measures the current process to determine which activities create the most workload and which can support a responsible, testable AI contribution. Conventional process redesign, rules and automation remain possible supporting components and company recommendations.
 
 ## Research question and objective
 
@@ -36,30 +40,32 @@ Furthermore, one purchasing activity will be selected for design and evaluation.
 
 ### Definitions
 
-**Workload.** In this project, operational buyer workload is the broad burden associated with carrying out operational purchasing work. Following Bowling and Kirkendall (2012), the project distinguishes the **amount of work** from the **difficulty of work** rather than defining workload through processing time alone. Observable indicators such as task frequency, active processing time, case volume and rework are used to describe quantitative work burden, while uncertainty, exceptions and problem solving provide qualitative difficulty evidence. **Mental workload** is treated as one specific component of this broader construct and is interpreted using Young et al. (2015). Expertise dependence and organizational constraints are kept analytically distinct where relevant. The exploratory Measure phase therefore produces a multidimensional workload profile rather than one unvalidated total-workload score.
+**Workload.** Operational buyer workload concerns the amount and difficulty of purchasing work, following Bowling and Kirkendall (2012). Task frequency, active processing time, case volume and rework describe observable work demands; evidence about uncertainty, judgement and problem solving informs the assessment of difficulty. Processing time alone does not represent the full construct. Expertise dependence and organizational constraints remain distinct where relevant. Mental workload is not assessed, and the study will not create an unvalidated total-workload score. The selected component will determine which workload indicators can be justified for evaluation.
 
 **Quality.** Quality refers to the extent to which the outcome of a purchasing activity fulfils the requirements relevant to that activity. The specific rubric is defined after focal-case selection, but success is always conjunctive: the predeclared workload endpoint must improve by at least a meaningful threshold and the final human-approved outcome must pass its quality guardrail. The case-specific threshold, comparator, rubric and acceptable minor-error margin are frozen before artifact development/formal testing.
 
-### Supervisor-approved research question
+### Main research question
 
-The wording below follows the 1BEPIEX assignment version approved by the TU/e supervisor. Only obvious grammar, capitalization and punctuation errors have been normalized; the meaning and sub-question order are unchanged.
+The questions retain the original supervisor-approved structure and order, using the student's latest supplied scope wording.
 
-> **To what extent can an AI-supported solution reduce the operational buyers' workload at Hytech-Pommec without reducing the quality of the purchasing outcome?**
+> **To what extent can an AI-supported solution reduce the operational buyer's workload at Hytech-Pommec without reducing the quality of the purchasing outcome?**
 
-### Supervisor-approved sub-questions
+### Sub-research questions
 
-1. Which parts of the operational purchasing workflow contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
-2. What conditions and control measures are required for the proposed solution to be implemented reliably in the operational purchasing workflow?
+1. Which parts of the purchasing workflow, including relevant operational and tactical purchasing tasks, contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
+2. What conditions and control measures are required for the proposed solution to be implemented reliably in the purchasing workflow, including relevant operational and tactical purchasing tasks?
 3. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility and the need for human expertise?
 4. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
+
+The operational buyer in these questions is Arno. Relevant tactical purchasing tasks performed by Dennis are included in the investigation and, where relevant, in the design and evaluation of the selected improvement. Reducing Arno's workload remains the primary objective. Changes to Dennis's work will be considered where the improvement affects his tasks or responsibilities.
 
 ## Research Design
 
 This project uses **DMAIC** as the overall framework for improving the operational purchasing process at Hytech-Pommec. Define, Measure and Analyze are used to understand the current process, establish a workload baseline and identify the most suitable improvement opportunity.
 
-The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Two official baseline days are complete: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net / 162 timed coded-active minutes), totaling **351 net observed minutes** and **265 timed coded-active minutes**. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. The current target is five distinct observation days followed by a coverage review; five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
+The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Three official sessions are recorded: 31 August, 1 September and 8 September. The third remains a transcription with an explicit OBS-16 data-quality exclusion. The first two sessions have historical totals under the earlier broader scope: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net / 162 timed coded-active minutes), totaling **351 net observed minutes** and **265 timed coded-active minutes** before applying the narrower analytical scope. These are not updated three-session or EXC-filtered totals. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. Apply the 14 September scope addendum to subsequent collection and derived analysis. The initial Arno target remains five distinct observation days followed by a coverage, stability and saturation review; Dennis's evidence need not have the same quantity. For Arno, five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
 
-Within the **Improve** phase, **DSRM** guides design, development, demonstration and evaluation of the selected AI-supported artifact. Before development/formal testing, the project freezes the primary workload endpoint (normally active human handling time per eligible case/line), meaningful-improvement threshold and final-human-outcome quality guardrail. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
+Within the **Improve** phase, **DSRM** guides design, development, demonstration and evaluation of the selected AI-supported artifact. Before development/formal testing, the project freezes the justified primary workload endpoint for the selected component, meaningful-improvement threshold and final-human-outcome quality guardrail. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
 
 In this way, DMAIC structures the overall process-improvement project, while DSRM provides the detailed artifact-development and evaluation structure within the Improve phase.
 
@@ -71,7 +77,6 @@ A meeting with the university supervisor is scheduled on a weekly basis. These m
 
 Bowling, N. A., & Kirkendall, C. (2012). Workload: A review of causes, consequences, and potential interventions. In J. Houdmont, S. Leka, & R. R. Sinclair (Eds.), *Contemporary occupational health psychology: Global perspectives on research and practice, Volume 2* (pp. 221–238). https://doi.org/10.1002/9781119942849.ch13
 
-Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State of science: Mental workload in ergonomics. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
 
 ---
 

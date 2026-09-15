@@ -1,5 +1,7 @@
 # Measure Live Cheat Sheet v1.3
 
+**Scope update:** Apply the [14 September addendum](Scope_and_Classification_Addendum_2026-09-14.md). Logistics and EXC are excluded from thesis timed analysis. Record pauses in eligible observation and keep them outside adjacent timed tasks. Add Van Weele stages after the session; the legacy code table below remains for source interpretation.
+
 Use beside the observer for official exploratory Measure observations from 2 September 2026 onward. The live fields and core timing/non-fabrication logic remain comparable with v1.2; v1.3 aligns MAX interpretation, baseline coverage and repository governance and makes the untimed sub-minute SEND rule explicit.
 
 ## 1. Session header
@@ -120,3 +122,4 @@ For every row:
 - do not reconstruct unsupported time, outcome or reasoning.
 
 **Register-review trigger:** review a U subtype for addition to the AS-IS register if it appears in at least two official baseline sessions and at least three times total, or repeated observation plus buyer/manager validation confirms it is normal recurring work.
+

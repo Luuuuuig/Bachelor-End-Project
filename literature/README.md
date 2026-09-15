@@ -4,17 +4,17 @@ This register tracks literature by its current likelihood of use and states **wh
 
 ## Current conceptual literature structure
 
-The BEP currently distinguishes the **broad occupational workload construct** from the more specific construct of **mental workload**:
+The current BEP uses workload as the amount and difficulty of purchasing work. Mental-workload sources remain background literature, with no current mental-workload assessment:
 
 - **Overall / occupational workload:** grounded primarily in Bowling & Kirkendall (2012), who review workload as a broad construct reflecting the amount and/or difficulty of work and distinguish quantitative, qualitative, objective/perceived, and mental/physical aspects.
 - **Quantitative workload:** supported by Spector & Jex (1998), especially their Quantitative Workload Inventory (QWI), which focuses on the quantity/pace of work.
-- **Mental workload:** grounded specifically in Young et al. (2015). Young et al. is no longer treated as the definition of all operational-buyer workload.
+- **Mental workload:** Young et al. (2015) is retained as historical background. It does not govern the current Plan of Work or add a measurement requirement.
 - **Organizational constraints:** Spector & Jex (1998) provides a separate construct for conditions that interfere with work, useful when interpreting interruptions, inadequate information, system limitations or other work-process constraints.
 - **Quality:** grounded generically in ISO 9000:2026 as fulfilment of relevant requirements. The concrete rubric remains activity-specific; the project predeclares that workload improvement cannot compensate for a failed quality guardrail.
 
 ### Reporting principle
 
-The current literature does **not** justify inventing a composite equation such as `total workload = time + interruptions + mental demand + rework`. Indicators with different meanings and units should therefore be reported as a **multidimensional workload profile** unless a validated composite instrument is explicitly selected for a specific construct (for example NASA-TLX for subjective mental workload).
+The current literature does not justify adding indicators with different meanings and units into one total-workload score. The study reports separate indicators and qualitative task evidence. The focal evaluation must justify its selected workload endpoint and purchasing-quality criteria before development and testing.
 
 ---
 
@@ -74,7 +74,7 @@ The current literature does **not** justify inventing a composite equation such 
 
 **Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
 
-**Use:** Governing source specifically for **mental workload**, not for all operational-buyer workload. Supports treating mental workload as a multidimensional human-factors construct and cautions against inferring it from processing time alone. The detailed project interpretation belongs in `docs/methodology/Workload_Definition.md`.
+**Use:** Historical background on mental workload. The current project does not assess this construct. The active workload framework follows the amount/difficulty distinction in `docs/methodology/Workload_Definition.md`.
 
 ### Structured workflow observation and time-and-motion
 
@@ -120,7 +120,7 @@ The current literature does **not** justify inventing a composite equation such 
 
 **Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
 
-**Use:** Supporting review for mental-workload theory and measurement choices. It complements rather than replaces Young et al. (2015).
+**Use:** Background review retained for traceability; mental-workload measurement is not part of the current study.
 
 ### Purchasing automation
 
@@ -156,7 +156,7 @@ The current literature does **not** justify inventing a composite equation such 
 
 **Hart, S. G. (2006).** *NASA-Task Load Index (NASA-TLX); 20 years later*. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 50*(9), 904–908. https://doi.org/10.1177/154193120605000909
 
-**Use if needed:** Candidate validated subjective workload instrument if the selected activity or final before/after evaluation requires a mental-workload measure. NASA-TLX should not be interpreted as a measure of the entire operational-buyer workload construct.
+**Use:** Historical candidate instrument, retained as background. The current Plan of Work does not include a NASA-TLX or other mental-workload assessment.
 
 ### Supply monitoring and exception handling
 

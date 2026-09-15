@@ -1,5 +1,7 @@
 # Operational Purchasing Current State — AS-IS master (V1.5)
 
+**Scope update of 14 September:** The observed operational workflow and stable task IDs below remain the evidence reference. Current thesis scope follows the [10 September decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) and [charter](../Project_Charter.md): Dennis is included in purchasing context; logistics and EXC time are excluded from thesis analysis and focal-case selection. Historical logistics/rework exceptions and candidate labels below do not override this boundary. Use the [Van Weele crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md) for phase classification.
+
 **Status:** Current operational-process source of truth. Diagram presentation and related wording corrected 8 September 2026; the existing observation dates and validation limits remain as recorded.
 
 **Ownership:** This file describes the **current AS-IS purchasing process** and preserves the useful process context around it: workflow, detailed stage interpretation, evidence, task inventory, observed improvement-opportunity profiles and unresolved process facts. Formal research-method decisions and final candidate prioritization are maintained in their dedicated files.
@@ -554,3 +556,4 @@ Formal supplier-control ownership and observed practice support treating supplie
 The AS-IS evidence supports the conclusion that operational purchasing contains recurring workload from repetitive administration, manual information comparison, experience-based judgement, exception handling and process hand-offs.
 
 The current process model is sufficiently developed to support the transition into structured Measure/Analyze work. The next decision should be based on representative workload evidence, technical/data feasibility and evaluation quality rather than on which individual case appears most interesting from isolated observations.
+

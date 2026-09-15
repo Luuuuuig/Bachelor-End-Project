@@ -1,6 +1,6 @@
 # Workload Definition — Operational Purchasing BEP
 
-**Status:** Canonical project definition, synchronized 2 September 2026.
+**Status:** Canonical project definition, synchronized 15 September 2026.
 
 **Ownership:** This file defines what **workload** means in the BEP. Detailed live Measure-phase data-collection procedure belongs in `../measurement/Measurement_Protocol_v1.3.md`; research/candidate decisions belong in `Phase_1_Current_Methodology.md`; literature status belongs in `../../literature/README.md`.
 
@@ -8,16 +8,9 @@
 
 # 1. Governing conceptual structure
 
-The BEP does **not** equate all operational-buyer workload with mental workload.
+The project defines operational buyer workload through the **amount and difficulty of purchasing work**, following Bowling & Kirkendall (2012). Arno's included work is the primary outcome. Dennis's relevant tactical tasks form part of the investigation and may be part of the selected improvement. Logistics and EXC remain outside thesis Measure analysis and focal-case selection.
 
-The project uses a two-level structure:
-
-1. **Operational buyer workload** is the broad project-level construct: the burden associated with carrying out operational purchasing work.
-2. **Mental workload** is one specific component of that broader workload and is treated using the human-factors literature.
-
-This distinction is necessary because purchasing work can consume substantial buyer capacity without necessarily being cognitively demanding. For example, repetitive PO forwarding can create operational burden through frequency and time while imposing relatively little mental workload.
-
-The broad workload framing is grounded primarily in occupational-workload literature, especially **Bowling & Kirkendall (2012)**, while mental workload is grounded specifically in **Young et al. (2015)**.
+The conceptual definition and the observation indicators serve different purposes. Frequency, volume, processing time and rework describe observable work demands. Case evidence about uncertainty, judgement and problem solving informs the assessment of difficulty. No single indicator represents the entire workload construct.
 
 These sources define and distinguish the constructs; they do not supply the project's live observation sheet. The separate evidence chain from theory to observation method and procurement-specific operationalization is documented in `../measurement/Measurement_Method_Justification.md`.
 
@@ -63,26 +56,9 @@ These constraints may increase the burden of performing the work, but they are n
 
 ---
 
-# 4. Mental workload
+# 4. Limits of mental-workload claims
 
-**Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
-
-Young et al. are used specifically for **mental workload**, not as the definition of all operational-buyer workload.
-
-Their review treats mental workload as a multidimensional human-factors construct influenced by the interaction of task demands, operator characteristics, environmental/support conditions and required performance.
-
-For this BEP, mental workload concerns the cognitive and attentional resources required to perform purchasing work under the actual work conditions.
-
-Examples include:
-
-| Perspective | Purchasing examples |
-|---|---|
-| **Task demand** | uncertainty, information volume, exceptions, verification requirement, competing demands |
-| **Operator** | experience, familiarity, skill, attention, automatic versus controlled processing |
-| **Environment / support** | Exact/Orbis support, information availability, interruptions, colleague support |
-| **Required performance** | completing the purchasing activity to the required standard |
-
-A short task should therefore not automatically be interpreted as low mental workload, and a long task should not automatically be interpreted as high mental workload.
+Mental workload is not assessed in the current study. Observation notes about judgement, difficulty and expertise provide qualitative task evidence; they are not a validated mental-workload score. The earlier mental-workload literature remains traceable in historical notes and the literature register, but does not govern the current Plan of Work.
 
 ---
 
@@ -141,9 +117,9 @@ The BEP will not create an arbitrary equation such as:
 
 These indicators have different meanings and measurement units. Adding or weighting them would require a defensible validated aggregation method.
 
-Unless such an instrument is deliberately selected later, workload will therefore be reported as a **multidimensional workload profile** rather than one composite score.
+Workload will be reported through separate indicators and qualitative evidence. Any evaluation endpoint must have a justified relationship to the workload dimension it is intended to represent.
 
-A validated instrument such as NASA-TLX may later be considered if the selected activity requires a subjective **mental-workload** measure. Such a score would apply to mental workload within the instrument's intended scope; it would not automatically represent the entire operational-buyer workload construct.
+The focal evaluation will use justified, activity-specific indicators defined before development and testing. The current study does not commit to a subjective mental-workload instrument.
 
 ---
 
@@ -164,7 +140,7 @@ Where evidence concerns only one aspect, use the more precise term, for example:
 
 Do not claim that one task has greater **total workload** than another solely because it takes more time. Likewise, do not label a task high mental workload solely because it requires expertise.
 
-The specific exploratory Measure indicators and coding rules are defined in `../measurement/Measurement_Protocol_v1.3.md`. After the focal activity is selected, the activity-specific evaluation protocol may introduce additional validated measures when justified.
+The exploratory Measure indicators and coding rules are defined in `../measurement/Measurement_Protocol_v1.3.md`, read with the 14 September scope addendum. The original four sub-questions retain frequency, processing time, rework and judgement required as areas of investigation. These terms do not by themselves establish the final evaluation measures. After selecting the component, justify its workload indicators, comparator, meaningful improvement threshold and quality criteria before development and formal testing. Where only time requirements are evaluated, limit the conclusion to that workload dimension.
 
 ---
 
@@ -172,6 +148,6 @@ The specific exploratory Measure indicators and coding rules are defined in `../
 
 Workload and quality are kept conceptually separate.
 
-Quality is not defined by this file. The literature register currently uses ISO 9000 as the generic quality anchor: quality concerns the extent to which relevant requirements are fulfilled. The concrete purchasing requirements and quality metric depend on the activity eventually selected for design and evaluation.
+Purchasing quality is the extent to which the outcome of a purchasing activity fulfils the requirements relevant to that activity. The literature register provides ISO 9000 as the generic quality anchor. The selected component determines the concrete requirements, reference outcomes and assessment rubric, which must be specified before development and formal testing.
 
 This separation allows the BEP to ask whether buyer workload can be reduced **without reducing the quality of the purchasing outcome**, without defining quality through time or effort.

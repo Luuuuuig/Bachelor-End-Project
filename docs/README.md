@@ -1,5 +1,17 @@
 # Project Documentation Navigation — Bachelor End Project
 
+## Deliverables prepared on 14 September
+
+- [Half-page project description for 15 September](proposal/Half_Page_Project_Description_2026-09-15.md).
+- [Plan of Work in the university template](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md), including the proposal, Gantt chart, reflection prompts and unsigned declaration.
+- [Van Weele mapping of eight codes and 31 tasks](process/Van_Weele_Activity_Mapping_2026-09-14.md).
+- [Measure scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md).
+- [Dennis observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
+- [Follow-up register and remaining evidence needs](planning/Supervisor_Follow_Up_2026-09-14.md).
+
+The 10 September academic scope decision supersedes older descriptions of logistics and EXC eligibility. Earlier observations retain their original evidence status. Prepared text and mapping do not establish submission, completed fieldwork or supervisor validation.
+
+
 **Last synchronized:** 2 September 2026
 
 Use this page as the main navigation map for the BEP repository. It shows **where to look for each type of information**, which file owns the current status, and where useful context is intentionally retained.
@@ -112,7 +124,7 @@ Canonical workload definition. The project currently uses:
 
 - **Bowling & Kirkendall (2012)** for the broad occupational-workload umbrella (amount and difficulty of work);
 - **Spector & Jex (1998)** as a conceptual anchor for quantitative workload and organizational constraints;
-- **Young et al. (2015)** specifically for mental workload;
+- mental workload is not assessed in the current study;
 - expertise dependence as a separate analytical dimension.
 
 The project does not create an unvalidated composite `total workload` equation.
@@ -133,7 +145,7 @@ It defines:
 - a five-distinct-day planning minimum with a Day-5 coverage/extension review; five days is not automatically 40 net hours;
 - small-sample safeguards, rework-denominator rules, private-repository governance and a predeclared trigger for recurring unmapped work.
 
-Version 1.3 is controlled for observations from 2 September onward; it preserves the v1.2 live fields/timing and updates MAX interpretation, stopping/coverage logic and private-repository governance. Use [`Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md). Two official baseline days currently total **351 net observed minutes** and, after the OBS-05 correction, **265 timed coded-active minutes**. Version 1.2 remains historical for the 1 September session. Exact/Orbis technical feasibility is not required to continue Measure.
+Version 1.3 is controlled for observations from 2 September onward; it preserves the v1.2 live fields/timing and updates MAX interpretation, stopping/coverage logic and private-repository governance. Use [`Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md). Three official Arno sessions are recorded. Historical summaries for the first two total **351 net observed minutes** and **265 timed coded-active minutes** before the later scope filter; the 8 September transcription still requires derived-data preparation. Version 1.2 remains historical for the 1 September session. Exact/Orbis technical feasibility is not required to continue Measure.
 
 Pilot evidence is retained with the Measure materials in [`measurement/Pilot_Measure_Observation_2026-08-28.md`](measurement/Pilot_Measure_Observation_2026-08-28.md).
 
@@ -252,3 +264,4 @@ flowchart LR
 Current practical progression:
 
 `Define / AS-IS → pilot → controlled v1.2/v1.3 baseline → five-day coverage review → workload profile → Analyze + targeted Exact/Orbis feasibility → gated/weighted focal-case selection → evaluation-protocol freeze → DSRM artifact / TO-BE → held-out evaluation → Control recommendations → final thesis / handover`
+
