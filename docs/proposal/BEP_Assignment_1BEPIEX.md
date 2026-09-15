@@ -1,6 +1,6 @@
 # BEP Assignment 1BEPIEX
 
-**Status:** Current readable repository version, synchronized 14 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
+**Status:** Current readable repository version, synchronized 15 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
 
 **Project title:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI  
 **Student:** Yijie Wang  
@@ -10,7 +10,7 @@
 
 ### Scope update of 14 September 2026
 
-The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The main research question and sub-question wording below are retained; these documents do not record new supervisor approval of their implementation details.
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The four-question structure and order are retained. The wording below incorporates the student-confirmed clarification of one operational buyer and relevant tactical purchasing tasks; it does not record new supervisor approval of measurement or evaluation details.
 
 ## Description of the context
 
@@ -40,22 +40,24 @@ Furthermore, one purchasing activity will be selected for design and evaluation.
 
 ### Definitions
 
-**Workload.** In this project, operational buyer workload is the broad burden associated with carrying out operational purchasing work. Following Bowling and Kirkendall (2012), the project distinguishes the **amount of work** from the **difficulty of work** rather than defining workload through processing time alone. Observable indicators such as task frequency, active processing time, case volume and rework are used to describe quantitative work burden, while uncertainty, exceptions and problem solving provide qualitative difficulty evidence. **Mental workload** is treated as one specific component of this broader construct and is interpreted using Young et al. (2015). Expertise dependence and organizational constraints are kept analytically distinct where relevant. The exploratory Measure phase therefore produces a multidimensional workload profile rather than one unvalidated total-workload score.
+**Workload.** Operational buyer workload concerns the amount and difficulty of purchasing work, following Bowling and Kirkendall (2012). Task frequency, active processing time, case volume and rework describe observable work demands; evidence about uncertainty, judgement and problem solving informs the assessment of difficulty. Processing time alone does not represent the full construct. Expertise dependence and organizational constraints remain distinct where relevant. Mental workload is not assessed, and the study will not create an unvalidated total-workload score. The selected component will determine which workload indicators can be justified for evaluation.
 
 **Quality.** Quality refers to the extent to which the outcome of a purchasing activity fulfils the requirements relevant to that activity. The specific rubric is defined after focal-case selection, but success is always conjunctive: the predeclared workload endpoint must improve by at least a meaningful threshold and the final human-approved outcome must pass its quality guardrail. The case-specific threshold, comparator, rubric and acceptable minor-error margin are frozen before artifact development/formal testing.
 
-### Supervisor-approved research question
+### Main research question
 
-The wording below follows the 1BEPIEX assignment version approved by the TU/e supervisor. Only obvious grammar, capitalization and punctuation errors have been normalized; the meaning and sub-question order are unchanged.
+The questions retain the original supervisor-approved structure and order, using the student's latest supplied scope wording.
 
-> **To what extent can an AI-supported solution reduce the operational buyers' workload at Hytech-Pommec without reducing the quality of the purchasing outcome?**
+> **To what extent can an AI-supported solution reduce the operational buyer's workload at Hytech-Pommec without reducing the quality of the purchasing outcome?**
 
-### Supervisor-approved sub-questions
+### Sub-research questions
 
-1. Which parts of the operational purchasing workflow contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
-2. What conditions and control measures are required for the proposed solution to be implemented reliably in the operational purchasing workflow?
+1. Which parts of the purchasing workflow, including relevant operational and tactical purchasing tasks, contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
+2. What conditions and control measures are required for the proposed solution to be implemented reliably in the purchasing workflow, including relevant operational and tactical purchasing tasks?
 3. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility and the need for human expertise?
 4. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
+
+The operational buyer in these questions is Arno. Relevant tactical purchasing tasks performed by Dennis are included in the investigation and, where relevant, in the design and evaluation of the selected improvement. Reducing Arno's workload remains the primary objective. Changes to Dennis's work will be considered where the improvement affects his tasks or responsibilities.
 
 ## Research Design
 
@@ -63,7 +65,7 @@ This project uses **DMAIC** as the overall framework for improving the operation
 
 The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Three official sessions are recorded: 31 August, 1 September and 8 September. The third remains a transcription with an explicit OBS-16 data-quality exclusion. The first two sessions have historical totals under the earlier broader scope: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net / 162 timed coded-active minutes), totaling **351 net observed minutes** and **265 timed coded-active minutes** before applying the narrower analytical scope. These are not updated three-session or EXC-filtered totals. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. Apply the 14 September scope addendum to subsequent collection and derived analysis. The initial Arno target remains five distinct observation days followed by a coverage, stability and saturation review; Dennis's evidence need not have the same quantity. For Arno, five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
 
-Within the **Improve** phase, **DSRM** guides design, development, demonstration and evaluation of the selected AI-supported artifact. Before development/formal testing, the project freezes the primary workload endpoint (normally active human handling time per eligible case/line), meaningful-improvement threshold and final-human-outcome quality guardrail. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
+Within the **Improve** phase, **DSRM** guides design, development, demonstration and evaluation of the selected AI-supported artifact. Before development/formal testing, the project freezes the justified primary workload endpoint for the selected component, meaningful-improvement threshold and final-human-outcome quality guardrail. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
 
 In this way, DMAIC structures the overall process-improvement project, while DSRM provides the detailed artifact-development and evaluation structure within the Improve phase.
 
@@ -75,9 +77,7 @@ A meeting with the university supervisor is scheduled on a weekly basis. These m
 
 Bowling, N. A., & Kirkendall, C. (2012). Workload: A review of causes, consequences, and potential interventions. In J. Houdmont, S. Leka, & R. R. Sinclair (Eds.), *Contemporary occupational health psychology: Global perspectives on research and practice, Volume 2* (pp. 221–238). https://doi.org/10.1002/9781119942849.ch13
 
-Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State of science: Mental workload in ergonomics. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
 
 ---
 
 **Origin:** Markdown mirror created from the 26 August 1BEPIEX Word draft and subsequently synchronized through 2 September with the repository's current workload, Measure and methodology framing.
-

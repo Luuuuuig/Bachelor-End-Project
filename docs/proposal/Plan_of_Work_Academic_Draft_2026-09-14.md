@@ -20,9 +20,9 @@ AI-supported operational procurement at Hytech-Pommec
 
 Operational procurement at Hytech-Pommec covers the daily execution of purchasing decisions. Arno, the operational buyer, processes requests in Exact, prepares and monitors purchase orders (POs), checks prices and supplier confirmations, and resolves missing or incorrect data. Initial observations also show decisions about when to order and whether demand for the same supplier can be combined. These tasks require manual information handling, verification and judgement, but their relative workload contributions and underlying causes have not yet been established.
 
-The business concern is the time Arno requires to carry out this work while maintaining purchasing quality. Some of the information and decisions used in operational purchasing originate in tactical purchasing. Dennis's relevant work and its connections with Arno therefore form part of the investigation. The study will examine whether those connections help explain observed handling time or repeated work. It does not yet establish a dominant root cause or achievable savings.
+The business concern is the workload associated with Arno's purchasing tasks while maintaining purchasing quality. Some of the information and decisions used in operational purchasing originate in tactical purchasing. Dennis's relevant work and its connections with Arno therefore form part of the investigation. The study will examine how these tasks and connections affect the amount and difficulty of Arno's work. It does not yet establish a dominant root cause or achievable savings.
 
-Bowling and Kirkendall (2012) provide a broad conceptual account of workload. This study focuses on observable work and uses active handling time as its measured workload outcome. Task frequency, volume and qualitative evidence about judgement help interpret the work. Van Weele's purchasing-process model, discussed by Bäckstrand et al. (2019), locates tasks within specification, supplier selection, contracting, ordering, monitoring and evaluation. It supports analysis of how the purchasing roles connect.
+Following Bowling and Kirkendall (2012), this study distinguishes the amount of work, or quantitative workload, from the difficulty of work, or qualitative workload. Arno's workload will be examined through task frequency, case volume, processing time, rework and evidence about the judgement and problem solving involved in purchasing tasks. Processing time provides information about the time required to perform the work, but does not by itself represent the full workload construct. Purchasing quality refers to the extent to which the outcome of a purchasing activity fulfils the requirements relevant to that activity. The specific workload indicators and quality criteria for evaluation will be justified after selecting the improvement component and specified before development and formal testing. Van Weele's purchasing-process model, discussed by Bäckstrand et al. (2019), locates tasks within specification, supplier selection, contracting, ordering, monitoring and evaluation. It provides a framework for examining operational purchasing, relevant tactical purchasing tasks and the connections between them.
 
 The primary objective of this Bachelor End Project (BEP) is to reduce Arno's workload within the included purchasing work while maintaining purchasing quality. The investigation includes Dennis's relevant tactical tasks, information exchanges and decision responsibilities. One coherent purchasing-process component will be selected for redesign and evaluation using artificial intelligence (AI). The component may involve both buyers where evidence links the proposed change to Arno's work. Other supported opportunities will become recommendations.
 
@@ -32,17 +32,16 @@ The primary objective of this Bachelor End Project (BEP) is to reduce Arno's wor
 
 #### Main research question
 
-To what extent can an AI-supported improvement to a selected purchasing-process component reduce the operational buyer's workload at Hytech-Pommec while maintaining purchasing quality?
+To what extent can an AI-supported solution reduce the operational buyer's workload at Hytech-Pommec without reducing the quality of the purchasing outcome?
 
 #### Sub-research questions
 
-1. How is the operational buyer's active handling time distributed across included purchasing tasks, and what patterns occur in task frequency, volume and rework?
-2. Which factors in operational and relevant tactical purchasing, including information flows, decisions and handoffs involving Dennis, explain the observed handling time and repeated work?
-3. Which coherent purchasing-process component offers the strongest supported opportunity to reduce Arno's workload through AI, considering the work it could address, business relevance, feasibility and human expertise?
-4. What functional requirements, controls and division of responsibilities are needed for reliable use of the selected AI-supported improvement?
-5. To what extent does the improvement reduce Arno's active handling time while maintaining purchasing quality, and what changes does it create in other affected purchasing roles?
+1. Which parts of the purchasing workflow, including relevant operational and tactical purchasing tasks, contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
+2. What conditions and control measures are required for the proposed solution to be implemented reliably in the purchasing workflow, including relevant operational and tactical purchasing tasks?
+3. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility and the need for human expertise?
+4. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
 
-The operational buyer in these questions is Arno. Purchasing and procurement refer to the same research setting. His included work provides the primary workload baseline and evaluation outcome. Dennis's observed tasks and their connections with Arno inform process diagnosis, candidate selection and design. Changes to Dennis's work will be assessed where the selected component affects him. Rework refers to work within the analytical boundary below.
+The operational buyer in these questions is Arno. Relevant tactical purchasing tasks performed by Dennis are included in the investigation and, where relevant, in the design and evaluation of the selected improvement. Reducing Arno's workload remains the primary objective. Changes to Dennis's work will be considered where the improvement affects his tasks or responsibilities.
 
 ### 3. Empirical context (incl. company description)
 
@@ -58,7 +57,7 @@ The detailed operational flow runs from the purchasing need to supplier confirma
 
 #### Research Design/Approach
 
-The study combines process investigation with a quantitative comparison of the selected intervention and current practice. Define, Measure, Analyze, Improve and Control (DMAIC) provides the overarching structure, following de Mast and Lokkerbol (2012). Define and Measure establish the purchasing process across the relevant roles and Arno's operational workload profile. Analyze uses both buyers' evidence to investigate causes and select a bounded improvement component.
+The study combines quantitative observation summaries, qualitative process analysis and a comparison of the selected intervention with current practice. Define, Measure, Analyze, Improve and Control (DMAIC) provides the overarching structure, following de Mast and Lokkerbol (2012). Define and Measure establish the purchasing process across the relevant roles and Arno's operational workload profile. Analyze uses both buyers' evidence to investigate causes and select a bounded improvement component.
 
 Within Improve, Design Science Research Methodology (DSRM) guides the artifact's objectives, design, development, demonstration and evaluation, following Peffers et al. (2007). Control translates findings into recommendations for use and monitoring. AI could support information extraction, document comparison, validation or routine decisions. The technical form, level of autonomy and integration requirements will follow the selected component and its evidence.
 
@@ -66,11 +65,11 @@ Within Improve, Design Science Research Methodology (DSRM) guides the artifact's
 
 | Source | Data and collection | Purpose |
 |---|---|---|
-| Arno | Structured observation of tasks, active time, volume, interruptions and decisions; case questions | Establish his included workload profile |
+| Arno | Structured observation of task occurrence, active time, volume, interruptions, rework and decisions; case questions | Establish his included workload profile |
 | Dennis | Targeted observation and case walkthroughs recording tasks, inputs, outputs, decisions and exchanges with Arno | Identify relevant task patterns, handoffs and possible causes |
 | Purchasing documents | Review SOPs, forms and formal process documents | Compare documented and observed practice |
 | Purchasing records and systems | Relevant requests, POs, confirmations and available Exact or Orbis information, subject to access | Trace supported connections and assess feasibility |
-| Evaluation cases | Record Arno's handling, review, correction and outcomes; record changes to affected tasks in Dennis's work separately | Evaluate the primary outcome and effects on other roles |
+| Evaluation cases | Collect the selected workload indicators and purchasing outcomes under current and AI-supported practice; record changes to Dennis's affected tasks separately | Evaluate Arno's workload and purchasing quality; assess effects on other roles |
 
 Observation follows time-and-motion principles, including explicit coverage and task transitions, consistent with Zheng et al. (2011). Live work families describe observable actions. Supported tasks are subsequently mapped to task IDs and Van Weele stages using their purpose. CHECK or SEND can occur in several stages. Request intake is timed when it involves visible work. Instantaneous decisions are tallied, while embedded decisions remain attributes of their timed episode. Date, actor, case identifier, timing quality and uncertainty are retained.
 
@@ -82,23 +81,23 @@ Five Arno observation days form the initial sufficiency checkpoint. Coverage, cu
 
 #### Workload profile and process analysis
 
-For sub-question 1, workload is operationalized as the active handling time Arno requires to complete included purchasing work. It includes preparation, review, correction and in-scope rework. Frequency, volume and interruptions describe the observed work and help interpret time requirements. Judgement and expertise evidence inform task interpretation and AI suitability. Mental workload is not assessed, and these indicators will not be combined into an overall workload score.
+For sub-question 1, the analysis will describe the amount and difficulty of Arno's included purchasing work. Frequency, case or line volume, active processing time and rework describe observable work demands. Case evidence about uncertainty, judgement and problem solving will inform the assessment of difficulty and expertise dependence. Each indicator will have an explicit definition and reporting rule. Processing time will represent time requirements; the indicators will remain separate, and no total or mental-workload score will be inferred.
 
 Raw records remain unchanged. A derived dataset applies logistics, EXC and timing-quality exclusions. Arno's reliable included minutes will be summarized by task family and process stage. Time shares use all his reliable included timed minutes; occurrence rates state their observation exposure. Uncertain and multi-stage episodes remain identifiable without duplicated minutes. Dennis's patterns and reliable durations remain separate; unequal coverage prevents direct comparisons of overall workloads.
 
-Sub-question 2 uses process maps, cases, records and follow-up questions to investigate causes of Arno's handling time and repeated work. Analysis will trace information and decisions through both roles, examining missing inputs, clarification exchanges and overlapping responsibilities where supported. Proposed causes remain hypotheses until supported. The selected component may include Dennis's work even when the primary effect is measured in Arno's tasks.
+Process maps, case records and follow-up questions will support sub-question 1 and inform candidate assessment in sub-question 3. Analysis will trace tasks, information and decisions across Arno's and Dennis's relevant work, examining missing inputs, clarification and overlapping responsibilities where supported. Proposed causes remain hypotheses until supported by evidence. The selected component may include Dennis's tasks where they affect Arno's work.
 
 #### Selection and requirements of the improvement
 
-For sub-question 3, candidates must meet conditions for permission, data access, reference outcomes, risk control, study time and meaningful AI use. Eligible components will be compared on the Arno work they could address, business relevance, data readiness, AI suitability, evaluation feasibility and human expertise. Addressable workload includes Arno's work arising later in the process. EXC and logistics remain excluded.
+For sub-question 3, candidates must meet conditions for permission, data access, reference outcomes, risk control, study time and meaningful AI use. Eligible components will be compared on their contribution to Arno's workload, business relevance, data readiness, AI suitability, evaluation feasibility and human expertise. Addressable workload includes Arno's work arising later in the process. EXC and logistics remain excluded.
 
-Criteria, score anchors and weights will be agreed with the academic supervisor before ranking. Sensitivity analysis will test whether uncertain evidence or plausible weights alter the choice. Johan will validate business feasibility. Targeted Exact and Orbis checks will establish access and interface requirements. For sub-question 4, the selected component's inputs, outputs, review controls and responsibilities will be specified with the affected buyers. Dennis participates where the design changes his work or information exchanges.
+Criteria, score anchors and weights will be agreed with the academic supervisor before ranking. Sensitivity analysis will test whether uncertain evidence or plausible weights alter the choice. Johan will validate business feasibility. Targeted Exact and Orbis checks will establish access and interface requirements. For sub-question 2, the selected component's inputs, outputs, review controls and responsibilities will be specified with the affected buyers. Dennis participates where the design changes his work or information exchanges.
 
 #### Evaluation of workload and quality
 
-For sub-question 5, the primary outcome is Arno's active handling time per eligible case or line passing through the selected component, including attributable preparation, review, correction and rework. The protocol will fix the unit, eligibility, comparator, meaningful improvement threshold and purchasing-quality rubric before development and formal testing. Equivalent incoming cases remain eligible when the intervention prevents a clarification task or removes the need for Arno to act.
+For sub-question 4, evaluation will compare the selected improvement with current practice in terms of Arno's workload and purchasing quality. Following selection, the protocol will justify which workload dimensions and indicators can be evaluated and define the unit, eligibility, comparator, meaningful improvement threshold and quality rubric before development and formal testing. Any time measure will include attributable preparation, review, correction and in-scope rework. Equivalent incoming cases remain eligible when the intervention prevents a task or removes the need for Arno to act.
 
-Development and evaluation cases remain separate. Comparable or matched cases and balanced condition order will be used where feasible to address case mix and learning. Sample size and analysis will follow case characteristics and available observations. Results will report Arno's time change, uncertainty, purchasing quality and AI cost. Any changes to Dennis's affected tasks will be reported separately, with time estimates only where supported. Arno's savings will not be presented as department-wide savings when work transfers to Dennis. Success requires the workload threshold and quality requirement; a finding of no benefit remains valid.
+Development and evaluation cases remain separate. Where feasible, matched cases and balanced condition order will address case mix and learning. Sample size and analysis will follow the available cases. Results will report the selected workload indicators, uncertainty, purchasing quality and AI cost, with conclusions limited to the dimensions assessed. Dennis's affected tasks will be reported separately. Work transferred to Dennis will not count as a department-wide improvement. Success requires both the predefined workload improvement and quality requirement; a finding of no benefit remains valid.
 
 <!-- PAGE_BREAK -->
 
@@ -108,11 +107,11 @@ Development and evaluation cases remain separate. Comparable or matched cases an
 
 The project will deliver an AS-IS purchasing map showing Arno's work, Dennis's relevant tasks and their connections, including observed role overlap. It will provide Arno's workload profile within the analytical boundary, a supported diagnosis and candidate comparison, and one evaluated AI-supported improvement to a coherent process component. The intervention may involve both buyers where the evidence supports that design.
 
-Evaluation will establish whether the selected change reduces Arno's active handling time while maintaining purchasing quality and will report effects on Dennis's affected work separately. Recommendations will describe responsibilities, use, monitoring and other supported purchasing opportunities. Production implementation and wider savings remain subject to the findings and feasibility.
+Evaluation will assess whether the selected change reduces Arno's workload on the justified indicators while maintaining purchasing quality and will report effects on Dennis's affected work separately. Recommendations will describe responsibilities, use, monitoring and other supported purchasing opportunities. Production implementation and wider benefits remain subject to the findings and feasibility.
 
 #### Anticipated theoretical insights
 
-The study aims to provide context-specific evidence about how AI-supported changes to purchasing tasks and information exchanges affect an operational buyer's handling time and purchasing quality. It will examine information requirements, verification and human review in the selected component. Relating the findings to Van Weele stages will help explain how the intervention operates across relevant purchasing roles. The discussion will address the limits of the single-company setting, observation coverage and included work.
+The study aims to provide context-specific evidence about how AI-supported changes to purchasing tasks and information exchanges affect an operational buyer's workload and purchasing quality. It will examine information requirements, verification and human review in the selected component. Relating the findings to Van Weele stages will help explain how the intervention operates across relevant purchasing roles. The discussion will address the limits of the single-company setting, observation coverage and the workload dimensions assessed.
 
 ### References
 

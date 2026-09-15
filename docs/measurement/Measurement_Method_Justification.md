@@ -1,10 +1,10 @@
 # Measurement Method Justification — Exploratory Workload Baseline
 
-**Status:** Methodological rationale added 3 September 2026. This document explains the evidence chain behind `Measurement_Protocol_v1.3.md`; it does not change that protocol's live fields, coding boundaries or treatment of earlier observations.
+**Status:** Methodological rationale added 3 September 2026; construct wording synchronized 15 September. This document explains the evidence chain behind `Measurement_Protocol_v1.3.md`; it does not change that protocol's live fields, coding boundaries or treatment of earlier observations.
 
 ## 1. Short answer
 
-The Measurement Protocol is **not** a measurement instrument taken from Bowling and Kirkendall (2012), Spector and Jex (1998), or Young et al. (2015).
+The Measurement Protocol is **not** a measurement instrument taken from Bowling and Kirkendall (2012) or Spector and Jex (1998).
 
 It is a **researcher-developed, procurement-specific structured continuous-observation protocol** with three different foundations:
 
@@ -18,7 +18,7 @@ This distinction must remain explicit in the thesis. A source can justify what a
 
 | Layer | Question answered | Governing source or project evidence | Role in this BEP |
 |---|---|---|---|
-| Construct definition | What does workload mean? | Bowling & Kirkendall (2012); Spector & Jex (1998); Young et al. (2015) | Distinguishes amount, difficulty, organizational constraints and mental workload. These sources do not provide the live procurement codebook. |
+| Construct definition | What does workload mean? | Bowling & Kirkendall (2012); Spector & Jex (1998) | Distinguishes amount, difficulty and organizational constraints. Mental workload is not assessed. These sources do not provide the live procurement codebook. |
 | Observation method | How can observable work patterns be recorded? | Mintzberg (1970); Fix et al. (2022); Zheng et al. (2011) STAMP; Lopetegui et al. (2014); Westbrook & Ampt (2009); Westbrook et al. (2012) WOMBAT | Supports structured shadowing, task categories, timestamps/duration, interruptions, non-observed periods, observation coverage, piloting and transparent reporting. |
 | Cognitive/expertise elicitation | How can otherwise invisible cues and judgement be explored? | Militello & Hutton (1998) Applied Cognitive Task Analysis | Supports structured follow-up questioning about cues, decisions and expertise. A visual observation or `J/EXP` flag alone is not a validated cognitive-workload measurement. |
 | Context-specific operationalization | Which purchasing activities and fields are relevant here? | AS-IS process v1.5, the 31-task register, company evidence and the 28 August pilot | Produces the eight activity families, operational boundaries, case index and post-session task mapping used in this setting. |
@@ -109,7 +109,7 @@ Exceptions, uncertainty and judgement notes are valuable screening evidence, but
 
 ## 7. Thesis-ready method statement
 
-> Operational buyer workload was conceptualized as a multidimensional construct, distinguishing the amount of work from its difficulty and keeping mental workload analytically separate (Bowling & Kirkendall, 2012; Young et al., 2015). The observable objective component was operationalized using a researcher-developed structured continuous-observation time-and-motion protocol informed by the STAMP reporting framework (Zheng et al., 2011) and WOMBAT design principles (Westbrook & Ampt, 2009; Westbrook et al., 2012). The procurement-specific activity taxonomy and operational boundaries were derived from the Hytech-Pommec AS-IS process and refined through pilot observation. Occurrence and active time were treated as indicators of observable operational burden; interruptions and case context as workflow constraints or explanatory variables; and decision/expertise notes as exploratory CTA-informed evidence (Militello & Hutton, 1998). The protocol was used for hotspot screening and focal-case selection and was not interpreted as a validated measure of total or mental workload.
+> Operational buyer workload was conceptualized as a multidimensional construct, distinguishing the amount of work from its difficulty (Bowling & Kirkendall, 2012). The observable objective component was operationalized using a researcher-developed structured continuous-observation time-and-motion protocol informed by the STAMP reporting framework (Zheng et al., 2011) and WOMBAT design principles (Westbrook & Ampt, 2009; Westbrook et al., 2012). The procurement-specific activity taxonomy and operational boundaries were derived from the Hytech-Pommec AS-IS process and refined through pilot observation. Occurrence and active time were treated as indicators of observable operational burden; interruptions and case context as workflow constraints or explanatory variables; and decision/expertise notes as exploratory CTA-informed evidence (Militello & Hutton, 1998). The protocol was used for hotspot screening and focal-case selection and was not interpreted as a validated measure of total or mental workload.
 
 ## References
 
@@ -129,6 +129,5 @@ Westbrook, J. I., & Ampt, A. (2009). Design, application and testing of the Work
 
 Westbrook, J. I., Creswick, N. J., Duffield, C., Li, L., & Dunsmuir, W. T. M. (2012). Changes in nurses' work associated with computerised information systems: Opportunities for international comparative studies using the revised Work Observation Method By Activity Timing (WOMBAT). *Nursing Informatics 2012*, 448. https://pmc.ncbi.nlm.nih.gov/articles/PMC3799166/
 
-Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State of science: Mental workload in ergonomics. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
 
 Zheng, K., Guo, M. H., & Hanauer, D. A. (2011). Using the time and motion method to study clinical work processes and workflow: Methodological inconsistencies and a call for standardized research. *Journal of the American Medical Informatics Association, 18*(5), 704–710. https://doi.org/10.1136/amiajnl-2011-000083

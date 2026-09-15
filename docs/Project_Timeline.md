@@ -4,9 +4,11 @@
 
 **Purpose:** This file is the project-planning companion to `Project_Charter.md`. It turns the current DMAIC/DSRM sequence, supervisor milestones and known dependencies into a shareable Gantt chart. The Mermaid source can be copied into draw.io / diagrams.net for visual editing.
 
-**Supervisor-facing visual master:** [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing). Keep this Drive copy synchronized with the Mermaid planning source below.
+**Supervisor-facing visual master:** [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing). The supplied Drive schedule is reproduced in the current Plan of Work figures. The Mermaid schedule below is retained as the historical 2 September baseline and must not overwrite the newer schedule.
 
-## Planning assumptions
+## Historical planning assumptions from 2 September
+
+Current evidence: three Arno sessions are recorded; the historical two-session totals below are not updated, EXC-filtered totals. See the current Plan of Work and follow-up register for the Dennis context and later schedule.
 
 - Project start: **17 August 2026**.
 - The combined normative workload for **1BEPIE + 1BEPIEX is 420 hours in total**, not 420 hours per course. Gantt bars show elapsed planning windows; planned and actual effort are tracked separately.

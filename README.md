@@ -4,6 +4,8 @@ Repository for the TU/e Bachelor End Project on operational purchasing process i
 
 ## Current deliverables
 
+Use `main` for the consolidated project. The [15 September consistency record](docs/planning/Repository_Synchronization_2026-09-15.md) explains the four-question wording, workload/quality distinction and branch reconciliation. The [Plan of Work](docs/proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) is the current readable proposal source.
+
 The [14 September follow-up register](docs/planning/Supervisor_Follow_Up_2026-09-14.md) links the supervisor-revised short description, Plan of Work in the university template, Van Weele mapping and Dennis preparation. It applies the 10 September academic scope decision and distinguishes prepared outputs from remaining fieldwork and submissions.
 
 ## Start here

@@ -1,6 +1,6 @@
 # Project Charter — Operational Purchasing Workload Reduction
 
-**Status:** Current lightweight project-control document, synchronized 14 September 2026.
+**Status:** Current lightweight project-control document, synchronized 15 September 2026.
 
 This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
 
@@ -21,7 +21,7 @@ Use DMAIC to establish the current process, workload baseline and improvement op
 ## Primary stakeholders
 
 - Operational buyer — main workload outcome and domain expert.
-- Tactical buyer Dennis — purchasing context, observed task patterns and handoffs.
+- Tactical buyer Dennis — relevant tasks, information exchanges, and participation in design and evaluation where the selected improvement affects his work.
 - Company manager / project sponsor — business relevance and implementation direction.
 - TU/e supervisor — academic scope, methodology and evaluation validity.
 - Second academic assessor — Plan of Work approval and co-assessment of the final report under the 1BEPIE procedure.
@@ -31,7 +31,7 @@ Use DMAIC to establish the current process, workload baseline and improvement op
 
 The detailed operational purchasing flow runs from purchasing need through `Bevestigd`. Include Dennis's tactical purchasing work in the surrounding process investigation, as decided on 10 September. Arno's workload remains the primary outcome; retain separate actor-specific evidence. The existing 31-task register describes operational work, not a completed Dennis inventory. Add Van Weele stages after observation using the [crosswalk](process/Van_Weele_Activity_Mapping_2026-09-14.md).
 
-Define/Measure/Analyze cover the broader operational process. Improve/DSRM will focus deeply on **one selected primary activity or coherent process component**. Other supported opportunities remain company recommendations/quick wins rather than disappearing from scope.
+Define/Measure/Analyze cover operational purchasing and Dennis's relevant tactical tasks and connections with Arno. Improve/DSRM will focus deeply on **one selected primary activity or coherent process component**. Other supported opportunities remain company recommendations/quick wins rather than disappearing from scope.
 
 ## Out of detailed scope for now
 

@@ -2,6 +2,8 @@
 
 **Status:** Historical controlled baseline revision effective 2 September 2026. From 14 September, read its timing rules together with the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md), which applies the 10 September academic scope decision. The original code definitions below are preserved for interpretation of earlier observations; EXC is now excluded from thesis timed analysis and focal-case selection.
 
+**Current construct clarification, 15 September:** Use the current [workload definition](../methodology/Workload_Definition.md) and [method justification](Measurement_Method_Justification.md) for thesis claims. Workload concerns amount and difficulty; processing time is one descriptive indicator. Mental workload is not assessed. Historical references below do not add a current measurement requirement. This notice changes no live fields, timing rules or source observations.
+
 **Purpose:** This protocol defines how workload-related evidence is collected during shadowing of the operational buyer at Hytech-Pommec. It is designed for the broad exploratory Measure phase, before one focal purchasing activity is selected for deeper Analyze/Improve work.
 
 **Why v1.3 exists:** The 1 September observation confirmed that HOLD can follow maximalisatie whether or not demand was added, exposed the need for an explicit Measure stopping rule, and prompted a clarification of the approved data categories in the private repository. Version 1.3 does **not** change the live activity families, fields, core active-time/non-fabrication logic or post-session mapping structure used in v1.2; the two protocol versions therefore remain analytically comparable when their dated clarifications are reported.

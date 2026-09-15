@@ -9,7 +9,7 @@ This register uses repository snapshot `961ced3220bbfefed1bf20c15fcc0876739cfbfe
 | Output | Location | What is complete |
 |---|---|---|
 | Half-page project description | [Project description](../proposal/Half_Page_Project_Description_2026-09-15.md) | Supervisor-revised text from the supplied Project descriptions.docx.pdf is preserved in an editable Word copy for the 15 September milestone. Sending remains the student's action. |
-| Plan of Work in the university template | [Plan of Work draft](../proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) | Parts A-D prepared: five-page proposal, planning with all 62 supplied Gantt tasks shown by name, prompts for the five required reflections and the original unsigned declaration. The proposal now keeps Arno as the primary outcome, integrates Dennis in diagnosis and selection, and defines workload through active handling time. |
+| Plan of Work in the university template | [Plan of Work draft](../proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) | Parts A-D prepared: five-page proposal, planning with all 62 supplied Gantt tasks shown by name, prompts for the five required reflections and the original unsigned declaration. The proposal now keeps Arno as the primary outcome, integrates Dennis in diagnosis and selection, and distinguishes the amount and difficulty of work from the selected evaluation indicators. |
 | Van Weele mapping | [Mapping](../process/Van_Weele_Activity_Mapping_2026-09-14.md) | All eight existing codes and all 31 registered tasks mapped, including conditional and unresolved boundaries. |
 | Editable crosswalk data | [Task CSV](../process/Van_Weele_Task_Crosswalk_2026-09-14.csv) and [family CSV](../process/Van_Weele_Work_Family_Crosswalk_2026-09-14.csv) | Original task descriptions retained alongside the stage assignment rules. No baseline episode is silently recoded. |
 | Measurement scope implementation | [Addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) | EXC and logistics exclusions, historical-data preservation, phase coding and denominator rules documented. |
@@ -28,7 +28,7 @@ This register uses repository snapshot `961ced3220bbfefed1bf20c15fcc0876739cfbfe
 | M9: clean observations and exclude EXC | Before the coverage review | Scope rules prepared; filtered dataset and totals not yet complete | Apply row-level scope and timing checks to all sessions, including the 8 September OBS-16 exclusion. Resolve ambiguous case purposes where possible. |
 | D11: high-level purchasing context map | After category alignment and Dennis mapping | Evidence dependencies remain open | Extend the map from actual Dennis findings. Keep the thesis boundary explicit. A broader Johan view was an idea, not a confirmed supervisor action. |
 | M10 and M11: sufficiency review and summaries | Review planned 18 September | Cannot close from the present snapshot | Review coverage, cumulative patterns, missing information and newly observed tasks. Record the decision to close or extend. |
-| A2, A3 and AM2: complete PoW draft | Internal target 18 September | Template structure, proposal and planning prepared; personal completion still open | Write the five reflections, fill Student ID and second-assessor fields, record actual effort and complete the declaration. |
+| A2, A3 and AM2: complete PoW draft | Internal target 18 September | Template structure, proposal and planning prepared; personal completion still open | Write the five reflections, retain the supplied Student ID in the Word document, complete the second-assessor field, record actual effort and complete the declaration. |
 | AM3: supervisor review draft | 20 September | Upcoming milestone | Provide the complete draft to the supervisor. |
 | Weekly agenda | Wednesday 16 September | Discussion topics identified below | Prepare/send the agenda for the regular Thursday meeting. |
 
@@ -40,7 +40,7 @@ The research windows are planning targets, not evidence that the work has occurr
 - Confirm that the narrowed workload reporting and EXC exclusion are described clearly. Historical broad totals remain distinct from thesis scope-specific totals.
 - Review actual Dennis coverage and whether the evidence supports an interpretable task pattern.
 - Decide whether the planned 18 September sufficiency review can close Measure or whether targeted extension is needed.
-- Review the revised Plan of Work questions, including the explicit root-cause question, Dennis's role and the definition of the measured workload outcome. These are proposed revisions to the earlier approved question wording; no new supervisor approval is recorded.
+- Review the four original sub-questions with the tactical-scope wording retained. Check the link from workload definitions to the eventual indicators and purchasing-quality criteria. Root-cause analysis remains within the methodology.
 
 ## Evidence needed to finish the remaining work
 
@@ -50,7 +50,7 @@ The research windows are planning targets, not evidence that the work has occurr
 
 **Personal reflections.** The supplied university template requires Planning and Organizing, Writing, Presenting, Collaborating, and Dealing with Scientific Information. Write approximately 300-400 words per skill, 1,500-2,000 words in total. Each reflection must cover experiences, actual feedback, self-assessment, learning goals and an action plan with progress monitoring. The document contains prompts; personal claims and feedback still need Yijie's input.
 
-**Administrative completion.** The 1BEPIE(X) university template is now applied. Complete Student ID, the second assessor, actual study effort and the declaration's name, ID, date and signature fields after reading the TU/e Code of Scientific Conduct. No signature or submission is implied by preparing the document.
+**Administrative completion.** The 1BEPIE(X) university template is now applied. The supplied Word document now contains the Student ID. Complete the second assessor, actual study effort and the declaration's name, ID, date and signature fields after reading the TU/e Code of Scientific Conduct. No signature or submission is implied by preparing the document.
 
 ## Later fixed dates
 

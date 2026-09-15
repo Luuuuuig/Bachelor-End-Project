@@ -33,13 +33,15 @@ Map by the purpose of the work, not by the employee, software screen, activity c
 
 ## Measures and denominators
 
+These outputs describe recorded occurrence and time requirements. The broader workload profile also uses qualitative task evidence, and purchasing quality requires a separate activity-specific assessment.
+
 | Output | Numerator | Denominator and reporting rule |
 |---|---|---|
-| Within-scope timed workload share | Reliable, eligible minutes for the family or stage | All reliable, eligible timed minutes for that actor. Report unclassified and multi-stage minutes separately. Label the result as a share of included timed work. |
+| Within-scope active-time share | Reliable, eligible minutes for the family or stage | All reliable, eligible timed minutes for that actor. Report unclassified and multi-stage minutes separately. Label the result as a share of included timed work. |
 | Activity occurrence rate | Eligible recorded episodes or events | Known net observation hours for the same actor and collection window. State whether excluded-scope intervals are included in exposure. Do not merge rates based on different exposure definitions. |
 | Duration of an episode | Reliable active minutes | Eligible timed episodes of a comparable task. An interrupted case may contain several episodes. |
-| Case workload | Sum of reliable eligible episodes for a linked case | Cases with adequate observed coverage. Use date plus OBS ID. Report partial cases separately. |
-| Per-line workload | Reliable active minutes for a comparable task | Relevant processed lines where that volume is known. Do not confuse newly added lines with the final PO line count. |
+| Case active time | Sum of reliable eligible episodes for a linked case | Cases with adequate observed coverage. Use date plus OBS ID. Report partial cases separately. |
+| Active time per line | Reliable active minutes for a comparable task | Relevant processed lines where that volume is known. Do not confuse newly added lines with the final PO line count. |
 
 If total net exposure is known but the narrower exposure cannot be reconstructed, report the original exposure explicitly and restrict comparisons to that common definition. Do not silently replace 351 historical net minutes or 265 historical timed minutes with narrower totals. Recalculate and label the scope-specific results first. Those historical totals cover 31 August and 1 September only.
 

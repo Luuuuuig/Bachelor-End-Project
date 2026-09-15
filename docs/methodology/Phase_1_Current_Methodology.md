@@ -1,6 +1,6 @@
 # Phase 1 — Current Methodology and Case-Selection Status
 
-**Status:** Current research-method and case-selection source of truth, synchronized 14 September 2026.
+**Status:** Current research-method and case-selection source of truth, synchronized 15 September 2026.
 
 **Ownership:** This file owns the research framework, candidate portfolio, selection gates, evaluation logic and current research actions. Detailed workload theory and live Measure-phase collection rules are maintained in their dedicated files rather than duplicated here.
 
@@ -18,7 +18,7 @@ Related sources:
 
 ### Scope update of 14 September 2026
 
-The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The main research question and sub-question wording below are retained; these documents do not record new supervisor approval of their implementation details.
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The Plan of Work and readable assignment retain the four original sub-questions in their original order, with wording that includes relevant tactical purchasing tasks. Measurement and evaluation details remain subject to justification.
 
 # 1. Project objective
 
@@ -102,11 +102,13 @@ Judge-Advisor System / reliance concepts remain conditional. They become relevan
 
 # 3. Measure design
 
+The four sub-questions retain their original order. SQ1 concerns the workload profile and process factors that inform it; SQ2 concerns implementation conditions and controls; SQ3 concerns candidate comparison and selection; SQ4 concerns evaluation of workload and quality. Root-cause analysis informs SQ1 and SQ3 and does not introduce a fifth question.
+
 The broad workload construct is defined in `Workload_Definition.md` and uses a layered structure:
 
 - **overall/occupational workload:** amount and difficulty of work, grounded primarily in Bowling & Kirkendall (2012);
 - **quantitative workload / organizational constraints:** conceptually supported by Spector & Jex (1998);
-- **mental workload:** treated specifically through Young et al. (2015);
+- **mental workload:** not assessed in the current study; judgement and expertise notes remain qualitative task evidence;
 - **expertise dependence:** kept analytically separate from mental workload.
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
@@ -133,7 +135,7 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 
 **Role of the exploratory Measurement Protocol.** Measurement Protocol v1.3 characterizes the current procurement process and screens for recurring sources of observable operational effort. It records occurrence, reliable active processing time, case context, interruptions, clarification, exception work and supported decision/expertise cues at activity-family level. These observations justify candidate generation and focal-case selection, but they do not estimate the effect of an AI artifact and do not measure purchasing outcome quality. The protocol therefore contributes indirect baseline evidence to the main research question rather than answering it independently.
 
-**Transition to focal evaluation.** After Analyze selects one focal activity, a separate activity-specific protocol will define eligible cases, the manual comparator, total active human handling time per comparable unit, the final purchasing-quality rubric, critical-error definitions, workload-improvement threshold, acceptable quality margin, sampling design and analysis plan. These elements are frozen before formal artifact evaluation. The main research question is answered from the matched comparison of the manual and AI-assisted workflows; the broad Measure dataset supplies process context and the justification for focal-case selection.
+**Transition to focal evaluation.** After Analyze selects one focal activity, a separate activity-specific protocol will define eligible cases, the manual comparator, justified workload indicators for the selected component, the final purchasing-quality rubric, critical-error definitions, workload-improvement threshold, acceptable quality margin, sampling design and analysis plan. These elements are frozen before artifact development and formal testing. The main research question is answered from the matched comparison of the manual and AI-assisted workflows; the broad Measure dataset supplies process context and the justification for focal-case selection.
 
 ### Current Measure sequencing
 
@@ -259,15 +261,15 @@ The artifact is successful only when **both** conditions hold:
 1. the primary workload endpoint improves by at least the predeclared meaningful threshold; and
 2. the quality guardrail passes.
 
-The default primary endpoint is **active human handling time per eligible case** (or per line/item when case size varies materially), comparing matched manual and AI-assisted work. Include reading, searching, entering data, reviewing AI output, correcting it and completing the required hand-off/documentation. Exclude passive supplier/system waiting and unrelated interruptions; report those separately. Report the median and distribution, with mean and percentage change as supporting statistics, and match/stratify by case complexity.
+The primary endpoint will be justified after selecting the component by linking it to the workload dimension the improvement is intended to address. Active processing time per eligible case or line remains a possible indicator of time requirements, alongside evidence about frequency, repeated work and difficulty. No endpoint is fixed merely because the exploratory baseline records it. If time is selected, include reading, searching, data entry, human review, correction and the required handoff; report passive waiting and unrelated interruptions separately. Define case comparability and include eligible cases where work is prevented. Limit conclusions to the workload dimensions supported by the evaluation.
 
-Secondary endpoints may include manual actions, system switches, rework/correction time, throughput and a validated post-task workload measure such as NASA-TLX when justified. These do not replace the primary endpoint.
+Supporting indicators may describe manual actions, system switches, rework, throughput and qualitative difficulty evidence where relevant. Their definitions, evidence sources and role in interpretation must be specified. They are not combined into an unvalidated total-workload score, and the current study does not assess mental workload.
 
 Quality is measured on the **final human-approved outcome**, not only the AI output. After focal-case selection, define a case-specific rubric, a trusted reference/adjudicator and critical versus minor errors. The default guardrail is zero observed critical errors plus final-decision correctness no more than a pre-agreed margin `δ` below the matched manual baseline. `δ = 0` for critical errors; any non-zero margin for minor errors requires explicit process-owner acceptance. With a small BEP sample, report that the guardrail passed in the observed cases rather than claiming statistical non-inferiority.
 
 After the manual baseline and focal case are known, the company/process owner defines the smallest worthwhile workload improvement `Δ` and acceptable minor-error margin `δ`; the academic supervisor validates the research rule. Freeze eligible cases, comparator, rubric, `Δ`, `δ` and analysis before prototype development/formal testing. Keep development examples separate from held-out evaluation cases where feasible.
 
-BEP-ready rule: `For eligible [case type], the AI-assisted workflow is successful only if median active buyer handling time per [case/line] decreases by at least [Δ minutes or r%] versus a matched manual baseline, while final human-approved decisions contain zero critical errors and their correctness rate is no more than [δ percentage points] below baseline.`
+BEP-ready rule: `For eligible [case type], the AI-supported workflow meets the predefined improvement threshold on [justified workload endpoint] versus [comparator], while the final purchasing outcome fulfils [activity-specific quality requirements]. State which workload dimension the endpoint supports and report effects on Dennis separately where his work changes.`
 
 ## Optimization / decision-support case
 
