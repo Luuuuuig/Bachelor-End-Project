@@ -29,7 +29,7 @@ This folder contains the current and historical Measure-phase data-collection ma
 - [Measure Observation — 8 September 2026](Measure_Observation_2026-09-08.md) — third official baseline session; raw observations and post-session enrichment in the same file. Both OBS-16 rows remain excluded for contamination.
 - [Measure Observation - 18 September 2026](Measure_Observation_2026-09-18.md) - morning and afternoon observations, Yijie's corrections, the dated Primer-C reference and post-session enrichment in the same file.
 
-The historical two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes**. They describe the earlier broad scope. The enrichment within each 8 and 18 September observation file applies the later scope filter and reports its own coverage; neither day is silently added to those historical totals. A pooled comparison would require applying the same scope and timing definitions to all days.
+The historical two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broad scope. On 18 September the 28 August pilot and the 31 August and 1 September observations received a retrospective task-purpose, Van Weele stage and scope review inside their original files. The pilot retains its historical Task IDs alongside current equivalents and stays outside the official baseline. The 31 August, 1 September, 8 September and 18 September files each report their own narrower included profile. Keep provisional and unresolved classifications visible; compare days only with matching scope, timing-quality and exposure definitions. These reviews preserve the seven live families and do not establish that Measure is sufficient for case selection.
 
 ## Related evidence
 
@@ -38,5 +38,6 @@ The historical two-day totals through **1 September** remain **351 net observed 
 - Detailed AS-IS task register: [Process Cleaned V1.5](../process/Process_Cleaned_V1.5.md)
 
 The repository is private. Company permission, as confirmed by the student on 2 September, allows the currently recorded buyer names and case-specific commercial values to remain for the authorized research audience. Public/thesis evidence remains anonymized or aggregated by default; personal contact details, unrestricted production exports and new confidential data categories require separate approval.
+
 
 
