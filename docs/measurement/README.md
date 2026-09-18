@@ -26,11 +26,10 @@ This folder contains the current and historical Measure-phase data-collection ma
 - [Pilot Measure Observation — 28 August 2026](Pilot_Measure_Observation_2026-08-28.md) — pilot record that motivated the v1.1 two-level measurement architecture.
 - [Measure Observation — 31 August 2026](Measure_Observation_2026-08-31.md) — first official baseline session; cleanup/enrichment and the documented evidence that motivated the controlled v1.2 clarification.
 - [Measure Observation — 1 September 2026](Measure_Observation_2026-09-01.md) — second official baseline day, normalized to v1.2 with case context, non-blank fields, MAX evidence and post-session enrichment.
-- [Measure Observation — 8 September 2026](Measure_Observation_2026-09-08.md) — third official baseline session; raw transcription preserved with separate row-level enrichment. Both OBS-16 rows remain excluded for contamination.
-- [Measure Observation - 18 September 2026](Measure_Observation_2026-09-18.md) - morning and afternoon notebook transcription with Yijie's corrections and a dated link to the 31 August Primer-C case.
-- [Post-session enrichment for 8 and 18 September](enrichment/README.md) - task-register mapping, Van Weele stages, confidence, scope exclusions and timing eligibility for every active source row, with separate CSVs for each date.
+- [Measure Observation — 8 September 2026](Measure_Observation_2026-09-08.md) — third official baseline session; raw observations and post-session enrichment in the same file. Both OBS-16 rows remain excluded for contamination.
+- [Measure Observation - 18 September 2026](Measure_Observation_2026-09-18.md) - morning and afternoon observations, Yijie's corrections, the dated Primer-C reference and post-session enrichment in the same file.
 
-The historical two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes**. They describe the earlier broad scope. The separate enrichment for 8 and 18 September applies the later scope filter and reports its own coverage; neither day is silently added to those historical totals. A pooled comparison would require applying the same scope and timing definitions to all days.
+The historical two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes**. They describe the earlier broad scope. The enrichment within each 8 and 18 September observation file applies the later scope filter and reports its own coverage; neither day is silently added to those historical totals. A pooled comparison would require applying the same scope and timing definitions to all days.
 
 ## Related evidence
 
@@ -39,4 +38,5 @@ The historical two-day totals through **1 September** remain **351 net observed 
 - Detailed AS-IS task register: [Process Cleaned V1.5](../process/Process_Cleaned_V1.5.md)
 
 The repository is private. Company permission, as confirmed by the student on 2 September, allows the currently recorded buyer names and case-specific commercial values to remain for the authorized research audience. Public/thesis evidence remains anonymized or aggregated by default; personal contact details, unrestricted production exports and new confidential data categories require separate approval.
+
 

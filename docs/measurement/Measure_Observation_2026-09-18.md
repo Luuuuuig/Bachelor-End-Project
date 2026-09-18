@@ -8,7 +8,7 @@
 - **Session headings in the notebook:** 10:30–12:30 and 13:00–15:00
 - **Sources:** Five handwritten notebook photographs and Yijie's subsequent clarifications.
 
-The tables retain the source row order, repeated case IDs, activity codes, times, volumes, interruption counts and decision indicators. `/` preserves a handwritten slash; blank cells remain blank. Corrected values supplied by Yijie replace unclear handwriting. At Yijie's request, the Primer-C entry uses the dated case reference found in the earlier observation record. No workload totals or retrospective activity recoding have been added. Fully crossed-out rows are listed separately.
+The tables retain the source row order, repeated case IDs, activity codes, times, volumes, interruption counts and decision indicators. `/` preserves a handwritten slash; blank cells remain blank. Corrected values supplied by Yijie replace unclear handwriting. At Yijie's request, the Primer-C entry uses the dated case reference found in the earlier observation record. The original observation tables retain their source values. Post-session enrichment and coverage appear later in this file.
 
 **Source columns:** Case | Activity | Start | End | Volume | INT | DEC? | Note
 
@@ -123,17 +123,157 @@ The tables retain the source row order, repeated case IDs, activity codes, times
 
 Arno described Monday as quiet, Tuesday through Thursday as very busy (“gekhuis”), and Friday as quiet again. This is his description of the working week.
 
-## Crossed-out source entries
+---
 
-The following fully crossed-out rows are not included as active observations:
+## Post-session enrichment
 
-- OBS-07 REQ-mail, without retained times.
-- OBS-09 SEND, with a crossed-out 11:35 entry.
-- A row with a corrected case/activity label around 13:47–13:50, accompanied by crossed-out wording about waiting for approval.
-- OBS-25 REQ-exact and an associated crossed-out PO row beginning at 13:56.
+**Enrichment date:** 18 September 2026. The table below adds researcher classifications to the observations above. Original families, timing, volumes, INT and DEC values remain unchanged. These classifications have not received additional buyer validation.
 
-The active rows retain the confirmed corrections, including OBS-05 EXC at 11:25–11:31, OBS-11 CLAR ending at 11:52, OBS-21 PO at 13:42–13:43 with 27L, and OBS-21 CHECK at 14:02–14:22 with 29L.
+### Basis and conventions
 
-## Separate post-session enrichment
+Use the current 31-task register in [Process Cleaned V1.5](../process/Process_Cleaned_V1.5.md), the [14 September task crosswalk](../process/Van_Weele_Task_Crosswalk_2026-09-14.csv), and the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md), alongside [Measurement Protocol v1.3](Measurement_Protocol_v1.3.md). The task-purpose rules also follow *Van Weele framework from the task register*, rebuilt 18 September 2026 and supplied as `Van_Weele_Activity_Framework_2026-09-18(1).docx`. Source repository version before enrichment: `9bf8de870d1b4ffbd383304f7645c21a698eb9c7` for previously published material. The 18 September observation first appeared in `ea7fc35d29c8e8615b64bd14f18b9f9b14b2a4be`.
 
-The [18 September derived record](enrichment/Measure_Enriched_2026-09-18.csv) adds row-level task mapping, Van Weele stages, confidence, scope and timing eligibility. The [enrichment overview](enrichment/README.md) explains the rules and unresolved evidence. The source tables above retain their original values, including the dated Primer-C reference and the uncertain activity label.
+- **Source row:** one-based position across the active observation tables, in their written order. The date plus source row identifies an episode or untimed occurrence, not a unique PO. A returning case retains its origin date.
+- **Register status / confidence:** `Mapped` means supported registered work; `U` means described work outside the register; `Mixed` means registered plus unregistered work; `Unresolved` means insufficient evidence. `C` is confident, `P` probable and `?` unresolved. Confidence applies to the mapping or register-coverage judgment, so `U / C` is possible.
+- **Stage / confidence:** `VW1` specification, `VW2` supplier selection, `VW3` contracting, `VW4` ordering, `VW5` monitoring, `VW6` follow-up/evaluation. `MULTI` means evidenced inseparable stages; `UNKNOWN` means insufficient evidence. Stage confidence is separate from task confidence.
+- **Scope / quality:** scope is `INCLUDE`, `EXCLUDE_EXC`, `EXCLUDE_AFTERCARE`, `EXCLUDE_LOGISTICS` or `REVIEW_SCOPE`. Quality is independently `VALID`, `EXCLUDE_CONTAMINATED` or `UNCERTAIN`. Original EXC remains excluded. A different family does not make demonstrated aftercare or logistics eligible, and an EXC row does not exclude every other episode in the same case.
+- **Recorded / eligible minutes:** recorded minutes are end minus start under the original active-episode convention. Eligible minutes require `INCLUDE`, `VALID` and recorded timing. `n/a` means no duration is available or no duration is eligible, never zero. `partial` marks an observed segment of a longer episode. Untimed actions retain their occurrence without an estimated duration.
+
+Map by the task's purchasing purpose, not its family alone. Combined tasks retain their duration once; no task or stage split is invented. Task 23 requires evidence of forwarding an order, Task 15 of pre-order price comparison, and Task 26 of confirmation comparison. No system processing or another person's action becomes Arno's time. Added lines do not establish the full MAX sequence or a HOLD/ORD decision. Eligible family time remains usable when the detailed task or stage is unresolved.
+
+### Enrichment table
+
+| Source row / case / episode | Live family | Task ID(s) | Register status / confidence | Van Weele stage / confidence | Scope / quality | Recorded / eligible min | Enrichment note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1: OBS-01; 10:30 to 10:38 | CHECK | 26 | Mapped / C | VW5 / C | INCLUDE / VALID | 8 / 8 (partial) | Case clarification identifies an order-confirmation check. Only the observed 10:30-10:38 segment is timed; the activity began earlier and complete episode duration is unknown. |
+| 2: OBS-02; untimed | REQ-phone | unassigned | U / P | UNKNOWN / ? | INCLUDE / VALID | n/a / n/a | Case clarification identifies Kayne's information request about a price mismatch, not a new purchasing need. No Task 1 or specific transaction stage is inferred; intake duration is absent. |
+| 3: OBS-02; 10:38 to 10:43 | CLAR | unassigned | Unresolved / ? | UNKNOWN / ? | INCLUDE / VALID | 5 / 5 | Price-mismatch enquiry for Kayne is explicit, but its price sources and pre/post-order purpose are not. Retain eligible purchasing-information work without imputing Task 15 or 26. |
+| 4: OBS-03; untimed | REQ-phone | unassigned | U / P | VW5 / P | EXCLUDE_AFTERCARE / VALID | n/a / n/a | Phone intake belongs to the documented open-invoice and delivery-change enquiry in the immediately following episode. This is aftercare intake, not a new purchasing need; no reliable duration. |
+| 5: OBS-03; 10:43 to 10:46 | OTHER/EXC | unassigned | Unresolved / ? | VW5 / P | EXCLUDE_EXC / VALID | 3 / n/a | Original combined OTHER/EXC label contains EXC. Supplier contact about an open invoice and delivery change is excluded; no documented Finance return supports Task 30. Delivery follow-up provisionally supports monitoring. |
+| 6: OBS-01; 10:47 to 10:52 | CHECK | 26 | Mapped / P | VW5 / P | INCLUDE / VALID | 5 / 5 | Same-case resumption follows the explicitly identified order-confirmation check. Task 26 and monitoring are probable from that context; no correction or completion step is inferred. |
+| 7: OBS-01; 10:52 to 10:54 | OTHER | 28 | Mapped / P | VW5 / P | INCLUDE / VALID | 2 / 2 | Attaching a file to Exact follows this case's confirmation checks. Confirmation archiving is probable, but the file is not explicitly identified here and setting Bevestigd is not established. |
+| 8: OBS-01; 10:54 to 10:56 | SEND | unassigned | U / C | VW5 / C | EXCLUDE_AFTERCARE / VALID | 2 / n/a | Request to bring forward delivery of items on an existing PO is expediting/aftercare. Exclude this SEND independently of the eligible confirmation-check rows in the same case. |
+| 9: OBS-01 (2026-08-31); 10:58 to 10:59 | [uncertain] | unassigned | Unresolved / ? | UNKNOWN / ? | REVIEW_SCOPE / VALID | 1 / n/a | Dated Primer-C case link is retained. Calculator use and closing a tab do not establish what was calculated, a CHECK task, purchasing stage or scope. The one recorded minute is retained but not analyzed pending clarification. |
+| 10: OBS-04; untimed | REQ-mail | 1 | Mapped / P | VW4 / P | INCLUDE / VALID | n/a / n/a | Mail intake is linked by the case note to a defined request for six flags with an existing quotation; receipt of that purchasing need and ordering context are probable. No duration recorded. |
+| 11: OBS-04; 10:59 to 11:02 | PO | 17 | Mapped / C | VW4 / C | INCLUDE / VALID | 3 / 3 | Creation of a PO for six flags is explicit. The missing quotation and decision to leave the matter to Johan do not prove a specific approval-routing action or HOLD outcome. |
+| 12: OBS-04; untimed | SEND | unassigned | Unresolved / ? | VW4 / P | INCLUDE / VALID | n/a / n/a | Untimed SEND belongs to the flags order, but recipient and purpose are unspecified and the matter was left to Johan. Do not infer supplier forwarding or approval routing. |
+| 13: OBS-05; untimed | REQ-mail | 31 | Mapped / P | VW5 / P | EXCLUDE_AFTERCARE / VALID | n/a / n/a | Mail records item unavailability; the same case explicitly concerns dropping unavailable items from an existing order. Intake of that issue is aftercare, with Task 31 coverage and monitoring provisional. |
+| 14: OBS-05; 11:05 to 11:06 | CLAR | unassigned | Unresolved / ? | UNKNOWN / ? | REVIEW_SCOPE / VALID | 1 / n/a | No CLAR description is recorded. The surrounding unavailability case makes scope uncertain, but is not enough to exclude this entire case or impute Task 31. Blank DEC is preserved as clarified by Yijie. |
+| 15: OBS-06; 11:06 to 11:11 | OTHER | unassigned | Unresolved / ? | UNKNOWN / ? | REVIEW_SCOPE / VALID | 5 / n/a | Lloyd certification scheduling, holiday availability and information forwarding are described. The evidence does not separate service-order preparation from service-delivery coordination/aftercare, so scope and stage remain unresolved. |
+| 16: OBS-06; untimed | SEND | unassigned | Unresolved / ? | UNKNOWN / ? | REVIEW_SCOPE / VALID | n/a / n/a | Certification communication belongs to the ambiguous service-scheduling episode. Within one minute is not a reliable measured duration; preserve the occurrence without assigning zero or one minute or Task 23. |
+| 17: OBS-07; 11:11 to 11:15 | CHECK | unassigned | Unresolved / ? | UNKNOWN / ? | INCLUDE / VALID | 4 / 4 | The check concerns an order for a multi-component article, but neither the checked field nor pre/post-order purpose is recorded. Eligible family time remains usable without guessing Task 15/26 or a stage. |
+| 18: OBS-08; untimed | REQ-phone | unassigned | U / P | UNKNOWN / ? | EXCLUDE_LOGISTICS / VALID | n/a / n/a | Case clarification identifies a direct call leading to collection of existing pieces. This intake belongs to the documented warehouse/collection coordination rather than a new supplier purchasing requirement. Collection coordination does not establish a purchasing-process stage. |
+| 19: OBS-08; 11:15 to 11:17 | CLAR | unassigned | U / C | UNKNOWN / ? | EXCLUDE_LOGISTICS / VALID | 2 / n/a | Finding existing warehouse pieces for direct collection is logistics coordination. It is not Task 6 assessment of stock for a new order's quantity or timing. No purchasing-order follow-up is established, so the stage remains unresolved. |
+| 20: OBS-08; 11:17 to 11:19 | CLAR | unassigned | U / C | UNKNOWN / ? | EXCLUDE_LOGISTICS / VALID | 2 / n/a | Call with Maurice establishes available pieces for collection. Logistics scope is explicit, but no supplier purchasing-order follow-up is evidenced; the stage remains unresolved. |
+| 21: OBS-08; 11:19 to 11:20 | CLAR | unassigned | U / P | UNKNOWN / ? | EXCLUDE_LOGISTICS / VALID | 1 / n/a | Forwarding the immediately preceding warehouse-availability information is part of the same collection coordination. Do not reinterpret the raw CLAR as supplier PO forwarding. A purchasing-process stage is not established. |
+| 22: OBS-08; 11:20 to 11:22 | CLAR | unassigned | U / C | UNKNOWN / ? | EXCLUDE_LOGISTICS / VALID | 2 / n/a | Instruction to prepare three pieces for collection is logistics work. No assumption is made about the remaining requested pieces. The purchasing-stage connection is not established. |
+| 23: OBS-02; 11:23 to 11:25 | OTHER | 28 | Mapped / C | VW5 / C | INCLUDE / VALID | 2 / 2 | Attaching the order confirmation to the PO is the archiving component of Task 28. Setting Bevestigd and goods receipt are not established. |
+| 24: OBS-05; 11:25 to 11:31 | EXC | 31 | Mapped / P | VW5 / P | EXCLUDE_EXC / VALID | 6 / n/a | Supplier/item unavailability and possible removal from an order match Task 31 provisionally. Original EXC is excluded; the uncertain volume does not become a confirmed line count and no task/stage time split is invented. |
+| 25: OBS-09; 11:31 to 11:35 | PO | 17;31 | Mapped / P | VW4 / P | REVIEW_SCOPE / VALID | 4 / n/a | One PO episode combines two original lines with the unavailable OBS-05 replacement for another supplier. Ordering work is apparent, but eligible original demand and excluded unavailability response cannot be separated in its four minutes. Retain written 2L despite the note's total of three lines; do not split time by lines. |
+| 26: OBS-10; untimed | REQ-exact | 1 | Mapped / P | VW4 / P | INCLUDE / VALID | n/a / n/a | Exact intake leads to the specifically documented order-preparation work in this case. Defined-demand intake is probable; detailed Exact review/navigation is not recorded. |
+| 27: OBS-10; 11:35 to 11:42 | PO | 17 | Mapped / P | VW4 / C | INCLUDE / VALID | 7 / 7 | Preparing drawings for attachment to this PO and listing missing drawings are explicit order preparation. Task 17 provides probable coverage; no price check or successful attachment is inferred. |
+| 28: OBS-10; 11:42 to 11:44 | CLAR | unassigned | U / P | VW4 / C | INCLUDE / VALID | 2 / 2 | Retrieving missing drawings and requesting them from an engineer for this PO are explicit. The register's validation task does not specifically cover this retrieval/enquiry; no historical-PO search is reported. |
+| 29: OBS-11; untimed | REQ-exact | 1 | Mapped / P | VW4 / P | INCLUDE / VALID | n/a / n/a | Exact intake is linked to subsequent PO preparation for this case. Task 1 and ordering context are probable; duration is absent. |
+| 30: OBS-11; 11:46 to 11:48 | PO | 17 | Mapped / C | VW4 / C | INCLUDE / VALID | 2 / 2 | A line is added while preparing the PO and further enquiry is needed. Added lines alone do not establish same-supplier MAX or Tasks 7-11. |
+| 31: OBS-11; 11:48 to 11:52 | CLAR | unassigned | Unresolved / ? | VW4 / P | INCLUDE / VALID | 4 / 4 | Obtaining information from colleagues also includes discussion of the OBS-10 drawing. Keep this combined four-minute episode once under its recorded case; no cross-case or task time split is supported. |
+| 32: OBS-13; 11:52 to 11:55 | PO | 17 | Mapped / P | VW4 / P | REVIEW_SCOPE / VALID | 3 / n/a | PO work is recorded and the spanning case note describes a requested 15 October delivery and supplier quantity shortage. Initial order preparation versus response to an existing unavailability issue cannot be separated; preserve the DEC flag without inventing a specific decision task. |
+| 33: OBS-13; 11:56 to 11:58 | SEND | 23 | Mapped / P | VW4 / P | REVIEW_SCOPE / VALID | 2 / n/a | SEND follows OBS-13 PO work, so supplier-order communication is probable. The spanning note also describes partial availability/delivery arrangements; scope cannot be separated from the unavailability response, and no Task 23 confirmation is asserted. |
+| 34: OBS-09; 11:58 to 11:59 | SEND | 23 | Mapped / P | VW4 / P | REVIEW_SCOPE / VALID | 1 / n/a | SEND probably communicates the OBS-09 order, but its content is unspecified and that order combines original demand with the excluded OBS-05 replacement response. No separable eligible sending duration is established. |
+| 35: OBS-03; 11:59 to 12:01 | EXC | unassigned | U / P | VW5 / P | EXCLUDE_EXC / VALID | 2 / n/a | Supplier assurance about avoiding a repeated delay is aftercare context. EXC remains excluded; no specific registered buyer task or Finance return is demonstrated. |
+| 36: OBS-03; 12:01 to 12:08 | CHECK | 26 | Mapped / P | VW5 / P | INCLUDE / VALID | 7 / 7 | Explicit post-order price checking is eligible routine monitoring, independently of this case's earlier EXC. Task 26 is only a probable confirmation-comparison interpretation; the confirmation document is not explicitly identified. |
+| 37: OBS-09; 12:08 to 12:13 | CHECK | 26 | Mapped / P | VW5 / P | INCLUDE / VALID | 5 / 5 | The separately observed post-order price check is routine control, not automatically the earlier mixed-scope PO episode. Task 26 and confirmation monitoring are provisional because the compared documents are unspecified. |
+| 38: OBS-11; 12:15 to 12:17 | CHECK | 26 | Mapped / P | VW5 / P | INCLUDE / VALID | 2 / 2 | Explicit post-order price checking provisionally fits confirmation monitoring. The record does not identify the compared documents, so Task 26 is probable rather than established; no correction task is added. |
+| 39: OBS-12; 12:17 to 12:18 | EXC | unassigned | U / C | VW6 / P | EXCLUDE_EXC / VALID | 1 / n/a | Tracing the purpose of an already received item is post-receipt aftercare. EXC exclusion applies; no Toewijzen action, known production/sales/VRD link or resolution is inferred. |
+| 40: OBS-10; 12:19 to 12:21 | SEND | unassigned | Unresolved / ? | VW4 / P | INCLUDE / UNCERTAIN | 2 / n/a | Original SEND row records a drawing received from the engineer. Order-preparation purpose is probable, but receipt alone does not identify an active buyer action. Preserve two recorded minutes and original family; analysis minutes remain blank and no Task 23 is assigned. |
+| 41: OBS-10; 12:21 to 12:25 | CLAR | 4 | Mapped / C | VW4 / C | INCLUDE / VALID | 4 / 4 | Checking that the drawing and its information are complete validates supplied article/specification information for this already defined PO. No new requirement definition is established. |
+| 42: OBS-14; 13:08 to 13:10 | EXC | unassigned | U / P | UNKNOWN / ? | EXCLUDE_EXC / VALID | 2 / n/a | Discussing goods collection is excluded EXC and logistics-related coordination. No supplier purchasing-order follow-up or completed receipt is established, so the purchasing stage remains unresolved. |
+| 43: OBS-15; 13:10 to 13:12 | EXC | unassigned | U / C | UNKNOWN / ? | EXCLUDE_EXC / VALID | 2 / n/a | Attaching a certificate is explicitly EXC. It is not order-confirmation archiving under Task 28; the transaction stage of this certificate work is not established. |
+| 44: OBS-16; untimed | REQ-mail | unassigned | U / C | VW5 / C | EXCLUDE_AFTERCARE / VALID | n/a / n/a | Request for status of existing POs is aftercare intake, not a new purchasing need. It is excluded independently from the raw REQ-mail family; no intake duration is supplied. |
+| 45: OBS-16; 13:12 to 13:17 | EXC | unassigned | U / C | VW5 / C | EXCLUDE_EXC / VALID | 5 / n/a | Existing-PO delivery-status checking and information forwarding are monitoring/aftercare. EXC remains excluded; expected receipt of one item is not treated as confirmed receipt. |
+| 46: OBS-17; 13:17 to 13:23 | EXC | unassigned | U / P | VW5 / P | EXCLUDE_EXC / VALID | 6 / n/a | Delivery follow-up and wrong-size/revision problem are excluded EXC. Monitoring is probable; the meaning of revisie is tentative and completed receipt is not confirmed. |
+| 47: OBS-18; 13:23 to 13:26 | SEND | 23 | Mapped / P | VW4 / C | INCLUDE / VALID | 3 / 3 | Forwarding an approved PO is explicit and supplier forwarding under Task 23 is probable; the recipient is not named. Johan's approval is not assigned any of Arno's minutes, and no additional post-approval task is inferred. |
+| 48: OBS-19; 13:27 to 13:37 | CLAR | unassigned | U / P | VW2 / P | INCLUDE / VALID | 10 / 10 | Cheaper-supplier comparison and whole-pallet price enquiry support supplier-selection activity provisionally. This is not necessarily current supplier versus Exact price comparison (Task 15), nor observed negotiation/contracting. |
+| 49: OBS-19; untimed | SEND | unassigned | U / P | VW2 / P | INCLUDE / VALID | n/a / n/a | Untimed SEND belongs to the documented supplier-price enquiry for paper sheets; selection-related communication is probable. Its content/recipient are not repeated in this row, so no supplier-PO forwarding task is assigned. |
+| 50: OBS-20; 13:40 to 13:41 | SEND | 23 | Mapped / P | VW4 / C | INCLUDE / VALID | 1 / 1 | SEND and an approved-PO note support ordering communication. Supplier forwarding is probable only because recipient/action details are omitted; Johan's approval is not Arno's timed action. |
+| 51: OBS-21; untimed | REQ-exact | 1 | Mapped / P | VW4 / P | INCLUDE / VALID | n/a / n/a | Exact intake is linked to the subsequent defined-demand PO/MAX work. No separate Task 12 navigation or decision is inferred. |
+| 52: OBS-21; 13:42 to 13:43 | PO | 7;9;17 | Mapped / P | VW4 / C | INCLUDE / VALID | 1 / 1 | Case clarification explicitly associates maximisatie with this PO row; 24 original lines and 27L support probable consolidation coverage. Keep the combined episode once; no post-MAX HOLD/proceed decision, task-level time split or changed DEC value is inferred. |
+| 53: OBS-21; 13:43 to 13:44 | CLAR | unassigned | Unresolved / ? | VW4 / P | INCLUDE / VALID | 1 / 1 | Description is blank, but this CLAR occurs between documented steps preparing the same order. Ordering purpose is probable; no specific enquiry, validation or decision task is assigned. |
+| 54: OBS-21; 13:44 to 13:45 | PO | 17 | Mapped / P | VW4 / P | INCLUDE / VALID | 1 / 1 | PO preparation continues between this case's documented order-processing/clarification steps. Task 17 is probable; the unchanged 27L does not establish a new MAX search or decision. |
+| 55: OBS-21; 13:45 to 13:47 | CLAR | 4 | Mapped / P | VW4 / C | INCLUDE / VALID | 2 / 2 | Checking item information and writing it down for this order provisionally maps to validation. Waiting for fiatteren is context, not evidence of a separately measured inactive interval or an approval-routing action; no waiting minutes are invented. |
+| 56: OBS-21; 13:47 to 13:51 | PO | 9;17 | Mapped / P | VW4 / C | INCLUDE / VALID | 4 / 4 | Another two lines are added within the documented MAX/PO case. Task 9 coverage is probable from that case context; the combined order-preparation interval is counted once and no new search or decision time is inferred. |
+| 57: OBS-22; untimed | REQ-exact | 1 | Mapped / P | VW4 / P | INCLUDE / VALID | n/a / n/a | Exact intake belongs to the ensuing specified PO/MAX work. Task 1 is probable and the occurrence remains untimed. |
+| 58: OBS-22; 13:51 to 13:52 | PO | 7;9;17 | Mapped / P | VW4 / C | INCLUDE / VALID | 1 / 1 | Maximisatie and adding three lines to three original lines are explicit in a single PO episode. The register's same-supplier search/consolidation coverage is probable; no post-MAX outcome or task-duration split is reconstructed. |
+| 59: OBS-22; 13:56 to 13:58 | SEND | 23 | Mapped / P | VW4 / P | INCLUDE / VALID | 2 / 2 | SEND follows this case's PO preparation and is probably order forwarding. Recipient/content are unspecified, so Task 23 remains provisional; preserve its original row position despite later clock time. |
+| 60: OBS-23; untimed | REQ-exact | 1 | Mapped / P | VW4 / P | INCLUDE / VALID | n/a / n/a | Exact intake precedes this case's documented PO/MAX attempt. Defined-demand intake is probable; no duration recorded. |
+| 61: OBS-23; 13:52 to 13:53 | PO | 7;17 | Mapped / P | VW4 / C | INCLUDE / VALID | 1 / 1 | An unsuccessful maximisatie attempt during PO work supports probable MAX-search/order-preparation coverage. It does not establish MAX=NONE, a HOLD outcome, Tasks 8-11 or a separately timed decision. |
+| 62: OBS-23; 13:59 to 14:00 | SEND | 23 | Mapped / P | VW4 / P | INCLUDE / VALID | 1 / 1 | The SEND row follows this case's PO/MAX attempt; supplier-order communication is probable but not explicit. No inference of HOLD/proceed outcome is needed for the preserved occurrence. |
+| 63: OBS-24; untimed | REQ-exact | 1 | Mapped / P | VW4 / P | INCLUDE / VALID | n/a / n/a | Exact intake belongs to the following documented PO/MAX attempt. The crossed-out start is preserved and supplies no duration; Task 1 is provisional. |
+| 64: OBS-24; 13:54 to 13:56 | PO | 7;17 | Mapped / P | VW4 / C | INCLUDE / VALID | 2 / 2 | An unsuccessful maximisatie attempt is documented during PO preparation. Retain combined time and do not infer the reason, exact MAX result, HOLD/proceed outcome or Tasks 8-11. |
+| 65: OBS-25; 14:00 to 14:01 | EXC | unassigned | Unresolved / ? | UNKNOWN / ? | EXCLUDE_EXC / VALID | 1 / n/a | Only the EXC family and one-minute interval are recorded. Apply the explicit EXC exclusion without inventing a task or purchasing stage. |
+| 66: OBS-21; 14:02 to 14:22 | CHECK | unassigned | Unresolved / ? | VW4 / C | INCLUDE / VALID | 20 / 20 | Explicit pre-check with one mismatch belongs to order preparation. The source does not name the checked price/field, so neither Task 15 nor Task 26 is imputed. Twenty recorded minutes remain one episode. |
+| 67: OBS-21; untimed | OTHER | unassigned | Unresolved / ? | VW4 / C | INCLUDE / VALID | n/a / n/a | Need for Johan's approval again is an ordering-control occurrence. Actual routing, authorization-limit checking and Johan's approval action are not separately established, so no Task 18/20/21 or duration is invented. |
+| 68: OBS-26; 14:23 to 14:26 | EXC | unassigned | U / C | UNKNOWN / ? | EXCLUDE_EXC / VALID | 3 / n/a | Missing-certificate investigation is explicit EXC aftercare. The delivery/transaction position is not established, so no automatic VW6 or confirmation-archiving task is assigned. |
+| 69: OBS-26; 14:26 to 14:34 | EXC | unassigned | U / C | UNKNOWN / ? | EXCLUDE_EXC / VALID | 8 / n/a | Explaining the certificate issue to the project manager and contacting the supplier remain excluded EXC. The purchasing stage is unresolved; no multi-task or stage split is supported. |
+| 70: OBS-27; untimed | REQ-phone | unassigned | U / P | VW5 / P | EXCLUDE_AFTERCARE / VALID | n/a / n/a | Phone intake is linked to the immediately following documented backorder enquiry. It is aftercare intake rather than a new purchasing need; no duration recorded. |
+| 71: OBS-27; 14:36 to 14:39 | EXC | unassigned | U / P | VW5 / P | EXCLUDE_EXC / VALID | 3 / n/a | Backorder follow-up is monitoring/aftercare, provisionally interpreted from the short note. The 23 September date is retained as context, not proof of actual delivery. |
+| 72: OBS-28; 14:41 to 14:44 | CLAR | unassigned | U / P | UNKNOWN / ? | INCLUDE / VALID | 3 / 3 | Retrieval of a relevant quotation is explicit purchasing-information work, but the transaction purpose is not. Do not infer supplier selection, contracting, order preparation, historical-PO searching or Task 15 solely from quotation retrieval. |
+| 73: OBS-29; 14:44 to 14:50 | CHECK | unassigned | Unresolved / ? | UNKNOWN / ? | INCLUDE / VALID | 6 / 6 | Checking quantity-related purchase-price differences and the purchase/sales-price relationship is described, but the compared price sources and transaction stage are not. No Task 15/26 or Finance-return task is imposed; assess this eligible CHECK independently of the following EXC screenshot work. Retain the decision flag without duplicating decision time. |
+| 74: OBS-29; 14:50 to 14:55 | EXC | unassigned | U / C | UNKNOWN / ? | EXCLUDE_EXC / VALID | 5 / n/a | Screenshot documentation of the price difference is explicitly EXC and remains excluded. The 410-euro comparison basis and transaction stage are unspecified; do not assign Task 28 or allocate the minutes to a presumed price check. |
+
+## Measurement-quality and analysis notes
+
+### Session coverage
+
+| Measure | Value |
+| --- | --- |
+| Active source rows enriched | 74 |
+| Rows with recorded start/end pairs | 57 |
+| Untimed occurrences | 17 |
+| All recorded interval minutes before exclusions | 196 |
+| Eligible rows including untimed occurrences | 42 |
+| Eligible timed rows | 31 |
+| Eligible recorded minutes | 121 |
+| Eligible rows assigned a single stage, including provisional assignments | 37 |
+| Eligible minutes assigned a single stage, including provisional assignments | 103 |
+| Eligible minutes with UNKNOWN stage | 18 |
+| Eligible minutes with MULTI stage | 0 |
+
+### Scope and data-quality reconciliation
+
+Each row appears in one audit bucket below. Data-quality exclusions take precedence over scope in this summary; both fields remain separate in the enrichment table. Recorded minutes include excluded intervals for audit and are not an eligible-work total.
+
+| Audit bucket | Rows | Recorded minutes |
+| --- | --- | --- |
+| INCLUDE | 42 | 121 |
+| EXCLUDE_AFTERCARE | 5 | 2 |
+| EXCLUDE_EXC | 13 | 47 |
+| REVIEW_SCOPE | 8 | 17 |
+| EXCLUDE_LOGISTICS | 5 | 7 |
+| UNCERTAIN | 1 | 2 |
+| Total | 74 | 196 |
+
+### Stage coverage within eligible work
+
+This table describes classification coverage of the included subset. It is not a complete workload profile or a comparison between days. Provisional assignments remain separate from confident assignments.
+
+| Stage | Confidence | Eligible rows including untimed | Eligible recorded minutes |
+| --- | --- | --- | --- |
+| VW5 | C | 2 | 10 |
+| UNKNOWN | ? | 5 | 18 |
+| VW5 | P | 5 | 21 |
+| VW4 | P | 13 | 9 |
+| VW4 | C | 15 | 53 |
+| VW2 | P | 2 | 10 |
+
+### Evidence and interpretation limits
+
+- Primer-C retains the dated reference to OBS-01 from 31 August. The calculator action remains unclassified; it is not retrospectively recoded as CHECK.
+- The first CHECK began before 10:30. Its eight recorded minutes represent only the observed segment and must not be treated as a complete episode duration.
+- OBS-05 CLAR retains its blank decision field. The unclear EXC volume is not used as a numeric line denominator.
+- OBS-09 combines original demand and an unavailable item's replacement. Its written 2L and the note's three-line total remain distinct; minutes are not allocated by line count.
+- OBS-10's original SEND row describes receipt of a drawing. Its two recorded minutes remain visible, but receipt alone does not establish active buyer work, so quality remains uncertain and eligible minutes are absent.
+- OBS-23 and OBS-24 record unsuccessful MAX attempts. The reason for failure and final HOLD/ORD decisions remain unrecorded.
+- OBS-29 retains Arno's screenshot decision and the confirmed EUR 410 difference. The comparison basis remains unspecified; no unit-price effect, saving or loss total is calculated.
+- The notebook headings are 10:30 to 12:30 and 13:00 to 15:00. They do not establish 240 minutes of net observation. Gaps, breaks and observer-unavailable intervals are not reconstructed.
+
+No occurrence rate is calculated without a verified net-observation denominator. Interrupted or combined episodes do not establish pure decision time or complete case lead time. The later overlapping-time proposal is not applied retrospectively. These results are not silently added to the historical 351 net observed / 265 timed-minute totals for 31 August and 1 September. A pooled comparison requires common scope and timing definitions. Remaining uncertainty appears in the enrichment table; no focal case or improvement ranking is inferred.
