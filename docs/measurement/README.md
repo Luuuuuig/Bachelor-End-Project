@@ -26,9 +26,11 @@ This folder contains the current and historical Measure-phase data-collection ma
 - [Pilot Measure Observation — 28 August 2026](Pilot_Measure_Observation_2026-08-28.md) — pilot record that motivated the v1.1 two-level measurement architecture.
 - [Measure Observation — 31 August 2026](Measure_Observation_2026-08-31.md) — first official baseline session; cleanup/enrichment and the documented evidence that motivated the controlled v1.2 clarification.
 - [Measure Observation — 1 September 2026](Measure_Observation_2026-09-01.md) — second official baseline day, normalized to v1.2 with case context, non-blank fields, MAX evidence and post-session enrichment.
-- [Measure Observation — 8 September 2026](Measure_Observation_2026-09-08.md) — third official baseline session; morning handwritten notes transcribed/polished without adding post-session interpretation. OBS-16 is explicitly flagged from the source as contaminated and excluded from interpretation pending clarification.
+- [Measure Observation — 8 September 2026](Measure_Observation_2026-09-08.md) — third official baseline session; raw transcription preserved with separate row-level enrichment. Both OBS-16 rows remain excluded for contamination.
+- [Measure Observation - 18 September 2026](Measure_Observation_2026-09-18.md) - morning and afternoon notebook transcription with Yijie's corrections and a dated link to the 31 August Primer-C case.
+- [Post-session enrichment for 8 and 18 September](enrichment/README.md) - task-register mapping, Van Weele stages, confidence, scope exclusions and timing eligibility for every active source row, with separate CSVs for each date.
 
-The cleaned two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes**. The 8 September session has been added as source evidence but is **not yet included in those cross-day totals** in this transcription-only update.
+The historical two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes**. They describe the earlier broad scope. The separate enrichment for 8 and 18 September applies the later scope filter and reports its own coverage; neither day is silently added to those historical totals. A pooled comparison would require applying the same scope and timing definitions to all days.
 
 ## Related evidence
 

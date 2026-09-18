@@ -86,3 +86,7 @@ The notebook contains a crossed-out OBS-15 CLAR row beginning at 12:04 with a no
 ## Transcription boundary
 
 This file intentionally stops at transcription. It does not calculate a workload profile, cross-day totals or a post-session analytical classification.
+
+## Separate post-session enrichment
+
+The [8 September derived record](enrichment/Measure_Enriched_2026-09-08.csv) adds row-level task mapping, Van Weele stages, confidence, scope and timing eligibility. It was prepared on 18 September 2026. The [enrichment overview](enrichment/README.md) explains the rules and unresolved evidence. The source table above is unchanged; both OBS-16 rows remain excluded for contamination.
