@@ -113,7 +113,7 @@ The broad workload construct is defined in `Workload_Definition.md` and uses a l
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Detailed live timing rules remain in `../measurement/Measurement_Protocol_v1.3.md`. The [14 September scope addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) applies the logistics and EXC exclusion and adds post-session phase coding. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
+Detailed live timing rules remain in `../measurement/Measurement_Protocol_v1.3.md`. The [14 September scope addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) applies the logistics and EXC exclusion and governs post-session classification. The [21 September purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md) now defines concrete analytical activities within Van Weele stages, linked to the unchanged task register. The seven live families remain; full activity labels, separate task/stage/activity confidence and assignment reasons are added after observation. Combined and unresolved work remains explicit, preserving earlier measurements without invented timing splits. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
 
 - frequency;
 - active processing time;
@@ -140,7 +140,7 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 ### Current Measure sequencing
 
 1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
-2. Three official Arno sessions are recorded, including the 8 September transcription with the OBS-16 data-quality exclusion. Historical summaries currently cover two sessions: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Their historical totals are **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broader scope. These are different quantities and are not updated three-session or EXC-filtered totals.
+2. Four official Arno sessions are recorded through 18 September, in addition to the 28 August pilot. The 21 September activity classification covers all five records; the pilot remains separate and the 8 September OBS-16 contamination exclusion remains. Historical summaries below cover only two sessions: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Their historical totals are **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broader scope. These are different quantities and are not updated four-session or EXC-filtered totals. Current included profiles and their unresolved coverage are reported in each observation file and the consolidated activity dataset.
 3. `../measurement/Measurement_Protocol_v1.3.md` is controlled for observations from 2 September onward. Its live fields/timing rules remain comparable with v1.2, while its MAX interpretation, five-day coverage rule and repository governance are updated.
 4. Use five Arno observation days as the initial review point, then assess coverage, stability and saturation under the 3 September guidance. Collect targeted Dennis evidence; 10 September explicitly permits a different quantity when interpretable patterns can be established. Five working days is not automatically interpreted as 40 net observed hours.
 5. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.
@@ -314,18 +314,18 @@ Processing-time reduction alone should not automatically be reported as mental-w
 
 # 7. Immediate research actions
 
-1. Use the v1.3 live timing structure together with the 14 September scope addendum and Van Weele crosswalk. Preserve original codes and add phase assignments after the session.
-2. Continue official exploratory baseline observations after the recorded 31 August, 1 September and 8 September sessions; reach five distinct working days and then apply the predeclared coverage review rather than substituting an unconfirmed 40-net-hour target.
+1. Use the v1.3 live timing structure with the scope addendum and the 21 September stage-organized activity list. Preserve original codes, then add supported analytical activities, stages and separate confidence/reasons after the session. The 17 September suggestion of overlapping activity timing remains a separate unimplemented proposal; this classification update preserves original timing conventions.
+2. Continue official exploratory baseline observations after the recorded 31 August, 1 September, 8 September and 18 September sessions; reach five distinct working days and then apply the predeclared coverage review rather than substituting an unconfirmed 40-net-hour target.
 3. Complete post-session enrichment immediately after each block, mapping to detailed Task IDs only where evidence supports it.
 4. Record MISS, interruptions, J/EXP and recurring unmapped activities consistently; do not silently reconstruct missing information.
 5. Ask Johan for approved aggregated or exportable PO-volume information (for example PO count and PO-line count by week/month) as a supplement, not a prerequisite for observation.
 6. Preserve pre-PO and post-confirmation price control as separate analytical categories during enrichment.
 7. Continue CTA-informed notes around maximalisatie/hold, request validation, clarification and exception cases where tacit cues become visible.
 8. Exclude EXC and logistics from thesis timed analysis and candidate selection. Preserve historical raw evidence, record scope interruptions without adding them to adjacent included episodes, and retain unresolved scope flags for review.
-9. Produce an included-work profile for Arno and a separate Dennis pattern summary. Add Task-ID and Van Weele analysis where mapping confidence supports it. Use the Dennis guide to prepare the scheduled discovery sessions.
+9. Produce an included-work profile for Arno and a separate Dennis pattern summary. Add analytical-activity, Task-ID and Van Weele analysis where the respective confidence fields support it; retain combined/unresolved buckets and do not duplicate minutes. Use the Dennis guide to prepare the scheduled discovery sessions.
 10. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
 11. Run the veto gates, student–academic-supervisor swing weighting, anchored evidence scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
-12. Define and freeze the focal case's active-handling-time endpoint, quality rubric, `Δ` and `δ` before artifact development/formal evaluation.
+12. Justify and freeze the focal case's workload endpoint, quality rubric, `Δ` and `δ` before artifact development/formal evaluation.
 13. Confirm the selected focal case and evaluation design with the university supervisor before DSRM artifact development.
 
 
@@ -340,4 +340,5 @@ Goodhue, D. L., & Thompson, R. L. (1995). Task-technology fit and individual per
 Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In P. A. Hancock & N. Meshkati (Eds.), *Human Mental Workload* (pp. 139–183). Elsevier. https://doi.org/10.1016/S0166-4115(08)62386-9
 
 Triantaphyllou, E., & Sánchez, A. (1997). A sensitivity analysis approach for some deterministic multi-criteria decision-making methods. *Decision Sciences, 28*(1), 151–194. https://doi.org/10.1111/j.1540-5915.1997.tb01306.x
+
 

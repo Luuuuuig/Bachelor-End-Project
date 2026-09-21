@@ -1,5 +1,7 @@
 # Van Weele activity mapping
 
+> **Superseded as the current classification guide on 21 September.** Use the [Purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md), which organizes concrete activities under the six stages. The dated crosswalk below remains historical provenance, including its earlier eight-code description. Current live recording uses seven families; historical EXC remains excluded. No fixed code-to-stage conversion should be applied to observations.
+
 Prepared 14 September 2026 for the category-alignment action from the 10 September academic meeting. This is a researcher crosswalk for review with the buyers and academic supervisor. It maps all eight existing codes and all 31 registered tasks. It does not claim completed row-level enrichment of the baseline observations.
 
 ## How to read the mapping
@@ -100,3 +102,4 @@ Direct means that the registered task description identifies its process purpose
 - [Scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md), filtering and denominator rules.
 
 Buyer review should resolve the boundary between specification clarification and order preparation, the purpose of price comparisons, and the administration around supplier changes. Complete Dennis's actual task inventory before treating the tactical stages as empirically mapped. Retain UNKNOWN when the record cannot support a stage.
+

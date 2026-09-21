@@ -1,6 +1,6 @@
 # Process Documentation
 
-**Status:** Navigation page, synchronized 2 September 2026.
+**Status:** Navigation page, activity-framework links synchronized 21 September 2026.
 
 This folder separates the **current AS-IS process** from the **provisional TO-BE hypothesis**.
 
@@ -21,6 +21,10 @@ Authoritative AS-IS process file. It owns:
 
 It does **not** own the final thesis-candidate ranking, workload theory, detailed live measurement rules or future-state design. Useful opportunity context is intentionally retained here even when candidate-selection status is owned by the methodology file.
 
+### [Purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md)
+
+Current analytical activity list organized by Van Weele's six stages, with specific definitions, boundaries, register links and assignment examples. Keeps the seven live families and historical measurements. Its row-level application is in the observation documents and [consolidated dataset](../measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv). The [14 September crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md) and related CSV remain historical reference, not the current classification starting point.
+
 ### `TO_BE_Working_Hypothesis_v0.1.md`
 
 Provisional future-state design hypothesis. It owns:
@@ -40,3 +44,4 @@ It is not yet the selected final process or artifact.
 - Formal SOP/WI evidence: `../company-documentation/Official_Document_Register_2026-08-21.md`
 
 The bridge from AS-IS evidence to an accepted TO-BE design is handled through DMAIC Measure/Analyze. Current sequence: pilot → v1.2/v1.3 baseline → five-day coverage review → Analyze/technical feasibility → gated and sensitivity-tested focal-case selection → evaluation-protocol freeze → Improve/DSRM.
+
