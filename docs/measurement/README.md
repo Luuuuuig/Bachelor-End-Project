@@ -9,6 +9,8 @@ This folder contains the current and historical Measure-phase data-collection ma
 
 ## Activity-list update of 21 September
 
+Download the [Van Weele activity framework and observations, Excel](Van_Weele_Activity_Framework_and_Observations_2026-09-21.xlsx). The workbook contains two sheets, **Activity list** and **Observations**, with the definitions and all 259 retained rows. It matches the 21 September framework and CSV below.
+
 Use the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md) for post-session classification. It defines concrete activities within the six stages, rather than using a fixed code-to-stage conversion. The seven live families and original timing rules remain. The [consolidated enriched dataset](Activity_Framework_Enriched_Observations_2026-09-21.csv) covers all 259 retained log rows from 28 August, 31 August, 1 September, 8 September and 18 September, including the pilot break/gap. Each original file contains the same activity, confidence and reasoning fields. Pilot evidence remains separate; unresolved activities remain usable at family level where scope and quality allow.
 
 This update changes no recorded or eligible duration. Included exact minutes remain 59 for the pilot, then 91, 116, 32 and 121 for the four baseline sessions respectively. The pilot's two approximate minutes remain separate. Four corrections to prior stage classifications are documented in the framework and affected observation files; all concern records already excluded or under scope review. The update does not establish Measure sufficiency or a representative daily workload.
