@@ -18,7 +18,33 @@ The current literature does not justify adding indicators with different meaning
 
 ---
 
+## Plan of Work reference check, 22 September 2026
+
+All five references in the current [Plan of Work](../docs/proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) were already recorded in the repository before this check. Four appeared in this register; Bäckstrand et al. appeared in the purchasing-framework documents and is now included under Confirmed use.
+
+**A recorded reference is not the same as a stored PDF.** None of the five exact publications cited in the Plan of Work has a PDF stored in `literature/open-access/`. Existing DOI and full-text links provide their access routes. The stored Peffers PDF is a related 2006 conference paper, not the 2007 journal article. This check confirms repository presence and use in the proposal; it does not establish that every full text has been read.
+
+| Reference used in the Plan of Work | Purpose in the proposal | Existing repository evidence | Access and file status |
+|---|---|---|---|
+| Bäckstrand et al. (2019) | Van Weele's purchasing stages and the operational/tactical process context | [Activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md) and [earlier mapping](../docs/process/Van_Weele_Activity_Mapping_2026-09-14.md), both explicitly cite section 3.2 and Figure 3 | Existing [university-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf); no stored PDF |
+| Bowling & Kirkendall (2012) | Workload as the amount and difficulty of work | This register and [workload definition](../docs/methodology/Workload_Definition.md) | Existing DOI link below; no stored PDF |
+| de Mast & Lokkerbol (2012) | DMAIC as the overarching problem-solving structure | Confirmed use in this register | Existing DOI link below; no stored PDF |
+| Peffers et al. (2007) | DSRM for artifact design, demonstration and evaluation | Confirmed use in this register | Existing DOI link below; the stored 2006 paper is a different publication |
+| Zheng et al. (2011) | Structured continuous observation and transparent method reporting | This register and [measurement-method justification](../docs/measurement/Measurement_Method_Justification.md) | Existing DOI link below; no stored PDF |
+
+The proposal's five references are retained because they are already part of the project's recorded literature. Unrelated stored PDFs are not substitutes for the workload, DMAIC, purchasing-process or observation-method sources. The confirmed-use entries below explain each source's role and limits.
+
+---
+
 ## Confirmed use
+
+### Purchasing-process framework: Van Weele's stages
+
+**Bäckstrand, J., Suurmond, R., van Raaij, E., & Chen, C. (2019).** *Purchasing process models: Inspiration for teaching purchasing and supply management*. *Journal of Purchasing and Supply Management, 25*, Article 100577. https://doi.org/10.1016/j.pursup.2019.100577
+
+**Access:** [University-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf), already linked in the activity-framework and mapping documents. No PDF of this article is stored in the repository.
+
+**Use:** Section 3.2 and Figure 3 reproduce Van Weele's purchasing-process model and support the six-stage framework used in the Plan of Work and the [analytical activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md). The source provides the process structure. The task register, seven live recording families and row-level stage/activity assignments are this project's local operationalization, not a validated coding instrument supplied by the article.
 
 ### Process-improvement methodology: DMAIC / Six Sigma
 
@@ -36,9 +62,15 @@ The current literature does not justify adding indicators with different meaning
 
 ### Artifact design and evaluation: DSRM
 
-**Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007).** *A Design Science Research Methodology for Information Systems Research*. Accessible process paper stored as `open-access/05-design-science-research-process.pdf`; cite the original DSRM article: https://doi.org/10.2753/MIS0742-1222240302
+**Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007).** *A design science research methodology for information systems research*. *Journal of Management Information Systems, 24*(3), 45–77. https://doi.org/10.2753/MIS0742-1222240302
 
-**Use:** Supports artifact design/development/evaluation in the methodology file.
+**Use:** The current Plan of Work cites this journal article for the Design Science Research Methodology (DSRM) guiding artifact objectives, design/development, demonstration and evaluation within Improve.
+
+**Access:** The journal article is recorded through its DOI. Its PDF is not stored in this repository. The similarly named local PDF below is an earlier publication with a different author list and must not be presented as the journal article.
+
+**Related stored source:** Peffers, K., Tuunanen, T., Gengler, C. E., Rossi, M., Hui, W., Virtanen, V., & Bragge, J. (2006). *The design science research process: A model for producing and presenting information systems research*. In *Proceedings of the First International Conference on Design Science Research in Information Systems and Technology (DESRIST 2006)* (pp. 83–106). Claremont Graduate University. [Stored PDF](open-access/05-design-science-research-process.pdf); [university publication record](https://research.aalto.fi/en/publications/the-design-science-research-process-a-model-for-producing-and-pre/).
+
+The stored 2006 paper describes the six-activity design-science research process (DSRP), including demonstration and evaluation. It is relevant supporting material, but it is not cited in the current Plan of Work. Its title page and PDF pages 8, 10 and 11 were checked on 22 September 2026.
 
 ### Multi-criteria focal-case selection
 
@@ -69,12 +101,6 @@ The current literature does not justify adding indicators with different meaning
 **Spector, P. E., & Jex, S. M. (1998).** *Development of four self-report measures of job stressors and strain: Interpersonal Conflict at Work Scale, Organizational Constraints Scale, Quantitative Workload Inventory, and Physical Symptoms Inventory*. *Journal of Occupational Health Psychology, 3*(4), 356–367. https://doi.org/10.1037/1076-8998.3.4.356
 
 **Use:** Supports the distinction between quantitative workload and organizational constraints. The Quantitative Workload Inventory is relevant to the quantity/pace of work; the Organizational Constraints Scale is relevant conceptually when interpreting barriers that interfere with task completion. These validated self-report scales are literature anchors, not automatic requirements to administer them in the BEP.
-
-### Mental workload
-
-**Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
-
-**Use:** Historical background on mental workload. The current project does not assess this construct. The active workload framework follows the amount/difficulty distinction in `docs/methodology/Workload_Definition.md`.
 
 ### Structured workflow observation and time-and-motion
 
@@ -197,6 +223,16 @@ The current literature does not justify adding indicators with different meaning
 **DeLone, W. H., & McLean, E. R. (2003).** *The DeLone and McLean Model of Information Systems Success: A Ten-Year Update*. https://doi.org/10.1080/07421222.2003.11045748
 
 **Use if needed:** Broader implementation / information-system success evaluation.
+
+---
+
+## Historical background, not confirmed for the current study
+
+### Mental workload
+
+**Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015).** *State of science: Mental workload in ergonomics*. *Ergonomics, 58*(1), 1–17. https://doi.org/10.1080/00140139.2014.956151
+
+**Use:** Historical background on mental workload. The current project does not assess this construct. The active workload framework follows the amount/difficulty distinction in `docs/methodology/Workload_Definition.md`.
 
 ---
 
