@@ -1,94 +1,100 @@
 # Day-5 exploratory analysis: Arno's five baseline days
 
-**Prepared:** 25 September 2026
-**Status:** Exploratory input for the Day-5 coverage, stability and saturation review agreed on [3 September](../docs/meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md). It does not close Measure, rank candidates or select a focal case. All figures are derived; no observation file is changed.
+**Prepared:** 25 September 2026, revised the same day after review
+**Status:** Measure review and initial workload profile. This is input for the Day-5 coverage, stability and saturation review agreed on [3 September](../docs/meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md). It does not close Measure, complete Analyze, rank candidates or select a focal case. All figures are derived; no observation file is changed.
 
-**Reproduce:** `python3 analysis/day5_exploratory_analysis.py` (numpy, pandas, scipy, matplotlib). Outputs land in [`analysis/output/`](output/).
+**Reproduce:** `N_BOOT=500 python3 analysis/day5_exploratory_analysis.py` (numpy, pandas, scipy, matplotlib). Outputs land in [`analysis/output/`](output/). The seed, replicate count, package versions and git commit of the run are stored under `provenance` in `output/results.json`.
 
 ## 1. Data used
 
-| Day | Date | Weekday | Dayparts | Enriched? | Exposure (min) | Rows | Timed rows | In-scope timed min | In-scope min per exposure hour |
-|---|---|---|---|---|---:|---:|---:|---:|---:|
-| 1 | 31 Aug | Mon | AM + PM | Yes | 165 (verified net) | 63 | 39 | 91 | 33 |
-| 2 | 1 Sep | Tue | AM + PM | Yes | 186 (verified net) | 50 | 43 | 116 | 37 |
-| 3 | 8 Sep | Tue | AM | Yes | ≤113 (window) | 42 | 38 | 32 | ≥17 |
-| 4 | 18 Sep | Fri | AM + PM | Yes | ≤240 (window) | 74 | 57 | 121 | ≥30 |
-| 5 | 23 Sep | Wed | AM + PM | **No, provisional** | ≤196 (window) | 58 | 48 | 98 | ≥30 |
-| | **Total** | | | | **≤900** | **287** | **225** | **458** | |
+| Day | Date | Weekday | Dayparts | Enriched? | Exposure (min) | Rows | Timed rows | In-scope timed min |
+|---|---|---|---|---|---:|---:|---:|---:|
+| 1 | 31 Aug | Mon | AM + PM | Yes | 165 (verified net) | 63 | 39 | 91 |
+| 2 | 1 Sep | Tue | AM + PM | Yes | 186 (verified net) | 50 | 43 | 116 |
+| 3 | 8 Sep | Tue | AM | Yes | ≤113 (window) | 42 | 38 | 32 |
+| 4 | 18 Sep | Fri | AM + PM | Yes | ≤240 (window) | 74 | 57 | 121 |
+| 5 | 23 Sep | Wed | AM + PM | **No, provisional** | ≤196 (window) | 58 | 48 | 95 |
+| | **Total** | | | | **≤900** | **287** | **225** | **455** |
 
 - Days 1 to 4 come from [the 21 September enriched dataset](../docs/measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv). Their in-scope minutes (91, 116, 32, 121) match the measurement README.
-- Day 5 comes from the raw table in [the 23 September notes](../docs/measurement/Measure_Observation_2026-09-23.md). It has not been enriched yet. The script applies a **provisional** scope rule: EXC excluded, OBS-18 SEND to the transport company excluded as logistics, and three rows set to `REVIEW_SCOPE` (OBS-06 OTHER, OBS-09 Exact fault, OBS-16 CLAR). The provisional reasons are in `SCOPE_0923` in the script. Replace them with the real enrichment once it exists.
+- Day 5 comes from the raw table in [the 23 September notes](../docs/measurement/Measure_Observation_2026-09-23.md) and has not been enriched. The script applies two **provisional** rule sets, kept separate:
+  - **Scope** (`SCOPE_0923`): EXC excluded; OBS-18 SEND to the transport company excluded as logistics; OBS-06 OTHER, OBS-09 Exact fault and OBS-16 CLAR set to `REVIEW_SCOPE`.
+  - **Timing quality** (`QUALITY_0923`): the deliberately concurrent OBS-07 EXC (11:41–11:43) and OBS-03 PO (11:42–11:45) are `UNCERTAIN_CONCURRENT`, and OBS-16 EXC 13:42–14:24 is `ELAPSED_ONLY`. As with the 18 September `UNCERTAIN` row, non-`VALID` rows leave the primary profile.
+  - Replace both rule sets with the real enrichment once it exists.
 - "In scope" means `INCLUDE` with `VALID` quality. `REVIEW_SCOPE` minutes (56 across the five days) appear only in a sensitivity check.
-- Net observed time is verified for 31 August and 1 September (165 + 186 = the historical 351 minutes). For 8, 18 and 23 September only the notebook window is known, so any rate for those days is a **lower bound**. The 18 September CHECK segment that began before observation is excluded from the duration analysis (it is not a full episode) but counted in the minutes.
-- Across the five days, EXC accounts for 182 recorded minutes, 24 % of all recorded interval time. Excluding it narrows what can be said about Arno's total work, as the scope addendum already notes.
+- Net observed time is verified for 31 August and 1 September (165 + 186 = the historical 351 minutes). For 8, 18 and 23 September only the notebook window is known, so any rate for those days is a lower bound.
+- EXC accounts for 182 recorded minutes, 24 % of all recorded interval time. The included profile is therefore **not** a complete account of Arno's workload, as the scope addendum states.
 
-## 2. Pattern 1: the work mix is stable
+## 2. Where the observed in-scope time is concentrated
 
-In-scope timed minutes by family and day:
-
-| Family | 31 Aug | 1 Sep | 8 Sep | 18 Sep | 23 Sep* | Total | Share |
+| Family | 31 Aug | 1 Sep | 8 Sep | 18 Sep | 23 Sep* | Total min | Share of included timed min |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| PO | 22 | 50 | 17 | 22 | 38 | 149 | 32.5 % |
-| CLAR | 33 | 26 | 2 | 31 | 42 | 134 | 29.3 % |
-| CHECK | 13 | 13 | 3 | 57 | 5 | 91 | 19.9 % |
-| SEND | 15 | 14 | 0 | 7 | 8 | 44 | 9.6 % |
-| OTHER | 8 | 12 | 10 | 4 | 5 | 39 | 8.5 % |
+| PO | 22 | 50 | 17 | 22 | 35 | 146 | 32.1 % |
+| CLAR | 33 | 26 | 2 | 31 | 42 | 134 | 29.5 % |
+| CHECK | 13 | 13 | 3 | 57 | 5 | 91 | 20.0 % |
+| SEND | 15 | 14 | 0 | 7 | 8 | 44 | 9.7 % |
+| OTHER | 8 | 12 | 10 | 4 | 5 | 39 | 8.6 % |
 | REQ | 0 | 1 | 0 | 0 | 0 | 1 | 0.2 % |
 
-\*provisional scope. REQ is almost always a tally (39 in-scope occurrences, 1 timed), so its workload shows up as occurrences, not minutes.
+\*provisional. REQ is almost always a tally (39 in-scope occurrences, 1 timed), so it appears as occurrences, not minutes.
 
-![Cumulative family shares](output/fig2_cumulative_family_shares.png)
+**PO and CLAR together account for 61.5 % of the provisionally included timed minutes.** These are sums of eligible recorded minutes. They describe where observed in-scope time went. They do not measure Arno's entire workload or the time AI could remove.
 
-| Check | Result |
+Median and IQR describe a typical episode, not total time. PO has 55 complete timed episodes with a median of 2 min, but 146 minutes in total; 55 × 2 would give only 110. For time burden, use the summed minutes.
+
+## 3. PO and CLAR remain the leading contributors in pooled and leave-one-day-out summaries
+
+![Family shares by day](output/fig2_family_shares_by_day.png)
+
+Individual days differ considerably:
+
+| Day | PO + CLAR share | Largest two families that day |
+|---|---:|---|
+| 31 Aug | 60.5 % | CLAR, PO |
+| 1 Sep | 65.5 % | PO, CLAR |
+| 8 Sep | 59.3 % | PO, OTHER (only 32 in-scope min) |
+| 18 Sep | 43.8 % | CHECK, CLAR |
+| 23 Sep* | 81.0 % | CLAR, PO |
+
+CHECK is 47.1 % of included minutes on 18 September (57/121) but 5.3 % on 23 September (5/95). Its total comes mainly from a few long cases, including one 20-minute check and a 32-line check that was already running when observation began.
+
+The main evidence for a consistent leading ranking is the pooled and leave-one-day-out summaries:
+
+| Summary | Result |
 |---|---|
-| Ranking after each added day | Days 1–2: PO > CLAR > SEND > CHECK > OTHER. Days 1–4 and 1–5: **PO > CLAR > CHECK > SEND > OTHER**. Day 5 did not change the ranking. |
-| Largest change in any family share when a day is added | Day 2 10.6 pp, Day 3 3.0 pp, Day 4 11.8 pp, **Day 5 4.0 pp** |
-| Leave one day out | PO and CLAR stay the top two whichever day is dropped. CLAR moves ahead only when 1 September (with its PO-heavy afternoon) is dropped; dropping 8 September leaves them tied. |
-| Median episode duration after each added day | All families together: 2 min on every step. PO 2 min throughout; CLAR moved 2 → 3 min. |
-| Episode durations differ by day? (Kruskal–Wallis) | All in-scope p = 0.48; PO p = 0.55; CLAR p = 0.82; SEND p = 0.42. No detectable day effect. |
-| Family mix differs by day? (Monte Carlo χ², episode counts) | p = 0.30. No detectable day effect. |
-| Morning vs afternoon durations (Mann–Whitney) | p = 0.55; median 2 min in both. Afternoons lean more towards PO (42 % vs 27 % of minutes). |
+| Pooled ranking by minutes | PO > CLAR > CHECK > SEND > OTHER |
+| Leave one day out | PO and CLAR are the two largest contributors whichever day is dropped. Their order flips when 1 Sep or 8 Sep is dropped; CHECK falls to fifth (10.2 %) when 18 Sep is dropped. |
+| Cumulative shares after each added day | Day 5 moved no family share by more than 3.9 pp. This is weak evidence on its own, because each added day has less influence on a growing pool. |
 
-Two caveats. First, CHECK's jump on Day 4 comes almost entirely from 18 September, which had 57 CHECK minutes, including one 20-minute check and a 32-line check that was already running when observation began. CHECK's share therefore depends on a few long cases, not on routine frequency. Second, 8 September is an outlier day: only 32 in-scope minutes, because most of its time was EXC, aftercare, review or contaminated. With five days the tests have little power, so "no detectable difference" is weaker than "the days are the same".
+The script also runs Kruskal–Wallis, Monte Carlo χ² and Mann–Whitney tests across days and dayparts; none shows a difference (results in `output/results.json`). These are **secondary**. A large p-value is not evidence that days are equivalent, and the tests treat episodes as independent even though several episodes belong to the same case (for example OBS-02 on 23 September has PO, CHECK and SEND episodes). They are not used to decide whether Measure is sufficient.
 
-![Durations by day](output/fig3_durations_by_day.png)
+## 4. Fragmentation: new cases, returns and interruptions
 
-## 3. Pattern 2: episode durations are right-skewed and lognormal
+These are kept as three separate measures.
 
-Of the 143 complete in-scope episodes, 29 % last one recorded minute, 55 % two minutes or less and 89 % five minutes or less. Five episodes of 10 minutes or more (two CLAR on 31 Aug and 1 Sep, a 21-minute PO on 1 Sep, a CLAR and a 20-minute CHECK on 18 Sep) hold 17 % of all in-scope minutes.
+| Day | In-scope new-case starts | In-scope case returns | INT recorded (numeric rows / all rows) |
+|---|---:|---:|---|
+| 31 Aug | 15 | 6 | 4 (63 / 63) |
+| 1 Sep | 19 | 5 | 5 (50 / 50) |
+| 8 Sep | 11 | 1 | 3 (3 / 42) |
+| 18 Sep | 15 | 7 | 3 (3 / 74) |
+| 23 Sep* | 12 | 9 | 1 (1 / 58) |
 
-**How the fit handles the recording method.** Start and end are read from a clock in whole minutes, and actions shorter than a minute are tallied rather than timed. The fit therefore models a recorded duration as `floor(U + T)` with a uniform start-second phase `U`, and conditions on at least one minute. Ignoring this would bias every fit towards the 1- and 2-minute spikes. Goodness of fit uses a parametric-bootstrap discrete Kolmogorov–Smirnov test with a refit on every replicate (500 replicates).
+- A **case return** is an in-scope episode of a case already seen that day, after work on a different case.
+- **Gaps between successive new-case starts** are measured only within one observation block and never across an observer-unavailable interval. 61 gaps qualify: median 6 min, IQR 3–12 min. This replaces the earlier 8.2-minute mean, which let gaps cross breaks (for example 12:21 → 13:02 on 23 September).
+- **INT is not comparable across days.** From 8 September most rows record `/` rather than a number, so the recorded counts for days 3–5 are not interruption totals. Whether `/` meant zero or "not recorded" needs to be settled from the notebooks before interruptions are analysed.
 
-| Sample | n | Best model (Akaike weight) | Runner-up (ΔAIC) | Bootstrap p of best | Best-model parameters |
-|---|---:|---|---|---:|---|
-| All in-scope episodes | 143 | **Lognormal (0.79)** | Exponential (3.9) | 0.88 | median 2.1 min, σ(log) 0.82, mean 2.9 min |
-| PO | 56 | **Lognormal (0.63)** | Exponential (2.4) | 0.34 | median 1.75 min, σ(log) 0.79 |
-| CLAR | 33 | Lognormal (0.30) | Exponential (0.1) | 0.98 | median 3.0 min, σ(log) 0.74 |
-| SEND | 22 | Exponential (0.40) | Lognormal (1.4) | 0.80 | mean 1.4 min |
-| CHECK | 20 | Exponential (0.40) | Lognormal (0.7) | 0.61 | mean 3.6 min |
-| All incl. REVIEW_SCOPE | 163 | Lognormal (0.87) | Exponential (5.0) | 0.70 | median 2.1 min, σ(log) 0.82 |
-| Days 1–4 only | 108 | Lognormal (0.76) | Exponential (4.1) | 0.65 | median 2.0 min, σ(log) 0.88 |
+## 5. Inconsistent line-count definitions prevent a reliable assessment of PO volume versus processing time
 
-Full table with Gamma and Weibull: `analysis/output/results.json`, key `distribution_fits`.
+For 37 in-scope PO episodes with a line volume, Spearman ρ = 0.13 (p = 0.46). This is not a finding about the relationship itself, because the Volume field mixes different quantities. On 23 September, for example, 16L means an existing 15-line PO plus one added line, while other entries record only the lines added.
 
-![Duration fits](output/fig1_duration_fits.png)
+For the deeper PO analysis, extract these separately and only where the notes support them. Unknown values stay unknown.
 
-Interpretation:
-
-- **Pooled, the lognormal fits best** (Akaike weight 0.79; the exponential is 3.9 AIC units behind) and the bootstrap does not reject it. The day 1–4 fit (median 2.0, σ 0.88) and the five-day fit (median 2.1, σ 0.82) are nearly identical, so Day 5 did not shift the distribution.
-- **A normal distribution is the wrong model.** A normal curve with the sample mean (3.2 min) and SD (3.0 min) puts 15 % of its mass below zero minutes. The data have skewness 3.4 and a median (2 min) well below the mean. Report **median and IQR**, not mean ± SD. Later manual-versus-AI comparisons should use log-scale methods, such as a ratio of geometric means or a rank-based test.
-- **Within a single family**, n = 20–56 cannot distinguish lognormal from exponential (ΔAIC < 2 for CLAR, SEND and CHECK). The safe claim is "right-skewed with a long tail", not a specific family law.
-- **For workload burden, use the mean or the total minutes, not the median.** Because of the long tail, `frequency × median` understates time. For PO, the observed median is 2 min but the observed mean is 2.7 min. The simplest honest burden figure is observed minutes per verified net hour.
-
-## 4. Pattern 3: work is fragmented
-
-- A new case starts every **8.2 minutes on average** (median about 5; 110 gaps within blocks). Gaps are more variable than a Poisson arrival process would produce (CV 1.11), and the bootstrap rejects the exponential (p = 0.018) but not the lognormal (p = 0.58, median gap 4.8 min). Arno partly chooses what to work on next, so this describes switching between cases, not external request arrival.
-- 118 distinct case IDs over five days; on 1 September, 31 cases in 186 net minutes.
-- Case continuation is common: for example, OBS-02 on 23 September appears in five separate episodes across 35 minutes.
-
-## 5. Pattern 4: PO time does not scale with recorded line count
-
-For 38 in-scope PO episodes with a line volume, Spearman ρ = 0.14 (p = 0.41), with a median of 0.5 min per recorded line. Part of the reason is the volume field itself: it sometimes records the PO total (for example 16L, 17L) and sometimes the lines added. Line count is therefore not yet a usable driver of PO time. For a PO/MAX candidate, record added lines separately from final PO lines.
+| Variable | Meaning |
+|---|---|
+| Existing PO lines | Size before the observed work |
+| Lines added or changed | Work performed during the episode |
+| Lines checked | Volume actually verified |
 
 ## 6. Saturation
 
@@ -100,30 +106,65 @@ For 38 in-scope PO episodes with a line volume, Spearman ρ = 0.14 (p = 0.41), w
 | 18 Sep | 2 | 13 | none |
 | 23 Sep | not enriched yet | — | none |
 
-Qualitatively, most Day 5 events repeat earlier patterns: MAX additions to open POs and unsuccessful MAX attempts (18 Sep), searching for drawings and specifications, price or website checks (8 and 18 Sep), Exact errors (31 Aug). Two things are new and should be written up before the review:
+Most Day-5 events repeat earlier patterns: MAX additions to open POs and unsuccessful MAX attempts, searching for drawings and specifications, price or website checks, and Exact errors. Two items need a dated note before the review:
 
-1. **Deliberate concurrent activity** (OBS-07 EXC 11:41–11:43 alongside OBS-03 PO 11:42–11:45). Protocol v1.3 §7.1 does not allow two active episodes in the same minute, and earlier overlaps were transcription errors. Here the overlap does not affect in-scope minutes because the EXC row is excluded, but the treatment needs a dated note.
-2. **A 12-minute Exact fault** (OBS-09 OTHER). Earlier days had short Exact errors. This is the longest system-constraint episode so far and is currently `REVIEW_SCOPE`.
+1. **Deliberate concurrent activity** (OBS-07 EXC 11:41–11:43 alongside OBS-03 PO 11:42–11:45). Protocol v1.3 §7.1 does not allow two active episodes in the same minute, and earlier overlaps were transcription errors. Both rows are provisionally `UNCERTAIN_CONCURRENT`.
+2. **A 12-minute Exact fault** (OBS-09 OTHER), the longest system-constraint episode so far. It is currently `REVIEW_SCOPE`.
 
-## 7. What this means for the Day-5 review
+## 7. Status for the Day-5 review
 
-| v1.3 §11 / 3 Sep criterion | Status | Evidence / gap |
+| Criterion (v1.3 §11 and 3 Sep) | Status | Evidence / gap |
 |---|---|---|
-| Morning and afternoon coverage | **Met** | 5 mornings, 4 afternoons |
-| Weekdays | **Partly met** | Mon, Tue ×2, Wed, Fri. No Thursday. On 17 Sep Zhongxin advised this matters only if patterns are inconsistent, and they look consistent. |
-| No abnormal day that distorts the baseline | **Met, with one note** | 8 Sep is thin (32 in-scope min). Leave-one-out shows it does not change the ranking. |
-| Main families and channels observed | **Met** | All seven families from Day 1; channels include mail, phone, desk, letter and Exact. |
-| Quantitative stability | **Met at family level** | Day 5 shifted shares by at most 4 pp, left the ranking and medians unchanged, and left the duration distribution unchanged. |
-| Qualitative saturation | **Pending** | Days 2–4 added 0–2 analytical activities each. Enrich Day 5 to confirm. |
-| Verified exposure denominators | **Open** | Net observed time is verified only for 31 Aug and 1 Sep. Occurrence rates for the other days are lower bounds. |
+| Morning and afternoon coverage | Covered | 5 mornings, 4 afternoons |
+| Weekdays | Partly covered | Mon, Tue ×2, Wed, Fri; no Thursday. On 17 Sep Zhongxin advised this matters mainly if patterns are inconsistent. |
+| Abnormal days | Noted | 8 Sep is thin (32 in-scope min). Leave-one-out keeps PO and CLAR as the top two without it. |
+| Main families and channels | Observed | All seven families from Day 1; channels include mail, phone, desk, letter and Exact. |
+| Quantitative stability | Preliminary support | PO and CLAR lead the pooled and leave-one-day-out summaries. Day-level variation is large, and Day 5 is provisional. |
+| Qualitative saturation | Pending | Days 2–4 added 0–2 analytical activities each; enrich Day 5 to confirm. |
+| Exposure denominators | Open | Net observed time verified only for 31 Aug and 1 Sep. |
+| Interruptions | Open | INT is numeric on only 7 of 174 rows after 1 Sep. |
 
-**Recommendation:** Arno's family-level pattern is stable enough to start Analyze on the two largest contributors, **PO (including MAX)** and **CLAR**, and to treat CHECK as the third, case-driven contributor. Before formally closing Measure: enrich 23 Sep, confirm net observed minutes for 8, 18 and 23 Sep (or explicitly report the windows as upper bounds), document the concurrency and Exact-fault cases, and record the review outcome with the supervisor. Timing Dennis can continue in parallel as the check dataset agreed on 17 September.
+## 8. Conclusion
 
-## 8. Limitations
+Across five partial observation days, PO processing and clarification accounted for 61.5 % of the provisionally included timed minutes and remained the two largest contributors in leave-one-day-out summaries. These results support prioritizing PO and CLAR for deeper process analysis, while retaining CHECK because of its contribution from longer cases. They do not establish that the daily work mix is identical or that the baseline represents Arno's entire workload. Formal Measure closure remains subject to Day-5 enrichment, timing and exposure checks, and the documented coverage and saturation review.
 
-- Five days of one buyer with one observer; the tests have little power.
-- Day 5 scope and classification are provisional.
+**Next substantive step:** explain the PO and CLAR minutes. Separate supported episodes involving PO amendments, maximalisatie, missing specifications, drawing retrieval and requester clarification, then investigate which information problems or process conditions create that work.
+
+## 9. Limitations
+
+- Five partial days of one buyer with one observer.
+- Day-5 scope and timing quality are provisional.
 - Per-day rates for three days use upper-bound exposure.
-- Minute-level recording; the rounding model assumes a uniform start phase and that timed episodes are at least one minute.
-- Durations are exclusive active episodes, not case lead times; interrupted cases span several episodes.
-- The distribution fits describe observed time. They say nothing about quality, difficulty or expertise dependence, which the workload definition keeps separate.
+- Durations are exclusive active episodes, not case lead times or complete tasks; interrupted cases span several episodes.
+- Episodes within a case are not independent.
+- The analysis describes observed time only. It says nothing about quality, difficulty or expertise dependence, which the workload definition keeps separate.
+
+## Appendix A. Exploratory distribution fitting
+
+This appendix is supporting material. As the 3 September notes state, fitting a distribution supports the coverage, stability and saturation review but does not replace it.
+
+**Recording model assumed.** Start and end are read from a clock in whole minutes. The fit models a recorded duration as `floor(U + T)` with a uniform start-second phase `U`, and conditions on a recorded duration of at least one minute. The protocol's tally rule depends on whether an action can be timed reliably, which is not necessarily the same selection. The results therefore hold only under this assumed recording model. Goodness of fit uses a parametric-bootstrap discrete Kolmogorov–Smirnov test that refits the model on every replicate (500 replicates).
+
+**Result.** Recorded episode durations are right-skewed. Under the assumed recording model, a lognormal distribution provides the best fit among the distributions compared (lognormal, gamma, Weibull, exponential). The pooled sample mixes work families and interrupted segments, so it describes recorded segments, not the duration of a complete purchasing task or PO.
+
+| Sample | n | Best model (Akaike weight) | Runner-up (ΔAIC) | Bootstrap p of best | Best-model parameters |
+|---|---:|---|---|---:|---|
+| All in-scope episodes | 142 | Lognormal (0.78) | Exponential (3.7) | 0.89 | median 2.09 min, σ(log) 0.83 |
+| PO | 55 | Lognormal (0.61) | Exponential (2.4) | 0.38 | median 1.71 min, σ(log) 0.81 |
+| CLAR | 33 | Lognormal (0.32) | Exponential (0.1) | 0.99 | median 3.04 min, σ(log) 0.74 |
+| SEND | 22 | Exponential (0.40) | Lognormal (1.4) | 0.84 | mean 1.44 min |
+| CHECK | 20 | Exponential (0.41) | Lognormal (0.7) | 0.66 | mean 3.63 min |
+| All incl. REVIEW_SCOPE | 162 | Lognormal (0.86) | Exponential (4.9) | 0.75 | median 2.07 min, σ(log) 0.82 |
+| Days 1–4 only | 108 | Lognormal (0.76) | Exponential (4.1) | 0.66 | median 2.04 min, σ(log) 0.88 |
+
+![Duration fits](output/fig1_duration_fits.png)
+
+- Within single families (n = 20–55), the models cannot be told apart (ΔAIC below 2 for CLAR, SEND and CHECK).
+- A normal curve with the pooled sample mean (3.1 min) and SD (3.0 min) would put 15 % of its mass below zero minutes. Describe typical episodes with the median and IQR.
+- The analysis method for any later manual-versus-AI comparison should be chosen after the evaluation unit, matched cases and repeated observations are defined. This baseline distribution does not settle that design.
+
+Full table including gamma and Weibull: `output/results.json`, key `distribution_fits`.
+
+## Appendix B. Durations by day
+
+![Durations by day](output/fig3_durations_by_day.png)

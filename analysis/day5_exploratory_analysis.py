@@ -8,8 +8,9 @@ summary tables plus distribution fits to ``analysis/output/``.
 days. Its scope assignment below is a PROVISIONAL researcher rule set, applied
 only in this derived analysis and never written back to the observation file.
 
-Run:  python3 analysis/day5_exploratory_analysis.py
-Needs: numpy, pandas, scipy, matplotlib
+Run:  N_BOOT=500 python3 analysis/day5_exploratory_analysis.py
+Needs: numpy, pandas, scipy, matplotlib. The command, seed, replicate count and
+package versions of each run are written to output/results.json ("provenance").
 """
 
 from __future__ import annotations
@@ -28,8 +29,9 @@ CSV = ROOT / "docs/measurement/Activity_Framework_Enriched_Observations_2026-09-
 OBS_0923 = ROOT / "docs/measurement/Measure_Observation_2026-09-23.md"
 OUT = ROOT / "analysis/output"
 
-RNG = np.random.default_rng(20260925)
-N_BOOT = int(os.environ.get("N_BOOT", 1000))
+RNG = None  # set in main() from SEED
+SEED = 20260925
+N_BOOT = int(os.environ.get("N_BOOT", 500))
 
 # Exposure per day. Only 31 Aug and 1 Sep have a verified net observed time;
 # for the other days the notebook window is an UPPER bound on exposure, so any
@@ -42,6 +44,33 @@ EXPOSURE = {
     "2026-09-23": (196, "window upper bound"),
 }
 WEEKDAY = {d: pd.Timestamp(d).day_name() for d in EXPOSURE}
+
+# Observation blocks (session headers / notebook headings) and known
+# observer-unavailable intervals, in minutes after midnight. Used so that
+# between-case gaps never span a break or unobserved period.
+def _t(h, m):
+    return h * 60 + m
+
+
+BLOCKS = {
+    "2026-08-31": [(_t(10, 30), _t(12, 27)), (_t(13, 16), _t(14, 12))],
+    "2026-09-01": [(_t(10, 31), _t(12, 30)), (_t(13, 15), _t(14, 22))],
+    "2026-09-08": [(_t(10, 30), _t(12, 23))],
+    "2026-09-18": [(_t(10, 30), _t(12, 30)), (_t(13, 0), _t(15, 0))],
+    "2026-09-23": [(_t(11, 0), _t(12, 31)), (_t(13, 0), _t(14, 26)), (_t(14, 40), _t(15, 0))],
+}
+UNAVAILABLE = {
+    "2026-08-31": [(_t(11, 11), _t(11, 17)), (_t(13, 38), _t(13, 40))],
+}
+
+# Provisional timing quality for 23 September, kept separate from scope.
+# Anything not listed is VALID. Non-VALID rows leave the primary in-scope
+# profile, as the 18 September UNCERTAIN row does in the enriched dataset.
+QUALITY_0923 = {
+    ("OBS-07", "EXC", "11:41"): ("UNCERTAIN_CONCURRENT", "Deliberately concurrent with OBS-03 PO 11:42-11:45; exclusive active time not established."),
+    ("OBS-03", "PO", "11:42"): ("UNCERTAIN_CONCURRENT", "Deliberately concurrent with OBS-07 EXC 11:41-11:43; exclusive active time not established."),
+    ("OBS-16", "EXC", "13:42"): ("ELAPSED_ONLY", "Clock boundaries; continuous observed active work not established."),
+}
 
 # Provisional scope for 23 September, keyed by (case, family, start).
 # EXC rows are excluded by the 10 September decision; everything else defaults
@@ -120,13 +149,14 @@ def load_0923() -> pd.DataFrame:
             scope, reason = "EXCLUDE_EXC", "EXC family excluded (10 September decision)."
         else:
             scope, reason = SCOPE_0923.get((case, f, s), ("INCLUDE", "Provisional default."))
+        quality, qreason = QUALITY_0923.get((case, f, s), ("VALID", ""))
         rows.append({
             "date": "2026-09-23", "case": case, "family": f,
             "start": start, "end": end,
             "minutes": (end - start) if start is not None and end is not None else np.nan,
-            "scope": scope, "quality": "VALID", "lines": lines(vol), "int": int_count(intv),
+            "scope": scope, "quality": quality, "lines": lines(vol), "int": int_count(intv),
             "stage": "", "activity": "", "enriched": False, "complete_episode": True,
-            "scope_reason_provisional": reason,
+            "scope_reason_provisional": reason, "quality_reason_provisional": qreason,
         })
     return pd.DataFrame(rows)
 
@@ -327,7 +357,9 @@ def per_day(df):
             "cases_per_exposure_hour": round(g.case.nunique() / exp_min * 60, 2),
             "in_scope_episodes_per_exposure_hour": round(len(inc) / exp_min * 60, 2),
             "median_in_scope_episode_min": q(inc.minutes, 50),
-            "INT_total": int(np.nansum(g["int"])),
+            "INT_recorded_sum": int(np.nansum(g["int"])),
+            "INT_rows_numeric": int(g["int"].notna().sum()),
+            "INT_rows_not_numeric": int(g["int"].isna().sum()),
         })
     return pd.DataFrame(rows)
 
@@ -403,15 +435,59 @@ def po_volume(df):
             "min_per_line_median": round(float(np.median(po.minutes / po.lines)), 2)}
 
 
-def switch_intervals(df):
-    """Minutes between the first timed episode of successive new cases, within a day."""
-    gaps = []
-    for date, g in df[df.timed].groupby("date"):
-        first = g.groupby("case").start.min().sort_values().values
-        d = np.diff(first)
-        gaps.extend(d[(d > 0) & (d < 60)].tolist())  # drop lunch/block gaps
+def block_of(date, t):
+    for i, (b0, b1) in enumerate(BLOCKS[date]):
+        if b0 <= t <= b1:
+            return i
+    return None
+
+
+def crosses_unavailable(date, t0, t1):
+    return any(u0 < t1 and u1 > t0 for u0, u1 in UNAVAILABLE.get(date, []))
+
+
+def fragmentation(df):
+    """Separate measures of switching, per day.
+
+    - new-case starts: first timed episode of an in-scope case;
+    - case returns: an in-scope episode of a case that already appeared that
+      day, after at least one episode of a different case (any scope);
+    - gaps between successive new-case starts, only within one observation
+      block and never across an observer-unavailable interval;
+    - interruptions stay in the INT columns of the per-day table.
+    """
+    rows, gaps = [], []
+    for date, g in df[df.timed].sort_values(["date", "start"], kind="stable").groupby("date"):
+        seen, prev_case, new_starts, returns = set(), None, [], 0
+        for r in g.itertuples():
+            if r.case not in seen:
+                if r.in_scope:
+                    new_starts.append(r.start)
+            elif r.case != prev_case and r.in_scope:
+                returns += 1
+            seen.add(r.case)
+            prev_case = r.case
+        for a, b in zip(new_starts, new_starts[1:]):
+            ba, bb = block_of(date, a), block_of(date, b)
+            if ba is not None and ba == bb and not crosses_unavailable(date, a, b) and b > a:
+                gaps.append(b - a)
+        exp_min, _ = EXPOSURE[date]
+        rows.append({"date": date, "in_scope_new_case_starts": len(new_starts),
+                     "in_scope_case_returns": returns,
+                     "new_case_starts_per_exposure_hour": round(len(new_starts) / exp_min * 60, 2),
+                     "case_returns_per_exposure_hour": round(returns / exp_min * 60, 2)})
     gaps = np.array(gaps, float)
-    return gaps
+    summary = {"n_gaps_within_blocks": len(gaps), "median": q(gaps, 50), "p25": q(gaps, 25),
+               "p75": q(gaps, 75), "mean": round(float(gaps.mean()), 2)}
+    return pd.DataFrame(rows), summary
+
+
+def family_shares_by_day(df, fams):
+    inc = df[df.in_scope & df.timed]
+    t = inc.pivot_table(index="date", columns="family", values="minutes", aggfunc="sum", fill_value=0)
+    t = t.reindex(columns=fams).fillna(0)
+    t.loc["ALL"] = t.sum()
+    return (100 * t.div(t.sum(axis=1), axis=0)).round(1)
 
 
 def daypart(df, fams):
@@ -490,30 +566,36 @@ def figures(df, fits_all, fits_po, shares, fams):
     fig.savefig(OUT / "fig1_duration_fits.png", dpi=160)
     plt.close(fig)
 
-    fig, ax = plt.subplots(figsize=(7.5, 4))
-    x = shares.through_day.values
-    for f in fam_order:
-        ax.plot(x, shares[f], marker="o", ms=6, lw=2, color=fam_col[f], label=f,
-                mec=surface, mew=1.5)
-    # End labels, nudged apart so close values do not collide.
-    ends = sorted(((shares[f].iloc[-1], f) for f in fam_order))
-    placed = []
-    for v, f in ends:
-        y = max(v, placed[-1] + 2.2) if placed else v
-        placed.append(y)
-        ax.annotate(f"{f} {v:.0f}%", (x[-1], v), xytext=(x[-1] + 0.12, y), textcoords="data",
-                    va="center", color=ink2, fontsize=9)
-    ax.set_xticks(x, ["Day 1" if i == 1 else f"Days 1–{i}" for i in x])
-    ax.set_ylabel("Share of in-scope timed minutes (%)")
-    ax.set_ylim(0, None)
-    ax.set_title("Family mix after each added day", loc="left", color=ink, fontsize=11)
-    ax.grid(axis="y", color=grid, lw=0.6)
-    ax.set_axisbelow(True)
-    ax.set_xlim(0.8, len(x) + 0.9)
-    ax.legend(frameon=False, fontsize=8, ncol=5, loc="upper center", bbox_to_anchor=(0.5, -0.1),
+    # Per-day family shares: 100 % stacked bars, one row per day plus the pooled row.
+    fig, ax = plt.subplots(figsize=(8.5, 4.2))
+    rows = list(shares.index)
+    ylabels = ["All five days" if r == "ALL" else
+               f"{pd.Timestamp(r):%d %b} {WEEKDAY[r][:3]}" + (" *" if r == "2026-09-23" else "")
+               for r in rows]
+    y = np.array([len(rows) - i + (0.0 if r != "ALL" else -0.5) for i, r in enumerate(rows)], float)
+    left = np.zeros(len(rows))
+    stack = fam_order + ["REQ"]
+    colors = {**fam_col, "REQ": "#8a8984"}
+    for f in stack:
+        vals = shares[f].values if f in shares else np.zeros(len(rows))
+        ax.barh(y, vals, left=left, height=0.62, color=colors[f], label=f,
+                edgecolor=surface, linewidth=2)
+        for yi, l, v in zip(y, left, vals):
+            if v >= 9:
+                ax.text(l + v / 2, yi, f"{v:.0f}", ha="center", va="center", fontsize=8,
+                        color="#ffffff" if f in ("PO", "CLAR") else ink)
+        left += vals
+    ax.set_yticks(y, ylabels)
+    ax.set_xlim(0, 100)
+    ax.set_xlabel("Share of that day's in-scope timed minutes (%)")
+    ax.set_title("Family mix by day", loc="left", color=ink, fontsize=11)
+    ax.spines["left"].set_visible(False)
+    ax.tick_params(axis="y", length=0)
+    ax.legend(frameon=False, fontsize=8, ncol=6, loc="upper center", bbox_to_anchor=(0.5, -0.16),
               labelcolor=ink2)
+    fig.text(0.01, 0.01, "* 23 Sep scope and timing quality are provisional", fontsize=7.5, color=ink2)
     fig.tight_layout()
-    fig.savefig(OUT / "fig2_cumulative_family_shares.png", dpi=160)
+    fig.savefig(OUT / "fig2_family_shares_by_day.png", dpi=160)
     plt.close(fig)
 
     fig, ax = plt.subplots(figsize=(8, 4))
@@ -540,7 +622,28 @@ def figures(df, fits_all, fits_po, shares, fams):
 
 # --------------------------------------------------------------------------
 
+def provenance():
+    import platform
+    import subprocess
+    import matplotlib
+    import scipy
+    try:
+        commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True,
+                                text=True).stdout.strip()
+        dirty = bool(subprocess.run(["git", "-C", str(ROOT), "status", "--porcelain"], capture_output=True,
+                                    text=True).stdout.strip())
+    except OSError:
+        commit, dirty = "", None
+    return {"command": f"N_BOOT={N_BOOT} python3 analysis/day5_exploratory_analysis.py",
+            "seed": SEED, "n_boot": N_BOOT, "git_head_at_run": commit,
+            "working_tree_had_uncommitted_changes": dirty,
+            "python": platform.python_version(), "numpy": np.__version__, "pandas": pd.__version__,
+            "scipy": scipy.__version__, "matplotlib": matplotlib.__version__}
+
+
 def main():
+    global RNG
+    RNG = np.random.default_rng(SEED)
     OUT.mkdir(parents=True, exist_ok=True)
     df = load_all()
     fams = ["PO", "CLAR", "SEND", "CHECK", "OTHER", "REQ"]
@@ -574,11 +677,8 @@ def main():
 
     normal_ref = [{"sample": k, **normal_reference(np.asarray(v, float))} for k, v in samples.items()]
 
-    gaps = switch_intervals(df)
-    gap_rows, _ = fit_all(np.clip(np.round(gaps), 1, None), "Minutes between new-case starts")
-    fit_rows += gap_rows
-    gap_summary = {"n": len(gaps), "mean": round(gaps.mean(), 2), "sd": round(gaps.std(ddof=1), 2),
-                   "cv": round(gaps.std(ddof=1) / gaps.mean(), 2)}
+    frag, gap_summary = fragmentation(df)
+    day_shares = family_shares_by_day(df, fams)
 
     fam_summary = []
     for f in fams:
@@ -592,7 +692,7 @@ def main():
                             "cv": round(float(v.std(ddof=1) / v.mean()), 2) if len(v) > 1 else np.nan})
     fam_summary = pd.DataFrame(fam_summary)
 
-    figures(df, fit_objs["ALL in-scope"], fit_objs["PO"], shares, fams)
+    figures(df, fit_objs["ALL in-scope"], fit_objs["PO"], day_shares, fams)
 
     results = {
         "per_day": days.to_dict("records"),
@@ -609,7 +709,10 @@ def main():
         "daypart_duration_test": dpart_test,
         "distribution_fits": fit_rows,
         "normal_reference": normal_ref,
-        "new_case_start_gaps": gap_summary,
+        "fragmentation_by_day": frag.to_dict("records"),
+        "new_case_start_gaps_within_blocks": gap_summary,
+        "family_shares_by_day": day_shares.reset_index().to_dict("records"),
+        "provenance": provenance(),
     }
     (OUT / "results.json").write_text(json.dumps(results, indent=2, default=lambda o: None if (isinstance(o, float) and np.isnan(o)) else str(o)))
 
@@ -625,7 +728,8 @@ def main():
     print("\n== PO duration vs lines ==\n", vol)
     print("\n== Saturation ==\n", sat.to_string(index=False))
     print("\n== Daypart ==\n", dparts.to_string(index=False), dpart_test)
-    print("\n== New-case start gaps ==\n", gap_summary)
+    print("\n== Family shares by day (%) ==\n", day_shares.to_string())
+    print("\n== Fragmentation ==\n", frag.to_string(index=False), "\n", gap_summary)
     print("\n== Normal reference ==\n", pd.DataFrame(normal_ref).to_string(index=False))
     print("\n== Distribution fits ==")
     print(pd.DataFrame(fit_rows).to_string(index=False))
