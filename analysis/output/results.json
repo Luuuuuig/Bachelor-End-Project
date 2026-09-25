@@ -1,0 +1,1098 @@
+{
+  "per_day": [
+    {
+      "day": 1,
+      "date": "2026-08-31",
+      "weekday": "Monday",
+      "enriched": true,
+      "exposure_min": 165,
+      "exposure_kind": "verified net",
+      "rows": 63,
+      "timed_rows": 39,
+      "recorded_min_all": 103,
+      "exc_min": 12,
+      "review_min": 0,
+      "in_scope_timed_rows": 35,
+      "in_scope_min": 91,
+      "in_scope_min_per_exposure_hour": 33.1,
+      "cases": 17,
+      "cases_per_exposure_hour": 6.18,
+      "in_scope_episodes_per_exposure_hour": 12.73,
+      "median_in_scope_episode_min": 2.0,
+      "INT_total": 4
+    },
+    {
+      "day": 2,
+      "date": "2026-09-01",
+      "weekday": "Tuesday",
+      "enriched": true,
+      "exposure_min": 186,
+      "exposure_kind": "verified net",
+      "rows": 50,
+      "timed_rows": 43,
+      "recorded_min_all": 162,
+      "exc_min": 41,
+      "review_min": 5,
+      "in_scope_timed_rows": 29,
+      "in_scope_min": 116,
+      "in_scope_min_per_exposure_hour": 37.4,
+      "cases": 31,
+      "cases_per_exposure_hour": 10.0,
+      "in_scope_episodes_per_exposure_hour": 9.35,
+      "median_in_scope_episode_min": 2.0,
+      "INT_total": 5
+    },
+    {
+      "day": 3,
+      "date": "2026-09-08",
+      "weekday": "Tuesday",
+      "enriched": true,
+      "exposure_min": 113,
+      "exposure_kind": "window upper bound",
+      "rows": 42,
+      "timed_rows": 38,
+      "recorded_min_all": 106,
+      "exc_min": 50,
+      "review_min": 15,
+      "in_scope_timed_rows": 14,
+      "in_scope_min": 32,
+      "in_scope_min_per_exposure_hour": 17.0,
+      "cases": 21,
+      "cases_per_exposure_hour": 11.15,
+      "in_scope_episodes_per_exposure_hour": 7.43,
+      "median_in_scope_episode_min": 2.0,
+      "INT_total": 3
+    },
+    {
+      "day": 4,
+      "date": "2026-09-18",
+      "weekday": "Friday",
+      "enriched": true,
+      "exposure_min": 240,
+      "exposure_kind": "window upper bound",
+      "rows": 74,
+      "timed_rows": 57,
+      "recorded_min_all": 196,
+      "exc_min": 56,
+      "review_min": 17,
+      "in_scope_timed_rows": 31,
+      "in_scope_min": 121,
+      "in_scope_min_per_exposure_hour": 30.2,
+      "cases": 30,
+      "cases_per_exposure_hour": 7.5,
+      "in_scope_episodes_per_exposure_hour": 7.75,
+      "median_in_scope_episode_min": 3.0,
+      "INT_total": 3
+    },
+    {
+      "day": 5,
+      "date": "2026-09-23",
+      "weekday": "Wednesday",
+      "enriched": false,
+      "exposure_min": 196,
+      "exposure_kind": "window upper bound",
+      "rows": 58,
+      "timed_rows": 48,
+      "recorded_min_all": 185,
+      "exc_min": 68,
+      "review_min": 19,
+      "in_scope_timed_rows": 35,
+      "in_scope_min": 98,
+      "in_scope_min_per_exposure_hour": 30.0,
+      "cases": 19,
+      "cases_per_exposure_hour": 5.82,
+      "in_scope_episodes_per_exposure_hour": 10.71,
+      "median_in_scope_episode_min": 3.0,
+      "INT_total": 1
+    }
+  ],
+  "family_minutes_by_day": [
+    {
+      "family": "PO",
+      "2026-08-31": 22,
+      "2026-09-01": 50,
+      "2026-09-08": 17,
+      "2026-09-18": 22,
+      "2026-09-23": 38
+    },
+    {
+      "family": "CLAR",
+      "2026-08-31": 33,
+      "2026-09-01": 26,
+      "2026-09-08": 2,
+      "2026-09-18": 31,
+      "2026-09-23": 42
+    },
+    {
+      "family": "SEND",
+      "2026-08-31": 15,
+      "2026-09-01": 14,
+      "2026-09-08": 0,
+      "2026-09-18": 7,
+      "2026-09-23": 8
+    },
+    {
+      "family": "CHECK",
+      "2026-08-31": 13,
+      "2026-09-01": 13,
+      "2026-09-08": 3,
+      "2026-09-18": 57,
+      "2026-09-23": 5
+    },
+    {
+      "family": "OTHER",
+      "2026-08-31": 8,
+      "2026-09-01": 12,
+      "2026-09-08": 10,
+      "2026-09-18": 4,
+      "2026-09-23": 5
+    },
+    {
+      "family": "REQ",
+      "2026-08-31": 0,
+      "2026-09-01": 1,
+      "2026-09-08": 0,
+      "2026-09-18": 0,
+      "2026-09-23": 0
+    }
+  ],
+  "family_summary": [
+    {
+      "family": "PO",
+      "occurrences_incl_untimed": 57,
+      "timed_n": 56,
+      "minutes": 149,
+      "median": 2.0,
+      "p25": 1.0,
+      "p75": 3.0,
+      "p90": 5.0,
+      "max": 21.0,
+      "mean": 2.66,
+      "cv": 1.08
+    },
+    {
+      "family": "CLAR",
+      "occurrences_incl_untimed": 34,
+      "timed_n": 33,
+      "minutes": 134,
+      "median": 3.0,
+      "p25": 2.0,
+      "p75": 5.0,
+      "p90": 7.800000000000001,
+      "max": 16.0,
+      "mean": 4.06,
+      "cv": 0.8
+    },
+    {
+      "family": "SEND",
+      "occurrences_incl_untimed": 27,
+      "timed_n": 22,
+      "minutes": 44,
+      "median": 1.0,
+      "p25": 1.0,
+      "p75": 2.0,
+      "p90": 3.0,
+      "max": 8.0,
+      "mean": 2.0,
+      "cv": 0.85
+    },
+    {
+      "family": "CHECK",
+      "occurrences_incl_untimed": 21,
+      "timed_n": 20,
+      "minutes": 83,
+      "median": 3.0,
+      "p25": 2.0,
+      "p75": 5.0,
+      "p90": 6.100000000000001,
+      "max": 20.0,
+      "mean": 4.15,
+      "cv": 1.0
+    },
+    {
+      "family": "OTHER",
+      "occurrences_incl_untimed": 12,
+      "timed_n": 11,
+      "minutes": 39,
+      "median": 3.0,
+      "p25": 2.0,
+      "p75": 4.0,
+      "p90": 6.0,
+      "max": 8.0,
+      "mean": 3.55,
+      "cv": 0.56
+    },
+    {
+      "family": "REQ",
+      "occurrences_incl_untimed": 39,
+      "timed_n": 1,
+      "minutes": 1,
+      "median": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "p90": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "cv": NaN
+    }
+  ],
+  "cumulative_shares": [
+    {
+      "through_day": 1,
+      "PO": 24.2,
+      "CLAR": 36.3,
+      "SEND": 16.5,
+      "CHECK": 14.3,
+      "OTHER": 8.8,
+      "REQ": 0.0,
+      "max_share_shift_pp": NaN
+    },
+    {
+      "through_day": 2,
+      "PO": 34.8,
+      "CLAR": 28.5,
+      "SEND": 14.0,
+      "CHECK": 12.6,
+      "OTHER": 9.7,
+      "REQ": 0.5,
+      "max_share_shift_pp": 10.6
+    },
+    {
+      "through_day": 3,
+      "PO": 37.2,
+      "CLAR": 25.5,
+      "SEND": 12.1,
+      "CHECK": 12.1,
+      "OTHER": 12.6,
+      "REQ": 0.4,
+      "max_share_shift_pp": 3.0
+    },
+    {
+      "through_day": 4,
+      "PO": 30.8,
+      "CLAR": 25.6,
+      "SEND": 10.0,
+      "CHECK": 23.9,
+      "OTHER": 9.4,
+      "REQ": 0.3,
+      "max_share_shift_pp": 11.8
+    },
+    {
+      "through_day": 5,
+      "PO": 32.5,
+      "CLAR": 29.3,
+      "SEND": 9.6,
+      "CHECK": 19.9,
+      "OTHER": 8.5,
+      "REQ": 0.2,
+      "max_share_shift_pp": 4.0
+    }
+  ],
+  "cumulative_medians": [
+    {
+      "through_day": 1,
+      "ALL": 2.0,
+      "PO": 2.0,
+      "CLAR": 2.0,
+      "SEND": 1.0,
+      "CHECK": 3.0,
+      "OTHER": 2.0,
+      "REQ": NaN
+    },
+    {
+      "through_day": 2,
+      "ALL": 2.0,
+      "PO": 2.0,
+      "CLAR": 2.0,
+      "SEND": 1.5,
+      "CHECK": 2.5,
+      "OTHER": 4.0,
+      "REQ": 1.0
+    },
+    {
+      "through_day": 3,
+      "ALL": 2.0,
+      "PO": 2.0,
+      "CLAR": 2.0,
+      "SEND": 1.5,
+      "CHECK": 3.0,
+      "OTHER": 4.0,
+      "REQ": 1.0
+    },
+    {
+      "through_day": 4,
+      "ALL": 2.0,
+      "PO": 2.0,
+      "CLAR": 2.5,
+      "SEND": 1.5,
+      "CHECK": 4.0,
+      "OTHER": 4.0,
+      "REQ": 1.0
+    },
+    {
+      "through_day": 5,
+      "ALL": 2.0,
+      "PO": 2.0,
+      "CLAR": 3.0,
+      "SEND": 1.0,
+      "CHECK": 3.0,
+      "OTHER": 3.0,
+      "REQ": 1.0
+    }
+  ],
+  "cumulative_ranking": [
+    {
+      "through_day": 1,
+      "ranking_by_minutes": "CLAR > PO > SEND > CHECK > OTHER"
+    },
+    {
+      "through_day": 2,
+      "ranking_by_minutes": "PO > CLAR > SEND > CHECK > OTHER > REQ"
+    },
+    {
+      "through_day": 3,
+      "ranking_by_minutes": "PO > CLAR > OTHER > SEND > CHECK > REQ"
+    },
+    {
+      "through_day": 4,
+      "ranking_by_minutes": "PO > CLAR > CHECK > SEND > OTHER > REQ"
+    },
+    {
+      "through_day": 5,
+      "ranking_by_minutes": "PO > CLAR > CHECK > SEND > OTHER > REQ"
+    }
+  ],
+  "leave_one_day_out": [
+    {
+      "left_out": "2026-08-31",
+      "PO": 34.6,
+      "CLAR": 27.5,
+      "SEND": 7.9,
+      "CHECK": 21.3,
+      "OTHER": 8.4,
+      "REQ": 0.3,
+      "ranking": "PO > CLAR > CHECK > OTHER"
+    },
+    {
+      "left_out": "2026-09-01",
+      "PO": 28.9,
+      "CLAR": 31.6,
+      "SEND": 8.8,
+      "CHECK": 22.8,
+      "OTHER": 7.9,
+      "REQ": 0.0,
+      "ranking": "CLAR > PO > CHECK > SEND"
+    },
+    {
+      "left_out": "2026-09-08",
+      "PO": 31.0,
+      "CLAR": 31.0,
+      "SEND": 10.3,
+      "CHECK": 20.7,
+      "OTHER": 6.8,
+      "REQ": 0.2,
+      "ranking": "PO > CLAR > CHECK > SEND"
+    },
+    {
+      "left_out": "2026-09-18",
+      "PO": 37.7,
+      "CLAR": 30.6,
+      "SEND": 11.0,
+      "CHECK": 10.1,
+      "OTHER": 10.4,
+      "REQ": 0.3,
+      "ranking": "PO > CLAR > SEND > OTHER"
+    },
+    {
+      "left_out": "2026-09-23",
+      "PO": 30.8,
+      "CLAR": 25.6,
+      "SEND": 10.0,
+      "CHECK": 23.9,
+      "OTHER": 9.4,
+      "REQ": 0.3,
+      "ranking": "PO > CLAR > CHECK > SEND"
+    }
+  ],
+  "heterogeneity": {
+    "ALL in-scope": {
+      "days_with_n>=3": 5,
+      "H": 3.47,
+      "p": 0.482
+    },
+    "PO": {
+      "days_with_n>=3": 5,
+      "H": 3.08,
+      "p": 0.545
+    },
+    "CLAR": {
+      "days_with_n>=3": 4,
+      "H": 0.91,
+      "p": 0.822
+    },
+    "SEND": {
+      "days_with_n>=3": 4,
+      "H": 2.85,
+      "p": 0.416
+    },
+    "family mix x day (counts)": {
+      "families": [
+        "CHECK",
+        "CLAR",
+        "OTHER",
+        "PO",
+        "SEND"
+      ],
+      "chi2": 18.44,
+      "monte_carlo_p": 0.302
+    }
+  },
+  "po_duration_vs_lines": {
+    "n": 38,
+    "spearman_rho": 0.14,
+    "p": 0.408,
+    "min_per_line_median": 0.5
+  },
+  "saturation": [
+    {
+      "date": "2026-08-31",
+      "new_analytical_activities": 10.0,
+      "cum_analytical_activities": 10.0,
+      "new_families": [
+        "CHECK",
+        "CLAR",
+        "DEC",
+        "EXC",
+        "OTHER",
+        "PO",
+        "REQ",
+        "SEND"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "new_analytical_activities": 1.0,
+      "cum_analytical_activities": 11.0,
+      "new_families": []
+    },
+    {
+      "date": "2026-09-08",
+      "new_analytical_activities": 0.0,
+      "cum_analytical_activities": 11.0,
+      "new_families": []
+    },
+    {
+      "date": "2026-09-18",
+      "new_analytical_activities": 2.0,
+      "cum_analytical_activities": 13.0,
+      "new_families": [
+        "UNCLEAR"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "new_analytical_activities": NaN,
+      "cum_analytical_activities": NaN,
+      "new_families": []
+    }
+  ],
+  "daypart": [
+    {
+      "daypart": "AM",
+      "days": 5,
+      "episodes": 88,
+      "minutes": 264,
+      "median": 2.0,
+      "PO_%": 26.9,
+      "CLAR_%": 34.5,
+      "SEND_%": 11.0,
+      "CHECK_%": 18.9,
+      "OTHER_%": 8.3,
+      "REQ_%": 0.4
+    },
+    {
+      "daypart": "PM",
+      "days": 4,
+      "episodes": 55,
+      "minutes": 186,
+      "median": 2.0,
+      "PO_%": 41.9,
+      "CLAR_%": 23.1,
+      "SEND_%": 8.1,
+      "CHECK_%": 17.7,
+      "OTHER_%": 9.1,
+      "REQ_%": 0.0
+    }
+  ],
+  "daypart_duration_test": {
+    "mann_whitney_U": 2562.0,
+    "p": 0.547
+  },
+  "distribution_fits": [
+    {
+      "sample": "ALL in-scope",
+      "n": 143,
+      "model": "Lognormal",
+      "AIC": 560.8,
+      "dAIC": 0.0,
+      "akaike_weight": 0.793,
+      "KS_discrete": 0.017,
+      "bootstrap_p": 0.878,
+      "params": {
+        "mu_log": 0.743,
+        "sigma_log": 0.821,
+        "median_min": 2.103,
+        "mean_min": 2.946
+      }
+    },
+    {
+      "sample": "ALL in-scope",
+      "n": 143,
+      "model": "Exponential",
+      "AIC": 564.7,
+      "dAIC": 3.9,
+      "akaike_weight": 0.113,
+      "KS_discrete": 0.036,
+      "bootstrap_p": 0.499,
+      "params": {
+        "rate_per_min": 0.382,
+        "mean_min": 2.615
+      }
+    },
+    {
+      "sample": "ALL in-scope",
+      "n": 143,
+      "model": "Weibull",
+      "AIC": 566.2,
+      "dAIC": 5.4,
+      "akaike_weight": 0.053,
+      "KS_discrete": 0.041,
+      "bootstrap_p": 0.134,
+      "params": {
+        "shape": 0.936,
+        "scale": 2.46,
+        "mean_min": 2.536
+      }
+    },
+    {
+      "sample": "ALL in-scope",
+      "n": 143,
+      "model": "Gamma",
+      "AIC": 566.6,
+      "dAIC": 5.9,
+      "akaike_weight": 0.041,
+      "KS_discrete": 0.037,
+      "bootstrap_p": 0.22,
+      "params": {
+        "shape": 0.957,
+        "scale": 2.7,
+        "mean_min": 2.584
+      }
+    },
+    {
+      "sample": "PO",
+      "n": 56,
+      "model": "Lognormal",
+      "AIC": 196.9,
+      "dAIC": 0.0,
+      "akaike_weight": 0.629,
+      "KS_discrete": 0.045,
+      "bootstrap_p": 0.343,
+      "params": {
+        "mu_log": 0.56,
+        "sigma_log": 0.791,
+        "median_min": 1.75,
+        "mean_min": 2.393
+      }
+    },
+    {
+      "sample": "PO",
+      "n": 56,
+      "model": "Exponential",
+      "AIC": 199.3,
+      "dAIC": 2.4,
+      "akaike_weight": 0.19,
+      "KS_discrete": 0.059,
+      "bootstrap_p": 0.409,
+      "params": {
+        "rate_per_min": 0.471,
+        "mean_min": 2.122
+      }
+    },
+    {
+      "sample": "PO",
+      "n": 56,
+      "model": "Weibull",
+      "AIC": 200.5,
+      "dAIC": 3.6,
+      "akaike_weight": 0.104,
+      "KS_discrete": 0.065,
+      "bootstrap_p": 0.066,
+      "params": {
+        "shape": 0.866,
+        "scale": 1.817,
+        "mean_min": 1.954
+      }
+    },
+    {
+      "sample": "PO",
+      "n": 56,
+      "model": "Gamma",
+      "AIC": 201.1,
+      "dAIC": 4.2,
+      "akaike_weight": 0.077,
+      "KS_discrete": 0.064,
+      "bootstrap_p": 0.13,
+      "params": {
+        "shape": 0.828,
+        "scale": 2.411,
+        "mean_min": 1.995
+      }
+    },
+    {
+      "sample": "CLAR",
+      "n": 33,
+      "model": "Lognormal",
+      "AIC": 151.5,
+      "dAIC": 0.0,
+      "akaike_weight": 0.321,
+      "KS_discrete": 0.027,
+      "bootstrap_p": 0.984,
+      "params": {
+        "mu_log": 1.113,
+        "sigma_log": 0.742,
+        "median_min": 3.043,
+        "mean_min": 4.006
+      }
+    },
+    {
+      "sample": "CLAR",
+      "n": 33,
+      "model": "Exponential",
+      "AIC": 151.6,
+      "dAIC": 0.1,
+      "akaike_weight": 0.306,
+      "KS_discrete": 0.095,
+      "bootstrap_p": 0.409,
+      "params": {
+        "rate_per_min": 0.283,
+        "mean_min": 3.537
+      }
+    },
+    {
+      "sample": "CLAR",
+      "n": 33,
+      "model": "Gamma",
+      "AIC": 152.3,
+      "dAIC": 0.9,
+      "akaike_weight": 0.205,
+      "KS_discrete": 0.04,
+      "bootstrap_p": 0.922,
+      "params": {
+        "shape": 1.562,
+        "scale": 2.447,
+        "mean_min": 3.823
+      }
+    },
+    {
+      "sample": "CLAR",
+      "n": 33,
+      "model": "Weibull",
+      "AIC": 152.7,
+      "dAIC": 1.3,
+      "akaike_weight": 0.168,
+      "KS_discrete": 0.05,
+      "bootstrap_p": 0.756,
+      "params": {
+        "shape": 1.196,
+        "scale": 3.963,
+        "mean_min": 3.73
+      }
+    },
+    {
+      "sample": "SEND",
+      "n": 22,
+      "model": "Exponential",
+      "AIC": 63.0,
+      "dAIC": 0.0,
+      "akaike_weight": 0.402,
+      "KS_discrete": 0.045,
+      "bootstrap_p": 0.798,
+      "params": {
+        "rate_per_min": 0.693,
+        "mean_min": 1.443
+      }
+    },
+    {
+      "sample": "SEND",
+      "n": 22,
+      "model": "Lognormal",
+      "AIC": 64.4,
+      "dAIC": 1.4,
+      "akaike_weight": 0.199,
+      "KS_discrete": 0.028,
+      "bootstrap_p": 0.85,
+      "params": {
+        "mu_log": 0.055,
+        "sigma_log": 0.904,
+        "median_min": 1.056,
+        "mean_min": 1.59
+      }
+    },
+    {
+      "sample": "SEND",
+      "n": 22,
+      "model": "Weibull",
+      "AIC": 64.4,
+      "dAIC": 1.4,
+      "akaike_weight": 0.199,
+      "KS_discrete": 0.038,
+      "bootstrap_p": 0.723,
+      "params": {
+        "shape": 0.766,
+        "scale": 1.01,
+        "mean_min": 1.183
+      }
+    },
+    {
+      "sample": "SEND",
+      "n": 22,
+      "model": "Gamma",
+      "AIC": 64.4,
+      "dAIC": 1.4,
+      "akaike_weight": 0.199,
+      "KS_discrete": 0.041,
+      "bootstrap_p": 0.661,
+      "params": {
+        "shape": 0.452,
+        "scale": 2.2,
+        "mean_min": 0.995
+      }
+    },
+    {
+      "sample": "CHECK",
+      "n": 20,
+      "model": "Exponential",
+      "AIC": 93.7,
+      "dAIC": 0.0,
+      "akaike_weight": 0.407,
+      "KS_discrete": 0.095,
+      "bootstrap_p": 0.613,
+      "params": {
+        "rate_per_min": 0.276,
+        "mean_min": 3.627
+      }
+    },
+    {
+      "sample": "CHECK",
+      "n": 20,
+      "model": "Lognormal",
+      "AIC": 94.4,
+      "dAIC": 0.7,
+      "akaike_weight": 0.287,
+      "KS_discrete": 0.071,
+      "bootstrap_p": 0.663,
+      "params": {
+        "mu_log": 1.076,
+        "sigma_log": 0.792,
+        "median_min": 2.934,
+        "mean_min": 4.014
+      }
+    },
+    {
+      "sample": "CHECK",
+      "n": 20,
+      "model": "Gamma",
+      "AIC": 95.6,
+      "dAIC": 1.9,
+      "akaike_weight": 0.157,
+      "KS_discrete": 0.09,
+      "bootstrap_p": 0.441,
+      "params": {
+        "shape": 1.187,
+        "scale": 3.165,
+        "mean_min": 3.755
+      }
+    },
+    {
+      "sample": "CHECK",
+      "n": 20,
+      "model": "Weibull",
+      "AIC": 95.7,
+      "dAIC": 2.0,
+      "akaike_weight": 0.15,
+      "KS_discrete": 0.095,
+      "bootstrap_p": 0.403,
+      "params": {
+        "shape": 1.015,
+        "scale": 3.669,
+        "mean_min": 3.646
+      }
+    },
+    {
+      "sample": "ALL incl. REVIEW_SCOPE (sensitivity)",
+      "n": 163,
+      "model": "Lognormal",
+      "AIC": 633.0,
+      "dAIC": 0.0,
+      "akaike_weight": 0.869,
+      "KS_discrete": 0.021,
+      "bootstrap_p": 0.699,
+      "params": {
+        "mu_log": 0.733,
+        "sigma_log": 0.816,
+        "median_min": 2.081,
+        "mean_min": 2.902
+      }
+    },
+    {
+      "sample": "ALL incl. REVIEW_SCOPE (sensitivity)",
+      "n": 163,
+      "model": "Exponential",
+      "AIC": 638.0,
+      "dAIC": 5.0,
+      "akaike_weight": 0.071,
+      "KS_discrete": 0.039,
+      "bootstrap_p": 0.377,
+      "params": {
+        "rate_per_min": 0.389,
+        "mean_min": 2.572
+      }
+    },
+    {
+      "sample": "ALL incl. REVIEW_SCOPE (sensitivity)",
+      "n": 163,
+      "model": "Weibull",
+      "AIC": 639.5,
+      "dAIC": 6.5,
+      "akaike_weight": 0.034,
+      "KS_discrete": 0.044,
+      "bootstrap_p": 0.076,
+      "params": {
+        "shape": 0.939,
+        "scale": 2.426,
+        "mean_min": 2.497
+      }
+    },
+    {
+      "sample": "ALL incl. REVIEW_SCOPE (sensitivity)",
+      "n": 163,
+      "model": "Gamma",
+      "AIC": 640.0,
+      "dAIC": 7.0,
+      "akaike_weight": 0.026,
+      "KS_discrete": 0.04,
+      "bootstrap_p": 0.15,
+      "params": {
+        "shape": 0.966,
+        "scale": 2.637,
+        "mean_min": 2.548
+      }
+    },
+    {
+      "sample": "ALL days 1-4 only (enriched)",
+      "n": 108,
+      "model": "Lognormal",
+      "AIC": 431.9,
+      "dAIC": 0.0,
+      "akaike_weight": 0.76,
+      "KS_discrete": 0.027,
+      "bootstrap_p": 0.653,
+      "params": {
+        "mu_log": 0.713,
+        "sigma_log": 0.878,
+        "median_min": 2.039,
+        "mean_min": 2.998
+      }
+    },
+    {
+      "sample": "ALL days 1-4 only (enriched)",
+      "n": 108,
+      "model": "Exponential",
+      "AIC": 436.0,
+      "dAIC": 4.1,
+      "akaike_weight": 0.098,
+      "KS_discrete": 0.064,
+      "bootstrap_p": 0.14,
+      "params": {
+        "rate_per_min": 0.366,
+        "mean_min": 2.729
+      }
+    },
+    {
+      "sample": "ALL days 1-4 only (enriched)",
+      "n": 108,
+      "model": "Weibull",
+      "AIC": 436.2,
+      "dAIC": 4.3,
+      "akaike_weight": 0.089,
+      "KS_discrete": 0.049,
+      "bootstrap_p": 0.102,
+      "params": {
+        "shape": 0.86,
+        "scale": 2.345,
+        "mean_min": 2.534
+      }
+    },
+    {
+      "sample": "ALL days 1-4 only (enriched)",
+      "n": 108,
+      "model": "Gamma",
+      "AIC": 437.2,
+      "dAIC": 5.3,
+      "akaike_weight": 0.054,
+      "KS_discrete": 0.043,
+      "bootstrap_p": 0.269,
+      "params": {
+        "shape": 0.772,
+        "scale": 3.272,
+        "mean_min": 2.526
+      }
+    },
+    {
+      "sample": "Minutes between new-case starts",
+      "n": 110,
+      "model": "Lognormal",
+      "AIC": 667.4,
+      "dAIC": 0.0,
+      "akaike_weight": 0.537,
+      "KS_discrete": 0.041,
+      "bootstrap_p": 0.583,
+      "params": {
+        "mu_log": 1.578,
+        "sigma_log": 1.025,
+        "median_min": 4.846,
+        "mean_min": 8.197
+      }
+    },
+    {
+      "sample": "Minutes between new-case starts",
+      "n": 110,
+      "model": "Exponential",
+      "AIC": 669.6,
+      "dAIC": 2.2,
+      "akaike_weight": 0.179,
+      "KS_discrete": 0.102,
+      "bootstrap_p": 0.018,
+      "params": {
+        "rate_per_min": 0.131,
+        "mean_min": 7.644
+      }
+    },
+    {
+      "sample": "Minutes between new-case starts",
+      "n": 110,
+      "model": "Weibull",
+      "AIC": 669.7,
+      "dAIC": 2.3,
+      "akaike_weight": 0.17,
+      "KS_discrete": 0.073,
+      "bootstrap_p": 0.04,
+      "params": {
+        "shape": 0.878,
+        "scale": 6.928,
+        "mean_min": 7.391
+      }
+    },
+    {
+      "sample": "Minutes between new-case starts",
+      "n": 110,
+      "model": "Gamma",
+      "AIC": 670.5,
+      "dAIC": 3.1,
+      "akaike_weight": 0.114,
+      "KS_discrete": 0.083,
+      "bootstrap_p": 0.016,
+      "params": {
+        "shape": 0.814,
+        "scale": 9.068,
+        "mean_min": 7.381
+      }
+    }
+  ],
+  "normal_reference": [
+    {
+      "sample": "ALL in-scope",
+      "n": 143,
+      "mean": 3.15,
+      "median": 2.0,
+      "sd": 3.04,
+      "skewness": 3.39,
+      "normal_share_below_0_min": 0.151,
+      "observed_share_over_mean_plus_2sd": 0.035,
+      "normal_share_over_mean_plus_2sd": 0.023
+    },
+    {
+      "sample": "PO",
+      "n": 56,
+      "mean": 2.66,
+      "median": 2.0,
+      "sd": 2.87,
+      "skewness": 4.81,
+      "normal_share_below_0_min": 0.177,
+      "observed_share_over_mean_plus_2sd": 0.018,
+      "normal_share_over_mean_plus_2sd": 0.023
+    },
+    {
+      "sample": "CLAR",
+      "n": 33,
+      "mean": 4.06,
+      "median": 3.0,
+      "sd": 3.26,
+      "skewness": 1.85,
+      "normal_share_below_0_min": 0.106,
+      "observed_share_over_mean_plus_2sd": 0.03,
+      "normal_share_over_mean_plus_2sd": 0.023
+    },
+    {
+      "sample": "SEND",
+      "n": 22,
+      "mean": 2.0,
+      "median": 1.0,
+      "sd": 1.69,
+      "skewness": 2.36,
+      "normal_share_below_0_min": 0.118,
+      "observed_share_over_mean_plus_2sd": 0.045,
+      "normal_share_over_mean_plus_2sd": 0.023
+    },
+    {
+      "sample": "CHECK",
+      "n": 20,
+      "mean": 4.15,
+      "median": 3.0,
+      "sd": 4.15,
+      "skewness": 2.92,
+      "normal_share_below_0_min": 0.158,
+      "observed_share_over_mean_plus_2sd": 0.05,
+      "normal_share_over_mean_plus_2sd": 0.023
+    },
+    {
+      "sample": "ALL incl. REVIEW_SCOPE (sensitivity)",
+      "n": 163,
+      "mean": 3.1,
+      "median": 2.0,
+      "sd": 2.98,
+      "skewness": 3.35,
+      "normal_share_below_0_min": 0.149,
+      "observed_share_over_mean_plus_2sd": 0.037,
+      "normal_share_over_mean_plus_2sd": 0.023
+    },
+    {
+      "sample": "ALL days 1-4 only (enriched)",
+      "n": 108,
+      "mean": 3.26,
+      "median": 2.0,
+      "sd": 3.37,
+      "skewness": 3.21,
+      "normal_share_below_0_min": 0.167,
+      "observed_share_over_mean_plus_2sd": 0.046,
+      "normal_share_over_mean_plus_2sd": 0.023
+    }
+  ],
+  "new_case_start_gaps": {
+    "n": 110,
+    "mean": 8.15,
+    "sd": 9.08,
+    "cv": 1.11
+  }
+}

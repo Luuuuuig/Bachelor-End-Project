@@ -44,6 +44,7 @@ The historical two-day totals through **1 September** remain **351 net observed 
 - Workload construct: [Workload Definition](../methodology/Workload_Definition.md)
 - Research methodology / case selection: [Phase 1 Current Methodology](../methodology/Phase_1_Current_Methodology.md)
 - Detailed AS-IS task register: [Process Cleaned V1.5](../process/Process_Cleaned_V1.5.md)
+- Exploratory five-day analysis for the Day-5 review (derived; 23 September scope provisional): [Day-5 exploratory analysis](../../analysis/Day5_Exploratory_Analysis_2026-09-25.md)
 
 The repository is private. Company permission, as confirmed by the student on 2 September, allows the currently recorded buyer names and case-specific commercial values to remain for the authorized research audience. Public/thesis evidence remains anonymized or aggregated by default; personal contact details, unrestricted production exports and new confidential data categories require separate approval.
 
