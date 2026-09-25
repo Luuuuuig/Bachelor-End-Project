@@ -7,6 +7,16 @@ Use the [scope and classification addendum](Scope_and_Classification_Addendum_20
 
 This folder contains the current and historical Measure-phase data-collection materials for the BEP.
 
+## Enrichment and exposure review of 25 September
+
+The [23 September observation](Measure_Observation_2026-09-23.md#post-session-enrichment-completed-25-september-2026) now includes a purpose-based enrichment of all 58 raw rows. The [23 September CSV](23_September_Enriched_Rows_2026-09-25.csv) preserves every original field, with separate activity, Van Weele stage, confidence, timing and scope fields. It supplements the historical 21 September workbook and consolidated CSV; those earlier exports do not contain the fifth baseline session.
+
+The current 23 September included subtotal is 102 recorded activity minutes. Another 15 recorded minutes remain under scope review. Missing durations remain missing. The updated drawing classification uses Yijie's dated clarification about incomplete Engineering inputs, without rewriting the original note.
+
+The supervisor-directed concurrent-activity convention retains each confirmed simultaneous activity's full recorded interval, as confirmed by Yijie on 25 September. The three-minute PO interval at 11:42-11:45 is included in full; the overlapping EXC interval remains excluded. These are activity durations, not exclusive elapsed buyer time. No positive overlaps were found in the previous four sessions, so this concurrency clarification changes none of their existing included minutes.
+
+Use the [observation-time review](Observation_Time_Review_2026-09-25.md) and [five-session register](Observation_Time_Register_2026-09-25.csv) for exposure. Only 31 August (165 minutes) and 1 September (186 minutes) have confirmed net observation. The 8, 18 and 23 September notebook windows remain unconfirmed until observation boundaries and unavailable periods are clarified. Never substitute coded activity totals for net exposure or report pooled per-hour rates across unverified sessions.
+
 ## Activity-list update of 21 September
 
 Download the [Van Weele activity framework and observations, Excel](Van_Weele_Activity_Framework_and_Observations_2026-09-21.xlsx). The workbook contains two sheets, **Activity list** and **Observations**, with the definitions and all 259 retained rows. It matches the 21 September framework and CSV below.
