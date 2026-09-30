@@ -154,3 +154,13 @@ These corrections update documentation only. They preserve the approved research
 | Historical totals called current | The measurement README labels the 21 and 25 September enrichment subtotals as historical and adds **Current totals from the reviewed CSVs**: 752 recorded minutes, 182 EXC-coded, 9 contaminated, 561 non-EXC valid, 26 Not applicable and a purchasing-stage basis of **535 minutes** (99, 124, 68, 142 and 102 by session), of which 41 have no stage. The observation-time review points there. |
 | Methodology introduction said four sub-questions | Corrected to the five sub-questions of the submitted Plan of Work; it now points to the current activity framework and marks the 14 September crosswalk as historical. |
 
+## 11. Episode-level eligibility, 30 September 2026
+
+A review of commit 45af4e6 found that the 535-minute purchasing-stage basis applied code-level filters only. Scope rule 4 also excludes non-EXC episodes that belong to excluded aftercare or logistics work, and stage assignments do not change scope. For example, the 8 September OBS-01 cancellation SEND (10:46–10:50) and PO amendment (11:18–11:22) were still counted.
+
+- The 535 minutes are now labelled a provisional subtotal.
+- `docs/measurement/Episode_Eligibility_2026-09-30.csv` carries the episode-level scope and timing-quality decisions of the 21 and 25 September enrichment for all 287 baseline rows. It matches the daily CSVs row for row on case and start time. The daily CSVs are unchanged.
+- Result: 452 eligible minutes, 34 excluded aftercare, 47 under scope review and 2 with uncertain timing. The 41 blank-stage minutes split into 34 eligible, 1 excluded and 6 under review.
+- Open for the observer: the 30 scope-review rows (47 timed minutes), six timed rows (18 minutes) where the enrichment's aftercare exclusion differs from the reviewed stage, and one row with uncertain timing.
+- The methodology no longer calls the observation-file profiles current; it points to the reviewed-CSV totals.
+
