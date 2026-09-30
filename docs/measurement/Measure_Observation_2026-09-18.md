@@ -11,6 +11,8 @@
 
 The tables retain the source row order, repeated case IDs, activity codes, times, volumes, interruption counts and decision indicators. `/` preserves a handwritten slash; blank cells remain blank. Corrected values supplied by Yijie replace unclear handwriting. At Yijie's request, the Primer-C entry uses the dated case reference found in the earlier observation record. The original observation tables retain their source values. Post-session enrichment and coverage appear later in this file.
 
+**Recording marks clarified 30 September 2026:** Yijie used a handwritten `/` to mean none, where the protocol asks for `—`. The marks are kept as written; the analysis reads them as none, so a `/` in INT means no interruption. See the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#recording-marks).
+
 **Source columns:** Case | Activity | Start | End | Volume | INT | DEC? | Note
 
 ## Morning observations

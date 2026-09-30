@@ -8,6 +8,8 @@ Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 Septembe
 
 Yijie clarified on 30 September that the simultaneous-activity rule was followed after the supervisor's instruction at the 17 September meeting. Each genuinely simultaneous activity keeps its own recorded interval. The 25 September documentation did not introduce the practice. The [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) and [v1.3 cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md) now state this timing explicitly.
 
+Yijie also clarified on 30 September that a handwritten `/` in the observation sheets means none, where the protocol asks for `—`: a `/` in INT means no interruption and in DEC? no decision marked. The marks stay as written. See [Recording marks](Scope_and_Classification_Addendum_2026-09-14.md#recording-marks).
+
 **Files for the analysis.** Use the five baseline `Arno_Measurement_*.csv` exports below, whose stage column was reviewed on 30 September, together with the observation-time register. Nothing is dropped before analysis; see [Current totals from the reviewed CSVs](#current-totals-from-the-reviewed-csvs). The pilot export stays separate from the baseline. The earlier enriched exports (the 21 September CSV and workbook, and the 23 September enriched CSV) and the enrichment sections inside the observation notes are historical; their included-minute totals are not the current analysis figures. Dennis's 25 September session exists only in its observation note.
 
 ## Current totals from the reviewed CSVs
