@@ -53,6 +53,6 @@ With these answers, per-hour occurrence rates can use the confirmed net observat
 
 ## Files and reproducibility
 
-- [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv): one row per session with blocks, unobserved intervals, confirmed net observation, interval arithmetic and evidence.
+- [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv): one row per session with blocks, unobserved intervals, confirmed net observation, interval arithmetic and evidence. The field `recorded_interval_minutes_outside_confirmed_blocks` refers to the confirmed blocks, not the original notebook headings. Its zero for 23 September reflects the confirmed 12:31 end; the original 12:30 heading and its one-minute discrepancy remain documented above and unchanged in the source.
 
 The interval arithmetic can be re-derived from the start and end times in the five observation notes, or from the enriched CSVs. Checks: 225 timestamped source rows across five sessions; recorded interval sum 752 minutes; interval union 751 minutes; the only positive overlap is the confirmed minute on 23 September. The first four interval sums reproduce 567 minutes from the prior review.

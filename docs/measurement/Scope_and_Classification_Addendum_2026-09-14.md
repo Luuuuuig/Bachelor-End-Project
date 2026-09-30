@@ -2,7 +2,7 @@
 
 Prepared 14 September 2026. Applies the scope decisions recorded on 10 September. The phase crosswalk and operational rules below are researcher implementation choices for review, not additional decisions attributed to the supervisor.
 
-**30 September timing update:** Simultaneous activities now each keep their own recorded interval (see [Timing of simultaneous activities](#timing-of-simultaneous-activities)). This records the practice already used on 23 September; no earlier included total changes.
+**30 September observer clarification:** Yijie applied the supervisor's instruction to retain simultaneous activities' full intervals following the 17 September meeting (see [Timing of simultaneous activities](#timing-of-simultaneous-activities)). The 25 September confirmation documented that existing practice; it was not the adoption date. No recorded interval or included total changes.
 
 **21 September classification addition:** The [stage-organized analytical activity list](../process/Purchasing_Activity_Framework_2026-09-21.md) is now the current reference for detailed activity assignments. This addition implements the framework-guided classification direction discussed on 17 September. It retains the original 14 September scope decisions and changes no live fields, timing rules, original observation rows or research questions.
 
@@ -53,7 +53,7 @@ An `UNKNOWN` stage or unresolved analytical activity does not itself exclude rel
 
 ### Timing of simultaneous activities
 
-**Updated 30 September 2026.** Until 25 September, the baseline used exclusive active time: one buyer could not have two timed activities in the same minute. On 17 September, Zhongxin suggested recording the time of simultaneous activities separately. The example given was a 50-minute activity with a 30-minute activity performed during it: 80 activity minutes within 50 elapsed minutes ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md)). Yijie confirmed on 25 September that this rule is adopted.
+**Observer implementation clarification, 30 September 2026.** Yijie clarified that Zhongxin instructed him at the 17 September meeting to record the time of simultaneous activities separately, and that he applied the instruction following that meeting. The example given was a 50-minute activity with a 30-minute activity performed during it: 80 activity minutes within 50 elapsed minutes ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md)). This superseded the earlier exclusive active-time rule. The confirmation recorded on 25 September documented the existing practice, not a new adoption date. The first subsequent Arno session was 18 September, with no recorded overlaps; the first documented overlap was on 23 September.
 
 1. When the buyer genuinely performs two activities at the same time, record each with its own start and end, even when the intervals overlap. Do not shorten either interval to remove the overlap.
 2. This is not a combined activity. When one interval cannot be separated into its parts, keep one row and count its minutes once, as before.
@@ -88,8 +88,8 @@ Report analytical-activity coverage alongside any activity summary. A subset of 
 
 - [Academic decisions of 10 September](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md), especially EXC scope and Dennis data sufficiency.
 - [Academic decisions of 3 September](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md), especially preservation of raw data, observation sufficiency and analysis denominators.
-- [Measurement Protocol v1.3](Measurement_Protocol_v1.3.md), retained for timing, interruption and non-fabrication rules except where this addendum changes the scope.
+- [Measurement Protocol v1.3](Measurement_Protocol_v1.3.md), retained for interruption and non-fabrication rules and for timing except where this addendum supersedes the scope or timing rules.
 - [8 September observation](Measure_Observation_2026-09-08.md), including the OBS-16 exclusion.
-- [Academic meeting of 17 September](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md), especially the framework-guided activity-list direction and the separate proposed timing treatment.
+- [Academic meeting of 17 September](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md), especially the framework-guided activity-list direction and the timing instruction, with implementation clarified by the observer on 30 September.
 - [Purchasing activity framework of 21 September](../process/Purchasing_Activity_Framework_2026-09-21.md), the current analytical labels and assignment boundaries.
 - [Measurement method justification](Measurement_Method_Justification.md), including the development chain and the distinction between published observation principles and local choices.

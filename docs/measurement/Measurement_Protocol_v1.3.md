@@ -2,6 +2,8 @@
 
 **Status:** Historical controlled baseline revision effective 2 September 2026. From 14 September, read its timing rules together with the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md), which applies the 10 September academic scope decision. The original code definitions below are preserved for interpretation of earlier observations; EXC is now excluded from thesis timed analysis and focal-case selection.
 
+**Timing implementation clarification, 30 September 2026:** Yijie applied the supervisor's full-interval rule for genuinely simultaneous activities following the 17 September meeting. The [dated timing rule in the scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) supersedes the exclusive active-time instruction retained as historical text in Section 7.1. The 25 September confirmation documented existing practice. Raw records remain unchanged.
+
 **Current construct clarification, 15 September:** Use the current [workload definition](../methodology/Workload_Definition.md) and [method justification](Measurement_Method_Justification.md) for thesis claims. Workload concerns amount and difficulty; processing time is one descriptive indicator. Mental workload is not assessed. Historical references below do not add a current measurement requirement. This notice changes no live fields, timing rules or source observations.
 
 **Purpose:** This protocol defines how workload-related evidence is collected during shadowing of the operational buyer at Hytech-Pommec. It is designed for the broad exploratory Measure phase, before one focal purchasing activity is selected for deeper Analyze/Improve work.
@@ -255,7 +257,11 @@ Active processing time is time during which the buyer is actually working on the
 
 If the buyer clearly leaves the activity for another case, conversation or unrelated task, close/pause the segment and start a new segment when the case resumes.
 
-Do not allow two active buyer episodes to occupy the same clock minute unless there is a documented boundary ambiguity; resolve it while memory is fresh or mark the boundary uncertain rather than double-counting.
+**Historical exclusive timing instruction, superseded following the 17 September meeting:**
+
+> Do not allow two active buyer episodes to occupy the same clock minute unless there is a documented boundary ambiguity; resolve it while memory is fresh or mark the boundary uncertain rather than double-counting.
+
+**Current rule, implementation clarified by the observer on 30 September:** retain each genuinely simultaneous activity's full recorded interval, following the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities). Inseparable mixed work remains one interval; an interruption still pauses the first task. Keep activity minutes separate from elapsed minutes and apply scope to each activity independently. No overlap is inferred or added to historical records.
 
 ## 7.2 Interruption attribution
 
@@ -524,4 +530,5 @@ Young, M. S., Brookhuis, K. A., Wickens, C. D., & Hancock, P. A. (2015). State o
 Westbrook, J. I., & Ampt, A. (2009). Design, application and testing of the Work Observation Method by Activity Timing (WOMBAT) to measure clinicians' patterns of work and communication. *International Journal of Medical Informatics, 78*(Supplement 1), S25–S33. https://doi.org/10.1016/j.ijmedinf.2008.09.003
 
 Zheng, K., Guo, M. H., & Hanauer, D. A. (2011). Using the time and motion method to study clinical work processes and workflow: Methodological inconsistencies and a call for standardized research. *Journal of the American Medical Informatics Association, 18*(5), 704–710. https://doi.org/10.1136/amiajnl-2011-000083
+
 

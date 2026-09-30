@@ -106,3 +106,12 @@ Rule 3 of the scope addendum says that from 14 September EXC is no longer timed 
 | 3 Outdated status and index text | Resolved. The session counts, measurement and meeting indexes, and the time review's file list are updated. |
 | 4 EXC rule versus practice | Left unchanged. Yijie will discuss with the supervisor whether excluding all EXC time is justified, since most EXC episodes are not logistics. |
 | 5 Final Plan of Work differences | Not changed; the final Plan of Work remains a reference. The study-load statement still needs confirmation. |
+
+## 8. Clarifications incorporated after branch review, 30 September 2026
+
+- **Timing implementation:** Yijie confirms following the supervisor's simultaneous-activity instruction after the 17 September meeting. The earlier follow-up wording that placed adoption on 25 September is superseded: that date records documentation of existing practice. The method, framework, scope addendum, cheat sheet and historical protocol notice now distinguish those dates. Sessions through 18 September have no overlapping recorded intervals; the confirmed overlap occurs on 23 September. No recorded duration or included total changes.
+- **Current research actions:** The methodology now directs the five-session coverage review and the adopted timing rule. Additional observation depends on identified gaps, not an outdated instruction to reach the already completed fifth session.
+- **Exposure status:** The observer already confirmed 104, 240 and 197 net minutes for 8, 18 and 23 September. Earlier derived statements saying confirmation is still needed are superseded in those individual observation files. All five Arno sessions retain 892 confirmed net minutes. Raw observation tables and notebook headings remain unchanged.
+- **Register terminology:** `recorded_interval_minutes_outside_confirmed_blocks` replaces the ambiguous `recorded_interval_minutes_outside_block_headings` header. Values are unchanged. The original 23 September heading still ends at 12:30; the confirmed observation block ends at 12:31.
+
+These corrections update documentation only. They preserve the approved research questions, latest nine-column daily CSVs, source observations, scope exclusions and historical analysis totals.
