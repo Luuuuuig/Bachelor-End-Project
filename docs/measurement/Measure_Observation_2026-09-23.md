@@ -100,7 +100,7 @@ The tables preserve source row order, repeated case IDs, activity labels, timing
 
 - The record contains 58 retained rows: 34 morning rows and 24 afternoon rows.
 - The confirmed overlap is retained as concurrent activity. Summing these episode durations would include overlapping time and would not directly give exclusive buyer time.
-- The 13:42 to 14:24 interval for OBS-16 records elapsed clock boundaries. The source and clarification do not establish that all 42 minutes were continuously observed active work.
+- The 13:42 to 14:24 interval for OBS-16 records elapsed clock boundaries. Yijie confirmed on 30 September that he observed Arno throughout these 42 minutes. This establishes observer presence, not 42 minutes of eligible active purchasing work; the logistics/EXC exclusion remains.
 - The INT=1 value in OBS-04 is preserved together with the explanation that Arno continued working. No interruption duration is invented or deducted.
 - Yijie confirmed the OBS-04 PO volume at 11:14 to 11:15 as 17L and the OBS-12 PO volume at 12:21 to 12:26 as 2L.
 
@@ -126,7 +126,7 @@ Activities and Van Weele stages follow the purpose of the recorded work. C means
 | Other logistics/transport follow-up | 1 | 2 | OBS-18 SEND, with original family preserved |
 | All source rows | 58 | 185 | Sum of 48 recorded intervals, not verified net observation time |
 
-The notebook headings span 196 clock minutes. The morning row ends at 12:31 despite the 12:30 heading. Breaks, stopped observation and observer presence during 13:42-14:24 need confirmation before net exposure can be finalized. Hourly occurrence rates for this date remain unavailable. The 102 included minutes can support a scoped recorded-work profile, not an estimate of total time observed or the buyer's working day.
+The retained notebook headings span 196 clock minutes, while the morning row ends at 12:31 despite the 12:30 heading. The observer confirmation recorded below establishes 197 minutes of net observation, which is available for occurrence-rate analysis. The historical analysis above has not been rerun. Its 102 included minutes describe scoped recorded work and do not replace the observation denominator or estimate the buyer's working day.
 
 **Observation time confirmed 30 September 2026:** Yijie confirmed that the morning block ran until 12:31, that the other blocks were 13:00–14:26 and 14:40–15:00 with no other breaks, and that Yijie followed Arno throughout 13:42–14:24. Net observation is 197 minutes; see the [observation-time review](Observation_Time_Review_2026-09-25.md). The session headings and source rows above remain as written.
 

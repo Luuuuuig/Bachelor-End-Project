@@ -44,7 +44,7 @@ This folder contains the current and historical Measure-phase data-collection ma
 
 Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Yijie confirmed the observation blocks for 8, 18 and 23 September, so all five sessions now have confirmed net observation: 165, 186, 104, 240 and 197 minutes, **892 minutes** in total. See the [observation-time review](Observation_Time_Review_2026-09-25.md) and [register](Observation_Time_Register_2026-09-25.csv). Dennis was observed on 25 September; that session is not part of the Arno register.
 
-The rule for simultaneous activities is now written into the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) and the [v1.3 cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md): each genuinely simultaneous activity keeps its own recorded interval. Yijie is redoing the post-session enrichment; the enriched files and included-minute totals below will be replaced.
+Yijie clarified on 30 September that the simultaneous-activity rule was followed after the supervisor's instruction at the 17 September meeting. Each genuinely simultaneous activity keeps its own recorded interval. The 25 September documentation did not introduce the practice. The [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) and [v1.3 cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md) now state this timing explicitly. Yijie is redoing the post-session enrichment; the enriched files and included-minute totals below will be replaced.
 
 ## Enrichment and exposure review of 25 September
 

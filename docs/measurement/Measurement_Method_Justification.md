@@ -76,7 +76,7 @@ WOMBAT provides the closest published structural analogue. It uses defined task 
 
 The BEP borrows these **design principles**, not WOMBAT's clinical task taxonomy or a claim that the procurement protocol has inherited WOMBAT's validation.
 
-Until 25 September, the BEP's controlled baseline used its own exclusive active-time rule for a buyer. From 25 September, following the supervisor's 17 September suggestion, genuinely simultaneous activities each keep their own recorded interval, as WOMBAT also records simultaneous work. The dated definition and comparability assessment are in the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities). No earlier session contains overlapping intervals, so historical totals are unchanged.
+On 30 September, Yijie clarified that he applied the supervisor's instruction to retain genuinely simultaneous activities' full recorded intervals following the 17 September meeting. This superseded the earlier exclusive active-time rule; the 25 September confirmation documented existing practice. WOMBAT also records simultaneous work. The dated definition and comparability assessment are in the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities). The pilot and Arno sessions through 18 September contain no recorded overlaps. The first documented overlap, on 23 September, already retains both intervals; its EXC interval remains excluded and the eligible PO interval stays intact. No historical recorded interval or included total changes.
 
 ## 4. Construct-to-indicator map
 
