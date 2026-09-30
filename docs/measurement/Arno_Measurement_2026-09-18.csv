@@ -66,8 +66,8 @@ OBS-24,PO,13:54,13:56,4L,/,/,"Attempted maximisatie of the PO, without success."
 OBS-25,EXC,14:00,14:01,/,/,/,,Follow-up and evaluation
 OBS-21,CHECK,14:02,14:22,29L,/,/,Pre-check; one mismatch was difficult to explain. The note names Kirby.,Ordering
 OBS-21,OTHER,/,/,/,/,/,Johan's approval was needed again.,Ordering
-OBS-26,EXC,14:23,14:26,/,/,/,Missing certificate.,
-OBS-26,EXC,14:26,14:34,/,/,/,Forward and explain the issue to the project manager; call the supplier.,
+OBS-26,EXC,14:23,14:26,/,/,/,Missing certificate.,Follow-up and evaluation
+OBS-26,EXC,14:26,14:34,/,/,/,Forward and explain the issue to the project manager; call the supplier.,Follow-up and evaluation
 OBS-27,REQ-phone,/,/,/,/,/,,Monitoring
 OBS-27,EXC,14:36,14:39,/,/,/,Backorder; the note gives 23 September 2026.,Monitoring
 OBS-28,CLAR,14:41,14:44,/,/,/,Look for the relevant quotation.,
