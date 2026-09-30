@@ -10,7 +10,7 @@ These exports preserve the original eight observation-table columns and add only
 | 31 August | [Arno_Measurement_2026-08-31.csv](Arno_Measurement_2026-08-31.csv) | Presented stage proposals accepted on 30 September; unresolved stages remain blank. |
 | 1 September | [Arno_Measurement_2026-09-01.csv](Arno_Measurement_2026-09-01.csv) | Presented stage proposals accepted on 30 September; unresolved stages remain blank. |
 | 8 September | [Arno_Measurement_2026-09-08.csv](Arno_Measurement_2026-09-08.csv) | Presented stage proposals accepted on 30 September; 7 unresolved stage cells remain blank. |
-| 18 September | [Arno_Measurement_2026-09-18.csv](Arno_Measurement_2026-09-18.csv) | Presented stage proposals accepted on 30 September; 2 unresolved stage cells remain blank. |
+| 18 September | [Arno_Measurement_2026-09-18.csv](Arno_Measurement_2026-09-18.csv) | Review closed on 30 September; OBS-28 remains unassigned at the observer's request. |
 
 For 1 September, the observer clarified that OBS-02 concerned unclear wording of the requested quantity. Its REQ and CLAR rows, data rows 2 and 3, are **Ordering**. OBS-04 remains **Specification**, including the request in data row 7 and the technical assessment in row 8.
 
@@ -22,7 +22,7 @@ For 18 September, the observer assigns the initial OBS-03 request and invoice/de
 
 The observer subsequently assigns both OBS-26 missing-certificate episodes (data rows 68–69), including informing the project manager and contacting the supplier for solutions, to **Follow-up and evaluation (nazorg)**. This records the observer's stage assignment without inferring a delivery date or a completed resolution.
 
-Two stage cells remain blank: the tentative Primer-C quantity/price comparison (row 9) and retrieval of a received quotation in OBS-28 (row 72). The Primer-C episode retains the original case reference **OBS-01 (2026-08-31)**; the documents being compared and purpose of that comparison remain unclear. For OBS-28, the quotation's intended use is not recorded. These explanations do not replace original notes or create durations. Every original observation field remains unchanged.
+For the Primer-C quantity/price comparison (data row 9), the observer permits **Monitoring** or Follow-up and evaluation. **Monitoring** is selected as the most-likely check of an existing order. The episode retains the original case reference **OBS-01 (2026-08-31)** and its uncertain activity code. The comparison documents remain unspecified; no supplier confirmation, invoice or completed delivery is inferred. Only OBS-28 (row 72), retrieval of a received quotation with unspecified intended use, remains unassigned. The observer explicitly asks to leave it as it is and move to the next date. The 18 September review is closed. Original notes, durations and all other original fields remain unchanged.
 
 These simple exports are the current working format requested by the observer. The earlier enriched exports and Markdown enrichment sections retain historical interpretations and may differ. This publication does not update historical analysis totals, validate exposure, or change scope and timing rules.
 

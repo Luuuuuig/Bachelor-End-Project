@@ -7,7 +7,7 @@ OBS-03,OTHER/EXC,10:43,10:46,/,/,/,Supplier contact concerning finance and a del
 OBS-01,CHECK,10:47,10:52,32L,/,/,,Monitoring
 OBS-01,OTHER,10:52,10:54,/,/,/,Attach the file to Exact.,Monitoring
 OBS-01,SEND,10:54,10:56,/,/,/,Ask whether several items on the PO can be delivered sooner.,Monitoring
-OBS-01 (2026-08-31),[uncertain],10:58,10:59,/,/,/,Primer-C from the 31 August observation; see clarification below.,
+OBS-01 (2026-08-31),[uncertain],10:58,10:59,/,/,/,Primer-C from the 31 August observation; see clarification below.,Monitoring
 OBS-04,REQ-mail,/,/,/,/,/,,Ordering
 OBS-04,PO,10:59,11:02,/,/,1,Create a PO for six new Hytech-Pommec flags; see case note below.,Ordering
 OBS-04,SEND,/,/,/,/,/,,Ordering
