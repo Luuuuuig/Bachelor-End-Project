@@ -1,5 +1,15 @@
 # Measurement
 
+This folder contains the current and historical Measure-phase data-collection materials for the BEP.
+
+## Status on 30 September
+
+Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Yijie confirmed the observation blocks for 8, 18 and 23 September, so all five sessions now have confirmed net observation: 165, 186, 104, 240 and 197 minutes, **892 minutes** in total. See the [observation-time review](Observation_Time_Review_2026-09-25.md) and [register](Observation_Time_Register_2026-09-25.csv). Dennis was observed on 25 September; that session is not part of the Arno register.
+
+Yijie clarified on 30 September that the simultaneous-activity rule was followed after the supervisor's instruction at the 17 September meeting. Each genuinely simultaneous activity keeps its own recorded interval. The 25 September documentation did not introduce the practice. The [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) and [v1.3 cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md) now state this timing explicitly.
+
+**Files for the analysis.** Use the five baseline `Arno_Measurement_*.csv` exports below, whose stage column was reviewed on 30 September, together with the observation-time register. The pilot export stays separate from the baseline. The earlier enriched exports (the 21 September CSV and workbook, and the 23 September enriched CSV) and the enrichment sections inside the observation notes are historical; their included-minute totals are not the current analysis figures. Dennis's 25 September session exists only in its observation note.
+
 ## Simple CSV exports, 30 September 2026
 
 These exports preserve the original eight observation-table columns and add only **Van Weele stage**. Original codes, notes, timestamps, volumes and missing values remain unchanged. Stage assignments describe the purpose of each activity; they are not a fixed conversion from work-family codes.
@@ -36,15 +46,6 @@ These simple exports are the current working format requested by the observer. T
 ## Scope update of 14 September
 
 Use the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md) alongside the v1.3 timing rules. It implements the 10 September logistics and EXC exclusion, preserves historical raw data and separates Van Weele phases from live work families. The [Dennis guide](Dennis_Observation_Guide_2026-09-14.md) prepares the added tactical purchasing discovery.
-
-
-This folder contains the current and historical Measure-phase data-collection materials for the BEP.
-
-## Status on 30 September
-
-Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Yijie confirmed the observation blocks for 8, 18 and 23 September, so all five sessions now have confirmed net observation: 165, 186, 104, 240 and 197 minutes, **892 minutes** in total. See the [observation-time review](Observation_Time_Review_2026-09-25.md) and [register](Observation_Time_Register_2026-09-25.csv). Dennis was observed on 25 September; that session is not part of the Arno register.
-
-Yijie clarified on 30 September that the simultaneous-activity rule was followed after the supervisor's instruction at the 17 September meeting. Each genuinely simultaneous activity keeps its own recorded interval. The 25 September documentation did not introduce the practice. The [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) and [v1.3 cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md) now state this timing explicitly. Yijie is redoing the post-session enrichment; the enriched files and included-minute totals below will be replaced.
 
 ## Enrichment and exposure review of 25 September
 

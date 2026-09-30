@@ -21,7 +21,7 @@ All quantities are minutes. The interval sum retains all source intervals, inclu
 - **Recorded interval sum:** end minus start for every source row with both timestamps. Concurrent rows each keep their full recorded duration under the supervisor's adopted rule. Source intervals still need scope and timing-quality checks before becoming analysis minutes.
 - **Interval union:** clock minutes covered by at least one recorded interval, counting simultaneous coverage once. This is an arithmetic check. It does not prove continuous observation or recover uncoded work.
 - **Net observed time:** verified observation blocks minus observer absence or other periods when observation did not take place. An uncoded interval is not automatically an observer absence, a break, or inactivity.
-- **Included scoped minutes:** eligible activity durations after scope and timing-quality checks. The existing four-session review has 91, 116, 32 and 121 minutes respectively, totalling 360. The 23 September enrichment adds 102 included minutes, with 15 further minutes held under scope review. These enrichment figures will be replaced by Yijie's own enrichment. They cannot replace observation exposure.
+- **Included scoped minutes:** eligible activity durations after scope and timing-quality checks. The existing four-session review has 91, 116, 32 and 121 minutes respectively, totalling 360. The 23 September enrichment adds 102 included minutes, with 15 further minutes held under scope review. These enrichment figures are historical; the observer-reviewed daily CSVs of 30 September are the current working data. They cannot replace observation exposure.
 
 ## Evidence per session
 

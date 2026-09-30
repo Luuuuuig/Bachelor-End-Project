@@ -115,3 +115,31 @@ Rule 3 of the scope addendum says that from 14 September EXC is no longer timed 
 - **Register terminology:** `recorded_interval_minutes_outside_confirmed_blocks` replaces the ambiguous `recorded_interval_minutes_outside_block_headings` header. Values are unchanged. The original 23 September heading still ends at 12:30; the confirmed observation block ends at 12:31.
 
 These corrections update documentation only. They preserve the approved research questions, latest nine-column daily CSVs, source observations, scope exclusions and historical analysis totals.
+
+## 9. Full check before analysis, 30 September 2026
+
+### Verified
+
+| Check | Result |
+|---|---|
+| Daily CSVs against observation notes | All 287 baseline rows in the five `Arno_Measurement_*.csv` files match the observation-note tables field for field (case, code, start, end, volume, INT, DEC?, note). All 30 pilot rows are found in the pilot note. |
+| Stage claims in the measurement README | Every row-level stage statement for 1, 8, 18 and 23 September matches the CSVs, including the blank-stage counts (18 Sep: OBS-28 only; 23 Sep: 16 blanks). |
+| Observation time | 892 confirmed net minutes (165, 186, 104, 240, 197) appear consistently in the READMEs, charter, timeline, methodology, register, time review and the three session notes. |
+| Timing rule | The protocol, cheat sheet, scope addendum, method justification, framework, methodology and 17 September note all describe the full-interval rule for genuinely simultaneous activities; exclusive timing appears only as superseded history. |
+| Links | Every relative link and heading anchor in the repository resolves. |
+
+### Decisions applied
+
+- **Research questions:** the repository now uses the five sub-questions of the submitted Plan of Work (22 September). Updated: BEP assignment, methodology, workload definition and activity framework. The Markdown Plan of Work draft is marked as history.
+- **Final Plan of Work:** stored as `docs/proposal/Plan_of_Work_Final_2026-09-22.pdf` and linked from both READMEs, the BEP assignment and the methodology.
+- **Title:** "AI-supported operational procurement at Hytech-Pommec", as in the draft and half-page description. The BEP assignment is updated. The submitted PDF uses "purchasing" (and the typo "Hytch") in its title.
+- **Study load:** 420 hours combined for 1BEPIE and 1BEPIEX stays as in the timeline and charter. The submitted PDF states 420 hours for 1BEPIEX.
+- **Working data:** the observer-reviewed daily CSVs are the current analysis data. The measurement README now opens with the status and file guidance; the 21 and 25 September enriched exports are marked historical. This supersedes the "deferred" outcome for finding 2.2 in section 7.
+
+### Still open, not blocking the Arno analysis
+
+- **EXC:** the scope rule is unchanged pending the supervisor discussion; the analysis will report results with and without EXC.
+- **Blank stages:** 50 baseline rows (50 non-EXC minutes) have no stage; they form an "unassigned" group in stage-level results.
+- **Column names differ slightly** between the daily CSVs (`Activity` versus `Activity as written` on 8 September; `Note` versus `Result / short note` on 1 and 8 September). The content is equivalent; the analysis maps them.
+- **Dennis:** the 25 September session exists only as an observation note, with no daily CSV in the current format, and one timed session is not enough to test Arno's patterns.
+- **Protocols v1.1–v1.3** still say that company volume data "may" supplement observation. This is optional wording in versioned protocols and was left unchanged; no request for such data is planned.

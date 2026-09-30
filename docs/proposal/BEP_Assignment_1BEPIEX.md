@@ -1,8 +1,8 @@
 # BEP Assignment 1BEPIEX
 
-**Status:** Current readable repository version, synchronized 15 September 2026. This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
+**Status:** Current readable repository version, synchronized 30 September 2026 with the research questions of the submitted [Plan of Work](Plan_of_Work_Final_2026-09-22.pdf) (22 September 2026). This Markdown file is the authoritative readable project-definition source in the repository. The Word binary retained beside it is an older external/submission copy and should not be assumed to contain every later repository synchronization.
 
-**Project title:** Reduce Operational Purchasing Workload at Hytech-Pommec using AI  
+**Project title:** AI-supported operational procurement at Hytech-Pommec  
 **Student:** Yijie Wang  
 **Research group:** OPAC  
 **TU/e supervisor:** Zhongxin Hu  
@@ -10,7 +10,7 @@
 
 ### Scope update of 14 September 2026
 
-The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The four-question structure and order are retained. The wording below incorporates the student-confirmed clarification of one operational buyer and relevant tactical purchasing tasks; it does not record new supervisor approval of measurement or evaluation details.
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The sub-questions below follow the five-question structure of the submitted Plan of Work of 22 September. The wording below incorporates the student-confirmed clarification of one operational buyer and relevant tactical purchasing tasks; it does not record new supervisor approval of measurement or evaluation details.
 
 ## Description of the context
 
@@ -46,16 +46,19 @@ Furthermore, one purchasing activity will be selected for design and evaluation.
 
 ### Main research question
 
-The questions retain the original supervisor-approved structure and order, using the student's latest supplied scope wording.
+The questions follow the submitted [Plan of Work](Plan_of_Work_Final_2026-09-22.pdf) of 22 September 2026.
 
 > **To what extent can an AI-supported solution reduce the operational buyer's workload at Hytech-Pommec without reducing the quality of the purchasing outcome?**
 
 ### Sub-research questions
 
-1. Which parts of the purchasing workflow, including relevant operational and tactical purchasing tasks, contribute most to the operational buyer's workload in terms of frequency, processing time, rework and judgement required?
+1. What is the standard workflow of the purchasing process at Hytech-Pommec, and what is the relationship between operational and tactical purchasing tasks?
 2. What conditions and control measures are required for the proposed solution to be implemented reliably in the purchasing workflow, including relevant operational and tactical purchasing tasks?
-3. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility and the need for human expertise?
-4. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
+3. Which parts of the purchasing workflow contribute most to the operational buyer's workload in terms of proposed measures?
+4. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility, and the need for human expertise?
+5. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity?
+
+Until 22 September, the repository used four sub-questions. The former first question (workload contributors) is now sub-question 3, selection is now sub-question 4 and evaluation is now sub-question 5; the workflow and operational–tactical relationship question is new. In the Plan of Work, active handling time is the primary indicator for sub-question 3, complemented by frequency and volume; judgement, uncertainty and expertise notes inform difficulty, and repeated work is considered qualitatively where the notes support it.
 
 The operational buyer in these questions is Arno. Relevant tactical purchasing tasks performed by Dennis are included in the investigation and, where relevant, in the design and evaluation of the selected improvement. Reducing Arno's workload remains the primary objective. Changes to Dennis's work will be considered where the improvement affects his tasks or responsibilities.
 
@@ -63,7 +66,7 @@ The operational buyer in these questions is Arno. Relevant tactical purchasing t
 
 This project uses **DMAIC** as the overall framework for improving the operational purchasing process at Hytech-Pommec. Define, Measure and Analyze are used to understand the current process, establish a workload baseline and identify the most suitable improvement opportunity.
 
-The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Three official sessions are recorded: 31 August, 1 September and 8 September. The third remains a transcription with an explicit OBS-16 data-quality exclusion. The first two sessions have historical totals under the earlier broader scope: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 transcription correction) and 1 September (186 net / 162 timed coded-active minutes), totaling **351 net observed minutes** and **265 timed coded-active minutes** before applying the narrower analytical scope. These are not updated three-session or EXC-filtered totals. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. Apply the 14 September scope addendum to subsequent collection and derived analysis. The initial Arno target remains five distinct observation days followed by a coverage, stability and saturation review; Dennis's evidence need not have the same quantity. For Arno, five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
+The exploratory Measure phase uses structured live observation. The 28 August pilot established a two-level architecture: observable work is coded at broad family level during shadowing, then mapped to detailed Task IDs post-session where evidence supports it. Five official Arno sessions are recorded (31 August; 1, 8, 18 and 23 September), with **892 minutes of confirmed net observation**; the 8 September OBS-16 data-quality exclusion remains. Dennis was observed on 25 September. Measurement Protocol v1.3 is controlled from 2 September without changing the v1.2 live fields/timing. Apply the 14 September scope addendum to subsequent collection and derived analysis. The initial Arno target remains five distinct observation days followed by a coverage, stability and saturation review; Dennis's evidence need not have the same quantity. For Arno, five days is not assumed to equal 40 net hours. Detailed Exact/Orbis production-data/interface feasibility remains deferred until Analyze can target shortlisted candidates.
 
 Within the **Improve** phase, **DSRM** guides design, development, demonstration and evaluation of the selected AI-supported artifact. Before development/formal testing, the project freezes the justified primary workload endpoint for the selected component, meaningful-improvement threshold and final-human-outcome quality guardrail. The **Control** phase then focuses on implementation recommendations, monitoring and maintaining the improved process.
 

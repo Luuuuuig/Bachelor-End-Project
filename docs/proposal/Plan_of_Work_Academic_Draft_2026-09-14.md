@@ -1,5 +1,7 @@
 # Plan of Work
 
+> **Draft, kept as history.** The submitted final version, dated 22 September 2026, is [Plan_of_Work_Final_2026-09-22.pdf](Plan_of_Work_Final_2026-09-22.pdf). It differs from this draft in its five sub-questions, introduction and method wording. Where they differ, the final version applies.
+
 **Name student:** Yijie Wang
 
 Student ID: [Student ID]

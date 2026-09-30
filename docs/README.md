@@ -3,7 +3,7 @@
 ## Deliverables prepared on 14 September
 
 - [Half-page project description for 15 September](proposal/Half_Page_Project_Description_2026-09-15.md).
-- [Plan of Work in the university template](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md), including the proposal, Gantt chart, reflection prompts and unsigned declaration.
+- [Plan of Work draft in the university template](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md), including the proposal, Gantt chart, reflection prompts and unsigned declaration. The submitted final version of 22 September is [Plan_of_Work_Final_2026-09-22.pdf](proposal/Plan_of_Work_Final_2026-09-22.pdf).
 - [Van Weele mapping of eight codes and 31 tasks](process/Van_Weele_Activity_Mapping_2026-09-14.md).
 - [Measure scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md).
 - [Dennis observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
@@ -74,7 +74,7 @@ The Mermaid Gantt can be copied into draw.io / diagrams.net for visual editing a
 ## B. Academic project definition
 
 ### [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md)
-Use for the current readable project title, context, problem description, objective, **supervisor-approved research question and sub-questions**, research design and communication expectations.
+Use for the current readable project title, context, problem description, objective, **research question and the five sub-questions of the submitted Plan of Work**, research design and communication expectations. The submitted [Plan of Work](proposal/Plan_of_Work_Final_2026-09-22.pdf) of 22 September is the final proposal document.
 
 The older Word file remains beside it for external/submission history. The Markdown version is the authoritative readable repository source for later framing and methodology synchronizations.
 
