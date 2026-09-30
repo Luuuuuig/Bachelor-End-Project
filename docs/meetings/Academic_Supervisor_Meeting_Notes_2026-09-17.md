@@ -31,6 +31,8 @@ Zhongxin recommended continuing to measure time and retaining tactical activitie
 
 For simultaneous activities, Zhongxin suggested recording each activity's time separately. His example was one activity lasting 50 minutes, with another performed for 30 minutes during that period: 80 recorded activity minutes within 50 elapsed minutes. This was a proposed recording approach and an illustrative example. **[09:17–09:42]**
 
+**Observer implementation clarification, 30 September 2026:** Yijie confirms that this was an instruction followed in observations after this meeting: genuinely simultaneous activities were recorded with their own full intervals. The description above preserves how the approach was discussed in the transcript; it should not be read as an unimplemented proposal. The 25 September documentation recorded an existing practice, rather than its start. The 18 September session has no overlapping recorded intervals; the 23 September session contains the confirmed one-minute overlap. See the [dated timing rule](../measurement/Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities).
+
 ### Activity categories and the purchasing framework
 
 Yijie had mapped the existing activity codes to possible stages of the purchasing model but found some mappings ambiguous, particularly requests and decisions that could occur at multiple stages. **[10:53–13:40]**
@@ -76,3 +78,4 @@ Yijie raised the absence of Thursday observations because of the supervision mee
 The following Thursday, 24 September 2026, was discussed tentatively. **Time: None noted.**
 
 Zhongxin may cancel that meeting if he needs more time to prepare for an important presentation on Friday, and said he would notify Yijie. Yijie confirmed that either rescheduling or cancellation would be acceptable. **[24:52–25:41]**
+

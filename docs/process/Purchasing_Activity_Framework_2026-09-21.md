@@ -2,6 +2,8 @@
 
 **Version:** 21 September 2026. Researcher implementation of the framework-led activity-list action from the [17 September supervision meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md). This is the current analytical classification list. It replaces the 14 September code-to-stage crosswalk as the starting point for enrichment. The original AS-IS task register remains the process evidence source.
 
+**Updated 30 September 2026:** the evidence references and worked examples below now follow the observer-reviewed stage assignments in the daily `Arno_Measurement_*.csv` files ([measurement README](../measurement/README.md#simple-csv-exports-30-september-2026)). Where an earlier assignment in this framework or in the 21 September dataset differs, the reviewed CSV applies.
+
 ## Purpose and continuity
 
 The analytical list starts with **Van Weele's purchasing stages**, then defines the concrete purchasing activities within them using the existing task register and relevant Dennis evidence. An observation is assigned by its recorded action and purpose. Its broad live code is retained as evidence, but is not a lookup key that determines its stage.
@@ -28,7 +30,7 @@ A grouped activity name covers its relevant observed sub-actions; it does not as
 
 | Analytical activity | Definition and boundary | Existing task links | Evidence and scope |
 |---|---|---|---|
-| Establish or clarify purchasing requirements | Determine the required item, quantity, technical properties, service or acceptance requirements, including requirement clarification with the requester. Use only when the requirement itself is being established. Retrieving existing information for an already defined order belongs to ordering. A drawing, photograph or missing field alone does not establish specification. | 1;4;5, where their purpose is requirement definition; Dennis's requirement-development work extends the register | 31 Aug OBS-01 Primer-C requirement; 1 Sep OBS-02 quantity clarification; Dennis 15 Sep section 14 stronger-material discussion. Include when within the purchasing scope; apply episode-specific exclusions independently. |
+| Establish or clarify purchasing requirements | Determine the required item, quantity, technical properties, service or acceptance requirements, including requirement clarification with the requester. Use only when the requirement itself is being established. Retrieving existing information for an already defined order belongs to ordering. A drawing, photograph or missing field alone does not establish specification. | 1;4;5, where their purpose is requirement definition; Dennis's requirement-development work extends the register | 31 Aug OBS-01 Primer-C requirement; 1 Sep OBS-04 judgement that a component cannot be replaced by another; Dennis 15 Sep section 14 stronger-material discussion. The 1 Sep OBS-02 quantity question is Ordering, because the observer clarified that it concerned unclear wording of an already defined request. Include when within the purchasing scope; apply episode-specific exclusions independently. |
 
 ### Supplier selection
 
@@ -72,7 +74,7 @@ These labels retain meaningful work whose purchasing-stage purpose is missing. T
 
 | Analytical activity | Definition and boundary | Evidence |
 |---|---|---|
-| Maintain purchasing master data | Create or maintain article or supplier records, attachments or periodic prices, including requests and coordination directly concerning that maintenance, where the immediate purchasing-stage purpose is not established. A request or coordination record does not establish that creation was observed. Assign a six-stage activity only when the evidence connects the work to requirement development, supplier selection, agreement preparation or a specific order/confirmation. Do not equate article creation with PO entry. | 31 Aug OBS-07; 1 Sep 31AUG-OBS-07; Dennis 15 Sep article and price maintenance |
+| Maintain purchasing master data | Create or maintain article or supplier records, attachments or periodic prices, including requests and coordination directly concerning that maintenance, where the immediate purchasing-stage purpose is not established. A request or coordination record does not establish that creation was observed. Assign a six-stage activity only when the evidence connects the work to requirement development, supplier selection, agreement preparation or a specific order/confirmation. Do not equate article creation with PO entry. | 23 Sep OBS-17 item-creation request (stage left blank in the reviewed CSV); Dennis 15 Sep article and price maintenance. The 31 Aug OBS-07 article work and its 1 Sep continuation (31AUG-OBS-07) were assigned to Ordering in the observer's 30 September review. |
 | Retrieve purchasing information with unresolved purpose | Retrieve a quotation, file or other purchasing information where the action is explicit but its intended purchasing decision or stage is not. A retrieval action does not itself establish specification, supplier selection, contracting or order preparation. Generic email handling without an explicit retrieval action remains Unresolved activity. | 18 Sep OBS-28 relevant quotation retrieval |
 | Maintain supplier contact with unresolved purpose | Explicit supplier relationship/contact work whose conversation content does not establish a particular purchasing stage. Do not infer negotiation, supplier evaluation or contracting minutes from a contact or a conversation window alone. | Dennis 15 Sep mixed supplier conversation/relationship context |
 
@@ -110,11 +112,12 @@ For future observation, keep the existing live fields. Where feasible, use the s
 
 | Source evidence | Original label | Analytical activity | Stage and limit |
 |---|---|---|---|
-| 1 September OBS-02: clarify whether quantity is 18 total or 2 × 18 | CLAR | Establish or clarify purchasing requirements | Specification; the required quantity itself is unresolved. |
+| 1 September OBS-02: clarify whether quantity is 18 total or 2 × 18 | CLAR | Receive and complete a defined purchasing request | Ordering. The observer clarified that the request was already defined and only its quantity wording was unclear. |
+| 1 September OBS-04: judge whether a component can be replaced, based on experience | SEND | Establish or clarify purchasing requirements | Specification; the SEND code does not make this order dispatch. |
 | 18 September OBS-10: retrieve/prepare drawings for a defined order | CLAR/PO across distinct rows | Receive and complete a defined purchasing request | Ordering where order-preparation purpose is supported; each original row remains separate. |
 | 1 September OBS-18: pre-control, payment problem blocks completion | CHECK | Check and correct an order before release | Ordering; six included minutes remain. The block does not prove invoice-investigation time. |
 | 31 August OBS-12: confirmation comparison | CHECK | Check and process supplier confirmations | Monitoring; use the row's existing confidence and original duration. |
-| 1 September OBS-13: unspecified purchasing check | CHECK | Unresolved activity | Stage unresolved; its included recorded minute remains usable in the family-level profile. |
+| 1 September OBS-13: unspecified purchasing check | CHECK | Unresolved activity | Monitoring in the observer's review; the specific activity remains unresolved, and its recorded minute remains usable in the family-level profile. |
 | 18 September OBS-21: MAX/demand work and PO preparation in an undivided interval | PO | Combined activities | Both within ordering; no invented activity-level time split. |
 
 The [15 September Dennis notes](../meetings/Internship_notes_2026-09-15.md) provide relevant qualitative examples for requirement development, supplier-choice considerations and fixed-price agreement preparation. Their mixed conversation windows are not converted into pure contracting minutes. Compare actor-specific patterns only when scope, observation exposure and timing conventions are comparable. Dennis's job title is not evidence that all his time is tactical.
@@ -123,7 +126,7 @@ The [15 September Dennis notes](../meetings/Internship_notes_2026-09-15.md) prov
 
 The accompanying [row dataset](../measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) contains one row per retained source-log row. The five original observation documents contain the same new activity assignments. The two-sheet Excel version adds the definitions next to the dataset for practical use.
 
-| Session | Retained log rows | Exact recorded activity minutes before exclusions | Included exact minutes |
+| Session | Retained log rows | Exact recorded activity minutes before exclusions | Included exact minutes (historical, 21 September enrichment) |
 |---|---:|---:|---:|
 | 28 August pilot | 30, including one break and one gap | 101 | 59 |
 | 31 August baseline | 63 | 103 | 91 |
@@ -144,12 +147,14 @@ Four prior stage classifications are corrected in a dated note alongside the aff
 
 These rows remain excluded or under scope review as previously recorded. No included profile total changes.
 
+The observer's 30 September review later assigned these rows as follows: 1 September row 40 (OBS-25) Ordering; 8 September row 10 (OBS-04) Not applicable; 8 September row 26 (OBS-10) Supplier selection; 18 September row 39 (OBS-12) Not applicable. The reviewed daily CSVs hold these assignments.
+
 ## Analysis and methodological justification
 
 Use scope-eligible, quality-eligible observations for the thesis profile. Report unresolved and provisional coverage, and keep combined durations in their own bucket when comparing specific activities. Do not distribute those minutes across categories or call the frequency of every row a completed-task count. Decisions already recorded on a host episode are not additional timed work.
 
-The amount and difficulty of Arno's work remain the workload construct. Time is one indicator; this classification does not measure difficulty or purchasing quality. The [measurement-method justification](../measurement/Measurement_Method_Justification.md) explains the support from STAMP, WOMBAT and structured observation, and the project-specific adaptations: purchasing categories, seven live families, minute-level intervals, sub-minute tallies, exclusive active timing, post-session task/activity enrichment, and judgement prompts. Those adaptations are explained but have not inherited the literature's instrument validation.
+The amount and difficulty of Arno's work remain the workload construct. Time is one indicator; this classification does not measure difficulty or purchasing quality. The [measurement-method justification](../measurement/Measurement_Method_Justification.md) explains the support from STAMP, WOMBAT and structured observation, and the project-specific adaptations: purchasing categories, seven live families, minute-level intervals, sub-minute tallies, exclusive active timing before the 17 September instruction, followed by full durations for genuinely simultaneous activities, post-session task/activity enrichment, and judgement prompts. Those adaptations are explained but have not inherited the literature's instrument validation.
 
-The 17 September suggestion to record overlapping activity durations has **not** been applied retrospectively or adopted by this classification update. Such a change requires a separately dated timing protocol and explicit comparison rules. The accepted main question and four sub-questions are unchanged.
+The timing instruction is separate from this classification update. On 30 September, Yijie clarified that he applied the supervisor's full-interval instruction following the 17 September meeting; the 25 September confirmation documented existing practice. See the [timing rule in the scope addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities). The pilot and Arno sessions through 18 September contain no recorded overlaps. The first documented overlap, on 23 September, already retains both intervals; the EXC interval remains excluded and the eligible PO interval stays intact. No historical recorded interval or included total changes. The main question is unchanged; the sub-questions were later finalized as five in the submitted Plan of Work of 22 September.
 
 For the thesis, describe this as a later, documented refinement of classification. The early data remain useful for timing, recurrence, family-level patterns and supported activity assignments; their missing detail limits the proportion that can be attributed to specific Van Weele activities.

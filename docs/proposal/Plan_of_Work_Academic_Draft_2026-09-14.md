@@ -1,5 +1,7 @@
 # Plan of Work
 
+> **Draft, kept as history.** The submitted final version, dated 22 September 2026, is [Plan_of_Work_Final_2026-09-22.pdf](Plan_of_Work_Final_2026-09-22.pdf). It differs from this draft in its five sub-questions, introduction and method wording. Where they differ, the final version applies.
+
 **Name student:** Yijie Wang
 
 Student ID: [Student ID]
@@ -72,7 +74,7 @@ Within Improve, Design Science Research Methodology (DSRM) guides the artifact's
 
 Structured continuous observation follows time-and-motion principles, including explicit coverage and task transitions (Zheng et al., 2011). Early observations produced the AS-IS task register; pilot refinement led to seven broad families for feasible live recording during task switching: REQ, CLAR, DEC, PO, CHECK, SEND and OTHER. After observation, the recorded work is linked to supported Task IDs and classified into analytical activities and Van Weele stages by its purchasing purpose. This implements the framework-led activity list discussed on 17 September. Local categories and adaptations are documented. Original times, flags and uncertainty remain; combined intervals are not split without evidence. Instantaneous decisions are tallied, and embedded decisions remain attributes of their timed episode.
 
-The initial target is official Arno observation on five distinct dates, with the pilot reported separately. Actual hours will be reported by date and in total. Coverage, consistency across days and newly observed work determine whether extension is needed; five dates alone do not establish sufficiency. Dennis's smaller dataset supports investigation of activity patterns and connections, including differences between the buyers. Further fieldwork targets gaps. Walkthroughs inform interpretation; only reliable durations enter time summaries. Active buyer time uses exclusive intervals: inseparable activities share one interval and each minute is counted once.
+The initial target is official Arno observation on five distinct dates, with the pilot reported separately. Actual hours will be reported by date and in total. Coverage, consistency across days and newly observed work determine whether extension is needed; five dates alone do not establish sufficiency. Dennis's smaller dataset supports investigation of activity patterns and connections, including differences between the buyers. Further fieldwork targets gaps. Walkthroughs inform interpretation; only reliable durations enter time summaries. Inseparable activities share one interval and each minute is counted once; genuinely simultaneous activities each keep their own recorded interval, as agreed with the supervisor.
 
 ### 5. Data analysis approach(es)
 

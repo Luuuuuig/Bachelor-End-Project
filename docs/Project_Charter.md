@@ -1,6 +1,6 @@
 # Project Charter — Operational Purchasing Workload Reduction
 
-**Status:** Current lightweight project-control document, synchronized 15 September 2026.
+**Status:** Current lightweight project-control document, synchronized 15 September 2026; evidence state updated 30 September 2026.
 
 This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
 
@@ -62,7 +62,7 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 - Buyer walkthrough completed and formal SOP/WI evidence integrated.
 - Workload construct defined.
 - 28 August Measure pilot completed.
-- Three official sessions are recorded, including 8 September as a raw transcription with the OBS-16 exclusion. Validated historical summaries currently cover two sessions: 31 August (165 net / 103 timed coded-active minutes after the OBS-05 correction) and 1 September (186 net / 162 timed coded-active minutes). Historical totals before the narrower scope filter: **351 net observed minutes** and **265 timed coded-active minutes**. Do not present them as updated three-session or EXC-filtered totals.
+- Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Confirmed net observation is 165, 186, 104, 240 and 197 minutes, **892 minutes** in total ([observation-time review](measurement/Observation_Time_Review_2026-09-25.md)). The 8 September OBS-16 contamination exclusion remains. Historical two-session totals before the narrower scope filter were **351 net observed minutes** and **265 timed coded-active minutes**; do not present them as current or EXC-filtered totals. Dennis's work is recorded in the 15 September internship notes and a timed observation on 25 September. The observer-reviewed daily CSVs (30 September) are the current working data. The analysis starts from all 287 rows and 752 recorded minutes; EXC (182 minutes) is shown as a separate group until the EXC rule has been discussed with the supervisor.
 - Measurement Protocol v1.3 is controlled for observations from 2 September onward; its live fields/timing remain comparable with v1.2.
 - The current planning target is five distinct observation days, followed by the predeclared coverage review; 40 net hours is not assumed to be equivalent.
 - Representative in-scope baseline frequencies and active processing-time patterns are still being established. Dennis discovery and a separate pattern-sufficiency review remain required.
@@ -92,7 +92,7 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 1. Prepare/send the [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md) by 15 September. Use the [Plan of Work academic draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) for the 18/20 September draft milestones.
 2. Continue baseline observations using v1.3 timing rules plus the 14 September scope addendum. Conduct targeted Dennis discovery using the [observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
 3. Complete Task-ID and Van Weele enrichment immediately after each block and preserve `C/P/U/?`, separate MAX and HOLD/ORD outcomes, interruptions and measurement limitations.
-4. Build the in-scope, actor-specific activity-family workload profile across multiple sessions/dayparts and supplement it with approved aggregated PO/line-volume data where available.
+4. Build the in-scope, actor-specific activity-family workload profile across multiple sessions/dayparts.
 5. After Measure, investigate Exact/Orbis and other technical/data feasibility for the shortlisted candidate(s) during Analyze.
 6. Apply veto gates, student–academic-supervisor weighting, anchored scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
 7. Freeze the focal-case workload threshold and quality guardrail before artifact development/formal testing.

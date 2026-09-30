@@ -2,9 +2,11 @@
 
 ## Morning observation with Arnold, approximately 07:00 to 09:00
 
-The purpose of this observation session was to understand what Arnold works on early in the morning, before the normal level of interruptions starts. Arnold regularly starts around 07:00 so that he can work through purchasing tasks with fewer incoming emails, requests, and questions from colleagues.
+**Clarification, 30 September 2026:** This session was observed but not measured. It took place before the Measurement Protocol existed and is not part of the measured baseline. The durations below are rough estimates from the notes, not timed records. Statements about why Arnold works early, or how few interruptions the morning has, are Yijie's own impressions; Arnold did not confirm them.
 
-The observations below focus on concrete tasks, approximate task durations, and the difference between processing an already existing open order in Exact and creating a new purchase order manually when the request originates outside Exact.
+The purpose of this observation session was to understand what Arnold works on early in the morning. Arnold was already working when the session started at around 07:00. Yijie's impression was that this early start lets him work through purchasing tasks with fewer incoming emails, requests and questions from colleagues.
+
+The observations below focus on concrete tasks, estimated task durations, and the difference between processing an already existing open order in Exact and creating a new purchase order manually when the request originates outside Exact.
 
 ## 1. Existing open orders versus manually creating a purchase order
 
@@ -16,9 +18,9 @@ This means he has to manually enter the relevant component, spare-part, or servi
 
 Sometimes the requester provides only a screenshot of the required component or other limited information. Arnold then has to read the information from the screenshot and manually transfer it into Exact.
 
-### Observed timing
+### Estimated timing (not measured)
 
-In one case involving the purchase of a service for two machines, manually entering the information for two lines took approximately **5 minutes**.
+In one case involving the purchase of a service for two machines, manually entering the information for two lines took an estimated **5 minutes**.
 
 This suggests that manual PO creation from requests outside Exact creates additional administrative work compared with processing an order that already exists in the system.
 
@@ -111,11 +113,11 @@ This means that the purchasing workflow contains a relationship between:
 
 The 30 to 35 minute duration indicates that this can become a substantial task when several demands and project relationships have to be understood and allocated correctly.
 
-## 8. Early-morning work appears deliberately focused on low-interruption purchasing tasks
+## 8. Impression: fewer interruptions in the early morning
 
-Compared with the afternoon observation from 19 August, the early-morning period gives Arnold more uninterrupted time to work through open orders, historical checks, purchasing advice, and order allocation.
+Compared with the afternoon observation from 19 August, Yijie's impression was that the early-morning period gave Arnold more uninterrupted time to work through open orders, historical checks, purchasing advice, and order allocation. Interruptions were not counted during this session, so this is not a measured difference.
 
-This supports the earlier observation that interruptions during the normal working day may affect how efficiently Arnold can complete purchasing tasks. It may therefore be useful to distinguish between:
+This is consistent with the idea that interruptions during the normal working day may affect how efficiently Arnold can complete purchasing tasks. It may therefore be useful to distinguish between:
 
 - the intrinsic processing time of a purchasing task; and
 - the additional elapsed time caused by interruptions, incoming requests, and task switching.
@@ -136,9 +138,9 @@ The morning session provides several useful categories for further measurement:
 - assigning purchased quantities back to the corresponding project or production demand;
 - preventing duplicated demand from reappearing because items were purchased but not assigned correctly.
 
-## Approximate timings observed
+## Estimated timings (not measured)
 
-These timings are single observations and should not yet be treated as averages:
+These are rough estimates from a single unmeasured session. They are not timed records and should not be treated as averages:
 
 - manually entering two service-related purchase lines: approximately **5 minutes**;
 - investigating and correcting suspicious information using historical POs: approximately **10 to 15 minutes**;

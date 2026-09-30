@@ -1,6 +1,6 @@
 # Phase 1 — Current Methodology and Case-Selection Status
 
-**Status:** Current research-method and case-selection source of truth, synchronized 15 September 2026.
+**Status:** Current research-method and case-selection source of truth, synchronized 15 September 2026; Measure status, timing rule and sub-question numbering updated 30 September 2026.
 
 **Ownership:** This file owns the research framework, candidate portfolio, selection gates, evaluation logic and current research actions. Detailed workload theory and live Measure-phase collection rules are maintained in their dedicated files rather than duplicated here.
 
@@ -18,7 +18,7 @@ Related sources:
 
 ### Scope update of 14 September 2026
 
-The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md). The Plan of Work and readable assignment retain the four original sub-questions in their original order, with wording that includes relevant tactical purchasing tasks. Measurement and evaluation details remain subject to justification.
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and excludes logistics and EXC time from the thesis Measure analysis and focal-case selection. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md); the [14 September Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md) is historical. The submitted Plan of Work of 22 September and the readable assignment use five sub-questions, with wording that includes relevant tactical purchasing tasks (see section 3). Measurement and evaluation details remain subject to justification.
 
 # 1. Project objective
 
@@ -102,7 +102,7 @@ Judge-Advisor System / reliance concepts remain conditional. They become relevan
 
 # 3. Measure design
 
-The four sub-questions retain their original order. SQ1 concerns the workload profile and process factors that inform it; SQ2 concerns implementation conditions and controls; SQ3 concerns candidate comparison and selection; SQ4 concerns evaluation of workload and quality. Root-cause analysis informs SQ1 and SQ3 and does not introduce a fifth question.
+The five sub-questions follow the submitted [Plan of Work](../proposal/Plan_of_Work_Final_2026-09-22.pdf) of 22 September. SQ1 concerns the standard purchasing workflow and the relationship between operational and tactical tasks; SQ2 concerns implementation conditions and controls; SQ3 concerns the workload profile and the parts of the workflow that contribute most; SQ4 concerns candidate comparison and selection; SQ5 concerns evaluation of workload and quality. Root-cause analysis informs SQ1, SQ3 and SQ4 and does not introduce a sixth question.
 
 The broad workload construct is defined in `Workload_Definition.md` and uses a layered structure:
 
@@ -113,7 +113,7 @@ The broad workload construct is defined in `Workload_Definition.md` and uses a l
 
 The project therefore does **not** use processing time as a proxy for total or mental workload, and it does not create an unvalidated composite equation combining heterogeneous indicators.
 
-Detailed live timing rules remain in `../measurement/Measurement_Protocol_v1.3.md`. The [14 September scope addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) applies the logistics and EXC exclusion and governs post-session classification. The [21 September purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md) now defines concrete analytical activities within Van Weele stages, linked to the unchanged task register. The seven live families remain; full activity labels, separate task/stage/activity confidence and assignment reasons are added after observation. Combined and unresolved work remains explicit, preserving earlier measurements without invented timing splits. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
+Detailed live timing rules remain in `../measurement/Measurement_Protocol_v1.3.md`, except for its historical exclusive active-time instruction. The [scope addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) applies the logistics and EXC exclusion, governs post-session classification and specifies full intervals for genuinely simultaneous activities. Yijie clarified on 30 September that he applied this timing instruction following the 17 September supervisor meeting. The [21 September purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md) now defines concrete analytical activities within Van Weele stages, linked to the unchanged task register. The seven live families remain; full activity labels, separate task/stage/activity confidence and assignment reasons are added after observation. Combined and unresolved work remains explicit, preserving earlier measurements without invented timing splits. The exploratory Measure phase records a multidimensional activity-family profile, with post-session detailed Task-ID enrichment where evidence supports it, using where relevant:
 
 - frequency;
 - active processing time;
@@ -140,11 +140,10 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 ### Current Measure sequencing
 
 1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
-2. Four official Arno sessions are recorded through 18 September, in addition to the 28 August pilot. The 21 September activity classification covers all five records; the pilot remains separate and the 8 September OBS-16 contamination exclusion remains. Historical summaries below cover only two sessions: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Their historical totals are **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broader scope. These are different quantities and are not updated four-session or EXC-filtered totals. Current included profiles and their unresolved coverage are reported in each observation file and the consolidated activity dataset.
-3. `../measurement/Measurement_Protocol_v1.3.md` is controlled for observations from 2 September onward. Its live fields/timing rules remain comparable with v1.2, while its MAX interpretation, five-day coverage rule and repository governance are updated.
+2. Five official Arno sessions are recorded through 23 September, in addition to the 28 August pilot, with 892 minutes of confirmed net observation (see the [observation-time review](../measurement/Observation_Time_Review_2026-09-25.md)). Dennis was observed on 25 September. The observer-reviewed daily CSVs of 30 September (one per session, with a Van Weele stage column) are the current working data; the earlier 21 and 25 September enrichments are historical. The pilot remains separate and the 8 September OBS-16 contamination exclusion remains. Historical summaries below cover only two sessions: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Their historical totals are **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broader scope. These are different quantities and are not updated four-session or EXC-filtered totals. Current results are calculated from all rows of the observer-reviewed daily CSVs, with EXC and other flagged rows shown as separate groups rather than dropped; see [Current totals from the reviewed CSVs](../measurement/README.md#current-totals-from-the-reviewed-csvs). The included profiles in the observation files and the consolidated activity dataset are historical.
+3. `../measurement/Measurement_Protocol_v1.3.md` is controlled for observations from 2 September onward, with the dated scope and timing amendments in the scope addendum. Its live fields remain comparable with v1.2. The full-interval rule for genuinely simultaneous activities applies following the 17 September instruction; the addendum documents timing comparability. Version 1.3 also updates MAX interpretation, the five-day coverage rule and repository governance.
 4. Use five Arno observation days as the initial review point, then assess coverage, stability and saturation under the 3 September guidance. Collect targeted Dennis evidence; 10 September explicitly permits a different quantity when interpretable patterns can be established. Five working days is not automatically interpreted as 40 net observed hours.
-5. Supplement live observation with approved aggregated/system PO-volume information where Johan/company can provide it; dashboard access is not required to start.
-6. Move into Analyze only after the Measure coverage rule and evidence gate are satisfied.
+5. Move into Analyze only after the Measure coverage rule and evidence gate are satisfied.
 
 **Exact/Orbis production-data/interface feasibility is intentionally not an immediate Measure-phase task.** It is deferred until after the exploratory workload baseline, when the shortlisted candidate(s) justify targeted technical investigation. This avoids delaying Measure with system-integration work before the workload evidence shows where that effort is most valuable.
 
@@ -314,19 +313,18 @@ Processing-time reduction alone should not automatically be reported as mental-w
 
 # 7. Immediate research actions
 
-1. Use the v1.3 live timing structure with the scope addendum and the 21 September stage-organized activity list. Preserve original codes, then add supported analytical activities, stages and separate confidence/reasons after the session. The 17 September suggestion of overlapping activity timing remains a separate unimplemented proposal; this classification update preserves original timing conventions.
-2. Continue official exploratory baseline observations after the recorded 31 August, 1 September, 8 September and 18 September sessions; reach five distinct working days and then apply the predeclared coverage review rather than substituting an unconfirmed 40-net-hour target.
+1. Use the v1.3 live structure with the scope addendum and the 21 September stage-organized activity list. Preserve original codes, then add supported analytical activities, stages and separate confidence/reasons after the session. Apply the supervisor's full-interval rule for genuinely simultaneous activities, implemented following the 17 September meeting and clarified by the observer on 30 September. Keep inseparable work unsplit, pause interrupted tasks and preserve recorded intervals.
+2. Apply the predeclared coverage review to the five completed official Arno sessions on 31 August and 1, 8, 18 and 23 September. Add targeted observation only where the review identifies a gap; five dates do not automatically establish sufficiency or 40 net observation hours.
 3. Complete post-session enrichment immediately after each block, mapping to detailed Task IDs only where evidence supports it.
 4. Record MISS, interruptions, J/EXP and recurring unmapped activities consistently; do not silently reconstruct missing information.
-5. Ask Johan for approved aggregated or exportable PO-volume information (for example PO count and PO-line count by week/month) as a supplement, not a prerequisite for observation.
-6. Preserve pre-PO and post-confirmation price control as separate analytical categories during enrichment.
-7. Continue CTA-informed notes around maximalisatie/hold, request validation, clarification and exception cases where tacit cues become visible.
-8. Exclude EXC and logistics from thesis timed analysis and candidate selection. Preserve historical raw evidence, record scope interruptions without adding them to adjacent included episodes, and retain unresolved scope flags for review.
-9. Produce an included-work profile for Arno and a separate Dennis pattern summary. Add analytical-activity, Task-ID and Van Weele analysis where the respective confidence fields support it; retain combined/unresolved buckets and do not duplicate minutes. Use the Dennis guide to prepare the scheduled discovery sessions.
-10. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
-11. Run the veto gates, student–academic-supervisor swing weighting, anchored evidence scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
-12. Justify and freeze the focal case's workload endpoint, quality rubric, `Δ` and `δ` before artifact development/formal evaluation.
-13. Confirm the selected focal case and evaluation design with the university supervisor before DSRM artifact development.
+5. Preserve pre-PO and post-confirmation price control as separate analytical categories during enrichment.
+6. Continue CTA-informed notes around maximalisatie/hold, request validation, clarification and exception cases where tacit cues become visible.
+7. Exclude EXC and logistics from thesis timed analysis and candidate selection. *(30 September: Yijie will discuss with the supervisor whether excluding all EXC is justified, since most EXC episodes are not logistics. Until then the analysis includes all data and reports EXC as a separate group.)* Preserve historical raw evidence, record scope interruptions without adding them to adjacent included episodes, and retain unresolved scope flags for review.
+8. Produce a workload profile for Arno from all recorded data, with EXC and other flagged rows shown as separate groups, and a separate Dennis pattern summary. Add analytical-activity, Task-ID and Van Weele analysis where the respective confidence fields support it; retain combined/unresolved buckets without double-counting combined intervals. Use the Dennis guide to prepare the scheduled discovery sessions.
+9. **Only after Measure**, begin targeted Exact/Orbis and other technical/data feasibility work for the shortlisted candidate(s).
+10. Run the veto gates, student–academic-supervisor swing weighting, anchored evidence scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
+11. Justify and freeze the focal case's workload endpoint, quality rubric, `Δ` and `δ` before artifact development/formal evaluation.
+12. Confirm the selected focal case and evaluation design with the university supervisor before DSRM artifact development.
 
 
 # References added for selection and evaluation design
