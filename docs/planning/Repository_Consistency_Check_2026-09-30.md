@@ -93,3 +93,16 @@ Rule 3 of the scope addendum says that from 14 September EXC is no longer timed 
 2. Answers to the open scope questions in the 23 and 25 September notes. The Gimi case also refers to an earlier note that could not be located.
 3. A dated timing rule for simultaneous activities (section 2.1).
 4. Once enrichment is complete: build the harmonised analysis tables (section 2.2), update the indexes (section 3), and run the workload profile for final-PoW SQ1 and SQ3 before candidate comparison for SQ4.
+
+## 7. Follow-up, 30 September 2026
+
+| Finding | Outcome |
+|---|---|
+| 2.1 Timing rule | Resolved. The supervisor asked for overlapping activity time to be tracked. The rule is now written in the scope addendum ("Timing of simultaneous activities"), with the cheat sheet, method justification, activity framework and Plan of Work draft pointing to it. No earlier total changes. |
+| 2.2 Split datasets | Deferred. Yijie is redoing the enrichment, which will replace the current enriched files. The combined tables will be built from the new enrichment. |
+| 2.3 Observation exposure | Resolved. Yijie confirmed the blocks for 8, 18 and 23 September. Net observation is 104, 240 and 197 minutes, so the five sessions total 892 minutes. The register, time review and the three observation notes record the confirmation. |
+| 2.4 Scope review | Open. It will be settled in Yijie's enrichment. |
+| 2.5 Unmerged analysis branch | Left as it is for now. |
+| 3 Outdated status and index text | Resolved. The session counts, measurement and meeting indexes, and the time review's file list are updated. |
+| 4 EXC rule versus practice | Left unchanged. Yijie will discuss with the supervisor whether excluding all EXC time is justified, since most EXC episodes are not logistics. |
+| 5 Final Plan of Work differences | Not changed; the final Plan of Work remains a reference. The study-load statement still needs confirmation. |

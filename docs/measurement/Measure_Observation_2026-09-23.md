@@ -128,6 +128,8 @@ Activities and Van Weele stages follow the purpose of the recorded work. C means
 
 The notebook headings span 196 clock minutes. The morning row ends at 12:31 despite the 12:30 heading. Breaks, stopped observation and observer presence during 13:42-14:24 need confirmation before net exposure can be finalized. Hourly occurrence rates for this date remain unavailable. The 102 included minutes can support a scoped recorded-work profile, not an estimate of total time observed or the buyer's working day.
 
+**Observation time confirmed 30 September 2026:** Yijie confirmed that the morning block ran until 12:31, that the other blocks were 13:00–14:26 and 14:40–15:00 with no other breaks, and that Yijie followed Arno throughout 13:42–14:24. Net observation is 197 minutes; see the [observation-time review](Observation_Time_Review_2026-09-25.md). The session headings and source rows above remain as written.
+
 The service-order case remains under scope review because its purpose is unresolved. If all eight minutes are confirmed as ordinary service purchasing, the included subtotal becomes 110. No change in stage alone determines inclusion. The 12-minute Exact troubleshooting interval is included as recorded purchasing-system support under OTHER, with its detailed activity and stage unresolved.
 
 ### Row-level enrichment

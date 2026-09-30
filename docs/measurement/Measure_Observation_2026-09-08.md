@@ -11,6 +11,7 @@
 - **Observer:** Yijie
 - **Observation window:** 10:30–12:23
 - **Protocol period:** Measurement Protocol v1.3
+- **Observation time confirmed 30 September 2026:** Yijie confirmed observing throughout 10:30–12:23 with no other breaks. Net observation is 104 minutes after deducting the recorded 12:04–12:13 loss of focus. See the [observation-time review](Observation_Time_Review_2026-09-25.md).
 
 **Source columns:** Case | Activity | Start | End | Volume | INT | DEC? | Note
 

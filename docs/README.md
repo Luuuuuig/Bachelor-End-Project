@@ -12,7 +12,7 @@
 The 10 September academic scope decision supersedes older descriptions of logistics and EXC eligibility. Earlier observations retain their original evidence status. Prepared text and mapping do not establish submission, completed fieldwork or supervisor validation.
 
 
-**Last synchronized:** 2 September 2026
+**Last synchronized:** 30 September 2026 for the Measure status and meeting list; other descriptions date from 2 September 2026.
 
 Use this page as the main navigation map for the BEP repository. It shows **where to look for each type of information**, which file owns the current status, and where useful context is intentionally retained.
 
@@ -145,7 +145,7 @@ It defines:
 - a five-distinct-day planning minimum with a Day-5 coverage/extension review; five days is not automatically 40 net hours;
 - small-sample safeguards, rework-denominator rules, private-repository governance and a predeclared trigger for recurring unmapped work.
 
-Version 1.3 is controlled for observations from 2 September onward; it preserves the v1.2 live fields/timing and updates MAX interpretation, stopping/coverage logic and private-repository governance. Use [`Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md). Three official Arno sessions are recorded. Historical summaries for the first two total **351 net observed minutes** and **265 timed coded-active minutes** before the later scope filter; the 8 September transcription still requires derived-data preparation. Version 1.2 remains historical for the 1 September session. Exact/Orbis technical feasibility is not required to continue Measure.
+Version 1.3 is controlled for observations from 2 September onward; it preserves the v1.2 live fields/timing and updates MAX interpretation, stopping/coverage logic and private-repository governance. Use [`Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md). Five official Arno sessions are recorded (31 August; 1, 8, 18 and 23 September), with **892 minutes of confirmed net observation**; see the [observation-time review](measurement/Observation_Time_Review_2026-09-25.md). The historical two-session totals of **351 net observed minutes** and **265 timed coded-active minutes** predate the later scope filter. From 25 September, simultaneous activities each keep their own recorded interval, as set out in the [scope addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities). Version 1.2 remains historical for the 1 September session. Exact/Orbis technical feasibility is not required to continue Measure.
 
 Pilot evidence is retained with the Measure materials in [`measurement/Pilot_Measure_Observation_2026-08-28.md`](measurement/Pilot_Measure_Observation_2026-08-28.md).
 
@@ -177,14 +177,11 @@ Dated evidence should remain historically accurate and should **not be rewritten
 
 Current files include:
 
-- [`Academic_Supervisor_Meeting_Notes_2026-08-25.md`](meetings/Academic_Supervisor_Meeting_Notes_2026-08-25.md)
-- [`Internship_notes_2026-08-17.md`](meetings/Internship_notes_2026-08-17.md)
-- [`Internship_notes_2026-08-19.md`](meetings/Internship_notes_2026-08-19.md)
-- [`Internship_notes_2026-08-20.md`](meetings/Internship_notes_2026-08-20.md)
-- [`Internship_notes_2026-08-21.md`](meetings/Internship_notes_2026-08-21.md)
-- [`Internship_notes_2026-08-28.md`](meetings/Internship_notes_2026-08-28.md)
-- [`Internship_notes_2026-08-31.md`](meetings/Internship_notes_2026-08-31.md)
-- [`Meeting notes supervisor 2026-06-10.docx`](meetings/Meeting%20notes%20supervisor%202026-06-10.docx)
+- Academic supervisor: [10 June](meetings/Academic_Supervisor_Meeting_Notes_2026-06-10.md) ([Word copy](meetings/Meeting%20notes%20supervisor%202026-06-10.docx)), [25 August](meetings/Academic_Supervisor_Meeting_Notes_2026-08-25.md), [3 September agenda](meetings/Academic_Supervisor_Agenda_2026-09-03.md), [3 September](meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md), [10 September](meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) and [17 September](meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md).
+- Company supervisor: [8 September](meetings/Company_Supervisor_Meeting_Notes_2026-09-08.md).
+- Internship notes: [17](meetings/Internship_notes_2026-08-17.md), [19](meetings/Internship_notes_2026-08-19.md), [20](meetings/Internship_notes_2026-08-20.md), [21](meetings/Internship_notes_2026-08-21.md), [24](meetings/Internship_notes_2026-08-24.md), [26](meetings/Internship_notes_2026-08-26.md), [28](meetings/Internship_notes_2026-08-28.md) and [31 August](meetings/Internship_notes_2026-08-31.md); [9 September](meetings/Internship_notes_2026-09-09.md); [15 September](meetings/Internship_notes_2026-09-15.md), Dennis's purchasing activities.
+
+Observation records, including Dennis's timed observation of 25 September, are in [`measurement/`](measurement/README.md#observation-evidence).
 
 Use these files when traceability matters: what was observed, stated or believed at a specific point in time.
 

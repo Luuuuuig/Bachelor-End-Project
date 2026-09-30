@@ -6,6 +6,7 @@
 - **Buyer:** Arno
 - **Observer:** Yijie
 - **Session headings in the notebook:** 10:30–12:30 and 13:00–15:00
+- **Observation time confirmed 30 September 2026:** Yijie confirmed observing throughout both blocks, including the untimed edges 12:25–12:30, 13:00–13:08 and 14:55–15:00, with no breaks. Net observation is 240 minutes. See the [observation-time review](Observation_Time_Review_2026-09-25.md).
 - **Sources:** Five handwritten notebook photographs and Yijie's subsequent clarifications.
 
 The tables retain the source row order, repeated case IDs, activity codes, times, volumes, interruption counts and decision indicators. `/` preserves a handwritten slash; blank cells remain blank. Corrected values supplied by Yijie replace unclear handwriting. At Yijie's request, the Primer-C entry uses the dated case reference found in the earlier observation record. The original observation tables retain their source values. Post-session enrichment and coverage appear later in this file.

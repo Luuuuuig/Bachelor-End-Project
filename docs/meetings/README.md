@@ -23,9 +23,21 @@ Do not rewrite old notes to make them look as though later knowledge was already
 
 ## Latest academic-supervisor records
 
+- `Academic_Supervisor_Meeting_Notes_2026-09-17.md` — Dennis's fragmented tactical work, recording the time of simultaneous activities separately, reorganizing the activity list around the purchasing framework, and Plan of Work planning.
+- `Academic_Supervisor_Meeting_Notes_2026-09-10.md` — academic scope decision: Dennis added to the purchasing context; logistics and EXC time excluded from thesis analysis.
 - `Academic_Supervisor_Meeting_Notes_2026-09-03.md` — five-day sufficiency review, pattern stability and saturation, mandatory AI scope, defensible variable selection, methodology justification and follow-up actions.
 - `Academic_Supervisor_Agenda_2026-09-03.md` — pre-meeting agenda covering the workload definition, Measurement Protocol and observation stopping rule.
 
-## Latest progress record
+## Latest internship notes
 
+- `Internship_notes_2026-09-15.md` — Dennis's purchasing activities.
+- `Internship_notes_2026-09-09.md` — Logistics roles, goods receiving and distribution, and PR/VRD flows.
+
+## Latest progress records
+
+Observation records are kept in `../measurement/`. The latest are:
+
+- `../measurement/Measure_Observation_2026-09-25.md` — Dennis, timed observation with post-session enrichment.
+- `../measurement/Measure_Observation_2026-09-23.md` — fifth official Arno baseline session with post-session enrichment.
+- `../measurement/Measure_Observation_2026-09-18.md` — fourth official Arno baseline session.
 - `../measurement/Measure_Observation_2026-09-08.md` — third official baseline session; morning handwritten notes transcribed/polished under the v1.3 period, with OBS-16 explicitly flagged as contaminated in the source note.

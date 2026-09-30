@@ -8,7 +8,7 @@
 
 ## Historical planning assumptions from 2 September
 
-Current evidence: three Arno sessions are recorded; the historical two-session totals below are not updated, EXC-filtered totals. See the current Plan of Work and follow-up register for the Dennis context and later schedule.
+Current evidence (30 September): five official Arno sessions are recorded (31 August; 1, 8, 18 and 23 September), with 892 minutes of confirmed net observation, and Dennis was observed on 25 September. The historical two-session totals below are not updated, EXC-filtered totals. See the current Plan of Work and follow-up register for the Dennis context and later schedule.
 
 - Project start: **17 August 2026**.
 - The combined normative workload for **1BEPIE + 1BEPIEX is 420 hours in total**, not 420 hours per course. Gantt bars show elapsed planning windows; planned and actual effort are tracked separately.

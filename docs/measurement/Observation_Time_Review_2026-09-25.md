@@ -1,60 +1,58 @@
 # Observation exposure review, 25 September 2026
 
-The existing records confirm **351 net observed minutes across 31 August and 1 September**. The remaining three dates require a short confirmation from the observer. Their notebook headings and recorded task intervals do not establish when observation actually continued or stopped.
+**Updated 30 September 2026:** Yijie confirmed the observation blocks for 8, 18 and 23 September. All five official Arno sessions now have confirmed net observation, totalling **892 minutes** (about 14.9 hours). The original review of 25 September found confirmed net observation only for 31 August and 1 September (351 minutes), because notebook headings and recorded task intervals do not establish when observation actually continued or stopped.
 
-This review completes the arithmetic and documents the missing evidence. It does not manufacture net exposure, change raw observations, or rerun the workload analysis.
+This review completes the arithmetic and records the observer's confirmation. It does not change raw observations or rerun the workload analysis.
 
-| Date | Recorded blocks or notebook headings | Block clock minutes | Recorded interval sum | Interval union | Confirmed net observation |
+| Date | Confirmed observation blocks | Block clock minutes | Recorded interval sum | Interval union | Confirmed net observation |
 |---|---|---:|---:|---:|---:|
 | 31 August | 10:30–12:27; 13:16–14:12 | 173 | 103 | 103 | 165 |
 | 1 September | 10:31–12:30; 13:15–14:22 | 186 | 162 | 162 | 186 |
-| 8 September | 10:30–12:23 | 113 | 106 | 106 | Unconfirmed |
-| 18 September | 10:30–12:30; 13:00–15:00 | 240 | 196 | 196 | Unconfirmed |
-| 23 September | 11:00–12:30; 13:00–14:26; 14:40–15:00 | 196 | 185 | 184 | Unconfirmed |
+| 8 September | 10:30–12:23 | 113 | 106 | 106 | 104 |
+| 18 September | 10:30–12:30; 13:00–15:00 | 240 | 196 | 196 | 240 |
+| 23 September | 11:00–12:31; 13:00–14:26; 14:40–15:00 | 197 | 185 | 184 | 197 |
+| **Total** | | **909** | **752** | **751** | **892** |
 
 All quantities are minutes. The interval sum retains all source intervals, including scoped exclusions, contaminated episodes and intervals that establish elapsed boundaries only. It is not a total of verified active purchasing work.
 
 ## What each quantity means
 
-- **Block clock time:** arithmetic from recorded session headings. Where observation boundaries and availability are unconfirmed, this is a notebook window, not a denominator for occurrence rates.
+- **Block clock time:** arithmetic from the observation blocks. Notebook headings alone are only a window; the blocks above are confirmed by the source record or the observer.
 - **Recorded interval sum:** end minus start for every source row with both timestamps. Concurrent rows each keep their full recorded duration under the supervisor's adopted rule. Source intervals still need scope and timing-quality checks before becoming analysis minutes.
 - **Interval union:** clock minutes covered by at least one recorded interval, counting simultaneous coverage once. This is an arithmetic check. It does not prove continuous observation or recover uncoded work.
 - **Net observed time:** verified observation blocks minus observer absence or other periods when observation did not take place. An uncoded interval is not automatically an observer absence, a break, or inactivity.
-- **Included scoped minutes:** eligible activity durations after scope and timing-quality checks. The existing four-session review has 91, 116, 32 and 121 minutes respectively, totalling 360. The completed 23 September enrichment adds 102 included minutes, with 15 further minutes held under scope review. These totals cannot replace observation exposure.
+- **Included scoped minutes:** eligible activity durations after scope and timing-quality checks. The existing four-session review has 91, 116, 32 and 121 minutes respectively, totalling 360. The 23 September enrichment adds 102 included minutes, with 15 further minutes held under scope review. These enrichment figures will be replaced by Yijie's own enrichment. They cannot replace observation exposure.
 
-## Evidence and unresolved boundaries
+## Evidence per session
 
 **31 August.** The source explicitly states 111 morning minutes and 54 afternoon minutes. The morning window is 117 minutes with 11:11–11:17 observer unavailability. The afternoon window is 56 minutes with 13:38–13:40 buyer absence/not observed working. Thus 173 − 6 − 2 = 165. Uncoded intervals remain within confirmed observation exposure; they are not filled with invented activities.
 
 **1 September.** The session coverage table explicitly states 119 morning minutes and 67 afternoon minutes, totalling 186. This carries forward the existing confirmed net figure. The arithmetic does not newly infer zero breaks for other sessions merely because no breaks are written.
 
-**8 September.** The window spans 113 minutes, of which 106 have recorded timestamp intervals. Seven minutes lack a timed row. The source also excludes OBS-16 at 12:04–12:13 because the observer lost focus. This is a known nine-minute quality problem. The record does not establish overall observer availability, so neither 113 nor 104 can currently be called verified net exposure. If the observer confirms the full window and no additional unavailable periods, report 113 minutes of observation presence and 104 minutes after the recorded loss-of-focus interval is excluded from reliable event-capture exposure. State the definition used before calculating any rates.
+**8 September.** The block spans 113 minutes, of which 106 have recorded timestamp intervals. Yijie confirmed on 30 September that observation ran throughout 10:30–12:23 with no other breaks. The source excludes OBS-16 at 12:04–12:13 because the observer lost focus. Those nine minutes are deducted from reliable observation: 113 minutes present, **104 minutes net observation**. The seven minutes without a timed row (10:50–10:51, 11:05–11:06, 11:46–11:47, 11:50–11:51, 11:53–11:55 and 12:13–12:14) are observed time without a recorded activity.
 
-**18 September.** The notebook headings span 240 minutes. Timed rows run 10:30–12:25 and 13:08–14:55, with internal gaps. The rows cover 196 distinct minutes. None of these quantities establishes whether the observer arrived at 13:00 or 13:08, stayed until the heading end, or took other breaks. Confirm actual blocks and any unavailable periods, including the edge intervals 12:25–12:30, 13:00–13:08 and 14:55–15:00.
+**18 September.** The blocks span 240 minutes. Timed rows run 10:30–12:25 and 13:08–14:55, with internal gaps, and cover 196 distinct minutes. Yijie confirmed on 30 September that observation ran throughout both blocks, including the untimed edges 12:25–12:30, 13:00–13:08 and 14:55–15:00, with no breaks. Net observation is **240 minutes**. The 44 minutes without a timed row are observed time without a recorded activity.
 
-**23 September.** The headings total 196 minutes, but OBS-12 CLAR ends at 12:31, one minute after the morning heading. If 12:31 is confirmed as the actual morning observation end, the three block lengths total 197 minutes before any unavailable periods are deducted. Keep the heading and row unchanged until that clarification is recorded.
+**23 September.** The notebook headings total 196 minutes, but OBS-12 CLAR ends at 12:31, one minute after the morning heading. Yijie confirmed on 30 September that the morning block ran until 12:31, that the other blocks were 13:00–14:26 and 14:40–15:00, and that there were no other breaks. The source heading remains unchanged. Net observation is **197 minutes**.
 
 The 185-minute recorded sum exceeds its 184-minute union by the intentional one-minute EXC/PO overlap at 11:42–11:43. Keep both activity intervals in full; do not deduct one minute from the PO. Overlap arithmetic concerns activity totals, not observer availability.
 
-OBS-16 at 13:42–14:24 covers 42 elapsed minutes while Arno helped Maurice with a received item. The source does not establish that the observer followed him continuously, or that every minute was active work. Ask about observer presence separately from active task duration. This logistics/EXC episode remains excluded from thesis workload analysis regardless of the exposure answer.
+OBS-16 at 13:42–14:24 covers 42 minutes while Arno helped Maurice with a received item. Yijie confirmed following Arno throughout, so the interval is observed time. This logistics/EXC episode remains excluded from the thesis workload profile.
 
-Within the written 23 September headings, 183 minutes have a timed row and 13 minutes do not. One additional recorded minute lies outside the morning heading. Therefore simply subtracting the 184-minute union from the 196-minute headings would hide the one-minute boundary mismatch. The block CSV lists the uncovered intervals without interpreting them.
+Within the confirmed 23 September blocks, 184 minutes have a timed row and 13 do not: 11:00–11:03, 11:33–11:34, 11:45–11:46, 12:06–12:09, 12:11–12:13, 13:00–13:02 and 14:49–14:50. These are observed minutes without a recorded activity.
 
-## Minimum questions for Yijie
+## Observer confirmation, 30 September 2026
 
-Please confirm actual observation blocks and periods when you could not follow Arno. Approximate recollections should stay labelled approximate; they cannot become exact exposure denominators.
+Yijie answered the three questions raised on 25 September:
 
-1. **8 September:** Were you observing from 10:30 to 12:23? During the flagged 12:04–12:13 interval, were you still present, and did loss of focus affect all nine minutes or only part? Give any other breaks or periods when you could not follow Arno, or confirm there were none.
-2. **18 September:** Were you observing throughout 10:30–12:30 and 13:00–15:00, including the untimed edges at 12:25–12:30, 13:00–13:08 and 14:55–15:00? Give actual start/end times and any unavailable intervals if different.
-3. **23 September:** Did the morning observation end at 12:31, and were the other actual blocks 13:00–14:26 and 14:40–15:00? Did you follow Arno continuously during 13:42–14:24 while he helped Maurice, or was observation unavailable for some/all of it? List any other unavailable intervals within the blocks.
+1. **8 September:** observation ran throughout 10:30–12:23 with no other breaks. The recorded 12:04–12:13 loss of focus remains excluded.
+2. **18 September:** observation ran throughout 10:30–12:30 and 13:00–15:00, including the untimed edges, with no breaks.
+3. **23 September:** the blocks were 11:00–12:31, 13:00–14:26 and 14:40–15:00 with no other breaks, and Yijie followed Arno throughout 13:42–14:24.
 
-There is no need to identify an activity for every blank minute to answer these questions. They concern observer presence and reliable capture. If the observer cannot remember a period, retain unknown exposure for that part and use the existing data for included-minute profiles, case comparison and qualitative patterns. Do not report pooled per-hour occurrence rates across unverified exposure.
+With these answers, per-hour occurrence rates can use the confirmed net observation of each session. Net observation includes observed time spent on excluded work, such as EXC and logistics. State this definition whenever a rate is reported. Dennis's 25 September session (blocks 10:55–12:31, 13:01–13:47 and 14:01–14:40) is not part of this register.
 
 ## Files and reproducibility
 
-- `Session_Exposure_Audit_2026-09-25.csv`: one row per date, explicitly blank unknown net values, evidence and questions.
-- `Block_Clock_Coverage_2026-09-25.csv`: ten recorded blocks and all clock gaps lacking timed rows.
-- `exposure_arithmetic_provenance.json`: raw source line references for each timed row and SHA-256 hashes.
-- `build_exposure_audit.py`: reproducible arithmetic against the five source notes saved in `five_session_analysis_2026-09-25/sources`.
+- [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv): one row per session with blocks, unobserved intervals, confirmed net observation, interval arithmetic and evidence.
 
-Checks: 225 timestamped source rows across five sessions; recorded interval sum 752 minutes; interval union 751 minutes; the only positive overlap is the confirmed minute on 23 September. The first four interval sums reproduce 567 minutes from the prior review. These are timestamp checks, not a five-session net-exposure estimate.
+The interval arithmetic can be re-derived from the start and end times in the five observation notes, or from the enriched CSVs. Checks: 225 timestamped source rows across five sessions; recorded interval sum 752 minutes; interval union 751 minutes; the only positive overlap is the confirmed minute on 23 September. The first four interval sums reproduce 567 minutes from the prior review.

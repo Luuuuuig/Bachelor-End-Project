@@ -108,7 +108,7 @@ If decision is embedded in PO/REQ/CLAR/CHECK/EXC, use `DEC?=Y` and **do not add 
 10. System waiting is not active buyer time.
 11. If work happened but could not be coded, record MISS.
 12. Do not infer J/EXP or reasoning when uncertain.
-13. Do not create overlapping active time for one buyer; resolve the boundary or mark it uncertain.
+13. *(Amended 30 September 2026; until 25 September: do not create overlapping active time.)* If the buyer genuinely does two activities at the same time, record each with its own start and end, even if they overlap. One inseparable interval is still recorded once; an interruption still pauses the first task. See the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities).
 14. A genuine complete sub-minute SEND that cannot be timed reliably is a tally with Start/End = `—`; explain it and do not invent a duration.
 15. No example rows are pre-filled in the actual data area.
 

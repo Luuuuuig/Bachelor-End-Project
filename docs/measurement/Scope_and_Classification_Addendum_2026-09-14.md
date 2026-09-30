@@ -2,6 +2,8 @@
 
 Prepared 14 September 2026. Applies the scope decisions recorded on 10 September. The phase crosswalk and operational rules below are researcher implementation choices for review, not additional decisions attributed to the supervisor.
 
+**30 September timing update:** Simultaneous activities now each keep their own recorded interval (see [Timing of simultaneous activities](#timing-of-simultaneous-activities)). This records the practice already used on 23 September; no earlier included total changes.
+
 **21 September classification addition:** The [stage-organized analytical activity list](../process/Purchasing_Activity_Framework_2026-09-21.md) is now the current reference for detailed activity assignments. This addition implements the framework-guided classification direction discussed on 17 September. It retains the original 14 September scope decisions and changes no live fields, timing rules, original observation rows or research questions.
 
 ## Scope
@@ -49,9 +51,20 @@ Map by the purpose of the work, not by the employee, software screen, activity c
 
 An `UNKNOWN` stage or unresolved analytical activity does not itself exclude reliable, in-scope family-level time. Use `REVIEW_SCOPE` only when eligibility is genuinely unclear. Preserve original task numbering/version where it differs from the current register, original family labels, recorded intervals and source-row order. Label retrospective assignments as later researcher enrichment rather than implying that those fields were collected live.
 
-### Timing continuity
+### Timing of simultaneous activities
 
-This update leaves the existing active-time, interruption, tally and non-fabrication rules unchanged. The 17 September proposal to record overlapping activity durations separately is not implemented by the activity-list revision. Do not retrofit overlapping intervals or add gross concurrent durations to the historical exclusive active-time baseline. A future timing change requires a dated definition and a comparability assessment.
+**Updated 30 September 2026.** Until 25 September, the baseline used exclusive active time: one buyer could not have two timed activities in the same minute. On 17 September, Zhongxin suggested recording the time of simultaneous activities separately. The example given was a 50-minute activity with a 30-minute activity performed during it: 80 activity minutes within 50 elapsed minutes ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md)). Yijie confirmed on 25 September that this rule is adopted.
+
+1. When the buyer genuinely performs two activities at the same time, record each with its own start and end, even when the intervals overlap. Do not shorten either interval to remove the overlap.
+2. This is not a combined activity. When one interval cannot be separated into its parts, keep one row and count its minutes once, as before.
+3. This is not an interruption. When the buyer stops one task to do another, the first task pauses (INT) and the intervals do not overlap.
+4. Each activity keeps its full recorded minutes. Scope applies to each activity separately: an excluded concurrent activity, such as EXC, does not reduce an included one.
+5. In analysis, **activity minutes** are the sum of each activity's full interval, and **elapsed minutes** count each clock minute once. Where overlaps exist, report both and record the overlap minutes per row. Shares of activity minutes describe how activity time is distributed; they are not shares of the buyer's clock time.
+6. Net observed time is clock time. Overlaps never increase it.
+
+**Comparability.** The 28 August pilot and the 31 August, 1, 8 and 18 September sessions contain no overlapping recorded intervals, so their totals are identical under both rules. The only overlap so far is one minute on 23 September (11:42–11:43, OBS-07 EXC and OBS-03 PO). The 1 September OBS-21 correction removed an overlap caused by a transcription error and is unaffected.
+
+The interruption, tally and non-fabrication rules are unchanged.
 
 ## Measures and denominators
 

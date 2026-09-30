@@ -28,7 +28,7 @@ Current core documents:
 
 ## Current phase
 
-The existing operational AS-IS and pilot support ongoing Measure. Three official Arno sessions are recorded, on 31 August, 1 September and 8 September. Historical validated summaries cover the first two sessions only, with 351 net observed minutes and 265 timed coded-active minutes under the earlier broader scope. The third session remains a transcription with an OBS-16 exclusion. The 10 September academic decision adds Dennis to purchasing context and excludes logistics and EXC time from thesis analysis. Use the 14 September scope addendum alongside v1.3 timing rules. Further observation, enrichment and the coverage review remain open.
+The existing operational AS-IS and pilot support Measure. Five official Arno sessions are recorded, on 31 August and 1, 8, 18 and 23 September, with 892 minutes of confirmed net observation. The 28 August pilot remains separate. Dennis's work is recorded in the 15 September internship notes and a timed observation on 25 September. The 10 September academic decision adds Dennis to purchasing context and excludes logistics and EXC time from thesis analysis. Use the 14 September scope addendum, including its 30 September timing update for simultaneous activities, alongside v1.3. Yijie is redoing the post-session enrichment; the Day-5 coverage review and Analyze follow.
 
 Approved aggregated/system PO-volume information may supplement the observational baseline, but dashboard access is not required to start. Detailed Exact/Orbis production-data/interface feasibility remains deferred until after the exploratory Measure phase, when Analyze can focus technical investigation on the shortlisted candidate(s).
 

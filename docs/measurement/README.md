@@ -7,6 +7,12 @@ Use the [scope and classification addendum](Scope_and_Classification_Addendum_20
 
 This folder contains the current and historical Measure-phase data-collection materials for the BEP.
 
+## Status on 30 September
+
+Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Yijie confirmed the observation blocks for 8, 18 and 23 September, so all five sessions now have confirmed net observation: 165, 186, 104, 240 and 197 minutes, **892 minutes** in total. See the [observation-time review](Observation_Time_Review_2026-09-25.md) and [register](Observation_Time_Register_2026-09-25.csv). Dennis was observed on 25 September; that session is not part of the Arno register.
+
+The rule for simultaneous activities is now written into the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) and the [v1.3 cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md): each genuinely simultaneous activity keeps its own recorded interval. Yijie is redoing the post-session enrichment; the enriched files and included-minute totals below will be replaced.
+
 ## Enrichment and exposure review of 25 September
 
 The [23 September observation](Measure_Observation_2026-09-23.md#post-session-enrichment-completed-25-september-2026) now includes a purpose-based enrichment of all 58 raw rows. The [23 September CSV](23_September_Enriched_Rows_2026-09-25.csv) preserves every original field, with separate activity, Van Weele stage, confidence, timing and scope fields. It supplements the historical 21 September workbook and consolidated CSV; those earlier exports do not contain the fifth baseline session.
@@ -15,7 +21,7 @@ The current 23 September included subtotal is 102 recorded activity minutes. Ano
 
 The supervisor-directed concurrent-activity convention retains each confirmed simultaneous activity's full recorded interval, as confirmed by Yijie on 25 September. The three-minute PO interval at 11:42-11:45 is included in full; the overlapping EXC interval remains excluded. These are activity durations, not exclusive elapsed buyer time. No positive overlaps were found in the previous four sessions, so this concurrency clarification changes none of their existing included minutes.
 
-Use the [observation-time review](Observation_Time_Review_2026-09-25.md) and [five-session register](Observation_Time_Register_2026-09-25.csv) for exposure. Only 31 August (165 minutes) and 1 September (186 minutes) have confirmed net observation. The 8, 18 and 23 September notebook windows remain unconfirmed until observation boundaries and unavailable periods are clarified. Never substitute coded activity totals for net exposure or report pooled per-hour rates across unverified sessions.
+Use the [observation-time review](Observation_Time_Review_2026-09-25.md) and [five-session register](Observation_Time_Register_2026-09-25.csv) for exposure. On 25 September, only 31 August (165 minutes) and 1 September (186 minutes) had confirmed net observation; the other three sessions were confirmed on 30 September (see above). Never substitute coded activity totals for net exposure.
 
 ## Activity-list update of 21 September
 
@@ -46,6 +52,9 @@ This update changes no recorded or eligible duration. Included exact minutes rem
 - [Measure Observation — 1 September 2026](Measure_Observation_2026-09-01.md) — second official baseline day, normalized to v1.2 with case context, non-blank fields, MAX evidence and post-session enrichment.
 - [Measure Observation — 8 September 2026](Measure_Observation_2026-09-08.md) — third official baseline session; raw observations and post-session enrichment in the same file. Both OBS-16 rows remain excluded for contamination.
 - [Measure Observation - 18 September 2026](Measure_Observation_2026-09-18.md) - morning and afternoon observations, Yijie's corrections, the dated Primer-C reference and post-session enrichment in the same file.
+- [Measure Observation — 23 September 2026](Measure_Observation_2026-09-23.md) — fifth official baseline session; 58 rows, OBS-16 EXC classification, the one-minute confirmed overlap and post-session enrichment of 25 September, with a [CSV companion](23_September_Enriched_Rows_2026-09-25.csv).
+- [Measure Observation — 25 September 2026](Measure_Observation_2026-09-25.md) — **Dennis**, timed observation of 41 rows with coding clarifications and post-session enrichment. Kept separate from Arno's baseline. Dennis's earlier purchasing activities are described in the [15 September internship notes](../meetings/Internship_notes_2026-09-15.md).
+- [Observation-time review](Observation_Time_Review_2026-09-25.md) and [register](Observation_Time_Register_2026-09-25.csv) — confirmed net observation for the five Arno sessions.
 
 The historical two-day totals through **1 September** remain **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broad scope. On 18 September the 28 August pilot and the 31 August and 1 September observations received a retrospective task-purpose, Van Weele stage and scope review inside their original files. The pilot retains its historical Task IDs alongside current equivalents and stays outside the official baseline. The 31 August, 1 September, 8 September and 18 September files each report their own narrower included profile. Keep provisional and unresolved classifications visible; compare days only with matching scope, timing-quality and exposure definitions. These reviews preserve the seven live families and do not establish that Measure is sufficient for case selection.
 
