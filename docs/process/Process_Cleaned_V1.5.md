@@ -65,7 +65,7 @@ Evidence labels used below:
 
 The detailed formal-document analysis belongs in `Official_Document_Register_2026-08-21.md`. Absence of an operational activity from a high-level SOP is **not** treated as non-compliance unless contradictory evidence exists.
 
-Observed Week-1 timings are clock-measured **single-case elapsed-time observations**. They are not representative averages and can include task switching.
+Week-1 timings (19 and 20 August) are **observer estimates of single-case elapsed time**, made before the Measurement Protocol existed. They were not clock-measured, are not representative averages and can include task switching. *(Corrected 30 September 2026; see the [20 August note](../meetings/Internship_notes_2026-08-20.md).)*
 
 ---
 
@@ -151,7 +151,7 @@ The workflow includes externally supplied requests, demand visible in Exact and 
 
 Requests can arrive through email, phone/desk contact, screenshots, direct colleague requests or other informal communication. The buyer may read/listen to the request, clarify missing information, investigate historical information, answer a question, route the request or transfer information into Exact. Where PO work is required, the buyer creates, updates or continues the relevant PO. A request handled through an answer or routing does not necessarily create a PO.
 
-One observed service-order case involving two lines took approximately **5 minutes elapsed time**. This is a single case, not an average.
+One observed service-order case involving two lines took an estimated **5 minutes elapsed time** (not measured). This is a single case, not an average.
 
 Existing/open POs can be resumed at the relevant stage. The 1 September observation also established a specific work-selection condition: when there is **no open PO and no external request currently requiring attention**, the buyer generates a new PO record from Exact demand. Once generated, the PO is shown as `Besteld` in Exact and can then be handled as open PO work.
 
@@ -163,7 +163,7 @@ The buyer does not automatically accept incoming information as correct. Dependi
 
 If something appears suspicious or incomplete, historical POs can be searched before continuing.
 
-One observed investigation of suspicious machine/serial information took approximately **10–15 minutes elapsed time**.
+One observed investigation of suspicious machine/serial information took an estimated **10–15 minutes elapsed time** (not measured).
 
 **Work type:** judgement + investigation.
 
@@ -203,7 +203,7 @@ Therefore, **MAX outcome and HOLD/ORDER outcome are separate decisions**. Adding
 
 This means maximalisatie is a recurring **search + judgement + PO-adjustment subprocess**. In practice, maximalisatie and PO processing can happen seamlessly, so observational timing should not force an artificial split unless the boundary is clearly visible.
 
-One observed addition of another item during maximalisatie took approximately **4 minutes elapsed time**.
+One observed addition of another item during maximalisatie took an estimated **4 minutes elapsed time** (not measured).
 
 **Work type:** purchasing judgement + administration.
 
@@ -219,7 +219,7 @@ Purchased quantity can need to be assigned to the correct underlying project/pro
 
 If assignment is missed or incorrect, the underlying demand may remain unresolved and can reappear, creating duplicate-purchase risk.
 
-One observed combined case involving `Advies`, maximalisatie, understanding underlying demand and `Toewijzen` took approximately **30–35 minutes elapsed time**. The case included switching between work content, so this is not a pure active-processing-time measure.
+One observed combined case involving `Advies`, maximalisatie, understanding underlying demand and `Toewijzen` took an estimated **30–35 minutes elapsed time** (not measured). The case included switching between work content, so this is not a pure active-processing-time measure.
 
 **Work type:** system administration + purchasing interpretation.
 
@@ -257,7 +257,7 @@ A more automated supplier-email approach existed previously but was described as
 
 The supplier normally sends an order confirmation. The buyer compares relevant confirmation information against the PO/Exact, corrects deviations where required, attaches/archives the confirmation and sets the order to `Bevestigd`.
 
-A large observed case took approximately **30–40 minutes elapsed time**, including task switching. The time therefore should not be interpreted as continuous active price-checking time and can vary with line count and complexity.
+A large observed case took an estimated **30–40 minutes elapsed time** (not measured), including task switching. The time therefore should not be interpreted as continuous active price-checking time and can vary with line count and complexity.
 
 ### Two distinct price controls
 
@@ -312,14 +312,14 @@ This register is the structured **Task Inventory** for the current process. Task
 | # | Step / task | Actor | Type | Current evidence | Basis | Main unknown / measurement need |
 |---|---|---|---|---|---|---|
 | 1 | Receive / identify purchasing need through Exact or external request | Requester / Buyer | C | **Observed + Formal high-level** | Formal + observed practice | Frequency/share by route |
-| 2 | Create purchasing entry / PO lines in Exact for an external request | Buyer | A | **Observed; single case ~5 min elapsed for 2 service lines** | Formal ERP PO requirement + observed practice | Frequency + representative active time |
+| 2 | Create purchasing entry / PO lines in Exact for an external request | Buyer | A | **Observed; single case, estimated ~5 min elapsed for 2 service lines** | Formal ERP PO requirement + observed practice | Frequency + representative active time |
 | 3 | Transfer information from screenshot / email / colleague request into Exact | Buyer | A | **Observed** | Observed practice; article-management responsibility formally supported | Frequency + fields commonly transferred |
 | 4 | Validate supplied article / machine / service information | Buyer | B | **Observed** | Observed practice + WI article-management context | Frequency + error/incompleteness categories |
-| 5 | Search historical POs to resolve suspicious information when validation raises doubt | Buyer | B | **Observed; single case ~10–15 min elapsed** | Observed practice | Frequency + representative active time |
+| 5 | Search historical POs to resolve suspicious information when validation raises doubt | Buyer | B | **Observed; single case, estimated ~10–15 min elapsed** | Observed practice | Frequency + representative active time |
 | 6 | Assess stock, future demand, open POs, receipts, lead time and urgency | Buyer | B | **Observed + Formal high-level inputs** | Formal + observed practice | Data availability + relative importance of inputs |
 | 7 | Check additional same-supplier demand for maximalisatie as part of normal order processing | Buyer | B+A | **Observed; process interpretation clarified 31 Aug** | Observed practice | Search method, frequency, information sources + active time |
 | 8 | Determine whether useful same-supplier demand is currently available for consolidation | Buyer | B | **Observed** | Observed practice | Decision criteria for what counts as useful consolidation |
-| 9 | If useful demand is available, combine the relevant same-supplier demand; the resulting order still proceeds to the post-MAX hold/proceed assessment | Buyer | B+A | **Observed; single case ~4 min elapsed for one added item** | Observed practice | Frequency + amount/value combined + representative active time |
+| 9 | If useful demand is available, combine the relevant same-supplier demand; the resulting order still proceeds to the post-MAX hold/proceed assessment | Buyer | B+A | **Observed; single case, estimated ~4 min elapsed for one added item** | Observed practice | Frequency + amount/value combined + representative active time |
 | 10 | After MAX, whether or not demand was added, assess whether the resulting order is small/non-urgent or otherwise ready to proceed | Buyer | B | **Observed; process interpretation clarified through 1 Sep** | Observed practice | Decision rules/cues for size + urgency |
 | 11 | If the resulting post-MAX order is small and non-urgent, hold/pause it; otherwise proceed with ordering | Buyer | B | **Observed; process interpretation clarified through 1 Sep** | Observed practice | Hold frequency + proceed/hold outcome + reconsideration trigger |
 | 12 | Review Exact `Advies` and underlying demand | Buyer | B | **Observed; sequence buyer-validated 21 Aug** | System + observed practice | Calculation logic + frequency + override behaviour |
@@ -336,7 +336,7 @@ This register is the structured **Task Inventory** for the current process. Task
 | 23 | Buyer forwards generated PO with standard supplier message | Buyer | A | **Observed + Stated** | Observed practice; placing PO with supplier is Formal | Daily volume + total effort |
 | 24 | A newly generated PO record appears as `Besteld` in Exact and becomes open PO work; this status is distinct from manual supplier forwarding | Buyer / Exact | A | **Observed 1 Sep; current working model** | System + observed practice | Validate exact technical trigger/meaning if later analytically relevant |
 | 25 | Supplier sends order confirmation | Supplier | — | **Observed + Formal if confirmation received** | External + Formal archiving requirement | Confirmation receipt rate / format variability if relevant |
-| 26 | Compare supplier confirmation with PO / Exact | Buyer | V+A | **Observed; one large case ~30–40 min elapsed including task switching** | Observed practice | Active/elapsed time by line count + deviation rate |
+| 26 | Compare supplier confirmation with PO / Exact | Buyer | V+A | **Observed; one large case, estimated ~30–40 min elapsed including task switching** | Observed practice | Active/elapsed time by line count + deviation rate |
 | 27 | Correct relevant confirmation deviations in Exact | Buyer | A | **Observed** | Observed practice | Frequency + correction time |
 | 28 | Attach/archive confirmation and set `Bevestigd` | Buyer | A | **Observed + Formal high-level confirmation archiving** | Formal + System + observed practice | Representative time / exact mailbox-system relationship if relevant |
 | 29 | Finance performs later control and determines whether an issue exists | Finance | C+V | **Single observation + Stated** | Observed practice / downstream control | Detection method + issue frequency + cause categories |
@@ -472,11 +472,11 @@ No final thesis-case ranking should be made from the AS-IS file alone. Final sel
 
 | Claim | Current evidence | Interpretation |
 |---|---|---|
-| External service request with two lines | ~5 min elapsed, single observed case | Not a representative average |
-| Suspicious machine/serial investigation | ~10–15 min elapsed, single observed case | Judgement/investigation burden |
-| Adding one item during maximalisatie | ~4 min elapsed, single observed case | Does not represent the full decision process |
-| Combined `Advies` / maximalisatie / `Toewijzen` case | ~30–35 min elapsed, single observed case | Included task switching; not pure active time |
-| Large confirmation/price-control case | ~30–40 min elapsed, single observed case | Included task switching; depends on line count/complexity |
+| External service request with two lines | Estimated ~5 min elapsed, single observed case | Not a representative average |
+| Suspicious machine/serial investigation | Estimated ~10–15 min elapsed, single observed case | Judgement/investigation burden |
+| Adding one item during maximalisatie | Estimated ~4 min elapsed, single observed case | Does not represent the full decision process |
+| Combined `Advies` / maximalisatie / `Toewijzen` case | Estimated ~30–35 min elapsed, single observed case | Included task switching; not pure active time |
+| Large confirmation/price-control case | Estimated ~30–40 min elapsed, single observed case | Included task switching; depends on line count/complexity |
 | Generated POs are manually forwarded | Observed + stated | Total workload depends on PO volume |
 | Automated supplier emailing existed previously but had reliability problems | Stated | Important design constraint for future automation |
 | Exact Globe+ is accessible through Orbis | Stated by IT | Accessible fields/read-write scope still unresolved |

@@ -10,6 +10,25 @@ Yijie clarified on 30 September that the simultaneous-activity rule was followed
 
 **Files for the analysis.** Use the five baseline `Arno_Measurement_*.csv` exports below, whose stage column was reviewed on 30 September, together with the observation-time register. The pilot export stays separate from the baseline. The earlier enriched exports (the 21 September CSV and workbook, and the 23 September enriched CSV) and the enrichment sections inside the observation notes are historical; their included-minute totals are not the current analysis figures. Dennis's 25 September session exists only in its observation note.
 
+## Current totals from the reviewed CSVs
+
+Calculated on 30 September 2026 from the five baseline `Arno_Measurement_*.csv` files. All values are recorded activity minutes of timed rows; untimed tallies add no minutes. These totals replace the historical enrichment subtotals (for example 91, 116, 32, 121 and 102) as the current basis.
+
+| Session | Recorded timed minutes | EXC-coded (scope exclusion) | Contaminated (8 Sep OBS-16) | Non-EXC valid minutes | Stage "Not applicable" | Purchasing-stage basis | of which stage blank |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 31 August | 103 | 4 | 0 | 99 | 0 | 99 | 1 |
+| 1 September | 162 | 38 | 0 | 124 | 0 | 124 | 7 |
+| 8 September | 106 | 27 | 9 | 70 | 2 | 68 | 5 |
+| 18 September | 196 | 47 | 0 | 149 | 7 | 142 | 3 |
+| 23 September | 185 | 66 | 0 | 119 | 17 | 102 | 25 |
+| **Total** | **752** | **182** | **9** | **561** | **26** | **535** | **41** |
+
+- **Exclusions applied:** EXC-coded rows (scope rule of 10 September) and the two contaminated 8 September OBS-16 rows (12:04–12:13, source note). The 23 September OBS-16 interval is EXC and already excluded.
+- **Timing rule:** the 23 September OBS-03 PO keeps its full three minutes although one minute overlaps an EXC row; the overlap adds no minute to the non-EXC total.
+- **Not applicable:** rows the observer placed outside the purchasing stages (for example the 23 September Exact fault and the 18 September OBS-08 logistics rows). They are reported separately and are not part of the purchasing-stage basis.
+- **Blank stage:** 41 purchasing-stage minutes have no stage yet; they form an "unassigned" group in stage-level results.
+- **Scope checks still open:** the reviewed CSVs have no scope column. The 23 September OBS-18 SEND (2 minutes, transport company; stage Monitoring in the review) was treated as logistics in the historical enrichment. The EXC rule itself awaits the supervisor discussion; results will also be reported with EXC included.
+
 ## Simple CSV exports, 30 September 2026
 
 These exports preserve the original eight observation-table columns and add only **Van Weele stage**. Original codes, notes, timestamps, volumes and missing values remain unchanged. Stage assignments describe the purpose of each activity; they are not a fixed conversion from work-family codes.
@@ -51,7 +70,7 @@ Use the [scope and classification addendum](Scope_and_Classification_Addendum_20
 
 The [23 September observation](Measure_Observation_2026-09-23.md#post-session-enrichment-completed-25-september-2026) now includes a purpose-based enrichment of all 58 raw rows. The [23 September CSV](23_September_Enriched_Rows_2026-09-25.csv) preserves every original field, with separate activity, Van Weele stage, confidence, timing and scope fields. It supplements the historical 21 September workbook and consolidated CSV; those earlier exports do not contain the fifth baseline session.
 
-The current 23 September included subtotal is 102 recorded activity minutes. Another 15 recorded minutes remain under scope review. Missing durations remain missing. The updated drawing classification uses Yijie's dated clarification about incomplete Engineering inputs, without rewriting the original note.
+In that historical enrichment, the 23 September included subtotal was 102 recorded activity minutes, with another 15 recorded minutes under scope review. These are not current results; see [Current totals from the reviewed CSVs](#current-totals-from-the-reviewed-csvs). Missing durations remain missing. The updated drawing classification uses Yijie's dated clarification about incomplete Engineering inputs, without rewriting the original note.
 
 The supervisor-directed concurrent-activity convention retains each confirmed simultaneous activity's full recorded interval, as confirmed by Yijie on 25 September. The three-minute PO interval at 11:42-11:45 is included in full; the overlapping EXC interval remains excluded. These are activity durations, not exclusive elapsed buyer time. No positive overlaps were found in the previous four sessions, so this concurrency clarification changes none of their existing included minutes.
 
@@ -63,7 +82,7 @@ Download the [Van Weele activity framework and observations, Excel](Van_Weele_Ac
 
 Use the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md) for post-session classification. It defines concrete activities within the six stages, rather than using a fixed code-to-stage conversion. The seven live families and original timing rules remain. The [consolidated enriched dataset](Activity_Framework_Enriched_Observations_2026-09-21.csv) covers all 259 retained log rows from 28 August, 31 August, 1 September, 8 September and 18 September, including the pilot break/gap. Each original file contains the same activity, confidence and reasoning fields. Pilot evidence remains separate; unresolved activities remain usable at family level where scope and quality allow.
 
-This update changes no recorded or eligible duration. Included exact minutes remain 59 for the pilot, then 91, 116, 32 and 121 for the four baseline sessions respectively. The pilot's two approximate minutes remain separate. Four corrections to prior stage classifications are documented in the framework and affected observation files; all concern records already excluded or under scope review. The update does not establish Measure sufficiency or a representative daily workload.
+This update changes no recorded or eligible duration. Its historical included exact minutes were 59 for the pilot, then 91, 116, 32 and 121 for the four baseline sessions respectively; current results are in [Current totals from the reviewed CSVs](#current-totals-from-the-reviewed-csvs). The pilot's two approximate minutes remain separate. Four corrections to prior stage classifications are documented in the framework and affected observation files; all concern records already excluded or under scope review. The update does not establish Measure sufficiency or a representative daily workload.
 
 ## Current baseline materials
 
