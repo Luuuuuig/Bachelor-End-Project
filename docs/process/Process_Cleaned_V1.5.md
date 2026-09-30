@@ -509,7 +509,6 @@ Only unresolved **AS-IS facts** belong here. Candidate-selection gates and resea
 | P2 | How often is `Toewijzen` missed/difficult or associated with reappearing demand? | case tally + Exact inspection |
 | P3 | How is an unavailable requirement tracked after removal from a PO? | trace a real case |
 | P4 | What share of requests starts outside Exact, and what information-quality problems recur? | several-day tally |
-| P5 | How often does Finance return cases, for what causes, and what rework follows? | Finance discussion + case categorization |
 | P6 | How exactly is an above-authority order routed, recorded and continued after `Fiatteren`? | trace a real case |
 | P7 | Are services normally included in proactive pre-PO price checking? | ask + observe |
 | P8 | Who owns later stages after `Bevestigd` where they generate purchasing rework? | process trace |

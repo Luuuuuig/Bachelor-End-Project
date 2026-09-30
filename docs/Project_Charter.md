@@ -92,7 +92,7 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 1. Prepare/send the [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md) by 15 September. Use the [Plan of Work academic draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) for the 18/20 September draft milestones.
 2. Continue baseline observations using v1.3 timing rules plus the 14 September scope addendum. Conduct targeted Dennis discovery using the [observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
 3. Complete Task-ID and Van Weele enrichment immediately after each block and preserve `C/P/U/?`, separate MAX and HOLD/ORD outcomes, interruptions and measurement limitations.
-4. Build the in-scope, actor-specific activity-family workload profile across multiple sessions/dayparts and supplement it with approved aggregated PO/line-volume data where available.
+4. Build the in-scope, actor-specific activity-family workload profile across multiple sessions/dayparts.
 5. After Measure, investigate Exact/Orbis and other technical/data feasibility for the shortlisted candidate(s) during Analyze.
 6. Apply veto gates, student–academic-supervisor weighting, anchored scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
 7. Freeze the focal-case workload threshold and quality guardrail before artifact development/formal testing.
