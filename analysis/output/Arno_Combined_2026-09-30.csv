@@ -1,0 +1,288 @@
+date,weekday,row,case,case_ref,activity_as_written,family,start,end,timed,minutes,daypart,request_channel,volume,int,dec,note,stage,flag_exc,flag_lost_focus,flag_stage_na,flag_stage_blank,overlap_minutes
+2026-08-31,Mon,1,OBS-01,2026-08-31 OBS-01,REQ,REQ,—,—,0,,Morning,Unspecified,—,0,,Item: Primer-C. Request received via physical letter. Two options: 20 ml for €18.53 or 1000 ml for €110. Need to ask which option is actually required.,Specification,0,0,0,0,0
+2026-08-31,Mon,2,OBS-01,2026-08-31 OBS-01,CLAR,CLAR,10:30,10:40,1,10,Morning,,1L,1,Yes,,Specification,0,0,0,0,0
+2026-08-31,Mon,3,OBS-02,2026-08-31 OBS-02,REQ-mail,REQ,—,—,0,,Morning,Email,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,4,OBS-02,2026-08-31 OBS-02,PO,PO,10:42,10:44,1,2,Morning,,1L,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,5,OBS-02,2026-08-31 OBS-02,SEND,SEND,10:46,10:51,1,5,Morning,,1L,0,,Error Exact,Ordering,0,0,0,0,0
+2026-08-31,Mon,6,OBS-03,2026-08-31 OBS-03,REQ-mail,REQ,—,—,0,,Morning,Email,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,7,OBS-03,2026-08-31 OBS-03,CLAR,CLAR,—,—,0,,Morning,,—,0,,"Forward; instantaneous/tally occurrence, not a timed episode.",Ordering,0,0,0,0,0
+2026-08-31,Mon,8,OBS-04,2026-08-31 OBS-04,REQ-mail,REQ,—,—,0,,Morning,Email,—,0,,New article to old PO,Ordering,0,0,0,0,0
+2026-08-31,Mon,9,OBS-04,2026-08-31 OBS-04,CHECK,CHECK,10:52,10:53,1,1,Morning,,3L,0,,1L checked,Ordering,0,0,0,0,0
+2026-08-31,Mon,10,OBS-04,2026-08-31 OBS-04,PO,PO,10:53,10:55,1,2,Morning,,1L,0,,1L added,Ordering,0,0,0,0,0
+2026-08-31,Mon,11,OBS-04,2026-08-31 OBS-04,CHECK,CHECK,10:55,10:59,1,4,Morning,,3L,0,,2L checked,Ordering,0,0,0,0,0
+2026-08-31,Mon,12,OBS-04,2026-08-31 OBS-04,SEND,SEND,—,—,0,,Morning,,—,0,?,Genuine sub-minute SEND action after the CHECK/PO/CHECK block. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals.,Ordering,0,0,0,0,0
+2026-08-31,Mon,13,OBS-05,2026-08-31 OBS-05,CHECK,CHECK,10:59,11:02,1,3,Morning,,3L,0,,,Monitoring,0,0,0,0,0
+2026-08-31,Mon,14,OBS-05,2026-08-31 OBS-05,EXC,EXC,—,—,0,,Morning,,—,0,?,Sub-minute exception/aftercare action immediately after the CHECK. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals.,Monitoring,1,0,0,0,0
+2026-08-31,Mon,15,OBS-06,2026-08-31 OBS-06,REQ-mail,REQ,—,—,0,,Morning,Email,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,16,OBS-06,2026-08-31 OBS-06,CLAR,CLAR,11:03,11:04,1,1,Morning,,1L,0,Yes,"Onderhoud, so it is service",(blank),0,0,0,1,0
+2026-08-31,Mon,17,OBS-06,2026-08-31 OBS-06,PO,PO,11:04,11:08,1,4,Morning,,1L,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,18,OBS-06,2026-08-31 OBS-06,SEND,SEND,11:08,11:11,1,3,Morning,,—,0,,SEND was completed at 11:11. Observation was unavailable from 11:11–11:17 after the SEND episode had ended; therefore this is not an interruption of OBS-06 SEND and INT remains 0.,Ordering,0,0,0,0,0
+2026-08-31,Mon,19,OBS-07,2026-08-31 OBS-07,REQ-email,REQ,—,—,0,,Morning,Email,—,0,,Request: article input in Exact,Ordering,0,0,0,0,0
+2026-08-31,Mon,20,OBS-07,2026-08-31 OBS-07,CLAR,CLAR,11:23,11:25,1,2,Morning,,1L,0,,Write up information,Ordering,0,0,0,0,0
+2026-08-31,Mon,21,OBS-07,2026-08-31 OBS-07,OTHER,OTHER,11:25,11:29,1,4,Morning,,1L,0,,Input to Exact,Ordering,0,0,0,0,0
+2026-08-31,Mon,22,OBS-07,2026-08-31 OBS-07,SEND,SEND,—,—,0,,Morning,,1L,0,,Asking price? Instantaneous/tally occurrence; exact duration not measured because it happens in 30 seonds,Ordering,0,0,0,0,0
+2026-08-31,Mon,23,OBS-07,2026-08-31 OBS-07,OTHER,OTHER,11:29,11:31,1,2,Morning,,1L,0,,Attached info to article,Ordering,0,0,0,0,0
+2026-08-31,Mon,24,OBS-07,2026-08-31 OBS-07,OTHER,OTHER,11:35,11:37,1,2,Morning,,1L,0,,Attached info to article,Ordering,0,0,0,0,0
+2026-08-31,Mon,25,OBS-07,2026-08-31 OBS-07,CLAR,CLAR,11:37,11:39,1,2,Morning,,1L,0,Yes,2nd item that needs be inputted; asking question,Ordering,0,0,0,0,0
+2026-08-31,Mon,26,OBS-07,2026-08-31 OBS-07,CLAR,CLAR,11:39,11:43,1,4,Morning,,1L,1,,"2nd item, different comp.",Ordering,0,0,0,0,0
+2026-08-31,Mon,27,OBS-04,2026-08-31 OBS-04,EXC,EXC,11:51,11:53,1,2,Morning,,3L,0,,aftercare,(blank),1,0,0,1,0
+2026-08-31,Mon,28,OBS-08,2026-08-31 OBS-08,REQ-Exact,REQ,—,—,0,,Morning,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,29,OBS-08,2026-08-31 OBS-08,PO,PO,11:54,11:55,1,1,Morning,,1L,1,Yes,Buy order amount of €900,Ordering,0,0,0,0,0
+2026-08-31,Mon,30,OBS-08,2026-08-31 OBS-08,SEND,SEND,11:58,11:59,1,1,Morning,,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,31,OBS-09,2026-08-31 OBS-09,REQ-email,REQ,—,—,0,,Morning,Email,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,32,OBS-09,2026-08-31 OBS-09,PO,PO,11:59,12:00,1,1,Morning,,1L,1,Yes,"Buy amount of €2,000",Ordering,0,0,0,0,0
+2026-08-31,Mon,33,OBS-09,2026-08-31 OBS-09,SEND,SEND,12:02,12:03,1,1,Morning,,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,34,OBS-10,2026-08-31 OBS-10,REQ-Exact,REQ,—,—,0,,Morning,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,35,OBS-10,2026-08-31 OBS-10,CLAR,CLAR,12:06,12:08,1,2,Morning,,1L,0,Yes,Credit-card action. This is a one-time purchase that is paid via credit card instead of the normal purchasing process. This case = 1 PC.,Ordering,0,0,0,0,0
+2026-08-31,Mon,36,OBS-11,2026-08-31 OBS-11,REQ-Exact,REQ,—,—,0,,Morning,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,37,OBS-11,2026-08-31 OBS-11,DEC,DEC,—,—,0,,Morning,,—,0,Yes,MAX attempt failed; initial outcome was HOLD / leave until tomorrow.,Ordering,0,0,0,0,0
+2026-08-31,Mon,38,OBS-11,2026-08-31 OBS-11,PO,PO,12:09,12:12,1,3,Morning,,—,0,Yes,MAX/PO episode. Initial decision was to leave it until tomorrow because the MAX attempt failed. About one minute later he returned and ordered it anyway; reason is unknown.,Ordering,0,0,0,0,0
+2026-08-31,Mon,39,OBS-11,2026-08-31 OBS-11,PO,PO,—,—,0,,Morning,,—,0,Yes,Returned approximately one minute later and ordered after the earlier HOLD intention. Exact resumption time and reason were not captured; retained as an untimed known resumption.,Ordering,0,0,0,0,0
+2026-08-31,Mon,40,OBS-12,2026-08-31 OBS-12,REQ-Exact,REQ,—,—,0,,Morning,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,41,OBS-12,2026-08-31 OBS-12,PO,PO,12:15,12:17,1,2,Morning,,1L,0,Yes,"1 line, purchase amount of €411",Ordering,0,0,0,0,0
+2026-08-31,Mon,42,OBS-12,2026-08-31 OBS-12,SEND,SEND,12:17,12:19,1,2,Morning,,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,43,OBS-13,2026-08-31 OBS-13,REQ-Exact,REQ,—,—,0,,Morning,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,44,OBS-13,2026-08-31 OBS-13,CLAR,CLAR,12:19,12:27,1,8,Morning,,—,0,,"Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left.",Ordering,0,0,0,0,0
+2026-08-31,Mon,45,OBS-12,2026-08-31 OBS-12,CHECK,CHECK,13:19,13:23,1,4,Afternoon,,1L,0,,Geen leverdatum,Monitoring,0,0,0,0,0
+2026-08-31,Mon,46,OBS-09,2026-08-31 OBS-09,CHECK,CHECK,13:23,13:24,1,1,Afternoon,,1L,0,,,Monitoring,0,0,0,0,0
+2026-08-31,Mon,47,OBS-14,2026-08-31 OBS-14,REQ-Exact,REQ,—,—,0,,Afternoon,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,48,OBS-14,2026-08-31 OBS-14,DEC,DEC,—,—,0,,Afternoon,,—,0,Yes,Credit card,Ordering,0,0,0,0,0
+2026-08-31,Mon,49,OBS-14,2026-08-31 OBS-14,SEND,SEND,13:25,13:26,1,1,Afternoon,,—,0,,Inform colleague,Ordering,0,0,0,0,0
+2026-08-31,Mon,50,OBS-15,2026-08-31 OBS-15,REQ-Exact,REQ,—,—,0,,Afternoon,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,51,OBS-15,2026-08-31 OBS-15,DEC,DEC,—,—,0,,Afternoon,,—,0,Yes,MAX,Ordering,0,0,0,0,0
+2026-08-31,Mon,52,OBS-15,2026-08-31 OBS-15,PO,PO,13:26,13:31,1,5,Afternoon,,16L,0,Yes,"MAX and PO occurred seamlessly: 12L original; 4L added; 16L total. Treat the 5 minutes as combined PO/MAX active time, not pure decision time.",Ordering,0,0,0,0,0
+2026-08-31,Mon,53,OBS-15,2026-08-31 OBS-15,SEND,SEND,13:33,13:34,1,1,Afternoon,,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,54,OBS-16,2026-08-31 OBS-16,REQ-Exact,REQ,—,—,0,,Afternoon,Exact,—,0,,,Ordering,0,0,0,0,0
+2026-08-31,Mon,55,OBS-16,2026-08-31 OBS-16,PO,PO,13:32,13:33,1,1,Afternoon,,4L,0,,Order amount: €422,Ordering,0,0,0,0,0
+2026-08-31,Mon,56,OBS-16,2026-08-31 OBS-16,SEND,SEND,13:34,13:35,1,1,Afternoon,,—,0,,Corrected from 13:33–13:35; original entry was a timing typo.,Ordering,0,0,0,0,0
+2026-08-31,Mon,57,OBS-17,2026-08-31 OBS-17,EXC,EXC,13:50,13:52,1,2,Afternoon,,—,0,,Aftercare of a PO from last week,(blank),1,0,0,1,0
+2026-08-31,Mon,58,OBS-01,2026-08-31 OBS-01,CLAR,CLAR,13:52,13:55,1,3,Afternoon,,—,0,,Call back to colleague. Primer-C case; two small portions of Primer-C.,Specification,0,0,0,0,0
+2026-08-31,Mon,59,OBS-01,2026-08-31 OBS-01,PO,PO,13:55,13:56,1,1,Afternoon,,—,0,,"Timing retained as originally recorded. OBS-16 CLAR starts at 13:56, so there is no remaining overlap.",Ordering,0,0,0,0,0
+2026-08-31,Mon,60,OBS-16,2026-08-31 OBS-16,REQ-call,REQ,—,—,0,,Afternoon,Phone,—,0,,,Monitoring,0,0,0,0,0
+2026-08-31,Mon,61,OBS-16,2026-08-31 OBS-16,CLAR,CLAR,13:56,14:02,1,6,Afternoon,,—,0,,Supplier call. There are old POs for which Finance has not paid. The supplier informed Arno that they therefore could not proceed with the OBS-16 order.,Monitoring,0,0,0,0,0
+2026-08-31,Mon,62,OBS-16,2026-08-31 OBS-16,OTHER,OTHER,14:02,14:04,1,2,Afternoon,,—,0,,Inform Finance,Follow-up and evaluation,0,0,0,0,0
+2026-08-31,Mon,63,OBS-07,2026-08-31 OBS-07,CLAR,CLAR,14:04,14:05,1,1,Afternoon,,—,0,,Clarification needed for item 3; waiting for response.,Ordering,0,0,0,0,0
+2026-09-01,Tue,1,OBS-01,2026-09-01 OBS-01,EXC,EXC,10:31,10:43,1,12,Morning,,—,0,—,"Prior-week PO aftercare. Delivered components were incorrect; drawing check and supplier communication required. Buyer briefly walked to ask a same-case question at 10:41 and returned at 10:42; this remains same-case active EXC work, not an interruption.",Follow-up and evaluation,1,0,0,0,0
+2026-09-01,Tue,2,OBS-02,2026-09-01 OBS-02,REQ,REQ,10:49,10:50,1,1,Morning,Desk,—,0,—,Desk request intake.,Ordering,0,0,0,0,0
+2026-09-01,Tue,3,OBS-02,2026-09-01 OBS-02,CLAR,CLAR,10:50,10:56,1,6,Morning,,—,0,—,MI-requester: clarify whether requested quantity meant 18 total or 2 × 18.,Ordering,0,0,0,0,0
+2026-09-01,Tue,4,OBS-02,2026-09-01 OBS-02,SEND,SEND,10:56,11:04,1,8,Morning,,—,0,—,Request visual clarification from requester/colleague.,Ordering,0,0,0,0,0
+2026-09-01,Tue,5,OBS-03,2026-09-01 OBS-03,EXC,EXC,11:05,11:08,1,3,Morning,,—,1,—,Wrong order received; interruption recorded before continuation.,Follow-up and evaluation,1,0,0,0,0
+2026-09-01,Tue,6,OBS-03,2026-09-01 OBS-03,EXC,EXC,11:09,11:11,1,2,Morning,,—,0,—,Continuation of wrong-order aftercare.,Follow-up and evaluation,1,0,0,0,0
+2026-09-01,Tue,7,OBS-04,2026-09-01 OBS-04,REQ,REQ,—,—,0,,Morning,Email,—,0,—,Request to cancel one component because of long lead time and source it elsewhere.,Specification,0,0,0,0,0
+2026-09-01,Tue,8,OBS-04,2026-09-01 OBS-04,SEND,SEND,11:11,11:14,1,3,Morning,,—,0,Y,J+EXP: buyer judged the item non-interchangeable based on experience and copied a colleague for confirmation.,Specification,0,0,0,0,0
+2026-09-01,Tue,9,OBS-05,2026-09-01 OBS-05,REQ,REQ,—,—,0,,Morning,Email,—,0,—,Email request intake; exact intake duration not recorded.,Ordering,0,0,0,0,0
+2026-09-01,Tue,10,OBS-05,2026-09-01 OBS-05,CLAR,CLAR,11:15,11:17,1,2,Morning,,—,0,Y,"Looked in Exact and determined that an email question was needed. Normalized from originally timed DEC; this is visible information work with embedded judgement, not pure decision time.",Ordering,0,0,0,0,0
+2026-09-01,Tue,11,OBS-05,2026-09-01 OBS-05,SEND,SEND,11:17,11:19,1,2,Morning,,—,0,—,Sent follow-up question by email.,Ordering,0,0,0,0,0
+2026-09-01,Tue,12,OBS-06,2026-09-01 OBS-06,CHECK,CHECK,11:19,11:21,1,2,Morning,,—,0,—,Purchasing-information check; exact check subtype not captured.,Monitoring,0,0,0,0,0
+2026-09-01,Tue,13,OBS-07,2026-09-01 OBS-07,SEND,SEND,11:21,11:22,1,1,Morning,,—,0,—,Internal purchasing communication forwarded to Finance.,Follow-up and evaluation,0,0,0,0,0
+2026-09-01,Tue,14,OBS-08,2026-09-01 OBS-08,EXC,EXC,11:22,11:24,1,2,Morning,,—,1,?,Exception/aftercare episode; subtype not captured reliably.,(blank),1,0,0,1,0
+2026-09-01,Tue,15,OBS-09,2026-09-01 OBS-09,REQ,REQ,—,—,0,,Morning,Phone,—,0,—,Phone question concerning an existing PO.,Monitoring,0,0,0,0,0
+2026-09-01,Tue,16,OBS-09,2026-09-01 OBS-09,EXC,EXC,11:24,11:26,1,2,Morning,,—,0,—,Delivery-time issue linked to an unpaid invoice.,Monitoring,1,0,0,0,0
+2026-09-01,Tue,17,OBS-10,2026-09-01 OBS-10,OTHER,OTHER,11:26,11:29,1,3,Morning,,—,0,—,Respond to a Finance question; exact process subtype not captured.,Follow-up and evaluation,0,0,0,0,0
+2026-09-01,Tue,18,OBS-11,2026-09-01 OBS-11,EXC,EXC,11:31,11:34,1,3,Morning,,—,0,—,Delivery-status tracing for 10 pieces of a component.,Monitoring,1,0,0,0,0
+2026-09-01,Tue,19,OBS-12,2026-09-01 OBS-12,REQ,REQ,—,—,0,,Morning,Email,—,0,—,Customer question reached Purchasing through Service.,Specification,0,0,0,0,0
+2026-09-01,Tue,20,OBS-12,2026-09-01 OBS-12,CLAR,CLAR,11:35,11:51,1,16,Morning,,—,0,—,MI + historical search: old PO lookup; several matching items; required size/information not supplied.,Specification,0,0,0,0,0
+2026-09-01,Tue,21,OBS-12,2026-09-01 OBS-12,SEND,SEND,11:51,11:54,1,3,Morning,,—,0,—,Request quotation / external information.,Specification,0,0,0,0,0
+2026-09-01,Tue,22,OBS-13,2026-09-01 OBS-13,CHECK,CHECK,11:55,11:56,1,1,Morning,,2L,0,—,Two-line purchasing check; commercial value omitted.,Monitoring,0,0,0,0,0
+2026-09-01,Tue,23,OBS-14,2026-09-01 OBS-14,CHECK,CHECK,11:56,11:57,1,1,Morning,,1L,0,—,One-line purchasing check; commercial value omitted.,Monitoring,0,0,0,0,0
+2026-09-01,Tue,24,OBS-15,2026-09-01 OBS-15,CHECK,CHECK,11:57,12:00,1,3,Morning,,3L,0,—,Three-line purchasing check.,Monitoring,0,0,0,0,0
+2026-09-01,Tue,25,OBS-16,2026-09-01 OBS-16,EXC,EXC,12:00,12:04,1,4,Morning,,4L,0,—,Respond to supplier question on an existing case.,(blank),1,0,0,1,0
+2026-09-01,Tue,26,OBS-17,2026-09-01 OBS-17,REQ,REQ,—,—,0,,Morning,Email,—,0,—,Request to add two new items to Exact.,(blank),0,0,0,1,0
+2026-09-01,Tue,27,OBS-17,2026-09-01 OBS-17,CLAR,CLAR,12:06,12:08,1,2,Morning,,—,1,—,Route/clarify ownership with purchasing manager; interruption recorded.,(blank),0,0,0,1,0
+2026-09-01,Tue,28,OBS-17,2026-09-01 OBS-17,SEND,SEND,12:08,12:09,1,1,Morning,,—,0,—,Forwarded the request.,(blank),0,0,0,1,0
+2026-09-01,Tue,29,OBS-18,2026-09-01 OBS-18,REQ,REQ,—,—,0,,Morning,Exact,—,0,—,Exact-originated case; partly processed before pre-control.,Ordering,0,0,0,0,0
+2026-09-01,Tue,30,OBS-18,2026-09-01 OBS-18,CHECK,CHECK,12:09,12:15,1,6,Morning,,4L,0,—,Pre-control: delivery time adjusted; price control could not be completed because of an unpaid-invoice issue. Supplier identity omitted.,Ordering,0,0,0,0,0
+2026-09-01,Tue,31,OBS-19,2026-09-01 OBS-19,EXC,EXC,12:15,12:20,1,5,Morning,,—,0,Y,Unavailable item: searched for an alternative and contacted manufacturer/supply source. J: choose next exception-handling route.,(blank),1,0,0,1,0
+2026-09-01,Tue,32,OBS-19,2026-09-01 OBS-19,EXC,EXC,12:22,12:25,1,3,Morning,,—,0,—,Supplier confirmation covered only part of the PO; follow-up call required.,Monitoring,1,0,0,0,0
+2026-09-01,Tue,33,31AUG-OBS-07,2026-09-01 31AUG-OBS-07,OTHER,OTHER,13:15,13:23,1,8,Afternoon,,—,0,—,Continuation of 31 August article-master work that could not be finished because required data were missing.,Ordering,0,0,0,0,0
+2026-09-01,Tue,34,OBS-20,2026-09-01 OBS-20,OTHER,OTHER,13:23,13:27,1,4,Afternoon,,—,0,—,Read purchasing-related email; exact case subtype not captured.,(blank),0,0,0,1,0
+2026-09-01,Tue,35,OBS-21,2026-09-01 OBS-21,EXC,EXC,13:27,13:29,1,2,Afternoon,,—,0,—,Supplier question originating from Sales. Start time corrected from prior transcription to remove overlap with OBS-20.,(blank),1,0,0,1,0
+2026-09-01,Tue,36,OBS-22,2026-09-01 OBS-22,PO,PO,13:29,13:50,1,21,Afternoon,,—,0,Y,Determine what needed to be ordered and create one PO. Combined order-processing episode; exact internal task split unsupported. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,37,OBS-23,2026-09-01 OBS-23,PO,PO,13:50,13:53,1,3,Afternoon,,—,0,—,One PO created. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,38,OBS-24,2026-09-01 OBS-24,PO,PO,13:53,13:54,1,1,Afternoon,,—,1,—,One PO created; interrupted by OBS-25 phone case and resumed at 13:55. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,39,OBS-25,2026-09-01 OBS-25,REQ,REQ,—,—,0,,Afternoon,Phone,—,0,—,Phone request concerning an existing PO.,Ordering,0,0,0,0,0
+2026-09-01,Tue,40,OBS-25,2026-09-01 OBS-25,PO,PO,13:54,13:55,1,1,Afternoon,,1L,0,Y,Adjust existing PO; judgement recorded in live notes. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,41,OBS-24,2026-09-01 OBS-24,PO,PO,13:55,13:57,1,2,Afternoon,,—,0,—,Resume and complete PO creation after OBS-25 interruption. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,42,OBS-26,2026-09-01 OBS-26,PO,PO,13:57,13:58,1,1,Afternoon,,—,0,—,One PO created. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,43,OBS-27,2026-09-01 OBS-27,PO,PO,13:58,14:03,1,5,Afternoon,,—,0,—,One PO created. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,44,OBS-28,2026-09-01 OBS-28,PO,PO,14:03,14:05,1,2,Afternoon,,—,0,—,One PO created. `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,45,OBS-23,2026-09-01 OBS-23,PO,PO,14:05,14:09,1,4,Afternoon,,—,0,Y,HOLD outcome observed. MAX check was not explicitly captured: `MAXOBS=?`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,46,OBS-24,2026-09-01 OBS-24,PO,PO,14:09,14:11,1,2,Afternoon,,—,0,Y,"`MAXOBS=Y; MAX=?; HOLD`. MAX occurred, but ADD/NONE result was not separately captured.",Ordering,0,0,0,0,0
+2026-09-01,Tue,47,OBS-26,2026-09-01 OBS-26,PO,PO,14:11,14:12,1,1,Afternoon,,—,0,Y,`MAXOBS=Y; MAX=?; HOLD`.,Ordering,0,0,0,0,0
+2026-09-01,Tue,48,OBS-29,2026-09-01 OBS-29,PO,PO,14:12,14:17,1,5,Afternoon,,7L,1,Y,`MAXOBS=Y; MAX=ADD; 5L original; +2L; 7L total`. Final ORD/HOLD outcome not captured. Interruption recorded; subtype not captured.,Ordering,0,0,0,0,0
+2026-09-01,Tue,49,OBS-27,2026-09-01 OBS-27,PO,PO,14:17,14:19,1,2,Afternoon,,27L,0,Y,`MAXOBS=Y; MAX=ADD; 23L original; +4L; HOLD`. Preserve as observed. This supports the clarified AS-IS rule that post-MAX HOLD/ORD is assessed whether or not demand was added; the specific HOLD cues were not captured.,Ordering,0,0,0,0,0
+2026-09-01,Tue,50,OBS-30,2026-09-01 OBS-30,PO,PO,14:20,14:21,1,1,Afternoon,,15L,0,Y,"`MAXOBS=Y; 8L original; 15L total; HOLD`. Recorded totals imply added demand, but the exact MAX result was not separately written; verify before coding `MAX=ADD`.",Ordering,0,0,0,0,0
+2026-09-08,Tue,1,OBS-01,2026-09-08 OBS-01,EXC,EXC,10:30,10:37,1,7,Morning,,/,/,1,There is something wrong with the order,Follow-up and evaluation,1,0,0,0,0
+2026-09-08,Tue,2,OBS-01,2026-09-08 OBS-01,SEND,SEND,10:37,10:39,1,2,Morning,,/,1,/,,Follow-up and evaluation,0,0,0,0,0
+2026-09-08,Tue,3,OBS-02,2026-09-08 OBS-02,EXC,EXC,10:39,10:41,1,2,Morning,,/,/,/,Finance unpaid.,Follow-up and evaluation,1,0,0,0,0
+2026-09-08,Tue,4,OBS-01,2026-09-08 OBS-01,SEND,SEND,10:41,10:42,1,1,Morning,,/,/,/,"Arno was drafting mail, coincidentally Johan walk through",Follow-up and evaluation,0,0,0,0,0
+2026-09-08,Tue,5,OBS-01,2026-09-08 OBS-01,OTHER,OTHER,10:42,10:46,1,4,Morning,,/,/,/,Discuss with Johan; no mail.,Follow-up and evaluation,0,0,0,0,0
+2026-09-08,Tue,6,OBS-01,2026-09-08 OBS-01,SEND,SEND,10:46,10:50,1,4,Morning,,/,/,/,cancellation attmept for component,Follow-up and evaluation,0,0,0,0,0
+2026-09-08,Tue,7,OBS-03,2026-09-08 OBS-03,REQ-mail,REQ,/,/,0,,Morning,Email,/,/,/,,Ordering,0,0,0,0,0
+2026-09-08,Tue,8,OBS-03,2026-09-08 OBS-03,CLAR,CLAR,10:51,10:53,1,2,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-08,Tue,9,OBS-03,2026-09-08 OBS-03,PO,PO,10:53,10:55,1,2,Morning,,1L,1,/,"See price 196 Euro, It is for transport",Ordering,0,0,0,0,0
+2026-09-08,Tue,10,OBS-04,2026-09-08 OBS-04,SEND,SEND,10:55,10:57,1,2,Morning,,/,/,/,"Send 1 mail to supplier, 1 to colleague; as following, they came pick up.",Not applicable,0,0,1,0,0
+2026-09-08,Tue,11,OBS-03,2026-09-08 OBS-03,SEND,SEND,10:57,10:59,1,2,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-08,Tue,12,OBS-05,2026-09-08 OBS-05,EXC,EXC,10:59,11:05,1,6,Morning,,/,/,/,Call supplier to ask when and why; forwarding to colleague.,(blank),1,0,0,1,0
+2026-09-08,Tue,13,OBS-06,2026-09-08 OBS-06,OTHER,OTHER,11:06,11:10,1,4,Morning,,/,/,1,Discussion with Dennis; decide to call Kayne .,(blank),0,0,0,1,0
+2026-09-08,Tue,14,OBS-06,2026-09-08 OBS-06,EXC,EXC,11:10,11:17,1,7,Morning,,/,/,/,"Kayne tell, to call Macro; so there is 2 calls happens here. Then from macro, Arno has to ask Rudi.",(blank),1,0,0,1,0
+2026-09-08,Tue,15,OBS-06,2026-09-08 OBS-06,SEND,SEND,11:17,11:18,1,1,Morning,,/,/,/,"Attempt to call Rudi; failed, so writing email.",(blank),0,0,0,1,0
+2026-09-08,Tue,16,OBS-01,2026-09-08 OBS-01,SEND,SEND,/,/,0,,Morning,,/,/,/,Allow cancellation and respond; remaining wording unclear.,Follow-up and evaluation,0,0,0,0,0
+2026-09-08,Tue,17,OBS-01,2026-09-08 OBS-01,PO,PO,11:18,11:22,1,4,Morning,,/,/,/,Adjust the corresponding PO.,Follow-up and evaluation,0,0,0,0,0
+2026-09-08,Tue,18,OBS-03,2026-09-08 OBS-03,OTHER,OTHER,11:22,11:23,1,1,Morning,,/,/,/,Organize.,Ordering,0,0,0,0,0
+2026-09-08,Tue,19,OBS-07,2026-09-08 OBS-07,EXC,EXC,11:23,11:25,1,2,Morning,,/,/,/,Binnenboeken.,Follow-up and evaluation,1,0,0,0,0
+2026-09-08,Tue,20,OBS-08,2026-09-08 OBS-08,REQ-letter,REQ,/,/,0,,Morning,Letter,/,/,/,,(blank),0,0,0,1,0
+2026-09-08,Tue,21,OBS-08,2026-09-08 OBS-08,CHECK,CHECK,11:25,11:28,1,3,Morning,,7L,/,/,"Price comparison; check first the physical quotation, then the website.",Ordering,0,0,0,0,0
+2026-09-08,Tue,22,OBS-08,2026-09-08 OBS-08,OTHER,OTHER,11:28,11:34,1,6,Morning,,/,/,1,Check fittings and decide to give Dennis.,Specification,0,0,0,0,0
+2026-09-08,Tue,23,OBS-09,2026-09-08 OBS-09,REQ-mail,REQ,/,/,0,,Morning,Email,/,/,/,A photo with requested component,Ordering,0,0,0,0,0
+2026-09-08,Tue,24,OBS-09,2026-09-08 OBS-09,CLAR,CLAR,11:34,11:36,1,2,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-08,Tue,25,OBS-09,2026-09-08 OBS-09,OTHER,OTHER,11:36,11:40,1,4,Morning,,/,/,/,Update it in Exact.,Ordering,0,0,0,0,0
+2026-09-08,Tue,26,OBS-10,2026-09-08 OBS-10,OTHER,OTHER,11:40,11:44,1,4,Morning,,/,/,/,Supplier not avaliable so Arno found a new one and ask Katja to add in exact. And than he update it in exact,Supplier selection,0,0,0,0,0
+2026-09-08,Tue,27,OBS-10,2026-09-08 OBS-10,PO,PO,11:44,11:46,1,2,Morning,,2L,/,/,,Ordering,0,0,0,0,0
+2026-09-08,Tue,28,OBS-10,2026-09-08 OBS-10,SEND,SEND,11:47,11:49,1,2,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-08,Tue,29,OBS-10,2026-09-08 OBS-10,OTHER,OTHER,11:49,11:50,1,1,Morning,,/,/,/,Remove that component from old PO,Ordering,0,0,0,0,0
+2026-09-08,Tue,30,OBS-11,2026-09-08 OBS-11,PO,PO,11:51,11:53,1,2,Morning,,/,/,/,Combine it to the existing PO.,Ordering,0,0,0,0,0
+2026-09-08,Tue,31,OBS-12,2026-09-08 OBS-12,PO,PO,11:55,11:58,1,3,Morning,,12L,/,/,Same as note above; 12L total when 4L added.,Ordering,0,0,0,0,0
+2026-09-08,Tue,32,OBS-13,2026-09-08 OBS-13,PO,PO,11:58,12:00,1,2,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-08,Tue,33,OBS-14,2026-09-08 OBS-14,PO,PO,12:00,12:02,1,2,Morning,,2L,/,/,PO generated.,Ordering,0,0,0,0,0
+2026-09-08,Tue,34,OBS-15,2026-09-08 OBS-15,PO,PO,12:02,12:04,1,2,Morning,,2L,/,/,PO generated.,Ordering,0,0,0,0,0
+2026-09-08,Tue,35,OBS-16,2026-09-08 OBS-16,PO,PO,12:04,12:06,1,2,Morning,,/,/,/,,(blank),0,1,0,1,0
+2026-09-08,Tue,36,OBS-16,2026-09-08 OBS-16,PO,PO,12:06,12:13,1,7,Morning,,/,/,/,,(blank),0,1,0,1,0
+2026-09-08,Tue,37,OBS-17,2026-09-08 OBS-17,PO,PO,12:14,12:15,1,1,Morning,,2L,/,/,1L added.,Ordering,0,0,0,0,0
+2026-09-08,Tue,38,OBS-18,2026-09-08 OBS-18,PO,PO,12:15,12:16,1,1,Morning,,/,1,/,Interrupted by Dennis.,Ordering,0,0,0,0,0
+2026-09-08,Tue,39,OBS-19,2026-09-08 OBS-19,EXC,EXC,12:16,12:19,1,3,Morning,,/,/,/,Answer Dennis.,Follow-up and evaluation,1,0,0,0,0
+2026-09-08,Tue,40,OBS-18,2026-09-08 OBS-18,PO,PO,12:19,12:20,1,1,Morning,,5L,/,/,3L added.,Ordering,0,0,0,0,0
+2026-09-08,Tue,41,OBS-20,2026-09-08 OBS-20,PO,PO,12:20,12:21,1,1,Morning,,5L,/,/,4L added.,Ordering,0,0,0,0,0
+2026-09-08,Tue,42,OBS-21,2026-09-08 OBS-21,PO,PO,12:21,12:23,1,2,Morning,,22L,/,/,4L added.,Ordering,0,0,0,0,0
+2026-09-18,Fri,1,OBS-01,2026-09-18 OBS-01,CHECK,CHECK,10:30,10:38,1,8,Morning,,32L,1,/,Activity had started before 10:30.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,2,OBS-02,2026-09-18 OBS-02,REQ-phone,REQ,/,/,0,,Morning,Phone,/,/,/,,Monitoring,0,0,0,0,0
+2026-09-18,Fri,3,OBS-02,2026-09-18 OBS-02,CLAR,CLAR,10:38,10:43,1,5,Morning,,/,/,/,"Price mismatch; Kayne requested information, not a purchase.",Monitoring,0,0,0,0,0
+2026-09-18,Fri,4,OBS-03,2026-09-18 OBS-03,REQ-phone,REQ,[crossed out],/,0,,Morning,Phone,/,/,/,,Follow-up and evaluation,0,0,0,0,0
+2026-09-18,Fri,5,OBS-03,2026-09-18 OBS-03,OTHER/EXC,EXC,10:43,10:46,1,3,Morning,,/,/,/,Supplier contact concerning finance and a delivery-date change due to an open invoice. Supplier recorded as Swagelock.,Follow-up and evaluation,1,0,0,0,0
+2026-09-18,Fri,6,OBS-01,2026-09-18 OBS-01,CHECK,CHECK,10:47,10:52,1,5,Morning,,32L,/,/,,Monitoring,0,0,0,0,0
+2026-09-18,Fri,7,OBS-01,2026-09-18 OBS-01,OTHER,OTHER,10:52,10:54,1,2,Morning,,/,/,/,Attach the file to Exact.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,8,OBS-01,2026-09-18 OBS-01,SEND,SEND,10:54,10:56,1,2,Morning,,/,/,/,Ask whether several items on the PO can be delivered sooner.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,9,OBS-01 (2026-08-31),2026-09-18 OBS-01 (2026-08-31),[uncertain],UNCLEAR,10:58,10:59,1,1,Morning,,/,/,/,Primer-C from the 31 August observation; see clarification below.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,10,OBS-04,2026-09-18 OBS-04,REQ-mail,REQ,/,/,0,,Morning,Email,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,11,OBS-04,2026-09-18 OBS-04,PO,PO,10:59,11:02,1,3,Morning,,/,/,1,Create a PO for six new Hytech-Pommec flags; see case note below.,Ordering,0,0,0,0,0
+2026-09-18,Fri,12,OBS-04,2026-09-18 OBS-04,SEND,SEND,/,/,0,,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,13,OBS-05,2026-09-18 OBS-05,REQ-mail,REQ,/,/,0,,Morning,Email,/,/,/,An item was unavailable.,Ordering,0,0,0,0,0
+2026-09-18,Fri,14,OBS-05,2026-09-18 OBS-05,CLAR,CLAR,11:05,11:06,1,1,Morning,,/,1,,,Ordering,0,0,0,0,0
+2026-09-18,Fri,15,OBS-06,2026-09-18 OBS-06,OTHER,OTHER,11:06,11:11,1,5,Morning,,/,/,/,Interrupted to handle certification information; see case note below.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,16,OBS-06,2026-09-18 OBS-06,SEND,SEND,[crossed out],/,0,,Morning,,/,/,/,Call noted as within one minute; no complete start/end times recorded.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,17,OBS-07,2026-09-18 OBS-07,CHECK,CHECK,11:11,11:15,1,4,Morning,,2L,/,/,Order for an article consisting of multiple components.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,18,OBS-08,2026-09-18 OBS-08,REQ-phone,REQ,/,/,0,,Morning,Phone,/,/,/,,Not applicable,0,0,1,0,0
+2026-09-18,Fri,19,OBS-08,2026-09-18 OBS-08,CLAR,CLAR,11:15,11:17,1,2,Morning,,/,/,/,The item should be in the warehouse. Arno would ask Maurice and call back.,Not applicable,0,0,1,0,0
+2026-09-18,Fri,20,OBS-08,2026-09-18 OBS-08,CLAR,CLAR,11:17,11:19,1,2,Morning,,/,/,/,"Call with Maurice: three pieces available, whereas the note states eight were required.",Not applicable,0,0,1,0,0
+2026-09-18,Fri,21,OBS-08,2026-09-18 OBS-08,CLAR,CLAR,11:19,11:20,1,1,Morning,,/,/,/,Forward the information.,Not applicable,0,0,1,0,0
+2026-09-18,Fri,22,OBS-08,2026-09-18 OBS-08,CLAR,CLAR,11:20,11:22,1,2,Morning,,/,/,/,Tell service to prepare three pieces for collection; see case note below.,Not applicable,0,0,1,0,0
+2026-09-18,Fri,23,OBS-02,2026-09-18 OBS-02,OTHER,OTHER,11:23,11:25,1,2,Morning,,/,/,/,Attach the order confirmation to the PO.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,24,OBS-05,2026-09-18 OBS-05,EXC,EXC,11:25,11:31,1,6,Morning,,[unclear: 12L?],/,/,Items unavailable; they could be dropped from the order. Further specification sent.,Ordering,1,0,0,0,0
+2026-09-18,Fri,25,OBS-09,2026-09-18 OBS-09,PO,PO,11:31,11:35,1,4,Morning,,2L,/,/,"Create an HSP order; two original lines plus the dropped OBS-05 item for another supplier, giving three lines in total.",Ordering,0,0,0,0,0
+2026-09-18,Fri,26,OBS-10,2026-09-18 OBS-10,REQ-exact,REQ,/,/,0,,Morning,Exact,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,27,OBS-10,2026-09-18 OBS-10,PO,PO,11:35,11:42,1,7,Morning,,7L,/,/,Prepare drawings to attach to the PO; write down which drawings are missing.,Ordering,0,0,0,0,0
+2026-09-18,Fri,28,OBS-10,2026-09-18 OBS-10,CLAR,CLAR,11:42,11:44,1,2,Morning,,/,/,/,Look for the relevant drawings and ask the engineer for them.,Ordering,0,0,0,0,0
+2026-09-18,Fri,29,OBS-11,2026-09-18 OBS-11,REQ-exact,REQ,/,/,0,,Morning,Exact,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,30,OBS-11,2026-09-18 OBS-11,PO,PO,11:46,11:48,1,2,Morning,,2L,/,/,One line added; further enquiry needed.,Ordering,0,0,0,0,0
+2026-09-18,Fri,31,OBS-11,2026-09-18 OBS-11,CLAR,CLAR,11:48,11:52,1,4,Morning,,/,/,/,Relevant person unavailable; ask other colleagues. Also discuss the OBS-10 drawing.,Ordering,0,0,0,0,0
+2026-09-18,Fri,32,OBS-13,2026-09-18 OBS-13,PO,PO,11:52,11:55,1,3,Morning,,3L,/,1,,Ordering,0,0,0,0,0
+2026-09-18,Fri,33,OBS-13,2026-09-18 OBS-13,SEND,SEND,11:56,11:58,1,2,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,34,OBS-09,2026-09-18 OBS-09,SEND,SEND,11:58,11:59,1,1,Morning,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,35,OBS-03,2026-09-18 OBS-03,EXC,EXC,11:59,12:01,1,2,Morning,,/,/,/,"Following an internal meeting, the supplier told Arno that the delay would not happen again.",Monitoring,1,0,0,0,0
+2026-09-18,Fri,36,OBS-03,2026-09-18 OBS-03,CHECK,CHECK,12:01,12:08,1,7,Morning,,5L,/,/,Post-order price check.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,37,OBS-09,2026-09-18 OBS-09,CHECK,CHECK,12:08,12:13,1,5,Morning,,3L,/,/,Post-order price check.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,38,OBS-11,2026-09-18 OBS-11,CHECK,CHECK,12:15,12:17,1,2,Morning,,3L,/,/,Post-order price check.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,39,OBS-12,2026-09-18 OBS-12,EXC,EXC,12:17,12:18,1,1,Morning,,/,/,/,Maurice asked what a received item was for; see clarification below.,Not applicable,1,0,1,0,0
+2026-09-18,Fri,40,OBS-10,2026-09-18 OBS-10,SEND,SEND,12:19,12:21,1,2,Morning,,/,/,/,Drawing received from the engineer.,Ordering,0,0,0,0,0
+2026-09-18,Fri,41,OBS-10,2026-09-18 OBS-10,CLAR,CLAR,12:21,12:25,1,4,Morning,,/,/,/,Final check that the drawing and its information were complete.,Ordering,0,0,0,0,0
+2026-09-18,Fri,42,OBS-14,2026-09-18 OBS-14,EXC,EXC,13:08,13:10,1,2,Afternoon,,/,/,/,Discuss when the goods would be collected.,Not applicable,1,0,1,0,0
+2026-09-18,Fri,43,OBS-15,2026-09-18 OBS-15,EXC,EXC,13:10,13:12,1,2,Afternoon,,/,/,/,Attach a certificate to the PO; the source also notes 18/09.,Follow-up and evaluation,1,0,0,0,0
+2026-09-18,Fri,44,OBS-16,2026-09-18 OBS-16,REQ-mail,REQ,/,/,0,,Afternoon,Email,/,/,/,Request for PO status.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,45,OBS-16,2026-09-18 OBS-16,EXC,EXC,13:12,13:17,1,5,Afternoon,,/,1,/,Arno checked the relevant POs and forwarded the information; three items involved.,Monitoring,1,0,0,0,0
+2026-09-18,Fri,46,OBS-17,2026-09-18 OBS-17,EXC,EXC,13:17,13:23,1,6,Afternoon,,/,/,/,Follow up on delivery and an incorrect component size; see clarification below.,Monitoring,1,0,0,0,0
+2026-09-18,Fri,47,OBS-18,2026-09-18 OBS-18,SEND,SEND,13:23,13:26,1,3,Afternoon,,/,/,/,Forward a PO approved by Johan.,Ordering,0,0,0,0,0
+2026-09-18,Fri,48,OBS-19,2026-09-18 OBS-19,CLAR,CLAR,13:27,13:37,1,10,Afternoon,,/,/,/,Look for a cheaper option for paper sheets; ask Raja Pak for a whole-pallet price.,Supplier selection,0,0,0,0,0
+2026-09-18,Fri,49,OBS-19,2026-09-18 OBS-19,SEND,SEND,/,/,0,,Afternoon,,/,/,/,,Supplier selection,0,0,0,0,0
+2026-09-18,Fri,50,OBS-20,2026-09-18 OBS-20,SEND,SEND,13:40,13:41,1,1,Afternoon,,/,/,/,PO approved by Johan.,Ordering,0,0,0,0,0
+2026-09-18,Fri,51,OBS-21,2026-09-18 OBS-21,REQ-exact,REQ,/,/,0,,Afternoon,Exact,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,52,OBS-21,2026-09-18 OBS-21,PO,PO,13:42,13:43,1,1,Afternoon,,27L,/,/,The source notes 24 original lines.,Ordering,0,0,0,0,0
+2026-09-18,Fri,53,OBS-21,2026-09-18 OBS-21,CLAR,CLAR,13:43,13:44,1,1,Afternoon,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,54,OBS-21,2026-09-18 OBS-21,PO,PO,13:44,13:45,1,1,Afternoon,,27L,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,55,OBS-21,2026-09-18 OBS-21,CLAR,CLAR,13:45,13:47,1,2,Afternoon,,27L,/,/,Check information for the items and write it down for later; waiting for fiatteren.,Ordering,0,0,0,0,0
+2026-09-18,Fri,56,OBS-21,2026-09-18 OBS-21,PO,PO,13:47,13:51,1,4,Afternoon,,29L,/,/,Another two lines added.,Ordering,0,0,0,0,0
+2026-09-18,Fri,57,OBS-22,2026-09-18 OBS-22,REQ-exact,REQ,/,/,0,,Afternoon,Exact,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,58,OBS-22,2026-09-18 OBS-22,PO,PO,13:51,13:52,1,1,Afternoon,,6L,/,/,Three original lines and three added; maximisatie.,Ordering,0,0,0,0,0
+2026-09-18,Fri,59,OBS-22,2026-09-18 OBS-22,SEND,SEND,13:56,13:58,1,2,Afternoon,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,60,OBS-23,2026-09-18 OBS-23,REQ-exact,REQ,/,/,0,,Afternoon,Exact,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,61,OBS-23,2026-09-18 OBS-23,PO,PO,13:52,13:53,1,1,Afternoon,,1L,/,/,"Attempted maximisatie of the PO, without success.",Ordering,0,0,0,0,0
+2026-09-18,Fri,62,OBS-23,2026-09-18 OBS-23,SEND,SEND,13:59,14:00,1,1,Afternoon,,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,63,OBS-24,2026-09-18 OBS-24,REQ-exact,REQ,[crossed out],/,0,,Afternoon,Exact,/,/,/,,Ordering,0,0,0,0,0
+2026-09-18,Fri,64,OBS-24,2026-09-18 OBS-24,PO,PO,13:54,13:56,1,2,Afternoon,,4L,/,/,"Attempted maximisatie of the PO, without success.",Ordering,0,0,0,0,0
+2026-09-18,Fri,65,OBS-25,2026-09-18 OBS-25,EXC,EXC,14:00,14:01,1,1,Afternoon,,/,/,/,,Follow-up and evaluation,1,0,0,0,0
+2026-09-18,Fri,66,OBS-21,2026-09-18 OBS-21,CHECK,CHECK,14:02,14:22,1,20,Afternoon,,29L,/,/,Pre-check; one mismatch was difficult to explain. The note names Kirby.,Ordering,0,0,0,0,0
+2026-09-18,Fri,67,OBS-21,2026-09-18 OBS-21,OTHER,OTHER,/,/,0,,Afternoon,,/,/,/,Johan's approval was needed again.,Ordering,0,0,0,0,0
+2026-09-18,Fri,68,OBS-26,2026-09-18 OBS-26,EXC,EXC,14:23,14:26,1,3,Afternoon,,/,/,/,Missing certificate.,Follow-up and evaluation,1,0,0,0,0
+2026-09-18,Fri,69,OBS-26,2026-09-18 OBS-26,EXC,EXC,14:26,14:34,1,8,Afternoon,,/,/,/,Forward and explain the issue to the project manager; call the supplier.,Follow-up and evaluation,1,0,0,0,0
+2026-09-18,Fri,70,OBS-27,2026-09-18 OBS-27,REQ-phone,REQ,/,/,0,,Afternoon,Phone,/,/,/,,Monitoring,0,0,0,0,0
+2026-09-18,Fri,71,OBS-27,2026-09-18 OBS-27,EXC,EXC,14:36,14:39,1,3,Afternoon,,/,/,/,Backorder; the note gives 23 September 2026.,Monitoring,1,0,0,0,0
+2026-09-18,Fri,72,OBS-28,2026-09-18 OBS-28,CLAR,CLAR,14:41,14:44,1,3,Afternoon,,/,/,/,Look for the relevant quotation.,(blank),0,0,0,1,0
+2026-09-18,Fri,73,OBS-29,2026-09-18 OBS-29,CHECK,CHECK,14:44,14:50,1,6,Afternoon,,/,/,1,Large price difference; see case note below.,Monitoring,0,0,0,0,0
+2026-09-18,Fri,74,OBS-29,2026-09-18 OBS-29,EXC,EXC,14:50,14:55,1,5,Afternoon,,/,/,/,Make screenshots of the €410 price difference and save them for the following week.,Monitoring,1,0,0,0,0
+2026-09-23,Wed,1,OBS-01,2026-09-23 OBS-01,PO,PO,11:03,11:06,1,3,Morning,,4L,/,/,Generate the PO and perform Verrichten.,Ordering,0,0,0,0,0
+2026-09-23,Wed,2,OBS-02,2026-09-23 OBS-02,PO,PO,11:06,11:10,1,4,Morning,,5L,/,/,Four lines added to an existing PO.,Ordering,0,0,0,0,0
+2026-09-23,Wed,3,OBS-03,2026-09-23 OBS-03,PO,PO,11:10,11:11,1,1,Morning,,2L,/,/,One line added to an existing PO.,Ordering,0,0,0,0,0
+2026-09-23,Wed,4,OBS-04,2026-09-23 OBS-04,PO,PO,11:11,11:14,1,3,Morning,,16L,1,/,Arno was asked a question but continued working. One line added to the original 15 lines.,Ordering,0,0,0,0,0
+2026-09-23,Wed,5,OBS-04,2026-09-23 OBS-04,PO,PO,11:14,11:15,1,1,Morning,,17L,/,/,One more line added.,Ordering,0,0,0,0,0
+2026-09-23,Wed,6,OBS-05,2026-09-23 OBS-05,PO,PO,11:15,11:17,1,2,Morning,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,7,OBS-05,2026-09-23 OBS-05,CLAR,CLAR,11:17,11:20,1,3,Morning,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,8,OBS-02,2026-09-23 OBS-02,PO,PO,11:20,11:23,1,3,Morning,,8L,/,/,Three lines added; additional handwritten text is unclear (TUB?).,Ordering,0,0,0,0,0
+2026-09-23,Wed,9,OBS-06,2026-09-23 OBS-06,REQ-phone,REQ,,/,0,,Morning,Phone,/,/,/,,(blank),0,0,0,1,0
+2026-09-23,Wed,10,OBS-06,2026-09-23 OBS-06,OTHER,OTHER,11:23,11:25,1,2,Morning,,/,/,/,A client asked Arno something concerning Dennis.,(blank),0,0,0,1,0
+2026-09-23,Wed,11,OBS-07,2026-09-23 OBS-07,REQ-phone,REQ,/,/,0,,Morning,Phone,/,/,/,,(blank),0,0,0,1,0
+2026-09-23,Wed,12,OBS-07,2026-09-23 OBS-07,EXC,EXC,11:25,11:33,1,8,Morning,,/,/,/,Germaine asked about a service order.,(blank),1,0,0,1,0
+2026-09-23,Wed,13,OBS-07,2026-09-23 OBS-07,EXC,EXC,11:34,11:36,1,2,Morning,,/,/,/,/,(blank),1,0,0,1,0
+2026-09-23,Wed,14,OBS-02,2026-09-23 OBS-02,PO,PO,11:36,11:37,1,1,Morning,,8L,/,/,Enter information on a website.,Ordering,0,0,0,0,0
+2026-09-23,Wed,15,OBS-02,2026-09-23 OBS-02,CHECK,CHECK,11:37,11:40,1,3,Morning,,8L,/,/,Pre-control.,Ordering,0,0,0,0,0
+2026-09-23,Wed,16,OBS-02,2026-09-23 OBS-02,SEND,SEND,11:40,11:41,1,1,Morning,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,17,OBS-07,2026-09-23 OBS-07,EXC,EXC,11:41,11:43,1,2,Morning,,/,/,/,Attempt to call Germaine.,(blank),1,0,0,1,1
+2026-09-23,Wed,18,OBS-03,2026-09-23 OBS-03,PO,PO,11:42,11:45,1,3,Morning,,7L,/,/,Five lines added.,Ordering,0,0,0,0,1
+2026-09-23,Wed,19,OBS-08,2026-09-23 OBS-08,REQ-mail,REQ,,/,0,,Morning,Email,/,/,/,,Ordering,0,0,0,0,0
+2026-09-23,Wed,20,OBS-08,2026-09-23 OBS-08,CLAR,CLAR,11:46,11:49,1,3,Morning,,/,/,/,Attempt to ask Germaine about something.,Ordering,0,0,0,0,0
+2026-09-23,Wed,21,OBS-09,2026-09-23 OBS-09,OTHER,OTHER,11:49,12:01,1,12,Morning,,/,/,/,Fault in Exact; attempt to resolve it.,Not applicable,0,0,1,0,0
+2026-09-23,Wed,22,OBS-08,2026-09-23 OBS-08,CLAR,CLAR,12:01,12:05,1,4,Morning,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,23,OBS-08,2026-09-23 OBS-08,PO,PO,12:05,12:06,1,1,Morning,,/,/,/,Service order.,Ordering,0,0,0,0,0
+2026-09-23,Wed,24,OBS-08,2026-09-23 OBS-08,SEND,SEND,/,/,0,,Morning,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,25,OBS-01,2026-09-23 OBS-01,SEND,SEND,12:09,12:10,1,1,Morning,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,26,OBS-03,2026-09-23 OBS-03,SEND,SEND,12:10,12:11,1,1,Morning,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,27,OBS-10,2026-09-23 OBS-10,EXC,EXC,12:13,12:15,1,2,Morning,,/,/,/,Check the RC transport order.,Monitoring,1,0,0,0,0
+2026-09-23,Wed,28,OBS-11,2026-09-23 OBS-11,REQ-mail,REQ,/,/,0,,Morning,Email,/,/,/,,(blank),0,0,0,1,0
+2026-09-23,Wed,29,OBS-11,2026-09-23 OBS-11,CLAR,CLAR,12:15,12:16,1,1,Morning,,/,/,/,/,(blank),0,0,0,1,0
+2026-09-23,Wed,30,OBS-10,2026-09-23 OBS-10,EXC,EXC,12:16,12:18,1,2,Morning,,/,/,/,Forward a colleague's information about whether delivery would take place as expected.,Monitoring,1,0,0,0,0
+2026-09-23,Wed,31,OBS-11,2026-09-23 OBS-11,CLAR,CLAR,12:18,12:21,1,3,Morning,,/,/,/,Pause for now.,(blank),0,0,0,1,0
+2026-09-23,Wed,32,OBS-12,2026-09-23 OBS-12,REQ-mail,REQ,/,/,0,,Morning,Email,/,/,/,,Ordering,0,0,0,0,0
+2026-09-23,Wed,33,OBS-12,2026-09-23 OBS-12,PO,PO,12:21,12:26,1,5,Morning,,2L,/,/,See the separate case note below.,Ordering,0,0,0,0,0
+2026-09-23,Wed,34,OBS-12,2026-09-23 OBS-12,CLAR,CLAR,12:26,12:31,1,5,Morning,,/,/,/,"Look for the relevant drawing; unable to find it, ask a colleague.",Ordering,0,0,0,0,0
+2026-09-23,Wed,35,OBS-13,2026-09-23 OBS-13,OTHER,OTHER,13:02,13:05,1,3,Afternoon,,/,/,/,Review an offer from Hydrasun and forward it to Kees.,(blank),0,0,0,1,0
+2026-09-23,Wed,36,OBS-12,2026-09-23 OBS-12,CLAR,CLAR,13:05,13:08,1,3,Afternoon,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,37,OBS-14,2026-09-23 OBS-14,REQ-mail,REQ,/,/,0,,Afternoon,Email,/,/,/,/,Specification,0,0,0,0,0
+2026-09-23,Wed,38,OBS-14,2026-09-23 OBS-14,CLAR,CLAR,13:08,13:13,1,5,Afternoon,,/,/,/,Look into the history of tubes following Emiel's request to order a tube.,Specification,0,0,0,0,0
+2026-09-23,Wed,39,OBS-14,2026-09-23 OBS-14,PO,PO,13:13,13:17,1,4,Afternoon,,5L,/,/,Four lines added.,Ordering,0,0,0,0,0
+2026-09-23,Wed,40,OBS-14,2026-09-23 OBS-14,CLAR,CLAR,13:17,13:18,1,1,Afternoon,,/,/,/,Ask Emiel for confirmation; see the tube specification note below.,Specification,0,0,0,0,0
+2026-09-23,Wed,41,OBS-14,2026-09-23 OBS-14,SEND,SEND,14:59,15:00,1,1,Afternoon,,/,/,/,Exact delay.,Ordering,0,0,0,0,0
+2026-09-23,Wed,42,OBS-12,2026-09-23 OBS-12,SEND,SEND,13:18,13:20,1,2,Afternoon,,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,43,OBS-15,2026-09-23 OBS-15,REQ-mail,REQ,/,/,0,,Afternoon,Email,/,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,44,OBS-07,2026-09-23 OBS-07,EXC,EXC,13:20,13:24,1,4,Afternoon,,/,/,/,Ask about the ETA and a payment issue; the source names Hytech.,(blank),1,0,0,1,0
+2026-09-23,Wed,45,OBS-15,2026-09-23 OBS-15,PO,PO,13:24,13:26,1,2,Afternoon,,1L,/,/,/,Ordering,0,0,0,0,0
+2026-09-23,Wed,46,OBS-15,2026-09-23 OBS-15,CHECK,CHECK,13:26,13:28,1,2,Afternoon,,/,/,/,,(blank),0,0,0,1,0
+2026-09-23,Wed,47,OBS-15,2026-09-23 OBS-15,OTHER,OTHER,13:28,13:30,1,2,Afternoon,,/,/,/,Walk to Emiel's desk to pass on information.,Ordering,0,0,0,0,0
+2026-09-23,Wed,48,OBS-15,2026-09-23 OBS-15,CLAR,CLAR,13:30,13:37,1,7,Afternoon,,/,/,/,,(blank),0,0,0,1,0
+2026-09-23,Wed,49,OBS-16,2026-09-23 OBS-16,REQ-desk,REQ,,/,0,,Afternoon,Desk,/,/,/,,Not applicable,0,0,1,0,0
+2026-09-23,Wed,50,OBS-16,2026-09-23 OBS-16,CLAR,CLAR,13:37,13:42,1,5,Afternoon,,/,/,/,,Not applicable,0,0,1,0,0
+2026-09-23,Wed,51,OBS-16,2026-09-23 OBS-16,EXC,EXC,13:42,14:24,1,42,Afternoon,,/,/,/,Arno left his desk to help Maurice locate a missing item that Logistics had already received and stored.,Not applicable,1,0,1,0,0
+2026-09-23,Wed,52,OBS-17,2026-09-23 OBS-17,EXC,EXC,14:24,14:26,1,2,Afternoon,,/,/,/,Germaine asked about an order.,(blank),1,0,0,1,0
+2026-09-23,Wed,53,OBS-17,2026-09-23 OBS-17,REQ-mail,REQ,,/,0,,Afternoon,Email,/,/,/,Create an item.,(blank),0,0,0,1,0
+2026-09-23,Wed,54,OBS-17,2026-09-23 OBS-17,CLAR,CLAR,14:40,14:47,1,7,Afternoon,,/,/,/,,(blank),0,0,0,1,0
+2026-09-23,Wed,55,OBS-18,2026-09-23 OBS-18,SEND,SEND,14:47,14:49,1,2,Afternoon,,/,/,/,/,Monitoring,0,0,0,0,0
+2026-09-23,Wed,56,OBS-18,2026-09-23 OBS-18,EXC,EXC,14:50,14:52,1,2,Afternoon,,/,/,/,Forward relevant information to the relevant stakeholders; see case note below.,Monitoring,1,0,0,0,0
+2026-09-23,Wed,57,OBS-19,2026-09-23 OBS-19,PO,PO,14:52,14:57,1,5,Afternoon,,14L,/,/,"Maximalisatie of an open PO for FPE Seals, originally 10L.",Ordering,0,0,0,0,0
+2026-09-23,Wed,58,OBS-19,2026-09-23 OBS-19,SEND,SEND,14:57,14:59,1,2,Afternoon,,/,/,/,/,Ordering,0,0,0,0,0
