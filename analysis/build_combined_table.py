@@ -27,7 +27,7 @@ LOST_FOCUS = ("2026-09-08", "OBS-16", 12 * 60 + 4, 12 * 60 + 13)
 FIELDS = [
     "date", "weekday", "row", "case", "case_ref", "activity_as_written",
     "family", "start", "end", "timed", "minutes", "daypart", "request_channel",
-    "volume", "int", "dec", "note", "stage", "flag_exc", "flag_lost_focus",
+    "volume", "int", "interruptions", "dec", "decision", "note", "stage", "flag_exc", "flag_lost_focus",
     "flag_stage_na", "flag_stage_blank", "overlap_minutes",
 ]
 
@@ -45,6 +45,24 @@ def family(code):
         if upper.startswith(name):
             return name
     return "UNCLEAR"
+
+
+def interruptions(value):
+    """INT as a number. A handwritten `/` means none (scope addendum, Recording marks)."""
+    value = value.strip()
+    if value in ("/", "—"):
+        return 0
+    return int(value) if value.isdigit() else ""
+
+
+def decision(value):
+    """DEC? as yes / no / uncertain / not recorded. `/` means none; a blank means the flag was not recorded."""
+    value = value.strip()
+    if value in ("Y", "Yes", "1"):
+        return "yes"
+    if value in ("/", "—"):
+        return "no"
+    return "uncertain" if value == "?" else "not recorded"
 
 
 def channel_from_code(code):
@@ -108,7 +126,9 @@ def load_session(date, weekday):
             "request_channel": channel,
             "volume": raw["Volume"],
             "int": raw["INT"],
+            "interruptions": interruptions(raw["INT"]),
             "dec": raw["DEC?"],
+            "decision": decision(raw["DEC?"]),
             "note": raw.get("Note") or raw.get("Result / short note") or "",
             "stage": stage or "(blank)",
             "flag_exc": int(fam == "EXC"),
