@@ -139,7 +139,7 @@ These corrections update documentation only. They preserve the approved research
 ### Still open, not blocking the Arno analysis
 
 - **EXC:** the scope rule is unchanged pending the supervisor discussion; the analysis will report results with and without EXC.
-- **Blank stages:** 50 baseline rows (50 non-EXC minutes) have no stage; they form an "unassigned" group in stage-level results.
+- **Blank stages:** 35 baseline rows have no stage: 22 non-EXC rows (50 minutes) and 13 EXC rows. With the 15 blank pilot rows this makes 50 blank rows in all six files. They form an "unassigned" group in stage-level results.
 - **Column names differ slightly** between the daily CSVs (`Activity` versus `Activity as written` on 8 September; `Note` versus `Result / short note` on 1 and 8 September). The content is equivalent; the analysis maps them.
 - **Dennis:** the 25 September session exists only as an observation note, with no daily CSV in the current format, and one timed session is not enough to test Arno's patterns.
 - **Protocols v1.1–v1.3** still say that company volume data "may" supplement observation. This is optional wording in versioned protocols and was left unchanged; no request for such data is planned.
