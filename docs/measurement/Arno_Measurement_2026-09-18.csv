@@ -1,0 +1,75 @@
+﻿Case,Activity,Start,End,Volume,INT,DEC?,Note,Van Weele stage
+OBS-01,CHECK,10:30,10:38,32L,1,/,Activity had started before 10:30.,Monitoring
+OBS-02,REQ-phone,/,/,/,/,/,,Monitoring
+OBS-02,CLAR,10:38,10:43,/,/,/,"Price mismatch; Kayne requested information, not a purchase.",Monitoring
+OBS-03,REQ-phone,[crossed out],/,/,/,/,,Follow-up and evaluation
+OBS-03,OTHER/EXC,10:43,10:46,/,/,/,Supplier contact concerning finance and a delivery-date change due to an open invoice. Supplier recorded as Swagelock.,Follow-up and evaluation
+OBS-01,CHECK,10:47,10:52,32L,/,/,,Monitoring
+OBS-01,OTHER,10:52,10:54,/,/,/,Attach the file to Exact.,Monitoring
+OBS-01,SEND,10:54,10:56,/,/,/,Ask whether several items on the PO can be delivered sooner.,Monitoring
+OBS-01 (2026-08-31),[uncertain],10:58,10:59,/,/,/,Primer-C from the 31 August observation; see clarification below.,
+OBS-04,REQ-mail,/,/,/,/,/,,Ordering
+OBS-04,PO,10:59,11:02,/,/,1,Create a PO for six new Hytech-Pommec flags; see case note below.,Ordering
+OBS-04,SEND,/,/,/,/,/,,Ordering
+OBS-05,REQ-mail,/,/,/,/,/,An item was unavailable.,Ordering
+OBS-05,CLAR,11:05,11:06,/,1,,,Ordering
+OBS-06,OTHER,11:06,11:11,/,/,/,Interrupted to handle certification information; see case note below.,Monitoring
+OBS-06,SEND,[crossed out],/,/,/,/,Call noted as within one minute; no complete start/end times recorded.,Monitoring
+OBS-07,CHECK,11:11,11:15,2L,/,/,Order for an article consisting of multiple components.,Monitoring
+OBS-08,REQ-phone,/,/,/,/,/,,Not applicable
+OBS-08,CLAR,11:15,11:17,/,/,/,The item should be in the warehouse. Arno would ask Maurice and call back.,Not applicable
+OBS-08,CLAR,11:17,11:19,/,/,/,"Call with Maurice: three pieces available, whereas the note states eight were required.",Not applicable
+OBS-08,CLAR,11:19,11:20,/,/,/,Forward the information.,Not applicable
+OBS-08,CLAR,11:20,11:22,/,/,/,Tell service to prepare three pieces for collection; see case note below.,Not applicable
+OBS-02,OTHER,11:23,11:25,/,/,/,Attach the order confirmation to the PO.,Monitoring
+OBS-05,EXC,11:25,11:31,[unclear: 12L?],/,/,Items unavailable; they could be dropped from the order. Further specification sent.,Ordering
+OBS-09,PO,11:31,11:35,2L,/,/,"Create an HSP order; two original lines plus the dropped OBS-05 item for another supplier, giving three lines in total.",Ordering
+OBS-10,REQ-exact,/,/,/,/,/,,Ordering
+OBS-10,PO,11:35,11:42,7L,/,/,Prepare drawings to attach to the PO; write down which drawings are missing.,Ordering
+OBS-10,CLAR,11:42,11:44,/,/,/,Look for the relevant drawings and ask the engineer for them.,Ordering
+OBS-11,REQ-exact,/,/,/,/,/,,Ordering
+OBS-11,PO,11:46,11:48,2L,/,/,One line added; further enquiry needed.,Ordering
+OBS-11,CLAR,11:48,11:52,/,/,/,Relevant person unavailable; ask other colleagues. Also discuss the OBS-10 drawing.,Ordering
+OBS-13,PO,11:52,11:55,3L,/,1,,Ordering
+OBS-13,SEND,11:56,11:58,/,/,/,,Ordering
+OBS-09,SEND,11:58,11:59,/,/,/,,Ordering
+OBS-03,EXC,11:59,12:01,/,/,/,"Following an internal meeting, the supplier told Arno that the delay would not happen again.",Monitoring
+OBS-03,CHECK,12:01,12:08,5L,/,/,Post-order price check.,Monitoring
+OBS-09,CHECK,12:08,12:13,3L,/,/,Post-order price check.,Monitoring
+OBS-11,CHECK,12:15,12:17,3L,/,/,Post-order price check.,Monitoring
+OBS-12,EXC,12:17,12:18,/,/,/,Maurice asked what a received item was for; see clarification below.,Not applicable
+OBS-10,SEND,12:19,12:21,/,/,/,Drawing received from the engineer.,Ordering
+OBS-10,CLAR,12:21,12:25,/,/,/,Final check that the drawing and its information were complete.,Ordering
+OBS-14,EXC,13:08,13:10,/,/,/,Discuss when the goods would be collected.,Not applicable
+OBS-15,EXC,13:10,13:12,/,/,/,Attach a certificate to the PO; the source also notes 18/09.,Follow-up and evaluation
+OBS-16,REQ-mail,/,/,/,/,/,Request for PO status.,Monitoring
+OBS-16,EXC,13:12,13:17,/,1,/,Arno checked the relevant POs and forwarded the information; three items involved.,Monitoring
+OBS-17,EXC,13:17,13:23,/,/,/,Follow up on delivery and an incorrect component size; see clarification below.,Monitoring
+OBS-18,SEND,13:23,13:26,/,/,/,Forward a PO approved by Johan.,Ordering
+OBS-19,CLAR,13:27,13:37,/,/,/,Look for a cheaper option for paper sheets; ask Raja Pak for a whole-pallet price.,Supplier selection
+OBS-19,SEND,/,/,/,/,/,,Supplier selection
+OBS-20,SEND,13:40,13:41,/,/,/,PO approved by Johan.,Ordering
+OBS-21,REQ-exact,/,/,/,/,/,,Ordering
+OBS-21,PO,13:42,13:43,27L,/,/,The source notes 24 original lines.,Ordering
+OBS-21,CLAR,13:43,13:44,/,/,/,,Ordering
+OBS-21,PO,13:44,13:45,27L,/,/,,Ordering
+OBS-21,CLAR,13:45,13:47,27L,/,/,Check information for the items and write it down for later; waiting for fiatteren.,Ordering
+OBS-21,PO,13:47,13:51,29L,/,/,Another two lines added.,Ordering
+OBS-22,REQ-exact,/,/,/,/,/,,Ordering
+OBS-22,PO,13:51,13:52,6L,/,/,Three original lines and three added; maximisatie.,Ordering
+OBS-22,SEND,13:56,13:58,/,/,/,,Ordering
+OBS-23,REQ-exact,/,/,/,/,/,,Ordering
+OBS-23,PO,13:52,13:53,1L,/,/,"Attempted maximisatie of the PO, without success.",Ordering
+OBS-23,SEND,13:59,14:00,/,/,/,,Ordering
+OBS-24,REQ-exact,[crossed out],/,/,/,/,,Ordering
+OBS-24,PO,13:54,13:56,4L,/,/,"Attempted maximisatie of the PO, without success.",Ordering
+OBS-25,EXC,14:00,14:01,/,/,/,,Follow-up and evaluation
+OBS-21,CHECK,14:02,14:22,29L,/,/,Pre-check; one mismatch was difficult to explain. The note names Kirby.,Ordering
+OBS-21,OTHER,/,/,/,/,/,Johan's approval was needed again.,Ordering
+OBS-26,EXC,14:23,14:26,/,/,/,Missing certificate.,
+OBS-26,EXC,14:26,14:34,/,/,/,Forward and explain the issue to the project manager; call the supplier.,
+OBS-27,REQ-phone,/,/,/,/,/,,Monitoring
+OBS-27,EXC,14:36,14:39,/,/,/,Backorder; the note gives 23 September 2026.,Monitoring
+OBS-28,CLAR,14:41,14:44,/,/,/,Look for the relevant quotation.,
+OBS-29,CHECK,14:44,14:50,/,/,1,Large price difference; see case note below.,Monitoring
+OBS-29,EXC,14:50,14:55,/,/,/,Make screenshots of the €410 price difference and save them for the following week.,Monitoring
