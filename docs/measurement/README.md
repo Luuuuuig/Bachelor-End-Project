@@ -60,7 +60,7 @@ The observer clarified that the supplier first asked Arno about a payment issue 
 
 Other 23 September clarifications are retained without forcing a stage: OBS-06 (rows 9–10) is a client call forwarded to Dennis about an order he was working on; OBS-11 (rows 28–29 and 31) tentatively concerns unsuccessful information search and a decision to return later; OBS-13 (row 35) forwards the Hydrasun offer to Kees, who requested something from that supplier, possibly a service order; OBS-17 (rows 52–54) remains unrecalled, with the item permitted to be assumed to support a sales or purchase order. These explanations do not establish a unique purchasing stage. All 58 rows retain their original eight fields, including timing and overlap evidence. This review changes neither scope rules nor historical workload totals.
 
-These simple exports are the current working format requested by the observer. The earlier enriched exports and Markdown enrichment sections retain historical interpretations and may differ. This publication does not update historical analysis totals, validate exposure, or change scope and timing rules.
+These simple exports are the current working format requested by the observer. The earlier enriched exports and Markdown enrichment sections retain historical interpretations and may differ. This publication does not update historical analysis totals or change scope and timing rules. Observation time is recorded separately in the time register.
 
 ## Scope update of 14 September
 

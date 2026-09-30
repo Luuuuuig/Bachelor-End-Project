@@ -1,5 +1,7 @@
 # Repository consistency check, 30 September 2026
 
+> **Current state (latest).** The analysis starts from all data in the five reviewed daily CSVs: 287 rows and 752 recorded minutes, with EXC (182 minutes) included as a separate group and nothing dropped beforehand (section 12). The research questions follow the submitted Plan of Work (five sub-questions). Confirmed net observation is 892 minutes. The EXC rule awaits the supervisor discussion, and Dennis has one timed session. Sections 1 to 11 are the dated log of how the repository got here; filtered totals in sections 9 to 11 (535, 452 and 41 minutes) are superseded.
+
 **Scope:** `main` at `37ea223` and the unmerged branch `claude/cool-keller-f5kanx`. The final Plan of Work (PDF dated 22 September 2026) is used as a reference only. This check changes no observation, enrichment or planning file. It records what agrees, what conflicts and what must be settled before the Measure data are analysed.
 
 ## 1. Verified as consistent

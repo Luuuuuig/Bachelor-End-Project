@@ -2,6 +2,8 @@
 
 Prepared 14 September 2026. Applies the scope decisions recorded on 10 September. The phase crosswalk and operational rules below are researcher implementation choices for review, not additional decisions attributed to the supervisor.
 
+**30 September analysis setup:** the analysis starts from all recorded data. EXC and the other exclusions below are kept as separate groups, not dropped, so results can be reported with or without them. Yijie will discuss with the supervisor whether excluding all EXC is justified. See the [measurement README](README.md#current-totals-from-the-reviewed-csvs).
+
 **30 September observer clarification:** Yijie applied the supervisor's instruction to retain simultaneous activities' full intervals following the 17 September meeting (see [Timing of simultaneous activities](#timing-of-simultaneous-activities)). The 25 September confirmation documented that existing practice; it was not the adoption date. No recorded interval or included total changes.
 
 **21 September classification addition:** The [stage-organized analytical activity list](../process/Purchasing_Activity_Framework_2026-09-21.md) is now the current reference for detailed activity assignments. This addition implements the framework-guided classification direction discussed on 17 September. It retains the original 14 September scope decisions and changes no live fields, timing rules, original observation rows or research questions.
