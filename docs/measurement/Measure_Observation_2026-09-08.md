@@ -18,6 +18,7 @@
 ### Transcription boundary
 
 - Slash marks are preserved as `/` and are not reinterpreted.
+- **Recording marks clarified 30 September 2026:** Yijie used a handwritten `/` to mean none, where the protocol asks for `—`. The marks are kept as written; the analysis reads them as none, so a `/` in INT means no interruption. See the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#recording-marks).
 - Activity labels such as `REQ-mail` and `REQ-letter` are preserved as written.
 - Blank note cells remain blank.
 - The source table adds no inferred MAX, HOLD/ORD, J/EXP, Task-ID or root-cause coding. Derived classifications appear in the enrichment section below.

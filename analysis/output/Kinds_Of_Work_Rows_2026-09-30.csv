@@ -1,0 +1,288 @@
+date,row,case,code,minutes,stage,kinds,kind_names,note
+2026-08-31,1,OBS-01,REQ,,Specification,K01;K09,Receive a request; Establish or judge the requirement,Item: Primer-C. Request received via physical letter. Two options: 20 ml for €18.53 or 1000 ml for €110. Need to ask which option is actually required.
+2026-08-31,2,OBS-01,CLAR,10,Specification,K09,Establish or judge the requirement,
+2026-08-31,3,OBS-02,REQ-mail,,Ordering,K01,Receive a request,
+2026-08-31,4,OBS-02,PO,2,Ordering,K02,Create or complete a PO for a need,
+2026-08-31,5,OBS-02,SEND,5,Ordering,K05;K26,Send or forward the PO; Exact error or delay,Error Exact
+2026-08-31,6,OBS-03,REQ-mail,,Ordering,K01,Receive a request,
+2026-08-31,7,OBS-03,CLAR,,Ordering,,,"Forward; instantaneous/tally occurrence, not a timed episode."
+2026-08-31,8,OBS-04,REQ-mail,,Ordering,K01,Receive a request,New article to old PO
+2026-08-31,9,OBS-04,CHECK,1,Ordering,K04,Check before ordering,1L checked
+2026-08-31,10,OBS-04,PO,2,Ordering,K02,Create or complete a PO for a need,1L added
+2026-08-31,11,OBS-04,CHECK,4,Ordering,K04,Check before ordering,2L checked
+2026-08-31,12,OBS-04,SEND,,Ordering,K05,Send or forward the PO,Genuine sub-minute SEND action after the CHECK/PO/CHECK block. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals.
+2026-08-31,13,OBS-05,CHECK,3,Monitoring,K17,Check a supplier confirmation,
+2026-08-31,14,OBS-05,EXC,,Monitoring,K21,Aftercare on a delivered order,Sub-minute exception/aftercare action immediately after the CHECK. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals.
+2026-08-31,15,OBS-06,REQ-mail,,Ordering,K01,Receive a request,
+2026-08-31,16,OBS-06,CLAR,1,(blank),K25,Service or transport purchase,"Onderhoud, so it is service"
+2026-08-31,17,OBS-06,PO,4,Ordering,K25,Service or transport purchase,
+2026-08-31,18,OBS-06,SEND,3,Ordering,K05,Send or forward the PO,SEND was completed at 11:11. Observation was unavailable from 11:11–11:17 after the SEND episode had ended; therefore this is not an interruption of OBS-06 SEND and INT remains 0.
+2026-08-31,19,OBS-07,REQ-email,,Ordering,K01;K12,Receive a request; Article or supplier data in Exact,Request: article input in Exact
+2026-08-31,20,OBS-07,CLAR,2,Ordering,K12,Article or supplier data in Exact,Write up information
+2026-08-31,21,OBS-07,OTHER,4,Ordering,K12,Article or supplier data in Exact,Input to Exact
+2026-08-31,22,OBS-07,SEND,,Ordering,K12,Article or supplier data in Exact,Asking price? Instantaneous/tally occurrence; exact duration not measured because it happens in 30 seonds
+2026-08-31,23,OBS-07,OTHER,2,Ordering,K12,Article or supplier data in Exact,Attached info to article
+2026-08-31,24,OBS-07,OTHER,2,Ordering,K12,Article or supplier data in Exact,Attached info to article
+2026-08-31,25,OBS-07,CLAR,2,Ordering,K12,Article or supplier data in Exact,2nd item that needs be inputted; asking question
+2026-08-31,26,OBS-07,CLAR,4,Ordering,K12,Article or supplier data in Exact,"2nd item, different comp."
+2026-08-31,27,OBS-04,EXC,2,(blank),K21,Aftercare on a delivered order,aftercare
+2026-08-31,28,OBS-08,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,29,OBS-08,PO,1,Ordering,K02,Create or complete a PO for a need,Buy order amount of €900
+2026-08-31,30,OBS-08,SEND,1,Ordering,K05,Send or forward the PO,
+2026-08-31,31,OBS-09,REQ-email,,Ordering,K01,Receive a request,
+2026-08-31,32,OBS-09,PO,1,Ordering,K02,Create or complete a PO for a need,"Buy amount of €2,000"
+2026-08-31,33,OBS-09,SEND,1,Ordering,K05,Send or forward the PO,
+2026-08-31,34,OBS-10,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,35,OBS-10,CLAR,2,Ordering,K06,Credit-card purchase,Credit-card action. This is a one-time purchase that is paid via credit card instead of the normal purchasing process. This case = 1 PC.
+2026-08-31,36,OBS-11,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,37,OBS-11,DEC,,Ordering,K03,Maximalisatie and HOLD/order decision,MAX attempt failed; initial outcome was HOLD / leave until tomorrow.
+2026-08-31,38,OBS-11,PO,3,Ordering,K03,Maximalisatie and HOLD/order decision,MAX/PO episode. Initial decision was to leave it until tomorrow because the MAX attempt failed. About one minute later he returned and ordered it anyway; reason is unknown.
+2026-08-31,39,OBS-11,PO,,Ordering,K03,Maximalisatie and HOLD/order decision,Returned approximately one minute later and ordered after the earlier HOLD intention. Exact resumption time and reason were not captured; retained as an untimed known resumption.
+2026-08-31,40,OBS-12,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,41,OBS-12,PO,2,Ordering,K02,Create or complete a PO for a need,"1 line, purchase amount of €411"
+2026-08-31,42,OBS-12,SEND,2,Ordering,K05,Send or forward the PO,
+2026-08-31,43,OBS-13,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,44,OBS-13,CLAR,8,Ordering,K08,Clarify missing or unclear request information,"Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left."
+2026-08-31,45,OBS-12,CHECK,4,Monitoring,K17,Check a supplier confirmation,Geen leverdatum
+2026-08-31,46,OBS-09,CHECK,1,Monitoring,K17,Check a supplier confirmation,
+2026-08-31,47,OBS-14,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,48,OBS-14,DEC,,Ordering,K06,Credit-card purchase,Credit card
+2026-08-31,49,OBS-14,SEND,1,Ordering,K06,Credit-card purchase,Inform colleague
+2026-08-31,50,OBS-15,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,51,OBS-15,DEC,,Ordering,K03,Maximalisatie and HOLD/order decision,MAX
+2026-08-31,52,OBS-15,PO,5,Ordering,K03,Maximalisatie and HOLD/order decision,"MAX and PO occurred seamlessly: 12L original; 4L added; 16L total. Treat the 5 minutes as combined PO/MAX active time, not pure decision time."
+2026-08-31,53,OBS-15,SEND,1,Ordering,K05,Send or forward the PO,
+2026-08-31,54,OBS-16,REQ-Exact,,Ordering,K01,Receive a request,
+2026-08-31,55,OBS-16,PO,1,Ordering,K02,Create or complete a PO for a need,Order amount: €422
+2026-08-31,56,OBS-16,SEND,1,Ordering,K05,Send or forward the PO,Corrected from 13:33–13:35; original entry was a timing typo.
+2026-08-31,57,OBS-17,EXC,2,(blank),K21,Aftercare on a delivered order,Aftercare of a PO from last week
+2026-08-31,58,OBS-01,CLAR,3,Specification,K09,Establish or judge the requirement,Call back to colleague. Primer-C case; two small portions of Primer-C.
+2026-08-31,59,OBS-01,PO,1,Ordering,K02,Create or complete a PO for a need,"Timing retained as originally recorded. OBS-16 CLAR starts at 13:56, so there is no remaining overlap."
+2026-08-31,60,OBS-16,REQ-call,,Monitoring,K01;K20,Receive a request; Finance-related issue,
+2026-08-31,61,OBS-16,CLAR,6,Monitoring,K20,Finance-related issue,Supplier call. There are old POs for which Finance has not paid. The supplier informed Arno that they therefore could not proceed with the OBS-16 order.
+2026-08-31,62,OBS-16,OTHER,2,Follow-up and evaluation,K20,Finance-related issue,Inform Finance
+2026-08-31,63,OBS-07,CLAR,1,Ordering,K12,Article or supplier data in Exact,Clarification needed for item 3; waiting for response.
+2026-09-01,1,OBS-01,EXC,12,Follow-up and evaluation,K21,Aftercare on a delivered order,"Prior-week PO aftercare. Delivered components were incorrect; drawing check and supplier communication required. Buyer briefly walked to ask a same-case question at 10:41 and returned at 10:42; this remains same-case active EXC work, not an interruption."
+2026-09-01,2,OBS-02,REQ,1,Ordering,K01,Receive a request,Desk request intake.
+2026-09-01,3,OBS-02,CLAR,6,Ordering,K08,Clarify missing or unclear request information,MI-requester: clarify whether requested quantity meant 18 total or 2 × 18.
+2026-09-01,4,OBS-02,SEND,8,Ordering,K08,Clarify missing or unclear request information,Request visual clarification from requester/colleague.
+2026-09-01,5,OBS-03,EXC,3,Follow-up and evaluation,K21,Aftercare on a delivered order,Wrong order received; interruption recorded before continuation.
+2026-09-01,6,OBS-03,EXC,2,Follow-up and evaluation,K21,Aftercare on a delivered order,Continuation of wrong-order aftercare.
+2026-09-01,7,OBS-04,REQ,,Specification,K01;K16,Receive a request; Cancel a component or order line,Request to cancel one component because of long lead time and source it elsewhere.
+2026-09-01,8,OBS-04,SEND,3,Specification,K09;K16,Establish or judge the requirement; Cancel a component or order line,J+EXP: buyer judged the item non-interchangeable based on experience and copied a colleague for confirmation.
+2026-09-01,9,OBS-05,REQ,,Ordering,K01,Receive a request,Email request intake; exact intake duration not recorded.
+2026-09-01,10,OBS-05,CLAR,2,Ordering,K08,Clarify missing or unclear request information,"Looked in Exact and determined that an email question was needed. Normalized from originally timed DEC; this is visible information work with embedded judgement, not pure decision time."
+2026-09-01,11,OBS-05,SEND,2,Ordering,K08,Clarify missing or unclear request information,Sent follow-up question by email.
+2026-09-01,12,OBS-06,CHECK,2,Monitoring,K17,Check a supplier confirmation,Purchasing-information check; exact check subtype not captured.
+2026-09-01,13,OBS-07,SEND,1,Follow-up and evaluation,K20,Finance-related issue,Internal purchasing communication forwarded to Finance.
+2026-09-01,14,OBS-08,EXC,2,(blank),K21,Aftercare on a delivered order,Exception/aftercare episode; subtype not captured reliably.
+2026-09-01,15,OBS-09,REQ,,Monitoring,K01;K19,Receive a request; Follow up order status or delivery,Phone question concerning an existing PO.
+2026-09-01,16,OBS-09,EXC,2,Monitoring,K20;K19,Finance-related issue; Follow up order status or delivery,Delivery-time issue linked to an unpaid invoice.
+2026-09-01,17,OBS-10,OTHER,3,Follow-up and evaluation,K20,Finance-related issue,Respond to a Finance question; exact process subtype not captured.
+2026-09-01,18,OBS-11,EXC,3,Monitoring,K19,Follow up order status or delivery,Delivery-status tracing for 10 pieces of a component.
+2026-09-01,19,OBS-12,REQ,,Specification,K01;K29,"Receive a request; Question from a customer, Sales or Service",Customer question reached Purchasing through Service.
+2026-09-01,20,OBS-12,CLAR,16,Specification,K10,Search historical POs or records,MI + historical search: old PO lookup; several matching items; required size/information not supplied.
+2026-09-01,21,OBS-12,SEND,3,Specification,K28,Quotation or offer handling,Request quotation / external information.
+2026-09-01,22,OBS-13,CHECK,1,Monitoring,K17,Check a supplier confirmation,Two-line purchasing check; commercial value omitted.
+2026-09-01,23,OBS-14,CHECK,1,Monitoring,K17,Check a supplier confirmation,One-line purchasing check; commercial value omitted.
+2026-09-01,24,OBS-15,CHECK,3,Monitoring,K17,Check a supplier confirmation,Three-line purchasing check.
+2026-09-01,25,OBS-16,EXC,4,(blank),K19,Follow up order status or delivery,Respond to supplier question on an existing case.
+2026-09-01,26,OBS-17,REQ,,(blank),K01;K12,Receive a request; Article or supplier data in Exact,Request to add two new items to Exact.
+2026-09-01,27,OBS-17,CLAR,2,(blank),K12,Article or supplier data in Exact,Route/clarify ownership with purchasing manager; interruption recorded.
+2026-09-01,28,OBS-17,SEND,1,(blank),K12,Article or supplier data in Exact,Forwarded the request.
+2026-09-01,29,OBS-18,REQ,,Ordering,K01,Receive a request,Exact-originated case; partly processed before pre-control.
+2026-09-01,30,OBS-18,CHECK,6,Ordering,K04;K20,Check before ordering; Finance-related issue,Pre-control: delivery time adjusted; price control could not be completed because of an unpaid-invoice issue. Supplier identity omitted.
+2026-09-01,31,OBS-19,EXC,5,(blank),K14;K13,Handle an unavailable item; Search for another supplier or better price,Unavailable item: searched for an alternative and contacted manufacturer/supply source. J: choose next exception-handling route.
+2026-09-01,32,OBS-19,EXC,3,Monitoring,K19,Follow up order status or delivery,Supplier confirmation covered only part of the PO; follow-up call required.
+2026-09-01,33,31AUG-OBS-07,OTHER,8,Ordering,K12,Article or supplier data in Exact,Continuation of 31 August article-master work that could not be finished because required data were missing.
+2026-09-01,34,OBS-20,OTHER,4,(blank),K27,Read or organise purchasing email,Read purchasing-related email; exact case subtype not captured.
+2026-09-01,35,OBS-21,EXC,2,(blank),K29,"Question from a customer, Sales or Service",Supplier question originating from Sales. Start time corrected from prior transcription to remove overlap with OBS-20.
+2026-09-01,36,OBS-22,PO,21,Ordering,K02,Create or complete a PO for a need,Determine what needed to be ordered and create one PO. Combined order-processing episode; exact internal task split unsupported. `MAXOBS=?`.
+2026-09-01,37,OBS-23,PO,3,Ordering,K02,Create or complete a PO for a need,One PO created. `MAXOBS=?`.
+2026-09-01,38,OBS-24,PO,1,Ordering,K02,Create or complete a PO for a need,One PO created; interrupted by OBS-25 phone case and resumed at 13:55. `MAXOBS=?`.
+2026-09-01,39,OBS-25,REQ,,Ordering,K01;K15,Receive a request; Adjust an existing PO on request,Phone request concerning an existing PO.
+2026-09-01,40,OBS-25,PO,1,Ordering,K15,Adjust an existing PO on request,Adjust existing PO; judgement recorded in live notes. `MAXOBS=?`.
+2026-09-01,41,OBS-24,PO,2,Ordering,K02,Create or complete a PO for a need,Resume and complete PO creation after OBS-25 interruption. `MAXOBS=?`.
+2026-09-01,42,OBS-26,PO,1,Ordering,K02,Create or complete a PO for a need,One PO created. `MAXOBS=?`.
+2026-09-01,43,OBS-27,PO,5,Ordering,K02,Create or complete a PO for a need,One PO created. `MAXOBS=?`.
+2026-09-01,44,OBS-28,PO,2,Ordering,K02,Create or complete a PO for a need,One PO created. `MAXOBS=?`.
+2026-09-01,45,OBS-23,PO,4,Ordering,K03,Maximalisatie and HOLD/order decision,HOLD outcome observed. MAX check was not explicitly captured: `MAXOBS=?`.
+2026-09-01,46,OBS-24,PO,2,Ordering,K03,Maximalisatie and HOLD/order decision,"`MAXOBS=Y; MAX=?; HOLD`. MAX occurred, but ADD/NONE result was not separately captured."
+2026-09-01,47,OBS-26,PO,1,Ordering,K03,Maximalisatie and HOLD/order decision,`MAXOBS=Y; MAX=?; HOLD`.
+2026-09-01,48,OBS-29,PO,5,Ordering,K03,Maximalisatie and HOLD/order decision,`MAXOBS=Y; MAX=ADD; 5L original; +2L; 7L total`. Final ORD/HOLD outcome not captured. Interruption recorded; subtype not captured.
+2026-09-01,49,OBS-27,PO,2,Ordering,K03,Maximalisatie and HOLD/order decision,`MAXOBS=Y; MAX=ADD; 23L original; +4L; HOLD`. Preserve as observed. This supports the clarified AS-IS rule that post-MAX HOLD/ORD is assessed whether or not demand was added; the specific HOLD cues were not captured.
+2026-09-01,50,OBS-30,PO,1,Ordering,K03,Maximalisatie and HOLD/order decision,"`MAXOBS=Y; 8L original; 15L total; HOLD`. Recorded totals imply added demand, but the exact MAX result was not separately written; verify before coding `MAX=ADD`."
+2026-09-08,1,OBS-01,EXC,7,Follow-up and evaluation,K21,Aftercare on a delivered order,There is something wrong with the order
+2026-09-08,2,OBS-01,SEND,2,Follow-up and evaluation,K21,Aftercare on a delivered order,
+2026-09-08,3,OBS-02,EXC,2,Follow-up and evaluation,K20,Finance-related issue,Finance unpaid.
+2026-09-08,4,OBS-01,SEND,1,Follow-up and evaluation,K16,Cancel a component or order line,"Arno was drafting mail, coincidentally Johan walk through"
+2026-09-08,5,OBS-01,OTHER,4,Follow-up and evaluation,K16,Cancel a component or order line,Discuss with Johan; no mail.
+2026-09-08,6,OBS-01,SEND,4,Follow-up and evaluation,K16,Cancel a component or order line,cancellation attmept for component
+2026-09-08,7,OBS-03,REQ-mail,,Ordering,K01,Receive a request,
+2026-09-08,8,OBS-03,CLAR,2,Ordering,,,
+2026-09-08,9,OBS-03,PO,2,Ordering,K25,Service or transport purchase,"See price 196 Euro, It is for transport"
+2026-09-08,10,OBS-04,SEND,2,Not applicable,K23,Logistics coordination,"Send 1 mail to supplier, 1 to colleague; as following, they came pick up."
+2026-09-08,11,OBS-03,SEND,2,Ordering,K05,Send or forward the PO,
+2026-09-08,12,OBS-05,EXC,6,(blank),K19,Follow up order status or delivery,Call supplier to ask when and why; forwarding to colleague.
+2026-09-08,13,OBS-06,OTHER,4,(blank),K24,Internal coordination with colleagues,Discussion with Dennis; decide to call Kayne .
+2026-09-08,14,OBS-06,EXC,7,(blank),K24,Internal coordination with colleagues,"Kayne tell, to call Macro; so there is 2 calls happens here. Then from macro, Arno has to ask Rudi."
+2026-09-08,15,OBS-06,SEND,1,(blank),K24,Internal coordination with colleagues,"Attempt to call Rudi; failed, so writing email."
+2026-09-08,16,OBS-01,SEND,,Follow-up and evaluation,K16,Cancel a component or order line,Allow cancellation and respond; remaining wording unclear.
+2026-09-08,17,OBS-01,PO,4,Follow-up and evaluation,K16,Cancel a component or order line,Adjust the corresponding PO.
+2026-09-08,18,OBS-03,OTHER,1,Ordering,K02,Create or complete a PO for a need,Organize.
+2026-09-08,19,OBS-07,EXC,2,Follow-up and evaluation,K30,Administrative booking in Exact,Binnenboeken.
+2026-09-08,20,OBS-08,REQ-letter,,(blank),K01,Receive a request,
+2026-09-08,21,OBS-08,CHECK,3,Ordering,K04,Check before ordering,"Price comparison; check first the physical quotation, then the website."
+2026-09-08,22,OBS-08,OTHER,6,Specification,K09;K24,Establish or judge the requirement; Internal coordination with colleagues,Check fittings and decide to give Dennis.
+2026-09-08,23,OBS-09,REQ-mail,,Ordering,K01,Receive a request,A photo with requested component
+2026-09-08,24,OBS-09,CLAR,2,Ordering,,,
+2026-09-08,25,OBS-09,OTHER,4,Ordering,K12,Article or supplier data in Exact,Update it in Exact.
+2026-09-08,26,OBS-10,OTHER,4,Supplier selection,K14;K13;K12,Handle an unavailable item; Search for another supplier or better price; Article or supplier data in Exact,Supplier not avaliable so Arno found a new one and ask Katja to add in exact. And than he update it in exact
+2026-09-08,27,OBS-10,PO,2,Ordering,K02,Create or complete a PO for a need,
+2026-09-08,28,OBS-10,SEND,2,Ordering,K05,Send or forward the PO,
+2026-09-08,29,OBS-10,OTHER,1,Ordering,K14,Handle an unavailable item,Remove that component from old PO
+2026-09-08,30,OBS-11,PO,2,Ordering,K03,Maximalisatie and HOLD/order decision,Combine it to the existing PO.
+2026-09-08,31,OBS-12,PO,3,Ordering,K03,Maximalisatie and HOLD/order decision,Same as note above; 12L total when 4L added.
+2026-09-08,32,OBS-13,PO,2,Ordering,K02,Create or complete a PO for a need,
+2026-09-08,33,OBS-14,PO,2,Ordering,K02,Create or complete a PO for a need,PO generated.
+2026-09-08,34,OBS-15,PO,2,Ordering,K02,Create or complete a PO for a need,PO generated.
+2026-09-08,35,OBS-16,PO,2,(blank),K02,Create or complete a PO for a need,
+2026-09-08,36,OBS-16,PO,7,(blank),K02,Create or complete a PO for a need,
+2026-09-08,37,OBS-17,PO,1,Ordering,K02,Create or complete a PO for a need,1L added.
+2026-09-08,38,OBS-18,PO,1,Ordering,K02,Create or complete a PO for a need,Interrupted by Dennis.
+2026-09-08,39,OBS-19,EXC,3,Follow-up and evaluation,K24,Internal coordination with colleagues,Answer Dennis.
+2026-09-08,40,OBS-18,PO,1,Ordering,K02,Create or complete a PO for a need,3L added.
+2026-09-08,41,OBS-20,PO,1,Ordering,K02,Create or complete a PO for a need,4L added.
+2026-09-08,42,OBS-21,PO,2,Ordering,K02,Create or complete a PO for a need,4L added.
+2026-09-18,1,OBS-01,CHECK,8,Monitoring,K17,Check a supplier confirmation,Activity had started before 10:30.
+2026-09-18,2,OBS-02,REQ-phone,,Monitoring,K01,Receive a request,
+2026-09-18,3,OBS-02,CLAR,5,Monitoring,K18,Investigate a price discrepancy,"Price mismatch; Kayne requested information, not a purchase."
+2026-09-18,4,OBS-03,REQ-phone,,Follow-up and evaluation,K01,Receive a request,
+2026-09-18,5,OBS-03,OTHER/EXC,3,Follow-up and evaluation,K20;K19,Finance-related issue; Follow up order status or delivery,Supplier contact concerning finance and a delivery-date change due to an open invoice. Supplier recorded as Swagelock.
+2026-09-18,6,OBS-01,CHECK,5,Monitoring,K17,Check a supplier confirmation,
+2026-09-18,7,OBS-01,OTHER,2,Monitoring,K17,Check a supplier confirmation,Attach the file to Exact.
+2026-09-18,8,OBS-01,SEND,2,Monitoring,K19,Follow up order status or delivery,Ask whether several items on the PO can be delivered sooner.
+2026-09-18,9,OBS-01 (2026-08-31),[uncertain],1,Monitoring,,,Primer-C from the 31 August observation; see clarification below.
+2026-09-18,10,OBS-04,REQ-mail,,Ordering,K01,Receive a request,
+2026-09-18,11,OBS-04,PO,3,Ordering,K02,Create or complete a PO for a need,Create a PO for six new Hytech-Pommec flags; see case note below.
+2026-09-18,12,OBS-04,SEND,,Ordering,K05,Send or forward the PO,
+2026-09-18,13,OBS-05,REQ-mail,,Ordering,K01;K14,Receive a request; Handle an unavailable item,An item was unavailable.
+2026-09-18,14,OBS-05,CLAR,1,Ordering,K14,Handle an unavailable item,
+2026-09-18,15,OBS-06,OTHER,5,Monitoring,K22,Certification arrangements,Interrupted to handle certification information; see case note below.
+2026-09-18,16,OBS-06,SEND,,Monitoring,K22,Certification arrangements,Call noted as within one minute; no complete start/end times recorded.
+2026-09-18,17,OBS-07,CHECK,4,Monitoring,K17,Check a supplier confirmation,Order for an article consisting of multiple components.
+2026-09-18,18,OBS-08,REQ-phone,,Not applicable,K01;K23,Receive a request; Logistics coordination,
+2026-09-18,19,OBS-08,CLAR,2,Not applicable,K23,Logistics coordination,The item should be in the warehouse. Arno would ask Maurice and call back.
+2026-09-18,20,OBS-08,CLAR,2,Not applicable,K23,Logistics coordination,"Call with Maurice: three pieces available, whereas the note states eight were required."
+2026-09-18,21,OBS-08,CLAR,1,Not applicable,K23,Logistics coordination,Forward the information.
+2026-09-18,22,OBS-08,CLAR,2,Not applicable,K23,Logistics coordination,Tell service to prepare three pieces for collection; see case note below.
+2026-09-18,23,OBS-02,OTHER,2,Monitoring,K17,Check a supplier confirmation,Attach the order confirmation to the PO.
+2026-09-18,24,OBS-05,EXC,6,Ordering,K14,Handle an unavailable item,Items unavailable; they could be dropped from the order. Further specification sent.
+2026-09-18,25,OBS-09,PO,4,Ordering,K02;K14,Create or complete a PO for a need; Handle an unavailable item,"Create an HSP order; two original lines plus the dropped OBS-05 item for another supplier, giving three lines in total."
+2026-09-18,26,OBS-10,REQ-exact,,Ordering,K01,Receive a request,
+2026-09-18,27,OBS-10,PO,7,Ordering,K11;K02,Retrieve or complete drawings; Create or complete a PO for a need,Prepare drawings to attach to the PO; write down which drawings are missing.
+2026-09-18,28,OBS-10,CLAR,2,Ordering,K11,Retrieve or complete drawings,Look for the relevant drawings and ask the engineer for them.
+2026-09-18,29,OBS-11,REQ-exact,,Ordering,K01,Receive a request,
+2026-09-18,30,OBS-11,PO,2,Ordering,K02,Create or complete a PO for a need,One line added; further enquiry needed.
+2026-09-18,31,OBS-11,CLAR,4,Ordering,K08;K11,Clarify missing or unclear request information; Retrieve or complete drawings,Relevant person unavailable; ask other colleagues. Also discuss the OBS-10 drawing.
+2026-09-18,32,OBS-13,PO,3,Ordering,K02,Create or complete a PO for a need,
+2026-09-18,33,OBS-13,SEND,2,Ordering,K05,Send or forward the PO,
+2026-09-18,34,OBS-09,SEND,1,Ordering,K05,Send or forward the PO,
+2026-09-18,35,OBS-03,EXC,2,Monitoring,K19,Follow up order status or delivery,"Following an internal meeting, the supplier told Arno that the delay would not happen again."
+2026-09-18,36,OBS-03,CHECK,7,Monitoring,K17,Check a supplier confirmation,Post-order price check.
+2026-09-18,37,OBS-09,CHECK,5,Monitoring,K17,Check a supplier confirmation,Post-order price check.
+2026-09-18,38,OBS-11,CHECK,2,Monitoring,K17,Check a supplier confirmation,Post-order price check.
+2026-09-18,39,OBS-12,EXC,1,Not applicable,K23,Logistics coordination,Maurice asked what a received item was for; see clarification below.
+2026-09-18,40,OBS-10,SEND,2,Ordering,K11,Retrieve or complete drawings,Drawing received from the engineer.
+2026-09-18,41,OBS-10,CLAR,4,Ordering,K11,Retrieve or complete drawings,Final check that the drawing and its information were complete.
+2026-09-18,42,OBS-14,EXC,2,Not applicable,K23,Logistics coordination,Discuss when the goods would be collected.
+2026-09-18,43,OBS-15,EXC,2,Follow-up and evaluation,K31,Missing or attached certificate,Attach a certificate to the PO; the source also notes 18/09.
+2026-09-18,44,OBS-16,REQ-mail,,Monitoring,K01;K19,Receive a request; Follow up order status or delivery,Request for PO status.
+2026-09-18,45,OBS-16,EXC,5,Monitoring,K19,Follow up order status or delivery,Arno checked the relevant POs and forwarded the information; three items involved.
+2026-09-18,46,OBS-17,EXC,6,Monitoring,K19;K21,Follow up order status or delivery; Aftercare on a delivered order,Follow up on delivery and an incorrect component size; see clarification below.
+2026-09-18,47,OBS-18,SEND,3,Ordering,K05;K07,Send or forward the PO; Approval-related handling,Forward a PO approved by Johan.
+2026-09-18,48,OBS-19,CLAR,10,Supplier selection,K13,Search for another supplier or better price,Look for a cheaper option for paper sheets; ask Raja Pak for a whole-pallet price.
+2026-09-18,49,OBS-19,SEND,,Supplier selection,K13,Search for another supplier or better price,
+2026-09-18,50,OBS-20,SEND,1,Ordering,K05;K07,Send or forward the PO; Approval-related handling,PO approved by Johan.
+2026-09-18,51,OBS-21,REQ-exact,,Ordering,K01,Receive a request,
+2026-09-18,52,OBS-21,PO,1,Ordering,K02,Create or complete a PO for a need,The source notes 24 original lines.
+2026-09-18,53,OBS-21,CLAR,1,Ordering,,,
+2026-09-18,54,OBS-21,PO,1,Ordering,K02,Create or complete a PO for a need,
+2026-09-18,55,OBS-21,CLAR,2,Ordering,K07,Approval-related handling,Check information for the items and write it down for later; waiting for fiatteren.
+2026-09-18,56,OBS-21,PO,4,Ordering,K02,Create or complete a PO for a need,Another two lines added.
+2026-09-18,57,OBS-22,REQ-exact,,Ordering,K01,Receive a request,
+2026-09-18,58,OBS-22,PO,1,Ordering,K03,Maximalisatie and HOLD/order decision,Three original lines and three added; maximisatie.
+2026-09-18,59,OBS-22,SEND,2,Ordering,K05,Send or forward the PO,
+2026-09-18,60,OBS-23,REQ-exact,,Ordering,K01,Receive a request,
+2026-09-18,61,OBS-23,PO,1,Ordering,K03,Maximalisatie and HOLD/order decision,"Attempted maximisatie of the PO, without success."
+2026-09-18,62,OBS-23,SEND,1,Ordering,K05,Send or forward the PO,
+2026-09-18,63,OBS-24,REQ-exact,,Ordering,K01,Receive a request,
+2026-09-18,64,OBS-24,PO,2,Ordering,K03,Maximalisatie and HOLD/order decision,"Attempted maximisatie of the PO, without success."
+2026-09-18,65,OBS-25,EXC,1,Follow-up and evaluation,K21,Aftercare on a delivered order,
+2026-09-18,66,OBS-21,CHECK,20,Ordering,K04,Check before ordering,Pre-check; one mismatch was difficult to explain. The note names Kirby.
+2026-09-18,67,OBS-21,OTHER,,Ordering,K07,Approval-related handling,Johan's approval was needed again.
+2026-09-18,68,OBS-26,EXC,3,Follow-up and evaluation,K31,Missing or attached certificate,Missing certificate.
+2026-09-18,69,OBS-26,EXC,8,Follow-up and evaluation,K31,Missing or attached certificate,Forward and explain the issue to the project manager; call the supplier.
+2026-09-18,70,OBS-27,REQ-phone,,Monitoring,K01;K19,Receive a request; Follow up order status or delivery,
+2026-09-18,71,OBS-27,EXC,3,Monitoring,K19,Follow up order status or delivery,Backorder; the note gives 23 September 2026.
+2026-09-18,72,OBS-28,CLAR,3,(blank),K28,Quotation or offer handling,Look for the relevant quotation.
+2026-09-18,73,OBS-29,CHECK,6,Monitoring,K18,Investigate a price discrepancy,Large price difference; see case note below.
+2026-09-18,74,OBS-29,EXC,5,Monitoring,K18,Investigate a price discrepancy,Make screenshots of the €410 price difference and save them for the following week.
+2026-09-23,1,OBS-01,PO,3,Ordering,K02,Create or complete a PO for a need,Generate the PO and perform Verrichten.
+2026-09-23,2,OBS-02,PO,4,Ordering,K02,Create or complete a PO for a need,Four lines added to an existing PO.
+2026-09-23,3,OBS-03,PO,1,Ordering,K02,Create or complete a PO for a need,One line added to an existing PO.
+2026-09-23,4,OBS-04,PO,3,Ordering,K02,Create or complete a PO for a need,Arno was asked a question but continued working. One line added to the original 15 lines.
+2026-09-23,5,OBS-04,PO,1,Ordering,K02,Create or complete a PO for a need,One more line added.
+2026-09-23,6,OBS-05,PO,2,Ordering,K02,Create or complete a PO for a need,/
+2026-09-23,7,OBS-05,CLAR,3,Ordering,,,/
+2026-09-23,8,OBS-02,PO,3,Ordering,K02,Create or complete a PO for a need,Three lines added; additional handwritten text is unclear (TUB?).
+2026-09-23,9,OBS-06,REQ-phone,,(blank),K01,Receive a request,
+2026-09-23,10,OBS-06,OTHER,2,(blank),K29,"Question from a customer, Sales or Service",A client asked Arno something concerning Dennis.
+2026-09-23,11,OBS-07,REQ-phone,,(blank),K01,Receive a request,
+2026-09-23,12,OBS-07,EXC,8,(blank),K19,Follow up order status or delivery,Germaine asked about a service order.
+2026-09-23,13,OBS-07,EXC,2,(blank),K19,Follow up order status or delivery,/
+2026-09-23,14,OBS-02,PO,1,Ordering,K02,Create or complete a PO for a need,Enter information on a website.
+2026-09-23,15,OBS-02,CHECK,3,Ordering,K04,Check before ordering,Pre-control.
+2026-09-23,16,OBS-02,SEND,1,Ordering,K05,Send or forward the PO,/
+2026-09-23,17,OBS-07,EXC,2,(blank),K19,Follow up order status or delivery,Attempt to call Germaine.
+2026-09-23,18,OBS-03,PO,3,Ordering,K02,Create or complete a PO for a need,Five lines added.
+2026-09-23,19,OBS-08,REQ-mail,,Ordering,K01,Receive a request,
+2026-09-23,20,OBS-08,CLAR,3,Ordering,K25,Service or transport purchase,Attempt to ask Germaine about something.
+2026-09-23,21,OBS-09,OTHER,12,Not applicable,K26,Exact error or delay,Fault in Exact; attempt to resolve it.
+2026-09-23,22,OBS-08,CLAR,4,Ordering,K25,Service or transport purchase,/
+2026-09-23,23,OBS-08,PO,1,Ordering,K25,Service or transport purchase,Service order.
+2026-09-23,24,OBS-08,SEND,,Ordering,K25,Service or transport purchase,/
+2026-09-23,25,OBS-01,SEND,1,Ordering,K05,Send or forward the PO,/
+2026-09-23,26,OBS-03,SEND,1,Ordering,K05,Send or forward the PO,/
+2026-09-23,27,OBS-10,EXC,2,Monitoring,K23,Logistics coordination,Check the RC transport order.
+2026-09-23,28,OBS-11,REQ-mail,,(blank),K01,Receive a request,
+2026-09-23,29,OBS-11,CLAR,1,(blank),,,/
+2026-09-23,30,OBS-10,EXC,2,Monitoring,K23,Logistics coordination,Forward a colleague's information about whether delivery would take place as expected.
+2026-09-23,31,OBS-11,CLAR,3,(blank),,,Pause for now.
+2026-09-23,32,OBS-12,REQ-mail,,Ordering,K01,Receive a request,
+2026-09-23,33,OBS-12,PO,5,Ordering,K03,Maximalisatie and HOLD/order decision,See the separate case note below.
+2026-09-23,34,OBS-12,CLAR,5,Ordering,K11,Retrieve or complete drawings,"Look for the relevant drawing; unable to find it, ask a colleague."
+2026-09-23,35,OBS-13,OTHER,3,(blank),K28,Quotation or offer handling,Review an offer from Hydrasun and forward it to Kees.
+2026-09-23,36,OBS-12,CLAR,3,Ordering,,,/
+2026-09-23,37,OBS-14,REQ-mail,,Specification,K01,Receive a request,/
+2026-09-23,38,OBS-14,CLAR,5,Specification,K10,Search historical POs or records,Look into the history of tubes following Emiel's request to order a tube.
+2026-09-23,39,OBS-14,PO,4,Ordering,K02,Create or complete a PO for a need,Four lines added.
+2026-09-23,40,OBS-14,CLAR,1,Specification,K09,Establish or judge the requirement,Ask Emiel for confirmation; see the tube specification note below.
+2026-09-23,41,OBS-14,SEND,1,Ordering,K05,Send or forward the PO,Exact delay.
+2026-09-23,42,OBS-12,SEND,2,Ordering,K05,Send or forward the PO,/
+2026-09-23,43,OBS-15,REQ-mail,,Ordering,K01,Receive a request,/
+2026-09-23,44,OBS-07,EXC,4,(blank),K19;K20,Follow up order status or delivery; Finance-related issue,Ask about the ETA and a payment issue; the source names Hytech.
+2026-09-23,45,OBS-15,PO,2,Ordering,K02,Create or complete a PO for a need,/
+2026-09-23,46,OBS-15,CHECK,2,(blank),,,
+2026-09-23,47,OBS-15,OTHER,2,Ordering,K24,Internal coordination with colleagues,Walk to Emiel's desk to pass on information.
+2026-09-23,48,OBS-15,CLAR,7,(blank),,,
+2026-09-23,49,OBS-16,REQ-desk,,Not applicable,K01,Receive a request,
+2026-09-23,50,OBS-16,CLAR,5,Not applicable,,,
+2026-09-23,51,OBS-16,EXC,42,Not applicable,K23,Logistics coordination,Arno left his desk to help Maurice locate a missing item that Logistics had already received and stored.
+2026-09-23,52,OBS-17,EXC,2,(blank),K19,Follow up order status or delivery,Germaine asked about an order.
+2026-09-23,53,OBS-17,REQ-mail,,(blank),K01;K12,Receive a request; Article or supplier data in Exact,Create an item.
+2026-09-23,54,OBS-17,CLAR,7,(blank),K12,Article or supplier data in Exact,
+2026-09-23,55,OBS-18,SEND,2,Monitoring,K23,Logistics coordination,/
+2026-09-23,56,OBS-18,EXC,2,Monitoring,K23,Logistics coordination,Forward relevant information to the relevant stakeholders; see case note below.
+2026-09-23,57,OBS-19,PO,5,Ordering,K03,Maximalisatie and HOLD/order decision,"Maximalisatie of an open PO for FPE Seals, originally 10L."
+2026-09-23,58,OBS-19,SEND,2,Ordering,K05,Send or forward the PO,/

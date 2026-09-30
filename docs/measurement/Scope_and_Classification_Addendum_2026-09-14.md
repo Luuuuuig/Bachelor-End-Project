@@ -6,6 +6,8 @@ Prepared 14 September 2026. Applies the scope decisions recorded on 10 September
 
 **30 September observer clarification:** Yijie applied the supervisor's instruction to retain simultaneous activities' full intervals following the 17 September meeting (see [Timing of simultaneous activities](#timing-of-simultaneous-activities)). The 25 September confirmation documented that existing practice; it was not the adoption date. No recorded interval or included total changes.
 
+**30 September recording-mark clarification:** a handwritten `/` in the observation sheets means none. See [Recording marks](#recording-marks).
+
 **21 September classification addition:** The [stage-organized analytical activity list](../process/Purchasing_Activity_Framework_2026-09-21.md) is now the current reference for detailed activity assignments. This addition implements the framework-guided classification direction discussed on 17 September. It retains the original 14 September scope decisions and changes no live fields, timing rules, original observation rows or research questions.
 
 ## Scope
@@ -67,6 +69,20 @@ An `UNKNOWN` stage or unresolved analytical activity does not itself exclude rel
 **Comparability.** The 28 August pilot and the 31 August, 1, 8 and 18 September sessions contain no overlapping recorded intervals, so their totals are identical under both rules. The only overlap so far is one minute on 23 September (11:42–11:43, OBS-07 EXC and OBS-03 PO). The 1 September OBS-21 correction removed an overlap caused by a transcription error and is unaffected.
 
 The interruption, tally and non-fabrication rules are unchanged.
+
+### Recording marks
+
+**Observer clarification, 30 September 2026.** The protocol asks for `—` when a field has nothing to record. In practice Yijie always wrote a handwritten `/` for this, so **`/` means none**. The `/` marks stay as written in the notes and CSVs; the analysis reads them as follows:
+
+| Field | A `/` means |
+|---|---|
+| INT | no interruption (0) |
+| DEC? | no decision marked (the same as `—`) |
+| Volume | no line count recorded |
+| Start and End | no clock time: an untimed tally, not a zero-minute episode |
+| Note | no note |
+
+Blank cells are not the same as `/`. Blank `DEC?` cells on 31 August mean the flag was not recorded, as that day's note states; other blank cells stay missing. Neither a `/` nor a blank supplies a duration.
 
 ## Measures and denominators
 

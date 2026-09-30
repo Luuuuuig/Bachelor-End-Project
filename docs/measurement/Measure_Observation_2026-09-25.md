@@ -11,6 +11,8 @@
 
 The tables retain the source row order, case IDs, times, volumes, interruption fields and decision fields, with confirmed corrections applied. `/` and `—` reproduce the respective source marks; blank cells remain blank. Neither a slash nor a blank is converted to zero. Superseded handwritten entries are omitted. Coding choices made after the session are explained below. The headings do not establish net observed or active handling time; the final recorded episode ends at 14:36.
 
+**Recording marks clarified 30 September 2026:** Yijie used a handwritten `/` to mean none, where the protocol asks for `—`. The marks are kept as written; the analysis reads them as none, so a `/` in INT means no interruption; slash-marked durations remain untimed and blank cells are still not converted. See the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#recording-marks).
+
 ## Morning observations
 
 | Case | Activity | Start | End | Volume | INT | DEC? | Note |

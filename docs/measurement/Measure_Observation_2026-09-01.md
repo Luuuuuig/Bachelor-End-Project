@@ -144,6 +144,12 @@ Only context supported by the notes is asserted. `Unknown` is used rather than i
 - A colleague interruption occurred near the end of the block, but the exact active-case boundary was not captured clearly enough to assign another INT value. No interruption is inferred after the fact.
 - No overlapping active-time rows remain after the OBS-21 transcription correction.
 
+### Observer clarification, 30 September 2026
+
+- **OBS-18 CHECK, 12:09–12:15:** this was a check before the order was sent (pre-control), so its stage stays Ordering. The supplier information stated the components' ETA, so Arno updated the ETA in Exact as part of the check. The price part could not be completed because of the unpaid-invoice issue. The raw row above is unchanged.
+- **What a check covers:** a price check also includes updating the ETA in Exact to the date the supplier states. This is a regular part of checking a supplier confirmation after ordering. In a check before ordering it happens only when the supplier states the ETA; some suppliers do, others do not.
+- **Minutes per line:** because the price part was blocked, OBS-18 is an incomplete check. It counts in CHECK time and frequency, but not in the minutes-per-line figure, which uses completed checks only.
+
 ---
 
 # 4. Post-session enrichment

@@ -130,6 +130,8 @@ The retained notebook headings span 196 clock minutes, while the morning row end
 
 **Observation time confirmed 30 September 2026:** Yijie confirmed that the morning block ran until 12:31, that the other blocks were 13:00–14:26 and 14:40–15:00 with no other breaks, and that Yijie followed Arno throughout 13:42–14:24. Net observation is 197 minutes; see the [observation-time review](Observation_Time_Review_2026-09-25.md). The session headings and source rows above remain as written.
 
+**Recording marks clarified 30 September 2026:** Yijie used a handwritten `/` to mean none, where the protocol asks for `—`. The marks are kept as written; the analysis reads them as none, so a `/` in INT means no interruption. See the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#recording-marks).
+
 The service-order case remains under scope review because its purpose is unresolved. If all eight minutes are confirmed as ordinary service purchasing, the included subtotal becomes 110. No change in stage alone determines inclusion. The 12-minute Exact troubleshooting interval is included as recorded purchasing-system support under OTHER, with its detailed activity and stage unresolved.
 
 ### Row-level enrichment
