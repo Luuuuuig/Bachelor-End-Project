@@ -1,0 +1,51 @@
+﻿Case,Activity,Start,End,Volume,INT,DEC?,Result / short note,Van Weele stage
+OBS-01,EXC,10:31,10:43,—,0,—,"Prior-week PO aftercare. Delivered components were incorrect; drawing check and supplier communication required. Buyer briefly walked to ask a same-case question at 10:41 and returned at 10:42; this remains same-case active EXC work, not an interruption.",Follow-up and evaluation
+OBS-02,REQ,10:49,10:50,—,0,—,Desk request intake.,Ordering
+OBS-02,CLAR,10:50,10:56,—,0,—,MI-requester: clarify whether requested quantity meant 18 total or 2 × 18.,Ordering
+OBS-02,SEND,10:56,11:04,—,0,—,Request visual clarification from requester/colleague.,Ordering
+OBS-03,EXC,11:05,11:08,—,1,—,Wrong order received; interruption recorded before continuation.,Follow-up and evaluation
+OBS-03,EXC,11:09,11:11,—,0,—,Continuation of wrong-order aftercare.,Follow-up and evaluation
+OBS-04,REQ,—,—,—,0,—,Request to cancel one component because of long lead time and source it elsewhere.,Specification
+OBS-04,SEND,11:11,11:14,—,0,Y,J+EXP: buyer judged the item non-interchangeable based on experience and copied a colleague for confirmation.,Specification
+OBS-05,REQ,—,—,—,0,—,Email request intake; exact intake duration not recorded.,Ordering
+OBS-05,CLAR,11:15,11:17,—,0,Y,"Looked in Exact and determined that an email question was needed. Normalized from originally timed DEC; this is visible information work with embedded judgement, not pure decision time.",Ordering
+OBS-05,SEND,11:17,11:19,—,0,—,Sent follow-up question by email.,Ordering
+OBS-06,CHECK,11:19,11:21,—,0,—,Purchasing-information check; exact check subtype not captured.,Monitoring
+OBS-07,SEND,11:21,11:22,—,0,—,Internal purchasing communication forwarded to Finance.,Follow-up and evaluation
+OBS-08,EXC,11:22,11:24,—,1,?,Exception/aftercare episode; subtype not captured reliably.,
+OBS-09,REQ,—,—,—,0,—,Phone question concerning an existing PO.,Monitoring
+OBS-09,EXC,11:24,11:26,—,0,—,Delivery-time issue linked to an unpaid invoice.,Monitoring
+OBS-10,OTHER,11:26,11:29,—,0,—,Respond to a Finance question; exact process subtype not captured.,Follow-up and evaluation
+OBS-11,EXC,11:31,11:34,—,0,—,Delivery-status tracing for 10 pieces of a component.,Monitoring
+OBS-12,REQ,—,—,—,0,—,Customer question reached Purchasing through Service.,Specification
+OBS-12,CLAR,11:35,11:51,—,0,—,MI + historical search: old PO lookup; several matching items; required size/information not supplied.,Specification
+OBS-12,SEND,11:51,11:54,—,0,—,Request quotation / external information.,Specification
+OBS-13,CHECK,11:55,11:56,2L,0,—,Two-line purchasing check; commercial value omitted.,Monitoring
+OBS-14,CHECK,11:56,11:57,1L,0,—,One-line purchasing check; commercial value omitted.,Monitoring
+OBS-15,CHECK,11:57,12:00,3L,0,—,Three-line purchasing check.,Monitoring
+OBS-16,EXC,12:00,12:04,4L,0,—,Respond to supplier question on an existing case.,
+OBS-17,REQ,—,—,—,0,—,Request to add two new items to Exact.,
+OBS-17,CLAR,12:06,12:08,—,1,—,Route/clarify ownership with purchasing manager; interruption recorded.,
+OBS-17,SEND,12:08,12:09,—,0,—,Forwarded the request.,
+OBS-18,REQ,—,—,—,0,—,Exact-originated case; partly processed before pre-control.,Ordering
+OBS-18,CHECK,12:09,12:15,4L,0,—,Pre-control: delivery time adjusted; price control could not be completed because of an unpaid-invoice issue. Supplier identity omitted.,Ordering
+OBS-19,EXC,12:15,12:20,—,0,Y,Unavailable item: searched for an alternative and contacted manufacturer/supply source. J: choose next exception-handling route.,
+OBS-19,EXC,12:22,12:25,—,0,—,Supplier confirmation covered only part of the PO; follow-up call required.,Monitoring
+31AUG-OBS-07,OTHER,13:15,13:23,—,0,—,Continuation of 31 August article-master work that could not be finished because required data were missing.,Ordering
+OBS-20,OTHER,13:23,13:27,—,0,—,Read purchasing-related email; exact case subtype not captured.,
+OBS-21,EXC,13:27,13:29,—,0,—,Supplier question originating from Sales. Start time corrected from prior transcription to remove overlap with OBS-20.,
+OBS-22,PO,13:29,13:50,—,0,Y,Determine what needed to be ordered and create one PO. Combined order-processing episode; exact internal task split unsupported. `MAXOBS=?`.,Ordering
+OBS-23,PO,13:50,13:53,—,0,—,One PO created. `MAXOBS=?`.,Ordering
+OBS-24,PO,13:53,13:54,—,1,—,One PO created; interrupted by OBS-25 phone case and resumed at 13:55. `MAXOBS=?`.,Ordering
+OBS-25,REQ,—,—,—,0,—,Phone request concerning an existing PO.,Ordering
+OBS-25,PO,13:54,13:55,1L,0,Y,Adjust existing PO; judgement recorded in live notes. `MAXOBS=?`.,Ordering
+OBS-24,PO,13:55,13:57,—,0,—,Resume and complete PO creation after OBS-25 interruption. `MAXOBS=?`.,Ordering
+OBS-26,PO,13:57,13:58,—,0,—,One PO created. `MAXOBS=?`.,Ordering
+OBS-27,PO,13:58,14:03,—,0,—,One PO created. `MAXOBS=?`.,Ordering
+OBS-28,PO,14:03,14:05,—,0,—,One PO created. `MAXOBS=?`.,Ordering
+OBS-23,PO,14:05,14:09,—,0,Y,HOLD outcome observed. MAX check was not explicitly captured: `MAXOBS=?`.,Ordering
+OBS-24,PO,14:09,14:11,—,0,Y,"`MAXOBS=Y; MAX=?; HOLD`. MAX occurred, but ADD/NONE result was not separately captured.",Ordering
+OBS-26,PO,14:11,14:12,—,0,Y,`MAXOBS=Y; MAX=?; HOLD`.,Ordering
+OBS-29,PO,14:12,14:17,7L,1,Y,`MAXOBS=Y; MAX=ADD; 5L original; +2L; 7L total`. Final ORD/HOLD outcome not captured. Interruption recorded; subtype not captured.,Ordering
+OBS-27,PO,14:17,14:19,27L,0,Y,`MAXOBS=Y; MAX=ADD; 23L original; +4L; HOLD`. Preserve as observed. This supports the clarified AS-IS rule that post-MAX HOLD/ORD is assessed whether or not demand was added; the specific HOLD cues were not captured.,Ordering
+OBS-30,PO,14:20,14:21,15L,0,Y,"`MAXOBS=Y; 8L original; 15L total; HOLD`. Recorded totals imply added demand, but the exact MAX result was not separately written; verify before coding `MAX=ADD`.",Ordering

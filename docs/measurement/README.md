@@ -1,5 +1,21 @@
 # Measurement
 
+## Simple CSV exports, 30 September 2026
+
+These exports preserve the original eight observation-table columns and add only **Van Weele stage**. Original codes, notes, timestamps, volumes and missing values remain unchanged. Stage assignments describe the purpose of each activity; they are not a fixed conversion from work-family codes.
+
+| Session | CSV | Review status |
+| --- | --- | --- |
+| 28 August pilot | [Arno_Measurement_2026-08-28_Pilot.csv](Arno_Measurement_2026-08-28_Pilot.csv) | Review closed; unresolved stages remain blank. |
+| 31 August | [Arno_Measurement_2026-08-31.csv](Arno_Measurement_2026-08-31.csv) | Presented stage proposals accepted on 30 September; unresolved stages remain blank. |
+| 1 September | [Arno_Measurement_2026-09-01.csv](Arno_Measurement_2026-09-01.csv) | Current revision; four review items remain pending, covering five rows. |
+
+For 1 September, the observer clarified that OBS-02 concerned unclear wording of the requested quantity. Its REQ and CLAR rows, data rows 2 and 3, are **Ordering**. OBS-04 remains **Specification**, including the request in data row 7 and the technical assessment in row 8.
+
+The remaining 1 September proposals are data row 15 (OBS-09, Monitoring), row 29 (OBS-18, Ordering), row 36 (OBS-22, Ordering), and rows 39–40 (OBS-25, Ordering). These five assignments remain proposals. Row numbering excludes the header. CSV cells contain only stage names; review status is documented here.
+
+These simple exports are the current working format requested by the observer. The earlier enriched exports and Markdown enrichment sections retain historical interpretations and may differ. This publication does not update historical analysis totals, validate exposure, or change scope and timing rules.
+
 ## Scope update of 14 September
 
 Use the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md) alongside the v1.3 timing rules. It implements the 10 September logistics and EXC exclusion, preserves historical raw data and separates Van Weele phases from live work families. The [Dennis guide](Dennis_Observation_Guide_2026-09-14.md) prepares the added tactical purchasing discovery.
