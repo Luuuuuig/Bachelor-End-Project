@@ -8,11 +8,11 @@ These exports preserve the original eight observation-table columns and add only
 | --- | --- | --- |
 | 28 August pilot | [Arno_Measurement_2026-08-28_Pilot.csv](Arno_Measurement_2026-08-28_Pilot.csv) | Review closed; unresolved stages remain blank. |
 | 31 August | [Arno_Measurement_2026-08-31.csv](Arno_Measurement_2026-08-31.csv) | Presented stage proposals accepted on 30 September; unresolved stages remain blank. |
-| 1 September | [Arno_Measurement_2026-09-01.csv](Arno_Measurement_2026-09-01.csv) | Current revision; four review items remain pending, covering five rows. |
+| 1 September | [Arno_Measurement_2026-09-01.csv](Arno_Measurement_2026-09-01.csv) | Presented stage proposals accepted on 30 September; unresolved stages remain blank. |
 
 For 1 September, the observer clarified that OBS-02 concerned unclear wording of the requested quantity. Its REQ and CLAR rows, data rows 2 and 3, are **Ordering**. OBS-04 remains **Specification**, including the request in data row 7 and the technical assessment in row 8.
 
-The remaining 1 September proposals are data row 15 (OBS-09, Monitoring), row 29 (OBS-18, Ordering), row 36 (OBS-22, Ordering), and rows 39–40 (OBS-25, Ordering). These five assignments remain proposals. Row numbering excludes the header. CSV cells contain only stage names; review status is documented here.
+The observer also accepted data row 15 (OBS-09, Monitoring), row 29 (OBS-18, Ordering), row 36 (OBS-22, Ordering), and rows 39–40 (OBS-25, Ordering). All six presented review items for 1 September are accepted. The observer's review convention is that, when responding to a presented batch, items they do not challenge are accepted. This applies only to presented items. Row numbering excludes the header. Existing unresolved stage cells remain blank.
 
 These simple exports are the current working format requested by the observer. The earlier enriched exports and Markdown enrichment sections retain historical interpretations and may differ. This publication does not update historical analysis totals, validate exposure, or change scope and timing rules.
 
