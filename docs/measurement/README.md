@@ -8,44 +8,26 @@ Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 Septembe
 
 Yijie clarified on 30 September that the simultaneous-activity rule was followed after the supervisor's instruction at the 17 September meeting. Each genuinely simultaneous activity keeps its own recorded interval. The 25 September documentation did not introduce the practice. The [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities) and [v1.3 cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md) now state this timing explicitly.
 
-**Files for the analysis.** Use the five baseline `Arno_Measurement_*.csv` exports below, whose stage column was reviewed on 30 September, together with the [episode eligibility file](Episode_Eligibility_2026-09-30.csv) and the observation-time register. The pilot export stays separate from the baseline. The earlier enriched exports (the 21 September CSV and workbook, and the 23 September enriched CSV) and the enrichment sections inside the observation notes are historical; their included-minute totals are not the current analysis figures. Dennis's 25 September session exists only in its observation note.
+**Files for the analysis.** Use the five baseline `Arno_Measurement_*.csv` exports below, whose stage column was reviewed on 30 September, together with the observation-time register. Nothing is dropped before analysis; see [Current totals from the reviewed CSVs](#current-totals-from-the-reviewed-csvs). The pilot export stays separate from the baseline. The earlier enriched exports (the 21 September CSV and workbook, and the 23 September enriched CSV) and the enrichment sections inside the observation notes are historical; their included-minute totals are not the current analysis figures. Dennis's 25 September session exists only in its observation note.
 
 ## Current totals from the reviewed CSVs
 
-Calculated on 30 September 2026 from the five baseline `Arno_Measurement_*.csv` files. All values are recorded activity minutes of timed rows; untimed tallies add no minutes. The first table applies code-level filters only, so its 535 minutes are a **provisional subtotal**, not the analysis denominator. The second table applies the episode-level scope and timing-quality checks.
+**Analysis setup, 30 September 2026:** the analysis starts from **all** recorded data in the five baseline `Arno_Measurement_*.csv` files. No row is dropped beforehand, and EXC is included. Anything that may later be excluded is kept and shown as its own group in the results, so every figure can be reported with or without it:
 
-| Session | Recorded timed minutes | EXC-coded (scope exclusion) | Contaminated (8 Sep OBS-16) | Non-EXC valid minutes | Stage "Not applicable" | Purchasing-stage basis | of which stage blank |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| 31 August | 103 | 4 | 0 | 99 | 0 | 99 | 1 |
-| 1 September | 162 | 38 | 0 | 124 | 0 | 124 | 7 |
-| 8 September | 106 | 27 | 9 | 70 | 2 | 68 | 5 |
-| 18 September | 196 | 47 | 0 | 149 | 7 | 142 | 3 |
-| 23 September | 185 | 66 | 0 | 119 | 17 | 102 | 25 |
-| **Total** | **752** | **182** | **9** | **561** | **26** | **535** | **41** |
+- **EXC** (182 minutes): shown separately until Yijie has discussed the EXC rule with the supervisor.
+- **Lost focus on 8 September** (OBS-16, 12:04–12:13, 9 minutes): kept and marked.
+- **Stage "Not applicable"** and **blank stage**: kept as their own stage groups.
 
-- **Exclusions applied:** EXC-coded rows (scope rule of 10 September) and the two contaminated 8 September OBS-16 rows (12:04–12:13, source note). The 23 September OBS-16 interval is EXC and already excluded.
-- **Timing rule:** the 23 September OBS-03 PO keeps its full three minutes although one minute overlaps an EXC row; the overlap adds no minute to the non-EXC total.
-- **Not applicable:** rows the observer placed outside the purchasing stages (for example the 23 September Exact fault and the 18 September OBS-08 logistics rows). They are reported separately and are not part of the purchasing-stage basis.
-- **Blank stage:** 41 provisional minutes have no stage yet.
+| Session | Rows | Timed rows | Recorded minutes | of which EXC |
+|---|---:|---:|---:|---:|
+| 31 August | 63 | 39 | 103 | 4 |
+| 1 September | 50 | 43 | 162 | 38 |
+| 8 September | 42 | 38 | 106 | 27 |
+| 18 September | 74 | 57 | 196 | 47 |
+| 23 September | 58 | 48 | 185 | 66 |
+| **Total** | **287** | **225** | **752** | **182** |
 
-### Episode-level eligibility
-
-Scope rule 4 of the [scope addendum](Scope_and_Classification_Addendum_2026-09-14.md) also excludes SEND, PO and other episodes that belong to excluded EXC aftercare or logistics work, whatever their code or stage. Stage assignments do not change a scope decision. [`Episode_Eligibility_2026-09-30.csv`](Episode_Eligibility_2026-09-30.csv) holds one row per baseline source row (287 rows, matched to the daily CSVs by date and row) with its scope, timing quality and status. It carries forward the episode-level scope decisions of the 21 and 25 September enrichment and records later observer decisions. The nine-column daily CSVs stay unchanged; the analysis applies this file as a separate filter.
-
-| Session | Provisional subtotal | Eligible | Excluded aftercare | Under scope review | Timing uncertain |
-|---|---:|---:|---:|---:|---:|
-| 31 August | 99 | 91 | 8 | 0 | 0 |
-| 1 September | 124 | 116 | 3 | 5 | 0 |
-| 8 September | 68 | 32 | 21 | 15 | 0 |
-| 18 September | 142 | 121 | 2 | 17 | 2 |
-| 23 September | 102 | 92 | 0 | 10 | 0 |
-| **Total** | **535** | **452** | **34** | **47** | **2** |
-
-- **Eligible (452 minutes)** is the current basis for workload shares, with the 47 review minutes used as a sensitivity check until they are decided. Of the 41 blank-stage minutes, 34 are eligible, 1 is excluded aftercare (8 September OBS-06 SEND, continuing EXC work) and 6 are under review.
-- **Excluded aftercare** includes, for example, the 8 September OBS-01 cancellation SEND (10:46–10:50) and the corresponding PO amendment (11:18–11:22).
-- **To confirm:** six timed rows (18 minutes) were excluded as aftercare in the enrichment although the observer's stage review placed them in Specification, Supplier selection, Ordering or Monitoring. The 18 September OBS-10 SEND (2 minutes, "drawing received") has uncertain timing quality. These rows are marked in the eligibility file.
-- **Observer decision:** the 23 September OBS-18 SEND (2 minutes, transport company) stays in scope for now, although the enrichment treated it as logistics.
-- **EXC:** the rule awaits the supervisor discussion; results will also be reported with EXC included.
+Untimed rows count as occurrences but add no minutes. Recorded minutes are activity minutes: the one-minute overlap on 23 September (11:42–11:43) is counted in both activities, as the timing rule requires. The enrichment subtotals in the older sections below (for example 91, 116, 32, 121 and 102) are historical.
 
 ## Simple CSV exports, 30 September 2026
 

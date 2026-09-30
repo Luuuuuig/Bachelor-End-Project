@@ -164,3 +164,7 @@ A review of commit 45af4e6 found that the 535-minute purchasing-stage basis appl
 - Open for the observer: the 30 scope-review rows (47 timed minutes), six timed rows (18 minutes) where the enrichment's aftercare exclusion differs from the reviewed stage, and one row with uncertain timing.
 - The methodology no longer calls the observation-file profiles current; it points to the reviewed-CSV totals.
 
+## 12. Analysis setup decided by Yijie, 30 September 2026
+
+Yijie found the layered filters too confusing and decided that the analysis starts from all data: 287 baseline rows and 752 recorded minutes, with EXC included and nothing dropped beforehand. EXC, the 9 lost-focus minutes on 8 September, "Not applicable" and blank stages are kept and shown as separate groups, so each result can be reported with or without them. This supersedes the provisional 535-minute subtotal and the episode-eligibility file of section 11; that file was removed. The earlier enrichment still holds its row-level scope notes if they are needed after the supervisor discussion on EXC.
+
