@@ -71,12 +71,12 @@ The same order can appear in several rows (for example a PO row and its CHECK ro
 
 The kinds of work that carry each candidate's evidence in the [methodology](../docs/methodology/Phase_1_Current_Methodology.md#4-current-candidate-portfolio). Minutes count each row once, even if it shows two of the candidate's kinds. This is workload evidence only; business relevance, technical feasibility and the need for human expertise come in step 6. The process-redesign candidate is process-wide and needs the workflow of step 5.
 
-| Candidate | Kinds | Rows | Minutes A | Minutes B | Days seen | Cases |
-|---|---|---:|---:|---:|---:|---:|
-| Order timing / maximalisatie | K03 | 18 | 42 | 42 | 5 | 15 |
-| Purchase-price control | K04, K17, K18 | 24 | 103 | 98 | 5 | 19 |
-| Request intake & validation | K08, K09, K10, K11 | 19 | 94 | 94 | 5 | 11 |
-| PO supplier communication (supporting) | K05 | 23 | 36 | 36 | 4 | 23 |
+| Candidate | Rows | Minutes A | Minutes B | Days seen | Cases |
+|---|---:|---:|---:|---:|---:|
+| Order timing / maximalisatie | 18 | 42 | 42 | 5 | 15 |
+| Purchase-price control | 24 | 103 | 98 | 5 | 19 |
+| Request intake & validation | 19 | 94 | 94 | 5 | 11 |
+| PO supplier communication (supporting) | 23 | 36 | 36 | 4 | 23 |
 
 ## 5. First reading (provisional)
 
