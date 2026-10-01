@@ -49,43 +49,7 @@ Minutes exclude the 9 lost-focus minutes on 8 September. Share is of recorded mi
 | Not applicable | 12 | 71 | 9.6 | 9 | 26 | 4.6 |
 | (blank) | 35 | 89 | 12.0 | 22 | 41 | 7.3 |
 
-## 3. By kind of work
 
-Minutes are totals of the rows showing each kind. A row with two kinds counts under both, so the column does not add up to the recorded total; it shows where time was spent, not an additive ranking. B counts only non-EXC rows. Kinds are defined in the [kinds-of-work review](Kinds_Of_Work_Review_2026-09-30.md).
-
-| ID | Kind of work | Rows A | Minutes A | Rows B | Minutes B | Days seen | Cases |
-|---|---|---:|---:|---:|---:|---:|---:|
-| K02 | Create or complete a PO for a need | 45 | 112 | 45 | 112 | 5 | 36 |
-| K23 | Logistics coordination | 13 | 62 | 7 | 11 | 3 | 7 |
-| K19 | Follow up order status or delivery | 19 | 57 | 4 | 2 | 4 | 12 |
-| K17 | Check a supplier confirmation | 15 | 50 | 15 | 50 | 3 | 13 |
-| K12 | Article or supplier data in Exact | 17 | 43 | 17 | 43 | 4 | 6 |
-| K03 | Maximalisatie and HOLD/order decision | 18 | 42 | 18 | 42 | 5 | 15 |
-| K21 | Aftercare on a delivered order | 11 | 39 | 1 | 2 | 4 | 9 |
-| K04 | Check before ordering | 6 | 37 | 6 | 37 | 5 | 5 |
-| K05 | Send or forward the PO | 23 | 36 | 23 | 36 | 4 | 23 |
-| K08 | Clarify missing or unclear request information | 6 | 30 | 6 | 30 | 3 | 4 |
-| K20 | Finance-related issue | 10 | 29 | 6 | 18 | 5 | 8 |
-| K11 | Retrieve or complete drawings | 6 | 24 | 6 | 24 | 2 | 3 |
-| K09 | Establish or judge the requirement | 6 | 23 | 6 | 23 | 4 | 4 |
-| K24 | Internal coordination with colleagues | 6 | 23 | 4 | 13 | 2 | 4 |
-| K10 | Search historical POs or records | 2 | 21 | 2 | 21 | 2 | 2 |
-| K14 | Handle an unavailable item | 7 | 21 | 5 | 10 | 3 | 4 |
-| K13 | Search for another supplier or better price | 4 | 19 | 3 | 14 | 3 | 3 |
-| K26 | Exact error or delay | 2 | 17 | 2 | 17 | 2 | 2 |
-| K16 | Cancel a component or order line | 7 | 16 | 7 | 16 | 2 | 2 |
-| K18 | Investigate a price discrepancy | 3 | 16 | 2 | 11 | 1 | 2 |
-| K25 | Service or transport purchase | 7 | 15 | 7 | 15 | 3 | 3 |
-| K31 | Missing or attached certificate | 3 | 13 | 0 | 0 | 1 | 2 |
-| K28 | Quotation or offer handling | 3 | 9 | 3 | 9 | 3 | 3 |
-| K07 | Approval-related handling | 4 | 6 | 4 | 6 | 1 | 3 |
-| K22 | Certification arrangements | 2 | 5 | 2 | 5 | 1 | 1 |
-| K27 | Read or organise purchasing email | 1 | 4 | 1 | 4 | 1 | 1 |
-| K29 | Question from a customer, Sales or Service | 3 | 4 | 2 | 2 | 2 | 3 |
-| K06 | Credit-card purchase | 3 | 3 | 3 | 3 | 1 | 2 |
-| K30 | Administrative booking in Exact | 1 | 2 | 0 | 0 | 1 | 1 |
-| K01 | Receive a request | 49 | 1 | 49 | 1 | 5 | 48 |
-| K15 | Adjust an existing PO on request | 2 | 1 | 2 | 1 | 1 | 1 |
 
 ## 4. Volume (lines)
 
@@ -102,49 +66,8 @@ Rows with a line count in the Volume field (for example `5L`). Other rows record
 
 The same order can appear in several rows (for example a PO row and its CHECK row), so total lines count order lines per activity, not distinct order lines.
 
-## 5. Difficulty and constraint cues
 
-These are separate indicators, not part of a time total. They show where judgement, interruptions or obstacles were recorded. A handwritten `/` in INT or DEC? means none ([scope addendum](../docs/measurement/Scope_and_Classification_Addendum_2026-09-14.md#recording-marks)); blank DEC? cells on 31 August mean the flag was not recorded.
-
-**Interruption and decision marks by activity code.**
-
-| Code | Rows | Interrupted | Decision: yes | no | uncertain | not recorded |
-|---|---:|---:|---:|---:|---:|---:|
-| PO | 65 | 7 | 16 | 44 | 0 | 5 |
-| CLAR | 42 | 4 | 5 | 29 | 0 | 8 |
-| CHECK | 21 | 1 | 1 | 15 | 0 | 5 |
-| SEND | 43 | 1 | 1 | 32 | 1 | 9 |
-| OTHER | 22 | 0 | 2 | 16 | 0 | 4 |
-| REQ | 49 | 0 | 0 | 33 | 0 | 16 |
-| DEC | 3 | 0 | 3 | 0 | 0 | 0 |
-| EXC | 41 | 3 | 2 | 35 | 2 | 2 |
-| UNCLEAR | 1 | 0 | 0 | 1 | 0 | 0 |
-
-**Per day.**
-
-| Day | Rows | Interrupted rows | Per observed hour | Decision marked | Decision not recorded |
-|---|---:|---:|---:|---:|---:|
-| 31 Aug | 63 | 4 | 1.45 | 13 | 48 |
-| 1 Sep | 50 | 5 | 1.61 | 11 | 0 |
-| 8 Sep | 42 | 3 | 1.73 | 3 | 0 |
-| 18 Sep | 74 | 3 | 0.75 | 3 | 1 |
-| 23 Sep | 58 | 1 | 0.30 | 0 | 0 |
-
-- **Interruptions** are recorded on every row of all five days, so they can be compared between days.
-- **Decision marks fall sharply after 1 September.** 11 of the 11 maximalisatie rows on 31 August and 1 September are marked as a decision, and 0 of the 7 later ones, although their notes still describe combining or trying to combine orders. Decision marks are therefore reported as recorded but not used to compare days or candidates; judgement evidence comes from the notes.
-
-**Kinds that record an obstacle** (organizational constraints in the workload definition):
-
-| ID | Kind of work | Rows | Minutes | Days seen | Cases | of which EXC rows |
-|---|---|---:|---:|---:|---:|---:|
-| K08 | Clarify missing or unclear request information | 6 | 30 | 3 | 4 | 0 |
-| K14 | Handle an unavailable item | 7 | 21 | 3 | 4 | 2 |
-| K18 | Investigate a price discrepancy | 3 | 16 | 1 | 2 | 1 |
-| K20 | Finance-related issue | 10 | 29 | 5 | 8 | 4 |
-| K26 | Exact error or delay | 2 | 17 | 2 | 2 | 0 |
-| K07 | Approval-related handling | 4 | 6 | 1 | 3 | 0 |
-
-## 6. Evidence per current candidate (input for step 6)
+## 4. Evidence per current candidate (input for step 6)
 
 The kinds of work that carry each candidate's evidence in the [methodology](../docs/methodology/Phase_1_Current_Methodology.md#4-current-candidate-portfolio). Minutes count each row once, even if it shows two of the candidate's kinds. This is workload evidence only; business relevance, technical feasibility and the need for human expertise come in step 6. The process-redesign candidate is process-wide and needs the workflow of step 5.
 
@@ -155,7 +78,7 @@ The kinds of work that carry each candidate's evidence in the [methodology](../d
 | Request intake & validation | K08, K09, K10, K11 | 19 | 94 | 94 | 5 | 11 |
 | PO supplier communication (supporting) | K05 | 23 | 36 | 36 | 4 | 23 |
 
-## 7. First reading (provisional)
+## 5. First reading (provisional)
 
 - **Time without EXC (view B):** PO (29%) and CLAR (28%) carry most recorded time, and Ordering is 60% of it. With EXC (view A), EXC is the largest code (24%) but ranges from 4% to 36% by day.
 - **Where the time goes by kind:** creating or completing POs (112 minutes) is the largest kind. Most follow-up and logistics time is EXC: 55 of 57 follow-up minutes and 51 of 62 logistics minutes, so their weight depends on the EXC decision.
