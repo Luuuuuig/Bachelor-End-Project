@@ -1,6 +1,6 @@
 ﻿Case,Activity,Start,End,Volume,INT,DEC?,Result / short note,Van Weele stage
 OBS-01,EXC,10:31,10:43,—,0,—,"Prior-week PO aftercare. Delivered components were incorrect; drawing check and supplier communication required. Buyer briefly walked to ask a same-case question at 10:41 and returned at 10:42; this remains same-case active EXC work, not an interruption.",Follow-up and evaluation
-OBS-02,REQ,10:49,10:50,—,0,—,Desk request intake.,Ordering
+OBS-02,REQ,—,—,—,0,—,Desk request intake.,Ordering
 OBS-02,CLAR,10:50,10:56,—,0,—,MI-requester: clarify whether requested quantity meant 18 total or 2 × 18.,Ordering
 OBS-02,SEND,10:56,11:04,—,0,—,Request visual clarification from requester/colleague.,Ordering
 OBS-03,EXC,11:05,11:08,—,1,—,Wrong order received; interruption recorded before continuation.,Follow-up and evaluation
