@@ -66,7 +66,7 @@ These simple exports are the current working format requested by the observer. T
 
 ## Scope update of 14 September
 
-Use the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md) alongside the v1.3 timing rules. It implements the 10 September logistics and EXC scope decision, as refined on 1 October, preserves historical raw data and separates Van Weele phases from live work families. The [Dennis guide](Dennis_Observation_Guide_2026-09-14.md) prepares the added tactical purchasing discovery.
+Use the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md) alongside the v1.3 timing rules. It implements the 10 September logistics and EXC scope decision, as refined on 1 October, preserves historical raw data and separates Van Weele phases from live work families. The [Dennis guide](Dennis_Observation_Guide_2026-09-14.md) prepares the added tactical purchasing discovery. The [Arno follow-up session guide](Arno_Follow_Up_Session_Guide_2026-10-02.md) prepares the Analyze-phase session on causes, the kinds of work and acceptance.
 
 ## Enrichment and exposure review of 25 September
 
