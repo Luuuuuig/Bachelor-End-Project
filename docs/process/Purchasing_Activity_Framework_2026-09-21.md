@@ -4,6 +4,8 @@
 
 **Updated 30 September 2026:** the evidence references and worked examples below now follow the observer-reviewed stage assignments in the daily `Arno_Measurement_*.csv` files ([measurement README](../measurement/README.md#simple-csv-exports-30-september-2026)). Where an earlier assignment in this framework or in the 21 September dataset differs, the reviewed CSV applies.
 
+**Kinds of work, 2 October 2026:** the kinds of work of 30 September (K01–K31) are finer, task-level labels used in the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb). Part 4 of the notebook places each kind under an analytical activity of this framework, or marks it as a problem, an event, a purchase subtype or work outside this activity list. This framework stays the main classification.
+
 ## Purpose and continuity
 
 The analytical list starts with **Van Weele's purchasing stages**, then defines the concrete purchasing activities within them using the existing task register and relevant Dennis evidence. An observation is assigned by its recorded action and purpose. Its broad live code is retained as evidence, but is not a lookup key that determines its stage.

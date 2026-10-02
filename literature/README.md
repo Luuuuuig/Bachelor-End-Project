@@ -148,6 +148,22 @@ The stored 2006 paper describes the six-activity design-science research process
 
 **Use:** Informs the saturation part of the [five-day coverage check](../analysis/Analysis_Plan_2026-09-30.md#five-day-check): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
 
+### Coding the observation notes
+
+Used for the [kinds of work](../analysis/Kinds_Of_Work_Review_2026-09-30.md) and the check of their coding (part 4 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)). Same three statuses as the AI function entries below: citation verified, abstract reviewed and full text reviewed.
+
+**Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
+
+**Use:** Basis for deriving the kinds of work from the observation notes: in conventional (inductive) content analysis, the categories come from the data instead of a scheme fixed beforehand. Supports the method; it does not validate the 31 kinds or their coding.
+
+**Status:** citation details still to verify; abstract and full text not yet reviewed.
+
+**Cohen, J. (1960).** *A coefficient of agreement for nominal scales*. *Educational and Psychological Measurement, 20*(1), 37–46. https://doi.org/10.1177/001316446002000104
+
+**Use:** Cohen's kappa, for reporting agreement between the existing labels and Yijie's blind coding of a sample, corrected for chance agreement. With one observer this is a check of the coding, not of the observation itself.
+
+**Status:** citation details still to verify; abstract and full text not yet reviewed.
+
 ### AI functions, levels of automation and the buyer's role
 
 Used for the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md) requested on 1 October. Each entry records three separate statuses: citation verified, abstract reviewed and full text reviewed.
