@@ -8,7 +8,7 @@
 
 # 1. Governing conceptual structure
 
-The project defines operational buyer workload through the **amount and difficulty of purchasing work**, following Bowling & Kirkendall (2012). Arno's included work is the primary outcome. Dennis's relevant tactical tasks form part of the investigation and may be part of the selected improvement. Logistics and EXC remain outside thesis Measure analysis and focal-case selection.
+The project defines operational buyer workload through the **amount and difficulty of purchasing work**, following Bowling & Kirkendall (2012). Arno's included work is the primary outcome. Dennis's relevant tactical tasks form part of the investigation and may be part of the selected improvement. Logistics and former EXC work stay outside the work considered for AI improvement; since 1 October their time remains in the total time record under OTHER.
 
 The conceptual definition and the observation indicators serve different purposes. Frequency, volume, processing time and rework describe observable work demands. Case evidence about uncertainty, judgement and problem solving informs the assessment of difficulty. No single indicator represents the entire workload construct.
 

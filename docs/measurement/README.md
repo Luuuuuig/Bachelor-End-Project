@@ -16,20 +16,20 @@ Yijie also clarified on 30 September that a handwritten `/` in the observation s
 
 **Analysis setup, 30 September 2026:** the analysis starts from **all** recorded data in the five baseline `Arno_Measurement_*.csv` files. No row is dropped beforehand, and EXC is included. Anything that may later be excluded is kept and shown as its own group in the results, so every figure can be reported with or without it:
 
-- **EXC** (182 minutes): shown separately until Yijie has discussed the EXC rule with the supervisor.
+- **Former EXC** (182 minutes): since 1 October grouped under OTHER and kept outside the improvement scope; its time stays in the total record ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)).
 - **Lost focus on 8 September** (OBS-16, 12:04–12:13, 9 minutes): kept and marked.
 - **Stage "Not applicable"** and **blank stage**: kept as their own stage groups.
 
-| Session | Rows | Timed rows | Recorded minutes | of which EXC |
+| Session | Rows | Timed rows | Recorded minutes | of which former EXC |
 |---|---:|---:|---:|---:|
 | 31 August | 63 | 39 | 103 | 4 |
-| 1 September | 50 | 43 | 162 | 38 |
+| 1 September | 50 | 42 | 161 | 38 |
 | 8 September | 42 | 38 | 106 | 27 |
 | 18 September | 74 | 57 | 196 | 47 |
 | 23 September | 58 | 48 | 185 | 66 |
-| **Total** | **287** | **225** | **752** | **182** |
+| **Total** | **287** | **224** | **751** | **182** |
 
-Untimed rows count as occurrences but add no minutes. Recorded minutes are activity minutes: the one-minute overlap on 23 September (11:42–11:43) is counted in both activities, as the timing rule requires. The enrichment subtotals in the older sections below (for example 91, 116, 32, 121 and 102) are historical.
+Untimed rows count as occurrences but add no minutes. Since 2 October, 1 September OBS-02 REQ is recorded as a tally ([observer decision](Measure_Observation_2026-09-01.md#observer-decision-2-october-2026)), so it adds no minutes. Recorded minutes are activity minutes: the one-minute overlap on 23 September (11:42–11:43) is counted in both activities, as the timing rule requires. The enrichment subtotals in the older sections below (for example 91, 116, 32, 121 and 102) are historical.
 
 ## Simple CSV exports, 30 September 2026
 
@@ -66,7 +66,7 @@ These simple exports are the current working format requested by the observer. T
 
 ## Scope update of 14 September
 
-Use the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md) alongside the v1.3 timing rules. It implements the 10 September logistics and EXC exclusion, preserves historical raw data and separates Van Weele phases from live work families. The [Dennis guide](Dennis_Observation_Guide_2026-09-14.md) prepares the added tactical purchasing discovery.
+Use the [scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md) alongside the v1.3 timing rules. It implements the 10 September logistics and EXC scope decision, as refined on 1 October, preserves historical raw data and separates Van Weele phases from live work families. The [Dennis guide](Dennis_Observation_Guide_2026-09-14.md) prepares the added tactical purchasing discovery.
 
 ## Enrichment and exposure review of 25 September
 
