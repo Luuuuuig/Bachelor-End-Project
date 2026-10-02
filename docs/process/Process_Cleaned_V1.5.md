@@ -1,6 +1,6 @@
 # Operational Purchasing Current State — AS-IS master (V1.5)
 
-**Scope update of 14 September:** The observed operational workflow and stable task IDs below remain the evidence reference. Current thesis scope follows the [10 September decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) and [charter](../Project_Charter.md): Dennis is included in purchasing context; logistics and EXC time are excluded from thesis analysis and focal-case selection. Historical logistics/rework exceptions and candidate labels below do not override this boundary. Use the [Van Weele crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md) for phase classification.
+**Scope update of 14 September:** The observed operational workflow and stable task IDs below remain the evidence reference. Current thesis scope follows the [10 September decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) and [charter](../Project_Charter.md): Dennis is included in purchasing context; logistics is outside the thesis, and since 1 October former EXC time stays in the total record under OTHER but outside the improvement focus. Historical logistics/rework exceptions and candidate labels below do not override this boundary. Use the [Van Weele crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md) for phase classification.
 
 **Status:** Current operational-process source of truth. Diagram presentation and related wording corrected 8 September 2026; the existing observation dates and validation limits remain as recorded.
 

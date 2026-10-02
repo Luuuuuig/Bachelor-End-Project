@@ -1,5 +1,7 @@
 # Analysis
 
+> **Record of the 1 October supervisor meeting.** These files were prepared for that meeting and are kept as they were. The analysis after the meeting is [`Arno_Analysis_2026_10_02.ipynb`](../Arno_Analysis_2026_10_02.ipynb). The decisions of [1 October](../docs/meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md), such as grouping former EXC under OTHER outside the improvement scope, are applied there, not in these files.
+
 Steps 1 to 3 of the analysis for Arno, prepared on 30 September 2026, form the Measure review of the five baseline sessions; step 4 starts Analyze. The review supports pausing broad observation and starting Analyze for Arno; conclusions that depend on the EXC decision or on Dennis's data stay provisional until the supervisor discussion.
 
 | File | What it is |

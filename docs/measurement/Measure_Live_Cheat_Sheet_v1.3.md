@@ -1,6 +1,6 @@
 # Measure Live Cheat Sheet v1.3
 
-**Scope update:** Apply the [14 September addendum](Scope_and_Classification_Addendum_2026-09-14.md). Logistics and EXC are excluded from thesis timed analysis. Record pauses in eligible observation and keep them outside adjacent timed tasks. Add Van Weele stages after the session; the legacy code table below remains for source interpretation.
+**Scope update:** Apply the [14 September addendum](Scope_and_Classification_Addendum_2026-09-14.md). **From 1 October** EXC is no longer a separate code: time aftercare, tracing and logistics help as **OTHER** with a short note. This time stays in the total record but outside the improvement scope. A meeting the observer cannot attend can also be recorded as OTHER. Record pauses in observation and keep them outside adjacent timed tasks. Add Van Weele stages after the session; the legacy code table below remains for source interpretation.
 
 Use beside the observer for official exploratory Measure observations from 2 September 2026 onward. The live fields and core timing/non-fabrication logic remain comparable with v1.2; v1.3 aligns MAX interpretation, baseline coverage and repository governance and makes the untimed sub-minute SEND rule explicit.
 
@@ -48,8 +48,8 @@ Acclimatization? yes/no
 | **PO** | create/change/prepare/process PO/order work in Exact | TIME |
 | **CHECK** | price / confirmation / information verification | TIME |
 | **SEND** | forward/send purchasing communication | TIME by default; TALLY only if the complete sub-minute action cannot be timed reliably |
-| **EXC** | aftercare / tracing / rework / exception | TIME IF |
-| **OTHER** | relevant purchasing work that does not fit | TIME IF |
+| **EXC** | historical code; from 1 October record aftercare / tracing / rework / exception as OTHER with a note | — |
+| **OTHER** | relevant purchasing work that does not fit; from 1 October also aftercare, tracing and logistics help (note it) | TIME IF |
 
 ## 6. MAX rule
 

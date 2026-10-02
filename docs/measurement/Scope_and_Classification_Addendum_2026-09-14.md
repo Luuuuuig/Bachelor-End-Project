@@ -2,7 +2,9 @@
 
 Prepared 14 September 2026. Applies the scope decisions recorded on 10 September. The phase crosswalk and operational rules below are researcher implementation choices for review, not additional decisions attributed to the supervisor.
 
-**30 September analysis setup:** the analysis starts from all recorded data. EXC and the other exclusions below are kept as separate groups, not dropped, so results can be reported with or without them. Yijie will discuss with the supervisor whether excluding all EXC is justified. See the [measurement README](README.md#current-totals-from-the-reviewed-csvs).
+**30 September analysis setup:** the analysis starts from all recorded data. EXC and the other exclusions below are kept as separate groups, not dropped, so results can be reported with or without them. See the [measurement README](README.md#current-totals-from-the-reviewed-csvs).
+
+**1 October decision:** the supervisor decided that EXC is no longer a separate category. Work originally coded EXC keeps its recorded time in the total time record, grouped under **OTHER**, and stays **outside the improvement scope**: it is not considered for AI improvement and cannot become the focal case. Work outside the purchasing framework keeps the stage "Not applicable" and stays in the total so its share remains visible. This refines the 10 September exclusion; see [Work outside the improvement scope](#work-outside-the-improvement-scope) and the [meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md).
 
 **30 September observer clarification:** Yijie applied the supervisor's instruction to retain simultaneous activities' full intervals following the 17 September meeting (see [Timing of simultaneous activities](#timing-of-simultaneous-activities)). The 25 September confirmation documented that existing practice; it was not the adoption date. No recorded interval or included total changes.
 
@@ -14,9 +16,11 @@ Prepared 14 September 2026. Applies the scope decisions recorded on 10 September
 
 The primary objective remains reducing the operational buyer's workload while maintaining purchasing quality. Include Dennis's tactical purchasing work in the process investigation. Keep observations identifiable by actor and role. Dennis's evidence need not match Arno's quantity, but must support interpretable patterns in the relevant work.
 
-Logistics is outside the thesis. EXC time is excluded from the thesis Measure analysis and EXC cannot become the focal improvement case, as directed on 10 September. The earlier exception allowing logistics into detailed scope when it creates buyer rework is superseded. The existing broad raw records remain source evidence.
+Logistics is outside the thesis. EXC cannot become the focal improvement case, as directed on 10 September. Since 1 October, EXC time stays in the total time record under OTHER, outside the improvement scope, instead of being excluded from the analysis. The earlier exception allowing logistics into detailed scope when it creates buyer rework is superseded. The existing broad raw records remain source evidence.
 
 ## Applying the exclusion
+
+**Updated 1 October.** Rules 1, 4, 5 and 6 still apply. Under rule 2, former EXC is now marked outside the improvement scope rather than removed from the timed record. Rule 3 is replaced: time such work as OTHER with a short note. See [Work outside the improvement scope](#work-outside-the-improvement-scope).
 
 1. Preserve every original observation, activity label, timestamp and source note. Apply exclusions in a separate derived dataset.
 2. Mark an episode originally coded EXC as `EXCLUDE_EXC` for the thesis timed workload profile and candidate selection. Apply this common scope to historical records when comparing them with later observations. This is a retrospective analytical filter, not a claim that the narrower scope governed the original collection.
@@ -25,13 +29,23 @@ Logistics is outside the thesis. EXC time is excluded from the thesis Measure an
 5. Do not relabel historical EXC as CLAR, CHECK, SEND or PO to make it eligible. Correct a genuine transcription error only with a dated source-based correction.
 6. Preserve explicit data-quality exclusions independently of scope. For 8 September, both timed OBS-16 rows remain excluded under the student's contamination note. Unknown time is missing, not zero.
 
-Historical EXC included Finance questions, tracing, cancellations and other exceptions as well as logistics-related work. It is therefore not equivalent to either the logistics department or Van Weele stage 6. The supervisor's EXC exclusion is a scope rule; it is not a theoretical definition of nazorg.
+Historical EXC included Finance questions, tracing, cancellations and other exceptions as well as logistics-related work. It is therefore not equivalent to either the logistics department or Van Weele stage 6. The supervisor's EXC rule is a scope rule; it is not a theoretical definition of nazorg.
+
+### Work outside the improvement scope
+
+Decided on [1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md). In the derived analysis data:
+
+1. Rows originally coded EXC (including `OTHER/EXC`) are grouped under the family **OTHER** and marked **outside the improvement scope**. Reports show them as "OTHER (outside improvement)", so they never mix with in-scope OTHER work. The raw code stays as written.
+2. Their time stays in the **total time record**, so their share of Arno's work remains visible. Comparisons of improvement candidates leave this work out; which of the remaining work suits improvement is decided in the candidate comparison, not by this rule.
+3. Work outside the purchasing framework, such as helping Logistics find an item that had already been received, keeps the stage "Not applicable".
+4. In new observations, time such work as OTHER with a short note. A meeting the observer cannot attend, for example during Dennis's work, can also be recorded as OTHER; its content was not observed.
+5. If this work shows a stable share, a later comparison can keep it as an unchanged part of total workload, because the AI would not address it.
 
 ## Van Weele coding
 
 Use the [Purchasing activity framework of 21 September](../process/Purchasing_Activity_Framework_2026-09-21.md) for the current analytical activity list. The [14 September mapping](../process/Van_Weele_Activity_Mapping_2026-09-14.md) remains a historical crosswalk reference. The current list starts from concrete tasks and organizes their analytical labels around the purchasing stages; it is not a replacement live codebook.
 
-Preserve the seven current live families: **REQ, CLAR, DEC, PO, CHECK, SEND and OTHER**. The historical eighth family, **EXC**, remains traceable in earlier or retained source records and subject to the scope exclusion above. A work family provides a broad live description; an analytical activity identifies the task's purchasing purpose within the framework. Record full analytical activity labels after the session rather than requiring additional live codes.
+Preserve the seven current live families: **REQ, CLAR, DEC, PO, CHECK, SEND and OTHER**. The historical eighth family, **EXC**, remains traceable in earlier or retained source records; since 1 October it is grouped under OTHER and kept outside the improvement scope. A work family provides a broad live description; an analytical activity identifies the task's purchasing purpose within the framework. Record full analytical activity labels after the session rather than requiring additional live codes.
 
 The design chain runs from exploratory observations to the AS-IS task inventory, then to literature-informed observation and pilot refinement, broad live families, the addition of Dennis's relevant context, and the framework-guided analytical list requested on 17 September. Row enrichment connects those records to stage-and-task analysis. Van Weele organizes purchasing activities; it does not originate or validate the measurement instrument. The [method justification](Measurement_Method_Justification.md) explains the evidence and local adaptations.
 
@@ -98,13 +112,14 @@ These outputs describe recorded occurrence and time requirements. The broader wo
 
 If total net exposure is known but the narrower exposure cannot be reconstructed, report the original exposure explicitly and restrict comparisons to that common definition. Do not silently replace 351 historical net minutes or 265 historical timed minutes with narrower totals. Recalculate and label the scope-specific results first. Those historical totals cover 31 August and 1 September only.
 
-Keep Dennis and Arno in separate profiles. Pooling their minutes would change the primary outcome and give more weight to whichever role was observed longer. EXC exclusion narrows what the thesis can conclude about workload; the included profile is not a complete account of all of Arno's work.
+Keep Dennis and Arno in separate profiles. Pooling their minutes would change the primary outcome and give more weight to whichever role was observed longer. Since 1 October, former EXC time stays in the total record, so the profile of all recorded work covers it; the improvement-scope profile is not a complete account of all of Arno's work.
 
 Report analytical-activity coverage alongside any activity summary. A subset of rows that can receive detailed labels is not a complete workload profile. Preserve known stages with unresolved activities, combined episodes and eligible family-only evidence in the denominator and coverage accounting instead of discarding them silently.
 
 ## Sources
 
 - [Academic decisions of 10 September](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md), especially EXC scope and Dennis data sufficiency.
+- [Academic meeting of 1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md), which groups former EXC under OTHER outside the improvement scope and keeps work outside the framework visible as Not applicable.
 - [Academic decisions of 3 September](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md), especially preservation of raw data, observation sufficiency and analysis denominators.
 - [Measurement Protocol v1.3](Measurement_Protocol_v1.3.md), retained for interruption and non-fabrication rules and for timing except where this addendum supersedes the scope or timing rules.
 - [8 September observation](Measure_Observation_2026-09-08.md), including the OBS-16 exclusion.

@@ -150,6 +150,11 @@ Only context supported by the notes is asserted. `Unknown` is used rather than i
 - **What a check covers:** a price check also includes updating the ETA in Exact to the date the supplier states. This is a regular part of checking a supplier confirmation after ordering. In a check before ordering it happens only when the supplier states the ETA; some suppliers do, others do not.
 - **Minutes per line:** because the price part was blocked, OBS-18 is an incomplete check. It counts in CHECK time and frequency, but not in the minutes-per-line figure, which uses completed checks only.
 
+
+### Observer decision, 2 October 2026
+
+- **OBS-02 REQ, 10:49–10:50:** at Yijie's request, this desk intake is recorded as an untimed tally in the [reviewed CSV](Arno_Measurement_2026-09-01.csv), like the other REQ intakes, so its one minute is no longer counted. The transcription above keeps 10:49–10:50 as written in the notebook. The row still counts as one REQ occurrence; the session's recorded minutes in the CSV fall from 162 to 161.
+
 ---
 
 # 4. Post-session enrichment

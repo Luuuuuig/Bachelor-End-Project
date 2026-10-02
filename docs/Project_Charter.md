@@ -35,7 +35,7 @@ Define/Measure/Analyze cover operational purchasing and Dennis's relevant tactic
 
 ## Out of detailed scope for now
 
-- Logistics and EXC time in the thesis Measure analysis and focal-case selection, following the [10 September academic decision](meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md). This supersedes the earlier logistics/buyer-rework exception. Preserve historical raw evidence and use explicit analytical exclusions.
+- Logistics and former EXC work as an improvement focus, following the [10 September academic decision](meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md). Since [1 October](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) their time stays in the total time record under OTHER, outside the work considered for AI improvement. This supersedes the earlier logistics/buyer-rework exception. Preserve historical raw evidence and use explicit analytical exclusions.
 - Independent optimization of Dennis's workload. Tactical purchasing tasks, including supplier selection where observed, can inform a coherent purchasing improvement tied to the primary objective.
 - Full technical integration or production deployment before the focal use case and feasibility gates are justified.
 
@@ -43,7 +43,7 @@ Define/Measure/Analyze cover operational purchasing and Dennis's relevant tactic
 
 The project does **not** use one invented total-workload score.
 
-The Measure-phase outcome is a multidimensional profile of included purchasing work. Apply the [scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md); excluded EXC and logistics work cannot contribute to the profile or candidate ranking. The profile uses, where relevant:
+The Measure-phase outcome is a multidimensional profile of included purchasing work. Apply the [scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md); former EXC and logistics work stays visible in the total time record but cannot contribute to candidate ranking. The profile uses, where relevant:
 
 - task frequency;
 - active processing time;
@@ -62,7 +62,7 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 - Buyer walkthrough completed and formal SOP/WI evidence integrated.
 - Workload construct defined.
 - 28 August Measure pilot completed.
-- Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Confirmed net observation is 165, 186, 104, 240 and 197 minutes, **892 minutes** in total ([observation-time review](measurement/Observation_Time_Review_2026-09-25.md)). The 8 September OBS-16 contamination exclusion remains. Historical two-session totals before the narrower scope filter were **351 net observed minutes** and **265 timed coded-active minutes**; do not present them as current or EXC-filtered totals. Dennis's work is recorded in the 15 September internship notes and a timed observation on 25 September. The observer-reviewed daily CSVs (30 September) are the current working data. The analysis starts from all 287 rows and 752 recorded minutes; EXC (182 minutes) is shown as a separate group until the EXC rule has been discussed with the supervisor.
+- Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Confirmed net observation is 165, 186, 104, 240 and 197 minutes, **892 minutes** in total ([observation-time review](measurement/Observation_Time_Review_2026-09-25.md)). The 8 September OBS-16 contamination exclusion remains. Historical two-session totals before the narrower scope filter were **351 net observed minutes** and **265 timed coded-active minutes**; do not present them as current or EXC-filtered totals. Dennis's work is recorded in the 15 September internship notes and a timed observation on 25 September. The observer-reviewed daily CSVs (30 September) are the current working data. The analysis starts from all 287 rows and 751 recorded minutes; since 1 October, former EXC (182 minutes) stays in the total under OTHER, outside the improvement scope.
 - Measurement Protocol v1.3 is controlled for observations from 2 September onward; its live fields/timing remain comparable with v1.2.
 - The current planning target is five distinct observation days, followed by the predeclared coverage review; 40 net hours is not assumed to be equivalent.
 - Representative in-scope baseline frequencies and active processing-time patterns are still being established. Dennis discovery and a separate pattern-sufficiency review remain required.

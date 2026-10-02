@@ -9,7 +9,7 @@
 - [Dennis observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
 - [Follow-up register and remaining evidence needs](planning/Supervisor_Follow_Up_2026-09-14.md).
 
-The 10 September academic scope decision supersedes older descriptions of logistics and EXC eligibility. Earlier observations retain their original evidence status. Prepared text and mapping do not establish submission, completed fieldwork or supervisor validation.
+The 10 September academic scope decision supersedes older descriptions of logistics and EXC eligibility. On 1 October it was refined: former EXC work stays in the total time record, grouped under OTHER and kept outside the improvement scope ([meeting notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)). Earlier observations retain their original evidence status. Prepared text and mapping do not establish submission, completed fieldwork or supervisor validation.
 
 
 **Last synchronized:** 30 September 2026 for the Measure status and meeting list; other descriptions date from 2 September 2026.

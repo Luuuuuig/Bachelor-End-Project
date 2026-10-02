@@ -23,8 +23,9 @@ Do not rewrite old notes to make them look as though later knowledge was already
 
 ## Latest academic-supervisor records
 
+- `Academic_Supervisor_Meeting_Notes_2026-10-01.md` — start analysing Arno's data without waiting for Dennis; former EXC grouped under OTHER and kept outside the improvement scope, with its time retained; work outside the purchasing framework kept as Not applicable; CHECK compared per order line; organising time by purchasing stage; AI task categories compared with buyer acceptance; a possible evaluation in a test environment; the 29 October and early-November meetings cancelled.
 - `Academic_Supervisor_Meeting_Notes_2026-09-17.md` — Dennis's fragmented tactical work, recording the time of simultaneous activities separately, reorganizing the activity list around the purchasing framework, and Plan of Work planning.
-- `Academic_Supervisor_Meeting_Notes_2026-09-10.md` — academic scope decision: Dennis added to the purchasing context; logistics and EXC time excluded from thesis analysis.
+- `Academic_Supervisor_Meeting_Notes_2026-09-10.md` — academic scope decision: Dennis added to the purchasing context; logistics and EXC time excluded from thesis analysis (EXC refined on 1 October).
 - `Academic_Supervisor_Meeting_Notes_2026-09-03.md` — five-day sufficiency review, pattern stability and saturation, mandatory AI scope, defensible variable selection, methodology justification and follow-up actions.
 - `Academic_Supervisor_Agenda_2026-09-03.md` — pre-meeting agenda covering the workload definition, Measurement Protocol and observation stopping rule.
 
