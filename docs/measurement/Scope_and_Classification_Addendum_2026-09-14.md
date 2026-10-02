@@ -10,6 +10,8 @@ Prepared 14 September 2026. Applies the scope decisions recorded on 10 September
 
 **30 September recording-mark clarification:** a handwritten `/` in the observation sheets means none. See [Recording marks](#recording-marks).
 
+**2 October clarification:** `REQ-Exact` marks a case that starts from a PO Arno generated earlier, not a new request. See [Recording marks](#recording-marks).
+
 **21 September classification addition:** The [stage-organized analytical activity list](../process/Purchasing_Activity_Framework_2026-09-21.md) is now the current reference for detailed activity assignments. This addition implements the framework-guided classification direction discussed on 17 September. It retains the original 14 September scope decisions and changes no live fields, timing rules, original observation rows or research questions.
 
 ## Scope
@@ -97,6 +99,8 @@ The interruption, tally and non-fabrication rules are unchanged.
 | Note | no note |
 
 Blank cells are not the same as `/`. Blank `DEC?` cells on 31 August mean the flag was not recorded, as that day's note states; other blank cells stay missing. Neither a `/` nor a blank supplies a duration.
+
+**Observer clarification, 2 October 2026.** `REQ-Exact` marks a case that starts from a PO Arno generated earlier in Exact, not a request from another person. This applies to the 14 `REQ-Exact` records (8 on 31 August, 6 on 18 September). They keep their code as written. Their kinds-of-work label "receive a request" (K01) will be corrected together with the [coding check](Kinds_Coding_Check_Sample_2026-10-02.xlsx).
 
 ## Measures and denominators
 
