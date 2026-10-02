@@ -30,7 +30,7 @@
 
 Start with the work before mentioning AI, so the answers describe the problem rather than react to a solution.
 
-These questions are part C of the [Arno follow-up session guide](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), which also covers the causes of the work and the list of kinds of work.
+These questions are part D of the [Arno follow-up session guide](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), which also covers the causes of the work and the list of kinds of work.
 
 1. Of the tasks in the table, which take the most effort or cause the most rework for you, and why?
 
