@@ -148,6 +148,36 @@ The stored 2006 paper describes the six-activity design-science research process
 
 **Use:** Informs the saturation part of the [five-day coverage check](../analysis/Analysis_Plan_2026-09-30.md#five-day-check): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
 
+### AI functions, levels of automation and the buyer's role
+
+Used for the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md) requested on 1 October. Each entry records three separate statuses: citation verified, abstract reviewed and full text reviewed.
+
+**Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000).** *A model for types and levels of human interaction with automation*. *IEEE Transactions on Systems, Man, and Cybernetics – Part A: Systems and Humans, 30*(3), 286–297. https://doi.org/10.1109/3468.844354
+
+**Use:** Framework for the comparison table. It separates which function receives support (information acquisition, information analysis, decision and action selection, action implementation) from how independently the system performs it. A general automation model, not procurement-specific.
+
+**Status:** citation verified 2 October 2026 (PubMed record); abstract and full text not yet reviewed.
+
+**Burger, Nitsche & Arlinghaus (2023).** *Hybrid intelligence in procurement: Disillusionment with AI's superiority?* *Computers in Industry*, article 103946. https://doi.org/10.1016/j.compind.2023.103946 (free text as the first paper in https://d-nb.info/132636524X/34)
+
+**Use:** Four procurement case studies of how buyers' expertise and AI complement each other, and their limits. Relevant to the buyers' concern about losing track of their work; does not show that human–AI collaboration automatically improves performance.
+
+**Status:** citation verified 2 October 2026 (RWTH publication record; complete the author initials from it); abstract and full text not yet reviewed.
+
+**Spreitzenbarth, J. M., Bode, C., & Stuckenschmidt, H. (2024).** *Artificial intelligence and machine learning in purchasing and supply management: A mixed-methods review of the state-of-the-art in literature and practice*. *Journal of Purchasing and Supply Management, 30*(1), 100896. https://doi.org/10.1016/j.pursup.2024.100896
+
+**Use:** Background on procurement AI use cases from 46 studies and 20 expert interviews, and a source of further references. The included studies run from 1989 to 2020, so recent generative AI is not covered.
+
+**Status:** citation details still to verify; abstract and full text not yet reviewed.
+
+**Noy, S., & Zhang, W. (2023).** *Experimental evidence on the productivity effects of generative artificial intelligence*. *Science, 381*(6654), 187–192. https://doi.org/10.1126/science.adh2586
+
+**Use:** Experimental evidence that generative AI helped professionals with writing tasks; supports investigating drafting help for clarification and supplier messages. Not procurement-specific.
+
+**Status:** citation details still to verify; abstract and full text not yet reviewed.
+
+The existing entry for Amershi et al. (2019) under *Human-AI interaction and appropriate reliance* also supports the comparison: buyers should be able to understand, inspect and correct AI suggestions.
+
 ### Supporting mental-workload operationalization and measurement
 
 **Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
@@ -181,6 +211,28 @@ The stored 2006 paper describes the six-activity design-science research process
 ---
 
 ## Possible use when we know more
+
+### Document retrieval, extraction and matching
+
+Candidate-specific sources for rows of the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md). Same three statuses as above.
+
+**Lombardi et al. (2025).** *Title block detection and information extraction for enhanced building drawings search*. EC³ / CIB W78 conference, 2025. https://doi.org/10.35490/EC3.2025.344 (manuscript: https://arxiv.org/abs/2504.08645)
+
+**Use if needed:** Closest applied work for finding drawings: AI extraction of title-block metadata supports searching and filtering drawings. Building drawings rather than component drawings; does not show whether a drawing set is complete or correctly revised.
+
+**Status:** citation verified 2 October 2026 (EC³ publication record; complete the author list from it); abstract and full text not yet reviewed.
+
+**Tater et al. (2022).** *AI driven accounts payable transformation*. *Proceedings of the AAAI Conference on Artificial Intelligence, 36*(11), 12405–12413. https://doi.org/10.1609/aaai.v36i11.21506
+
+**Use if needed:** Precedent for comparing documents and flagging discrepancies: invoice lines are matched to PO lines using text similarity, price and quantity checks, with human review. Accounts-payable setting, so price checks before ordering or against supplier confirmations need adaptation and testing.
+
+**Status:** citation verified 2 October 2026 (AAAI proceedings record; complete the author list from it); abstract and full text not yet reviewed.
+
+**Šimsa et al. (2023).** *DocILE benchmark for document information localization and extraction*. In *Document Analysis and Recognition – ICDAR 2023*, 147–166. https://arxiv.org/abs/2302.05658
+
+**Use if needed:** Benchmark for locating fields in business documents and grouping them into line items across layouts; relevant to extracting item descriptions, quantities and prices before checking them. Shows feasibility of extraction, not usefulness here, and does not resolve the intended meaning of an ambiguous quantity.
+
+**Status:** citation details still to verify; abstract and full text not yet reviewed.
 
 ### Subjective mental-workload measurement
 
