@@ -151,6 +151,8 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 
 # 4. Current candidate portfolio
 
+The [AI function comparison](AI_Function_Comparison_2026-10-02.md) of 2 October maps observed tasks to the AI function they would use, the buyer's role, supporting literature and buyer acceptance, following the 1 October action. It informs, but does not replace, the candidate assessment below.
+
 Candidate names are used instead of reusable letter IDs so that a candidate cannot mean different things in different documents. The AS-IS process file may retain local profile labels for navigation, but this methodology file is authoritative for current thesis-candidate status.
 
 ## 4.1 Active primary-case candidates
