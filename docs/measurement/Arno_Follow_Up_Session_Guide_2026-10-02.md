@@ -91,14 +91,6 @@ Record each answer in [Appendix 4](#appendix-4-acceptance-record). Fill in a sta
 
 Thank him and say what happens next: his answers update the causes and the list of kinds, and the selection of a focus is discussed with Zhongxin.
 
-## Separately, for Johan
-
-Yijie reported on 2 October 2026 that Johan allows the data in the Exact test account to be used, and that the account holds past cases from an earlier period that are not up to date. To judge whether those data can stand in for real cases (gate 2 of the [selection rule](../methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule)), ask Johan:
-
-- Up to which date do the test data run?
-- Do they contain POs, supplier confirmations, quotations and price history?
-- Can documents such as PDF confirmations be exported from it?
-
 ## After the session
 
 - Update the status of each cause in Appendix 2, and change the causes in part 9 of the notebook to match.
@@ -128,6 +120,7 @@ Answers to the first version of this guide, from Yijie's earlier conversations w
 | Maximalisatie | As in the first answer. |
 | *Binnenboeken* | Administrative work in Exact. |
 | Test examples and the test account | The test account holds past cases, but from an earlier period; it is not up to date. |
+| Permission to use data | Johan allows the data in the Exact test account to be used (gate 1 of the [selection rule](../methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule)). |
 
 ---
 

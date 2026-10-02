@@ -8,7 +8,7 @@
 - **Communication is a task area, not a separate function.** Drafting a message (row 10) and sending it automatically (row 11) are separate rows with separate questions.
 - **Evidence** names the supporting cases (date and OBS number) and the minutes the notes allow. "Minutes" are the rows whose note shows the task; "attributable" counts only rows that show nothing else. Where the notes cannot separate the task's own time, the table says so. Former EXC minutes are left out because that work is outside the improvement scope. All minutes are observed time in five sessions, not improvement potential or savings.
 - **Acceptance** is recorded per person, with status (accepted, accepted with conditions, rejected, not yet assessed), conditions, date and evidence. Nobody's position is filled in without evidence from that person.
-- **Sources for cases and minutes:** the [kinds-of-work review](../../analysis/Kinds_Of_Work_Review_2026-09-30.md) and the [2 October analysis notebook](../../Arno_Analysis_2026_10_02.ipynb). Literature details and their checking status are in the [literature register](../../literature/README.md#ai-functions-levels-of-automation-and-the-buyers-role).
+- **Sources for cases and minutes:** the [kinds-of-work codebook](../measurement/Kinds_Of_Work_Codebook.md) and the [2 October analysis notebook](../../Arno_Analysis_2026_10_02.ipynb). Literature details and their checking status are in the [literature register](../../literature/README.md#ai-functions-levels-of-automation-and-the-buyers-role).
 
 ## The table
 
