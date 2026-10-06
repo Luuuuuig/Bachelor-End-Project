@@ -1,0 +1,32 @@
+kind_id,describes,analytical_activity,stage,problem
+K01,Event,None: a request arrives,Any stage,
+K02,Activity,"Prepare, amend or release a purchase order",Ordering,
+K03,Activity,"Assess demand, consolidate and decide order timing",Ordering,
+K04,Activity,Check and correct an order before release,Ordering,
+K05,Activity,Send the purchase order to the supplier,Ordering,
+K06,Subtype,"Prepare, amend or release a purchase order",Ordering,
+K07,Activity,"Prepare, amend or release a purchase order",Ordering,
+K08,Activity,Receive and complete a defined purchasing request,Ordering,Missing or unclear information
+K09,Activity,Establish or clarify purchasing requirements,Specification,
+K10,Activity,Establish or clarify purchasing requirements,Specification,
+K11,Activity,Receive and complete a defined purchasing request,Ordering,Drawings to find or complete
+K12,Activity,Maintain purchasing master data,No fixed stage,
+K13,Activity,"Search for, compare or choose suppliers",Supplier selection,
+K14,Problem,Depends on the response,Varies,Item unavailable
+K15,Activity,"Prepare, amend or release a purchase order",Ordering,
+K16,Problem,Depends on the case,Varies,Cancellation after ordering
+K17,Activity,Monitoring checks and confirmation handling; subtype may be unknown,Monitoring,
+K18,Problem,Depends on where the difference was found,Varies,Price difference
+K19,Activity,Follow up order status or delivery commitments,Monitoring,
+K20,Problem,None: Finance's work,Varies,Finance issue (e.g. unpaid invoice)
+K21,Activity,Resolve post-receipt or invoice discrepancies,Follow-up and evaluation,
+K22,Outside the activity list,None,None,
+K23,Outside the activity list,None,Not applicable,
+K24,Outside the activity list,None: purpose varies,Varies,
+K25,Subtype,"Prepare, amend or release a purchase order",Ordering,
+K26,Problem,None,Varies,Exact error or delay
+K27,Outside the activity list,Unresolved activity,None,
+K28,Activity,Retrieve purchasing information with unresolved purpose,No fixed stage,
+K29,Event,None: a question arrives,Any stage,
+K30,Outside the activity list,None,None,
+K31,Outside the activity list,None,None,

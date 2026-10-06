@@ -1,12 +1,12 @@
 # Arno follow-up session guide
 
-**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers. **Updated 6 October:** terminology and classification status now follow the revised notebook. The reported answers below remain a dated account of 2 October; this guide does not require another broad observation round.
+**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers. **Updated 6 October:** terminology and classification status now follow the revised notebook. The reported answers below remain a dated account of 2 October; this guide does not require another broad observation round. **Later on 6 October:** part B starts with two questions on what an order check compares and how often confirmations are checked, to support purchase-price control as a candidate without new observation (part 8 of the notebook).
 
 ## Purpose
 
 The analysis shows where Arno's time goes. This session collects his answers on three things:
 
-1. **Causes.** Confirm, change or reject the causes in part 9 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, order checking and discrepancy handling, and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
+1. **Causes.** Confirm, change or reject the causes in part 9 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, purchase-price control (within the order checks), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
 2. **Kinds of work.** Check whether the list of kinds of work misses or misnames any of his work (part 4 of the notebook).
 3. **Acceptance.** Find out which kinds of support he would accept, and under which conditions, for the tasks in the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md). These answers must come from Arno himself.
 
@@ -18,8 +18,8 @@ Talk about the work before mentioning AI, so his answers describe the problem ra
 |---|---|---|
 | 5 min | Opening | — |
 | 10 min | A. Confirm what Yijie reported | The three fishbone diagrams from part 9, printed |
-| 10 min | B. What is still open | — |
-| 10 min | C. The list of kinds of work | [Appendix 1](#appendix-1-kinds-of-work-to-show-arno), printed |
+| 15 min | B. What is still open | — |
+| 5 min | C. The list of kinds of work | [Appendix 1](#appendix-1-kinds-of-work-to-show-arno), printed |
 | 20 min | D. What support he would accept | — |
 | 5 min | Closing: test examples | — |
 
@@ -49,21 +49,25 @@ Read out each point below and ask: "Is this right? Would you add or change anyth
 - **Prices (PC-1, PC-5, PC-6, PC-10):** price differences come from prices in Exact that are not updated often, and from supplier prices that change. Exact cannot compare a confirmation with a PO, so you compare by hand.
 - **Finance (PC-9):** when Finance returns a case, it is unclear when and where something is missing.
 
-## B. What is still open (10 min)
+## B. What is still open (15 min)
 
-2. Why do drawing sets from Engineering sometimes miss drawings? Is there a list of which drawings an item needs?
-3. Which cases would you call routine, and what makes a case exceptional? The absence of a problem note or an observed return does not establish that boundary.
-4. How do you find other demand to combine with a PO, for example through Exact's advice? What makes a held PO ready to send?
-5. If time allows, one or two causes that were not discussed yet: how often do Exact faults or unpaid invoices hold up your work (PO-5, PC-8)?
+Start with the two questions on checks: in the observation notes, most checks do not say what was compared, so these answers decide how much of the checking time is price control.
 
-## C. The list of kinds of work (10 min)
+2. When you check an order before sending it, or a supplier confirmation afterwards, what do you compare: price, delivery date, quantities or the item itself? Which of these takes the most time?
+3. Roughly how many confirmations do you check in a normal week, and how often does a price differ from the PO?
+4. Why do drawing sets from Engineering sometimes miss drawings? Is there a list of which drawings an item needs?
+5. Which cases would you call routine, and what makes a case exceptional? The absence of a problem note or an observed return does not establish that boundary.
+6. How do you find other demand to combine with a PO, for example through Exact's advice? What makes a held PO ready to send?
+7. If time allows, one or two causes that were not discussed yet: how often do Exact faults or unpaid invoices hold up your work (PO-5, PC-8)?
+
+## C. The list of kinds of work (5 min)
 
 Show Appendix 1. It lists the kinds of work the observations were sorted into.
 
-6. Is any of your regular work missing from this list?
-7. Is any name wrong or unclear, or are two kinds really the same work?
-8. The list marks seven kinds as problems. Are these the problems you meet most, and is one missing?
-9. Two small points from the notes: is arranging certification with Lloyd (18 September, OBS-06) part of your purchasing work? What was the service order of 23 September (OBS-07) about?
+8. Is any of your regular work missing from this list?
+9. Is any name wrong or unclear, or are two kinds really the same work?
+10. The list marks seven kinds as problems. Are these the problems you meet most, and is one missing?
+11. Two small points from the notes: is arranging certification with Lloyd (18 September, OBS-06) part of your purchasing work? What was the service order of 23 September (OBS-07) about?
 
 Record the answers in [Appendix 3](#appendix-3-feedback-on-the-kinds-of-work).
 
@@ -71,23 +75,23 @@ Record the answers in [Appendix 3](#appendix-3-feedback-on-the-kinds-of-work).
 
 Use the tasks in the AI function table. Start with finding drawings and checking drawing sets (rows 1–2), then checking prices and confirmations (rows 5–6). Take the others as time allows. For each task discussed, ask:
 
-10. Which documents or information do you use, and where do you find them?
-11. What makes the result correct, and how do you notice a mistake?
-12. Would it help if a system found, flagged, drafted or suggested this for you? What would you still want to check yourself?
-13. Which decisions must stay with you?
-14. Under which conditions would you use it, for example if it shows its source, lets you correct it easily, or never acts on its own?
+12. Which documents or information do you use, and where do you find them?
+13. What makes the result correct, and how do you notice a mistake?
+14. Would it help if a system found, flagged, drafted or suggested this for you? What would you still want to check yourself?
+15. Which decisions must stay with you?
+16. Under which conditions would you use it, for example if it shows its source, lets you correct it easily, or never acts on its own?
 
 Then three separate questions:
 
-15. On 1 October I reported a concern about AI preparing orders on its own while the buyer only approves. Does that match your view? Would partial help be different, such as a prepared line that you complete yourself?
-16. Would you want a drafted message that you can edit? Separately: would you ever let a message be sent without you?
-17. Prices in Exact are not updated often because there is no time. Would it help if a system suggested price updates from recent confirmations, for you to approve?
+17. On 1 October I reported a concern about AI preparing orders on its own while the buyer only approves. Does that match your view? Would partial help be different, such as a prepared line that you complete yourself?
+18. Would you want a drafted message that you can edit? Separately: would you ever let a message be sent without you?
+19. Prices in Exact are not updated often because there is no time. Would it help if a system suggested price updates from recent confirmations, for you to approve?
 
 Record each answer in [Appendix 4](#appendix-4-acceptance-record). Fill in a status only from his own words.
 
 ## Closing: test examples (5 min)
 
-18. The test account holds past cases from an earlier period. Which past orders, confirmations, quotations or drawings would be good test examples, and where are they kept?
+20. The test account holds past cases from an earlier period. Which past orders, confirmations, quotations or drawings would be good test examples, and where are they kept?
 
 Thank him and say what happens next: his answers update the causes and the list of kinds, and the selection of a focus is discussed with Zhongxin.
 
@@ -100,7 +104,7 @@ Thank him and say what happens next: his answers update the causes and the list 
 
 ## What Yijie reported on 2 October
 
-Answers to the first version of this guide, from Yijie's earlier conversations with Arno and Dennis or his own observation. Where Yijie named the person, the answer says so.
+Answers to the first version of this guide, from Yijie's earlier conversations with Arno and Dennis or Yijie's own observation. Where Yijie named the person, the answer says so.
 
 | Question | Answer |
 |---|---|
