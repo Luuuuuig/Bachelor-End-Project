@@ -4,7 +4,8 @@
 
 - **Labels:** [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv), one line per record with its date, row, case, activity code, minutes, stage, kinds and note. 259 of the 287 records have at least one kind. Fourteen other records are known earlier-PO context markers, and 14 work records remain unclassified; a record can have up to three kinds.
 - **Use in the notebook:** the saturation check in part 1; part 4 explains why the kinds are needed, where they come from, how each one fits under the analytical activities of the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md), and how reliable they are; parts 5 to 9 use them for tasks, cases, problems, candidates and causes.
-- **Reliability:** not yet established. One coder assigned the labels; a blind coding check by Yijie on a [sample of 45 records](Kinds_Coding_Check_Sample_2026-10-02.xlsx) is pending.
+- **Reliability:** not yet established. One coder assigned the labels; a blind coding check by Yijie on a [sample of 45 records](Kinds_Coding_Check_Sample_2026-10-02.xlsx) is pending. The sheet's codebook and instructions were refreshed to these definitions on 6 October; the 45 records are unchanged.
+- **Framework map:** each kind's place under the analytical activities and Van Weele stages is in [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv).
 - **Method:** inductive (conventional) qualitative content analysis, with categories derived from the notes (Hsieh & Shannon, 2005; see the [literature register](../../literature/README.md#coding-the-observation-notes)).
 
 ## Kinds
