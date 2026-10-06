@@ -51,7 +51,7 @@ Read out each point below and ask: "Is this right? Would you add or change anyth
 
 ## B. What is still open (15 min)
 
-Start with the two questions on checks: in the observation notes, most checks do not say what was compared, so these answers decide how much of the checking time is price control.
+Start with the two questions on checks. In the observation notes, most checks do not say what was compared. The answers describe what a check normally involves and how often it happens; they do not change how the recorded minutes are classified.
 
 2. When you check an order before sending it, or a supplier confirmation afterwards, what do you compare: price, delivery date, quantities or the item itself? Which of these takes the most time?
 3. Roughly how many confirmations do you check in a normal week, and how often does a price differ from the PO?
@@ -97,7 +97,7 @@ Thank him and say what happens next: his answers update the causes and the list 
 
 ## After the session
 
-- Update the status of each cause in Appendix 2, and change the causes in part 9 of the notebook to match.
+- Record Arno's check of each cause in Appendix 2. In the [causes file](../analyze/Arno_Causes_Draft_2026-10-06.csv), keep the `status` and `answer_2_oct` columns as the record of 2 October and add Arno's check and words in new dated columns; then update part 9 of the notebook to show them.
 - Add missing or renamed kinds from Appendix 3 to the definitions, and note the change in part 4.
 - Copy the acceptance answers from Appendix 4 into the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md#recording-the-answers).
 - Record any new facts with the date and "according to Arno", as in the observation notes.
