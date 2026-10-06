@@ -1,12 +1,12 @@
 # Arno follow-up session guide
 
-**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers.
+**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers. **Updated 6 October:** terminology and classification status now follow the revised notebook. The reported answers below remain a dated account of 2 October; this guide does not require another broad observation round.
 
 ## Purpose
 
 The analysis shows where Arno's time goes. This session collects his answers on three things:
 
-1. **Causes.** Confirm, change or reject the causes in part 9 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three largest candidates: creating or completing PO lines, purchase-price control and request intake & validation.
+1. **Causes.** Confirm, change or reject the causes in part 9 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, order checking and discrepancy handling, and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
 2. **Kinds of work.** Check whether the list of kinds of work misses or misnames any of his work (part 4 of the notebook).
 3. **Acceptance.** Find out which kinds of support he would accept, and under which conditions, for the tasks in the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md). These answers must come from Arno himself.
 
@@ -52,7 +52,7 @@ Read out each point below and ask: "Is this right? Would you add or change anyth
 ## B. What is still open (10 min)
 
 2. Why do drawing sets from Engineering sometimes miss drawings? Is there a list of which drawings an item needs?
-3. In the observations, 58 of 98 cases were done in one go with no problem in the notes, and 79 of 98 had no problem recorded at all. Roughly how many of your cases would you call routine, and what makes a case not routine?
+3. Which cases would you call routine, and what makes a case exceptional? The absence of a problem note or an observed return does not establish that boundary.
 4. How do you find other demand to combine with a PO, for example through Exact's advice? What makes a held PO ready to send?
 5. If time allows, one or two causes that were not discussed yet: how often do Exact faults or unpaid invoices hold up your work (PO-5, PC-8)?
 
@@ -136,8 +136,8 @@ Grouped as in part 4 of the notebook. **Problems** are marked with ⚠.
 - K13 Search for another supplier or better price.
 
 **Ordering**
-- K02 Create or complete a PO for a need: enter or amend PO lines in Exact.
-- K03 Maximalisatie and hold-or-order decision: combine demand into an open PO for the same supplier, and decide to hold or order.
+- K02 PO preparation and completion: broad entry, amendment and supporting paperwork, sometimes in combined intervals.
+- K03 MAX, demand consolidation and HOLD/order decisions: combines related work; the whole category is not explicit MAX alone.
 - K04 Check before ordering: check price, and delivery date where stated, before the PO is sent.
 - K05 Send or forward the PO to the supplier.
 - K07 Approval-related handling: forward an approved PO, or note that approval is awaited or needed again.
@@ -147,7 +147,7 @@ Grouped as in part 4 of the notebook. **Problems** are marked with ⚠.
 - Purchase types handled the same way: K06 credit-card purchase, K25 service or transport purchase.
 
 **Monitoring**
-- K17 Check a supplier confirmation: compare it with the PO on price and delivery date, update Exact, attach it.
+- K17 Monitoring checks and confirmation handling: checking and attachment work; some check subtypes are unspecified.
 - K19 Follow up order status or delivery.
 
 **Follow-up and evaluation**
@@ -187,7 +187,7 @@ Status after 2 October as in part 9 of the notebook. Evidence: O observed in the
 | PO-3 | PO lines | Non-urgent POs are left open on purpose to add later demand | R | Supported | | |
 | PO-4 | PO lines | Drawings or item details turn out to be missing during entry | O | Supported | | |
 | PO-5 | PO lines | Exact errors and delays | O | Not yet discussed | | |
-| PO-6 | PO lines | Articles must first be created in Exact, by Arno or Dennis | O | Changed | | |
+| PO-6 | PO lines | Articles must first be created in Exact, by Arno or Dennis | O + R | Changed | | |
 | PO-7 | PO lines | Interruptions by calls, email and colleagues | O | Not yet discussed | | |
 | PO-8 | PO lines | POs above Arno's €10,000 limit need Johan's approval | O | Supported | | |
 | PO-9 | PO lines | Colleague or requester unavailable, so the case is left | O | Not yet discussed | | |
@@ -195,9 +195,9 @@ Status after 2 October as in part 9 of the notebook. Evidence: O observed in the
 | PO-11 | PO lines | Colleagues' data mistakes in Exact need checks to avoid ordering twice | R | New | | |
 | RI-1 | Request intake | Requests arrive informally by email, at the desk or by phone | O | Changed | | |
 | RI-2 | Request intake | Quantity or option is unclear | O | Supported | | |
-| RI-3 | Request intake | Item details are missing, such as a machine's serial number for a service order | O | Changed | | |
+| RI-3 | Request intake | Item details are missing, such as a machine's serial number for a service order | O + R | Changed | | |
 | RI-4 | Request intake | Information from the requester can be wrong | E | Not yet discussed | | |
-| RI-5 | Request intake | No standard request form: requests come by email, desk or phone | R | Supported | | |
+| RI-5 | Request intake | Requests come through email, desk or phone; the use of a standard form is not established | R | Supported | | |
 | RI-6 | Request intake | Unclear who creates new articles | O | Rejected | | |
 | RI-7 | Request intake | Item hard to identify: old POs searched, several matches | O | Supported | | |
 | RI-8 | Request intake | Item not yet in Exact, and the data to create it are missing | O | Not yet discussed | | |
@@ -227,7 +227,7 @@ New causes Arno names:
 
 | Kind (code or new) | Missing, rename, merge or other | Words |
 |---|---|---|
-| K01 | REQ-Exact records are POs Arno generated earlier, not requests; relabel with the coding check | Yijie, 2 October |
+| K01 | REQ-Exact records are earlier-generated POs, not requests. Applied 6 October: removed K01 and displayed PO-REVISIT in the notebook. | Yijie, 2 October; classification revision, 6 October |
 | K30 | *Binnenboeken* is administrative work in Exact | Yijie, 2 October |
 | | | |
 

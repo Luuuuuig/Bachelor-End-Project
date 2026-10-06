@@ -100,7 +100,7 @@ The interruption, tally and non-fabrication rules are unchanged.
 
 Blank cells are not the same as `/`. Blank `DEC?` cells on 31 August mean the flag was not recorded, as that day's note states; other blank cells stay missing. Neither a `/` nor a blank supplies a duration.
 
-**Observer clarification, 2 October 2026.** `REQ-Exact` marks a case that starts from a PO Arno generated earlier in Exact, not a request from another person. This applies to the 14 `REQ-Exact` records (8 on 31 August, 6 on 18 September). They keep their code as written. Their kinds-of-work label "receive a request" (K01) will be corrected together with the [coding check](Kinds_Coding_Check_Sample_2026-10-02.xlsx).
+**Observer clarification, 2 October 2026.** `REQ-Exact` marks a case that starts from a PO Arno generated earlier in Exact, not a request from another person. This applies to the 14 `REQ-Exact` records (8 on 31 August, 6 on 18 September). They keep their code as written. The initial plan linked their label correction to the [coding check](Kinds_Coding_Check_Sample_2026-10-02.xlsx). **Applied 6 October:** the revised labels remove K01 from these 14 records; the notebook displays PO-REVISIT and retains the raw observation codes.
 
 ## Measures and denominators
 
