@@ -49,7 +49,7 @@
 - A record can show up to three kinds.
 - Code from the record's note and its case context. No kind is guessed from the case alone.
 - **Intake (K01):** incoming REQ records get K01, next to any kind their notes show. REQ-Exact records are context markers for earlier-generated POs; they have `context_only=True` and no intake kind.
-- **Records without a kind:** CLAR or CHECK records with no note (empty or `/`, which means none), or a note of only "Pause for now" or "Forward", which does not say what the work concerned. They have an empty kinds column.
+- **Records with little or no note:** a note that is empty, `/` (which means none), or only "Pause for now" or "Forward" does not say what the work concerned. Such a record is coded from its activity code, stage and case context where these show it: usually PO records as K02, SEND records as K05 and monitoring-stage CHECK records as K17, unless the case shows other work (for example K25 for a service purchase), and some CLAR records from their case (for example K14 in a case about an unavailable item). Where they do not show it, the record has no kind and an empty kinds column; most of these are CLAR records. *(6 October: this rule was earlier written as "CLAR or CHECK records with no note have no kind", which did not match the labels: seven such CLAR or CHECK records have a kind from their stage or case.)*
 
 ## Decisions on specific records
 
