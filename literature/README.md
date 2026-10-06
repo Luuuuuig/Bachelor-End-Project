@@ -146,7 +146,7 @@ The stored 2006 paper describes the six-activity design-science research process
 
 **Guest, G., Namey, E., & Chen, M. (2020).** *A simple method to assess and report thematic saturation in qualitative research*. *PLOS ONE, 15*(5), e0232076. https://doi.org/10.1371/journal.pone.0232076
 
-**Use:** Informs the saturation part of the [five-day coverage check](../analysis/Analysis_Plan_2026-09-30.md#five-day-check): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
+**Use:** Informs the retrospective saturation assessment, now presented in part 1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
 
 ### Coding the observation notes
 

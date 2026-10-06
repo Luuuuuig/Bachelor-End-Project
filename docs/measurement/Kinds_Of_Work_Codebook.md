@@ -1,6 +1,6 @@
 # Kinds of work: codebook
 
-**Created:** 30 September 2026, from the notes and case context of Arno's five baseline sessions. **Moved here:** 2 October 2026, together with the labels file, so that the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) uses nothing from `analysis/`. The definitions, rules and labels are unchanged; the originals in `analysis/` stay as the record of the 1 October meeting.
+**Created:** 30 September 2026, from the notes and case context of Arno's five baseline sessions. **Moved here:** 2 October 2026, together with the labels file, so that the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) uses nothing from `analysis/`. The definitions, rules and labels are unchanged. The obsolete copies in `analysis/` were removed on 6 October; this codebook and the labels file below remain the current notebook inputs.
 
 - **Labels:** [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv), one line per record with its date, row, case, activity code, minutes, stage, kinds and note. 275 of the 287 records have at least one kind; a record can have up to three.
 - **Use in the notebook:** the saturation check in part 1; part 4 explains why the kinds are needed, where they come from, how each one fits under the analytical activities of the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md), and how reliable they are; parts 5 to 9 use them for tasks, cases, problems, candidates and causes.
