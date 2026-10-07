@@ -1,6 +1,6 @@
 # Arno follow-up session guide
 
-**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers. **Updated 6 October:** terminology and classification status now follow the revised notebook. The reported answers below remain a dated account of 2 October; this guide does not require another broad observation round. **Later on 6 October:** part B starts with two questions on what an order check compares and how often confirmations are checked, to support purchase-price control as a candidate without new observation (part 8 of the notebook).
+**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers. **Updated 6 October:** terminology and classification status now follow the revised notebook. The reported answers below remain a dated account of 2 October; this guide does not require another broad observation round. **Later on 6 October:** part B starts with two questions on what an order check compares and how often confirmations are checked, to support purchase-price control as a candidate without new observation (part 9 of the notebook).
 
 ## Purpose
 
@@ -8,8 +8,8 @@
 
 The analysis shows where Arno's time goes. This session collects his answers on three things:
 
-1. **Causes.** Confirm, change or reject the causes in part 9 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, purchase-price control (within the order checks), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
-2. **Kinds of work.** Check whether the list of kinds of work misses or misnames any of his work (part 4 of the notebook).
+1. **Causes.** Confirm, change or reject the causes in part 10 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, purchase-price control (within the order checks), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
+2. **Kinds of work.** Check whether the list of kinds of work misses or misnames any of his work (section 2.3 of the notebook).
 3. **Acceptance.** Find out which kinds of support he would accept, and under which conditions, for the tasks in the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md). These answers must come from Arno himself.
 
 Talk about the work before mentioning AI, so his answers describe the problem rather than react to a solution.
@@ -19,7 +19,7 @@ Talk about the work before mentioning AI, so his answers describe the problem ra
 | Time | Part | What to bring |
 |---|---|---|
 | 5 min | Opening | — |
-| 10 min | A. Confirm what Yijie reported | The three fishbone diagrams from part 9, printed |
+| 10 min | A. Confirm what Yijie reported | The three fishbone diagrams from part 10, printed |
 | 15 min | B. What is still open | — |
 | 5 min | C. The list of kinds of work | [Appendix 1](#appendix-1-kinds-of-work-to-show-arno), printed |
 | 20 min | D. What support he would accept | — |
@@ -99,8 +99,8 @@ Thank him and say what happens next: his answers update the causes and the list 
 
 ## After the session
 
-- Record Arno's check of each cause in Appendix 2. In the [causes file](../analyze/Arno_Causes_Draft_2026-10-06.csv), keep the `status` and `answer_2_oct` columns as the record of 2 October and add Arno's check and words in new dated columns; then update part 9 of the notebook to show them.
-- Add missing or renamed kinds from Appendix 3 to the definitions, and note the change in part 4.
+- Record Arno's check of each cause in Appendix 2. In the [causes file](../analyze/Arno_Causes_Draft_2026-10-06.csv), keep the `status` and `answer_2_oct` columns as the record of 2 October and add Arno's check and words in new dated columns; then update part 10 of the notebook to show them.
+- Add missing or renamed kinds from Appendix 3 to the definitions, and note the change in section 2.3.
 - Copy the acceptance answers from Appendix 4 into the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md#recording-the-answers).
 - Record any new facts with the date and "according to Arno", as in the observation notes.
 
@@ -132,7 +132,7 @@ Answers to the first version of this guide, from Yijie's earlier conversations w
 
 ## Appendix 1: kinds of work to show Arno
 
-Grouped as in part 4 of the notebook. **Problems** are marked with ⚠.
+Grouped as in section 2.4 of the notebook. **Problems** are marked with ⚠.
 
 **Specification**
 - K09 Establish or judge the requirement: decide what exactly is needed, which option, whether an item can replace another.
@@ -184,7 +184,7 @@ Grouped as in part 4 of the notebook. **Problems** are marked with ⚠.
 
 ## Appendix 2: causes to confirm
 
-Status after 2 October as in part 9 of the notebook. Evidence: O observed in the sessions, E earlier August notes, R reported by Yijie on 2 October. Arno's check: **C** confirmed, **Ch** changed (write the new wording), **R** rejected, **–** not discussed.
+Status after 2 October as in part 10 of the notebook. Evidence: O observed in the sessions, E earlier August notes, R reported by Yijie on 2 October. Arno's check: **C** confirmed, **Ch** changed (write the new wording), **R** rejected, **–** not discussed.
 
 | ID | Candidate | Cause | Evidence | Status after 2 Oct | Arno's check | Arno's words |
 |---|---|---|---|---|---|---|

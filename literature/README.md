@@ -32,7 +32,7 @@ Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload
 **Gaps with no source yet (7 October):**
 
 - Checking supplier quotations or order confirmations against a PO; Tater et al. cover invoices, later in the process.
-- The fishbone (cause-and-effect) diagram used in part 9 of the analysis notebook.
+- The fishbone (cause-and-effect) diagram used in part 10 of the analysis notebook.
 - Process redesign directions (eliminate, simplify, standardise, automate or support) used in the Analyze outline.
 - Evaluating the artifact in DSRM beyond Peffers et al.; needed early in Improve.
 
@@ -168,11 +168,11 @@ The stored 2006 paper describes the six-activity design-science research process
 
 **Guest, G., Namey, E., & Chen, M. (2020).** *A simple method to assess and report thematic saturation in qualitative research*. *PLOS ONE, 15*(5), e0232076. https://doi.org/10.1371/journal.pone.0232076
 
-**Use:** Informs the retrospective saturation assessment, now presented in part 1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
+**Use:** Informs the retrospective saturation assessment, now presented in section 3.5 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
 
 ### Coding the observation notes
 
-The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (part 4 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
+The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (section 3.7 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
 
 **Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
 
@@ -218,7 +218,7 @@ The existing entry for Amershi et al. (2019) under *Human-AI interaction and app
 
 ### Statistics used in the analysis notebook
 
-Sources cited in part 1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb). Same three statuses as above.
+Sources cited in Appendix A of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb). Same three statuses as above.
 
 **Ebeling, C. E. (2019).** *An Introduction to Reliability and Maintainability Engineering* (3rd ed.). Waveland Press.
 
@@ -240,7 +240,7 @@ Sources cited in part 1 of the [analysis notebook](../Arno_Analysis_2026_10_02.i
 
 **Brown, L., Gans, N., Mandelbaum, A., Sakov, A., Shen, H., Zeltyn, S., & Zhao, L. (2005).** *Statistical analysis of a telephone call center: A queueing-science perspective*. *Journal of the American Statistical Association, 100*(469), 36–50. https://doi.org/10.1198/016214504000001808
 
-**Use:** Step 11 of part 1: an example where service times were close to lognormal while a formal test rejected exact lognormality. Supports considering lognormal for task durations, not that Arno's durations follow it.
+**Use:** Step 11 of Appendix A: an example where service times were close to lognormal while a formal test rejected exact lognormality. Supports considering lognormal for task durations, not that Arno's durations follow it.
 
 **Status:** citation details still to verify; check the exact statement used in step 11 against the paper before citing it in the thesis.
 

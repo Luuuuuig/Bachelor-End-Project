@@ -30,7 +30,7 @@ In the order of the brief's form: 100, 40, 50, 60, 30, 40, 50.
 
 ## What was known when the weights were set
 
-- The workload figures per candidate area (notebook, part 8) and the [evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md), which holds evidence but no scores.
+- The workload figures per candidate area (analysis notebook, part 9) and the [evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md), which holds evidence but no scores.
 - No candidate had been scored, and no total calculated.
 - The swings were set by thinking about each criterion's range, not about any candidate's figures. Having seen the workload figures first is reported as a limitation.
 
