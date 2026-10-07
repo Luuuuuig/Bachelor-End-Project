@@ -1,0 +1,37 @@
+candidate,gate,verdict,reason,condition
+Purchase-price control,1,Provisional pass,Johan permits using test-account data (reported 2 October). Whether an external AI service may process its documents is not yet confirmed.,"G1, G2"
+Purchase-price control,2,Provisional pass,"PO lines are standard Exact records, and the five sessions give real examples. Whether confirmations and quotations are stored with their POs, and how old the account's period is, are not yet known.","PC1–PC3, G4, G5"
+Purchase-price control,3,Provisional pass,The confirmed or approved price per line is an objective reference: a difference is found or not. Whether it can be traced in the account is not yet known.,"PC4, PC6"
+Purchase-price control,4,Provisional pass,"The function only flags differences; the buyer judges each one and nothing changes in Exact without the buyer. The buyers' concern of 1 October was about autonomous order preparation, not flagging. Arno's acceptance is still to be asked.","Arno session, part D (rows 5–6)"
+Purchase-price control,5,Provisional pass,"Can be built on exported PO lines and supplier documents without Exact integration, and evaluated on test workloads from past orders (Zhongxin's fallback of 1 October) without live use.","G6, PC1, PC7"
+Purchase-price control,6,Provisional pass,"Prices come on paper, as PDF, from websites and by email, and item descriptions differ from the PO; reading and matching them needs document understanding beyond a rule (precedent: Tater et al., 2022). If confirmations turned out to be structured data, a rule would suffice.",PC2
+Maximalisatie,1,Provisional pass,As for all candidates; Orbis access is not yet known.,"G1, G2, MX4"
+Maximalisatie,2,Redesign,"Full decision support needs past stock, advice and lead-time states, which a test copy is unlikely to hold. Narrowed: when a PO is created, show open POs and pending demand for the same supplier.","MX1, MX2"
+Maximalisatie,3,Redesign,There is no reference for a good hold-or-order decision. The narrowed version can be checked against lines that were later added to open POs.,MX3
+Maximalisatie,4,Pass,A suggestion only; the buyer decides.,
+Maximalisatie,5,Provisional pass,The narrowed version fits the BEP if open POs and demand can be exported; the full version depends on Exact and Orbis data.,"G6, MX4"
+Maximalisatie,6,Provisional pass,Weak: finding same-supplier demand is close to a rule. AI adds value only where demand descriptions must be matched or a timing judged.,
+Standard / review / manual,1,Provisional pass,As for all candidates.,"G1, G2"
+Standard / review / manual,2,Provisional pass,"PO records exist, but nothing marks a case as standard, review or manual.",SR1
+Standard / review / manual,3,Redesign,No reference standard exists without the buyer labelling past cases.,SR1
+Standard / review / manual,4,Redesign,An automatic route conflicts with the buyers' concern of 1 October; acceptable only without autonomous processing.,"Arno session, part D"
+Standard / review / manual,5,Reject,"As a stand-alone candidate, an end-to-end routing redesign with Exact integration does not fit the BEP. It stays the design frame for the chosen task: cases without a flag are standard, flagged cases go to review.",
+Standard / review / manual,6,Provisional pass,Routing can largely be rules; AI fits only specific steps.,
+Request intake & validation,1,Provisional pass,As for all candidates; access to the drawing archive is not yet known.,"G1, G2, RI2"
+Request intake & validation,2,Redesign,"Requests arrive by email, at the desk or by phone and are probably not stored in Exact. Narrowed to what Exact holds: finding item history, old POs and drawings, and flagging missing information when the PO is entered.","RI1, RI2"
+Request intake & validation,3,Redesign,There is no list of required drawings and no definition of a complete request. A reference exists only for retrieval: the drawing or old PO that was actually used.,RI3
+Request intake & validation,4,Pass,Retrieval and flags only; the buyer decides.,
+Request intake & validation,5,Provisional pass,Depends on access to where drawings are kept.,RI2
+Request intake & validation,6,Provisional pass,"Finding related items and drawings from free-text descriptions, and spotting ambiguity, needs language and document understanding.",
+PO supplier communication,1,Provisional pass,As for all candidates.,"G1, G2"
+PO supplier communication,2,Provisional pass,Sent PO emails are probably retrievable.,CM1
+PO supplier communication,3,Pass,"The sent email (recipient, attachment, message) is the reference.",
+PO supplier communication,4,Provisional pass,Acceptance of automatic sending is not yet asked.,"Arno session, part D (row 11)"
+PO supplier communication,5,Pass,Small and buildable within the BEP.,
+PO supplier communication,6,Reject,Forwarding a generated PO with a standard message is a deterministic step; ordinary automation is enough. Kept as a quick-win recommendation.,
+Article / supplier data,1,Provisional pass,As for all candidates.,"G1, G2"
+Article / supplier data,2,Provisional pass,Article records exist in Exact; whether the supplier documents used to create them are linked is not yet known.,AR2
+Article / supplier data,3,Provisional pass,Existing article records can serve as the reference for extracted fields.,AR1
+Article / supplier data,4,Pass,The buyer checks the fields before creating the article.,
+Article / supplier data,5,Provisional pass,Can be built on exported article records and supplier documents.,"G6, AR2"
+Article / supplier data,6,Provisional pass,"Extracting fields from supplier documents in different layouts needs document understanding (precedent: Šimsa et al., 2023).",

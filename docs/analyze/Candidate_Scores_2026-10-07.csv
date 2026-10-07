@@ -1,0 +1,29 @@
+candidate,criterion,score,low,high,evidence
+Purchase-price control,workload,5,4,5,"All order checks: 98 of 560 minutes (17.5%) on all five days, 19 case-days; recorded difficulties on 31 Aug, 1 and 18 Sep (missing delivery date, blocked check, unexplained mismatch, price differences) [notebook parts 8–9]. Low end: kinds of work not yet checked by a second coder."
+Purchase-price control,business_value,3,3,4,"One effect named with examples: outdated prices in Exact, changing supplier prices, a €410 difference (PC-5, PC-10, PC-11). Not yet confirmed by the company supervisor."
+Purchase-price control,ai_fit,4,3,4,"Reading prices and lines from paper, PDF, website and email documents and matching them to PO lines is the core of the task; precedent Tater et al. (2022) [AI table rows 5–7]. Low end: if documents are structured, only matching needs AI."
+Purchase-price control,data_readiness,3,2,4,PO lines are standard Exact data; confirmations and approved prices are expected but not yet seen in the test account [checks PC1–PC4].
+Purchase-price control,repetition,3,3,4,"Every day, 19 case-days; the task is stable (compare price and date per line) but inputs vary in format and size, 1 to 29 lines [notebook part 3]."
+Purchase-price control,prototype,3,3,4,"Can run on exports and documents with manual steps, no integration [check G6]."
+Purchase-price control,evaluation,4,3,5,"Reference answer per line (the approved price) and Zhongxin's fallback of test workloads from past orders; the observed time per line is imprecise, so the time baseline is weak [notebook part 3]."
+Maximalisatie,workload,3,3,3,"43 minutes (7.7%) on all five days, 16 case-days; decision time not separable [notebook part 8]."
+Maximalisatie,business_value,3,2,3,"One effect named: each PO costs time and money (Dennis via Yijie, 2 October); example of 4 lines added to a 12-line PO (31 Aug OBS-15)."
+Maximalisatie,ai_fit,2,1,3,"The narrowed version is close to a rule (same supplier, open PO); AI only for matching demand descriptions [AI table row 8]."
+Maximalisatie,data_readiness,2,1,3,Past advice and stock states are unlikely to be stored; open POs probably are [checks MX1–MX3].
+Maximalisatie,repetition,3,3,3,"Every day, 16 case-days; inputs vary with stock, urgency and order value [opportunity profile A]."
+Maximalisatie,prototype,2,1,3,"Needs open-PO and demand data, possibly Orbis [check MX4]."
+Maximalisatie,evaluation,2,1,2,No reference for a good decision; only later additions to open POs can be checked [notebook part 8].
+Request intake & validation,workload,5,4,5,"94 of 560 minutes (16.8%) on all five days, 11 case-days; 53 minutes in case-days with a recorded problem [notebook parts 8–9]. Low end: kinds not yet checked by a second coder, and the narrowed scope may cover less."
+Request intake & validation,business_value,2,1,3,"Effects mostly in buyer time; incomplete drawing sets from Engineering and a suspicious serial number are named (RI-10, RI-4), without a business effect beyond time."
+Request intake & validation,ai_fit,3,2,4,"Retrieving drawings and old POs from free text and flagging ambiguity needs AI for part of the task; weak precedent (Lombardi et al., 2025, other domain) and none for completeness [AI table rows 1–3]."
+Request intake & validation,data_readiness,2,1,3,"Past requests are probably not stored; drawing storage unknown [checks RI1, RI2]."
+Request intake & validation,repetition,2,1,3,"Every day, but no clear pattern in which requests are incomplete; inputs differ per case (reported 2 October)."
+Request intake & validation,prototype,2,1,3,Depends on access to the drawing archive and item history [check RI2].
+Request intake & validation,evaluation,2,1,3,"A reference exists only for retrieval (the drawing or old PO actually used), not for completeness [check RI3]."
+Article / supplier data,workload,3,3,3,"39 minutes (7.0%) on four days, 5 case-days; one case blocked for a day by missing data [notebook part 8]."
+Article / supplier data,business_value,1,1,2,No effect named beyond buyer time.
+Article / supplier data,ai_fit,4,3,4,"Extracting item fields from supplier documents in different layouts is the core of the task; precedent Šimsa et al. (2023), a benchmark [AI table row 4]."
+Article / supplier data,data_readiness,3,2,4,"Article records exist; whether their source documents are linked is not yet known [checks AR1, AR2]."
+Article / supplier data,repetition,2,2,3,"Four of five days, 5 case-days; item data differ per article."
+Article / supplier data,prototype,3,2,4,"Can run on exported article records and supplier documents [checks G6, AR2]."
+Article / supplier data,evaluation,3,2,4,Existing article records can be the reference; few cases per week [check AR3].
