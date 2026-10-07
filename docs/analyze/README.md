@@ -5,6 +5,8 @@ Inputs for the Analyze phase that the [analysis notebook](../../Arno_Analysis_20
 | File | Content | Used in |
 |---|---|---|
 | [`Arno_Causes_Draft_2026-10-06.csv`](Arno_Causes_Draft_2026-10-06.csv) | Draft causes for three candidate areas: ID, candidate, fishbone category, cause, evidence type (observed, earlier notes, reported, hypothesis), source, status after Yijie's answers of 2 October, and the answer. | Part 9: causes table and fishbone diagrams |
+| [`Candidate_Evidence_Matrix_2026-10-07.md`](Candidate_Evidence_Matrix_2026-10-07.md) | Evidence per candidate and Stage B criterion: what is known, with its source, and what is missing. No scores until the Stage A gates are checked and the weights are frozen. | Candidate selection (Stage A and B) |
+| [`Swing_Weights_Yijie_2026-10-07.md`](Swing_Weights_Yijie_2026-10-07.md) | Yijie's individual swing weights, recorded before any candidate was scored; combined with Zhongxin's set and frozen before scoring. | Stage B weights and the sensitivity check |
 
 **History.** The causes were first typed into the notebook on 2 October and moved to this file on 6 October, without changing their content. The causes of the order checks are listed under "Purchase-price control", the candidate name in the [methodology](../methodology/Phase_1_Current_Methodology.md#41-active-primary-case-candidates); in the notebook the broader group of checks is "Order checks and price differences".
 
