@@ -28,6 +28,6 @@ The immediate work is to inspect the proposed focal case's data and reference an
 
 The [submitted Plan of Work of 22 September](docs/proposal/Plan_of_Work_Final_2026-09-22.pdf) is the authority for the main question and five sub-questions, as confirmed by Yijie on 7 October. Active research documents and notebook introductions follow that wording and numbering. The earlier four-question draft was incorrectly restored during cleanup and has been corrected. The [14 September draft](docs/proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) and dated follow-up registers are historical records, not current task lists. Later scope and method decisions remain documented separately.
 
-The [charter](docs/Project_Charter.md) defines the objective and phase decisions. The [timeline](docs/Project_Timeline.md) retains the dated planning baseline and firm deadlines. Company placement ends on **7 January 2027**; the final report deadline is **15 January 2027 at 23:59**.
+The [charter](docs/Project_Charter.md) defines the objective and phase decisions. The [timeline](docs/Project_Timeline.md) compares the Plan of Work schedule with progress and lists the firm deadlines; the 2 September planning baseline is in the [archive](docs/archive/README.md#planning). Company placement ends on **7 January 2027**; the final report deadline is **15 January 2027 at 23:59**.
 
 Original observation records, reviewed daily CSVs, dated decisions and submitted files remain the evidence trail. Current status is maintained in the reading guide rather than inferred from old plans.

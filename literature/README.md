@@ -36,7 +36,7 @@ Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload
 - Process redesign directions (eliminate, simplify, standardise, automate or support) used in the Analyze outline.
 - Evaluating the artifact in DSRM beyond Peffers et al.; needed early in Improve.
 
-A source is added to this register only after its citation is verified, and "full text reviewed" is set only after Yijie has read it.
+Sources may be listed provisionally, with their citation status shown. Verify the citation before a source is used in the thesis, and set "full text reviewed" only after Yijie has read it.
 
 ---
 

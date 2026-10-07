@@ -9,7 +9,7 @@ Planned windows are read from the Plan of Work figures and are accurate to about
 | Work | Planned | Status on 7 October |
 |---|---|---|
 | Define: process mapping, workload definition, scope review, stage categories | about 18 August – 24 September | Done |
-| Measure: pilot, Arno sessions, Dennis comparison, data preparation | about 29 August – 24 September | Sessions completed: five Arno sessions to 23 September, data reviewed on 30 September; Dennis observed once (25 September). Analysis started on Zhongxin's instruction of 1 October; coverage limitations remain, and representativeness is not established |
+| Measure: pilot, Arno sessions, Dennis comparison, data preparation | about 29 August – 24 September | Sessions completed: five Arno sessions to 23 September, data reviewed on 30 September; Dennis: one timed session on 25 September, plus qualitative observations from 15 September. Analysis started on Zhongxin's instruction of 1 October; coverage limitations remain, and representativeness is not established |
 | Analyze: Arno's patterns, compared with Dennis | about 24 September – 1 October | Descriptive analysis done for Arno ([analysis notebook](../Arno_Analysis_2026_10_02.ipynb)). Dennis's existing evidence supports a separate task and handoff summary; further Dennis sessions only for a specific gap |
 | Analyze: root causes and candidate prioritisation | about 30 September – 8 October | Draft causes done; Arno still has to confirm them. Candidates scored provisionally ([selection notebook](../Focal_Case_Selection_2026-10-07.ipynb)) |
 | Analyze: technical and evaluation feasibility | about 1 – 8 October | Permission settled (gate 1); the Exact test-account check is open |
