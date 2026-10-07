@@ -157,7 +157,7 @@ Candidate names are used instead of reusable letter IDs so that a candidate cann
 
 ## 4.0 Status of the selection, 7 October 2026
 
-Yijie's provisional selection applies the two-stage rule of section 5.3 in the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb), with Yijie's swing weights and before the academic supervisor's own weights. Its inputs are in [`docs/analyze`](../analyze/README.md). The descriptions in sections 4.1–4.4 below are the candidate profiles from before the selection.
+Yijie's provisional selection applies the two-stage rule of section 5.3 in the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb), with Yijie's swing weights and before the academic supervisor's own weights. The notebook contains its own gate verdicts, weights and scores, with the evidence for each. The descriptions in sections 4.1–4.4 below are the candidate profiles from before the selection.
 
 | Candidate | Stage A result | Stage B total (of 100) | Role after the selection |
 |---|---|---:|---|

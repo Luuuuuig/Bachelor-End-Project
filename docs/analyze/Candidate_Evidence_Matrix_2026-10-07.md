@@ -2,7 +2,7 @@
 
 **Prepared:** 7 October 2026. **Status:** evidence supporting a provisional comparison. Final selection requires the relevant Stage A checks, agreed weights and supervisor review ([methodology §5.3](../methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule), [scoring brief](https://claude.ai/artifact/P2bsL8ZfyDhdJZanQAdk6n)).
 
-**Update, 7 October:** at Yijie's request a provisional selection was made from this evidence before Zhongxin's weights, in [Focal_Case_Selection_2026-10-07.ipynb](../../Focal_Case_Selection_2026-10-07.ipynb). Its gate verdicts and scores are in [Stage_A_Gates_2026-10-07.csv](Stage_A_Gates_2026-10-07.csv) and [Candidate_Scores_2026-10-07.csv](Candidate_Scores_2026-10-07.csv); they stay provisional until Zhongxin has reviewed them and the test-account checks are done.
+**Update, 7 October:** at Yijie's request a provisional selection was made from this evidence before Zhongxin's weights, in [Focal_Case_Selection_2026-10-07.ipynb](../../Focal_Case_Selection_2026-10-07.ipynb). Its gate verdicts and scores, with the evidence from this matrix, are in parts 3 and 6 of that notebook; they stay provisional until Zhongxin has reviewed them and the test-account checks are done.
 
 For each candidate and Stage B criterion, this file lists what is known, its source and the remaining gap. Provisional scores from 1 to 5 already exist; their final use depends on the agreed anchors, relevant evidence and uncertainty review. These gaps are a menu for resolving consequential uncertainty, not a requirement to investigate every candidate equally.
 

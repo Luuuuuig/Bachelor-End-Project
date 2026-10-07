@@ -4,6 +4,12 @@ Files that are no longer current but are kept for traceability. Nothing here is 
 
 The current files are listed in the [documentation index](../README.md).
 
+## Analyze
+
+| File | What it was | Replaced by |
+|---|---|---|
+| [`Stage_A_Gates_2026-10-07.csv`](analyze/Stage_A_Gates_2026-10-07.csv), [`Candidate_Scores_2026-10-07.csv`](analyze/Candidate_Scores_2026-10-07.csv), [`Swing_Weights_Yijie_2026-10-07.csv`](analyze/Swing_Weights_Yijie_2026-10-07.csv) | Inputs of the selection notebook: gate verdicts with reasons, scores with ranges and evidence, and Yijie's swings | The same values, written into parts 3, 5 and 6 of the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) on 7 October so that it is self-contained. The record of Yijie's swings stays in [`docs/analyze`](../analyze/Swing_Weights_Yijie_2026-10-07.md) |
+
 ## Measurement
 
 | File | What it was | Replaced by |
