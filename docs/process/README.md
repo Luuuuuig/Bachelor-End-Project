@@ -6,7 +6,7 @@
 
 [Process_Cleaned_V1.5.md](Process_Cleaned_V1.5.md) owns the observed operational workflow: the Section 3 flowchart, 31-task register, evidence labels, buyer validation, process explanations and unresolved operational facts. Its opportunity profiles explain why an area may matter; they do not establish the current ranking or add every early idea to the worklist.
 
-The five-session workload analysis is in the [Arno notebook](../../Arno_Analysis_2026_10_02.ipynb). The [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) provisionally favors purchase-price control, subject to the remaining evidence and review conditions. The [methodology](../methodology/Phase_1_Current_Methodology.md) owns the selection rules.
+The five-session workload analysis is in the [Arno notebook](../../Arno_Analysis_2026_10_02.ipynb). The [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) provisionally favors order and confirmation checking (called purchase-price control until 7 October), subject to the remaining evidence and review conditions. The [methodology](../methodology/Phase_1_Current_Methodology.md) owns the selection rules.
 
 ## Purchasing stages and analysis labels
 

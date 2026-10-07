@@ -10,11 +10,11 @@ For each candidate and Stage B criterion, this file lists what is known, its sou
 
 ## Candidates
 
-The six areas below document the [methodology's portfolio](../methodology/Phase_1_Current_Methodology.md#4-current-candidate-portfolio). The provisional comparison scores price control, article/supplier data and narrowed versions of maximalisatie and request intake. Stand-alone routing is not a feasible primary artifact in its current form; PO communication remains an ordinary-automation opportunity.
+The six areas below document the [methodology's portfolio](../methodology/Phase_1_Current_Methodology.md#4-current-candidate-portfolio). The provisional comparison scores order and confirmation checking (called purchase-price control until 7 October), article/supplier data and narrowed versions of maximalisatie and request intake. Stand-alone routing is not a feasible primary artifact in its current form; PO communication remains an ordinary-automation opportunity.
 
 | Candidate | Kinds of work in the notebook | Boundary still to decide |
 |---|---|---|
-| Purchase-price control | Order checks and price differences: K04, K17, K18 | Proposed quotation/confirmation comparison, with price central; confirm the boundary. The 98 minutes are broader checks, not isolated price work. |
+| Order and confirmation checking | K04, K17, K18 | Widened on 7 October: quotations before ordering and confirmations after ordering, checked against the PO for price, delivery date, quantity and missing or extra lines. Confirm with Zhongxin. |
 | Order timing / maximalisatie / consolidation | K03 | Provisionally narrowed to presenting related demand/open POs; the buyer retains the hold/order decision. |
 | Standard / review / manual process redesign | Process-level; no single kind. Closest task area: K02 | Retained as a design concept rather than a selected stand-alone artifact; buyer acceptance remains open. |
 | Request intake & validation | K08, K09, K10, K11 | Provisionally narrowed to retrieving prior POs/drawings; completeness assessment lacks a demonstrated reference. |
@@ -25,7 +25,7 @@ The six areas below document the [methodology's portfolio](../methodology/Phase_
 
 **A** = enough evidence to score once the weights are frozen; **P** = some evidence, with a named gap; **M** = no evidence yet. This describes the evidence, not the candidate: a fully evidenced cell can still score 1.
 
-| Criterion | Price control | Maximalisatie | Standard / review / manual | Request intake | PO communication | Article / supplier data |
+| Criterion | Order and confirmation checking | Maximalisatie | Standard / review / manual | Request intake | PO communication | Article / supplier data |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|
 | Observed workload | P | A | P | A | A | P |
 | Business value | P | P | M | P | M | M |
@@ -39,11 +39,13 @@ Data readiness and prototype feasibility are missing for every candidate: both d
 
 ---
 
-## Purchase-price control
+## Order and confirmation checking
+
+Called purchase-price control until 7 October, when the boundary was widened from price to price, delivery date, quantity and missing or extra lines.
 
 | Criterion | Evidence now (source) | Missing, and where to get it |
 |---|---|---|
-| Observed workload | All order checks: 98 minutes (17.5%), 23 records, 19 case-days, all five days; 66 of the 98 minutes on 18 September. Of the 98: 28 minutes in 6 records whose note names a price check or difference (8 and 18 September, 25 minutes on 18 September), 56 with an unrecorded subject, 14 on other subjects. 26 minutes fall in the 5 case-days with a recorded problem; 47% of its case-days are picked up again (notebook, parts 9 and 10). | The task boundary (brief, decision 5). What a check normally compares, and how many confirmations are checked in a week (session guide, part B, questions 2–3). |
+| Observed workload | All order checks: 98 minutes (17.5%), 23 records, 19 case-days, all five days; 66 of the 98 minutes on 18 September. Of the 98: 28 minutes in 6 records whose note names a price check or difference (8 and 18 September, 25 minutes on 18 September), 6 in a price check that could not be completed, 4 naming a missing delivery date, 4 attaching a confirmation and 56 with an unrecorded subject. By the observer's clarification of 7 October, those 56 were regular price and delivery-date checks, so 94 of the 98 minutes are checks of price and/or delivery date. 26 minutes fall in the 5 case-days with a recorded problem; 47% of its case-days are picked up again (notebook, parts 9 and 10). | Zhongxin's agreement to the widened boundary (brief, decision 5). How many confirmations are checked in a week (session guide, part B, question 3); what a check compares is answered by the clarification. |
 | Business value | Prices in Exact are not kept up to date because the buyers lack time (PC-5, Dennis via Yijie, 2 October). Supplier prices change (PC-10). One-off items are checked so an outdated price is not reused (PC-2, August notes). A €410 difference on 18 September OBS-29, attributed to a smaller quantity (PC-11). | The company supervisor's view of the effect, such as price errors avoided or costs, preferably with examples or figures. |
 | AI–task fit | Analyse: compare quotation or confirmation lines with PO lines and flag differences (AI table rows 5–7). Closest precedent: Tater et al. (2022), invoice-to-PO matching in accounts payable, not yet read in full. Quotations arrive on paper, as PDF or from a website (8 September OBS-08); confirmations by email (August notes); Exact does not compare them with the PO (PC-6, reported). | Whether simple rules suffice once the fields are read (gate 6). Arno's acceptance of rows 5–6 (session guide, part D). |
 | Data readiness | Johan permits using data in the Exact test account (reported 2 October) and processing its documents with an external AI service (confirmed by Yijie on 7 October). The test account holds past cases from an earlier period and is not up to date (reported 2 October). | Test-account check: are confirmations, quotations and approved prices stored with their POs; how many cases and from which period; is the correct outcome (the approved price) traceable? |
@@ -129,9 +131,9 @@ Data readiness and prototype feasibility are missing for every candidate: both d
 
 | Source | What it settles | Cells |
 |---|---|---|
-| Zhongxin | Anchors, weights, the price-control boundary (brief, decisions 1–5) | Workload for price control; how all cells are scored |
+| Zhongxin | Anchors, weights, the focal-case boundary (brief, decisions 1–5) | Workload for order and confirmation checking; how all cells are scored |
 | Exact test account (Yijie) | PC1–PC4 first, then common/focal checks for period, representativeness, exports and testing. Check alternatives when a gate fails or the comparison needs that evidence. | Data readiness and evaluation feasibility |
-| Session with Arno | Relevant causes, what order checks compare and how often, trusted prices and accepted support. Other candidate prompts only where needed. | Price-control boundary, repetition and AI–task fit |
+| Session with Arno | Relevant causes, how often confirmations are checked and differ, trusted prices and accepted support. Other candidate prompts only where needed. | Focal-case repetition and AI–task fit |
 | Company supervisor | Business value and feasibility of the proposed choice, with examples or figures; alternatives if needed | Business-value evidence |
 | IT and access check | Whether the selected bounded prototype can work on permitted exports; integration/Orbis only if necessary | Prototype feasibility |
 | Literature | Verify/read the sources actually used for the selected design and analytical method, beginning with the literature register's reading order | Evidence for method and AI–task fit |

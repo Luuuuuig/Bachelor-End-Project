@@ -19,19 +19,19 @@ Each section lists what the chapter will say, where the evidence is, and what is
 ## 2. Where the work goes
 
 - **Ordering is the largest stage** on every day: 334 of 560 minutes (59.6%). Former EXC (182 minutes) stays outside the improvement scope.
-- **Three areas carry the most time:** PO preparation and completion (111 minutes), order checks and price differences (98) and request intake & validation (94). They overlap, so they are not added up.
+- **Three areas carry the most time:** PO preparation and completion (111 minutes), order and confirmation checking (98) and request intake & validation (94). They overlap, so they are not added up.
 - **No problem was recorded in many case-days:** these contain 406 of the 560 minutes (72.5%). Absence of a recorded problem does not establish that work is routine or automatable. Arno returns to 30 of 98 case-days after other work; these hold 273 minutes.
 - **Recorded episodes are short:** a lognormal curve is the working approximation for the bulk of the records (median about 2.3 minutes); no formal goodness-of-fit decision is made.
 - **Limits of the evidence:** one buyer, five partial sessions, start and end read in whole minutes, kinds of work assigned by one coder.
 
 ## 3. The focal case and its boundary
 
-- **Provisional focal case: purchase-price control.** Boundary (brief, decision 5): checking supplier quotations before ordering and order confirmations after ordering against the PO and supplier information, with price as the main reported problem.
-- **Recorded workload:** 98 minutes (17.5%) in 23 records and 19 case-days, on all five days; 66 of them on 18 September. Of the 98, 28 minutes are in records whose note names price, 56 in checks whose subject is not recorded and 14 on other subjects. These describe scopes, not price-checking time.
-- **Why this case:** 76.2 of 100 in Stage B, ahead of article / supplier data (56.8), maximalisatie (51.9) and request intake (50.8). It stays first in every single-change sensitivity check (equal weights, each weight ±20%, each score ±1, price-only boundary); six combined one-point changes within the recorded ranges would put article data ahead.
+- **Provisional focal case: order and confirmation checking**, called purchase-price control until 7 October. Boundary (brief, decision 5, widened on 7 October): checking supplier quotations before ordering and order confirmations after ordering against the PO, for price, delivery date, quantity and missing or extra lines.
+- **Recorded workload:** 98 minutes (17.5%) in 23 records and 19 case-days, on all five days; 66 of them on 18 September. Of the 98, 28 minutes are in records whose note names price, 6 in a price check that could not be completed and 4 name a missing delivery date. The notes of the other 56 do not say what was checked; Yijie, who observed the sessions, clarified on 7 October that these were regular price and delivery-date checks. So 94 of the 98 minutes are checks of price and/or delivery date; attaching the confirmation (4 minutes) always happens but was not always written down, so it is not counted as checking. Report the clarification as the observer's, not as recorded data.
+- **Why this case:** 76.2 of 100 in Stage B, ahead of article / supplier data (56.8), maximalisatie (51.9) and request intake (50.8). It stays first in every single-change sensitivity check (equal weights, each weight ±20%, each score ±1, the 28 price-named minutes only); six combined one-point changes within the recorded ranges would put article data ahead.
 - **Proposed AI role:** source notes describe prices on paper, PDF, websites and email, with item descriptions that may differ from the PO. Reading and matching those inputs could justify AI support (gate 6); inspect the actual documents to establish whether rules or structured inputs suffice. The proposed reference is an approved price per line, whose availability and trustworthiness remain to be demonstrated (gate 3).
-- **Proposed support, designed in Improve:** read price, quantity and delivery date per line from the supplier's document, match the lines to the PO and flag differences. The buyer decides; nothing changes in Exact without the buyer.
-- **What is not claimed:** no time saving is estimated yet, and the 98 minutes are not all price work.
+- **Proposed support, designed in Improve:** read price, quantity and delivery date per line from the supplier's document, match the lines to the PO and flag differences and missing or extra lines. The buyer decides; nothing changes in Exact without the buyer.
+- **What is not claimed:** no time saving is estimated yet, and how the 94 checking minutes divide between price and delivery date is not measured. The scores were set on 7 October for the earlier price boundary; Zhongxin reviews them against the widened boundary.
 
 ## 4. Causes of the focal-case work
 
@@ -57,7 +57,7 @@ Status after Yijie's answers of 2 October. "Supported" means consistent with tho
 
 | Direction | What it would mean here | Cause | Keep in mind |
 |---|---|---|---|
-| Support (AI, focal artifact) | Read and match prices from quotations and confirmations; flag differences for the buyer | PC-1, PC-4, PC-6, PC-7 | Simple rules may be enough once the fields are read |
+| Support (AI, focal artifact) | Read and match prices, quantities and delivery dates from quotations and confirmations; flag differences and missing or extra lines for the buyer | PC-1, PC-4, PC-6, PC-7 | Simple rules may be enough once the fields are read |
 | Automate (ordinary) | Compare the extracted fields with the PO lines by fixed rules | PC-6 | Part of the artifact, but not its AI contribution |
 | Support | Suggest price updates in Exact from accepted supplier information | PC-5, PC-10 | The buyer approves every update and stays responsible for the data |
 | Standardise | Lines without a difference follow the standard route; flagged lines go to the buyer for review (standard / review / manual frame) | PC-1 | What counts as a difference worth flagging is set with Arno |
@@ -70,7 +70,7 @@ No direction lets AI change orders on its own; the buyers raised that concern on
 
 ## 6. Gates and conditions
 
-| Gate | Verdict for price control | Settled by |
+| Gate | Verdict for order and confirmation checking | Settled by |
 |---|---|---|
 | 1. Data and tools permitted | Pass (7 October) | G1–G2: test-account data and an external AI service permitted |
 | 2. Representative data | Provisional pass | PC1–PC3, G4, G5 |
@@ -92,7 +92,7 @@ No direction lets AI change orders on its own; the buyers raised that concern on
 
 - **Problem statement and objectives** (DSRM steps 1–2) follow from sections 3–5: what the support must read, match and flag, and what stays with the buyer.
 - **Evaluation design** (SQ5), to be frozen before development/formal testing: define eligible matched cases, trusted reference answers, justified workload indicators, final human-approved quality criteria, success thresholds and development/evaluation separation. Handling time is a possible workload indicator, not the workload or quality definition. If chosen, include all attributable human review and correction work. The observed time per line is too imprecise as a task-time standard (0.87 minutes per line pooled; mean per check 1.24, 95% interval 0.70 to 1.78), so establish the selected task's manual baseline separately. Evaluation will show whether the proposed benefit occurs.
-- **Fallback:** if price control fails gates 2–3, article / supplier data is assessed next (checks AR1–AR2).
+- **Fallback:** if order and confirmation checking fails gates 2–3, article / supplier data is assessed next (checks AR1–AR2).
 
 ## 8. Limitations to report
 
