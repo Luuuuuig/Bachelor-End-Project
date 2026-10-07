@@ -1,6 +1,6 @@
 # Archive
 
-Files that are no longer current but are kept for traceability. Nothing here is used by the notebooks or needed to follow the current work. Each file keeps its original name and content; only links were updated when it moved here on 7 October 2026.
+Files that are no longer current but are kept for traceability. Nothing here is needed to follow the current work. The notebooks use none of these files, except the two September enrichment files: section 2.3 of the analysis notebook reads their Task IDs to show why the kinds of work replaced them. Each file keeps its original name and content; only links were updated when it moved here on 7 October 2026.
 
 The current files are listed in the [documentation index](../README.md).
 

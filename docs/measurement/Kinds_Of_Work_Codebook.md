@@ -5,8 +5,36 @@
 - **Labels:** [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv), one line per record with its date, row, case, activity code, minutes, stage, kinds and note. 259 of the 287 records have at least one kind. Fourteen other records are known earlier-PO context markers, and 14 work records remain unclassified; a record can have up to three kinds.
 - **Use in the notebook:** section 2.3 explains why the kinds are needed and where they come from; section 2.4 shows how each one fits under the analytical activities of the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md), part 3 checks them (saturation in section 3.5, agreement with the observer's stages in 3.6, review status and limitations in 3.7); parts 6 to 10 use them for tasks, cases, problems, candidates and causes.
 - **Coding review (working approach, 7 October):** document a targeted review of ambiguous and decision-relevant labels across the competing candidates, using the original notes and dated clarifications. Record the rows reviewed, reason for review, retained or changed label and effect on the comparison. Preserve unresolved labels and unsplit mixed intervals where evidence is insufficient. This is a proportionate check of analytical decisions, not independent reliability evidence. The [45-record blind coding sheet](Kinds_Coding_Check_Sample_2026-10-02.xlsx) is retained as an optional, uncompleted exercise; neither completing it nor calculating κ is required to move forward.
-- **Framework map:** each kind's place under the analytical activities and Van Weele stages is in [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv).
+- **Framework map:** each kind's place under the analytical activities and Van Weele stages is in [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv). Since 7 October it also gives the tasks of the AS-IS task register that each kind covers (`register_tasks`) and how well (`register_fit`: Covered, Partly or Outside the register); see the next section.
 - **Method:** inductive (conventional) qualitative content analysis, with categories derived from the notes (Hsieh & Shannon, 2005; see the [literature register](../../literature/README.md#coding-the-observation-notes)).
+
+## Why kinds of work rather than Task IDs
+
+**Added 7 October 2026.** Protocol v1.3 (§2.4) planned to give each record a Task ID from the 31-task register of the [AS-IS process](../process/Process_Cleaned_V1.5.md#5-step--task-register). The enrichment of 21 and 25 September, now [archived](../archive/README.md#measurement), did this for every record. Of the 285 analysed records:
+
+| Result of the Task-ID enrichment | Records |
+|---|---:|
+| Placed on a register task | 137 (48%) |
+| The note does not show which register task | 83 (29%) |
+| Work the register does not contain, such as delivery follow-up, article and supplier data, and coordination with Logistics or Finance | 65 (23%) |
+
+Only 14 of the 31 tasks were ever assigned. The register maps the standard order flow, which is its purpose (SQ1). It does not describe problems, events or the side work around that flow, and short live notes rarely show which step of the flow was done.
+
+The kinds of work were therefore coded from the notes on 30 September. They cover 257 of the 285 records. They are **not derived from the live activity codes**: a code only serves as a fallback for a record without a usable note (see the coding rules below).
+
+The [framework map](Kinds_Framework_Map_2026-10-06.csv) links each kind back to the register tasks it covers:
+- **8 kinds are covered**, 9 partly and 14 are outside the register.
+- *Partly* means the register describes only part of the kind; for example, its checks before ordering are price checks only.
+- The links are a researcher assignment from the definitions of the kinds and the tasks, drafted with AI assistance.
+- **They agree with the September Task IDs:** 75% of the records of covered kinds were placed on a register task then, against 36% for partly covered kinds and 10% for kinds outside the register.
+
+Sections 2.3 and 2.4 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) show both checks.
+
+The resulting chain:
+1. The task register maps the process.
+2. The seven live codes, made from the register and the pilot, keep the recording fast.
+3. The kinds of work, coded afterwards from the notes, give the analytical detail.
+4. Through the map, each kind leads back to the register tasks and Van Weele stages.
 
 ## Kinds
 
