@@ -1,6 +1,6 @@
 # Supervisor follow up for 14 September
 
-> **Historical register — status clarified 7 October 2026.** This preserves the 14 September worklist and evidence state. The final Plan of Work has since been submitted with the second assessor, start-BEP reflections and signed declaration completed; five Arno sessions and both analysis notebooks now exist. The 1 October EXC/OTHER decision supersedes the exclusion wording below. Use the [current status and reading guide](../Current_Status_and_Reading_Guide.md) for remaining work; the old deadlines and open items below are not a current task list.
+> **Historical register — status clarified 7 October 2026.** This preserves the 14 September worklist and evidence state. The final Plan of Work has since been submitted with the second assessor, start-BEP reflections and signed declaration completed; five Arno sessions and both analysis notebooks now exist. The 1 October EXC/OTHER decision supersedes the exclusion wording below. Use the [current status and reading guide](../../Current_Status_and_Reading_Guide.md) for remaining work; the old deadlines and open items below are not a current task list.
 
 The half-page project description is due on 15 September. The academic scope decision of 10 September includes Dennis, excludes logistics from the thesis and excludes EXC time from Measure and focal-case selection. The primary objective remains reducing the operational buyer's workload while maintaining purchasing quality.
 
@@ -10,12 +10,12 @@ This register uses repository snapshot `961ced3220bbfefed1bf20c15fcc0876739cfbfe
 
 | Output | Location | What is complete |
 |---|---|---|
-| Half-page project description | [Project description](../proposal/Half_Page_Project_Description_2026-09-15.md) | Supervisor-revised text from the supplied Project descriptions.docx.pdf is preserved in an editable Word copy for the 15 September milestone. Sending remains the student's action. |
-| Plan of Work in the university template | [Plan of Work draft](../proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) | Parts A-D prepared: five-page proposal, planning with all 62 supplied Gantt tasks shown by name, prompts for the five required reflections and the original unsigned declaration. The proposal now keeps Arno as the primary outcome, integrates Dennis in diagnosis and selection, and distinguishes the amount and difficulty of work from the selected evaluation indicators. |
+| Half-page project description | [Project description](../../proposal/Half_Page_Project_Description_2026-09-15.md) | Supervisor-revised text from the supplied Project descriptions.docx.pdf is preserved in an editable Word copy for the 15 September milestone. Sending remains the student's action. |
+| Plan of Work in the university template | [Plan of Work draft](../../proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) | Parts A-D prepared: five-page proposal, planning with all 62 supplied Gantt tasks shown by name, prompts for the five required reflections and the original unsigned declaration. The proposal now keeps Arno as the primary outcome, integrates Dennis in diagnosis and selection, and distinguishes the amount and difficulty of work from the selected evaluation indicators. |
 | Van Weele mapping | [Mapping](../process/Van_Weele_Activity_Mapping_2026-09-14.md) | All eight existing codes and all 31 registered tasks mapped, including conditional and unresolved boundaries. |
 | Editable crosswalk data | [Task CSV](../process/Van_Weele_Task_Crosswalk_2026-09-14.csv) and [family CSV](../process/Van_Weele_Work_Family_Crosswalk_2026-09-14.csv) | Original task descriptions retained alongside the stage assignment rules. No baseline episode is silently recoded. |
-| Measurement scope implementation | [Addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) | EXC and logistics exclusions, historical-data preservation, phase coding and denominator rules documented. |
-| Dennis session preparation | [Observation guide](../measurement/Dennis_Observation_Guide_2026-09-14.md) | Real-case prompts, existing evidence questions and post-session outputs prepared. |
+| Measurement scope implementation | [Addendum](../../measurement/Scope_and_Classification_Addendum_2026-09-14.md) | EXC and logistics exclusions, historical-data preservation, phase coding and denominator rules documented. |
+| Dennis session preparation | [Observation guide](../../measurement/Dennis_Observation_Guide_2026-09-14.md) | Real-case prompts, existing evidence questions and post-session outputs prepared. |
 | Repository wording | Charter, academic assignment, methodology and navigation | Updated to the 10 September boundary. Historical AS-IS and v1.3 content carry a scope notice. |
 
 ## This week's work
@@ -61,6 +61,6 @@ The research windows are planning targets, not evidence that the work has occurr
 - 28 September at 23:59: ILBEP deadline recorded in the repository.
 - 7 October: planned focal-case gate in the supplied Gantt, conditional on evidence and feasibility.
 
-Sources: [25 August academic meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-08-25.md), [3 September academic meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md), [10 September academic meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md), [repository timeline](../Project_Timeline.md), and the linked Drive Gantt.
+Sources: [25 August academic meeting](../../meetings/Academic_Supervisor_Meeting_Notes_2026-08-25.md), [3 September academic meeting](../../meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md), [10 September academic meeting](../../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md), [repository timeline](../../Project_Timeline.md), and the linked Drive Gantt.
 
 Template and wording sources supplied on 14 September: 1BEPIE (X) - Plan of work (1).pdf; Ganttchart.drawio; and the supervisor-revised Project descriptions.docx.pdf. The short description retains the supervisor's wording with whitespace normalized. Its text supersedes the earlier generated description.

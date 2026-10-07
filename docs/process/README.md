@@ -12,7 +12,7 @@ The five-session workload analysis is in the [Arno notebook](../../Arno_Analysis
 
 The [purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md) defines the Van Weele stages and classification boundaries. For the current analysis use the [kinds-of-work codebook](../measurement/Kinds_Of_Work_Codebook.md), [row labels](../measurement/Kinds_Of_Work_Rows_2026-09-30.csv) and [kinds-to-framework map](../measurement/Kinds_Framework_Map_2026-10-06.csv), as loaded by the notebook. The reviewed daily CSVs remain the observation inputs; the [measurement index](../measurement/README.md) explains provenance and timing.
 
-The [14 September crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md), its related CSVs and the [21 September enriched export](../measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) are historical references. They should not replace the current analysis inputs or silently recode the original observations.
+The [14 September crosswalk](../archive/process/Van_Weele_Activity_Mapping_2026-09-14.md), its related CSVs and the [21 September enriched export](../archive/measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) are historical references, now in the [archive](../archive/README.md#process). They should not replace the current analysis inputs or silently recode the original observations.
 
 ## TO-BE hypothesis
 

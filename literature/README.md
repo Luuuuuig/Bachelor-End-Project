@@ -29,6 +29,15 @@ Read to support the claims being written or the design decision being made; the 
 
 Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload sources remain conditional or historical. Read them only if the corresponding question enters the selected study; do not add those studies to the work plan merely because the references are listed.
 
+**Gaps with no source yet (7 October):**
+
+- Checking supplier quotations or order confirmations against a PO; Tater et al. cover invoices, later in the process.
+- The fishbone (cause-and-effect) diagram used in part 9 of the analysis notebook.
+- Process redesign directions (eliminate, simplify, standardise, automate or support) used in the Analyze outline.
+- Evaluating the artifact in DSRM beyond Peffers et al.; needed early in Improve.
+
+Sources may be listed provisionally, with their citation status shown. Verify the citation before a source is used in the thesis, and set "full text reviewed" only after Yijie has read it.
+
 ---
 
 ## Plan of Work reference check, 22 September 2026
@@ -39,7 +48,7 @@ All five references in the submitted [Plan of Work](../docs/proposal/Plan_of_Wor
 
 | Reference used in the Plan of Work | Purpose in the proposal | Existing repository evidence | Access and file status |
 |---|---|---|---|
-| Bäckstrand et al. (2019) | Van Weele's purchasing stages and the operational/tactical process context | [Activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md) and [earlier mapping](../docs/process/Van_Weele_Activity_Mapping_2026-09-14.md), both explicitly cite section 3.2 and Figure 3 | Existing [university-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf); no stored PDF |
+| Bäckstrand et al. (2019) | Van Weele's purchasing stages and the operational/tactical process context | [Activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md) and [earlier mapping](../docs/archive/process/Van_Weele_Activity_Mapping_2026-09-14.md), both explicitly cite section 3.2 and Figure 3 | Existing [university-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf); no stored PDF |
 | Bowling & Kirkendall (2012) | Workload as the amount and difficulty of work | This register and [workload definition](../docs/methodology/Workload_Definition.md) | Existing DOI link below; no stored PDF |
 | de Mast & Lokkerbol (2012) | DMAIC as the overarching problem-solving structure | Confirmed use in this register | Existing DOI link below; no stored PDF |
 | Peffers et al. (2007) | DSRM for artifact design, demonstration and evaluation | Confirmed use in this register | Existing DOI link below; the stored 2006 paper is a different publication |
@@ -207,6 +216,34 @@ Used for the [AI function comparison](../docs/methodology/AI_Function_Comparison
 
 The existing entry for Amershi et al. (2019) under *Human-AI interaction and appropriate reliance* also supports the comparison: buyers should be able to understand, inspect and correct AI suggestions.
 
+### Statistics used in the analysis notebook
+
+Sources cited in part 1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb). Same three statuses as above.
+
+**Ebeling, C. E. (2019).** *An Introduction to Reliability and Maintainability Engineering* (3rd ed.). Waveland Press.
+
+**Use:** Chapter 13, probability plots and least-squares fitting of the exponential, lognormal and Weibull distributions to the recorded durations. Course textbook.
+
+**Status:** citation details still to verify; the chapters used are known from the course.
+
+**Montgomery, D. C., & Runger, G. C. (2014).** *Applied Statistics and Probability for Engineers* (6th ed.). Wiley.
+
+**Use:** Sections 6-7 (probability plots) and 9-7 (comparing observed and expected counts), used descriptively. Course textbook.
+
+**Status:** citation details still to verify; the sections used are known from the course.
+
+**NIST/SEMATECH.** *e-Handbook of Statistical Methods.* https://www.itl.nist.gov/div898/handbook/
+
+**Use:** The plotting-position and least-squares equations (section 8.2.2.1), and the conditions for a chi-square goodness-of-fit test (section 1.3.5.15), which explain why no p-value is calculated.
+
+**Status:** web source; cite with the access date.
+
+**Brown, L., Gans, N., Mandelbaum, A., Sakov, A., Shen, H., Zeltyn, S., & Zhao, L. (2005).** *Statistical analysis of a telephone call center: A queueing-science perspective*. *Journal of the American Statistical Association, 100*(469), 36–50. https://doi.org/10.1198/016214504000001808
+
+**Use:** Step 11 of part 1: an example where service times were close to lognormal while a formal test rejected exact lognormality. Supports considering lognormal for task durations, not that Arno's durations follow it.
+
+**Status:** citation details still to verify; check the exact statement used in step 11 against the paper before citing it in the thesis.
+
 ### Supporting mental-workload operationalization and measurement
 
 **Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
@@ -239,11 +276,9 @@ The existing entry for Amershi et al. (2019) under *Human-AI interaction and app
 
 ---
 
-## Possible use when we know more
-
 ### Document retrieval, extraction and matching
 
-Candidate-specific sources for rows of the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md). Same three statuses as above.
+Candidate-specific sources for rows of the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md). Same three statuses as above. *Moved up from "possible use" on 7 October:* Tater et al. is the main precedent for the provisional focal case, purchase-price control, and Šimsa et al. (DocILE) for document-field extraction; see the reading order above.
 
 **Lombardi et al. (2025).** *Title block detection and information extraction for enhanced building drawings search*. EC³ / CIB W78 conference, 2025. https://doi.org/10.35490/EC3.2025.344 (manuscript: https://arxiv.org/abs/2504.08645)
 
@@ -262,6 +297,8 @@ Candidate-specific sources for rows of the [AI function comparison](../docs/meth
 **Use if needed:** Benchmark for locating fields in business documents and grouping them into line items across layouts; relevant to extracting item descriptions, quantities and prices before checking them. Shows feasibility of extraction, not usefulness here, and does not resolve the intended meaning of an ambiguous quantity.
 
 **Status:** citation details still to verify; abstract and full text not yet reviewed.
+
+## Possible use when we know more
 
 ### Subjective mental-workload measurement
 

@@ -84,8 +84,9 @@ No direction lets AI change orders on its own; the buyers raised that concern on
 1. **Test account (PC1–PC4).** POs with their confirmations or quotations, and a traceable approved price per line. Check the relevant period, export route and testing needs next. If the evidence is missing, gates 2 and 3 remain unresolved; demonstrate a suitable alternative before final selection. The current provisional comparison is not a substitute for these checks.
 2. **Arno** accepts that price and date differences are flagged for his review.
 3. **Zhongxin** sets her own weights, then reviews the gates, scores and focal case; the totals and sensitivity check are rerun with the combined weights.
+4. **Johan** confirms the business value of the focal case, with examples or figures of price errors avoided ([evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md)). Permission to use the test account does not establish business value.
 
-**Also needed for the tollgate:** the charter requires agreed weights for final ranking and supervisor alignment. The provisional selection used Yijie's weights only; this remains disclosed when the combined weights are frozen and the totals rerun. Johan's view of the business value (price errors avoided, with examples or figures) is the evidence the business-value score still lacks ([evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md)).
+**Also needed for the tollgate:** the charter requires agreed weights for final ranking and supervisor alignment. The provisional selection used Yijie's weights only; this remains disclosed when the combined weights are frozen and the totals rerun.
 
 ## 7. Into Improve
 

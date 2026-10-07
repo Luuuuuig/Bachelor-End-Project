@@ -18,7 +18,7 @@ Related sources:
 
 ### Scope update of 14 September 2026
 
-The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and keeps logistics outside the thesis. Since [1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md), former EXC work stays in the total time record under OTHER but outside the work considered for AI improvement. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md); the [14 September Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md) is historical. The submitted Plan of Work provides the main question and five sub-questions; the [current assignment](../proposal/BEP_Assignment_1BEPIEX.md#main-research-question) reproduces that wording and order (see section 3). Measurement and evaluation details remain subject to justification.
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and keeps logistics outside the thesis. Since [1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md), former EXC work stays in the total time record under OTHER but outside the work considered for AI improvement. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md); the [14 September Van Weele crosswalk](../archive/process/Van_Weele_Activity_Mapping_2026-09-14.md) is historical. The submitted Plan of Work provides the main question and five sub-questions; the [current assignment](../proposal/BEP_Assignment_1BEPIEX.md#main-research-question) reproduces that wording and order (see section 3). Measurement and evaluation details remain subject to justification.
 
 # 1. Project objective
 
@@ -140,7 +140,7 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 ### Current Measure sequencing
 
 1. The 28 August pilot identified that direct live coding against the 31-task register was too granular for reliable one-observer use.
-2. Five official Arno sessions are recorded through 23 September, in addition to the 28 August pilot, with 892 minutes of confirmed net observation (see the [observation-time review](../measurement/Observation_Time_Review_2026-09-25.md)). Dennis was observed on 25 September. The observer-reviewed daily CSVs of 30 September (one per session, with a Van Weele stage column) are the current working data; the earlier 21 and 25 September enrichments are historical. The pilot remains separate and the 8 September OBS-16 contamination exclusion remains. Historical summaries below cover only two sessions: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Their historical totals are **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broader scope. These are different quantities and are not updated four-session or EXC-filtered totals. Current results are calculated from all rows of the observer-reviewed daily CSVs, with former EXC (shown as "OTHER (outside improvement)" since 1 October) and other flagged rows as separate groups rather than dropped; see [Current totals from the reviewed CSVs](../measurement/README.md#current-totals-from-the-reviewed-csvs). The included profiles in the observation files and the consolidated activity dataset are historical.
+2. Five official Arno sessions are recorded through 23 September, in addition to the 28 August pilot, with 892 minutes of confirmed net observation (see the [observation-time review](../measurement/Observation_Time_Review_2026-09-25.md)). Dennis was observed on 25 September. The observer-reviewed daily CSVs of 30 September (one per session, with a Van Weele stage column) are the current working data; the earlier 21 and 25 September enrichments are historical. The pilot remains separate and the 8 September OBS-16 contamination exclusion remains. Historical summaries below cover only two sessions: 31 August (165 net observed minutes; 103 timed coded-active minutes after source verification of the untimed OBS-04 SEND and OBS-05 EXC tallies) and 1 September (186 net observed minutes; 162 timed coded-active minutes). Their historical totals are **351 net observed minutes** and **265 timed coded-active minutes** under the earlier broader scope. These are different quantities and are not updated four-session or EXC-filtered totals. Current results are calculated from all rows of the observer-reviewed daily CSVs, with former EXC (shown as "OTHER (outside improvement)" since 1 October) and other flagged rows as separate groups rather than dropped; see [Current totals from the reviewed CSVs](../measurement/README.md#totals). The included profiles in the observation files and the consolidated activity dataset are historical.
 3. `../measurement/Measurement_Protocol_v1.3.md` is controlled for observations from 2 September onward, with the dated scope and timing amendments in the scope addendum. Its live fields remain comparable with v1.2. The full-interval rule for genuinely simultaneous activities applies following the 17 September instruction; the addendum documents timing comparability. Version 1.3 also updates MAX interpretation, the five-day coverage rule and repository governance.
 4. The initial five-day Arno review point has been reached. Use the recorded coverage and retrospective stability/saturation assessment to state what the sample supports and where uncertainty remains. Dennis’s existing 15 and 25 September evidence supports a separate pattern/handoff summary; extend it only for a material unresolved question. Five dates are not 40 net observed hours, and Dennis does not require the same quantity of observations.
 5. Analysis proceeds under the supervisor’s 1 October direction, with coverage limits made explicit. The current [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) records the retrospective coverage assessment; the [kinds-of-work codebook](../measurement/Kinds_Of_Work_Codebook.md) documents the labels used. The obsolete meeting-preparation files were removed on 6 October. The supervisor confirmed on 1 October that analysis starts now; no stability threshold was agreed, and conclusions that depend on Dennis's data stay provisional. The analysis after that meeting is in [Arno_Analysis_2026_10_02.ipynb](../../Arno_Analysis_2026_10_02.ipynb).
@@ -154,6 +154,21 @@ For fast judgement-heavy activities, occurrence, outcome, cues and reasoning are
 The [AI function comparison](AI_Function_Comparison_2026-10-02.md) of 2 October maps observed tasks to the AI function they would use, the buyer's role, supporting literature and buyer acceptance, following the 1 October action. It informs, but does not replace, the candidate assessment below.
 
 Candidate names are used instead of reusable letter IDs so that a candidate cannot mean different things in different documents. The AS-IS process file may retain local profile labels for navigation, but this methodology file is authoritative for current thesis-candidate status.
+
+## 4.0 Status of the selection, 7 October 2026
+
+Yijie's provisional selection applies the two-stage rule of section 5.3 in the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb), with Yijie's swing weights and before the academic supervisor's own weights. Its inputs are in [`docs/analyze`](../analyze/README.md). The descriptions in sections 4.1–4.4 below are the candidate profiles from before the selection.
+
+| Candidate | Stage A result | Stage B total (of 100) | Role after the selection |
+|---|---|---:|---|
+| Purchase-price control | Provisional pass (gate 1 passed on 7 October) | 76.2 | **Provisional focal case**, scored on the boundary of all order checks (98 minutes) |
+| Article / supplier data in Exact | Provisional pass | 56.8 | First fallback if price control fails gates 2–3 |
+| Order timing / maximalisatie | Redesign: only a list of same-supplier open POs and demand | 51.9 | Further opportunity in narrowed form |
+| Request intake & validation | Redesign: only retrieving old POs and drawings | 50.8 | Further opportunity in narrowed form |
+| PO supplier communication | Reject, gate 6 (ordinary automation is enough) | – | Quick-win recommendation |
+| Standard / review / manual | Reject as a stand-alone candidate, gate 5 | – | Design frame of the focal case |
+
+Price control stays first in every single-change sensitivity check; six combined one-point changes within the recorded ranges would put article data ahead. The selection is confirmed only after the academic supervisor's weights and review, the Exact test-account checks PC1–PC4 (gates 2–3), Arno's acceptance (gate 4) and Johan's confirmation of the business value. Article / supplier data was added as a candidate during Analyze: creating and maintaining article and supplier records in Exact, including one case that continued over two days for missing data ([evidence matrix](../analyze/Candidate_Evidence_Matrix_2026-10-07.md)).
 
 ## 4.1 Active primary-case candidates
 
@@ -231,21 +246,21 @@ If no candidate passes all gates, no candidate enters the weighted comparison an
 
 Criteria and scoring anchors are grounded in the project objective, the workload construct, Task–Technology Fit and MCDA practice (Goodhue & Thompson, 1995; Belton & Stewart, 2002; Department for Communities and Local Government [DCLG], 2009). The student constructs the matrix, documents the evidence, calculates scores and makes the final reasoned recommendation. The student and academic supervisor prospectively agree the criteria definitions, scoring anchors, plausible scoring ranges and weights. The company supervisor validates operational evidence—such as workload, business relevance, data/system access, implementation constraints and risk controls—but does not own the academic weights or final research ranking.
 
-| Criterion | Provisional workshop start | What it means |
+| Criterion | Yijie's individual swing weight, provisional (7 October) | What it means |
 |---|---:|---|
-| Observed workload contribution | 25% | Human minutes/frequency and qualitative burden; do not also count business effects here. |
-| Business value beyond counted workload | 15% | Lead time, service, compliance, scalability or strategic priority not already counted above. |
-| AI–task fit | 15% | Degree to which AI capability fits the actual information/decision task. |
-| Data readiness above the gate minimum | 15% | Representativeness, traceability, labelling/annotation and cleaning burden. |
-| Repetition / process standardization | 10% | Recurrence and stability of inputs, outputs and exception boundaries. |
-| Prototype / technical feasibility | 10% | Access, integration dependencies and ability to build a credible prototype. |
-| Evaluation feasibility | 10% | Availability of comparable cases, a clear rubric, benchmark and participant access. |
+| Observed workload contribution | 27.0% | Human minutes/frequency and qualitative burden; do not also count business effects here. |
+| Business value beyond counted workload | 10.8% | Lead time, service, compliance, scalability or strategic priority not already counted above. |
+| AI–task fit | 13.5% | Degree to which AI capability fits the actual information/decision task. |
+| Data readiness above the gate minimum | 16.2% | Representativeness, traceability, labelling/annotation and cleaning burden. |
+| Repetition / process standardization | 8.1% | Recurrence and stability of inputs, outputs and exception boundaries. |
+| Prototype / technical feasibility | 10.8% | Access, integration dependencies and ability to build a credible prototype. |
+| Evaluation feasibility | 13.5% | Availability of comparable cases, a clear rubric, benchmark and participant access. |
 
-These weights are a **provisional discussion starting point**, not a literature-derived truth. Define plausible best-to-worst scoring ranges first; then agree and freeze the weights before aggregate scores or rankings are calculated or revealed.
+**These are Yijie's individual weights, used only for the provisional comparison. The academic supervisor's independent weights and review are pending; the final weights are the agreed combination of both sets.** The weights come from **swing weighting** (DCLG, 2009; Belton & Stewart, 2002): the criterion whose lift from score 1 to 5 matters most gets a swing of 100, the others a swing for their lift relative to it, and each swing is divided by the total. Yijie's swings (100, 40, 50, 60, 30, 40, 50) were [recorded](../analyze/Swing_Weights_Yijie_2026-10-07.md) on 7 October before any candidate was scored. The academic supervisor sets her swings independently; the two sets are averaged, gaps above 10 points are discussed, and the result is frozen before the final totals. The percentages in the earlier version of this table (25/15/15/15/10/10/10) were only an example and are not used.
 
 Use anchored 1–5 scores: `1 = weak/poorly supported`, `3 = moderate with direct evidence`, `5 = strong with direct evidence`; define candidate-specific 1/3/5 anchors before seeing the total. Record evidence and uncertainty for each score. The total is `Σ(weight × score/5)`.
 
-Run a proportionate sensitivity check using (a) the agreed weights, (b) equal weights, (c) each weight changed by ±20% with renormalization and (d) disputed scores changed by ±1. If the winner changes, report the ranking as unstable and collect more evidence or retain a shortlist rather than hiding the dependence on assumptions.
+Run a proportionate sensitivity check using (a) the agreed weights, (b) equal weights, (c) each weight changed by ±20% with renormalization and (d) disputed scores changed by ±1. If the winner changes, report the ranking as unstable and collect more evidence or retain a shortlist rather than hiding the dependence on assumptions. The selection notebook adds the individual weight sets, the price-only boundary, the fewest combined one-point changes that reverse the ranking, a stress test and random draws as an illustration.
 
 Unresolved facts about the **current process itself** remain in `Process_Cleaned_V1.5.md` rather than being duplicated here.
 
@@ -330,8 +345,6 @@ Belton, V., & Stewart, T. J. (2002). *Multiple Criteria Decision Analysis: An In
 Department for Communities and Local Government. (2009). *Multi-Criteria Analysis: A Manual*. https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy
 
 Goodhue, D. L., & Thompson, R. L. (1995). Task-technology fit and individual performance. *MIS Quarterly, 19*(2), 213–236. https://doi.org/10.2307/249689
-
-Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In P. A. Hancock & N. Meshkati (Eds.), *Human Mental Workload* (pp. 139–183). Elsevier. https://doi.org/10.1016/S0166-4115(08)62386-9
 
 Triantaphyllou, E., & Sánchez, A. (1997). A sensitivity analysis approach for some deterministic multi-criteria decision-making methods. *Decision Sciences, 28*(1), 151–194. https://doi.org/10.1111/j.1540-5915.1997.tb01306.x
 

@@ -2,7 +2,7 @@
 
 **Version:** 21 September 2026. Researcher implementation of the framework-led activity-list action from the [17 September supervision meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md). This is the current analytical classification list. It replaces the 14 September code-to-stage crosswalk as the starting point for enrichment. The original AS-IS task register remains the process evidence source.
 
-**Updated 30 September 2026:** the evidence references and worked examples below now follow the observer-reviewed stage assignments in the daily `Arno_Measurement_*.csv` files ([measurement README](../measurement/README.md#simple-csv-exports-30-september-2026)). Where an earlier assignment in this framework or in the 21 September dataset differs, the reviewed CSV applies.
+**Updated 30 September 2026:** the evidence references and worked examples below now follow the observer-reviewed stage assignments in the daily `Arno_Measurement_*.csv` files ([stage review of 30 September](../measurement/Stage_Review_2026-09-30.md)). Where an earlier assignment in this framework or in the 21 September dataset differs, the reviewed CSV applies.
 
 **Kinds of work, 2 October 2026:** the kinds of work of 30 September (K01–K31) are finer, task-level labels used in the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb). Part 4 of the notebook places each kind under an analytical activity of this framework, or marks it as a problem, an event, a purchase subtype or work outside this activity list. This framework stays the main classification.
 
@@ -128,7 +128,7 @@ The [15 September Dennis notes](../meetings/Internship_notes_2026-09-15.md) prov
 
 ## Retrospective application and preservation checks
 
-The accompanying [row dataset](../measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) contains one row per retained source-log row. The five original observation documents contain the same new activity assignments. The two-sheet Excel version adds the definitions next to the dataset for practical use.
+The accompanying [row dataset](../archive/measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) contains one row per retained source-log row. The five original observation documents contain the same new activity assignments. The two-sheet Excel version adds the definitions next to the dataset for practical use.
 
 | Session | Retained log rows | Exact recorded activity minutes before exclusions | Included exact minutes (historical, 21 September enrichment) |
 |---|---:|---:|---:|
