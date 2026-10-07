@@ -49,7 +49,7 @@ The five-day observation target has been reached. Additional Arno or Dennis obse
 | Earlier supervisor and internship records | [Meeting index](meetings/README.md) | What was observed or decided on each date; old open questions may be resolved |
 | Earlier proposal text | [Plan of Work draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) with its [Gantt figures](proposal/figures/), [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md) | Submission/development history; use the readable assignment for current framing |
 | Pilot record | [Measurement index](measurement/README.md#observation-records) | Original pilot evidence, outside the baseline |
-| Superseded files: protocols v1.0–v1.2, the 21 and 25 September enrichment exports, the 14 September crosswalk, September planning and consistency records, draft Gantt figures, Word copies and early research notes | [Archive](archive/README.md) | Kept for traceability; each entry names what replaced it. Not used by the notebooks |
+| Superseded files: protocols v1.0–v1.2, the 21 and 25 September enrichment exports, the 14 September crosswalk, September planning and consistency records, draft Gantt figures, Word copies and early research notes | [Archive](archive/README.md) | Kept for traceability; each entry names what replaced it. The notebooks use none of them, except the September Task IDs in section 2.3 of the analysis notebook |
 
 ## Ownership and update rules
 
