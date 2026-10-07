@@ -24,7 +24,7 @@ Read to support the claims being written or the design decision being made; the 
 
 1. **Define the research claims:** Bowling & Kirkendall for amount/difficulty of work; Bäckstrand et al. for the purchasing framework; Zheng et al. for reporting the observation method. Use the current definitions and method justification to identify the exact passages needed. Add Spector & Jex or WOMBAT sources where those constructs or mechanics are actually discussed.
 2. **Support the current analysis:** Hsieh & Shannon for the inductive coding rationale. Read Guest et al. before retaining a thesis claim based on the retrospective saturation analogy; this is an adapted exploratory check, not a validated stopping threshold. Cohen is optional, conditional on a justified recoding analysis.
-3. **Bound the proposed AI support:** Parasuraman et al. for functions and automation levels, then Burger et al. for the buyer's role in procurement. For the provisional price-control direction, read Tater et al.; add DocILE if the design uses document-field/line extraction. Check what each source demonstrates and the limits of transferring it to this task.
+3. **Bound the proposed AI support:** Parasuraman et al. for functions and automation levels, then Burger et al. for the buyer's role in procurement. For the provisional focal case (order and confirmation checking), read Tater et al.; add DocILE if the design uses document-field/line extraction. Check what each source demonstrates and the limits of transferring it to this task.
 4. **Write the design and evaluation rationale:** de Mast & Lokkerbol for DMAIC and Peffers et al. **2007** for DSRM; the stored 2006 paper is a different source. Consult the MCDA sources for the selection methods actually used, and the quality/human–AI interaction sources for the chosen rubric and review interface.
 
 Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload sources remain conditional or historical. Read them only if the corresponding question enters the selected study; do not add those studies to the work plan merely because the references are listed.
@@ -278,7 +278,7 @@ Sources cited in Appendix A of the [analysis notebook](../Arno_Analysis_2026_10_
 
 ### Document retrieval, extraction and matching
 
-Candidate-specific sources for rows of the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md). Same three statuses as above. *Moved up from "possible use" on 7 October:* Tater et al. is the main precedent for the provisional focal case, purchase-price control, and Šimsa et al. (DocILE) for document-field extraction; see the reading order above.
+Candidate-specific sources for rows of the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md). Same three statuses as above. *Moved up from "possible use" on 7 October:* Tater et al. is the main precedent for the provisional focal case, order and confirmation checking (called purchase-price control until 7 October), and Šimsa et al. (DocILE) for document-field extraction; see the reading order above.
 
 **Lombardi et al. (2025).** *Title block detection and information extraction for enhanced building drawings search*. EC³ / CIB W78 conference, 2025. https://doi.org/10.35490/EC3.2025.344 (manuscript: https://arxiv.org/abs/2504.08645)
 

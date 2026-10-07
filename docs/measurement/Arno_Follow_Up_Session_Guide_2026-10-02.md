@@ -4,11 +4,11 @@
 
 ## Purpose
 
-**Priority for the current provisional price-control case, 7 October:** use part A and appendix 2 for the relevant price-control explanations, part B questions 2–3 for the actual checking task and frequency, and part D rows 5–6 for accepted support and human review. Bring the broader prompts only if Arno's answers challenge the proposed boundary or another candidate needs clarification. This is a question menu, not a requirement to validate every cause, every kind or every AI function in one session. Record new answers separately from Yijie's dated account below. See the [current task list](../Current_Status_and_Reading_Guide.md#2-what-must-be-settled-to-finish-analyze).
+**Priority for the current provisional focal case, 7 October:** the case is now called order and confirmation checking (purchase-price control until 7 October). Use part A and appendix 2 for the relevant explanations of the checks, part B question 3 for their frequency (question 2, what a check compares, was answered by Yijie as observer on 7 October: price and delivery date), and part D rows 5–6 for accepted support and human review. Bring the broader prompts only if Arno's answers challenge the proposed boundary or another candidate needs clarification. This is a question menu, not a requirement to validate every cause, every kind or every AI function in one session. Record new answers separately from Yijie's dated account below. See the [current task list](../Current_Status_and_Reading_Guide.md#2-what-must-be-settled-to-finish-analyze).
 
 The analysis shows where Arno's time goes. This session collects his answers on three things:
 
-1. **Causes.** Confirm, change or reject the causes in part 10 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, purchase-price control (within the order checks), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
+1. **Causes.** Confirm, change or reject the causes in part 10 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, order and confirmation checking (called purchase-price control until 7 October), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
 2. **Kinds of work.** Check whether the list of kinds of work misses or misnames any of his work (section 2.3 of the notebook).
 3. **Acceptance.** Find out which kinds of support he would accept, and under which conditions, for the tasks in the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md). These answers must come from Arno himself.
 
@@ -211,17 +211,17 @@ Status after 2 October as in part 10 of the notebook. Evidence: O observed in th
 | RI-10 | Request intake | Engineering's drawing set is incomplete | O | Partly answered | | |
 | RI-11 | Request intake | Requester or colleague unavailable | O | Not yet discussed | | |
 | RI-12 | Request intake | A quotation or supplier information is needed first | O | Not yet discussed | | |
-| PC-1 | Price control | Lines are compared one by one by hand | O | Supported | | |
-| PC-2 | Price control | One-off and special items are checked before ordering | E | Not yet discussed | | |
-| PC-3 | Price control | Any change to a PO above €10,000 needs approval again | O | Changed | | |
-| PC-4 | Price control | Prices come from paper, PDF, websites and email | O | Not yet discussed | | |
-| PC-5 | Price control | Prices in Exact are not kept up to date, because the buyers lack time | E | Supported | | |
-| PC-6 | Price control | Exact cannot compare a confirmation with the PO | R | Supported | | |
-| PC-7 | Price control | The cause of a mismatch in a long order is hard to find | O | Not yet discussed | | |
-| PC-8 | Price control | Unpaid invoices block the supplier or the check | O | Not yet discussed | | |
-| PC-9 | Price control | Finance returns cases without saying what is wrong | E | Outside the improvement scope | | |
-| PC-10 | Price control | Supplier prices change, for example with material costs | E | Supported | | |
-| PC-11 | Price control | Small order quantities cost more per unit | O | Not yet discussed | | |
+| PC-1 | Order and confirmation checking | Lines are compared one by one by hand | O | Supported | | |
+| PC-2 | Order and confirmation checking | One-off and special items are checked before ordering | E | Not yet discussed | | |
+| PC-3 | Order and confirmation checking | Any change to a PO above €10,000 needs approval again | O | Changed | | |
+| PC-4 | Order and confirmation checking | Prices come from paper, PDF, websites and email | O | Not yet discussed | | |
+| PC-5 | Order and confirmation checking | Prices in Exact are not kept up to date, because the buyers lack time | E | Supported | | |
+| PC-6 | Order and confirmation checking | Exact cannot compare a confirmation with the PO | R | Supported | | |
+| PC-7 | Order and confirmation checking | The cause of a mismatch in a long order is hard to find | O | Not yet discussed | | |
+| PC-8 | Order and confirmation checking | Unpaid invoices block the supplier or the check | O | Not yet discussed | | |
+| PC-9 | Order and confirmation checking | Finance returns cases without saying what is wrong | E | Outside the improvement scope | | |
+| PC-10 | Order and confirmation checking | Supplier prices change, for example with material costs | E | Supported | | |
+| PC-11 | Order and confirmation checking | Small order quantities cost more per unit | O | Not yet discussed | | |
 
 New causes Arno names:
 

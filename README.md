@@ -18,7 +18,7 @@ Use `main` for the consolidated project. Read the **[current status and reading 
 
 ## Current position, 7 October 2026
 
-Analyze is underway following the [1 October supervisor meeting](docs/meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md). The notebooks contain a descriptive analysis and a provisional focal-case comparison. Purchase-price control leads the current comparison; the case is not yet finally selected.
+Analyze is underway following the [1 October supervisor meeting](docs/meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md). The notebooks contain a descriptive analysis and a provisional focal-case comparison. Order and confirmation checking (called purchase-price control until 7 October) leads the current comparison; the case is not yet finally selected.
 
 Five official Arno sessions provide 892 confirmed net observation minutes. The analysis retains 742 recorded activity minutes after the nine-minute contamination exclusion, including 182 minutes of former EXC work under OTHER outside improvement. The remaining 560 recorded minutes support the improvement profiles. Activity minutes and observation clock time are different quantities. The 28 August pilot stays separate. Dennis has qualitative evidence from 15 September and a timed observation from 25 September; his findings remain separate.
 

@@ -10,7 +10,7 @@
 
 ## Why kinds of work rather than Task IDs
 
-**Added 7 October 2026.** Protocol v1.3 (§2.4) planned to give each record a Task ID from the 31-task register of the [AS-IS process](../process/Process_Cleaned_V1.5.md#5-step--task-register). The enrichment of 21 and 25 September, now [archived](../archive/README.md#measurement), did this for every record. Of the 285 analysed records:
+**Added 7 October 2026.** Protocol v1.3 (§2.4) planned to give each record a Task ID from the 31-task register of the [AS-IS process](../process/Process_Cleaned_V1.5.md#5-step--task-register). The enrichment of 21 and 25 September, now [archived](../archive/README.md#measurement), did this for every record. Of the 285 analysed records (the 287 records without the two lost-focus records of 8 September):
 
 | Result of the Task-ID enrichment | Records |
 |---|---:|
