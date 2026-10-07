@@ -453,6 +453,8 @@ Formal supplier-control documentation and buyer evidence indicate that genuine s
 
 # 7. Candidate profile overview
 
+*Status on 7 October 2026:* the profiles below are from before the Analyze phase. The provisional comparison favours **purchase-price control**, with article / supplier data as the first fallback; PO supplier communication becomes a quick win, and standard / review / manual becomes the design frame of the focal case. See [methodology section 4.0](../methodology/Phase_1_Current_Methodology.md#40-status-of-the-selection-7-october-2026) and the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb).
+
 | Opportunity | Current AS-IS evidence | Main uncertainty | Current profile |
 |---|---|---|---|
 | Order timing / maximalisatie / consolidation | Repeatedly observed judgement work | workload contribution + Exact/Orbis data + tacit decision rules | **Strong active candidate** |
@@ -494,8 +496,8 @@ The AS-IS process is no longer observation-only.
 
 - **Buyer walkthrough:** completed on 21 August; important workflow sequencing was corrected/confirmed.
 - **Formal-document review:** purchasing and supplier-control SOP package received and analysed on 21 August.
-- **System/data validation:** still incomplete; Exact/Orbis data availability, `Advies` logic and some status/routing details remain open.
-- **Quantitative baseline:** still incomplete; representative frequencies and active processing times remain to be established.
+- **System/data validation:** still incomplete; Exact/Orbis data availability, `Advies` logic and some status/routing details remain open. *(7 October: the Exact test-account check is prepared in the [Stage A worksheet](../analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx).)*
+- **Quantitative baseline:** still incomplete; representative frequencies and active processing times remain to be established. *(7 October: five Arno sessions are analysed in the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb); the data describe where the recorded time goes but do not set a time standard.)*
 
 ---
 

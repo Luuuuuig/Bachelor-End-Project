@@ -2,7 +2,7 @@
 
 Prepared 14 September 2026. Applies the scope decisions recorded on 10 September. The phase crosswalk and operational rules below are researcher implementation choices for review, not additional decisions attributed to the supervisor.
 
-**30 September analysis setup:** the analysis starts from all recorded data. EXC and the other exclusions below are kept as separate groups, not dropped, so results can be reported with or without them. See the [measurement README](README.md#current-totals-from-the-reviewed-csvs).
+**30 September analysis setup:** the analysis starts from all recorded data. EXC and the other exclusions below are kept as separate groups, not dropped, so results can be reported with or without them. See the [measurement README](README.md#totals).
 
 **1 October decision:** the supervisor decided that EXC is no longer a separate category. Work originally coded EXC keeps its recorded time in the total time record, grouped under **OTHER**, and stays **outside the improvement scope**: it is not considered for AI improvement and cannot become the focal case. Work outside the purchasing framework keeps the stage "Not applicable" and stays in the total so its share remains visible. This refines the 10 September exclusion; see [Work outside the improvement scope](#work-outside-the-improvement-scope) and the [meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md).
 
@@ -45,7 +45,7 @@ Decided on [1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.
 
 ## Van Weele coding
 
-Use the [Purchasing activity framework of 21 September](../process/Purchasing_Activity_Framework_2026-09-21.md) for the current analytical activity list. The [14 September mapping](../process/Van_Weele_Activity_Mapping_2026-09-14.md) remains a historical crosswalk reference. The current list starts from concrete tasks and organizes their analytical labels around the purchasing stages; it is not a replacement live codebook.
+Use the [Purchasing activity framework of 21 September](../process/Purchasing_Activity_Framework_2026-09-21.md) for the current analytical activity list. The [14 September mapping](../archive/process/Van_Weele_Activity_Mapping_2026-09-14.md) remains a historical crosswalk reference. The current list starts from concrete tasks and organizes their analytical labels around the purchasing stages; it is not a replacement live codebook.
 
 Preserve the seven current live families: **REQ, CLAR, DEC, PO, CHECK, SEND and OTHER**. The historical eighth family, **EXC**, remains traceable in earlier or retained source records; since 1 October it is grouped under OTHER and kept outside the improvement scope. A work family provides a broad live description; an analytical activity identifies the task's purchasing purpose within the framework. Record full analytical activity labels after the session rather than requiring additional live codes.
 

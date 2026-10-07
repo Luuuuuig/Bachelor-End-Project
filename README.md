@@ -14,6 +14,7 @@ Use `main` for the consolidated project. Read the **[current status and reading 
 - [Purchasing activity framework](docs/process/Purchasing_Activity_Framework_2026-09-21.md): how the seven live families, task register, analytical activities and Van Weele stages connect.
 - [Literature register](literature/README.md): source roles and reading/verification status.
 - [Documentation index](docs/README.md): full navigation, including source records and historical documents.
+- [Archive](docs/archive/README.md): superseded files kept for traceability, each with what replaced it.
 
 ## Current position, 7 October 2026
 

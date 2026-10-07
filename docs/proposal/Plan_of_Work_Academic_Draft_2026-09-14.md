@@ -148,15 +148,15 @@ Source: academic Gantt in Ganttchart.drawio, updated 18 September 2026. Progress
 
 ### Figure 1. Gantt chart for Define and Measure
 
-![Define and Measure Gantt chart](../planning/figures/PoW_Gantt_Define_Measure_2026-09-22.svg)
+![Define and Measure Gantt chart](figures/PoW_Gantt_Define_Measure_2026-09-22.svg)
 
 ### Figure 2. Gantt chart for Analyze
 
-![Analyze Gantt chart](../planning/figures/PoW_Gantt_Analyze_2026-09-22.svg)
+![Analyze Gantt chart](figures/PoW_Gantt_Analyze_2026-09-22.svg)
 
 ### Figure 3. Gantt chart for Improve, Control and thesis completion
 
-![Improve, Control and thesis Gantt chart](../planning/figures/PoW_Gantt_Improve_Control_2026-09-22.svg)
+![Improve, Control and thesis Gantt chart](figures/PoW_Gantt_Improve_Control_2026-09-22.svg)
 
 ## Part C - Reflection at start BEP
 

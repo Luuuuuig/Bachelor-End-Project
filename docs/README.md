@@ -14,7 +14,7 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 | Provisional focal case and its conditions | [Focal-case selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) | Stage A gates, provisional scores and sensitivity analysis |
 | Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Gate worksheet, candidate evidence, weights, causes and conclusion outline |
 | Scope, outcome structure and phase gates | [Project charter](Project_Charter.md) | Stable project-control decisions |
-| Dates, dependencies and retained Gantt history | [Project timeline](Project_Timeline.md) | Planning reference; charts are dated plans, not proof of completion |
+| Deadlines and progress against the plan | [Project timeline](Project_Timeline.md) | Plan of Work Gantt compared with actual progress; planned dates are targets, not proof of completion |
 | Selection and evaluation method | [Current methodology](methodology/Phase_1_Current_Methodology.md) | DMAIC/DSRM, candidate boundaries and research rules |
 | Meaning of workload | [Workload definition](methodology/Workload_Definition.md) | Amount and difficulty of work; no invented total-workload score |
 
@@ -47,14 +47,12 @@ The five-day observation target has been reached. Additional Arno or Dennis obse
 | Collected permitted papers | [Open-access papers](../literature/open-access/) | Supporting literature |
 | Latest academic direction | [1 October supervisor meeting](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) | Start Arno analysis, EXC/OTHER treatment, CHECK per line, buyer acceptance and conditional Dennis follow-up |
 | Earlier supervisor and internship records | [Meeting index](meetings/README.md) | What was observed or decided on each date; old open questions may be resolved |
-| September preparation and consistency records | [14 September follow-up](planning/Supervisor_Follow_Up_2026-09-14.md), [15 September synchronization](planning/Repository_Synchronization_2026-09-15.md), [30 September audit](planning/Repository_Consistency_Check_2026-09-30.md) | Historical logs, not the current worklist |
-| Earlier proposal text | [Plan of Work draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md), [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md), [older Word assignment](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Submission/development history; use the readable assignment for current framing |
-| Earlier stage mapping | [14 September crosswalk](process/Van_Weele_Activity_Mapping_2026-09-14.md) | Historical mapping context, not the current analysis labels |
-| Pilot and earlier protocols | [Measurement index](measurement/README.md) | Preserve their original evidence and version status |
-| Exploratory research notes | [Research-note index](research-notes/README.md) | Supporting ideas; not additional mandatory tasks |
+| Earlier proposal text | [Plan of Work draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) with its [Gantt figures](proposal/figures/), [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md) | Submission/development history; use the readable assignment for current framing |
+| Pilot record | [Measurement index](measurement/README.md#observation-records) | Original pilot evidence, outside the baseline |
+| Superseded files: protocols v1.0–v1.2, the 21 and 25 September enrichment exports, the 14 September crosswalk, September planning and consistency records, draft Gantt figures, Word copies and early research notes | [Archive](archive/README.md) | Kept for traceability; each entry names what replaced it. Not used by the notebooks |
 
 ## Ownership and update rules
 
 Keep one owner for each current topic: the reading guide owns priorities, the charter owns scope/gates, the timeline owns dates, the readable assignment owns current questions, the methodology owns research rules, the notebooks own computed findings, and the AS-IS file owns the observed operational process. Evidence inputs and codebooks remain in their documented folders.
 
-When new evidence arrives, preserve the dated source, update the affected current owner, then adjust navigation only if the reading route changes. Record later decisions beside historical evidence instead of rewriting old notes to imply they were known earlier. Preserve the submitted PDF, source observations, earlier protocol versions and dated Gantt charts. Useful operational context may remain in several files, but current task lists belong in the reading guide.
+When new evidence arrives, preserve the dated source, update the affected current owner, then adjust navigation only if the reading route changes. Record later decisions beside historical evidence instead of rewriting old notes to imply they were known earlier. Preserve the submitted PDF and source observations. Move a superseded file to the [archive](archive/README.md) only when nothing current depends on it, and record there what replaced it. Useful operational context may remain in several files, but current task lists belong in the reading guide.
