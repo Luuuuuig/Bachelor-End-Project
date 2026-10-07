@@ -1,6 +1,6 @@
 # Plan of Work
 
-> **Draft, kept as history.** The [submitted version of 22 September](Plan_of_Work_Final_2026-09-22.pdf) remains the submission record, including its five sub-questions. Current working wording and numbering follow Yijie's four-question confirmation on 7 October in the [readable assignment](BEP_Assignment_1BEPIEX.md). Use the [current status and reading guide](../Current_Status_and_Reading_Guide.md) for progress and remaining work. Neither historical document is silently rewritten as a new submission.
+> **Draft, kept as history.** The [submitted version of 22 September](Plan_of_Work_Final_2026-09-22.pdf) is authoritative for the main question and five sub-questions. The [readable assignment](BEP_Assignment_1BEPIEX.md) mirrors that submitted wording and numbering, as confirmed by Yijie on 7 October. The older four-question text below is preserved only as the dated draft. Use the [current status and reading guide](../Current_Status_and_Reading_Guide.md) for progress and remaining work.
 
 **Name student:** Yijie Wang
 

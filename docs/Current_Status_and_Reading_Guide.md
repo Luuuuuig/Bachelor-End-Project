@@ -61,7 +61,7 @@ Read interpretation paragraphs and tables first. Inspect code when a calculation
 
 | Order | File and section | What you should be able to explain |
 |---|---|---|
-| 1 | [Assignment](proposal/BEP_Assignment_1BEPIEX.md): definitions and research questions; [methodology](methodology/Phase_1_Current_Methodology.md): sections 2–3 | Arno's outcome, Dennis's role, the four questions, and why handling time is one indicator rather than the definition of workload or quality. |
+| 1 | [Assignment](proposal/BEP_Assignment_1BEPIEX.md): definitions and research questions; [methodology](methodology/Phase_1_Current_Methodology.md): sections 2–3 | Arno's outcome, Dennis's role, the five submitted questions, and why handling time is one indicator rather than the definition of workload or quality. |
 | 2 | [Purchasing framework](process/Purchasing_Activity_Framework_2026-09-21.md): “Purpose and continuity”; [codebook](measurement/Kinds_Of_Work_Codebook.md): “Coding rules” and “Interpreting time and cases” | How observations led to the task register and seven live families; how stages and detailed kinds are assigned afterward; why overlapping tags cannot simply be added. |
 | 3 | [Arno analysis](../Arno_Analysis_2026_10_02.ipynb): Summary, parts 1, 3 and 4 | Data coverage, clock-time/activity-time distinction, CHECK per line, and remaining interpretation checks. Read part 2's conclusion for the limited role of distribution fitting. |
 | 4 | Same notebook: parts 8 and 9 | How workload supports candidates; the 98-minute broad-check versus 28-minute price-explicit distinction; observed evidence versus reported causes and hypotheses. |
@@ -72,6 +72,6 @@ Your personal review should concentrate on whether interpretations match what yo
 
 ## 6. Document authority and this cleanup
 
-Active documents use the exact main question and four sub-questions reaffirmed by Yijie on 7 October. The [submitted PDF of 22 September](proposal/Plan_of_Work_Final_2026-09-22.pdf) retains its five-question structure as the submission record. This update does not claim resubmission or new supervisor approval; flag the working/submitted difference when discussing the current plan with Zhongxin.
+Active documents use the main question and five sub-questions in section 2 of the [submitted PDF](proposal/Plan_of_Work_Final_2026-09-22.pdf), as confirmed by Yijie on 7 October. The cleanup initially restored the earlier four-question draft by mistake; that change has been corrected. The submitted order is workflow (SQ1), implementation conditions (SQ2), workload contribution (SQ3), selection (SQ4), and evaluation (SQ5). Later scope and method decisions remain in effect; restoring the submitted questions does not revert them.
 
 The cleanup removes stale active submission tasks, compulsory 45-record/kappa wording and duplicate current-status instructions. The optional workbook, original data, historical mappings/observations and submitted documents remain available. It does not complete pending interviews, test-account checks, classification review, weights or approvals.

@@ -9,7 +9,7 @@ Use `main` for the consolidated project. Read the **[current status and reading 
 - [Arno analysis notebook](Arno_Analysis_2026_10_02.ipynb): exploratory workload evidence and limitations.
 - [Focal-case selection notebook](Focal_Case_Selection_2026-10-07.ipynb): provisional comparison, gates and sensitivity analysis.
 - [Analyze conclusion outline](docs/analyze/Analyze_Conclusion_Outline_2026-10-07.md): evidence-to-selection argument and open conditions.
-- [Research questions and assignment](docs/proposal/BEP_Assignment_1BEPIEX.md): current working main question and four sub-questions, using Yijie's confirmed wording.
+- [Research questions and assignment](docs/proposal/BEP_Assignment_1BEPIEX.md): the main question and five sub-questions from the submitted Plan of Work.
 - [Methodology](docs/methodology/Phase_1_Current_Methodology.md): analysis, selection and later evaluation rules.
 - [Purchasing activity framework](docs/process/Purchasing_Activity_Framework_2026-09-21.md): how the seven live families, task register, analytical activities and Van Weele stages connect.
 - [Literature register](literature/README.md): source roles and reading/verification status.
@@ -25,7 +25,7 @@ The immediate work is to inspect the proposed focal case's data and reference an
 
 ## Current documents and submission history
 
-The [submitted Plan of Work of 22 September](docs/proposal/Plan_of_Work_Final_2026-09-22.pdf) is preserved as the submission record, including its five-question structure. Active research documents now use the four-question wording Yijie reaffirmed on 7 October. This repository update does not establish new supervisor approval or resubmission of the PDF. The [14 September draft](docs/proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) and dated follow-up registers are historical records, not current task lists.
+The [submitted Plan of Work of 22 September](docs/proposal/Plan_of_Work_Final_2026-09-22.pdf) is the authority for the main question and five sub-questions, as confirmed by Yijie on 7 October. Active research documents and notebook introductions follow that wording and numbering. The earlier four-question draft was incorrectly restored during cleanup and has been corrected. The [14 September draft](docs/proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) and dated follow-up registers are historical records, not current task lists. Later scope and method decisions remain documented separately.
 
 The [charter](docs/Project_Charter.md) defines the objective and phase decisions. The [timeline](docs/Project_Timeline.md) retains the dated planning baseline and firm deadlines. Company placement ends on **7 January 2027**; the final report deadline is **15 January 2027 at 23:59**.
 

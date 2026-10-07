@@ -9,7 +9,7 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 | What you need | Read | Role |
 |---|---|---|
 | What is done, what remains, and what to read next | [Current status and reading guide](Current_Status_and_Reading_Guide.md) | Current priorities and reading order |
-| Current objective, scope and four user-approved sub-questions | [Readable BEP assignment](proposal/BEP_Assignment_1BEPIEX.md) | Current project definition |
+| Current objective, scope and five submitted sub-questions | [Readable BEP assignment](proposal/BEP_Assignment_1BEPIEX.md) | Current project definition |
 | Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis, case/line comparisons, kinds of work and draft causes |
 | Provisional focal case and its conditions | [Focal-case selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) | Stage A gates, provisional scores and sensitivity analysis |
 | Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Gate worksheet, candidate evidence, weights, causes and conclusion outline |
@@ -20,7 +20,7 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 
 The Arno notebook's descriptive analysis is substantially complete. The selection notebook provisionally favors purchase-price control; data/reference checks and buyer/supervisor review still condition the final choice. Five Arno sessions provide **892 minutes of net observation**, distinct from **742 valid recorded activity minutes**, including **182 former-EXC minutes** and **560 minutes within improvement scope**. Former EXC stays visible under OTHER, outside selection for improvement.
 
-The [final Plan of Work dated 22 September](proposal/Plan_of_Work_Final_2026-09-22.pdf) was submitted and includes the named second assessor, completed start-BEP reflections and signed declaration. Its five-question structure is preserved as submitted. The readable assignment now carries the current user-approved four sub-questions; this does not imply a changed submission or new supervisor approval.
+The [final Plan of Work dated 22 September](proposal/Plan_of_Work_Final_2026-09-22.pdf) was submitted and includes the named second assessor, completed start-BEP reflections and signed declaration. Its main question and five sub-questions are authoritative, as confirmed by Yijie on 7 October. The readable assignment and active research documents follow that wording and numbering. Later scope and method decisions are documented separately.
 
 ## Process, measurement and company evidence
 

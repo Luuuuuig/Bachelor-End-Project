@@ -20,7 +20,7 @@ The swings follow the 1 / 3 / 5 anchors proposed in the brief. Four criteria sco
 | Observed workload contribution | Under 5% of in-scope buyer time → over 15%, with recorded burden on several days. Reducing buyer workload is the research objective. | 100 | 27.0% |
 | Data readiness above the gate minimum | A few hand-collected cases → representative, exportable cases with a traceable correct outcome. Decides how good the prototype and its test can be; gates 1–2 already set the minimum. | 60 | 16.2% |
 | AI–task fit | AI needed for one part → AI is the core of the task. The company expects AI in the focal solution; gate 6 already removes tasks a simple rule could do. | 50 | 13.5% |
-| Evaluation feasibility | Few cases and little buyer time → many cases with a reference answer and time to test. Needed for current SQ4; gate 3 already sets the minimum. | 50 | 13.5% |
+| Evaluation feasibility | Few cases and little buyer time → many cases with a reference answer and time to test. Needed for SQ5; gate 3 already sets the minimum. | 50 | 13.5% |
 | Prototype / technical feasibility | Manual workarounds needed → buildable with available data and tools, no integration. Gate 5 already removes what does not fit the BEP. | 40 | 10.8% |
 | Business value beyond counted workload | No effect beyond buyer time → an effect confirmed with examples or figures. Secondary to the workload objective. | 40 | 10.8% |
 | Repetition / process standardisation | Rare or varying inputs → many stable cases every day. Frequency is already partly counted under workload. | 30 | 8.1% |

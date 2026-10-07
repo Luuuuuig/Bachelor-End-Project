@@ -1,6 +1,6 @@
 # Phase 1 — Current Methodology and Case-Selection Status
 
-**Status:** Current research-method and case-selection source of truth; working question references and remaining actions synchronized 7 October 2026. The author’s four-sub-question working version is distinct from the unchanged five-sub-question Plan of Work submitted on 22 September.
+**Status:** Current research-method and case-selection source of truth. Question references were corrected on 7 October 2026 to the five sub-questions in the submitted Plan of Work, as confirmed by Yijie; subsequent scope and timing decisions remain in effect.
 
 **Ownership:** This file owns the research framework, candidate portfolio, selection gates, evaluation logic and current research actions. Detailed workload theory and live Measure-phase collection rules are maintained in their dedicated files rather than duplicated here.
 
@@ -18,7 +18,7 @@ Related sources:
 
 ### Scope update of 14 September 2026
 
-The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and keeps logistics outside the thesis. Since [1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md), former EXC work stays in the total time record under OTHER but outside the work considered for AI improvement. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md); the [14 September Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md) is historical. The submitted Plan of Work of 22 September retains five sub-questions; the [current working assignment](../proposal/BEP_Assignment_1BEPIEX.md#main-research-question) now reproduces the author’s latest four-sub-question wording and order (see section 3). This is a working revision, not a record of new supervisor approval. Measurement and evaluation details remain subject to justification.
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and keeps logistics outside the thesis. Since [1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md), former EXC work stays in the total time record under OTHER but outside the work considered for AI improvement. Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md); the [14 September Van Weele crosswalk](../process/Van_Weele_Activity_Mapping_2026-09-14.md) is historical. The submitted Plan of Work provides the main question and five sub-questions; the [current assignment](../proposal/BEP_Assignment_1BEPIEX.md#main-research-question) reproduces that wording and order (see section 3). Measurement and evaluation details remain subject to justification.
 
 # 1. Project objective
 
@@ -102,7 +102,7 @@ Judge-Advisor System / reliance concepts remain conditional. They become relevan
 
 # 3. Measure design
 
-The [working question block](../proposal/BEP_Assignment_1BEPIEX.md#main-research-question) owns the author’s exact current wording and order: SQ1 concerns workload contributors, including relevant operational and tactical tasks; SQ2 concerns implementation conditions and controls; SQ3 concerns candidate comparison and selection; SQ4 compares the selected solution with current practice on workload and purchasing quality. The submitted [Plan of Work](../proposal/Plan_of_Work_Final_2026-09-22.pdf) retains its historical five-question version. Workflow mapping and root-cause analysis support the four working questions; they do not add another question. This synchronization does not claim new supervisor approval.
+The [question block](../proposal/BEP_Assignment_1BEPIEX.md#main-research-question) reproduces the submitted [Plan of Work](../proposal/Plan_of_Work_Final_2026-09-22.pdf), section 2: SQ1 concerns the standard workflow and operational–tactical relationship; SQ2 concerns implementation conditions and controls; SQ3 concerns workload contribution in terms of proposed measures; SQ4 concerns candidate comparison and selection; SQ5 evaluates workload reduction while maintaining purchasing quality. Process maps address SQ1. Workload profiling and investigation of contributing factors support SQ3 and inform SQ4. Implementation requirements support SQ2, and the evaluation design supports SQ5. These are five distinct questions; this correction restores their submitted wording and numbering.
 
 The broad workload construct is defined in `Workload_Definition.md` and uses a layered structure:
 

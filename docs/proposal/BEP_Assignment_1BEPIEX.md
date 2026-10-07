@@ -1,6 +1,6 @@
 # BEP Assignment 1BEPIEX
 
-**Status:** Current working project definition, updated 7 October 2026 to the author’s latest four-sub-question version. The submitted [Plan of Work](Plan_of_Work_Final_2026-09-22.pdf) of 22 September retains its five-sub-question version and is not rewritten. This Markdown file owns the active working questions; the Word binary retained beside it is an older external/submission copy. No new supervisor approval is claimed.
+**Status:** Current working project definition, corrected 7 October 2026 to the main question and five sub-questions in the submitted [Plan of Work](Plan_of_Work_Final_2026-09-22.pdf), section 2. Yijie confirmed the handed-in version is authoritative. This Markdown file mirrors its research questions; the adjacent Word draft is an older copy. Later scope and method decisions remain documented separately.
 
 **Project title:** AI-supported operational procurement at Hytech-Pommec  
 **Student:** Yijie Wang  
@@ -10,7 +10,7 @@
 
 ### Scope update of 14 September 2026
 
-The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and keeps logistics outside the thesis. On 1 October the supervisor decided that former EXC work stays in the total time record, grouped under OTHER and kept outside the work considered for AI improvement ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)). Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [current purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md). The sub-questions below use the author’s latest four-question working version, with one operational buyer and relevant tactical purchasing tasks. The earlier crosswalk and submitted five-question version remain historical records; this update does not record new supervisor approval of the working questions, measurement or evaluation details.
+The objective remains reducing the operational buyer's workload while maintaining purchasing quality. The [10 September academic decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) adds Dennis's tactical purchasing work to the research context and keeps logistics outside the thesis. On 1 October the supervisor decided that former EXC work stays in the total time record, grouped under OTHER and kept outside the work considered for AI improvement ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)). Keep actor-specific evidence separate. Apply the [scope and classification addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md) and the [current purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md). The main question and five sub-questions below follow the submitted Plan of Work, as confirmed by Yijie on 7 October. The earlier four-question draft and crosswalk are historical. Later scope and method decisions do not change the submitted question wording or numbering.
 
 ## Description of the context
 
@@ -46,20 +46,21 @@ Furthermore, one purchasing activity will be selected for design and evaluation.
 
 ### Main research question
 
-**Working version, 7 October 2026:** the following question block reproduces Yijie's latest four-sub-question wording and order. It differs from the five-sub-question version in the submitted [Plan of Work](Plan_of_Work_Final_2026-09-22.pdf) of 22 September, which remains unchanged as the submission record. This update records the author's working revision, not new supervisor approval.
+**Authority:** Section 2 of the submitted [Plan of Work](Plan_of_Work_Final_2026-09-22.pdf). The main question and five sub-questions below reproduce its wording and order. The earlier four-question draft was incorrectly restored during the 7 October cleanup; this correction restores the submitted version.
 
 > To what extent can an AI-supported solution reduce the operational buyer’s workload at Hytech-Pommec without reducing the quality of the purchasing outcome?
 
 ### Sub-research questions
 
-1. Which parts of the purchasing workflow, including relevant operational and tactical purchasing tasks, contribute most to the operational buyer’s workload in terms of frequency, processing time, rework and judgement required?
+1. What is the standard workflow of the purchasing process at Hytech-Pommec, and what is the relationship between operational and tactical purchasing tasks?
 2. What conditions and control measures are required for the proposed solution to be implemented reliably in the purchasing workflow, including relevant operational and tactical purchasing tasks?
-3. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility and the need for human expertise?
-4. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity, when compared with current practice?
+3. Which parts of the purchasing workflow contribute most to the operational buyer’s workload in terms of proposed measures?
+4. Which of these activities offers the greatest potential for AI-supported improvement, considering workload contribution, business relevance, technical feasibility, and the need for human expertise?
+5. To what extent does the proposed AI-supported solution reduce workload while maintaining the required quality of the purchasing activity?
 
 The operational buyer in these questions is Arno. Relevant tactical purchasing tasks performed by Dennis are included in the investigation and, where relevant, in the design and evaluation of the selected improvement. Reducing Arno’s workload remains the primary objective. Changes to Dennis’s work will be considered where the improvement affects his tasks or responsibilities.
 
-The working order is workload contributors (SQ1), implementation conditions and controls (SQ2), candidate selection (SQ3), and comparison with current practice (SQ4). Workflow and operational–tactical relationships remain evidence needed to answer these questions, rather than a separate fifth question. Frequency, processing time, rework and judgement required are areas of investigation; processing time alone does not represent total workload, and the final activity-specific indicators and quality rubric must be justified before development and formal testing.
+The submitted order is standard workflow and operational–tactical relationships (SQ1), implementation conditions and controls (SQ2), workload contribution (SQ3), candidate selection (SQ4), and workload and purchasing-quality evaluation (SQ5). Process mapping addresses SQ1; workload profiling and investigation of contributing factors support SQ3 and inform SQ4. Proposed measures remain subject to justification: processing time alone does not represent total workload, and the final activity-specific indicators and quality rubric must be specified before development and formal testing.
 
 ## Research Design
 
