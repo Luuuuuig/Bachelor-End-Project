@@ -14,9 +14,9 @@ The Measure phase: how the observations were made, the records of each session, 
 | File | Content | Used in the analysis notebook |
 |---|---|---|
 | `Arno_Measurement_<date>.csv`: [31 August](Arno_Measurement_2026-08-31.csv), [1 September](Arno_Measurement_2026-09-01.csv), [8 September](Arno_Measurement_2026-09-08.csv), [18 September](Arno_Measurement_2026-09-18.csv), [23 September](Arno_Measurement_2026-09-23.csv) | One row per recorded activity: the original eight observation columns plus the observer-reviewed Van Weele stage (30 September) | Everywhere |
-| [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv) | Observation blocks and confirmed net observation per session | Part 1 (coverage) |
-| [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv) | Up to three kinds of work (K01–K31) per record | Parts 4–9 |
-| [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv) | Each kind's place in the purchasing activity framework | Part 4 |
+| [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv) | Observation blocks and confirmed net observation per session | Section 3.3 (coverage) |
+| [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv) | Up to three kinds of work (K01–K31) per record | Section 2.3 onward |
+| [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv) | Each kind's place in the purchasing activity framework | Section 2.4 |
 | [`Kinds_Coding_Check_Sample_2026-10-02.xlsx`](Kinds_Coding_Check_Sample_2026-10-02.xlsx) | Optional blind coding sheet of 45 random records, prepared on 2 October and not completed. Neither the sheet nor kappa is a completion condition; the current check is the targeted review | Not used |
 
 The [pilot CSV](Arno_Measurement_2026-08-28_Pilot.csv) is kept separate and is not analysed. The [stage review of 30 September](Stage_Review_2026-09-30.md) explains the observer's stage decisions per session.

@@ -8,12 +8,12 @@ Each section lists what the chapter will say, where the evidence is, and what is
 
 | Question ([methodology §2](../methodology/Phase_1_Current_Methodology.md#2-research-structure), charter) | Where it is answered | Status |
 |---|---|---|
-| Where does the recorded work go, and is the evidence enough? | [Analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), parts 1–3 and 5–8 | Done for description; not enough for a time standard |
-| What may cause the work? | Notebook part 9; [draft causes](Arno_Causes_Draft_2026-10-06.csv) | Draft; Arno still has to confirm |
-| Which work can be eliminated, simplified, standardised, automated or supported? | Notebook part 9 (directions table); section 5 below | Draft per cause |
-| How standard is the work? | Notebook parts 6–8 (cases in one stretch, cases without a recorded problem) | Described; not a count of standard cases |
-| Are decision-relevant classifications supported by the notes? | Notebook part 4; codebook and source rows | Pending: targeted review across competing candidates; the 45-record exercise is optional, and overall independent reliability is not established |
-| Is the AI support feasible with the data available? | [Stage A gates](Stage_A_Gates_2026-10-07.csv), [test-account worksheet](Stage_A_Test_Account_Check_2026-10-07.xlsx) | Gate 1 passed on 7 October; gates 2–3 wait on the test account |
+| Where does the recorded work go, and is the evidence enough? | [Analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), parts 3–9 and Appendix A | Done for description; not enough for a time standard |
+| What may cause the work? | Notebook part 10; [draft causes](Arno_Causes_Draft_2026-10-06.csv) | Draft; Arno still has to confirm |
+| Which work can be eliminated, simplified, standardised, automated or supported? | Notebook part 10 (directions table); section 5 below | Draft per cause |
+| How standard is the work? | Notebook parts 7–9 (cases in one stretch, cases without a recorded problem) | Described; not a count of standard cases |
+| Are decision-relevant classifications supported by the notes? | Notebook sections 3.6–3.7; codebook and source rows | Pending: targeted review across competing candidates; the 45-record exercise is optional, and overall independent reliability is not established |
+| Is the AI support feasible with the data available? | [Stage A gates](../../Focal_Case_Selection_2026-10-07.ipynb) (selection notebook, part 3), [test-account worksheet](Stage_A_Test_Account_Check_2026-10-07.xlsx) | Gate 1 passed on 7 October; gates 2–3 wait on the test account |
 | Which candidate becomes the focal case? | [Selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) | Provisional; Zhongxin's weights and review follow |
 
 ## 2. Where the work goes

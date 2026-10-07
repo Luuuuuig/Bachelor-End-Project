@@ -4,7 +4,7 @@
 
 **Updated 30 September 2026:** the evidence references and worked examples below now follow the observer-reviewed stage assignments in the daily `Arno_Measurement_*.csv` files ([stage review of 30 September](../measurement/Stage_Review_2026-09-30.md)). Where an earlier assignment in this framework or in the 21 September dataset differs, the reviewed CSV applies.
 
-**Kinds of work, 2 October 2026:** the kinds of work of 30 September (K01–K31) are finer, task-level labels used in the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb). Part 4 of the notebook places each kind under an analytical activity of this framework, or marks it as a problem, an event, a purchase subtype or work outside this activity list. This framework stays the main classification.
+**Kinds of work, 2 October 2026:** the kinds of work of 30 September (K01–K31) are finer, task-level labels used in the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb). Section 2.4 of the notebook places each kind under an analytical activity of this framework, or marks it as a problem, an event, a purchase subtype or work outside this activity list. This framework stays the main classification.
 
 **Current interpretation, 7 October:** the seven live families and reviewed row-level stages remain the observation structure. Detailed kinds are retrospective analytical labels; review ambiguous and decision-relevant assignments across competing candidates without claiming independently established coding reliability. The [current assignment](../proposal/BEP_Assignment_1BEPIEX.md) mirrors the submitted main question and five sub-questions. Workflow mapping addresses SQ1, and workload profiling by activity and stage supports SQ3 and candidate selection under SQ4.
 
