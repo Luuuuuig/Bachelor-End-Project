@@ -12,7 +12,7 @@ Each section lists what the chapter will say, where the evidence is, and what is
 | What may cause the work? | Notebook part 9; [draft causes](Arno_Causes_Draft_2026-10-06.csv) | Draft; Arno still has to confirm |
 | Which work can be eliminated, simplified, standardised, automated or supported? | Notebook part 9 (directions table); section 5 below | Draft per cause |
 | How standard is the work? | Notebook parts 6–8 (cases in one stretch, cases without a recorded problem) | Described; not a count of standard cases |
-| Are the kinds of work reliable? | Notebook part 4 (coding check) | Pending: 45 records to code |
+| Are decision-relevant classifications supported by the notes? | Notebook part 4; codebook and source rows | Pending: targeted review across competing candidates; the 45-record exercise is optional, and overall independent reliability is not established |
 | Is the AI support feasible with the data available? | [Stage A gates](Stage_A_Gates_2026-10-07.csv), [test-account worksheet](Stage_A_Test_Account_Check_2026-10-07.xlsx) | Gate 1 passed on 7 October; gates 2–3 wait on the test account |
 | Which candidate becomes the focal case? | [Selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) | Provisional; Zhongxin's weights and review follow |
 
@@ -20,7 +20,7 @@ Each section lists what the chapter will say, where the evidence is, and what is
 
 - **Ordering is the largest stage** on every day: 334 of 560 minutes (59.6%). Former EXC (182 minutes) stays outside the improvement scope.
 - **Three areas carry the most time:** PO preparation and completion (111 minutes), order checks and price differences (98) and request intake & validation (94). They overlap, so they are not added up.
-- **Most work is routine on record:** 406 of the 560 minutes (72.5%) fall in case-days without a recorded problem. Arno returns to 30 of 98 case-days after other work; these hold 273 minutes.
+- **No problem was recorded in many case-days:** these contain 406 of the 560 minutes (72.5%). Absence of a recorded problem does not establish that work is routine or automatable. Arno returns to 30 of 98 case-days after other work; these hold 273 minutes.
 - **Recorded episodes are short:** a lognormal curve is the working approximation for the bulk of the records (median about 2.3 minutes); no formal goodness-of-fit decision is made.
 - **Limits of the evidence:** one buyer, five partial sessions, start and end read in whole minutes, kinds of work assigned by one coder.
 
@@ -29,7 +29,7 @@ Each section lists what the chapter will say, where the evidence is, and what is
 - **Provisional focal case: purchase-price control.** Boundary (brief, decision 5): checking supplier quotations before ordering and order confirmations after ordering against the PO and supplier information, with price as the main reported problem.
 - **Recorded workload:** 98 minutes (17.5%) in 23 records and 19 case-days, on all five days; 66 of them on 18 September. Of the 98, 28 minutes are in records whose note names price, 56 in checks whose subject is not recorded and 14 on other subjects. These describe scopes, not price-checking time.
 - **Why this case:** 76.2 of 100 in Stage B, ahead of article / supplier data (56.8), maximalisatie (51.9) and request intake (50.8). It stays first in every single-change sensitivity check (equal weights, each weight ±20%, each score ±1, price-only boundary); six combined one-point changes within the recorded ranges would put article data ahead.
-- **Why it fits AI support:** the prices arrive on paper, as PDF, from websites and by email, with item descriptions that differ from the PO; reading and matching them needs document understanding (gate 6). A price check has a checkable outcome, the approved price per line (gate 3).
+- **Proposed AI role:** source notes describe prices on paper, PDF, websites and email, with item descriptions that may differ from the PO. Reading and matching those inputs could justify AI support (gate 6); inspect the actual documents to establish whether rules or structured inputs suffice. The proposed reference is an approved price per line, whose availability and trustworthiness remain to be demonstrated (gate 3).
 - **Proposed support, designed in Improve:** read price, quantity and delivery date per line from the supplier's document, match the lines to the PO and flag differences. The buyer decides; nothing changes in Exact without the buyer.
 - **What is not claimed:** no time saving is estimated yet, and the 98 minutes are not all price work.
 
@@ -81,32 +81,29 @@ No direction lets AI change orders on its own; the buyers raised that concern on
 
 **Conditions still open:**
 
-1. **Test account (PC1–PC4).** POs with their confirmations or quotations, and a traceable approved price per line. If they are missing, gates 2 and 3 reopen; another source and reference must be shown to work before scoring continues.
+1. **Test account (PC1–PC4).** POs with their confirmations or quotations, and a traceable approved price per line. Check the relevant period, export route and testing needs next. If the evidence is missing, gates 2 and 3 remain unresolved; demonstrate a suitable alternative before final selection. The current provisional comparison is not a substitute for these checks.
 2. **Arno** accepts that price and date differences are flagged for his review.
 3. **Zhongxin** sets her own weights, then reviews the gates, scores and focal case; the totals and sensitivity check are rerun with the combined weights.
 
-**Also needed for the tollgate:** the charter asks for weights agreed before the comparison and for supervisor alignment. The provisional selection used Yijie's weights only; this is reported, and resolved when the combined weights are frozen and the totals rerun. Johan's view of the business value (price errors avoided, with examples or figures) is the evidence the business-value score still lacks ([evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md)).
+**Also needed for the tollgate:** the charter requires agreed weights for final ranking and supervisor alignment. The provisional selection used Yijie's weights only; this remains disclosed when the combined weights are frozen and the totals rerun. Johan's view of the business value (price errors avoided, with examples or figures) is the evidence the business-value score still lacks ([evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md)).
 
 ## 7. Into Improve
 
 - **Problem statement and objectives** (DSRM steps 1–2) follow from sections 3–5: what the support must read, match and flag, and what stays with the buyer.
-- **Evaluation design** (SQ5), to be set in Improve: test workloads of past orders with known outcomes (the approved price as reference), how well differences are found, and buyer handling time against a baseline. The observed time per line is too imprecise for a baseline (0.87 minutes per line pooled; mean per check 1.24, 95% interval 0.70 to 1.78), so the baseline needs its own timed checks.
+- **Evaluation design** (current SQ4), to be frozen before development/formal testing: define eligible matched cases, trusted reference answers, justified workload indicators, final human-approved quality criteria, success thresholds and development/evaluation separation. Handling time is a possible workload indicator, not the workload or quality definition. If chosen, include all attributable human review and correction work. The observed time per line is too imprecise as a task-time standard (0.87 minutes per line pooled; mean per check 1.24, 95% interval 0.70 to 1.78), so establish the selected task's manual baseline separately. Evaluation will show whether the proposed benefit occurs.
 - **Fallback:** if price control fails gates 2–3, article / supplier data is assessed next (checks AR1–AR2).
 
 ## 8. Limitations to report
 
 - One buyer, five partial sessions, whole-minute records; price-specific time is not measured.
 - Causes are reported second-hand until Arno confirms them.
-- Kinds of work rest on one coder until the coding check is done.
+- Kinds of work rest on one coding pass. The targeted classification review is pending; even when completed, it will not establish independent reliability across the whole dataset.
 - The workload figures were known before the weights were set; the weights were recorded before any scoring.
 - One assessor so far; verdicts and scores were drafted with AI assistance and reviewed by Yijie.
 - The test account holds an older period, which may differ from current practice.
 
 ## 9. Order of the remaining work
 
-1. Zhongxin's swing weights → combine, discuss gaps above 10 points, freeze.
-2. Test-account checks PC1–PC4 first, then the rest of the worksheet.
-3. Session with Arno: causes (part A and appendix 2), what a check compares and how often (part B), acceptance (part D).
-4. Coding check: code the 45 records, commit the sheet, rerun part 4 of the notebook.
-5. Zhongxin reviews the selection; rerun the totals and sensitivity check with the combined weights.
-6. Write the Analyze chapter from this outline and close the tollgate.
+Use [Current status and reading guide, section 2](../Current_Status_and_Reading_Guide.md#2-what-must-be-settled-to-finish-analyze) as the task list. The work can proceed in parallel: inspect focal-case data/reference answers; confirm relevant task explanations and acceptance with Arno; document a targeted classification review across competing candidates; obtain Zhongxin's independent weights and review plus Johan's business-value/feasibility input; rerun affected results and write the conclusion.
+
+Exactly 45 records, a kappa statistic, another general observation round, every cause in all fishbones and all 31 worksheet checks are not automatic exit conditions. Keep remaining hypotheses and evidence gaps explicit. Root-cause investigation supports current SQ1; implementation conditions support SQ2; selection supports SQ3; evaluation supports SQ4. The unchanged submitted PDF retains its earlier five-question structure as a historical submission record.

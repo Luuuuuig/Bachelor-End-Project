@@ -1,5 +1,7 @@
 # Supervisor follow up for 14 September
 
+> **Historical register — status clarified 7 October 2026.** This preserves the 14 September worklist and evidence state. The final Plan of Work has since been submitted with the second assessor, start-BEP reflections and signed declaration completed; five Arno sessions and both analysis notebooks now exist. The 1 October EXC/OTHER decision supersedes the exclusion wording below. Use the [current status and reading guide](../Current_Status_and_Reading_Guide.md) for remaining work; the old deadlines and open items below are not a current task list.
+
 The half-page project description is due on 15 September. The academic scope decision of 10 September includes Dennis, excludes logistics from the thesis and excludes EXC time from Measure and focal-case selection. The primary objective remains reducing the operational buyer's workload while maintaining purchasing quality.
 
 This register uses repository snapshot `961ced3220bbfefed1bf20c15fcc0876739cfbfe` and the [Drive Gantt](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view) supplied on 14 September. The Drive Gantt is newer than the 2 September Mermaid schedule retained in the repository. Task IDs below refer to the Drive Gantt.

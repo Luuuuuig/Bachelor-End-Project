@@ -1,25 +1,25 @@
 # Candidate evidence matrix
 
-**Prepared:** 7 October 2026. **Status:** evidence only. No candidate has been scored, and no score may be added until the Stage A gates are checked and the swing weights are agreed and frozen ([methodology §5.3](../methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule), [scoring brief](https://claude.ai/artifact/P2bsL8ZfyDhdJZanQAdk6n)).
+**Prepared:** 7 October 2026. **Status:** evidence supporting a provisional comparison. Final selection requires the relevant Stage A checks, agreed weights and supervisor review ([methodology §5.3](../methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule), [scoring brief](https://claude.ai/artifact/P2bsL8ZfyDhdJZanQAdk6n)).
 
 **Update, 7 October:** at Yijie's request a provisional selection was made from this evidence before Zhongxin's weights, in [Focal_Case_Selection_2026-10-07.ipynb](../../Focal_Case_Selection_2026-10-07.ipynb). Its gate verdicts and scores are in [Stage_A_Gates_2026-10-07.csv](Stage_A_Gates_2026-10-07.csv) and [Candidate_Scores_2026-10-07.csv](Candidate_Scores_2026-10-07.csv); they stay provisional until Zhongxin has reviewed them and the test-account checks are done.
 
-For each candidate and Stage B criterion, this file lists what is already known, with its source, and what is still missing and where to get it. When scoring starts, each cell gets a score from 1 to 5 against the agreed anchors, with its evidence and uncertainty.
+For each candidate and Stage B criterion, this file lists what is known, its source and the remaining gap. Provisional scores from 1 to 5 already exist; their final use depends on the agreed anchors, relevant evidence and uncertainty review. These gaps are a menu for resolving consequential uncertainty, not a requirement to investigate every candidate equally.
 
-**Sources used:** the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) (parts 3 and 5–9), the [draft causes](Arno_Causes_Draft_2026-10-06.csv) (cause IDs such as PC-5), [what Yijie reported on 2 October](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md#what-yijie-reported-on-2-october), the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md) (row numbers), the [1 October meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) and the [opportunity profiles](../process/Process_Cleaned_V1.5.md#6-improvement-opportunity-profiles). Minutes are recorded minutes without former EXC, out of 560; they are observed parts of work in five sessions of one buyer, not task times or savings. The AI function table was prepared with the labels of 2 October, so its minutes can differ slightly from the notebook's; this file uses the notebook.
+**Sources used:** the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) (parts 3 and 5–9), the [draft causes](Arno_Causes_Draft_2026-10-06.csv) (cause IDs such as PC-5), [what Yijie reported on 2 October](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md#what-yijie-reported-on-2-october), the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md) (row numbers), the [1 October meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) and the [opportunity profiles](../process/Process_Cleaned_V1.5.md#6-improvement-opportunity-profiles). Minutes are recorded minutes without former EXC, out of 560; they are observed parts of work in five sessions of one buyer, not task times or savings. The AI function table contains illustrative cases and acceptance questions; it now defers quantitative reporting to the notebook and this evidence matrix rather than repeating old counts.
 
 ## Candidates
 
-The five candidates of the [methodology's portfolio](../methodology/Phase_1_Current_Methodology.md#4-current-candidate-portfolio) and one area that is not yet a candidate.
+The six areas below document the [methodology's portfolio](../methodology/Phase_1_Current_Methodology.md#4-current-candidate-portfolio). The provisional comparison scores price control, article/supplier data and narrowed versions of maximalisatie and request intake. Stand-alone routing is not a feasible primary artifact in its current form; PO communication remains an ordinary-automation opportunity.
 
 | Candidate | Kinds of work in the notebook | Boundary still to decide |
 |---|---|---|
-| Purchase-price control | Order checks and price differences: K04, K17, K18 | Yes: all order checks, or price comparison only (brief, decision 5) |
-| Order timing / maximalisatie / consolidation | K03 | No |
-| Standard / review / manual process redesign | Process-level; no single kind. Closest task area: PO preparation and completion (K02) | Yes: which work the redesign covers, and what counts as a standard case |
-| Request intake & validation | K08, K09, K10, K11 | No |
-| PO supplier communication (supporting) | K05 | No |
-| Article or supplier data in Exact | K12 | Yes: scored on its own or as part of request intake |
+| Purchase-price control | Order checks and price differences: K04, K17, K18 | Proposed quotation/confirmation comparison, with price central; confirm the boundary. The 98 minutes are broader checks, not isolated price work. |
+| Order timing / maximalisatie / consolidation | K03 | Provisionally narrowed to presenting related demand/open POs; the buyer retains the hold/order decision. |
+| Standard / review / manual process redesign | Process-level; no single kind. Closest task area: K02 | Retained as a design concept rather than a selected stand-alone artifact; buyer acceptance remains open. |
+| Request intake & validation | K08, K09, K10, K11 | Provisionally narrowed to retrieving prior POs/drawings; completeness assessment lacks a demonstrated reference. |
+| PO supplier communication (supporting) | K05 | Ordinary-automation recommendation rather than primary AI case. |
+| Article or supplier data in Exact | K12 | Scored separately as the first fallback; actual source documents and reference records still need checking. |
 
 ## Evidence status at a glance
 
@@ -130,9 +130,9 @@ Data readiness and prototype feasibility are missing for every candidate: both d
 | Source | What it settles | Cells |
 |---|---|---|
 | Zhongxin | Anchors, weights, the price-control boundary (brief, decisions 1–5) | Workload for price control; how all cells are scored |
-| Exact test account (Yijie) | For each candidate, whether the needed records exist, how many, from which period, and whether the correct outcome is traceable | Data readiness and evaluation feasibility for all candidates |
-| Session with Arno | What checks compare and how often; routine against exceptional cases; how demand is combined; required drawings; acceptance per AI function | Repetition and AI–task fit for all candidates; workload boundary for price control |
-| Company supervisor | Business value beyond buyer time, with examples or figures | Business value for all candidates |
-| IT and access check | Exports, Exact or Outlook integration, Orbis | Prototype feasibility for all candidates |
-| Literature | Read Tater et al. (2022), Parasuraman et al. (2000), Burger et al. (2023) and Lombardi et al. (2025) in full | AI–task fit |
-| Yijie's decision | Boundary of the standard / review / manual redesign; whether article data joins request intake | Workload for those two |
+| Exact test account (Yijie) | PC1–PC4 first, then common/focal checks for period, representativeness, exports and testing. Check alternatives when a gate fails or the comparison needs that evidence. | Data readiness and evaluation feasibility |
+| Session with Arno | Relevant causes, what order checks compare and how often, trusted prices and accepted support. Other candidate prompts only where needed. | Price-control boundary, repetition and AI–task fit |
+| Company supervisor | Business value and feasibility of the proposed choice, with examples or figures; alternatives if needed | Business-value evidence |
+| IT and access check | Whether the selected bounded prototype can work on permitted exports; integration/Orbis only if necessary | Prototype feasibility |
+| Literature | Verify/read the sources actually used for the selected design and analytical method, beginning with the literature register's reading order | Evidence for method and AI–task fit |
+| Yijie's classification review | Ambiguous and decision-relevant labels across competing candidates; record reasons and any changed totals. The 45-record exercise is optional. | Interpretation supporting the comparison, without a whole-dataset reliability claim |

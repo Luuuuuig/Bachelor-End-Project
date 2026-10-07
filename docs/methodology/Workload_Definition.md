@@ -1,6 +1,6 @@
 # Workload Definition — Operational Purchasing BEP
 
-**Status:** Canonical project definition, synchronized 15 September 2026; sub-question reference updated 30 September 2026.
+**Status:** Canonical project definition; working sub-question reference synchronized 7 October 2026. Workload remains amount and difficulty of work; quality is a separate outcome construct.
 
 **Ownership:** This file defines what **workload** means in the BEP. Detailed live Measure-phase data-collection procedure belongs in `../measurement/Measurement_Protocol_v1.3.md`; research/candidate decisions belong in `Phase_1_Current_Methodology.md`; literature status belongs in `../../literature/README.md`.
 
@@ -140,7 +140,7 @@ Where evidence concerns only one aspect, use the more precise term, for example:
 
 Do not claim that one task has greater **total workload** than another solely because it takes more time. Likewise, do not label a task high mental workload solely because it requires expertise.
 
-The exploratory Measure indicators and coding rules are defined in `../measurement/Measurement_Protocol_v1.3.md`, read with the 14 September scope addendum. Sub-question 3 of the submitted Plan of Work asks which parts of the workflow contribute most to the operational buyer's workload in terms of the proposed measures; frequency, processing time, rework and judgement required remain the areas of investigation. These terms do not by themselves establish the final evaluation measures. After selecting the component, justify its workload indicators, comparator, meaningful improvement threshold and quality criteria before development and formal testing. Where only time requirements are evaluated, limit the conclusion to that workload dimension.
+The exploratory Measure indicators and coding rules are defined in `../measurement/Measurement_Protocol_v1.3.md`, read with the 14 September scope addendum. SQ1 of the [current four-question working version](../proposal/BEP_Assignment_1BEPIEX.md#sub-research-questions) asks about workload contributors in terms of frequency, processing time, rework and judgement required. The unchanged submitted Plan of Work of 22 September used different wording and numbering. These terms do not by themselves establish the final evaluation measures. After selecting the component, justify its workload indicators, comparator, meaningful improvement threshold and quality criteria before development and formal testing. Where only time requirements are evaluated, limit the conclusion to that workload dimension.
 
 ---
 

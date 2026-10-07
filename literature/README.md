@@ -1,6 +1,6 @@
 # Literature package: operational purchasing, AI support, workload, quality, and research methodology
 
-This register tracks literature by its current likelihood of use and states **where each source supports the BEP**. Detailed methodology, operational definitions and candidate decisions belong in the corresponding authoritative files under `docs/`.
+This register tracks recorded and possible uses of literature. **Listed, cited, citation-verified, abstract-reviewed and full-text-reviewed are different statuses.** “Confirmed use” below means a role is recorded in a project document; it does not certify that the source has been fully read or its claims independently verified. A DOI or stored PDF establishes an access route, not reading completion. Where no reading status is recorded, do not infer one. Detailed methodology, operational definitions and candidate decisions belong in the corresponding authoritative files under `docs/`.
 
 ## Current conceptual literature structure
 
@@ -18,9 +18,22 @@ The current literature does not justify adding indicators with different meaning
 
 ---
 
+## Reading order for the current work
+
+Read to support the claims being written or the design decision being made; the full register is not a compulsory reading list. No new reading completion is claimed by this order.
+
+1. **Define the research claims:** Bowling & Kirkendall for amount/difficulty of work; Bäckstrand et al. for the purchasing framework; Zheng et al. for reporting the observation method. Use the current definitions and method justification to identify the exact passages needed. Add Spector & Jex or WOMBAT sources where those constructs or mechanics are actually discussed.
+2. **Support the current analysis:** Hsieh & Shannon for the inductive coding rationale. Read Guest et al. before retaining a thesis claim based on the retrospective saturation analogy; this is an adapted exploratory check, not a validated stopping threshold. Cohen is optional, conditional on a justified recoding analysis.
+3. **Bound the proposed AI support:** Parasuraman et al. for functions and automation levels, then Burger et al. for the buyer's role in procurement. For the provisional price-control direction, read Tater et al.; add DocILE if the design uses document-field/line extraction. Check what each source demonstrates and the limits of transferring it to this task.
+4. **Write the design and evaluation rationale:** de Mast & Lokkerbol for DMAIC and Peffers et al. **2007** for DSRM; the stored 2006 paper is a different source. Consult the MCDA sources for the selection methods actually used, and the quality/human–AI interaction sources for the chosen rubric and review interface.
+
+Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload sources remain conditional or historical. Read them only if the corresponding question enters the selected study; do not add those studies to the work plan merely because the references are listed.
+
+---
+
 ## Plan of Work reference check, 22 September 2026
 
-All five references in the current [Plan of Work](../docs/proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) were already recorded in the repository before this check. Four appeared in this register; Bäckstrand et al. appeared in the purchasing-framework documents and is now included under Confirmed use.
+All five references in the submitted [Plan of Work](../docs/proposal/Plan_of_Work_Final_2026-09-22.pdf) were already recorded in the repository before this check. Four appeared in this register; Bäckstrand et al. appeared in the purchasing-framework documents and is now included under Confirmed use.
 
 **A recorded reference is not the same as a stored PDF.** None of the five exact publications cited in the Plan of Work has a PDF stored in `literature/open-access/`. Existing DOI and full-text links provide their access routes. The stored Peffers PDF is a related 2006 conference paper, not the 2007 journal article. This check confirms repository presence and use in the proposal; it does not establish that every full text has been read.
 
@@ -150,7 +163,7 @@ The stored 2006 paper describes the six-activity design-science research process
 
 ### Coding the observation notes
 
-Used for the [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) and the check of their coding (part 4 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)). Same three statuses as the AI function entries below: citation verified, abstract reviewed and full text reviewed.
+The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (part 4 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
 
 **Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
 
@@ -160,7 +173,7 @@ Used for the [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) and 
 
 **Cohen, J. (1960).** *A coefficient of agreement for nominal scales*. *Educational and Psychological Measurement, 20*(1), 37–46. https://doi.org/10.1177/001316446002000104
 
-**Use:** Cohen's kappa, for reporting agreement between the existing labels and Yijie's blind coding of a sample, corrected for chance agreement. With one observer this is a check of the coding, not of the observation itself.
+**Possible use only:** Cohen's kappa would be relevant if the optional recoding exercise is undertaken and its comparison is justified. It is not required for the current targeted review and no agreement statistic is reported as completed. Such a check would not establish independent reliability of the original observation.
 
 **Status:** citation details still to verify; abstract and full text not yet reviewed.
 

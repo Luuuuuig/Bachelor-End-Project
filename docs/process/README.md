@@ -1,47 +1,29 @@
-# Process Documentation
+# Process documentation
 
-**Status:** Navigation page, activity-framework links synchronized 21 September 2026.
+**Synchronized:** 7 October 2026. For current priorities and reading order, start with the [current status and reading guide](../Current_Status_and_Reading_Guide.md).
 
-This folder separates the **current AS-IS process** from the **provisional TO-BE hypothesis**.
+## AS-IS process
 
-## Files
+[Process_Cleaned_V1.5.md](Process_Cleaned_V1.5.md) owns the observed operational workflow: the Section 3 flowchart, 31-task register, evidence labels, buyer validation, process explanations and unresolved operational facts. Its opportunity profiles explain why an area may matter; they do not establish the current ranking or add every early idea to the worklist.
 
-### `Process_Cleaned_V1.5.md`
+The five-session workload analysis is in the [Arno notebook](../../Arno_Analysis_2026_10_02.ipynb). The [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) provisionally favors purchase-price control, subject to the remaining evidence and review conditions. The [methodology](../methodology/Phase_1_Current_Methodology.md) owns the selection rules.
 
-Authoritative AS-IS process file. It owns:
+## Purchasing stages and analysis labels
 
-- process scope;
-- current workflow (**Section 3 contains the Mermaid AS-IS flowchart**);
-- evidence labels and validation status;
-- detailed operational stage context;
-- the 31-row Step / Task Register aligned with the AS-IS flow;
-- observed evidence/timing context;
-- improvement-opportunity profiles explaining why process areas are interesting;
-- unresolved facts about how the current process operates.
+The [purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md) defines the Van Weele stages and classification boundaries. For the current analysis use the [kinds-of-work codebook](../measurement/Kinds_Of_Work_Codebook.md), [row labels](../measurement/Kinds_Of_Work_Rows_2026-09-30.csv) and [kinds-to-framework map](../measurement/Kinds_Framework_Map_2026-10-06.csv), as loaded by the notebook. The reviewed daily CSVs remain the observation inputs; the [measurement index](../measurement/README.md) explains provenance and timing.
 
-It does **not** own the final thesis-candidate ranking, workload theory, detailed live measurement rules or future-state design. Useful opportunity context is intentionally retained here even when candidate-selection status is owned by the methodology file.
+The [14 September crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md), its related CSVs and the [21 September enriched export](../measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) are historical references. They should not replace the current analysis inputs or silently recode the original observations.
 
-### [Purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md)
+## TO-BE hypothesis
 
-Current analytical activity list organized by Van Weele's six stages, with specific definitions, boundaries, register links and assignment examples. Keeps the seven live families and historical measurements. Its row-level application is in the observation documents and [consolidated dataset](../measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv). The [14 September crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md) and related CSV remain historical reference, not the current classification starting point.
+[TO_BE_Working_Hypothesis_v0.1.md](TO_BE_Working_Hypothesis_v0.1.md) preserves the possible AUTO / REVIEW / MANUAL routing concept and the distinction between process simplification, rules, AI support and human expertise. It is an earlier design hypothesis, not a completed or selected artifact. The confirmed focal case will determine the requirements, evaluation protocol and final TO-BE design during Improve/DSRM.
 
-### `TO_BE_Working_Hypothesis_v0.1.md`
+## Related references
 
-Provisional future-state design hypothesis. It owns:
+- [Project charter and gates](../Project_Charter.md)
+- [Current methodology](../methodology/Phase_1_Current_Methodology.md)
+- [Workload definition](../methodology/Workload_Definition.md)
+- [Measurement Protocol v1.3](../measurement/Measurement_Protocol_v1.3.md) and [scope/timing addendum](../measurement/Scope_and_Classification_Addendum_2026-09-14.md)
+- [Formal SOP/WI evidence](../company-documentation/Official_Document_Register_2026-08-21.md)
 
-- the possible AUTO / REVIEW / MANUAL routing concept;
-- the proposed future-state flow;
-- the principle for choosing rules, conventional automation, AI/agent capability or human expertise.
-
-It is not yet the selected final process or artifact.
-
-## Related authoritative files
-
-- Project charter / tollgates: `../Project_Charter.md`
-- Research methodology and candidate portfolio: `../methodology/Phase_1_Current_Methodology.md`
-- Workload definition: `../methodology/Workload_Definition.md`
-- Exploratory Measure protocol: `../measurement/Measurement_Protocol_v1.3.md`
-- Formal SOP/WI evidence: `../company-documentation/Official_Document_Register_2026-08-21.md`
-
-The bridge from AS-IS evidence to an accepted TO-BE design is handled through DMAIC Measure/Analyze. Current sequence: pilot → v1.2/v1.3 baseline → five-day coverage review → Analyze/technical feasibility → gated and sensitivity-tested focal-case selection → evaluation-protocol freeze → Improve/DSRM.
-
+The next process-design step follows focal-case confirmation: specify what the support reads, compares and flags, what the buyer decides, and how its workload and quality effects will be evaluated. The current status guide owns the concrete checks needed for that decision.

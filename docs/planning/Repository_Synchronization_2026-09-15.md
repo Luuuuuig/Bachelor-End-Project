@@ -1,5 +1,7 @@
 # Repository synchronization on 15 September 2026
 
+> **Historical synchronization record — status clarified 7 October 2026.** The decisions, branch state and open items below describe 15 September. Later submitted documents and the 1 October scope decision supersede parts of that state. The current user-approved four sub-questions are in the [readable assignment](../proposal/BEP_Assignment_1BEPIEX.md); the submitted PDF remains unchanged. Use the [current status and reading guide](../Current_Status_and_Reading_Guide.md) for present priorities, rather than reopening the old administrative or branch-cleanup list.
+
 The current project uses the four original sub-questions in their original order, with the student-confirmed wording that includes relevant operational and tactical purchasing tasks. Arno's workload remains the primary objective. Dennis's affected work is considered in diagnosis, design and evaluation. Logistics and EXC remain excluded from thesis Measure and focal-case selection.
 
 ## Corrections applied

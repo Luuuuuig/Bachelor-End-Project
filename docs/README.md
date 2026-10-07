@@ -1,265 +1,60 @@
-# Project Documentation Navigation — Bachelor End Project
+# Project documentation
 
-## Deliverables prepared on 14 September
+**Synchronized:** 7 October 2026.
 
-- [Half-page project description for 15 September](proposal/Half_Page_Project_Description_2026-09-15.md).
-- [Plan of Work draft in the university template](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md), including the proposal, Gantt chart, reflection prompts and unsigned declaration. The submitted final version of 22 September is [Plan_of_Work_Final_2026-09-22.pdf](proposal/Plan_of_Work_Final_2026-09-22.pdf).
-- [Van Weele mapping of eight codes and 31 tasks](process/Van_Weele_Activity_Mapping_2026-09-14.md).
-- [Measure scope and classification addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md).
-- [Dennis observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
-- [Follow-up register and remaining evidence needs](planning/Supervisor_Follow_Up_2026-09-14.md).
+Start with the [current status and reading guide](Current_Status_and_Reading_Guide.md). It gives the reading order, separates completed work from remaining decisions, and owns the immediate worklist. This page is the reference index for finding the supporting material.
 
-The 10 September academic scope decision supersedes older descriptions of logistics and EXC eligibility. On 1 October it was refined: former EXC work stays in the total time record, grouped under OTHER and kept outside the improvement scope ([meeting notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)). Earlier observations retain their original evidence status. Prepared text and mapping do not establish submission, completed fieldwork or supervisor validation.
+## Current project and analysis
 
-
-**Last synchronized:** 30 September 2026 for the Measure status and meeting list; other descriptions date from 2 September 2026.
-
-Use this page as the main navigation map for the BEP repository. It shows **where to look for each type of information**, which file owns the current status, and where useful context is intentionally retained.
-
----
-
-# 1. Quick navigation by question
-
-| If you want to know... | Go to... | Role |
+| What you need | Read | Role |
 |---|---|---|
-| What are the current project-control decisions, scope and DMAIC tollgates? | [`Project_Charter.md`](Project_Charter.md) | Lightweight project charter / control summary |
-| What is the current project schedule and Gantt? | [`Project_Timeline.md`](Project_Timeline.md) | DMAIC/DSRM timeline, dependencies, milestones and contract boundary |
-| What is the current academic project scope, objective and research question? | [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md) | Current readable academic project definition |
-| Where is the older Word external/submission copy? | [`proposal/BEP_Assignment_1BEPIEX_Final.docx`](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Historical binary copy; the Markdown assignment is authoritative for later repository synchronizations |
-| What does the purchasing process currently look like in practice? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Current AS-IS operational master |
-| Which improvement areas are interesting and why? | [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md) | Operational opportunity profiles and evidence context |
-| Which candidates are currently prioritized and what gates determine selection? | [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md) | Authoritative candidate-selection and research-method status |
-| What does workload mean in this BEP? | [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md) | Canonical workload construct |
-| How will the exploratory Measure observations actually be collected? | [`measurement/Measurement_Protocol_v1.3.md`](measurement/Measurement_Protocol_v1.3.md) | Live observation, timing, sampling and data-governance protocol |
-| What should I keep beside me during live shadowing? | [`measurement/Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md) | One-page activity codes, shorthand and live-use rules |
-| Where are all Measure-phase collection materials kept? | [`measurement/`](measurement/) | Dedicated Measure folder with current/historical protocols, pilot evidence and observer materials |
-| Where are the Analyze-phase inputs of the analysis notebook? | [`analyze/`](analyze/README.md) | Draft causes for the fishbone diagrams; the notebook itself is [`Arno_Analysis_2026_10_02.ipynb`](../Arno_Analysis_2026_10_02.ipynb) |
-| What formal purchasing SOPs / work instructions support the analysis? | [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md) | Formal-company-evidence register |
-| What could the future process look like? | [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md) | Provisional TO-BE hypothesis, not a selected final design |
-| Which literature is currently confirmed, likely or conditional? | [`../literature/README.md`](../literature/README.md) | Literature selection and source-role register |
-| What happened on a specific observation / meeting date? | [`meetings/`](meetings/) | Historical evidence snapshots |
-| Where are earlier exploratory notes and ideas? | [`research-notes/`](research-notes/) | Historical / supporting research material |
-
----
-
-# 2. Current core documents
-
-## A. Project control and planning
-
-### [`Project_Charter.md`](Project_Charter.md)
-One-page Define-phase control record. It freezes the business problem, AI/business direction, scope, outcome structure, stakeholders and DMAIC tollgates without duplicating the detailed methodology.
-
-The current sequencing is explicit:
-
-`pilot → freeze measurement protocol → exploratory workload baseline → Analyze/technical feasibility → focal-case selection → DSRM artifact`
-
-Detailed Exact/Orbis production-data/interface feasibility is intentionally **deferred until after the exploratory Measure phase**.
-
-### [`Project_Timeline.md`](Project_Timeline.md)
-Current Gantt/planning source. It contains:
-
-- completed Define work;
-- the Measure pilot and baseline sequence;
-- the 15 / 20 / 27 / 28 September project, PoW and ILBEP milestones;
-- Analyze, targeted Exact/Orbis feasibility and focal-case selection;
-- Improve/DSRM, evaluation and Control/thesis work;
-- the **420-hour combined 1BEPIE + 1BEPIEX study load** with separate planned/actual effort control;
-- the **7 January 2027 company-placement boundary**, **15 January final-report deadline**, **29 January presentation deadline** and **7 February assessment deadline**.
-
-The company-dependent work may conclude at or before the 7 January boundary, while academic finalization continues through 7 February. Post-Measure task durations are planning estimates and should be refined after the focal case is selected.
-
-The Mermaid Gantt can be copied into draw.io / diagrams.net for visual editing and supervisor sharing.
-
----
-
-## B. Academic project definition
-
-### [`proposal/BEP_Assignment_1BEPIEX.md`](proposal/BEP_Assignment_1BEPIEX.md)
-Use for the current readable project title, context, problem description, objective, **research question and the five sub-questions of the submitted Plan of Work**, research design and communication expectations. The submitted [Plan of Work](proposal/Plan_of_Work_Final_2026-09-22.pdf) of 22 September is the final proposal document.
-
-The older Word file remains beside it for external/submission history. The Markdown version is the authoritative readable repository source for later framing and methodology synchronizations.
-
----
-
-## C. Current AS-IS process and operational evidence
-
-### [`process/Process_Cleaned_V1.5.md`](process/Process_Cleaned_V1.5.md)
-Main current-state purchasing document. **Section 3 contains the current AS-IS workflow as a Mermaid flowchart.** It contains:
-
-- process scope;
-- evidence basis and labels;
-- current AS-IS workflow;
-- detailed stage explanations;
-- 31-row Step / Task Register;
-- observed timing/evidence context;
-- improvement-opportunity profiles;
-- validation status;
-- unresolved AS-IS facts;
-- current operational interpretation.
-
-**Important:** this file may retain useful opportunity/context explanations even when the authoritative candidate ranking itself lives in the methodology file. Operational reasoning should not be deleted merely to eliminate all overlap.
-
-### [`process/TO_BE_Working_Hypothesis_v0.1.md`](process/TO_BE_Working_Hypothesis_v0.1.md)
-Contains the provisional future-state AUTO / REVIEW / MANUAL routing concept and technology-allocation logic.
-
-This is a **hypothesis**, not a conclusion from DMAIC Improve.
-
----
-
-## D. Research methodology, workload and Measure protocol
-
-### [`methodology/Phase_1_Current_Methodology.md`](methodology/Phase_1_Current_Methodology.md)
-Authoritative file for:
-
-- DMAIC and DSRM relationship;
-- candidate status;
-- Measure- and Analyze-stage decision gates;
-- case-selection logic;
-- evaluation logic by problem type;
-- immediate research actions.
-
-Candidate names are used rather than reusable letter IDs to avoid cross-file ambiguity.
-
-### [`methodology/Workload_Definition.md`](methodology/Workload_Definition.md)
-Canonical workload definition. The project currently uses:
-
-- **Bowling & Kirkendall (2012)** for the broad occupational-workload umbrella (amount and difficulty of work);
-- **Spector & Jex (1998)** as a conceptual anchor for quantitative workload and organizational constraints;
-- mental workload is not assessed in the current study;
-- expertise dependence as a separate analytical dimension.
-
-The project does not create an unvalidated composite `total workload` equation.
-
-### [`measurement/Measurement_Protocol_v1.3.md`](measurement/Measurement_Protocol_v1.3.md)
-Operationalizes the exploratory Measure baseline after the 28 August pilot.
-
-It defines:
-
-- a restricted case-context index with separate Origin and Channel;
-- observable live work families (`REQ`, `CLAR`, standalone `DEC`, `PO`, `CHECK`, `SEND`, `EXC`, `OTHER`);
-- timed REQ intake when receiving/reading/listening/comprehending is itself meaningful work;
-- `DEC?` as an embedded decision attribute when judgement occurs inside another timed episode;
-- seamless MAX/PO handling, separating `MAX=ADD/NONE/?` from the later post-MAX `ORD/HOLD/?` outcome without inventing pure decision time;
-- mandatory non-blank conventions for Start/End, Volume, INT and DEC?;
-- post-session mapping to the detailed 31-task register with `C/P/U/?`;
-- active processing time, interruption attribution, observer-unavailable time, system waiting and `MISS`;
-- a five-distinct-day planning minimum with a Day-5 coverage/extension review; five days is not automatically 40 net hours;
-- small-sample safeguards, rework-denominator rules, private-repository governance and a predeclared trigger for recurring unmapped work.
-
-Version 1.3 is controlled for observations from 2 September onward; it preserves the v1.2 live fields/timing and updates MAX interpretation, stopping/coverage logic and private-repository governance. Use [`Measure_Live_Cheat_Sheet_v1.3.md`](measurement/Measure_Live_Cheat_Sheet_v1.3.md). Five official Arno sessions are recorded (31 August; 1, 8, 18 and 23 September), with **892 minutes of confirmed net observation**; see the [observation-time review](measurement/Observation_Time_Review_2026-09-25.md). The historical two-session totals of **351 net observed minutes** and **265 timed coded-active minutes** predate the later scope filter. Following the supervisor's instruction at the 17 September meeting, Yijie began retaining each genuinely simultaneous activity's full recorded interval. Yijie clarified this implementation timing on 30 September; 25 September was a documentation date, not the start of the practice. See the [scope addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities). Version 1.2 remains historical for the 1 September session. Exact/Orbis technical feasibility is not required to continue Measure.
-
-Pilot evidence is retained with the Measure materials in [`measurement/Pilot_Measure_Observation_2026-08-28.md`](measurement/Pilot_Measure_Observation_2026-08-28.md).
-
----
-
-## E. Formal company evidence
-
-### [`company-documentation/Official_Document_Register_2026-08-21.md`](company-documentation/Official_Document_Register_2026-08-21.md)
-Register and analytical summary of the received purchasing SOPs, supplier-control documents, article-management instruction and related company documentation.
-
-The proprietary source files themselves are not stored in the repository. This file records what the formal documentation supports and where operational practice goes beyond the level of detail of the SOP.
-
----
-
-## F. Literature
-
-### [`../literature/README.md`](../literature/README.md)
-Tracks the confirmed, high-chance and conditional literature and states where each source supports the BEP.
-
-### [`../literature/open-access/`](../literature/open-access/)
-Contains permitted open-access / author-posted papers already collected for the project.
-
----
-
-# 3. Historical and supporting evidence
-
-## [`meetings/`](meetings/)
-Dated evidence should remain historically accurate and should **not be rewritten to match later understanding**.
-
-Current files include:
-
-- Academic supervisor: [10 June](meetings/Academic_Supervisor_Meeting_Notes_2026-06-10.md) ([Word copy](meetings/Meeting%20notes%20supervisor%202026-06-10.docx)), [25 August](meetings/Academic_Supervisor_Meeting_Notes_2026-08-25.md), [3 September agenda](meetings/Academic_Supervisor_Agenda_2026-09-03.md), [3 September](meetings/Academic_Supervisor_Meeting_Notes_2026-09-03.md), [10 September](meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) and [17 September](meetings/Academic_Supervisor_Meeting_Notes_2026-09-17.md).
-- Company supervisor: [8 September](meetings/Company_Supervisor_Meeting_Notes_2026-09-08.md).
-- Internship notes: [17](meetings/Internship_notes_2026-08-17.md), [19](meetings/Internship_notes_2026-08-19.md), [20](meetings/Internship_notes_2026-08-20.md), [21](meetings/Internship_notes_2026-08-21.md), [24](meetings/Internship_notes_2026-08-24.md), [26](meetings/Internship_notes_2026-08-26.md), [28](meetings/Internship_notes_2026-08-28.md) and [31 August](meetings/Internship_notes_2026-08-31.md); [9 September](meetings/Internship_notes_2026-09-09.md); [15 September](meetings/Internship_notes_2026-09-15.md), Dennis's purchasing activities.
-
-Observation records, including Dennis's timed observation of 25 September, are in [`measurement/`](measurement/README.md#observation-evidence).
-
-Use these files when traceability matters: what was observed, stated or believed at a specific point in time.
-
-## [`research-notes/`](research-notes/)
-Contains earlier exploratory research material. These notes can contain useful ideas and historical reasoning even when they are no longer authoritative for current project status.
-
----
-
-# 4. Ownership without information loss
-
-The repository uses a **primary-owner** model, not a strict "delete all duplication" model.
-
-A topic should have one file that determines its **current authoritative status**, while other files may retain useful context when they serve a different purpose.
-
-Examples:
-
-- `Process_Cleaned_V1.5.md` can explain **why price checking is operationally interesting**; `Phase_1_Current_Methodology.md` determines whether price checking is currently a primary thesis candidate.
-- `Process_Cleaned_V1.5.md` documents the maximalisatie process; the methodology file owns the research gates for selecting/studying it.
-- `Measurement_Protocol_v1.3.md` owns current live data-collection rules; the methodology file owns why those measurements are needed for case selection.
-- `Project_Timeline.md` owns the current planning sequence and dates; dated meeting notes remain the evidence source for agreed milestones.
-- Meeting notes preserve what was known on the meeting date even when later evidence changes the current AS-IS master.
-- The company-document register explains what the SOP formally supports; the AS-IS file explains what people actually do operationally.
-
-Useful evidence, interpretations and candidate profiles should therefore **not be removed simply because related material exists elsewhere**.
-
----
-
-# 5. Update rules
-
-When new evidence arrives:
-
-1. preserve the dated observation/meeting note as historical evidence;
-2. update `Project_Charter.md` only when project-control decisions, scope or tollgates genuinely change;
-3. update `Project_Timeline.md` when agreed milestones, planning assumptions, dependencies or the contract/project boundary changes;
-4. update `Process_Cleaned_V1.5.md` when the current workflow, operational evidence, task inventory, operational interpretation or opportunity profile changes;
-5. update `Phase_1_Current_Methodology.md` when candidate priority, research design, selection gates or evaluation logic changes;
-6. update `Workload_Definition.md` only when the theoretical workload construct changes;
-7. treat `Measurement_Protocol_v1.3.md` as the controlled protocol from 2 September; preserve v1.2 for the earlier session and document/version any future deviation rather than silently rewriting rules;
-8. update the company-document register when new formal SOP/WI evidence is received or reinterpreted;
-9. update the TO-BE file when the provisional future-state architecture changes;
-10. update the readable BEP assignment when a major research-scope/framing change requires academic alignment;
-11. preserve useful context unless it is factually obsolete, contradicted by stronger evidence, confidentially inappropriate, or genuinely redundant without analytical value.
-
----
-
-# 6. Current document flow
-
-```mermaid
-flowchart LR
-    OBS["Dated observations / meetings"]
-    SOP["Formal company documents"]
-    LIT["Literature"]
-    CHARTER["Project Charter\nscope + tollgates"]
-    TIME["Project Timeline\ndates + dependencies"]
-
-    ASIS["Process_Cleaned_V1.5\nAS-IS + task register + opportunity profiles"]
-    WL["Workload_Definition\ncanonical construct"]
-    MP["Measurement_Protocol\nlive Measure rules"]
-    METHOD["Phase_1_Current_Methodology\ncandidate status + gates"]
-    TOBE["TO_BE_Working_Hypothesis\nprovisional future state"]
-    PROP["1BEPIEX\nacademic project definition"]
-
-    OBS --> ASIS
-    SOP --> ASIS
-    LIT --> WL
-    ASIS --> MP
-    WL --> MP
-    CHARTER --> METHOD
-    TIME --> METHOD
-    ASIS --> METHOD
-    WL --> METHOD
-    MP --> METHOD
-    METHOD --> TOBE
-    METHOD --> PROP
-```
-
-Current practical progression:
-
-`Define / AS-IS → pilot → controlled v1.2/v1.3 baseline → five-day coverage review → workload profile → Analyze + targeted Exact/Orbis feasibility → gated/weighted focal-case selection → evaluation-protocol freeze → DSRM artifact / TO-BE → held-out evaluation → Control recommendations → final thesis / handover`
-
+| What is done, what remains, and what to read next | [Current status and reading guide](Current_Status_and_Reading_Guide.md) | Current priorities and reading order |
+| Current objective, scope and four user-approved sub-questions | [Readable BEP assignment](proposal/BEP_Assignment_1BEPIEX.md) | Current project definition |
+| Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis, case/line comparisons, kinds of work and draft causes |
+| Provisional focal case and its conditions | [Focal-case selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) | Stage A gates, provisional scores and sensitivity analysis |
+| Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Gate worksheet, candidate evidence, weights, causes and conclusion outline |
+| Scope, outcome structure and phase gates | [Project charter](Project_Charter.md) | Stable project-control decisions |
+| Dates, dependencies and retained Gantt history | [Project timeline](Project_Timeline.md) | Planning reference; charts are dated plans, not proof of completion |
+| Selection and evaluation method | [Current methodology](methodology/Phase_1_Current_Methodology.md) | DMAIC/DSRM, candidate boundaries and research rules |
+| Meaning of workload | [Workload definition](methodology/Workload_Definition.md) | Amount and difficulty of work; no invented total-workload score |
+
+The Arno notebook's descriptive analysis is substantially complete. The selection notebook provisionally favors purchase-price control; data/reference checks and buyer/supervisor review still condition the final choice. Five Arno sessions provide **892 minutes of net observation**, distinct from **742 valid recorded activity minutes**, including **182 former-EXC minutes** and **560 minutes within improvement scope**. Former EXC stays visible under OTHER, outside selection for improvement.
+
+The [final Plan of Work dated 22 September](proposal/Plan_of_Work_Final_2026-09-22.pdf) was submitted and includes the named second assessor, completed start-BEP reflections and signed declaration. Its five-question structure is preserved as submitted. The readable assignment now carries the current user-approved four sub-questions; this does not imply a changed submission or new supervisor approval.
+
+## Process, measurement and company evidence
+
+| What you need | Read | Role |
+|---|---|---|
+| Observed operational purchasing workflow | [AS-IS process](process/Process_Cleaned_V1.5.md) | Section 3 flowchart, 31-task register, validation and operational evidence |
+| Process-file boundaries | [Process index](process/README.md) | AS-IS, stage framework and provisional TO-BE ownership |
+| Purchasing-stage definitions | [Purchasing activity framework](process/Purchasing_Activity_Framework_2026-09-21.md) | Van Weele stages and classification boundaries |
+| Current observation data and provenance | [Measurement index](measurement/README.md) | Reviewed daily CSVs, observation notes, codebook and framework map |
+| How observations were collected | [Measurement Protocol v1.3](measurement/Measurement_Protocol_v1.3.md) and [scope/timing addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md) | Controlled collection rules and subsequent decisions |
+| Materials for any justified additional observation | [Live cheat sheet v1.3](measurement/Measure_Live_Cheat_Sheet_v1.3.md) | Live-use reference; not an instruction to collect another broad sample |
+| Questions to confirm with Arno | [Focused follow-up guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md) | Causes, check content/frequency, targeted labels and acceptable support |
+| AI functions and buyer boundaries | [AI function comparison](methodology/AI_Function_Comparison_2026-10-02.md) | Literature/task comparison and acceptance evidence |
+| Formal purchasing SOPs and work instructions | [Official-document register](company-documentation/Official_Document_Register_2026-08-21.md) | Documentary evidence; proprietary source binaries are not copied here |
+| Possible future process | [TO-BE working hypothesis](process/TO_BE_Working_Hypothesis_v0.1.md) | Earlier routing/design ideas, not the selected artifact |
+
+The five-day observation target has been reached. Additional Arno or Dennis observations address an identified gap; a fixed extra number of days is not required. The optional 45-record recoding/κ exercise and a statistical goodness-of-fit test are not conditions for continuing. Detailed requirements, a separate evaluation baseline, workload and quality criteria, prototype development and evaluation still follow focal-case confirmation.
+
+## Literature and historical records
+
+| Material | Location | How to use it |
+|---|---|---|
+| Sources, reading status and source roles | [Literature register](../literature/README.md) | Check the original source and its stated limits when writing |
+| Collected permitted papers | [Open-access papers](../literature/open-access/) | Supporting literature |
+| Latest academic direction | [1 October supervisor meeting](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) | Start Arno analysis, EXC/OTHER treatment, CHECK per line, buyer acceptance and conditional Dennis follow-up |
+| Earlier supervisor and internship records | [Meeting index](meetings/README.md) | What was observed or decided on each date; old open questions may be resolved |
+| September preparation and consistency records | [14 September follow-up](planning/Supervisor_Follow_Up_2026-09-14.md), [15 September synchronization](planning/Repository_Synchronization_2026-09-15.md), [30 September audit](planning/Repository_Consistency_Check_2026-09-30.md) | Historical logs, not the current worklist |
+| Earlier proposal text | [Plan of Work draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md), [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md), [older Word assignment](proposal/BEP_Assignment_1BEPIEX_Final.docx) | Submission/development history; use the readable assignment for current framing |
+| Earlier stage mapping | [14 September crosswalk](process/Van_Weele_Activity_Mapping_2026-09-14.md) | Historical mapping context, not the current analysis labels |
+| Pilot and earlier protocols | [Measurement index](measurement/README.md) | Preserve their original evidence and version status |
+| Exploratory research notes | [Research-note index](research-notes/README.md) | Supporting ideas; not additional mandatory tasks |
+
+## Ownership and update rules
+
+Keep one owner for each current topic: the reading guide owns priorities, the charter owns scope/gates, the timeline owns dates, the readable assignment owns current questions, the methodology owns research rules, the notebooks own computed findings, and the AS-IS file owns the observed operational process. Evidence inputs and codebooks remain in their documented folders.
+
+When new evidence arrives, preserve the dated source, update the affected current owner, then adjust navigation only if the reading route changes. Record later decisions beside historical evidence instead of rewriting old notes to imply they were known earlier. Preserve the submitted PDF, source observations, earlier protocol versions and dated Gantt charts. Useful operational context may remain in several files, but current task lists belong in the reading guide.

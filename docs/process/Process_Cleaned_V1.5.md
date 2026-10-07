@@ -1,6 +1,6 @@
 # Operational Purchasing Current State — AS-IS master (V1.5)
 
-**Scope update of 14 September:** The observed operational workflow and stable task IDs below remain the evidence reference. Current thesis scope follows the [10 September decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) and [charter](../Project_Charter.md): Dennis is included in purchasing context; logistics is outside the thesis, and since 1 October former EXC time stays in the total record under OTHER but outside the improvement focus. Historical logistics/rework exceptions and candidate labels below do not override this boundary. Use the [Van Weele crosswalk](Van_Weele_Activity_Mapping_2026-09-14.md) for phase classification.
+**Current scope and use, 7 October:** The observed workflow and stable task IDs below remain the process evidence reference. Thesis scope follows the [10 September decision](../meetings/Academic_Supervisor_Meeting_Notes_2026-09-10.md) and [charter](../Project_Charter.md): Dennis is included in purchasing context; logistics is outside the thesis, and since 1 October former EXC time stays visible under OTHER outside improvement. Use the [purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md) and reviewed row-level stages for classification. The opportunity profiles, early counts and open-question list below retain their dated exploratory context. Current workload results and provisional ranking belong to the notebooks; they are not an instruction to reopen every opportunity. The [current reading guide](../Current_Status_and_Reading_Guide.md) owns remaining work.
 
 **Status:** Current operational-process source of truth. Diagram presentation and related wording corrected 8 September 2026; the existing observation dates and validation limits remain as recorded.
 
@@ -555,4 +555,3 @@ Formal supplier-control ownership and observed practice support treating supplie
 The AS-IS evidence supports the conclusion that operational purchasing contains recurring workload from repetitive administration, manual information comparison, experience-based judgement, exception handling and process hand-offs.
 
 The current process model is sufficiently developed to support the transition into structured Measure/Analyze work. The next decision should be based on representative workload evidence, technical/data feasibility and evaluation quality rather than on which individual case appears most interesting from isolated observations.
-

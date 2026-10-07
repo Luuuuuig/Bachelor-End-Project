@@ -114,13 +114,13 @@ The protocol does **not** directly measure:
 - the quality of purchasing outcomes;
 - workload reduction caused by an AI artifact.
 
-Those claims require an activity-specific evaluation protocol after the focal case is selected. If perceived or mental workload is important for that case, a suitable validated self-report instrument may be added prospectively rather than inferred from time.
+The selected workload and purchasing-quality claims require an activity-specific evaluation protocol after focal-case selection. The current study does not assess perceived or mental workload; time and qualitative task evidence must not be presented as such a measure.
 
 ## 6. Methodological qualifications and safeguards
 
 ### One-observer design
 
-Because the same student is the only observer, conventional inter-observer reliability cannot be estimated for the baseline. The study should instead report this limitation and use proportionate controls: a precise codebook, pilot refinement, same-observer recoding of a small retained sample where possible, explicit uncertainty codes, and periodic discussion of ambiguous examples with the buyer or supervisor. Same-observer recoding is an intra-rater check and must not be called inter-rater reliability.
+Because the same student is the only observer, conventional inter-observer reliability cannot be estimated for the baseline. The current proportionate control is a documented targeted review of ambiguous and decision-relevant labels across the competing candidates, alongside the codebook, pilot refinement and explicit uncertainty categories. Record the source rows, reasons, retained or changed labels, dated clarifications and any effect on candidate comparison; do not force unclear records into a category. This checks analytical decisions and does not establish independent coding or observation reliability. The retained 45-record blind recoding sheet is an optional, uncompleted exercise; a κ calculation is not a prerequisite for Analyze or case selection.
 
 ### Minute-level timing and sub-minute tallies
 

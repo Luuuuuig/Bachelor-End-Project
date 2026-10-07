@@ -1,12 +1,12 @@
 # Project Charter — Operational Purchasing Workload Reduction
 
-**Status:** Current lightweight project-control document, synchronized 15 September 2026; evidence state updated 30 September 2026.
+**Status:** Project-control decisions and evidence state synchronized 7 October 2026. The [current status and reading guide](Current_Status_and_Reading_Guide.md) owns the immediate priorities.
 
-This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable while the BEP moves through Measure and Analyze.
+This charter is intentionally short. It does not replace the proposal, AS-IS process, methodology, measurement protocol or project timeline; it freezes the project-control decisions that should remain stable as Analyze moves toward focal-case confirmation and Improve.
 
 ## Business problem
 
-The operational purchasing process contains recurring administrative work, manual verification, rework, information-handling burden, interruptions and judgement-intensive activities. The amount and distribution of that workload have not yet been quantified sufficiently to select one improvement case defensibly.
+The operational purchasing process contains recurring administrative work, manual verification, rework, information-handling burden, interruptions and judgement-intensive activities. The five-session analysis now describes where the recorded work is concentrated. Purchase-price control is the provisional focal case; its data, reference answers, buyer acceptance and supervisor review still need to support the final choice.
 
 ## Business objective / Voice of Customer
 
@@ -29,7 +29,7 @@ Use DMAIC to establish the current process, workload baseline and improvement op
 
 ## In scope
 
-The detailed operational purchasing flow runs from purchasing need through `Bevestigd`. Include Dennis's tactical purchasing work in the surrounding process investigation, as decided on 10 September. Arno's workload remains the primary outcome; retain separate actor-specific evidence. The existing 31-task register describes operational work, not a completed Dennis inventory. Add Van Weele stages after observation using the [crosswalk](process/Van_Weele_Activity_Mapping_2026-09-14.md).
+The detailed operational purchasing flow runs from purchasing need through `Bevestigd`. Include Dennis's tactical purchasing work in the surrounding process investigation, as decided on 10 September. Arno's workload remains the primary outcome; retain separate actor-specific evidence. The existing 31-task register describes operational work, not a completed Dennis inventory. Use the [purchasing activity framework](process/Purchasing_Activity_Framework_2026-09-21.md) for stage definitions and the [current kinds-to-framework map](measurement/Kinds_Framework_Map_2026-10-06.csv) for the analysis. The 14 September crosswalk is historical.
 
 Define/Measure/Analyze cover operational purchasing and Dennis's relevant tactical tasks and connections with Arno. Improve/DSRM will focus deeply on **one selected primary activity or coherent process component**. Other supported opportunities remain company recommendations/quick wins rather than disappearing from scope.
 
@@ -57,16 +57,13 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 
 ## Current evidence state
 
-- AS-IS process mapped through `Bevestigd` and synchronized through 2 September; post-MAX HOLD/ORD is assessed whether or not demand was added.
-- 31-task register aligned with the workflow; maximalisatie outcome (ADD/NONE) is separated from the downstream HOLD/ORD outcome.
-- Buyer walkthrough completed and formal SOP/WI evidence integrated.
-- Workload construct defined.
-- 28 August Measure pilot completed.
-- Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September. Confirmed net observation is 165, 186, 104, 240 and 197 minutes, **892 minutes** in total ([observation-time review](measurement/Observation_Time_Review_2026-09-25.md)). The 8 September OBS-16 contamination exclusion remains. Historical two-session totals before the narrower scope filter were **351 net observed minutes** and **265 timed coded-active minutes**; do not present them as current or EXC-filtered totals. Dennis's work is recorded in the 15 September internship notes and a timed observation on 25 September. The observer-reviewed daily CSVs (30 September) are the current working data. The analysis starts from all 287 rows and 751 recorded minutes; since 1 October, former EXC (182 minutes) stays in the total under OTHER, outside the improvement scope.
-- Measurement Protocol v1.3 is controlled for observations from 2 September onward; its live fields/timing remain comparable with v1.2.
-- The current planning target is five distinct observation days, followed by the predeclared coverage review; 40 net hours is not assumed to be equivalent.
-- Representative in-scope baseline frequencies and active processing-time patterns are still being established. Dennis discovery and a separate pattern-sufficiency review remain required.
-- Exact/Orbis production-data/interface feasibility remains intentionally deferred until after exploratory Measure.
+- The operational AS-IS process, 31-task register, buyer walkthrough, formal SOP/WI evidence, workload construct and 28 August pilot are established.
+- Five official Arno sessions are recorded: 31 August and 1, 8, 18 and 23 September, with **892 minutes of confirmed net observation**. The [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) starts from 287 rows and 751 recorded activity minutes. Excluding the 9 contaminated OBS-16 minutes leaves **742 valid recorded activity minutes**, including **182 former-EXC minutes** under OTHER and **560 minutes within the improvement scope**. Clock exposure and recorded activity time are different quantities.
+- The workload description, purchasing-stage summaries, case/line comparisons, limitations and draft cause analysis are substantially complete. These observations support descriptive selection evidence; they are not a validated time standard or evidence of achieved savings.
+- The [selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) provisionally favors purchase-price control. Test-data/reference checks, Arno's focused feedback, Zhongxin's independent weights and review, and Johan's business-value evidence remain relevant to confirming the choice.
+- Dennis has qualitative evidence from 15 September and a timed session on 25 September. His evidence stays separate. Following the [1 October decision](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md), Arno analysis proceeds now; further Dennis observation is conditional on a specific remaining question after his return.
+- Measurement Protocol v1.3 is retained with the later scope/timing addendum. The initial five-day target has been reached. Neither 40 net hours, another broad Arno observation round, two more Dennis days, nor a goodness-of-fit test is a current completion requirement. Targeted label review is useful; the 45-record recoding/κ exercise is optional and does not block the next phase.
+- The [final Plan of Work](proposal/Plan_of_Work_Final_2026-09-22.pdf) was submitted. It includes the named second assessor, completed start-BEP reflections and signed scientific-conduct declaration. It remains the unchanged submission record; the [readable assignment](proposal/BEP_Assignment_1BEPIEX.md) contains the current user-approved four sub-questions.
 
 ## Time boundary and study load
 
@@ -83,19 +80,13 @@ Quality remains a separate CTQ. The concrete quality metric is focal-activity-sp
 |---|---|
 | **Define → Measure** | AS-IS sufficiently stable, scope/workload construct defined, measurement protocol ready for pilot. **Current status: passed.** |
 | **Measure pilot → baseline** | Pilot shows the observation sheet is usable; timing/task-switch rules are workable; confidentiality and sampling rules are clear; controlled protocol established. **Current status: passed; v1.3 is controlled from 2 September without changing the live coding structure.** |
-| **Measure → Analyze** | At least five distinct observation days are documented; the v1.3 Day-5 coverage review passes; representative activity-family workload evidence exists, with detailed Task-ID enrichment where justified, plus documented windows, net observed time, coded-active time, case mix, unmapped work and limitations. |
+| **Measure → Analyze** | Document coverage, timing, workload patterns and limitations using the five sessions. **Current status: analysis is underway as directed on 1 October.** Additional observations address a specific evidence gap; no numerical stability threshold or mandatory statistical fit test was agreed. |
 | **Analyze → Improve** | Candidates first pass non-compensable AI/data/ground-truth/risk/time gates, then are compared with pre-agreed weighted criteria and sensitivity analysis. One focal activity is selected and supervisor alignment obtained. |
 | **Improve → Control** | Before development/formal testing, the primary workload endpoint, meaningful-improvement threshold, quality rubric and guardrail are frozen. The artifact is then evaluated against current practice; implementation safeguards/KPIs are defined. |
 
 ## Current priority
 
-1. Prepare/send the [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md) by 15 September. Use the [Plan of Work academic draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) for the 18/20 September draft milestones.
-2. Continue baseline observations using v1.3 timing rules plus the 14 September scope addendum. Conduct targeted Dennis discovery using the [observation guide](measurement/Dennis_Observation_Guide_2026-09-14.md).
-3. Complete Task-ID and Van Weele enrichment immediately after each block and preserve `C/P/U/?`, separate MAX and HOLD/ORD outcomes, interruptions and measurement limitations.
-4. Build the in-scope, actor-specific activity-family workload profile across multiple sessions/dayparts.
-5. After Measure, investigate Exact/Orbis and other technical/data feasibility for the shortlisted candidate(s) during Analyze.
-6. Apply veto gates, student–academic-supervisor weighting, anchored scoring and sensitivity analysis before selecting the focal case; use the company supervisor to validate operational evidence and feasibility.
-7. Freeze the focal-case workload threshold and quality guardrail before artifact development/formal testing.
+Use the [current status and reading guide](Current_Status_and_Reading_Guide.md) for the ordered worklist and reading route. The immediate task is to confirm the provisional focal case through the remaining data, buyer and supervisor checks, then write the Analyze conclusion. Requirements, evaluation design, prototype development, evaluation and thesis completion follow that decision. The workload threshold and quality guardrail must still be frozen before artifact development/formal testing.
 
 ## Key control rule
 

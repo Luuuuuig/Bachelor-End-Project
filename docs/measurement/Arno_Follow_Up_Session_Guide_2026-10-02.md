@@ -4,6 +4,8 @@
 
 ## Purpose
 
+**Priority for the current provisional price-control case, 7 October:** use part A and appendix 2 for the relevant price-control explanations, part B questions 2–3 for the actual checking task and frequency, and part D rows 5–6 for accepted support and human review. Bring the broader prompts only if Arno's answers challenge the proposed boundary or another candidate needs clarification. This is a question menu, not a requirement to validate every cause, every kind or every AI function in one session. Record new answers separately from Yijie's dated account below. See the [current task list](../Current_Status_and_Reading_Guide.md#2-what-must-be-settled-to-finish-analyze).
+
 The analysis shows where Arno's time goes. This session collects his answers on three things:
 
 1. **Causes.** Confirm, change or reject the causes in part 9 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, purchase-price control (within the order checks), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.

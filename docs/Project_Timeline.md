@@ -1,14 +1,24 @@
 # Project Timeline / Gantt — Bachelor End Project
 
-**Status:** Planning reference checked 14 September 2026. The linked Drive Gantt was updated 11 September and is the current visual schedule. The Mermaid schedule and detailed assumptions retained below are the older 2 September baseline; use the Drive version and the [14 September follow-up register](planning/Supervisor_Follow_Up_2026-09-14.md) for current work and dependencies.
+**Status:** Planning narrative synchronized 7 October 2026. Use the [current status and reading guide](Current_Status_and_Reading_Guide.md) for immediate priorities. The dated Gantt charts and 2 September assumptions below are retained as planning history; their uncompleted-looking bars and old action wording are not the current task list.
 
-**Purpose:** This file is the project-planning companion to `Project_Charter.md`. It turns the current DMAIC/DSRM sequence, supervisor milestones and known dependencies into a shareable Gantt chart. The Mermaid source can be copied into draw.io / diagrams.net for visual editing.
+**Purpose:** This file is the planning companion to `Project_Charter.md`. It records academic dates and current dependencies while preserving the dated Gantt baseline. The reading guide owns the immediate task list.
 
-**Supervisor-facing visual master:** [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing). The supplied Drive schedule is reproduced in the current Plan of Work figures. The Mermaid schedule below is retained as the historical 2 September baseline and must not overwrite the newer schedule.
+**Supervisor-facing visual master:** [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing). The submitted [Plan of Work](proposal/Plan_of_Work_Final_2026-09-22.pdf) preserves its September planning figure. No Gantt chart or milestone date is changed by this status cleanup; the historical Mermaid schedule must not overwrite the newer visual schedule.
+
+## Current planning position
+
+Define and the five Arno observation sessions are complete. The analysis notebook provides the descriptive workload evidence, and the selection notebook contains a provisional focal case. The remaining Analyze work is focused validation and review, followed by the conclusion and the Analyze → Improve decision. The [reading guide](Current_Status_and_Reading_Guide.md) owns the detailed worklist.
+
+After confirmation, the sequence remains requirements and evaluation-protocol agreement → prototype and demonstration → comparison with current practice → control recommendations, thesis and handover. Thesis writing proceeds alongside the research. Additional observation is conditional on an identified gap; the 45-record recoding/κ exercise is optional.
+
+The Plan of Work, start-BEP reflections and signed declaration are already in the submitted package. Older lists asking for them to be prepared or signed are historical. The 7 October selection date and later research windows were provisional planning targets, not evidence that a gate has passed. No new research deadline is set here.
+
+Weekly supervision was scheduled for Thursday 15:00–16:00 with a Wednesday agenda. The [1 October meeting](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) cancelled 29 October and the first early-November meeting; it records no next meeting date.
 
 ## Historical planning assumptions from 2 September
 
-Current evidence (30 September): five official Arno sessions are recorded (31 August; 1, 8, 18 and 23 September), with 892 minutes of confirmed net observation, and Dennis was observed on 25 September. The historical two-session totals below are not updated, EXC-filtered totals. See the current Plan of Work and follow-up register for the Dennis context and later schedule.
+The bullets in this section preserve the 2 September planning baseline. Their two-session counts, unresolved administrative items and future-tense actions are historical. For the current five-session evidence and conditional Dennis follow-up, use the [charter](Project_Charter.md) and [reading guide](Current_Status_and_Reading_Guide.md).
 
 - Project start: **17 August 2026**.
 - The combined normative workload for **1BEPIE + 1BEPIEX is 420 hours in total**, not 420 hours per course. Gantt bars show elapsed planning windows; planned and actual effort are tracked separately.
@@ -24,14 +34,14 @@ Current evidence (30 September): five official Arno sessions are recorded (31 Au
 - Durations after Measure are **planning estimates**, because the final artifact and evaluation design depend on the selected focal case.
 - FMEA is **not a mandatory timeline item**. A solution-risk analysis/FMEA is added during Improve/Control only if the selected intervention creates failure modes for which systematic risk prioritization is useful.
 
-## Confirmed academic deadlines
+## Recorded academic deadlines
 
 | Deliverable / event | Authoritative planning date | Control note |
 |---|---|---|
-| Half-page project description | 15 September 2026 | Supervisor milestone for second-assessor identification. |
-| Plan of Work draft | 20 September 2026 | Supervisor-review target; not a Canvas assignment deadline. |
-| Plan of Work | **27 September 2026, 23:59** | Canvas assignment cutoff used for safety; another course page says 28 September, so the earlier date controls until clarified. |
-| ILBEP / Dealing with Scientific Information | **28 September 2026, 23:59** | Separate mandatory P&PD requirement. |
+| Half-page project description | 15 September 2026 | Historical supervisor milestone; second assessor is named in the submitted Plan of Work. |
+| Plan of Work draft | 20 September 2026 | Historical supervisor-review target; superseded by the submitted final package. |
+| Plan of Work | **27 September 2026, 23:59** | Submitted final dated 22 September is preserved in the repository. |
+| ILBEP / Dealing with Scientific Information | **28 September 2026, 23:59** | Recorded past deadline for the separate P&PD requirement; this repository does not establish its submission status. |
 | Final report + scientific conduct + end-BEP reflection | **15 January 2027, 23:59** | Academic work continues after the 7 January company boundary. |
 | Final presentation / assessment meeting | **On or before 29 January 2027** | Student schedules the meeting. |
 | Final assessment | **7 February 2027** | Administrative assessment deadline. |
@@ -134,29 +144,15 @@ The axis deliberately uses the numeric format `DD-MM` rather than abbreviated mo
 
 ---
 
-## Critical-path logic
+## Current dependency and gate ownership
 
-The main dependency chain is:
+The [charter](Project_Charter.md#dmaic-tollgates) owns the project gates, and the [methodology](methodology/Phase_1_Current_Methodology.md) owns the selection and evaluation rules. The remaining dependency is focal-case confirmation → requirements and evaluation-protocol freeze → artifact design/development → evaluation → final report, presentation and assessment. The [reading guide](Current_Status_and_Reading_Guide.md) records the immediate checks without duplicating them here.
 
-`Pilot → v1.2/v1.3 controlled baseline → five-day coverage review → workload/candidate analysis → targeted Exact/Orbis feasibility → veto gates + weighted/sensitivity-tested focal-case selection → evaluation-protocol freeze → artifact design/development → held-out evaluation → final report → presentation → assessment`
+The 7 January 2027 milestone is the **company-placement boundary only**. Company-dependent work should be completed before it; academic report revision, presentation and assessment continue to the recorded dates above, ending 7 February 2027.
 
-The Plan of Work is developed **in parallel** with Measure/Analyze and should use the strongest evidence available at each submission milestone. The TU/e template requires a defensible prospective research method and detailed Gantt; it does not state that the focal use case must already be selected. Therefore the 27 September submission and a later focal-case gate are compatible only if the Plan of Work predefines the candidate population, veto/score method, evidence, decision owner, fallback and evaluation-freeze milestone. A provisional shortlist before submission is preferable.
+## Historical visual-editing notes: draw.io / diagrams.net
 
-The 7 January 2027 milestone is the **company-placement boundary only**. Company-dependent work should be completed before it; academic report revision, presentation and assessment continue to the confirmed dates above, ending 7 February 2027.
-
-## DMAIC tollgate interpretation
-
-| Tollgate | Planned evidence / decision |
-|---|---|
-| **Define → Measure** | AS-IS stable enough, scope/workload construct defined, protocol ready for pilot. |
-| **Pilot → baseline** | Observation sheet usable; timing/task-switch rules workable; v1.3 sampling/coverage and private-repository governance controlled without changing live fields. |
-| **Measure → Analyze** | Five distinct observation days plus a passed Day-5 coverage review; representative activity-family workload profile, with detailed Task-ID enrichment where justified, plus windows, net/coded-active time, case mix and limitations. |
-| **Analyze → Improve** | Focal activity passes the non-compensable gates and wins/stays credible under pre-agreed weighted scoring and sensitivity analysis; supervisor aligned. |
-| **Improve → Control** | Workload endpoint, meaningful threshold, quality rubric/guardrail and held-out evaluation design frozen before development/formal testing; artifact evaluated and implementation controls defined. |
-
-## Recommended visual-editing workflow: draw.io / diagrams.net
-
-For this **Gantt chart**, draw.io is the preferred visual editor.
+These retained instructions document the earlier chart-creation workflow. Use the established visual master for future edits; copying the historical Mermaid block would restore an obsolete baseline.
 
 1. Open **app.diagrams.net**.
 2. Create a new diagram and store it in Google Drive or OneDrive if you want a shareable collaborative file.
@@ -175,19 +171,14 @@ For that reason, use **draw.io as the supervisor-facing visual master** for this
 
 ### Important synchronization rule
 
-The Mermaid version in GitHub is the **planning source** until a visually edited draw.io copy becomes the supervisor-facing master. Once extensive manual visual edits are made in draw.io, do not assume that regenerating from Mermaid will preserve every manual position. If dates/dependencies change materially, update both the GitHub planning source and the supervisor-facing diagram.
+The Mermaid block above is historical. Do not regenerate the supervisor-facing draw.io chart from it. If agreed dates or dependencies change materially, update the planning narrative and the visual master together while retaining the dated baseline.
 
-## Items that are deliberately provisional
+## Items that remain provisional
 
-The following should be revised as evidence becomes available rather than treated as fixed promises:
+- The time needed to close the focal-case evidence checks and supervisor review.
+- Prototype scope and development effort, following confirmed data availability and requirements.
+- Evaluation cases, participants, duration and analysis, fixed before development/formal testing.
+- Whether company-dependent work can finish before the 7 January placement boundary.
+- Whether a formal FMEA adds value beyond the selected solution's required risk controls.
 
-- whether the two completed partial days count as two of the five distinct observation days and whether the Day-5 coverage review requires targeted extension;
-- exact Analyze duration;
-- artifact-development duration (depends strongly on selected case);
-- evaluation duration and participant/case requirements after the predevelopment protocol freeze;
-- whether the project finishes before the 7 January 2027 contractual boundary;
-- Part D signing/logistics and current department student-administration route;
-- whether FMEA is useful for the selected intervention.
-
-Fixed control dates now include the **15 / 20 / 27 / 28 September 2026 milestones**, the **7 January 2027 company-placement boundary**, the **15 January final-report deadline**, the **29 January presentation deadline** and the **7 February assessment deadline**. The 20 September item remains a supervisor-review target rather than a Canvas deadline.
-
+The remaining fixed control dates are the **7 January 2027 company-placement boundary**, **15 January final-report deadline**, **29 January presentation deadline** and **7 February assessment deadline**. September milestones remain above as historical records, not a reopened action list.
