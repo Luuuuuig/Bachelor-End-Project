@@ -16,7 +16,7 @@ Completed or recorded:
 - Dennis's qualitative evidence from 15 September and enriched timed observation from 25 September are now synthesized in the [design draft, section 2](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#2-denniss-existing-role-and-relevant-handoffs). Current source ownership and his role change need clarification only where they affect the selected case.
 - Submitted Plan of Work, initial reflections, named second assessor and signed declaration. The [1 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) record that approval was entered in the system.
 
-The 8 October follow-up is done: section 7 lists what was added and where. **No prototype, final sufficiency approval, workload improvement or quality benefit is established.**
+The requested analyses are ready for review: section 7 lists what was added and where. **No prototype, final sufficiency approval, workload improvement or quality benefit is established.**
 
 ## 2. What must be settled to finish Analyze
 
@@ -85,10 +85,10 @@ The cleanup removes stale active submission tasks, compulsory 45-record/kappa wo
 | Request or finding | Where | Result |
 |---|---|---|
 | Activity shares by day (Zhongxin's table) | Analysis notebook, 3.3a | The daily mix varies widely: CHECK 4.2–38.3% of improvement work, CLAR 5.7–39.5%, PO 19.5–41.5% |
-| Kruskal-Wallis test | Analysis notebook, 3.9 | Episode lengths do not differ between days (H = 2.76, p = 0.60, 182 episodes). The test compares episode lengths, not the daily mix |
-| CHECK per line, corrected | Analysis notebook, 5.1 | 18 September 0.90 against 0.83 for the other four days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds discussed. The 8.3% is CHECK's share of improvement time without 18 September |
+| Kruskal-Wallis test | Analysis notebook, 3.9 | No clear rank difference in episode lengths under the test assumptions (H = 2.76, p = 0.60, 182 episodes). This establishes neither equal days nor a stable daily mix |
+| CHECK per line, corrected | Analysis notebook, 5.1 | 18 September 0.90 against 0.83 for the other four days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds discussed. The omission table gives 8.3% as CHECK's share of improvement time without 18 September; the meaning of the oral 8.3% remains unresolved |
 | Workload of each candidate by day | Analysis notebook, 9.1 | 66 of the 98 checking minutes fall on 18 September; without that day checking is 7.8% (workload score 3) |
-| Is more observation needed? | Analysis notebook, 3.10 | Recommendation: no further general observation days. Even with workload score 3, order and confirmation checking stays first (selection notebook, check 4: lead 8.6 points). Targeted checks only where a label question could change the choice |
+| Is more observation needed? | Analysis notebook, 3.10 | Recommendation: no further general observation days at this stage. Checking retains an 8.6-point lead when its workload score falls to 3 and all other scores and weights stay fixed. Targeted checks still need to establish task boundaries, feasible data, reference answers and buyer acceptance |
 | Criteria: definitions and reasons | [Methodology §5.3](methodology/Phase_1_Current_Methodology.md#criterion-definitions-and-rationale); selection notebook, part 4 | Definitions, evidence and rules against double counting. The anchors are unchanged; two proposed clarifications are listed for Zhongxin |
 | Targeted label review | [Review log](analyze/Targeted_Label_Review_2026-10-09.csv) | 20 records checked, no labels changed, three questions for Yijie |
 | Dennis's role, and a design draft for the focal case | [Design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) | Conditional drafts, not approved specifications |
@@ -96,8 +96,8 @@ The cleanup removes stale active submission tasks, compulsory 45-record/kappa wo
 
 ### Questions for the next supervisor meeting
 
-1. **Sufficiency.** Do you agree that no further general observation days are needed, because the choice holds even when 18 September is left out? Is a specific check needed before Arno's leave at the end of October?
-2. **Kruskal-Wallis.** The test shows that episode lengths do not differ between days; it cannot test the daily mix, which the table shows. Is that the use you intended?
+1. **Sufficiency.** Do you agree that no further general observation days are needed for the provisional selection? Checking still leads when its workload score falls to 3, with other scores and weights fixed. Which targeted checks are needed before Arno's leave at the end of October?
+2. **Kruskal-Wallis.** The test detects no clear rank difference in episode lengths under its assumptions; it does not establish equal days or test the daily mix. Can we treat it as supplementary and use the descriptive table to assess the activity pattern?
 3. **Criteria and weights.** Are the seven criteria distinct enough? Do you want to set your own swings, or review Yijie's? Should the two proposed anchor clarifications be adopted?
 4. **CHECK.** The corrected comparison is 0.90 against 0.83 minutes per line. Does your conclusion of 8 October still hold?
 5. **Arno.** Is a short written confirmation from Arno enough (what a check compares, the trusted price source, which support he accepts), instead of a full follow-up session?
