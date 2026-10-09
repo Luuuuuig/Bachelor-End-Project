@@ -1,6 +1,6 @@
 # Analyze conclusion: outline
 
-**Drafted:** 7 October 2026. **Status:** outline for the Analyze chapter and the Analyze → Improve tollgate of the [project charter](../Project_Charter.md). It names the provisional focal case, so it is shared with Zhongxin only after she has sent her own swing weights ([scoring brief](https://claude.ai/artifact/P2bsL8ZfyDhdJZanQAdk6n), decision 2).
+**Drafted:** 7 October 2026; updated 9 October. **Status:** outline for the Analyze chapter and the Analyze → Improve tollgate of the [project charter](../Project_Charter.md). It names the provisional focal case, so, if the proposed independent-swing procedure is used, elicit those weights before sharing the ranking. The 8 October meeting agreed review of the criteria and weights, not a final weighting procedure.
 
 Each section lists what the chapter will say, where the evidence is, and what is still open. Figures are recorded minutes without former EXC, out of 560, from five partial sessions of one buyer.
 
@@ -8,11 +8,11 @@ Each section lists what the chapter will say, where the evidence is, and what is
 
 | Question ([methodology §2](../methodology/Phase_1_Current_Methodology.md#2-research-structure), charter) | Where it is answered | Status |
 |---|---|---|
-| Where does the recorded work go, and is the evidence enough? | [Analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), parts 3–9 and Appendix A | Done for description; not enough for a time standard |
+| Where does the recorded work go, and is the evidence enough? | [Analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), parts 3–9 and Appendix A | 9 October daily-composition, duration-method and sampling assessment prepared; final sufficiency decision remains open |
 | What may cause the work? | Notebook part 10; [draft causes](Arno_Causes_Draft_2026-10-06.csv) | Draft; Arno still has to confirm |
 | Which work can be eliminated, simplified, standardised, automated or supported? | Notebook part 10 (directions table); section 5 below | Draft per cause |
 | How standard is the work? | Notebook parts 7–9 (cases in one stretch, cases without a recorded problem) | Described; not a count of standard cases |
-| Are decision-relevant classifications supported by the notes? | Notebook sections 3.6–3.7; codebook and source rows | Pending: targeted review across competing candidates; the 45-record exercise is optional, and overall independent reliability is not established |
+| Are decision-relevant classifications supported by the notes? | Notebook sections 3.6–3.7; codebook and source rows | 20-row source/label desk review completed; observer decisions on the logged overlap/boundary questions remain open; the 45-record exercise is optional |
 | Is the AI support feasible with the data available? | [Stage A gates](../../Focal_Case_Selection_2026-10-07.ipynb) (selection notebook, part 3), [test-account worksheet](Stage_A_Test_Account_Check_2026-10-07.xlsx) | Gate 1 passed on 7 October; gates 2–3 wait on the test account |
 | Which candidate becomes the focal case? | [Selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) | Provisional; Zhongxin's weights and review follow |
 
@@ -31,7 +31,7 @@ Each section lists what the chapter will say, where the evidence is, and what is
 - **Why this case:** 76.2 of 100 in Stage B, ahead of article / supplier data (56.8), maximalisatie (51.9) and request intake (50.8). It stays first in every single-change sensitivity check (equal weights, each weight ±20%, each score ±1, the 28 price-named minutes only); six combined one-point changes within the recorded ranges would put article data ahead.
 - **Proposed AI role:** source notes describe prices on paper, PDF, websites and email, with item descriptions that may differ from the PO. Reading and matching those inputs could justify AI support (gate 6); inspect the actual documents to establish whether rules or structured inputs suffice. The proposed reference is an approved price per line, whose availability and trustworthiness remain to be demonstrated (gate 3).
 - **Proposed support, designed in Improve:** read price, quantity and delivery date per line from the supplier's document, match the lines to the PO and flag differences and missing or extra lines. The buyer decides; nothing changes in Exact without the buyer.
-- **What is not claimed:** no time saving is estimated yet, and how the 94 checking minutes divide between price and delivery date is not measured. The scores were set on 7 October for the earlier price boundary; Zhongxin reviews them against the widened boundary.
+- **What is not claimed:** no time saving is estimated yet, and how the 94 checking minutes divide between price and delivery date is not measured. The scores were set on 7 October for the earlier price boundary; they remain a provisional scenario pending review against the widened boundary. Two K18 intervals (18 September rows 3 and 73, 11 minutes) do not identify the compared documents/stage. The 28 note-named price minutes are not automatically a validated minimum of time addressed by the proposed artifact.
 
 ## 4. Causes of the focal-case work
 
@@ -83,8 +83,8 @@ No direction lets AI change orders on its own; the buyers raised that concern on
 
 1. **Test account (PC1–PC4).** POs with their confirmations or quotations, and a traceable approved price per line. Check the relevant period, export route and testing needs next. If the evidence is missing, gates 2 and 3 remain unresolved; demonstrate a suitable alternative before final selection. The current provisional comparison is not a substitute for these checks.
 2. **Arno** accepts that price and date differences are flagged for his review.
-3. **Zhongxin** sets her own weights, then reviews the gates, scores and focal case; the totals and sensitivity check are rerun with the combined weights.
-4. **Johan** confirms the business value of the focal case, with examples or figures of price errors avoided ([evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md)). Permission to use the test account does not establish business value.
+3. **Zhongxin** reviews the criteria, broadened boundary, gates, scores and weights. Agree and record the weighting procedure, then freeze and rerun the final assessment. Independent swings remain the existing proposed approach.
+4. **Johan** confirms the business value of the focal case, with examples or figures ([evidence matrix](Candidate_Evidence_Matrix_2026-10-07.md)). Dennis's 15 September explanation, that outdated purchase prices led Sales to sell items at a loss, is the starting example. Permission to use the test account does not establish business value.
 
 **Also needed for the tollgate:** the charter requires agreed weights for final ranking and supervisor alignment. The provisional selection used Yijie's weights only; this remains disclosed when the combined weights are frozen and the totals rerun.
 
@@ -98,13 +98,24 @@ No direction lets AI change orders on its own; the buyers raised that concern on
 
 - One buyer, five partial sessions, whole-minute records; price-specific time is not measured.
 - Causes are reported second-hand until Arno confirms them.
-- Kinds of work rest on one coding pass. The targeted classification review is pending; even when completed, it will not establish independent reliability across the whole dataset.
+- Kinds of work rest on one coding pass. A 20-row desk review is documented; the remaining observer decisions are not supplied. It does not establish independent reliability across the whole dataset.
 - The workload figures were known before the weights were set; the weights were recorded before any scoring.
 - One assessor so far; verdicts and scores were drafted with AI assistance and reviewed by Yijie.
 - The test account holds an older period, which may differ from current practice.
 
 ## 9. Order of the remaining work
 
-Use [Current status and reading guide, section 2](../Current_Status_and_Reading_Guide.md#2-what-must-be-settled-to-finish-analyze) as the task list. The work can proceed in parallel: inspect focal-case data/reference answers; confirm relevant task explanations and acceptance with Arno; document a targeted classification review across competing candidates; obtain Zhongxin's independent weights and review plus Johan's business-value/feasibility input; rerun affected results and write the conclusion.
+Use [Current status and reading guide, section 2](../Current_Status_and_Reading_Guide.md#2-what-must-be-settled-to-finish-analyze) as the task list. The work can proceed in parallel: inspect focal-case data/reference answers; confirm relevant task explanations and acceptance with Arno; document a targeted classification review across competing candidates; obtain Zhongxin's review and agree the weighting procedure; obtain Johan's business-value and feasibility input; rerun affected results and write the conclusion.
 
 Exactly 45 records, a kappa statistic, another general observation round, every cause in all fishbones and all 31 worksheet checks are not automatic exit conditions. Keep remaining hypotheses and evidence gaps explicit. Workflow mapping addresses SQ1; implementation conditions support SQ2; workload profiling and investigation of contributing factors support SQ3; selection supports SQ4; evaluation supports SQ5. These references follow the five sub-questions in the submitted Plan of Work.
+
+
+## 10. Draft synthesis for supervisor review, 9 October
+
+The observations support a bounded account of Arno's recorded work and provisional candidate comparison, rather than an estimate of a typical complete day. Daily activity composition varies: within improvement work, CHECK ranges from 4.2% to 38.3%. Removing 18 September reduces order/confirmation checking from 98 to 32 recorded minutes. That is 7.8% of the remaining improvement time, workload score 3 instead of 5; at that score the case still leads, by 8.6 points (selection notebook, check 4). The dependence on one day therefore weakens the workload evidence but does not change the choice, which supports the recommendation of no further general observation days. The Kruskal-Wallis test shows that episode lengths do not differ between days (H = 2.76, p = 0.60); it cannot test the daily mix.
+
+The corrected CHECK comparison separates 18 September (38 minutes/42 lines, 0.9048) from the other days (24/29, 0.8276) and all days pooled (62/71, 0.8732). This is descriptive and cannot supply a precise evaluation baseline. Existing lognormal fitting remains an appendix description only.
+
+Order and confirmation checking remains a conditional recommendation. Dennis's explanation supports its business relevance, while usable matched documents, trusted references, case-specific buyer acceptance, Johan's confirmation and academic review still determine whether this is the defensible focal task. The earlier numeric scores are retained as a provisional scenario; they have not been rescored for the widened boundary. The [design draft](../process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) prepares the design and evaluation questions without claiming an implemented artifact or measured savings.
+
+**To finalize this conclusion:** record the supervisor's sufficiency/selection decisions, settle consequential label and boundary questions, evidence the data/reference gates, and freeze the agreed evaluation design. These are open inputs, not blank prose to fill with assumed answers.

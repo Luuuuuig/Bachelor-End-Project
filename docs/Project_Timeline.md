@@ -1,31 +1,31 @@
 # Project timeline
 
-**Status:** updated 7 October 2026. The schedule is the Gantt of the submitted [Plan of Work](proposal/Plan_of_Work_Final_2026-09-22.pdf) (source: Ganttchart.drawio, 18 September; figures in [`proposal/figures`](proposal/figures/)). The editable [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing) is the supervisor-facing version. Scope and tollgates are in the [charter](Project_Charter.md); the immediate worklist is in the [current status and reading guide](Current_Status_and_Reading_Guide.md). The planning baseline of 2 September, with its Mermaid Gantt, is in the [archive](archive/planning/Project_Timeline_Baseline_2026-09-02.md).
+**Status:** updated 9 October 2026. The schedule is the Gantt of the submitted [Plan of Work](proposal/Plan_of_Work_Final_2026-09-22.pdf) (source: Ganttchart.drawio, 18 September; figures in [`proposal/figures`](proposal/figures/)). The editable [Ganttchart.drawio](https://drive.google.com/file/d/1Qe29SYs5xBGpjUXFTREVlIS7x2jsy18P/view?usp=sharing) is the supervisor-facing version. Scope and tollgates are in the [charter](Project_Charter.md); the immediate worklist is in the [current status and reading guide](Current_Status_and_Reading_Guide.md). The planning baseline of 2 September, with its Mermaid Gantt, is in the [archive](archive/planning/Project_Timeline_Baseline_2026-09-02.md).
 
 ## Where we are against the plan
 
 Planned windows are read from the Plan of Work figures and are accurate to about two days. They were planning targets: reaching a date is not evidence that a gate has passed.
 
-| Work | Planned | Status on 7 October |
+| Work | Planned | Status on 9 October |
 |---|---|---|
 | Define: process mapping, workload definition, scope review, stage categories | about 18 August – 24 September | Done |
 | Measure: pilot, Arno sessions, Dennis comparison, data preparation | about 29 August – 24 September | Sessions completed: five Arno sessions to 23 September, data reviewed on 30 September; Dennis: one timed session on 25 September, plus qualitative observations from 15 September. Analysis started on Zhongxin's instruction of 1 October; coverage limitations remain, and representativeness is not established |
-| Analyze: Arno's patterns, compared with Dennis | about 24 September – 1 October | Descriptive analysis done for Arno ([analysis notebook](../Arno_Analysis_2026_10_02.ipynb)). Dennis's existing evidence supports a separate task and handoff summary; further Dennis sessions only for a specific gap |
+| Analyze: Arno's patterns, compared with Dennis | about 24 September – 1 October | Descriptive analysis done for Arno ([analysis notebook](../Arno_Analysis_2026_10_02.ipynb)). Daily percentages, duration-method check and sampling recommendation added for review after 8 October. Dennis's existing task/handoff evidence is synthesized in the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md); further input only for a specific gap |
 | Analyze: root causes and candidate prioritisation | about 30 September – 8 October | Draft causes done; Arno still has to confirm them. Candidates scored provisionally ([selection notebook](../Focal_Case_Selection_2026-10-07.ipynb)) |
 | Analyze: technical and evaluation feasibility | about 1 – 8 October | Permission settled (gate 1); the Exact test-account check is open |
-| **Milestone: select focal AI improvement** | **7 October** | **Provisional selection made on 7 October.** Confirmation needs the academic supervisor's weights and review, the test-account checks and Arno's acceptance |
-| Improve: requirements and evaluation protocol | about 9 – 17 October | Not started; starts once the focal case is confirmed |
+| **Milestone: select focal AI improvement** | **7 October** | **Provisional selection made on 7 October.** Confirmation needs the academic supervisor's review and agreed final weights/scores, test-account/reference checks, Arno's case-specific acceptance and Johan's business-value confirmation. Dennis's 15 September explanation is evidence of business value |
+| Improve: requirements and evaluation protocol | about 9 – 17 October | Conditional requirements and evaluation outline prepared in the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md); final scope, reference cases, measures and thresholds still need agreement |
 | Improve: solution design and prototype | about 17 October – 15 November | |
 | Improve: demonstration and refinement | about 17 – 22 November | |
 | Comparative evaluation and results | about 24 November – 13 December | |
 | Risks, safeguards and company handover | about 3 November – 7 January | |
 | Thesis writing | 2 September – 20 December, then the final report | Analyze outline drafted ([outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md)); writing continues alongside the research |
 
-**Risk to the schedule.** If the focal case is confirmed at the 15 October meeting rather than 8 October, Improve starts about a week late. The 29 October and early-November supervision meetings are cancelled ([1 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)), so the requirements and evaluation protocol should be agreed before 29 October.
+**Risk to the schedule.** The 8 October meeting did not select a focal task or confirm the next meeting date. A 15 October discussion is only a proposed next-week planning point. Each delay in data/reference and buyer checks reduces the remaining Improve window. The 29 October and early-November supervision meetings are cancelled ([1 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)), so the requirements and evaluation protocol should be agreed before 29 October.
 
 ## Supervision
 
-- Academic supervisor: weekly on Thursday, 15:00–16:00; the agenda is sent on Wednesday.
+- Usual academic pattern: Thursday, 15:00–16:00. The 8 October notes do not confirm the next date/time. Prepare an agenda once that meeting is arranged; do not infer a confirmed booking.
 - Cancelled: 29 October and the first meeting in early November (date not stated).
 
 ## Deadlines
@@ -58,7 +58,7 @@ The combined study load of 1BEPIE and 1BEPIEX is **420 hours in total**. Gantt b
 ## Still provisional
 
 - The date the focal case is confirmed, and therefore the start of Improve.
-- Whether more Dennis sessions are needed after his return.
+- Whether a specific unresolved Dennis source/ownership question requires follow-up after his return; the return date is not confirmed.
 - The duration of prototype development and evaluation, which depends on the focal case and the data in the Exact test account.
 - Whether the project finishes before the 7 January boundary.
 - Whether an FMEA is useful for the selected improvement; it is added in Improve or Control only if the design creates failure modes that need systematic prioritisation.

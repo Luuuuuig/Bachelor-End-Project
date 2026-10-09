@@ -16,13 +16,13 @@ Use `main` for the consolidated project. Read the **[current status and reading 
 - [Documentation index](docs/README.md): full navigation, including source records and historical documents.
 - [Archive](docs/archive/README.md): superseded files kept for traceability, each with what replaced it.
 
-## Current position, 7 October 2026
+## Current position, 9 October 2026
 
 Analyze is underway following the [1 October supervisor meeting](docs/meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md). The notebooks contain a descriptive analysis and a provisional focal-case comparison. Order and confirmation checking (called purchase-price control until 7 October) leads the current comparison; the case is not yet finally selected.
 
 Five official Arno sessions provide 892 confirmed net observation minutes. The analysis retains 742 recorded activity minutes after the nine-minute contamination exclusion, including 182 minutes of former EXC work under OTHER outside improvement. The remaining 560 recorded minutes support the improvement profiles. Activity minutes and observation clock time are different quantities. The 28 August pilot stays separate. Dennis has qualitative evidence from 15 September and a timed observation from 25 September; his findings remain separate.
 
-The immediate work is to inspect the proposed focal case's data and reference answers, check its interpretation and acceptable support with Arno, review decision-relevant classifications, and obtain academic/company agreement on the final comparison. Permission to use test-account data and an external AI service is recorded on 7 October. The larger 45-record coding exercise is optional; the current plan is a documented targeted review, without claiming overall intercoder reliability. See the reading guide for the exact remaining steps.
+The immediate work is to inspect the proposed focal case's data and reference answers, check its interpretation and acceptable support with Arno, review decision-relevant classifications, and obtain academic/company agreement on the final comparison. Permission to use test-account data and an external AI service is recorded on 7 October. The larger 45-record coding exercise is optional; the current plan is a documented targeted review, without claiming overall intercoder reliability. The follow-up of the 8 October meeting (day-by-day shares, the Kruskal-Wallis test, the corrected CHECK comparison and a sufficiency recommendation) is in the analysis notebook; the [reading guide](docs/Current_Status_and_Reading_Guide.md#7-follow-up-of-the-8-october-meeting) lists it. None of it establishes a final selection or a working prototype.
 
 ## Current documents and submission history
 

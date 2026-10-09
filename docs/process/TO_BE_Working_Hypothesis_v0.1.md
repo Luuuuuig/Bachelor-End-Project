@@ -2,7 +2,9 @@
 
 **Status:** Working future-state hypothesis, synchronized 2 September 2026. Not yet validated or selected as the final intervention.
 
-**Update, 7 October 2026:** the provisional focal case is order and confirmation checking (called purchase-price control until 7 October). Standard / review / manual was rejected as a stand-alone candidate (too large for the BEP) and is kept as the design frame of the focal case: PO lines without a price or date difference follow the standard route, and flagged lines go to the buyer for review. Nothing changes in Exact without the buyer. See [methodology section 4.0](../methodology/Phase_1_Current_Methodology.md#40-status-of-the-selection-7-october-2026).
+**Update, 7 October 2026:** the provisional focal case is order and confirmation checking (called purchase-price control until 7 October). Standard / review / manual was rejected as a stand-alone candidate (too large for the BEP) and is kept as the design frame of the focal case: PO lines without a price or date difference follow the standard route, and flagged lines go to the buyer for review. Nothing changes in Exact without the buyer. See [methodology section 4.0](../methodology/Phase_1_Current_Methodology.md#40-status-of-the-selection-reviewed-9-october-2026).
+
+**9 October 2026:** the design for the provisional focal case (requirements, workflow, field map, AI-versus-rules choices, controls, an evaluation outline and Dennis's role and handoffs) is drafted in [Order_Confirmation_Checking_Design_Draft_2026-10-09.md](Order_Confirmation_Checking_Design_Draft_2026-10-09.md). This file is kept as the hypothesis of 2 September.
 
 **Ownership:** This file contains the proposed future-state architecture only. Measurement gates, candidate prioritization and evaluation design are maintained in `docs/methodology/Phase_1_Current_Methodology.md`.
 

@@ -453,7 +453,7 @@ Formal supplier-control documentation and buyer evidence indicate that genuine s
 
 # 7. Candidate profile overview
 
-*Status on 7 October 2026:* the profiles below are from before the Analyze phase. The provisional comparison favours profile C, renamed **order and confirmation checking** on 7 October and widened from price to price, delivery date, quantity and missing or extra lines, with article / supplier data as the first fallback; PO supplier communication becomes a quick win, and standard / review / manual becomes the design frame of the focal case. See [methodology section 4.0](../methodology/Phase_1_Current_Methodology.md#40-status-of-the-selection-7-october-2026) and the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb).
+*Status on 7 October 2026:* the profiles below are from before the Analyze phase. The provisional comparison favours profile C, renamed **order and confirmation checking** on 7 October and widened from price to price, delivery date, quantity and missing or extra lines, with article / supplier data as the first fallback; PO supplier communication becomes a quick win, and standard / review / manual becomes the design frame of the focal case. See [methodology section 4.0](../methodology/Phase_1_Current_Methodology.md#40-status-of-the-selection-reviewed-9-october-2026) and the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb).
 
 | Opportunity | Current AS-IS evidence | Main uncertainty | Current profile |
 |---|---|---|---|

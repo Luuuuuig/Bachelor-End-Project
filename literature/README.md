@@ -363,3 +363,13 @@ Candidate-specific sources for rows of the [AI function comparison](../docs/meth
 ## Copyright and access note
 
 Only public, open-access or author-posted PDFs are stored in this repository. Publisher-restricted articles and standards are represented by DOI or official links and are not copied into the repository.
+
+
+## 9 October: day-pattern method references
+
+| Source | Verified use in this revision | Boundary |
+|---|---|---|
+| [NIST, Kruskal-Wallis](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm), official method page, accessed 9 October 2026 | Independence/random sampling requirements and the equal-distribution null; analysis section 3.9 | Does not establish that the BEP observations meet those assumptions |
+| [SciPy, scipy.stats.kruskal](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kruskal.html), official documentation, accessed 9 October 2026 | Tie correction and chi-square reference p-value used for the exploratory episode-duration calculation | Implementation documentation, not a validation of daily-composition testing |
+
+The choice not to apply Kruskal-Wallis to the percentage cells follows the structure of this dataset: category values are dependent components, and ranking the numerical percentages discards activity identity. That is a methodological assessment of this analysis, not a claim that the sources studied Hytech-Pommec.

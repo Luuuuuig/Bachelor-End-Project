@@ -1,6 +1,6 @@
 # Current status and reading guide
 
-**Updated:** 7 October 2026. This is the current task and reading index. Dated meeting notes establish decisions; reviewed observations establish measured evidence; the notebooks calculate results. Historical plans do not establish that an action happened.
+**Updated:** 9 October 2026, after the [8 October meeting](meetings/Academic_Supervisor_Meeting_Notes_2026-10-08.md). This is the current task and reading index. Dated meeting notes establish decisions; reviewed observations establish measured evidence; the notebooks calculate results. Historical plans do not establish that an action happened.
 
 ## 1. Where the project stands
 
@@ -9,14 +9,14 @@ The exploratory Arno analysis is substantially complete. The focal-case comparis
 Completed or recorded:
 
 - AS-IS workflow, task register, seven-family observation structure, reviewed daily CSVs and row-level Van Weele assignments.
-- Five official Arno sessions plus a separate pilot: 892 net observation minutes. After the nine-minute contamination exclusion, recorded activity time is 742 minutes: 182 former EXC minutes remain visible under OTHER outside improvement, and 560 minutes form the improvement profile. Activity minutes are not interchangeable with observed clock time.
+- Five official Arno sessions total 892 net observation minutes; the pilot remains separate. After the nine-minute contamination exclusion, recorded activity time is 742 minutes: 182 former EXC minutes remain visible under OTHER outside improvement, and 560 minutes form the improvement profile. Activity minutes are not interchangeable with observed clock time.
 - Descriptive workload profiles, stage/task analysis, CHECK per order line, duration descriptions, candidate evidence and draft explanations.
 - Provisional scoring and sensitivity analysis using Yijie's weights. These do not constitute a final selection or prove feasibility.
 - Johan's permission for test-account data and an external AI service, recorded on 7 October. Availability, representativeness and reference answers still need checking.
-- Dennis's qualitative evidence from 15 September and enriched timed observation from 25 September. A separate synthesis and relevant handoff clarification remain useful; an automatic quota of additional days was not agreed.
+- Dennis's qualitative evidence from 15 September and enriched timed observation from 25 September are now synthesized in the [design draft, section 2](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#2-denniss-existing-role-and-relevant-handoffs). Current source ownership and his role change need clarification only where they affect the selected case.
 - Submitted Plan of Work, initial reflections, named second assessor and signed declaration. The [1 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md) record that approval was entered in the system.
 
-No prototype, formal workload improvement or quality benefit is established by these records.
+The 8 October follow-up is done: section 7 lists what was added and where. **No prototype, final sufficiency approval, workload improvement or quality benefit is established.**
 
 ## 2. What must be settled to finish Analyze
 
@@ -26,11 +26,11 @@ These tasks can proceed in parallel. Resolve uncertainty that could change the c
 |---|---|---|
 | Inspect focal-case data | Start with PC1–PC4: exportable PO lines, matched confirmations/quotations showing delivery dates and all lines, and a trustworthy reference price. Then check the relevant period, differences from current practice, export route, error cases and testing needs. Inspect fallback data if the proposed case fails or a close comparison depends on it. | [Exact worksheet](analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx) |
 | Clarify the task and accepted support | Ask Arno what a check compares, where the trusted price comes from, rough frequency/discrepancy frequency, which explanations he confirms and what the buyer must review or decide. Confirmation corroborates explanations; it does not estimate their causal contribution. | [Arno guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), parts A, B questions 2–3 and D rows 5–6; other prompts when relevant |
-| Review decision-relevant labels | Check ambiguous notes and labels underlying competing candidates, especially K04/K17/K18 and the difference between the 28 minutes whose note names price and the 56 minutes whose subject comes from the observer's clarification of 7 October. Record source rows, current labels, retained/corrected labels, reasons and effects on the comparison. Do not review only the favoured candidate. | [Codebook](measurement/Kinds_Of_Work_Codebook.md), [labels](measurement/Kinds_Of_Work_Rows_2026-09-30.csv), analysis notebook section 3.7 |
-| Finalize the comparison | Obtain Zhongxin's independent swings before exposing Yijie's weights or ranking. Combine, discuss differences and freeze the weights; enter them in part 5 of the selection notebook; review gates, scores and boundaries; rerun totals and sensitivity. Johan validates business relevance and feasibility, including the missing business-value evidence. | [Evidence matrix](analyze/Candidate_Evidence_Matrix_2026-10-07.md), selection notebook |
+| Resolve the remaining label/boundary questions | A desk review of 20 consequential rows is complete. Yijie should resolve the MAX/PO overlap convention (31 Aug row 52 versus 18 Sep row 52). The document/stage behind 11 K18 minutes needs confirmation only if those minutes are claimed as eligible quotation/confirmation work. Preserve note evidence versus the 7 October observer clarification. | [Targeted review log](analyze/Targeted_Label_Review_2026-10-09.csv), notebook section 3.7 |
+| Finalize the comparison | Review the criteria, the broadened boundary, gates, scores and weights with Zhongxin, as agreed on 8 October. Agree whether she sets her own swings first (the scoring brief's proposal) or reviews Yijie's; if she sets her own, collect them before showing the ranking. Freeze the weights and rerun the totals and sensitivity check. Johan confirms the business value with examples or figures; Dennis's 15 September explanation (loss-making sales from outdated purchase prices) is the starting example. | [Evidence matrix](analyze/Candidate_Evidence_Matrix_2026-10-07.md), selection notebook |
 | Write the Analyze conclusion | State the problem, supported explanations, final choice and boundary, remaining limits and conditions for Improve. Record academic/company alignment. | [Conclusion outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md), especially sections 3–7 |
 
-**Classification review status:** pending. This cleanup does not certify the labels or supply human answers. A targeted accuracy review is not an independent whole-dataset reliability study. Retain that limitation and rerun affected results if labels change. When changing notebook inputs, advance the pinned source commit deliberately; rerunning an old pin alone loads old inputs.
+**Classification review status:** the desk review of 20 decision-relevant records is done and changed no labels; three questions for Yijie remain in the log. It is not an independent reliability study. If labels change, update the labels file, move the notebook's pinned commit to the new version and rerun.
 
 ## 3. Optional and conditional work
 
@@ -47,15 +47,19 @@ These tasks can proceed in parallel. Resolve uncertainty that could change the c
 
 ## 4. What follows selection
 
+The [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) prepares the problem boundary, requirements, field map, AI-versus-rules choices, controls and evaluation design. These are conditional drafts, not approved specifications.
+
 1. Define the selected task's requirements and TO-BE workflow, including what AI contributes, what rules handle and what the buyer controls.
 2. Establish the manual comparator and freeze the evaluation protocol before development and formal testing: eligible cases, justified workload indicators, quality requirements/reference answers, success thresholds, sampling/analysis and development/evaluation separation. Broad observations do not establish AI savings or a reliable task-time standard.
 3. Build and demonstrate one bounded prototype, then compare it with current practice. Include review/correction effort and report effects on Dennis separately where relevant.
 4. Write results, limitations and recommendations; prepare ownership, monitoring and manual fallback. Production deployment is not automatically required.
 5. Verify and read the sources actually cited. The [literature register](../literature/README.md) distinguishes established use, provisional leads and unread full texts. Draft the thesis alongside the practical work.
 
-Firm dates in the [charter](Project_Charter.md): company placement ends **7 January 2027**; report, scientific-conduct item and end-BEP reflection **15 January 2027 at 23:59**; presentation by **29 January**; assessment by **7 February**. October–December work windows are estimates. The 29 October meeting and first early-November meeting were cancelled in the 1 October notes; the next exact meeting date is not recorded there.
+Firm dates in the [charter](Project_Charter.md): company placement ends **7 January 2027**; report, scientific-conduct item and end-BEP reflection **15 January 2027 at 23:59**; presentation by **29 January**; assessment by **7 February**. October–December work windows are estimates. The 29 October meeting and first early-November meeting were cancelled in the 1 October notes; the 8 October notes also leave the next exact meeting date unconfirmed.
 
 ## 5. Reading order for Yijie
+
+**For the new work, start with:** analysis sections 3.3a (daily percentages), 3.9-3.10 (test meaning and sampling recommendation), 5.1 (CHECK correction) and 9.1 (checking concentration). Then read selection part 4 (criteria and overlap safeguards) and the boundary review in part 6. Read the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md), sections 1–3 and 8–9, before contacting Arno.
 
 Read interpretation paragraphs and tables first. Inspect code when a calculation needs explaining.
 
@@ -68,10 +72,34 @@ Read interpretation paragraphs and tables first. Inspect code when a calculation
 | 5 | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb): part 1 (what the analysis found), part 2 (why this method), parts 3–6 (gates, criteria, weights and scores, including why order and confirmation checking gets each score), parts 7–9 (totals, sensitivity and the focal case); [evidence matrix](analyze/Candidate_Evidence_Matrix_2026-10-07.md): section on order and confirmation checking | Why order and confirmation checking currently leads, which assumptions drive that result and what could change the decision. |
 | 6 | [Analyze outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md): sections 3–7; [methodology](methodology/Phase_1_Current_Methodology.md): section 6 | Proposed boundary, supported explanations, unresolved gates and how the eventual evaluation answers the research question. |
 
-Your personal review should concentrate on whether interpretations match what you observed, whether the proposed price-checking boundary is accurate and whether you can explain why the evidence supports the choice. A provisional interpretation does not become confirmed by appearing in a table.
+Your personal review should concentrate on whether interpretations match what you observed, whether the proposed quotation/confirmation-checking boundary is accurate and whether you can explain why the evidence supports the choice. A provisional interpretation does not become confirmed by appearing in a table.
 
 ## 6. Document authority and this cleanup
 
 Active documents use the main question and five sub-questions in section 2 of the [submitted PDF](proposal/Plan_of_Work_Final_2026-09-22.pdf), as confirmed by Yijie on 7 October. The cleanup initially restored the earlier four-question draft by mistake; that change has been corrected. The submitted order is workflow (SQ1), implementation conditions (SQ2), workload contribution (SQ3), selection (SQ4), and evaluation (SQ5). Later scope and method decisions remain in effect; restoring the submitted questions does not revert them.
 
 The cleanup removes stale active submission tasks, compulsory 45-record/kappa wording and duplicate current-status instructions. The optional workbook, original data, historical mappings/observations and submitted documents remain available. It does not complete pending interviews, test-account checks, classification review, weights or approvals.
+
+## 7. Follow-up of the 8 October meeting
+
+| Request or finding | Where | Result |
+|---|---|---|
+| Activity shares by day (Zhongxin's table) | Analysis notebook, 3.3a | The daily mix varies widely: CHECK 4.2–38.3% of improvement work, CLAR 5.7–39.5%, PO 19.5–41.5% |
+| Kruskal-Wallis test | Analysis notebook, 3.9 | Episode lengths do not differ between days (H = 2.76, p = 0.60, 182 episodes). The test compares episode lengths, not the daily mix |
+| CHECK per line, corrected | Analysis notebook, 5.1 | 18 September 0.90 against 0.83 for the other four days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds discussed. The 8.3% is CHECK's share of improvement time without 18 September |
+| Workload of each candidate by day | Analysis notebook, 9.1 | 66 of the 98 checking minutes fall on 18 September; without that day checking is 7.8% (workload score 3) |
+| Is more observation needed? | Analysis notebook, 3.10 | Recommendation: no further general observation days. Even with workload score 3, order and confirmation checking stays first (selection notebook, check 4: lead 8.6 points). Targeted checks only where a label question could change the choice |
+| Criteria: definitions and reasons | [Methodology §5.3](methodology/Phase_1_Current_Methodology.md#criterion-definitions-and-rationale); selection notebook, part 4 | Definitions, evidence and rules against double counting. The anchors are unchanged; two proposed clarifications are listed for Zhongxin |
+| Targeted label review | [Review log](analyze/Targeted_Label_Review_2026-10-09.csv) | 20 records checked, no labels changed, three questions for Yijie |
+| Dennis's role, and a design draft for the focal case | [Design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) | Conditional drafts, not approved specifications |
+| Business-value evidence | [Evidence matrix](analyze/Candidate_Evidence_Matrix_2026-10-07.md) | Dennis's 15 September explanation added; Johan's confirmation still to come |
+
+### Questions for the next supervisor meeting
+
+1. **Sufficiency.** Do you agree that no further general observation days are needed, because the choice holds even when 18 September is left out? Is a specific check needed before Arno's leave at the end of October?
+2. **Kruskal-Wallis.** The test shows that episode lengths do not differ between days; it cannot test the daily mix, which the table shows. Is that the use you intended?
+3. **Criteria and weights.** Are the seven criteria distinct enough? Do you want to set your own swings, or review Yijie's? Should the two proposed anchor clarifications be adopted?
+4. **CHECK.** The corrected comparison is 0.90 against 0.83 minutes per line. Does your conclusion of 8 October still hold?
+5. **Arno.** Is a short written confirmation from Arno enough (what a check compares, the trusted price source, which support he accepts), instead of a full follow-up session?
+
+**Yijie's next steps:** answer the three questions in the label review log, check the Exact test account, contact Arno before his leave, and ask Johan for an example or figure of business value.

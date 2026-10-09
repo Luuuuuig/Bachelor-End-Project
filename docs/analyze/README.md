@@ -15,3 +15,10 @@ Use the [current status and reading guide](../Current_Status_and_Reading_Guide.m
 **History.** The gate verdicts, scores and swing weights were kept in three CSV files until 7 October, when they were written into the selection notebook without changing any value; the CSVs are in the [archive](../archive/README.md#analyze). The causes were first typed into the notebook on 2 October and moved to this file on 6 October, without changing their content. The causes of the order checks are listed under "Purchase-price control", the name of the focal case until 7 October. The file keeps that name as a dated record; the analysis notebook renames it to "Order and confirmation checking" when it loads the file.
 
 **Updating.** Keep `status` and `answer_2_oct` unchanged: they record the state after Yijie's answers of 2 October. Add Arno's later answers in new dated columns, for example `arno_check_2026-10-XX` (confirmed, changed, rejected or not discussed) and `arno_words_2026-10-XX`, and add new causes as new rows with an empty `answer_2_oct`. Then update part 10 of the notebook to show the new columns and rerun it.
+
+
+## 9 October follow-up
+
+- [Targeted label desk review](Targeted_Label_Review_2026-10-09.csv): 20 consequential source records, retained labels and specific observer questions. No source data changed and no independent reliability result is claimed.
+- [Current status and reading guide](../Current_Status_and_Reading_Guide.md#7-follow-up-of-the-8-october-meeting), section 7: what was done after the 8 October meeting, and the questions for the next meeting.
+- [Analyze outline](Analyze_Conclusion_Outline_2026-10-07.md#10-draft-synthesis-for-supervisor-review-9-october): draft synthesis of the new evidence, pending final decisions.

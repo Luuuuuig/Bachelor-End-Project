@@ -16,7 +16,9 @@ The [14 September crosswalk](../archive/process/Van_Weele_Activity_Mapping_2026-
 
 ## TO-BE hypothesis
 
-[TO_BE_Working_Hypothesis_v0.1.md](TO_BE_Working_Hypothesis_v0.1.md) preserves the possible AUTO / REVIEW / MANUAL routing concept and the distinction between process simplification, rules, AI support and human expertise. It is an earlier design hypothesis, not a completed or selected artifact. The confirmed focal case will determine the requirements, evaluation protocol and final TO-BE design during Improve/DSRM.
+[TO_BE_Working_Hypothesis_v0.1.md](TO_BE_Working_Hypothesis_v0.1.md) preserves the possible AUTO / REVIEW / MANUAL routing concept of 2 September. It is an earlier design hypothesis, not a completed or selected artifact.
+
+[Order_Confirmation_Checking_Design_Draft_2026-10-09.md](Order_Confirmation_Checking_Design_Draft_2026-10-09.md) drafts bounded support for the provisional focal case: Dennis's existing role and handoffs, requirements, logical fields, AI-versus-rules choices and an evaluation outline. It reflects the buyers' objection to automatic PO creation and sending. These are conditional drafts, not an implemented artifact or an approved evaluation protocol.
 
 ## Related references
 
