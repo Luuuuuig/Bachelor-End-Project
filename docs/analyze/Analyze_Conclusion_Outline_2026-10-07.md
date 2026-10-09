@@ -8,18 +8,19 @@ Each section lists what the chapter will say, where the evidence is, and what is
 
 | Question ([methodology §2](../methodology/Phase_1_Current_Methodology.md#2-research-structure), charter) | Where it is answered | Status |
 |---|---|---|
-| Where does the recorded work go, and is the evidence enough? | [Analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), parts 3–9 and Appendix A | 9 October daily-composition, duration-method and sampling assessment prepared; final sufficiency decision remains open |
-| What may cause the work? | Notebook part 10; [draft causes](Arno_Causes_Draft_2026-10-06.csv) | Draft; Arno still has to confirm |
-| Which work can be eliminated, simplified, standardised, automated or supported? | Notebook part 10 (directions table); section 5 below | Draft per cause |
-| How standard is the work? | Notebook parts 7–9 (cases in one stretch, cases without a recorded problem) | Described; not a count of standard cases |
-| Are decision-relevant classifications supported by the notes? | Notebook sections 3.6–3.7; codebook and source rows | 20-row source/label desk review completed; observer decisions on the logged overlap/boundary questions remain open; the 45-record exercise is optional |
+| Where does the recorded work go, and is the evidence enough? | [Analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), parts 2–6 (sufficiency in section 6.7) and Appendix A | 9 October daily-composition, duration-method and sampling assessment prepared; final sufficiency decision remains open |
+| What may cause the work? | Notebook section 6.5; [draft causes](Arno_Causes_Draft_2026-10-06.csv) | Draft; Arno still has to confirm |
+| Which work can be eliminated, simplified, standardised, automated or supported? | Notebook section 6.5 (directions table); section 5 below | Draft per cause |
+| How standard is the work? | Notebook sections 4.5, 5.3 and 6.4 (cases in one stretch, cases without a recorded problem) | Described; not a count of standard cases |
+| Are decision-relevant classifications supported by the notes? | Notebook section 5.1; codebook and source rows | 20-row source/label desk review completed; observer decisions on the logged overlap/boundary questions remain open; the 45-record exercise is optional |
 | Is the AI support feasible with the data available? | [Stage A gates](../../Focal_Case_Selection_2026-10-07.ipynb) (selection notebook, part 3), [test-account worksheet](Stage_A_Test_Account_Check_2026-10-07.xlsx) | Gate 1 passed on 7 October; gates 2–3 wait on the test account |
 | Which candidate becomes the focal case? | [Selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) | Provisional; Zhongxin's weights and review follow |
 
 ## 2. Where the work goes
 
 - **Ordering is the largest stage** on every day: 334 of 560 minutes (59.6%). Former EXC (182 minutes) stays outside the improvement scope.
-- **Three areas carry the most time:** PO preparation and completion (111 minutes), order and confirmation checking (98) and request intake & validation (94). They overlap, so they are not added up.
+- **Three areas carry the most time:** PO preparation and completion (111 minutes; the K02 part of the 136-minute activity of preparing, amending or releasing POs), order and confirmation checking (98) and request intake & validation (94). They overlap, so they are not added up.
+- **Requests are counted, not timed:** 35 were recorded, all as untimed tallies, mostly by e-mail (21) and phone (9). Of the 35 request case-days, 21 also contain clarification work; this is co-occurrence, not cause (notebook, sections 4.4 and 4.5).
 - **No problem was recorded in many case-days:** these contain 406 of the 560 minutes (72.5%). Absence of a recorded problem does not establish that work is routine or automatable. Arno returns to 30 of 98 case-days after other work; these hold 273 minutes.
 - **Recorded episodes are short:** a lognormal curve is the working approximation for the bulk of the records (median about 2.3 minutes); no formal goodness-of-fit decision is made.
 - **Limits of the evidence:** one buyer, five partial sessions, start and end read in whole minutes, kinds of work assigned by one coder.

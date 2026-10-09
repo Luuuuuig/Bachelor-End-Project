@@ -32,7 +32,7 @@ Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload
 **Gaps with no source yet (7 October):**
 
 - Checking supplier quotations or order confirmations against a PO; Tater et al. cover invoices, later in the process.
-- The fishbone (cause-and-effect) diagram used in part 10 of the analysis notebook.
+- The fishbone (cause-and-effect) diagram used in section 6.5 of the analysis notebook.
 - Process redesign directions (eliminate, simplify, standardise, automate or support) used in the Analyze outline.
 - Evaluating the artifact in DSRM beyond Peffers et al.; needed early in Improve.
 
@@ -168,11 +168,11 @@ The stored 2006 paper describes the six-activity design-science research process
 
 **Guest, G., Namey, E., & Chen, M. (2020).** *A simple method to assess and report thematic saturation in qualitative research*. *PLOS ONE, 15*(5), e0232076. https://doi.org/10.1371/journal.pone.0232076
 
-**Use:** Informs the retrospective saturation assessment, now presented in section 3.5 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
+**Use:** Informs the retrospective saturation assessment, now presented in section 6.7 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
 
 ### Coding the observation notes
 
-The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (section 3.7 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
+The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (section 5.1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
 
 **Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
 
@@ -369,7 +369,7 @@ Only public, open-access or author-posted PDFs are stored in this repository. Pu
 
 | Source | Verified use in this revision | Boundary |
 |---|---|---|
-| [NIST, Kruskal-Wallis](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm), official method page, accessed 9 October 2026 | Independence/random sampling requirements and the equal-distribution null; analysis section 3.9 | Does not establish that the BEP observations meet those assumptions |
+| [NIST, Kruskal-Wallis](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm), official method page, accessed 9 October 2026 | Independence/random sampling requirements and the equal-distribution null; analysis section 3.4 | Does not establish that the BEP observations meet those assumptions |
 | [SciPy, scipy.stats.kruskal](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kruskal.html), official documentation, accessed 9 October 2026 | Tie correction and chi-square reference p-value used for the exploratory episode-duration calculation | Implementation documentation, not a validation of daily-composition testing |
 
 The choice not to apply Kruskal-Wallis to the percentage cells follows the structure of this dataset: category values are dependent components, and ranking the numerical percentages discards activity identity. That is a methodological assessment of this analysis, not a claim that the sources studied Hytech-Pommec.
