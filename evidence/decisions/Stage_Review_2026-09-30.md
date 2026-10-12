@@ -1,5 +1,15 @@
 # Stage review of the daily CSVs, 30 September 2026
 
+## Reviewed stage data, 12 October 2026
+
+The five daily Arno CSVs in `data/observations/` for 31 August and 1, 8, 18 and 23 September now contain the agreed stages in `Van Weele stage`. All **287 rows** have a stage; **100 values** changed from the previous CSV version. `Original Van Weele stage` preserves every previous stage value, including blanks. The eight observation fields, row order, missing durations and recorded times are unchanged.
+
+The current rules assign all REQ subtypes to Not applicable, CLAR without a note to Ordering, CLAR with a note to Specification, and CHECK without a note to Monitoring. Specific dated confirmations take precedence. Remaining rows follow the reviewed recorded context; unclear process purpose receives Not applicable. Stage assignment does not determine improvement scope: EXC and OTHER/EXC remain excluded, while ordinary OTHER remains included.
+
+This update synchronizes stage data across branches. Older notebooks and dated reports may still contain historical results or load a pinned historical commit. The rewritten notebooks on `codex-fresh-observation-analysis-2026-10-12` use the current assignments. The pilot and Dennis records are separate.
+
+The text below records the historical 30 September review. The current assignments above supersede its unresolved-stage status.
+
 **Moved here from the measurement README on 7 October 2026, without changing its content.** It records the observer's decisions on the Van Weele stage of each row in the five daily CSVs. These decisions are already in the CSVs; this file explains them.
 
 ## Daily CSV exports and their stage review
