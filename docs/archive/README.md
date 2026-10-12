@@ -1,6 +1,10 @@
 # Archive
 
-Files that are no longer current but are kept for traceability. Nothing here is needed to follow the current work. The notebooks use none of these files, except the two September enrichment files: section 2.3 of the analysis notebook reads their Task IDs to show why the kinds of work replaced them. Each file keeps its original name and content; only links were updated when it moved here on 7 October 2026.
+Files that are no longer current but are kept for traceability. Nothing here is needed to follow the current work. The notebooks use none of these files. Each file keeps its original name and content; only links were updated when it moved here (7 October 2026; 12 October for the kinds-of-work layer).
+
+## Kinds of work (12 October 2026)
+
+The note-based labels of 30 September to 9 October and the files that rested on them are in [`kinds_of_work`](kinds_of_work/README.md), with its own README: the row labels, codebook, framework map and coding-check sheet (from `docs/measurement`) and the causes draft, candidate evidence matrix and targeted label review (from `docs/analyze`). They were replaced by the analysis on the original codes and the agreed stages ([stage review of 12 October](../measurement/Stage_Review_2026-10-12.md)).
 
 The current files are listed in the [documentation index](../README.md).
 
@@ -8,7 +12,7 @@ The current files are listed in the [documentation index](../README.md).
 
 | File | What it was | Replaced by |
 |---|---|---|
-| [`Stage_A_Gates_2026-10-07.csv`](analyze/Stage_A_Gates_2026-10-07.csv), [`Candidate_Scores_2026-10-07.csv`](analyze/Candidate_Scores_2026-10-07.csv), [`Swing_Weights_Yijie_2026-10-07.csv`](analyze/Swing_Weights_Yijie_2026-10-07.csv) | Inputs of the selection notebook: gate verdicts with reasons, scores with ranges and evidence, and Yijie's swings | The same values, written into parts 3, 5 and 6 of the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) on 7 October so that it is self-contained. The record of Yijie's swings stays in [`docs/analyze`](../analyze/Swing_Weights_Yijie_2026-10-07.md). The evidence text in the archived scores still cites the analysis notebook's earlier part numbers (part 3, now part 5; part 8, now 9; part 9, now 10) |
+| [`Stage_A_Gates_2026-10-07.csv`](analyze/Stage_A_Gates_2026-10-07.csv), [`Candidate_Scores_2026-10-07.csv`](analyze/Candidate_Scores_2026-10-07.csv), [`Swing_Weights_Yijie_2026-10-07.csv`](analyze/Swing_Weights_Yijie_2026-10-07.csv) | Inputs of the selection notebook: gate verdicts with reasons, scores with ranges and evidence, and Yijie's swings | The same values, written into sections 2, 3 and 4 of the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) on 7 October so that it is self-contained. The record of Yijie's swings stays in [`docs/analyze`](../analyze/Swing_Weights_Yijie_2026-10-07.md). The evidence text in the archived scores cites part numbers of the 7 October notebook version and the kinds-based figures of that date; neither applies since 12 October |
 
 ## Measurement
 
@@ -18,7 +22,7 @@ The current files are listed in the [documentation index](../README.md).
 | [`Measurement_Protocol_v1.1.md`](measurement/Measurement_Protocol_v1.1.md) | Protocol after the pilot, used to start the 31 August session | Protocol v1.3 |
 | [`Measurement_Protocol_v1.2.md`](measurement/Measurement_Protocol_v1.2.md) | Protocol used for the 1 September session; its live fields and timing are the same as v1.3 | Protocol v1.3 |
 | [`Measure_Live_Cheat_Sheet_v1.1.md`](measurement/Measure_Live_Cheat_Sheet_v1.1.md), [`v1.2`](measurement/Measure_Live_Cheat_Sheet_v1.2.md) | Observer guides paired with protocols v1.1 and v1.2 | [Cheat sheet v1.3](../measurement/Measure_Live_Cheat_Sheet_v1.3.md) |
-| [`Activity_Framework_Enriched_Observations_2026-09-21.csv`](measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) and [`Van_Weele_Activity_Framework_and_Observations_2026-09-21.xlsx`](measurement/Van_Weele_Activity_Framework_and_Observations_2026-09-21.xlsx) | Enrichment of 21 September: 259 rows (pilot, 31 August, 1, 8 and 18 September) with activity, stage, confidence and scope fields. Its included-minute subtotals (59, 91, 116, 32, 121) are historical. | The observer-reviewed daily CSVs of 30 September and the kinds-of-work labels in [`docs/measurement`](../measurement/README.md) |
+| [`Activity_Framework_Enriched_Observations_2026-09-21.csv`](measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) and [`Van_Weele_Activity_Framework_and_Observations_2026-09-21.xlsx`](measurement/Van_Weele_Activity_Framework_and_Observations_2026-09-21.xlsx) | Enrichment of 21 September: 259 rows (pilot, 31 August, 1, 8 and 18 September) with activity, stage, confidence and scope fields. Its included-minute subtotals (59, 91, 116, 32, 121) are historical. | The observer-reviewed daily CSVs in [`docs/measurement`](../measurement/README.md), with the agreed stages of 12 October |
 | [`23_September_Enriched_Rows_2026-09-25.csv`](measurement/23_September_Enriched_Rows_2026-09-25.csv) | The same enrichment for 23 September (58 rows); its included subtotal of 102 minutes is historical | As above |
 
 ## Process

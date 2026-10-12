@@ -1,6 +1,6 @@
 # Project documentation
 
-**Synchronized:** 7 October 2026.
+**Synchronized:** 12 October 2026.
 
 Start with the [current status and reading guide](Current_Status_and_Reading_Guide.md). It gives the reading order, separates completed work from remaining decisions, and owns the immediate worklist. This page is the reference index for finding the supporting material.
 
@@ -10,9 +10,9 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 |---|---|---|
 | What is done, what remains, and what to read next | [Current status and reading guide](Current_Status_and_Reading_Guide.md) | Current priorities and reading order |
 | Current objective, scope and five submitted sub-questions | [Readable BEP assignment](proposal/BEP_Assignment_1BEPIEX.md) | Current project definition |
-| Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis, case/line comparisons, kinds of work and draft causes |
+| Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis on the original codes and agreed stages: coverage, codes and stages by day, CHECK per line, case flow, episode durations, candidate evidence |
 | Provisional focal case and its conditions | [Focal-case selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) | Self-contained: the findings it starts from, the method and its literature, Stage A gates, weights, scores with evidence, sensitivity and conditions |
-| Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Gate worksheet, candidate evidence, weights, causes and conclusion outline |
+| Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Supervisor update, weights record, gate worksheet and conclusion outline |
 | Scope, outcome structure and phase gates | [Project charter](Project_Charter.md) | Stable project-control decisions |
 | Deadlines and progress against the plan | [Project timeline](Project_Timeline.md) | Plan of Work Gantt compared with actual progress; planned dates are targets, not proof of completion |
 | Selection and evaluation method | [Current methodology](methodology/Phase_1_Current_Methodology.md) | DMAIC/DSRM, candidate boundaries and research rules |
@@ -29,10 +29,10 @@ The [final Plan of Work dated 22 September](proposal/Plan_of_Work_Final_2026-09-
 | Observed operational purchasing workflow | [AS-IS process](process/Process_Cleaned_V1.5.md) | Section 3 flowchart, 31-task register, validation and operational evidence |
 | Process-file boundaries | [Process index](process/README.md) | AS-IS, stage framework and provisional TO-BE ownership |
 | Purchasing-stage definitions | [Purchasing activity framework](process/Purchasing_Activity_Framework_2026-09-21.md) | Van Weele stages and classification boundaries |
-| Current observation data and provenance | [Measurement index](measurement/README.md) | Reviewed daily CSVs, observation notes, codebook and framework map |
+| Current observation data and provenance | [Measurement index](measurement/README.md) | Reviewed daily CSVs, observation notes and the stage review of 12 October |
 | How observations were collected | [Measurement Protocol v1.3](measurement/Measurement_Protocol_v1.3.md) and [scope/timing addendum](measurement/Scope_and_Classification_Addendum_2026-09-14.md) | Controlled collection rules and subsequent decisions |
 | Materials for any justified additional observation | [Live cheat sheet v1.3](measurement/Measure_Live_Cheat_Sheet_v1.3.md) | Live-use reference; not an instruction to collect another broad sample |
-| Questions to confirm with Arno | [Focused follow-up guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md) | Causes, check content/frequency, targeted labels and acceptable support |
+| Questions to confirm with Arno | [Focused follow-up guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md) | Explanations to confirm, check content and frequency, and acceptable support |
 | AI functions and buyer boundaries | [AI function comparison](methodology/AI_Function_Comparison_2026-10-02.md) | Literature/task comparison and acceptance evidence |
 | Formal purchasing SOPs and work instructions | [Official-document register](company-documentation/Official_Document_Register_2026-08-21.md) | Documentary evidence; proprietary source binaries are not copied here |
 | Draft design of the provisional focal case | [Design draft, 9 October](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) | Requirements, workflow, fields, AI-versus-rules choices and an evaluation outline; conditional, not approved |
@@ -50,7 +50,7 @@ The five-day observation target has been reached. Additional Arno or Dennis obse
 | Earlier supervisor and internship records | [Meeting index](meetings/README.md) | What was observed or decided on each date; old open questions may be resolved |
 | Earlier proposal text | [Plan of Work draft](proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) with its [Gantt figures](proposal/figures/), [half-page description](proposal/Half_Page_Project_Description_2026-09-15.md) | Submission/development history; use the readable assignment for current framing |
 | Pilot record | [Measurement index](measurement/README.md#observation-records) | Original pilot evidence, outside the baseline |
-| Superseded files: protocols v1.0–v1.2, the 21 and 25 September enrichment exports, the 14 September crosswalk, September planning and consistency records, draft Gantt figures, Word copies and early research notes | [Archive](archive/README.md) | Kept for traceability; each entry names what replaced it. The notebooks use none of them, except the September Task IDs in section 5.1 and Appendix B of the analysis notebook |
+| Superseded files: protocols v1.0–v1.2, the 21 and 25 September enrichment exports, the 14 September crosswalk, September planning and consistency records, draft Gantt figures, Word copies, early research notes and the kinds-of-work layer of 30 September to 9 October | [Archive](archive/README.md); [kinds of work](archive/kinds_of_work/README.md) | Kept for traceability; each entry names what replaced it. The notebooks use none of them |
 
 ## Ownership and update rules
 
@@ -59,4 +59,4 @@ Keep one owner for each current topic: the reading guide owns priorities, the ch
 When new evidence arrives, preserve the dated source, update the affected current owner, then adjust navigation only if the reading route changes. Record later decisions beside historical evidence instead of rewriting old notes to imply they were known earlier. Preserve the submitted PDF and source observations. Move a superseded file to the [archive](archive/README.md) only when nothing current depends on it, and record there what replaced it. Useful operational context may remain in several files, but current task lists belong in the reading guide.
 
 
-**9 October:** the follow-up of the 8 October meeting is listed in [section 7 of the reading guide](Current_Status_and_Reading_Guide.md#7-follow-up-of-the-8-october-meeting): day-by-day shares, the Kruskal-Wallis test, the corrected CHECK comparison, a sufficiency recommendation, criteria definitions, a [targeted label review](analyze/Targeted_Label_Review_2026-10-09.csv) and a [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) for the focal case.
+**12 October:** both notebooks were rebuilt on the original observation codes and the agreed stages ([stage review](measurement/Stage_Review_2026-10-12.md)); the kinds-of-work layer is [archived](archive/kinds_of_work/README.md). The follow-up of the 8 October meeting is listed in [section 4 of the reading guide](Current_Status_and_Reading_Guide.md#4-follow-up-of-the-8-october-meeting): day-by-day shares, the Kruskal-Wallis test, the corrected CHECK comparison, a sufficiency recommendation and the criteria definitions; the [supervisor update](analyze/Supervisor_Update_2026-10-15.md) puts them to Zhongxin on 15 October, and the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) prepares the focal case.

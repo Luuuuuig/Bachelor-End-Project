@@ -1,57 +1,47 @@
 # Measurement
 
-## Reviewed stage data, 12 October 2026
-
-The five daily Arno CSVs for 31 August and 1, 8, 18 and 23 September now contain the agreed stages in `Van Weele stage`. All **287 rows** have a stage; **100 values** changed from the previous CSV version. `Original Van Weele stage` preserves every previous stage value, including blanks. The eight observation fields, row order, missing durations and recorded times are unchanged.
-
-The current rules assign all REQ subtypes to Not applicable, CLAR without a note to Ordering, CLAR with a note to Specification, and CHECK without a note to Monitoring. Specific dated confirmations take precedence. Remaining rows follow the reviewed recorded context; unclear process purpose receives Not applicable. Stage assignment does not determine improvement scope: EXC and OTHER/EXC remain excluded, while ordinary OTHER remains included.
-
-This update synchronizes stage data across branches. Older notebooks and dated reports may still contain historical results or load a pinned historical commit. The rewritten notebooks on `codex-fresh-observation-analysis-2026-10-12` use the current assignments. The pilot and Dennis records are separate.
-
 The Measure phase: how the observations were made, the records of each session, and the data the analysis uses.
 
-## Status on 7 October 2026
+## Status on 12 October 2026
 
 - **Observation of Arno is complete:** five sessions on 31 August and 1, 8, 18 and 23 September, with **892 minutes** of confirmed observation (165, 186, 104, 240 and 197 minutes; see the [observation-time review](Observation_Time_Review_2026-09-25.md)). The 28 August pilot stays separate.
+- **The stages are agreed.** The five daily CSVs carry the agreed `Van Weele stage` of 12 October; all 287 rows have a stage, and 100 values changed from the previous version. `Original Van Weele stage` preserves every previous value, including blanks. The [stage review of 12 October](Stage_Review_2026-10-12.md) records the rules, the nine observer confirmations, the 15 rows from the context review and every change. The eight observation fields, row order, missing durations and recorded times are unchanged.
+- **The analysis uses the original codes and the agreed stages only.** The kinds-of-work layer of 30 September to 9 October is archived in [docs/archive/kinds_of_work](../archive/kinds_of_work/README.md).
 - **Dennis:** qualitative notes from [15 September](../meetings/Internship_notes_2026-09-15.md) and one timed observation on [25 September](Measure_Observation_2026-09-25.md), kept separate from Arno's data. His net observation time is not confirmed, so his record supports a separate task and handoff summary, not a per-hour comparison. Further Dennis observation addresses a specific remaining question after his return (decision of [1 October](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)).
-- **Analysis started on 2 October** with Arno's data, in the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb).
-- **Still open:** a documented targeted review of ambiguous and decision-relevant labels across the competing candidates (see the [codebook](Kinds_Of_Work_Codebook.md)), and the session with Arno ([session guide](Arno_Follow_Up_Session_Guide_2026-10-02.md)).
+- **Still open:** the session or written confirmation with Arno ([session guide](Arno_Follow_Up_Session_Guide_2026-10-02.md)).
 
 ## Files the analysis uses
 
-| File | Content | Used in the analysis notebook |
+| File | Content | Where used in the analysis notebook |
 |---|---|---|
-| `Arno_Measurement_<date>.csv`: [31 August](Arno_Measurement_2026-08-31.csv), [1 September](Arno_Measurement_2026-09-01.csv), [8 September](Arno_Measurement_2026-09-08.csv), [18 September](Arno_Measurement_2026-09-18.csv), [23 September](Arno_Measurement_2026-09-23.csv) | One row per recorded activity: the original eight observation columns, the reviewed Van Weele stage (12 October), and Original Van Weele stage | Everywhere |
-| [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv) | Observation blocks and confirmed net observation per session | Sections 2.4 (coverage), 3.1 and 4.4 |
-| [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv) | Up to three kinds of work (K01–K31) per record | Joined in section 2.3; used from part 5 on |
-| [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv) | Each kind's place in the purchasing activity framework, and the task-register tasks it covers | Parts 5 and 6; Appendix B |
-| [`Activity_Framework_Enriched_Observations_2026-09-21.csv`](../archive/measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) and [`23_September_Enriched_Rows_2026-09-25.csv`](../archive/measurement/23_September_Enriched_Rows_2026-09-25.csv) (archived) | The task-register Task ID given to each record on 21 and 25 September, with its mapping status | Section 5.1 and Appendix B: why the kinds replaced the Task IDs, and the check of the register links |
-| [`Kinds_Coding_Check_Sample_2026-10-02.xlsx`](Kinds_Coding_Check_Sample_2026-10-02.xlsx) | Optional blind coding sheet of 45 random records, prepared on 2 October and not completed. Neither the sheet nor kappa is a completion condition; the current check is the targeted review | Not used |
+| `Arno_Measurement_<date>.csv`: [31 August](Arno_Measurement_2026-08-31.csv), [1 September](Arno_Measurement_2026-09-01.csv), [8 September](Arno_Measurement_2026-09-08.csv), [18 September](Arno_Measurement_2026-09-18.csv), [23 September](Arno_Measurement_2026-09-23.csv) | One row per recorded activity: the original eight observation columns, the agreed Van Weele stage (12 October) and Original Van Weele stage | Everywhere; read in part 1 with a SHA-256 check against commit `00b9802` |
+| [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv) | Observation blocks and confirmed net observation per session | 3.1 (coverage per day), 4.3 (observed-clock denominator), 4.5 (requests per observed hour) |
 
-The [pilot CSV](Arno_Measurement_2026-08-28_Pilot.csv) is kept separate and is not analysed. The [stage review of 30 September](Stage_Review_2026-09-30.md) records the earlier stage decisions per session. The 12 October update above supersedes its unresolved-stage status.
+The selection notebook reads the same five CSVs with the same loader. The [pilot CSV](Arno_Measurement_2026-08-28_Pilot.csv) is kept separate and is not analysed. The [stage review of 30 September](Stage_Review_2026-09-30.md) records the earlier stage decisions per session; the 12 October review supersedes its unresolved-stage status. The 21 and 25 September enrichment exports are in the [archive](../archive/README.md#measurement) and are not read by the notebooks.
 
 ## Totals
 
-| Session | Rows | Timed rows | Recorded minutes | of which former EXC |
-|---|---:|---:|---:|---:|
-| 31 August | 63 | 39 | 103 | 4 |
-| 1 September | 50 | 42 | 161 | 38 |
-| 8 September | 42 | 38 | 106 | 27 |
-| 18 September | 74 | 57 | 196 | 47 |
-| 23 September | 58 | 48 | 185 | 66 |
-| **Total** | **287** | **224** | **751** | **182** |
+The frame the notebooks use, after leaving out the two 8 September OBS-16 rows recorded during a loss of observer focus (12:04 to 12:13, 9 minutes):
 
-How the notebook gets from these totals to the figures it reports:
+| Session | Rows | Timed rows | Recorded minutes | of which former EXC | In scope |
+|---|---:|---:|---:|---:|---:|
+| 31 August | 63 | 39 | 103 | 4 | 99 |
+| 1 September | 50 | 42 | 161 | 38 | 123 |
+| 8 September | 40 | 36 | 97 | 27 | 70 |
+| 18 September | 74 | 57 | 196 | 47 | 149 |
+| 23 September | 58 | 48 | 185 | 66 | 119 |
+| **Total** | **285** | **222** | **742** | **182** | **560** |
 
-- **751 recorded minutes** are in the five CSVs. Nothing is dropped before analysis.
-- **742 minutes** after leaving out the two lost-focus records of 8 September (OBS-16, 12:04–12:13, 9 minutes).
-- **560 minutes** without former EXC. Since 1 October, former EXC (182 minutes) is grouped under OTHER and kept outside the improvement scope; its time stays in the total ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)).
+With the two excluded rows the 8 September CSV holds 42 rows and 106 minutes, and the five CSVs 287 rows; nothing is deleted from the files, the exclusion is a label in the notebook.
+
+- **742 minutes** are the recorded activity minutes the notebooks start from.
+- **560 minutes** are without former EXC. Since 1 October, former EXC (codes EXC and OTHER/EXC, 182 minutes) is grouped under "OTHER (outside improvement)" and kept outside the improvement scope; its time stays in the totals ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)).
 
 Other conventions:
 
-- Untimed rows count as occurrences but add no minutes. Since 2 October, the 1 September OBS-02 REQ row is a tally ([observer decision](Measure_Observation_2026-09-01.md#observer-decision-2-october-2026)).
-- Recorded minutes are activity minutes: the one-minute overlap on 23 September (11:42–11:43) counts in both activities, following the [rule for simultaneous activities](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities).
-- Stage "Not applicable" remains separate. Current stage assignments contain no blanks; historical blanks remain in Original Van Weele stage.
+- Untimed rows count as occurrences but add no minutes. Since 2 October, the 1 September OBS-02 REQ row is a tally ([observer decision](Measure_Observation_2026-09-01.md#observer-decision-2-october-2026)). The 35 incoming requests are all untimed; the 14 REQ-Exact markers are earlier POs, not requests ([addendum](Scope_and_Classification_Addendum_2026-09-14.md)).
+- Recorded minutes are activity minutes: the one-minute overlap on 23 September (11:42 to 11:43) counts in both activities, following the [rule for simultaneous activities](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities).
+- Stage "Not applicable" remains separate (25 in-scope minutes in 55 records). Current stage assignments contain no blanks; historical blanks remain in Original Van Weele stage.
 - A handwritten `/` in the observation sheets means none: no interruption in INT, no decision marked in DEC? ([recording marks](Scope_and_Classification_Addendum_2026-09-14.md#recording-marks)).
 - Rates per hour use confirmed net observation from the time register, never the sum of recorded activity minutes.
 
@@ -61,11 +51,11 @@ Other conventions:
 - [Scope and classification addendum](Scope_and_Classification_Addendum_2026-09-14.md): the scope decisions of 10 September and 1 October (logistics and former EXC), the Van Weele stages, simultaneous activities and recording marks. Read it with v1.3.
 - [Measurement method justification](Measurement_Method_Justification.md): why structured continuous observation was used, and what it cannot show.
 - [Live cheat sheet v1.3](Measure_Live_Cheat_Sheet_v1.3.md): the one-page observer guide.
-- [Kinds-of-work codebook](Kinds_Of_Work_Codebook.md): the definitions of K01–K31, derived from the notes.
+- [Stage review of 12 October](Stage_Review_2026-10-12.md): the rules and the row-level record behind the agreed stages.
 
 ## Guides for further sessions
 
-- [Session guide for Arno](Arno_Follow_Up_Session_Guide_2026-10-02.md): confirm the reported causes, what an order check compares and how often, the kinds of work, and which support he would accept.
+- [Session guide for Arno](Arno_Follow_Up_Session_Guide_2026-10-02.md): the priority walkthrough for the checking case, what an order check compares and how often, the explanations he still has to confirm, and which support he would accept.
 - [Dennis observation guide](Dennis_Observation_Guide_2026-09-14.md): the preparation guide of 14 September, for any further session with Dennis that addresses a defined gap.
 
 ## Observation records

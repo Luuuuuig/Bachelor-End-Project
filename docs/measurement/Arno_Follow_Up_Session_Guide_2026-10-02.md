@@ -1,18 +1,20 @@
 # Arno follow-up session guide
 
-**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers. **Updated 6 October:** terminology and classification status now follow the revised notebook. The reported answers below remain a dated account of 2 October; this guide does not require another broad observation round. **Later on 6 October:** part B starts with two questions on what an order check compares and how often confirmations are checked, to support purchase-price control as a candidate without new observation (section 6.3 of the notebook since 9 October).
+**Prepared:** 2 October 2026, for one session of about an hour with Arno. **Updated the same day:** Yijie answered most of the cause questions from earlier conversations with Arno and Dennis (see [What Yijie reported](#what-yijie-reported-on-2-october)). The session now confirms those answers and covers what is still open. This is a collection guide, not a record of Arno's answers. **Updated 6 October:** terminology and classification status now follow the revised notebook. The reported answers below remain a dated account of 2 October; this guide does not require another broad observation round. **Later on 6 October:** part B starts with two questions on what an order check compares and how often confirmations are checked, to support purchase-price control as a candidate without new observation (part 5 of the analysis notebook since 12 October).
 
 **Focused update, 9 October:** start with the case walkthrough below for the provisional **order and confirmation checking** candidate. The older sections and appendices remain a question menu, not a requirement to repeat answered questions or validate every cause. The [8 October academic meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-08.md) selected no final task and kept data sufficiency and weights open. Yijie reported that Arno and Dennis opposed automatic PO creation and sending because of lost control and order awareness. Carry that objection forward. Acceptance of bounded reading, matching, flagging and recommendations remains to be established separately.
 
+**Update, 12 October:** the analysis was rebuilt on the original observation codes; the kinds of work and the causes draft are [archived](../archive/kinds_of_work/README.md). The former part C and the list of kinds (former Appendices 1 and 3) are removed from this guide. The questions of parts A, B and D, the priority walkthrough and the explanations to confirm in [Appendix 1](#appendix-1-explanations-to-confirm) remain.
+
 ## Purpose
 
-**Priority for the current provisional focal case, 7 October:** the case is now called order and confirmation checking (purchase-price control until 7 October). Use part A and appendix 2 for the relevant explanations of the checks, part B question 3 for their frequency (question 2, what a check compares, was answered by Yijie as observer on 7 October: price and delivery date), and part D rows 5–6 for accepted support and human review. Bring the broader prompts only if Arno's answers challenge the proposed boundary or another candidate needs clarification. This is a question menu, not a requirement to validate every cause, every kind or every AI function in one session. Record new answers separately from Yijie's dated account below. See the [current task list](../Current_Status_and_Reading_Guide.md#2-what-must-be-settled-to-finish-analyze).
+**Priority for the current provisional focal case, 7 October:** the case is now called order and confirmation checking (purchase-price control until 7 October). Use part A and Appendix 1 for the relevant explanations of the checks, part B question 3 for their frequency (question 2, what a check compares, was answered by Yijie as observer on 7 October: price and delivery date), and part D rows 5–6 for accepted support and human review. Bring the broader prompts only if Arno's answers challenge the proposed boundary or another candidate needs clarification. This is a question menu, not a requirement to validate every explanation or every AI function in one session. Record new answers separately from Yijie's dated account below. See the [current task list](../Current_Status_and_Reading_Guide.md#6-next-steps).
 
 ## Priority case walkthrough, added 9 October
 
 **Bring:** one linked PO and quotation/confirmation without a known discrepancy, and one with a known discrepancy or unresolved field, if such examples are available through the permitted test-account route. If matching examples cannot be retrieved, record exactly what is missing. The [Stage A worksheet](../analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx) records data availability and reference feasibility; this guide records buyer explanations and acceptance. Do not enter a planned check as a passed check.
 
-Use about 35–40 minutes for the following, then stop or use the older prompts only for a consequential gap. No full extra observation day is needed for this conversation. **Shorter option:** Yijie prefers to avoid a full session; if Zhongxin agrees that a short written confirmation is enough (question 5 in the [reading guide](../Current_Status_and_Reading_Guide.md#7-follow-up-of-the-8-october-meeting), section 7), ask only rows 1, 2 and 4 by message.
+Use about 35–40 minutes for the following, then stop or use the older prompts only for a consequential gap. No full extra observation day is needed for this conversation. **Shorter option:** Yijie prefers to avoid a full session; if Zhongxin agrees that a short written confirmation is enough (question 5 in the [reading guide](../Current_Status_and_Reading_Guide.md#5-questions-for-zhongxin-15-october)), ask only rows 1, 2 and 4 by message.
 
 | Priority | Ask while walking through the actual case | Record the decision-relevant answer |
 |---|---|---|
@@ -46,11 +48,10 @@ Use this record to refine the [conditional design and evaluation draft](../proce
 
 ## Broader question menu
 
-The analysis shows where Arno's time goes. This session collects his answers on three things:
+The analysis shows where Arno's time goes. This session collects his answers on two things:
 
-1. **Causes.** Confirm, change or reject the causes in section 6.5 of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), for the three broad work collections: PO preparation and completion, order and confirmation checking (called purchase-price control until 7 October), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
-2. **Kinds of work.** Check whether the list of kinds of work misses or misnames any of his work (section 5.1 of the notebook).
-3. **Acceptance.** Find out which kinds of support he would accept, and under which conditions, for the tasks in the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md). These answers must come from Arno himself.
+1. **Explanations.** Confirm, change or reject the explanations in [Appendix 1](#appendix-1-explanations-to-confirm), for the three broad work areas: PO preparation, order and confirmation checking (called purchase-price control until 7 October), and request intake & validation. Confirmation corroborates an explanation; it does not measure its causal contribution to active time.
+2. **Acceptance.** Find out which forms of support he would accept, and under which conditions, for the tasks in the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md). These answers must come from Arno himself.
 
 Talk about the work before mentioning AI, so his answers describe the problem rather than react to a solution.
 
@@ -61,9 +62,9 @@ Use this broader plan only if the focal-case discussion requires it. Otherwise u
 | Time | Part | What to bring |
 |---|---|---|
 | 5 min | Opening | — |
-| 10 min | A. Confirm what Yijie reported | The three fishbone diagrams from section 6.5, printed |
+| 10 min | A. Confirm what Yijie reported | Appendix 1, printed |
 | 15 min | B. What is still open | — |
-| 5 min | C. The list of kinds of work | [Appendix 1](#appendix-1-kinds-of-work-to-show-arno), printed |
+| 5 min | C. Two small points from the notes | — |
 | 20 min | D. What support he would accept | — |
 | 5 min | Closing: test examples | — |
 
@@ -72,7 +73,7 @@ If time runs short, prioritize the selected task's reference, decision boundary 
 ## Before the session
 
 - Choose the linked checking cases described above. Bring a request/drawing example only if it affects the focal decision or a live fallback candidate.
-- Bring the relevant cause rows and Appendix 1 only if their classification affects the decision.
+- Bring the relevant rows of Appendix 1 only if they affect the decision.
 - Ask Arno whether you may take notes, and record the date.
 
 ## Opening (5 min)
@@ -83,7 +84,7 @@ Explain that the observations show where his time goes, that you want to check y
 
 ## A. Confirm what Yijie reported (10 min)
 
-Select only points relevant to the proposed check or a material competing candidate and ask: "Is this right? Would you add or change anything?" Mark discussed causes in [Appendix 2](#appendix-2-causes-to-confirm) as confirmed, changed or rejected. Leave the others undiscussed.
+Select only points relevant to the proposed check or a material competing candidate and ask: "Is this right? Would you add or change anything?" Mark discussed explanations in [Appendix 1](#appendix-1-explanations-to-confirm) as confirmed, changed or rejected. Leave the others undiscussed.
 
 - **Holding POs (PO-2, PO-3):** you run maximalisatie right after creating a PO. If it is not urgent, you leave it open to add later demand, or merge a new request from another department and send it. You add lines when a PO for that supplier already exists.
 - **Entering POs (PO-1, PO-4, PO-11):** entering lines is usually quick. It takes long when information is incomplete, or when a colleague made a mistake in Exact, such as a component not linked to its production order; then you check extra to avoid ordering twice.
@@ -102,42 +103,36 @@ Start with the two questions on checks. In the observation notes, most checks do
 4. Why do drawing sets from Engineering sometimes miss drawings? Is there a list of which drawings an item needs?
 5. Which cases would you call routine, and what makes a case exceptional? The absence of a problem note or an observed return does not establish that boundary.
 6. How do you find other demand to combine with a PO, for example through Exact's advice? What makes a held PO ready to send?
-7. If time allows, one or two causes that were not discussed yet: how often do Exact faults or unpaid invoices hold up your work (PO-5, PC-8)?
+7. If time allows, one or two explanations that were not discussed yet: how often do Exact faults or unpaid invoices hold up your work (PO-5, PC-8)?
 
-## C. The list of kinds of work (5 min)
+## C. Two small points from the notes (5 min)
 
-Show Appendix 1. It lists the kinds of work the observations were sorted into.
-
-8. Is any of your regular work missing from this list?
-9. Is any name wrong or unclear, or are two kinds really the same work?
-10. The list marks seven kinds as problems. Are these the problems you meet most, and is one missing?
-11. Two small points from the notes: is arranging certification with Lloyd (18 September, OBS-06) part of your purchasing work? What was the service order of 23 September (OBS-07) about?
-
-Record the answers in [Appendix 3](#appendix-3-feedback-on-the-kinds-of-work).
+8. Is arranging certification with Lloyd (18 September, OBS-06) part of your purchasing work?
+9. What was the service order of 23 September (OBS-07) about?
 
 ## D. What support he would accept (20 min)
 
 Use the tasks in the AI function table. Start with checking orders and confirmations (rows 5–6); use other rows only if they affect the focal boundary or a live alternative. For each task discussed, ask:
 
-12. Which documents or information do you use, and where do you find them?
-13. What makes the result correct, and how do you notice a mistake?
-14. Would it help if a system found, flagged, drafted or suggested this for you? What would you still want to check yourself?
-15. Which decisions must stay with you?
-16. Under which conditions would you use it, for example if it shows its source, lets you correct it easily, or never acts on its own?
+10. Which documents or information do you use, and where do you find them?
+11. What makes the result correct, and how do you notice a mistake?
+12. Would it help if a system found, flagged, drafted or suggested this for you? What would you still want to check yourself?
+13. Which decisions must stay with you?
+14. Under which conditions would you use it, for example if it shows its source, lets you correct it easily, or never acts on its own?
 
 Then three separate questions:
 
-17. I reported on 8 October that you and Dennis opposed automatic PO creation and sending because you would lose control and order awareness. What would a checking aid need to show so that you retain that understanding while making the decisions yourself?
-18. If a discrepancy needs supplier clarification, would an editable message draft help? Sending stays with you in the current proposed design. Discuss this only if communication is needed in the bounded case.
-19. If the chosen case includes a proposed price update, which source establishes the applicable price and who must check it before an update? Do not assume every confirmation price should replace the master price.
+15. I reported on 8 October that you and Dennis opposed automatic PO creation and sending because you would lose control and order awareness. What would a checking aid need to show so that you retain that understanding while making the decisions yourself?
+16. If a discrepancy needs supplier clarification, would an editable message draft help? Sending stays with you in the current proposed design. Discuss this only if communication is needed in the bounded case.
+17. If the chosen case includes a proposed price update, which source establishes the applicable price and who must check it before an update? Do not assume every confirmation price should replace the master price.
 
-Record each answer in [Appendix 4](#appendix-4-acceptance-record). Fill in a status only from his own words.
+Record each answer in [Appendix 2](#appendix-2-acceptance-record). Fill in a status only from his own words.
 
 ## Closing: test examples (5 min)
 
-20. The test account is reported to hold earlier cases. Which linked orders and confirmations/quotations would be usable examples, where are the documents, and who can establish the correct comparison and accepted action? Note unavailable documents rather than assuming they exist.
+18. The test account is reported to hold earlier cases. Which linked orders and confirmations/quotations would be usable examples, where are the documents, and who can establish the correct comparison and accepted action? Note unavailable documents rather than assuming they exist.
 
-Thank him and say what happens next: his answers update the causes and the list of kinds, and the selection of a focus is discussed with Zhongxin.
+Thank him and say what happens next: his answers update the recorded explanations, and the selection of a focus is discussed with Zhongxin.
 
 Explain that any new timing or formal evaluation will use a separately agreed protocol. Today's estimates and explanations do not add timed observations to the notebook.
 
@@ -145,9 +140,8 @@ Explain that any new timing or formal evaluation will use a separately agreed pr
 
 - Complete the focused-session record and relevant Stage A worksheet evidence. Keep data retrieval evidence, buyer statements and design proposals distinguishable.
 - Update the [design draft](../process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) only where an answer supports a change; retain unknown fields and pending acceptance. Record additional effort for Dennis separately from Arno's effort.
-- Record Arno's check of each cause in Appendix 2. In the [causes file](../analyze/Arno_Causes_Draft_2026-10-06.csv), keep the `status` and `answer_2_oct` columns as the record of 2 October and add Arno's check and words in new dated columns; then update section 6.5 of the notebook to show them.
-- Add missing or renamed kinds from Appendix 3 to the definitions, and note the change in section 5.1.
-- Copy the acceptance answers from Appendix 4 into the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md#recording-the-answers).
+- Record Arno's check of each explanation in Appendix 1, with the date and his words. The archived causes draft is not updated.
+- Copy the acceptance answers from Appendix 2 into the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md#recording-the-answers).
 - Record any new facts with the date and "according to Arno", as in the observation notes.
 
 ## What Yijie reported on 2 October
@@ -176,63 +170,11 @@ Answers to the first version of this guide, from Yijie's earlier conversations w
 
 ---
 
-## Appendix 1: kinds of work to show Arno
+## Appendix 1: explanations to confirm
 
-Grouped as in section 5.1 and Appendix B of the notebook. **Problems** are marked with ⚠.
+Status after 2 October as recorded in [What Yijie reported](#what-yijie-reported-on-2-october). The IDs (PO, RI, PC) group the explanations by work area. Evidence: O observed in the sessions, E earlier August notes, R reported by Yijie on 2 October. Arno's check: **C** confirmed, **Ch** changed (write the new wording), **R** rejected, **–** not discussed.
 
-**Specification**
-- K09 Establish or judge the requirement: decide what exactly is needed, which option, whether an item can replace another.
-- K10 Search historical POs or records: look up earlier orders to identify or verify an item.
-
-**Supplier selection**
-- K13 Search for another supplier or better price.
-
-**Ordering**
-- K02 PO preparation and completion: broad entry, amendment and supporting paperwork, sometimes in combined intervals.
-- K03 MAX, demand consolidation and HOLD/order decisions: combines related work; the whole category is not explicit MAX alone.
-- K04 Check before ordering: check price, and delivery date where stated, before the PO is sent.
-- K05 Send or forward the PO to the supplier.
-- K07 Approval-related handling: forward an approved PO, or note that approval is awaited or needed again.
-- K08 ⚠ Clarify missing or unclear request information.
-- K11 ⚠ Retrieve or complete drawings needed for an order.
-- K15 Adjust an existing PO on request.
-- Purchase types handled the same way: K06 credit-card purchase, K25 service or transport purchase.
-
-**Monitoring**
-- K17 Monitoring checks and confirmation handling: checking and attachment work; some check subtypes are unspecified.
-- K19 Follow up order status or delivery.
-
-**Follow-up and evaluation**
-- K21 Aftercare on a delivered order: wrong or incorrect items received.
-
-**No fixed stage**
-- K12 Article or supplier data in Exact: create or maintain article or supplier records.
-- K28 Quotation or offer handling.
-
-**Problems that can occur anywhere**
-- K14 ⚠ Handle an unavailable item.
-- K16 ⚠ Cancel a component or order line.
-- K18 ⚠ Investigate a price difference.
-- K20 ⚠ Finance-related issue, such as an unpaid invoice that blocks a supplier.
-- K26 ⚠ Exact error or delay.
-
-**Something that arrives**
-- K01 Receive a request.
-- K29 Question from a customer, Sales or Service.
-
-**Work outside the purchasing activities**
-- K22 Certification arrangements (Lloyd).
-- K23 Logistics coordination.
-- K24 Internal coordination with colleagues.
-- K27 Read or organise purchasing email.
-- K30 Administrative booking in Exact (*binnenboeken*).
-- K31 Missing or attached certificate.
-
-## Appendix 2: causes to confirm
-
-Status after 2 October as in section 6.5 of the notebook. Evidence: O observed in the sessions, E earlier August notes, R reported by Yijie on 2 October. Arno's check: **C** confirmed, **Ch** changed (write the new wording), **R** rejected, **–** not discussed.
-
-| ID | Candidate | Cause | Evidence | Status after 2 Oct | Arno's check | Arno's words |
+| ID | Area | Explanation | Evidence | Status after 2 Oct | Arno's check | Arno's words |
 |---|---|---|---|---|---|---|
 | PO-1 | PO lines | Each line is entered in Exact by hand | O | Not a main cause | | |
 | PO-2 | PO lines | Demand is added to open POs (maximalisatie), so POs are reopened | O | Supported | | |
@@ -269,21 +211,13 @@ Status after 2 October as in section 6.5 of the notebook. Evidence: O observed i
 | PC-10 | Order and confirmation checking | Supplier prices change, for example with material costs | E | Supported | | |
 | PC-11 | Order and confirmation checking | Small order quantities cost more per unit | O | Not yet discussed | | |
 
-New causes Arno names:
+New explanations Arno names:
 
-| ID | Candidate | Cause | Arno's words |
+| ID | Area | Explanation | Arno's words |
 |---|---|---|---|
 | NEW-1 | | | |
 
-## Appendix 3: feedback on the kinds of work
-
-| Kind (code or new) | Missing, rename, merge or other | Words |
-|---|---|---|
-| K01 | REQ-Exact records are earlier-generated POs, not requests. Applied 6 October: removed K01 and displayed PO-REVISIT in the notebook. | Yijie, 2 October; classification revision, 6 October |
-| K30 | *Binnenboeken* is administrative work in Exact | Yijie, 2 October |
-| | | |
-
-## Appendix 4: acceptance record
+## Appendix 2: acceptance record
 
 One line per task and kind of support. The status values are: accepted, accepted with conditions, rejected, not yet assessed.
 

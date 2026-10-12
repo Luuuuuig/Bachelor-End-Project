@@ -1,16 +1,16 @@
 # Kinds of work: codebook
 
-**Created:** 30 September 2026, from the notes and case context of Arno's five baseline sessions. **Moved here:** 2 October 2026, together with the labels file, so that the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) uses nothing from `analysis/`. **Revised:** 6 October 2026, following the notebook review. The changes below preserve the original observation CSVs. The obsolete copies in `analysis/` were removed on 6 October; this codebook and the labels file below remain the current notebook inputs.
+**Created:** 30 September 2026, from the notes and case context of Arno's five baseline sessions. **Moved here:** 2 October 2026, together with the labels file, so that the [analysis notebook](../../../Arno_Analysis_2026_10_02.ipynb) uses nothing from `analysis/`. **Revised:** 6 October 2026, following the notebook review. The changes below preserve the original observation CSVs. The obsolete copies in `analysis/` were removed on 6 October; this codebook and the labels file below remain the current notebook inputs.
 
 - **Labels:** [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv), one line per record with its date, row, case, activity code, minutes, stage, kinds and note. 259 of the 287 records have at least one kind. Fourteen other records are known earlier-PO context markers, and 14 work records remain unclassified; a record can have up to three kinds.
-- **Use in the notebook (reordered 9 October):** the labels are joined to the records in section 2.3, but the notebook describes the work with the original codes first. Section 5.1 explains why the kinds are needed, where they come from and how they fit under the analytical activities of the [purchasing activity framework](../process/Purchasing_Activity_Framework_2026-09-21.md), and checks them (agreement with the observer's stages, review status and limitations). Section 5.2 shows recorded time per mapped activity, 5.3 the problems, part 6 the candidates and causes, and 6.7 the new kinds per day (saturation). Appendix B gives the full coding key, the register links and the time per kind.
+- **Use in the notebook (reordered 9 October):** the labels are joined to the records in section 2.3, but the notebook describes the work with the original codes first. Section 5.1 explains why the kinds are needed, where they come from and how they fit under the analytical activities of the [purchasing activity framework](../../process/Purchasing_Activity_Framework_2026-09-21.md), and checks them (agreement with the observer's stages, review status and limitations). Section 5.2 shows recorded time per mapped activity, 5.3 the problems, part 6 the candidates and causes, and 6.7 the new kinds per day (saturation). Appendix B gives the full coding key, the register links and the time per kind.
 - **Coding review (working approach, 7 October):** document a targeted review of ambiguous and decision-relevant labels across the competing candidates, using the original notes and dated clarifications. Record the rows reviewed, reason for review, retained or changed label and effect on the comparison. Preserve unresolved labels and unsplit mixed intervals where evidence is insufficient. This is a proportionate check of analytical decisions, not independent reliability evidence. The [45-record blind coding sheet](Kinds_Coding_Check_Sample_2026-10-02.xlsx) is retained as an optional, uncompleted exercise; neither completing it nor calculating κ is required to move forward.
 - **Framework map:** each kind's place under the analytical activities and Van Weele stages is in [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv). Since 7 October it also gives the tasks of the AS-IS task register that each kind covers (`register_tasks`) and how well (`register_fit`: Covered, Partly or Outside the register); see the next section.
-- **Method:** inductive (conventional) qualitative content analysis, with categories derived from the notes (Hsieh & Shannon, 2005; see the [literature register](../../literature/README.md#coding-the-observation-notes)).
+- **Method:** inductive (conventional) qualitative content analysis, with categories derived from the notes (Hsieh & Shannon, 2005; see the [literature register](../../../literature/README.md#coding-the-observation-notes)).
 
 ## Why kinds of work rather than Task IDs
 
-**Added 7 October 2026.** Protocol v1.3 (§2.4) planned to give each record a Task ID from the 31-task register of the [AS-IS process](../process/Process_Cleaned_V1.5.md#5-step--task-register). The enrichment of 21 and 25 September, now [archived](../archive/README.md#measurement), did this for every record. Of the 285 analysed records (the 287 records without the two lost-focus records of 8 September):
+**Added 7 October 2026.** Protocol v1.3 (§2.4) planned to give each record a Task ID from the 31-task register of the [AS-IS process](../../process/Process_Cleaned_V1.5.md#5-step--task-register). The enrichment of 21 and 25 September, now [archived](../../archive/README.md#measurement), did this for every record. Of the 285 analysed records (the 287 records without the two lost-focus records of 8 September):
 
 | Result of the Task-ID enrichment | Records |
 |---|---:|
@@ -28,7 +28,7 @@ The [framework map](Kinds_Framework_Map_2026-10-06.csv) links each kind back to 
 - The links are a researcher assignment from the definitions of the kinds and the tasks, drafted with AI assistance.
 - **They agree with the September Task IDs:** 75% of the records of covered kinds were placed on a register task then, against 36% for partly covered kinds and 10% for kinds outside the register.
 
-Section 5.1 and Appendix B of the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb) show both checks.
+Section 5.1 and Appendix B of the [analysis notebook](../../../Arno_Analysis_2026_10_02.ipynb) show both checks.
 
 The resulting chain:
 1. The task register maps the process.

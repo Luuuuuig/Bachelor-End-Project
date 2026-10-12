@@ -1,6 +1,6 @@
 # AI functions, observed tasks and buyer acceptance
 
-**Prepared:** 2 October 2026 for the action from the [1 October supervisor meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md): review literature on the kinds of work AI can support and compare them with what the buyers would accept, to set the boundaries of the solution. **Status:** working draft. The 8 October meeting records Yijie's report that Arno and Dennis oppose combined automatic PO creation/sending. It does not establish acceptance of bounded read/match/flag support. No new direct buyer assessment is supplied, and this table does not select a candidate. The 7 October provisional comparison puts order and confirmation checking (called purchase-price control until 7 October) first, subject to the outstanding feasibility checks and supervisor review in the [methodology](Phase_1_Current_Methodology.md). Prioritise its checking functions in the acceptance discussion; retain the other rows as alternatives, not a requirement to investigate every function.
+**Prepared:** 2 October 2026 for the action from the [1 October supervisor meeting](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md): review literature on the types of work AI can support and compare them with what the buyers would accept, to set the boundaries of the solution. **Status:** working draft. The 8 October meeting records Yijie's report that Arno and Dennis oppose combined automatic PO creation/sending. It does not establish acceptance of bounded read/match/flag support. No new direct buyer assessment is supplied, and this table does not select a candidate. The 7 October provisional comparison puts order and confirmation checking (called purchase-price control until 7 October) first, subject to the outstanding feasibility checks and supervisor review in the [methodology](Phase_1_Current_Methodology.md). Prioritise its checking functions in the acceptance discussion; retain the other rows as alternatives, not a requirement to investigate every function.
 
 ## How to read the table
 
@@ -8,7 +8,7 @@
 - **Communication is a task area, not a separate function.** Drafting a message (row 10) and sending it automatically (row 11) are separate rows with separate questions.
 - **Evidence** gives illustrative source cases and task boundaries, not duplicate workload totals. The table supports the discussion of AI functions and acceptance; observed tasks do not establish that the proposed AI function is feasible or accepted. Former EXC remains outside the improvement scope, and combined intervals are not isolated task durations or savings.
 - **Acceptance** is recorded per person, with status (accepted, accepted with conditions, rejected, not yet assessed), conditions, date and evidence. Distinguish a direct answer from an attributed report, including the 8 October account.
-- **Quantitative authority:** use the current [Arno analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), parts 5 and 6 and Appendix B, and the [candidate evidence matrix](../analyze/Candidate_Evidence_Matrix_2026-10-07.md) for counts, recorded minutes and their limits. The [codebook](../measurement/Kinds_Of_Work_Codebook.md) defines the labels. Earlier aggregates in this table were removed on 7 October to avoid repeating superseded classifications.
+- **Quantitative authority:** use the current [Arno analysis notebook](../../Arno_Analysis_2026_10_02.ipynb), part 5 (the CHECK records) and part 8 (the candidate table on the raw codes), for counts, recorded minutes and their limits. Earlier aggregates in this table were removed on 7 October; since 12 October the figures rest on the original codes and the agreed stages, not on the archived kinds of work.
 - **Literature status:** the descriptions below remain provisional source notes, not claims of completed full-text reading. Consult the [literature register](../../literature/README.md#ai-functions-levels-of-automation-and-the-buyers-role) for each source’s checking status and verify claims before thesis citation.
 
 ## The table
@@ -31,7 +31,7 @@
 
 Start with the work before mentioning AI, so the answers describe the problem rather than react to a solution.
 
-These questions are part D of the [Arno follow-up session guide](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), which also covers the causes of the work and the list of kinds of work.
+These questions are part D of the [Arno follow-up session guide](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), which also covers the explanations of the work that Arno still has to confirm.
 
 1. Of the tasks in the table, which take the most effort or cause the most rework for you, and why?
 

@@ -1,0 +1,22 @@
+# Python environment in which both notebooks were executed on 12 October 2026.
+# Python 3.13.16. Direct package versions only, not a complete transitive lock.
+# The two notebooks use pandas, numpy, matplotlib, seaborn, scipy, statsmodels and
+# scikit-learn; nbformat, nbclient and nbconvert are needed to run them from the
+# command line and to export them to HTML (jupyter nbconvert --to html <notebook>).
+# The earlier verification of 12 October (previous notebook versions) used
+# Python 3.12.14 with numpy 2.3.5 and pandas 2.2.3; the rebuilt notebooks were
+# not re-run there.
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+seaborn==0.13.2
+scipy==1.18.1
+statsmodels==0.15.0
+scikit-learn==1.9.1
+ipython==9.17.1
+ipykernel==7.4.0
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.1
+jupyter-client==8.10.0
+jupyter-core==5.9.1

@@ -23,7 +23,7 @@ The current literature does not justify adding indicators with different meaning
 Read to support the claims being written or the design decision being made; the full register is not a compulsory reading list. No new reading completion is claimed by this order.
 
 1. **Define the research claims:** Bowling & Kirkendall for amount/difficulty of work; Bäckstrand et al. for the purchasing framework; Zheng et al. for reporting the observation method. Use the current definitions and method justification to identify the exact passages needed. Add Spector & Jex or WOMBAT sources where those constructs or mechanics are actually discussed.
-2. **Support the current analysis:** Hsieh & Shannon for the inductive coding rationale. Read Guest et al. before retaining a thesis claim based on the retrospective saturation analogy; this is an adapted exploratory check, not a validated stopping threshold. Cohen is optional, conditional on a justified recoding analysis.
+2. **Support the current analysis:** NIST and SciPy for the Kruskal-Wallis test, and Ebeling and Montgomery & Runger for the probability-plot fits (sections 7.1 and 7.2 of the analysis notebook). Hsieh & Shannon, Guest et al. and Cohen belonged to the note-based coding layer [archived](../docs/archive/kinds_of_work/README.md) on 12 October; they are historical leads.
 3. **Bound the proposed AI support:** Parasuraman et al. for functions and automation levels, then Burger et al. for the buyer's role in procurement. For the provisional focal case (order and confirmation checking), read Tater et al.; add DocILE if the design uses document-field/line extraction. Check what each source demonstrates and the limits of transferring it to this task.
 4. **Write the design and evaluation rationale:** de Mast & Lokkerbol for DMAIC and Peffers et al. **2007** for DSRM; the stored 2006 paper is a different source. Consult the MCDA sources for the selection methods actually used, and the quality/human–AI interaction sources for the chosen rubric and review interface.
 
@@ -32,7 +32,6 @@ Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload
 **Gaps with no source yet (7 October):**
 
 - Checking supplier quotations or order confirmations against a PO; Tater et al. cover invoices, later in the process.
-- The fishbone (cause-and-effect) diagram used in section 6.5 of the analysis notebook.
 - Process redesign directions (eliminate, simplify, standardise, automate or support) used in the Analyze outline.
 - Evaluating the artifact in DSRM beyond Peffers et al.; needed early in Improve.
 
@@ -168,15 +167,15 @@ The stored 2006 paper describes the six-activity design-science research process
 
 **Guest, G., Namey, E., & Chen, M. (2020).** *A simple method to assess and report thematic saturation in qualitative research*. *PLOS ONE, 15*(5), e0232076. https://doi.org/10.1371/journal.pone.0232076
 
-**Use:** Informs the retrospective saturation assessment, now presented in section 6.7 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb): a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
+**Use:** Informed the retrospective saturation assessment of the 9 October notebook version, which counted new note-based labels per later session. Since the rebuild of 12 October on the original codes the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) uses a leave-one-day-out check (section 4.4) instead, so this source is a historical lead unless a saturation argument returns to the thesis. The assessment used a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
 
 ### Coding the observation notes
 
-The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (section 5.1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
+The note-based coding of 30 September used an inductive coding rationale. That layer is [archived](../docs/archive/kinds_of_work/README.md) since 12 October; the analysis uses the original observation codes and the agreed stages, so the sources below are historical leads. The source statuses distinguish citation verification, abstract review and full-text review.
 
 **Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
 
-**Use:** Basis for deriving the kinds of work from the observation notes: in conventional (inductive) content analysis, the categories come from the data instead of a scheme fixed beforehand. Supports the method; it does not validate the 31 kinds or their coding.
+**Use:** Basis for the archived note-based coding of 30 September: in conventional (inductive) content analysis, the categories come from the data instead of a scheme fixed beforehand. Supports that method; it does not validate the 31 labels or their coding, and the current analysis does not use them.
 
 **Status:** citation details still to verify; abstract and full text not yet reviewed.
 
@@ -218,7 +217,7 @@ The existing entry for Amershi et al. (2019) under *Human-AI interaction and app
 
 ### Statistics used in the analysis notebook
 
-Sources cited in Appendix A of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb). Same three statuses as above.
+Sources cited in section 7.2 and Appendix A of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb). Same three statuses as above.
 
 **Ebeling, C. E. (2019).** *An Introduction to Reliability and Maintainability Engineering* (3rd ed.). Waveland Press.
 
@@ -369,7 +368,7 @@ Only public, open-access or author-posted PDFs are stored in this repository. Pu
 
 | Source | Verified use in this revision | Boundary |
 |---|---|---|
-| [NIST, Kruskal-Wallis](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm), official method page, accessed 9 October 2026 | Independence/random sampling requirements and the equal-distribution null; analysis section 3.4 | Does not establish that the BEP observations meet those assumptions |
+| [NIST, Kruskal-Wallis](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm), official method page, accessed 9 October 2026 | Independence/random sampling requirements and the equal-distribution null; analysis sections 7.1 and 5.4 | Does not establish that the BEP observations meet those assumptions |
 | [SciPy, scipy.stats.kruskal](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kruskal.html), official documentation, accessed 9 October 2026 | Tie correction and chi-square reference p-value used for the exploratory episode-duration calculation | Implementation documentation, not a validation of daily-composition testing |
 
 The choice not to apply Kruskal-Wallis to the percentage cells follows the structure of this dataset: category values are dependent components, and ranking the numerical percentages discards activity identity. That is a methodological assessment of this analysis, not a claim that the sources studied Hytech-Pommec.

@@ -127,7 +127,7 @@ Mapping confidence:
 
 The original live record must be retained. Do not retrospectively rewrite it to look more precise than the evidence supports.
 
-*Note, 7 October 2026:* the analysis uses the kinds of work as its detailed level instead of these Task IDs. The September Task-ID enrichment placed only 137 of the 285 analysed records (287 without the two lost-focus records of 8 September) on a register task. The reason, and the link from each kind back to the register, are in the [codebook](Kinds_Of_Work_Codebook.md#why-kinds-of-work-rather-than-task-ids). This note does not change the live recording rules.
+*Note, 7 October 2026:* the analysis uses the kinds of work as its detailed level instead of these Task IDs. The September Task-ID enrichment placed only 137 of the 285 analysed records (287 without the two lost-focus records of 8 September) on a register task. The reason, and the link from each kind back to the register, are in the [codebook](../archive/kinds_of_work/Kinds_Of_Work_Codebook.md#why-kinds-of-work-rather-than-task-ids). This note does not change the live recording rules.
 
 ---
 

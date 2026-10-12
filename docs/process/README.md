@@ -1,6 +1,6 @@
 # Process documentation
 
-**Synchronized:** 7 October 2026. For current priorities and reading order, start with the [current status and reading guide](../Current_Status_and_Reading_Guide.md).
+**Synchronized:** 12 October 2026. For current priorities and reading order, start with the [current status and reading guide](../Current_Status_and_Reading_Guide.md).
 
 ## AS-IS process
 
@@ -10,7 +10,7 @@ The five-session workload analysis is in the [Arno notebook](../../Arno_Analysis
 
 ## Purchasing stages and analysis labels
 
-The [purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md) defines the Van Weele stages and classification boundaries. For the current analysis use the [kinds-of-work codebook](../measurement/Kinds_Of_Work_Codebook.md), [row labels](../measurement/Kinds_Of_Work_Rows_2026-09-30.csv) and [kinds-to-framework map](../measurement/Kinds_Framework_Map_2026-10-06.csv), as loaded by the notebook. The reviewed daily CSVs remain the observation inputs; the [measurement index](../measurement/README.md) explains provenance and timing.
+The [purchasing activity framework](Purchasing_Activity_Framework_2026-09-21.md) defines the Van Weele stages and classification boundaries. Since 12 October the analysis uses the original observation codes and the agreed stage of each record in the daily CSVs; the [stage review of 12 October](../measurement/Stage_Review_2026-10-12.md) records how the stages were assigned, and the [measurement index](../measurement/README.md) explains provenance and timing. The kinds-of-work layer of 30 September to 9 October is [archived](../archive/kinds_of_work/README.md).
 
 The [14 September crosswalk](../archive/process/Van_Weele_Activity_Mapping_2026-09-14.md), its related CSVs and the [21 September enriched export](../archive/measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) are historical references, now in the [archive](../archive/README.md#process). They should not replace the current analysis inputs or silently recode the original observations.
 
