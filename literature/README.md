@@ -42,17 +42,17 @@ Sources may be listed provisionally, with their citation status shown. Verify th
 
 ## Plan of Work reference check, 22 September 2026
 
-All five references in the submitted [Plan of Work](../docs/proposal/Plan_of_Work_Final_2026-09-22.pdf) were already recorded in the repository before this check. Four appeared in this register; Bäckstrand et al. appeared in the purchasing-framework documents and is now included under Confirmed use.
+All five references in the submitted [Plan of Work](../evidence/submissions/Plan_of_Work_Final_2026-09-22.pdf) were already recorded in the repository before this check. Four appeared in this register; Bäckstrand et al. appeared in the purchasing-framework documents and is now included under Confirmed use.
 
 **A recorded reference is not the same as a stored PDF.** None of the five exact publications cited in the Plan of Work has a PDF stored in `literature/open-access/`. Existing DOI and full-text links provide their access routes. The stored Peffers PDF is a related 2006 conference paper, not the 2007 journal article. This check confirms repository presence and use in the proposal; it does not establish that every full text has been read.
 
 | Reference used in the Plan of Work | Purpose in the proposal | Existing repository evidence | Access and file status |
 |---|---|---|---|
-| Bäckstrand et al. (2019) | Van Weele's purchasing stages and the operational/tactical process context | [Activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md) and [earlier mapping](../docs/archive/process/Van_Weele_Activity_Mapping_2026-09-14.md), both explicitly cite section 3.2 and Figure 3 | Existing [university-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf); no stored PDF |
-| Bowling & Kirkendall (2012) | Workload as the amount and difficulty of work | This register and [workload definition](../docs/methodology/Workload_Definition.md) | Existing DOI link below; no stored PDF |
+| Bäckstrand et al. (2019) | Van Weele's purchasing stages and the operational/tactical process context | [Activity framework](../docs/reference/Purchasing_Activity_Framework_2026-09-21.md) and [earlier mapping](../archive/framework/Van_Weele_Activity_Mapping_2026-09-14.md), both explicitly cite section 3.2 and Figure 3 | Existing [university-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf); no stored PDF |
+| Bowling & Kirkendall (2012) | Workload as the amount and difficulty of work | This register and [workload definition](../docs/METHODS.md#research-structure-and-constructs) | Existing DOI link below; no stored PDF |
 | de Mast & Lokkerbol (2012) | DMAIC as the overarching problem-solving structure | Confirmed use in this register | Existing DOI link below; no stored PDF |
 | Peffers et al. (2007) | DSRM for artifact design, demonstration and evaluation | Confirmed use in this register | Existing DOI link below; the stored 2006 paper is a different publication |
-| Zheng et al. (2011) | Structured continuous observation and transparent method reporting | This register and [measurement-method justification](../docs/measurement/Measurement_Method_Justification.md) | Existing DOI link below; no stored PDF |
+| Zheng et al. (2011) | Structured continuous observation and transparent method reporting | This register and [measurement-method justification](../docs/METHODS.md#observation-rationale-and-operationalization) | Existing DOI link below; no stored PDF |
 
 The proposal's five references are retained because they are already part of the project's recorded literature. Unrelated stored PDFs are not substitutes for the workload, DMAIC, purchasing-process or observation-method sources. The confirmed-use entries below explain each source's role and limits.
 
@@ -66,7 +66,7 @@ The proposal's five references are retained because they are already part of the
 
 **Access:** [University-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf), already linked in the activity-framework and mapping documents. No PDF of this article is stored in the repository.
 
-**Use:** Section 3.2 and Figure 3 reproduce Van Weele's purchasing-process model and support the six-stage framework used in the Plan of Work and the [analytical activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md). The source provides the process structure. The task register, seven live recording families and row-level stage/activity assignments are this project's local operationalization, not a validated coding instrument supplied by the article.
+**Use:** Section 3.2 and Figure 3 reproduce Van Weele's purchasing-process model and support the six-stage framework used in the Plan of Work and the [analytical activity framework](../docs/reference/Purchasing_Activity_Framework_2026-09-21.md). The source provides the process structure. The task register, seven live recording families and row-level stage/activity assignments are this project's local operationalization, not a validated coding instrument supplied by the article.
 
 ### Process-improvement methodology: DMAIC / Six Sigma
 
@@ -172,7 +172,7 @@ The stored 2006 paper describes the six-activity design-science research process
 
 ### Coding the observation notes
 
-The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (section 5.1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
+The [kinds of work](../docs/reference/Kinds_Of_Work_Codebook.md) use an inductive coding rationale. The current check is a documented targeted review of ambiguous and decision-relevant labels across competing candidates (section 5.1 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb)); it is not independent reliability evidence. The historical 45-record recoding exercise is optional and not completed. The source statuses below distinguish citation verification, abstract review and full-text review.
 
 **Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
 
@@ -188,7 +188,7 @@ The [kinds of work](../docs/measurement/Kinds_Of_Work_Codebook.md) use an induct
 
 ### AI functions, levels of automation and the buyer's role
 
-Used for the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md) requested on 1 October. Each entry records three separate statuses: citation verified, abstract reviewed and full text reviewed.
+Used for the [AI function comparison](../evidence/decisions/AI_Function_Comparison_2026-10-02.md) requested on 1 October. Each entry records three separate statuses: citation verified, abstract reviewed and full text reviewed.
 
 **Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000).** *A model for types and levels of human interaction with automation*. *IEEE Transactions on Systems, Man, and Cybernetics – Part A: Systems and Humans, 30*(3), 286–297. https://doi.org/10.1109/3468.844354
 
@@ -278,7 +278,7 @@ Sources cited in Appendix A of the [analysis notebook](../Arno_Analysis_2026_10_
 
 ### Document retrieval, extraction and matching
 
-Candidate-specific sources for rows of the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md). Same three statuses as above. *Moved up from "possible use" on 7 October:* Tater et al. is the main precedent for the provisional focal case, order and confirmation checking (called purchase-price control until 7 October), and Šimsa et al. (DocILE) for document-field extraction; see the reading order above.
+Candidate-specific sources for rows of the [AI function comparison](../evidence/decisions/AI_Function_Comparison_2026-10-02.md). Same three statuses as above. *Moved up from "possible use" on 7 October:* Tater et al. is the main precedent for the provisional focal case, order and confirmation checking (called purchase-price control until 7 October), and Šimsa et al. (DocILE) for document-field extraction; see the reading order above.
 
 **Lombardi et al. (2025).** *Title block detection and information extraction for enhanced building drawings search*. EC³ / CIB W78 conference, 2025. https://doi.org/10.35490/EC3.2025.344 (manuscript: https://arxiv.org/abs/2504.08645)
 

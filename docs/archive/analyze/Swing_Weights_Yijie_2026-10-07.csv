@@ -1,8 +1,0 @@
-criterion,label,swing
-workload,Observed workload contribution,100
-business_value,Business value beyond counted workload,40
-ai_fit,AI–task fit,50
-data_readiness,Data readiness above the gate minimum,60
-repetition,Repetition / process standardisation,30
-prototype,Prototype / technical feasibility,40
-evaluation,Evaluation feasibility,50

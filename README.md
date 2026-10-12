@@ -1,33 +1,44 @@
-# Bachelor End Project
+# Bachelor End Project: operational purchasing support
 
-TU/e Bachelor End Project on AI-supported purchasing at Hytech-Pommec. The primary objective is to reduce Arno's workload while maintaining purchasing quality. Dennis's relevant tactical work and its connections with Arno form part of the investigation.
+This TU/e project at Hytech-Pommec investigates how AI-supported tools can reduce the operational buyer's workload while maintaining purchasing quality. Arno's work is the primary outcome. Dennis's relevant tactical work and handoffs provide separate context.
 
-## Start here
+## Current status
 
-Use `main` for the consolidated project. Read the **[current status and reading guide](docs/Current_Status_and_Reading_Guide.md)** first. It separates completed work, decisions still needed, optional checks and later work, and names the sections Yijie should read.
+The five-session descriptive analysis and provisional focal-case comparison are available in the two notebooks below. **Order and confirmation checking remains the provisional choice.** The proposed aid reads source fields, suggests matches and flags differences for buyer review. Buyer acceptance, suitable reference data and supervisor review remain open. No implemented artifact, achieved saving or completed evaluation is claimed.
 
-- [Arno analysis notebook](Arno_Analysis_2026_10_02.ipynb): exploratory workload evidence and limitations.
-- [Focal-case selection notebook](Focal_Case_Selection_2026-10-07.ipynb): provisional comparison, gates and sensitivity analysis.
-- [Analyze conclusion outline](docs/analyze/Analyze_Conclusion_Outline_2026-10-07.md): evidence-to-selection argument and open conditions.
-- [Research questions and assignment](docs/proposal/BEP_Assignment_1BEPIEX.md): the main question and five sub-questions from the submitted Plan of Work.
-- [Methodology](docs/methodology/Phase_1_Current_Methodology.md): analysis, selection and later evaluation rules.
-- [Purchasing activity framework](docs/process/Purchasing_Activity_Framework_2026-09-21.md): how the seven live families, task register, analytical activities and Van Weele stages connect.
-- [Literature register](literature/README.md): source roles and reading/verification status.
-- [Documentation index](docs/README.md): full navigation, including source records and historical documents.
-- [Archive](docs/archive/README.md): superseded files kept for traceability, each with what replaced it.
+Research decisions reflect the dated evidence through 9 October 2026. The 12 October reconstruction simplifies documentation and preserves the analysis; it does not close research gates.
 
-## Current position, 9 October 2026
+## Read the project
 
-Analyze is underway following the [1 October supervisor meeting](docs/meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md). The notebooks contain a descriptive analysis and a provisional focal-case comparison. Order and confirmation checking (called purchase-price control until 7 October) leads the current comparison; the case is not yet finally selected.
+| Entry point | What you will find |
+|---|---|
+| [Project](docs/PROJECT.md) | Objective, exact submitted questions, scope, stakeholders and deadlines. |
+| [Arno analysis](Arno_Analysis_2026_10_02.ipynb) | Workload evidence, patterns, limitations and reproducible calculations. |
+| [Focal-case selection](Focal_Case_Selection_2026-10-07.ipynb) | Candidate boundaries, gates, weighted comparison, sensitivity and remaining decisions. |
+| [Methods](docs/METHODS.md) | Workload construct, observation and classification rationale, selection and evaluation rules. |
+| [AS-IS process](docs/PROCESS.md) | Current purchasing workflow, stable task register and unresolved process facts. |
+| [Design](docs/DESIGN.md) | Conditional checking-support requirements, controls, Dennis handoffs and draft evaluation. |
+| [Literature](literature/README.md) | Source roles, publication details and reading status. |
 
-Five official Arno sessions provide 892 confirmed net observation minutes. The analysis retains 742 recorded activity minutes after the nine-minute contamination exclusion, including 182 minutes of former EXC work under OTHER outside improvement. The remaining 560 recorded minutes support the improvement profiles. Activity minutes and observation clock time are different quantities. The 28 August pilot stays separate. Dennis has qualitative evidence from 15 September and a timed observation from 25 September; his findings remain separate.
+For a **company review**, start with Project, the selection notebook's recommendation, and Design. For an **academic review**, start with Project, Methods and the two notebooks; follow their evidence links as needed. Each notebook has a short main argument and supporting appendices.
 
-The immediate work is to inspect the proposed focal case's data and reference answers, check its interpretation and acceptable support with Arno, review decision-relevant classifications, and obtain academic/company agreement on the final comparison. Permission to use test-account data and an external AI service is recorded on 7 October. The larger 45-record coding exercise is optional; the current plan is a documented targeted review, without claiming overall intercoder reliability. The follow-up of the 8 October meeting (day-by-day shares, the Kruskal-Wallis test, the corrected CHECK comparison and a sufficiency recommendation) is in the analysis notebook; the [reading guide](docs/Current_Status_and_Reading_Guide.md#7-follow-up-of-the-8-october-meeting) lists it. None of it establishes a final selection or a working prototype.
+## Next decisions
 
-## Current documents and submission history
+1. **Check usable cases and reference answers.** Start with PC1-PC4 in the [Stage A workbook](evidence/working/Stage_A_Test_Account_Check_2026-10-07.xlsx), then relevant export/testing checks. Record actual evidence; a blank worksheet is not a passed gate.
+2. **Review the specific aid with Arno.** Use the focused [follow-up guide](evidence/working/Arno_Follow_Up_Session_Guide_2026-10-02.md). Resolve the remaining candidate-boundary questions in the [targeted label review](evidence/decisions/Targeted_Label_Review_2026-10-09.csv), including the two K18 episodes and mixed PO/MAX attribution. Preserve original labels until a dated decision supports a change.
+3. **Review selection with Zhongxin and business value with Johan.** Agree the candidate boundary, criteria, scoring anchors, scores, weights and weighting procedure. Data-use permission does not establish business value. The notebook retains the actual score-5 confirmation condition.
+4. **Confirm the focal case, then agree design and evaluation.** Freeze the manual comparator, primary workload endpoint, meaningful improvement threshold, quality guardrail and reference ownership before development and formal testing.
 
-The [submitted Plan of Work of 22 September](docs/proposal/Plan_of_Work_Final_2026-09-22.pdf) is the authority for the main question and five sub-questions, as confirmed by Yijie on 7 October. Active research documents and notebook introductions follow that wording and numbering. The earlier four-question draft was incorrectly restored during cleanup and has been corrected. The [14 September draft](docs/proposal/Plan_of_Work_Academic_Draft_2026-09-14.md) and dated follow-up registers are historical records, not current task lists. Later scope and method decisions remain documented separately.
+Additional broad observation, independent recoding/kappa, extra distribution-fit tests and further Dennis days are conditional on a specific evidence gap. They are not automatic completion requirements. The [8 October meeting record](evidence/meetings/Academic_Supervisor_Meeting_Notes_2026-10-08.md) remains dated evidence; prepared analyses still need substantive review.
 
-The [charter](docs/Project_Charter.md) defines the objective and phase decisions. The [timeline](docs/Project_Timeline.md) compares the Plan of Work schedule with progress and lists the firm deadlines; the 2 September planning baseline is in the [archive](docs/archive/README.md#planning). Company placement ends on **7 January 2027**; the final report deadline is **15 January 2027 at 23:59**.
+## Evidence and document ownership
 
-Original observation records, reviewed daily CSVs, dated decisions and submitted files remain the evidence trail. Current status is maintained in the reading guide rather than inferred from old plans.
+[Evidence](evidence/README.md) locates observations, source data, decisions, protocols, workbooks and submissions. [Archive](archive/README.md) identifies retained historical sources and superseded files available through Git history. The [migration register](archive/Repository_Migration_2026-10-12.csv) maps every original path to its current location or immutable source.
+
+This README owns the current worklist. Project owns scope and deadlines; Methods owns constructs and research rules; Process owns AS-IS facts; Design owns provisional requirements. The notebooks own computed findings and the applied selection scenario. Dated source records retain their dates, uncertainty and authority; they are not parallel current task lists.
+
+## Reproduce the notebooks
+
+Install the recorded environment with `python -m pip install -r requirements.txt`, then open either root notebook in Jupyter and run all cells from a fresh kernel. Both notebooks read the same unchanged CSV evidence from an **immutable Git commit**, with their paths and input hashes recorded in the migration register. Access to the private repository is required for the raw GitHub URLs. A Colab badge or browser login does not by itself verify that private raw-file retrieval will work.
+
+The pilot remains separate from the five-session baseline. Historical task-register files under `data/provenance/` are active inputs. Do not reorder source rows, edit classifications or change the pinned revision as part of routine document maintenance. A future analysis update needs a dated evidence change and a deliberate new input revision.

@@ -1,0 +1,14 @@
+# Environment used to verify both notebooks after repository reconstruction.
+# Python 3.12.14. Direct package versions, not a complete transitive lock.
+numpy==2.3.5
+pandas==2.2.3
+matplotlib==3.10.8
+seaborn==0.13.2
+scipy==1.17.0
+statsmodels==0.15.0
+scikit-learn==1.8.0
+ipython==9.17.1
+ipykernel==7.4.0
+nbformat==5.11.1
+jupyter-client==8.10.0
+jupyter-core==5.9.1
