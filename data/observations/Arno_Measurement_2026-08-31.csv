@@ -1,0 +1,64 @@
+﻿Case,Activity,Start,End,Volume,INT,DEC?,Note,Van Weele stage
+OBS-01,REQ,—,—,—,0,,Item: Primer-C. Request received via physical letter. Two options: 20 ml for €18.53 or 1000 ml for €110. Need to ask which option is actually required.,Specification
+OBS-01,CLAR,10:30,10:40,1L,1,Yes,,Specification
+OBS-02,REQ-mail,—,—,—,0,,,Ordering
+OBS-02,PO,10:42,10:44,1L,0,,,Ordering
+OBS-02,SEND,10:46,10:51,1L,0,,Error Exact,Ordering
+OBS-03,REQ-mail,—,—,—,0,,,Ordering
+OBS-03,CLAR,—,—,—,0,,"Forward; instantaneous/tally occurrence, not a timed episode.",Ordering
+OBS-04,REQ-mail,—,—,—,0,,New article to old PO,Ordering
+OBS-04,CHECK,10:52,10:53,3L,0,,1L checked,Ordering
+OBS-04,PO,10:53,10:55,1L,0,,1L added,Ordering
+OBS-04,CHECK,10:55,10:59,3L,0,,2L checked,Ordering
+OBS-04,SEND,—,—,—,0,?,Genuine sub-minute SEND action after the CHECK/PO/CHECK block. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals.,Ordering
+OBS-05,CHECK,10:59,11:02,3L,0,,,Monitoring
+OBS-05,EXC,—,—,—,0,?,Sub-minute exception/aftercare action immediately after the CHECK. Retained as a tally occurrence; duration was not measured precisely and is excluded from timed active-minute totals.,Monitoring
+OBS-06,REQ-mail,—,—,—,0,,,Ordering
+OBS-06,CLAR,11:03,11:04,1L,0,Yes,"Onderhoud, so it is service",
+OBS-06,PO,11:04,11:08,1L,0,,,Ordering
+OBS-06,SEND,11:08,11:11,—,0,,SEND was completed at 11:11. Observation was unavailable from 11:11–11:17 after the SEND episode had ended; therefore this is not an interruption of OBS-06 SEND and INT remains 0.,Ordering
+OBS-07,REQ-email,—,—,—,0,,Request: article input in Exact,Ordering
+OBS-07,CLAR,11:23,11:25,1L,0,,Write up information,Ordering
+OBS-07,OTHER,11:25,11:29,1L,0,,Input to Exact,Ordering
+OBS-07,SEND,—,—,1L,0,,Asking price? Instantaneous/tally occurrence; exact duration not measured because it happens in 30 seonds,Ordering
+OBS-07,OTHER,11:29,11:31,1L,0,,Attached info to article,Ordering
+OBS-07,OTHER,11:35,11:37,1L,0,,Attached info to article,Ordering
+OBS-07,CLAR,11:37,11:39,1L,0,Yes,2nd item that needs be inputted; asking question,Ordering
+OBS-07,CLAR,11:39,11:43,1L,1,,"2nd item, different comp.",Ordering
+OBS-04,EXC,11:51,11:53,3L,0,,aftercare,
+OBS-08,REQ-Exact,—,—,—,0,,,Ordering
+OBS-08,PO,11:54,11:55,1L,1,Yes,Buy order amount of €900,Ordering
+OBS-08,SEND,11:58,11:59,—,0,,,Ordering
+OBS-09,REQ-email,—,—,—,0,,,Ordering
+OBS-09,PO,11:59,12:00,1L,1,Yes,"Buy amount of €2,000",Ordering
+OBS-09,SEND,12:02,12:03,—,0,,,Ordering
+OBS-10,REQ-Exact,—,—,—,0,,,Ordering
+OBS-10,CLAR,12:06,12:08,1L,0,Yes,Credit-card action. This is a one-time purchase that is paid via credit card instead of the normal purchasing process. This case = 1 PC.,Ordering
+OBS-11,REQ-Exact,—,—,—,0,,,Ordering
+OBS-11,DEC,—,—,—,0,Yes,MAX attempt failed; initial outcome was HOLD / leave until tomorrow.,Ordering
+OBS-11,PO,12:09,12:12,—,0,Yes,MAX/PO episode. Initial decision was to leave it until tomorrow because the MAX attempt failed. About one minute later he returned and ordered it anyway; reason is unknown.,Ordering
+OBS-11,PO,—,—,—,0,Yes,Returned approximately one minute later and ordered after the earlier HOLD intention. Exact resumption time and reason were not captured; retained as an untimed known resumption.,Ordering
+OBS-12,REQ-Exact,—,—,—,0,,,Ordering
+OBS-12,PO,12:15,12:17,1L,0,Yes,"1 line, purchase amount of €411",Ordering
+OBS-12,SEND,12:17,12:19,—,0,,,Ordering
+OBS-13,REQ-Exact,—,—,—,0,,,Ordering
+OBS-13,CLAR,12:19,12:27,—,0,,"Needed to call an external party for information. After the external call, an internal call was also needed, but the colleague was unavailable, so the case was left.",Ordering
+OBS-12,CHECK,13:19,13:23,1L,0,,Geen leverdatum,Monitoring
+OBS-09,CHECK,13:23,13:24,1L,0,,,Monitoring
+OBS-14,REQ-Exact,—,—,—,0,,,Ordering
+OBS-14,DEC,—,—,—,0,Yes,Credit card,Ordering
+OBS-14,SEND,13:25,13:26,—,0,,Inform colleague,Ordering
+OBS-15,REQ-Exact,—,—,—,0,,,Ordering
+OBS-15,DEC,—,—,—,0,Yes,MAX,Ordering
+OBS-15,PO,13:26,13:31,16L,0,Yes,"MAX and PO occurred seamlessly: 12L original; 4L added; 16L total. Treat the 5 minutes as combined PO/MAX active time, not pure decision time.",Ordering
+OBS-15,SEND,13:33,13:34,—,0,,,Ordering
+OBS-16,REQ-Exact,—,—,—,0,,,Ordering
+OBS-16,PO,13:32,13:33,4L,0,,Order amount: €422,Ordering
+OBS-16,SEND,13:34,13:35,—,0,,Corrected from 13:33–13:35; original entry was a timing typo.,Ordering
+OBS-17,EXC,13:50,13:52,—,0,,Aftercare of a PO from last week,
+OBS-01,CLAR,13:52,13:55,—,0,,Call back to colleague. Primer-C case; two small portions of Primer-C.,Specification
+OBS-01,PO,13:55,13:56,—,0,,"Timing retained as originally recorded. OBS-16 CLAR starts at 13:56, so there is no remaining overlap.",Ordering
+OBS-16,REQ-call,—,—,—,0,,,Monitoring
+OBS-16,CLAR,13:56,14:02,—,0,,Supplier call. There are old POs for which Finance has not paid. The supplier informed Arno that they therefore could not proceed with the OBS-16 order.,Monitoring
+OBS-16,OTHER,14:02,14:04,—,0,,Inform Finance,Follow-up and evaluation
+OBS-07,CLAR,14:04,14:05,—,0,,Clarification needed for item 3; waiting for response.,Ordering

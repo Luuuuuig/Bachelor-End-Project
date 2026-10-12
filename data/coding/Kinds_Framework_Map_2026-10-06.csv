@@ -1,0 +1,32 @@
+kind_id,describes,analytical_activity,stage,problem,register_tasks,register_fit
+K01,Event,None: a request arrives,Any stage,,1,Covered
+K02,Activity,"Prepare, amend or release a purchase order",Ordering,,2; 3; 17,Covered
+K03,Activity,"Assess demand, consolidate and decide order timing",Ordering,,6; 7; 8; 9; 10; 11,Covered
+K04,Activity,Check and correct an order before release,Ordering,,14; 15; 16,Partly
+K05,Activity,Send the purchase order to the supplier,Ordering,,23,Covered
+K06,Subtype,"Prepare, amend or release a purchase order",Ordering,,,Outside the register
+K07,Activity,"Prepare, amend or release a purchase order",Ordering,,18; 19; 20; 21; 23,Covered
+K08,Activity,Receive and complete a defined purchasing request,Ordering,Missing or unclear information,4,Partly
+K09,Activity,Establish or clarify purchasing requirements,Specification,,1; 4,Partly
+K10,Activity,Establish or clarify purchasing requirements,Specification,,5,Covered
+K11,Activity,Receive and complete a defined purchasing request,Ordering,Drawings to find or complete,4,Partly
+K12,Activity,Maintain purchasing master data,No fixed stage,,,Outside the register
+K13,Activity,"Search for, compare or choose suppliers",Supplier selection,,15; 31,Partly
+K14,Problem,Depends on the response,Varies,Item unavailable,31,Covered
+K15,Activity,"Prepare, amend or release a purchase order",Ordering,,17,Partly
+K16,Problem,Depends on the case,Varies,Cancellation after ordering,,Outside the register
+K17,Activity,Monitoring checks and confirmation handling; subtype may be unknown,Monitoring,,26; 27; 28,Partly
+K18,Problem,Depends on where the difference was found,Varies,Price difference,16; 27; 30,Partly
+K19,Activity,Follow up order status or delivery commitments,Monitoring,,,Outside the register
+K20,Problem,None: Finance's work,Varies,Finance issue (e.g. unpaid invoice),30,Partly
+K21,Activity,Resolve post-receipt or invoice discrepancies,Follow-up and evaluation,,,Outside the register
+K22,Outside the activity list,None,None,,,Outside the register
+K23,Outside the activity list,None,Not applicable,,,Outside the register
+K24,Outside the activity list,None: purpose varies,Varies,,,Outside the register
+K25,Subtype,"Prepare, amend or release a purchase order",Ordering,,2; 17,Covered
+K26,Problem,None,Varies,Exact error or delay,,Outside the register
+K27,Outside the activity list,Unresolved activity,None,,,Outside the register
+K28,Activity,Retrieve purchasing information with unresolved purpose,No fixed stage,,,Outside the register
+K29,Event,None: a question arrives,Any stage,,,Outside the register
+K30,Outside the activity list,None,None,,,Outside the register
+K31,Outside the activity list,None,None,,,Outside the register

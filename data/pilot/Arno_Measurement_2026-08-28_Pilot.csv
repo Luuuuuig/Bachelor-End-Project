@@ -1,0 +1,31 @@
+﻿Case,Time,Min,Task ID,Status,Activity,Vol / INT,Observation note,Van Weele stage
+OBS-01/09,09:36–09:41,5,8–9,P,Maximalisatie,"2L, INT 1",New article. Whether demand was actually combined (Task 10) was not recorded. Same case continues at 10:49.,Ordering
+OBS-02,09:41–09:50,9,1 + **U**,U,Desk purchasing request + delivery-option comparison,INT 0,"Request at the desk. Arnold compared collecting the goods with Hytech's own transport versus delivery by RC, including the cost of each option. **No register task covers a delivery-method/logistics-cost comparison.**",
+OBS-03,09:50–09:56,6,1,P,Phone purchasing request,"4 items, INT 1",Request for four items received by phone. Outcome/decision recorded on the sheet could not be reliably recalled afterward.,
+OBS-04,09:56–10:02,6,1 + 23?,P,Phone request concerning another PO,INT 0,"Separate call about a different PO. Raw notes indicate the request had to be forwarded, and that forwarding occurred twice. Whether this is Task 23 or forwarding of a request is unconfirmed.",
+—,10:02–10:35,—,—,—,**Break**,—,—,Not applicable
+OBS-05,10:35–10:39,4,26,C,Compare supplier confirmation with PO / Exact,"3L, INT 0","Post-confirmation price control. No deviation correction recorded, so Task 27 is not coded.",Monitoring
+OBS-05,10:39–10:40,1,28,C,Attach confirmation and set `Bevestigd`,"3L, INT 0",Completed the confirmation handling for the same case.,Monitoring
+OBS-06,10:40–10:44,4,4 + **U**,U,Incoming email request unclear → clarify with requester,"4L, INT 0",Arnold contacted the requesting colleague to establish whether a complete set of tang was wanted or only the tang. Work paused awaiting the reply. Task 4 is TALLY-only and does not represent four minutes of active clarification work.,Specification
+OBS-07,10:44–10:48,4,26,C,Compare supplier confirmation with PO / Exact,"3L, INT 0",Second post-confirmation price control episode of the session.,Monitoring
+OBS-08,10:48–10:49,1,—,?,Checking (possibly email),INT 0,Could not be recalled confidently. Retained as uncertain rather than reconstructed.,
+OBS-01/09,10:49–10:53,4,1,P,Process incoming email request,INT 0,Same case as OBS-01. Read and processed the incoming email request.,
+OBS-01/09,10:53–10:55,2,2–3,C,Enter request information into Exact,INT 0,Transferred the email request into Exact as a purchasing entry.,Ordering
+OBS-10,\~10:55,\~1,17?,P,Open / start work on another PO,INT 1,Started on a different PO and was interrupted by an incoming email.,Ordering
+OBS-11,10:56–10:59,3,1?,P,Process the interrupting email,INT 0,Handled the email that interrupted OBS-10. Exact nature not specified.,
+OBS-01/09,\~10:59,\~1,23,C,Forward PO to supplier,INT 0,Returned to the earlier case and forwarded the PO.,Ordering
+Other PO,\~11:00,—,—,**U**,Call to Sales department,—,Concerns a PO whose earlier processing lies outside the observation horizon. Excluded from case-level analysis.,
+OBS-12,11:03–11:06,3,1?,P,Process email request,INT 0,Read through and organized the incoming request information.,
+OBS-13,11:06–11:09,3,—,**U**,Call colleague regarding PO aftercare,INT 0,Aftercare on an existing PO following a colleague's question. **No register task covers colleague-initiated PO aftercare.**,
+OBS-14/15,11:09–11:13,4,8–9,P,Maximalisatie and decision,INT 0,Decision appeared to rely on memory; the observer noted a clear visual cue of recall behaviour. **Expertise-dependence evidence (EXP).**,Ordering
+OBS-14/15,11:13–11:16,3,—,**U**,Contact colleagues about a required drawing,INT 0,A technical drawing was required before the PO could proceed. **No register task covers obtaining a drawing or technical specification.**,
+OBS-14/15,11:16–11:23,7,17 + 23 + **U**,U,"Continue PO, drawing check, begin forwarding","5L, INT 1","Includes 11:20–11:23 as continuation of the same work. Mixes PO completion, forwarding and the unmapped drawing requirement.",
+OBS-14/15,11:23–11:29,6,23,P,"Forwarding, interrupted by calls",INT ≥1,Includes 11:27–11:29 as continuation. **Open issue: whether these minutes are active work on this PO or time spent on the interrupting calls — see §4.**,
+OBS-14/15,11:29–11:30,1,23,P,"Forwarding, interrupted again",INT ≥1,Same open issue as above.,
+OBS-16,11:30–11:38,8,—,**U**,PO aftercare following a colleague's question,INT 0,"A colleague raised a question about an existing PO; something appeared to be missing, leading to a discussion about whether it was genuinely missing and what had happened. Possibly related to Task 31, but this is a colleague query rather than a confirmed unavailable component.",
+OBS-16,11:38–11:40,2,2–3 or 17,P,Enter order into Exact,INT 0,Unresolved whether this created a purchasing entry from a request (2–3) or completed the supplier PO (17).,Ordering
+OBS-16,11:40–11:41,1,23,C,Forward PO to supplier,INT 0,—,Ordering
+OBS-14/15,11:41–11:48,7,—,**U**,Follow up the drawing requirement in person,INT 0,Arnold walked to a colleague and planned to stop by Engineering to resolve the outstanding drawing question.,
+OBS-17,11:48–11:50,2,—,**U**,Trace a component from a June PO,INT 0,A colleague asked where a certain component from a PO placed in June was. Arnold had to call the supplier to establish its status. **No register task covers order-status tracing or expediting.**,Monitoring
+—,11:50–11:57,7,—,?,Not coded,—,No episode recorded. Reason not established afterward.,Not applicable
+OBS-14/15,11:57–12:02,5,23 + **U**,U,Attach drawings and complete forwarding,INT 0,"Returned to the interrupted PO, attached the required drawings and completed forwarding. Drawing attachment is not covered by Task 28, which concerns supplier confirmations.",Ordering

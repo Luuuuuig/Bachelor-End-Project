@@ -1,0 +1,59 @@
+﻿Case,Activity,Start,End,Volume,INT,DEC?,Note,Van Weele stage
+OBS-01,PO,11:03,11:06,4L,/,/,Generate the PO and perform Verrichten.,Ordering
+OBS-02,PO,11:06,11:10,5L,/,/,Four lines added to an existing PO.,Ordering
+OBS-03,PO,11:10,11:11,2L,/,/,One line added to an existing PO.,Ordering
+OBS-04,PO,11:11,11:14,16L,1,/,Arno was asked a question but continued working. One line added to the original 15 lines.,Ordering
+OBS-04,PO,11:14,11:15,17L,/,/,One more line added.,Ordering
+OBS-05,PO,11:15,11:17,/,/,/,/,Ordering
+OBS-05,CLAR,11:17,11:20,/,/,/,/,Ordering
+OBS-02,PO,11:20,11:23,8L,/,/,Three lines added; additional handwritten text is unclear (TUB?).,Ordering
+OBS-06,REQ-phone,,/,/,/,/,,
+OBS-06,OTHER,11:23,11:25,/,/,/,A client asked Arno something concerning Dennis.,
+OBS-07,REQ-phone,/,/,/,/,/,,
+OBS-07,EXC,11:25,11:33,/,/,/,Germaine asked about a service order.,
+OBS-07,EXC,11:34,11:36,/,/,/,/,
+OBS-02,PO,11:36,11:37,8L,/,/,Enter information on a website.,Ordering
+OBS-02,CHECK,11:37,11:40,8L,/,/,Pre-control.,Ordering
+OBS-02,SEND,11:40,11:41,/,/,/,/,Ordering
+OBS-07,EXC,11:41,11:43,/,/,/,Attempt to call Germaine.,
+OBS-03,PO,11:42,11:45,7L,/,/,Five lines added.,Ordering
+OBS-08,REQ-mail,,/,/,/,/,,Ordering
+OBS-08,CLAR,11:46,11:49,/,/,/,Attempt to ask Germaine about something.,Ordering
+OBS-09,OTHER,11:49,12:01,/,/,/,Fault in Exact; attempt to resolve it.,Not applicable
+OBS-08,CLAR,12:01,12:05,/,/,/,/,Ordering
+OBS-08,PO,12:05,12:06,/,/,/,Service order.,Ordering
+OBS-08,SEND,/,/,/,/,/,/,Ordering
+OBS-01,SEND,12:09,12:10,/,/,/,/,Ordering
+OBS-03,SEND,12:10,12:11,/,/,/,/,Ordering
+OBS-10,EXC,12:13,12:15,/,/,/,Check the RC transport order.,Monitoring
+OBS-11,REQ-mail,/,/,/,/,/,,
+OBS-11,CLAR,12:15,12:16,/,/,/,/,
+OBS-10,EXC,12:16,12:18,/,/,/,Forward a colleague's information about whether delivery would take place as expected.,Monitoring
+OBS-11,CLAR,12:18,12:21,/,/,/,Pause for now.,
+OBS-12,REQ-mail,/,/,/,/,/,,Ordering
+OBS-12,PO,12:21,12:26,2L,/,/,See the separate case note below.,Ordering
+OBS-12,CLAR,12:26,12:31,/,/,/,"Look for the relevant drawing; unable to find it, ask a colleague.",Ordering
+OBS-13,OTHER,13:02,13:05,/,/,/,Review an offer from Hydrasun and forward it to Kees.,
+OBS-12,CLAR,13:05,13:08,/,/,/,/,Ordering
+OBS-14,REQ-mail,/,/,/,/,/,/,Specification
+OBS-14,CLAR,13:08,13:13,/,/,/,Look into the history of tubes following Emiel's request to order a tube.,Specification
+OBS-14,PO,13:13,13:17,5L,/,/,Four lines added.,Ordering
+OBS-14,CLAR,13:17,13:18,/,/,/,Ask Emiel for confirmation; see the tube specification note below.,Specification
+OBS-14,SEND,14:59,15:00,/,/,/,Exact delay.,Ordering
+OBS-12,SEND,13:18,13:20,/,/,/,/,Ordering
+OBS-15,REQ-mail,/,/,/,/,/,/,Ordering
+OBS-07,EXC,13:20,13:24,/,/,/,Ask about the ETA and a payment issue; the source names Hytech.,
+OBS-15,PO,13:24,13:26,1L,/,/,/,Ordering
+OBS-15,CHECK,13:26,13:28,/,/,/,,
+OBS-15,OTHER,13:28,13:30,/,/,/,Walk to Emiel's desk to pass on information.,Ordering
+OBS-15,CLAR,13:30,13:37,/,/,/,,
+OBS-16,REQ-desk,,/,/,/,/,,Not applicable
+OBS-16,CLAR,13:37,13:42,/,/,/,,Not applicable
+OBS-16,EXC,13:42,14:24,/,/,/,Arno left his desk to help Maurice locate a missing item that Logistics had already received and stored.,Not applicable
+OBS-17,EXC,14:24,14:26,/,/,/,Germaine asked about an order.,
+OBS-17,REQ-mail,,/,/,/,/,Create an item.,
+OBS-17,CLAR,14:40,14:47,/,/,/,,
+OBS-18,SEND,14:47,14:49,/,/,/,/,Monitoring
+OBS-18,EXC,14:50,14:52,/,/,/,Forward relevant information to the relevant stakeholders; see case note below.,Monitoring
+OBS-19,PO,14:52,14:57,14L,/,/,"Maximalisatie of an open PO for FPE Seals, originally 10L.",Ordering
+OBS-19,SEND,14:57,14:59,/,/,/,/,Ordering
