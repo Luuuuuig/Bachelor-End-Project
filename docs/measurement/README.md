@@ -1,5 +1,13 @@
 # Measurement
 
+## Reviewed stage data, 12 October 2026
+
+The five daily Arno CSVs for 31 August and 1, 8, 18 and 23 September now contain the agreed stages in `Van Weele stage`. All **287 rows** have a stage; **100 values** changed from the previous CSV version. `Original Van Weele stage` preserves every previous stage value, including blanks. The eight observation fields, row order, missing durations and recorded times are unchanged.
+
+The current rules assign all REQ subtypes to Not applicable, CLAR without a note to Ordering, CLAR with a note to Specification, and CHECK without a note to Monitoring. Specific dated confirmations take precedence. Remaining rows follow the reviewed recorded context; unclear process purpose receives Not applicable. Stage assignment does not determine improvement scope: EXC and OTHER/EXC remain excluded, while ordinary OTHER remains included.
+
+This update synchronizes stage data across branches. Older notebooks and dated reports may still contain historical results or load a pinned historical commit. The rewritten notebooks on `codex-fresh-observation-analysis-2026-10-12` use the current assignments. The pilot and Dennis records are separate.
+
 The Measure phase: how the observations were made, the records of each session, and the data the analysis uses.
 
 ## Status on 7 October 2026
@@ -13,14 +21,14 @@ The Measure phase: how the observations were made, the records of each session, 
 
 | File | Content | Used in the analysis notebook |
 |---|---|---|
-| `Arno_Measurement_<date>.csv`: [31 August](Arno_Measurement_2026-08-31.csv), [1 September](Arno_Measurement_2026-09-01.csv), [8 September](Arno_Measurement_2026-09-08.csv), [18 September](Arno_Measurement_2026-09-18.csv), [23 September](Arno_Measurement_2026-09-23.csv) | One row per recorded activity: the original eight observation columns plus the observer-reviewed Van Weele stage (30 September) | Everywhere |
+| `Arno_Measurement_<date>.csv`: [31 August](Arno_Measurement_2026-08-31.csv), [1 September](Arno_Measurement_2026-09-01.csv), [8 September](Arno_Measurement_2026-09-08.csv), [18 September](Arno_Measurement_2026-09-18.csv), [23 September](Arno_Measurement_2026-09-23.csv) | One row per recorded activity: the original eight observation columns, the reviewed Van Weele stage (12 October), and Original Van Weele stage | Everywhere |
 | [`Observation_Time_Register_2026-09-25.csv`](Observation_Time_Register_2026-09-25.csv) | Observation blocks and confirmed net observation per session | Sections 2.4 (coverage), 3.1 and 4.4 |
 | [`Kinds_Of_Work_Rows_2026-09-30.csv`](Kinds_Of_Work_Rows_2026-09-30.csv) | Up to three kinds of work (K01–K31) per record | Joined in section 2.3; used from part 5 on |
 | [`Kinds_Framework_Map_2026-10-06.csv`](Kinds_Framework_Map_2026-10-06.csv) | Each kind's place in the purchasing activity framework, and the task-register tasks it covers | Parts 5 and 6; Appendix B |
 | [`Activity_Framework_Enriched_Observations_2026-09-21.csv`](../archive/measurement/Activity_Framework_Enriched_Observations_2026-09-21.csv) and [`23_September_Enriched_Rows_2026-09-25.csv`](../archive/measurement/23_September_Enriched_Rows_2026-09-25.csv) (archived) | The task-register Task ID given to each record on 21 and 25 September, with its mapping status | Section 5.1 and Appendix B: why the kinds replaced the Task IDs, and the check of the register links |
 | [`Kinds_Coding_Check_Sample_2026-10-02.xlsx`](Kinds_Coding_Check_Sample_2026-10-02.xlsx) | Optional blind coding sheet of 45 random records, prepared on 2 October and not completed. Neither the sheet nor kappa is a completion condition; the current check is the targeted review | Not used |
 
-The [pilot CSV](Arno_Measurement_2026-08-28_Pilot.csv) is kept separate and is not analysed. The [stage review of 30 September](Stage_Review_2026-09-30.md) explains the observer's stage decisions per session.
+The [pilot CSV](Arno_Measurement_2026-08-28_Pilot.csv) is kept separate and is not analysed. The [stage review of 30 September](Stage_Review_2026-09-30.md) records the earlier stage decisions per session. The 12 October update above supersedes its unresolved-stage status.
 
 ## Totals
 
@@ -43,7 +51,7 @@ Other conventions:
 
 - Untimed rows count as occurrences but add no minutes. Since 2 October, the 1 September OBS-02 REQ row is a tally ([observer decision](Measure_Observation_2026-09-01.md#observer-decision-2-october-2026)).
 - Recorded minutes are activity minutes: the one-minute overlap on 23 September (11:42–11:43) counts in both activities, following the [rule for simultaneous activities](Scope_and_Classification_Addendum_2026-09-14.md#timing-of-simultaneous-activities).
-- Stage "Not applicable" and a blank stage are kept as their own groups.
+- Stage "Not applicable" remains separate. Current stage assignments contain no blanks; historical blanks remain in Original Van Weele stage.
 - A handwritten `/` in the observation sheets means none: no interruption in INT, no decision marked in DEC? ([recording marks](Scope_and_Classification_Addendum_2026-09-14.md#recording-marks)).
 - Rates per hour use confirmed net observation from the time register, never the sum of recorded activity minutes.
 
