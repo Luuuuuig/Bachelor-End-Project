@@ -1,6 +1,6 @@
 # Update for Zhongxin, 15 October 2026
 
-**From:** Yijie Wang. **Attached:** the analysis notebook and the selection notebook as HTML. **Purpose:** report what was done after the 8 October meeting, put the selection criteria to you for review, and ask for your decision on the weights.
+**From:** Yijie Wang. **Attached:** the analysis notebook and the selection notebook as HTML; each opens with an executive summary and a *Where to read* table keyed to the questions in section 5 below. **Purpose:** report what was done after the 8 October meeting, put the selection criteria to you for review, and ask for your decision on the weights.
 
 ## What changed since 8 October
 

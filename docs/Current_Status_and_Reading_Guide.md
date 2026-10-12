@@ -29,16 +29,33 @@ Read interpretation paragraphs and tables first; inspect code when a calculation
 | Order | File and section | What you should be able to explain |
 |---|---|---|
 | 1 | [Assignment](proposal/BEP_Assignment_1BEPIEX.md); [methodology](methodology/Phase_1_Current_Methodology.md), sections 2 and 3 | Arno's outcome, Dennis's role, the five sub-questions, and why handling time is one indicator rather than the definition of workload |
-| 2 | [Analysis notebook](../Arno_Analysis_2026_10_02.ipynb): storyline, summary and "How the analysis is done"; parts 1 to 3 | The data, the one exclusion, the scope rule, the coverage per day and where the stages come from (3.2) |
+| 2 | [Analysis notebook](../Arno_Analysis_2026_10_02.ipynb): executive summary (with the *Where to read* table) and "How the analysis is done"; parts 1 to 3 | The main results, the data, the one exclusion, the scope rule and the coverage per day |
 | 3 | Same notebook, part 4 | Codes and stages (4.1, 4.2), Zhongxin's table (4.3), the leave-one-day-out check (4.4) and the 35 requests (4.5) |
 | 4 | Same notebook, parts 5 to 7 | CHECK by stage, day and note, per line and the test on the rates (5.1 to 5.4); case flow (6); episode durations, Kruskal-Wallis and the three fitted curves (7.1, 7.2) |
-| 5 | Same notebook, parts 8 and 9, Appendix B | The six candidate areas on the raw definitions; the answers to the 1 October questions and the 8 October follow-up; the stage record |
-| 6 | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb): sections 1 to 6 | The gates, the criteria and anchors, Yijie's provisional weights, the scores with their raw evidence, the before/after table, the sensitivity checks and the four conditions |
+| 5 | Same notebook, parts 8 and 9; [stage review](measurement/Stage_Review_2026-10-12.md) | The six candidate areas on the raw definitions; the conclusion and what goes to the selection; the record of how every stage was assigned |
+| 6 | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb): executive summary and sections 1 to 6 | The provisional decision and the *Where to read* table; the gates, the criteria and anchors, Yijie's provisional weights, the scores with their raw evidence, the sensitivity checks and the four conditions |
 | 7 | [Supervisor update](analyze/Supervisor_Update_2026-10-15.md); [Analyze outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md) | What goes to Zhongxin on 15 October and how the Analyze chapter will argue |
 
 Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md) (priority walkthrough) and the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md), sections 1 to 3 and 8 to 9.
 
-## 4. Follow-up of the 8 October meeting
+## 4. Follow-up of the 1 and 8 October meetings
+
+**Decisions and suggestions of 1 October, and how each was closed**
+
+| 1 October | Where | Outcome |
+|---|---|---|
+| Start with Arno's data; add Dennis later if needed | Analysis notebook | Done with the five Arno sessions; Dennis's notes stay separate |
+| Keep former EXC in the total time, outside the AI improvement | Analysis notebook, 2 and 4.1 | Done: labelled "OTHER (outside improvement)", shown in every total, left out of the comparison |
+| If the former EXC share is stable, keep it as an unchanged part of the workload | Analysis notebook, 3 | Not stable: 3.9% to 35.7% per day; reported per day, kept outside the comparison |
+| Keep work outside the purchasing framework visible as "Not applicable" | Analysis notebook, 4.2 | Done: 25 in-scope minutes in 55 records |
+| Organise the time by purchasing stage; a dominant stage could justify concentrating there | Analysis notebook, 4.2 | Ordering: 56.8%, largest on every day |
+| Compare CHECK per order line, then reassess 18 September | Analysis notebook, 5.3, 5.4 and 4.4 | 0.90 against 0.83 minutes per line (p = 0.42); without 18 September the CHECK share falls from 16.2% to 8.3% |
+| Fallback evaluation on test workloads with handling time from an observed pattern | Analysis notebook, 5.3 | The observed time per line is too imprecise for a baseline; a test needs its own timed checks |
+| Compare AI task categories from the literature with what the buyers accept | [AI function comparison](methodology/AI_Function_Comparison_2026-10-02.md) | Table prepared; the buyers' acceptance is still to be asked |
+| Draft the thesis alongside the work | [Analyze outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md) | Drafted |
+
+**Requests of 8 October**
+
 
 | Request or finding | Where | Result |
 |---|---|---|

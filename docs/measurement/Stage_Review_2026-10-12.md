@@ -1,6 +1,6 @@
 # Stage review of the daily CSVs, 12 October 2026
 
-**Status:** the record of how the agreed `Van Weele stage` of every row in the five daily CSVs came about on 12 October 2026 (repository commit `00b9802ba6335076e27d6b674ef8de38f3c03bd6`). The earlier value of each row stays in `Original Van Weele stage`. **100 of the 287 rows changed; 187 did not.** The analysis notebook reads the agreed column, counts which layer explains each row (section 3.2) and repeats the row-level parts in Appendix B; it does not apply the rules in code. The [stage review of 30 September](Stage_Review_2026-09-30.md) records the earlier decisions per session; this file supersedes its unresolved-stage status.
+**Status:** the record of how the agreed `Van Weele stage` of every row in the five daily CSVs came about on 12 October 2026 (repository commit `00b9802ba6335076e27d6b674ef8de38f3c03bd6`). The earlier value of each row stays in `Original Van Weele stage`. **100 of the 287 rows changed; 187 did not.** The analysis notebook reads the agreed column and does not apply the rules in code; this document is the only record of how each stage was assigned. The [stage review of 30 September](Stage_Review_2026-09-30.md) records the earlier decisions per session; this file supersedes its unresolved-stage status.
 
 Stage assignment does not change improvement scope: EXC and OTHER/EXC rows stay outside the improvement scope whatever their stage, and ordinary OTHER rows stay inside it. No code, note, time or volume was changed.
 
@@ -67,7 +67,7 @@ These rows had no stage before 12 October and are not reached by a rule or a con
 | 23 Sep | 44 | OBS-07 | EXC | 4 | former EXC | Ask about the ETA and a payment issue; the source names Hytech. | Monitoring | Explicit ETA and payment follow-up. |
 | 23 Sep | 52 | OBS-17 | EXC | 2 | former EXC | Germaine asked about an order. | Monitoring | Aftercare enquiry about an order. |
 
-The 23 September OBS-07 rows follow the observer's 30 September clarification that the supplier first asked about a payment issue and Arno then asked for the ETA of another PO within row 44; the review reads the whole case as follow-up of outstanding orders. Yijie has not confirmed these fifteen assignments individually; the analysis notebook flags the five in-scope rows (14 minutes) so that their effect can be seen.
+The 23 September OBS-07 rows follow the observer's 30 September clarification that the supplier first asked about a payment issue and Arno then asked for the ETA of another PO within row 44; the review reads the whole case as follow-up of outstanding orders. Yijie has not confirmed these fifteen assignments individually; the analysis notebook reports the five in-scope rows (14 minutes) in one sentence in section 4.2 and notes that none of them is Ordering.
 
 ## 5. What the 100 changes are
 
@@ -94,7 +94,7 @@ By earlier and agreed stage:
 
 By layer: rule 1 (REQ) 47 rows, rule 2b (CLAR with note) 25, rule 2a (CLAR without note) 4, rule 3 (CHECK without note) 1, confirmations 8, context review 15. By day: 31 August 28, 1 September 17, 8 September 9, 18 September 23, 23 September 23. The 35 rows that were blank before 12 October are now all assigned; no blank stage remains.
 
-**Effect on the 560 in-scope minutes** (analysis notebook, Appendix B.4):
+**Effect on the 560 in-scope minutes** (computed from the two stage columns of the CSVs; the computation is Appendix B.4 of the analysis notebook as committed on 12 October, commit 542d6a5):
 
 | Stage | Earlier column | Agreed column |
 |---|---:|---:|

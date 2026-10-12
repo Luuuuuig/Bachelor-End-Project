@@ -29,13 +29,13 @@ The candidate figures of 9 October were defined on the kinds; the figures of 12 
 | Article/supplier data in Exact | 39 | 43, rows whose note names article or supplier data |
 | PO supplier communication | 36 | 71, the SEND code |
 
-The selection method did not change. With the raw evidence, two of the 28 scores changed (request intake: workload 3 to 4, repetition 2 to 3), so the provisional totals are now 76.2 (checking), 57.8 (request intake), 56.8 (article/supplier data) and 51.9 (maximalisatie), against 76.2 / 50.8 / 56.8 / 51.9 on 7 October. All of this stays provisional until Zhongxin's review.
+The selection method did not change. With the raw evidence no score changed; two request-intake ranges widened (workload high 3 to 5, repetition high 2 to 3), so the provisional totals stay 76.2 (checking), 56.8 (article/supplier data), 51.9 (maximalisatie) and 50.8 (request intake), with 57.8 for request intake only in the broad-proxy scenario in which the whole Specification stage counts. All of this stays provisional until Zhongxin's review.
 
 ## What still cites the layer
 
 As history only, with a dated note:
 
-- The [analysis notebook](../../../Arno_Analysis_2026_10_02.ipynb) (front note and part 9, "What changed on 12 October") and the [selection notebook](../../../Focal_Case_Selection_2026-10-07.ipynb) (section 1 and Appendix D).
+- The [analysis notebook](../../../Arno_Analysis_2026_10_02.ipynb) (executive summary and the status note of part 9) and the [selection notebook](../../../Focal_Case_Selection_2026-10-07.ipynb) (executive summary and Appendix D).
 - The [stage review of 12 October](../../measurement/Stage_Review_2026-10-12.md), section 6: why 18 in-scope kind assignments disagree with the agreed stages.
 - The [measurement method justification](../../measurement/Measurement_Method_Justification.md) (table rows dated 7 October), [protocol v1.3](../../measurement/Measurement_Protocol_v1.3.md) (note of 7 October) and the [scope addendum](../../measurement/Scope_and_Classification_Addendum_2026-09-14.md) (clarification of 2 October), which describe what the analysis used at the time.
 - The meeting records of 8 October (agenda item 7) and the [literature register](../../../literature/README.md), where the inductive-coding source is kept as a historical lead.

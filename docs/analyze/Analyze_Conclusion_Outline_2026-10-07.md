@@ -11,7 +11,7 @@ Each section lists what the chapter will say, where the evidence is, and what is
 | Where does the recorded work go, and is the evidence enough? | Parts 3 and 4 (coverage, codes, stages, Zhongxin's table in 4.3, leave-one-day-out in 4.4) | Computed; the sufficiency decision is Zhongxin's |
 | What explains the work? | Yijie's dated account of 2 October in the [session guide](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md#what-yijie-reported-on-2-october); the notes behind CHECK (5.2) | Reported, not confirmed; Arno still has to confirm |
 | How standard is the work? | Part 6 (case flow: stretches per case-day, returns) and 7.1 (episode durations by day) | Described; not a count of standard cases |
-| Are the stages of the records supported? | 3.2 and Appendix B; [stage review of 12 October](../measurement/Stage_Review_2026-10-12.md) | Agreed on 12 October; 15 rows rest on a context review (5 in scope) |
+| Are the stages of the records supported? | [Stage review of 12 October](../measurement/Stage_Review_2026-10-12.md); analysis notebook 4.2 | Agreed on 12 October; 15 rows rest on a context review (5 in scope) |
 | Is the AI support feasible with the data available? | [Selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb), section 2 (gates); [test-account worksheet](Stage_A_Test_Account_Check_2026-10-07.xlsx) | Gate 1 passed on 7 October; gates 2 and 3 wait on the test account |
 | Which candidate becomes the focal case? | Selection notebook, sections 4 to 6 | Provisional; Zhongxin's weights and review follow |
 
