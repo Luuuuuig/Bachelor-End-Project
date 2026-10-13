@@ -61,7 +61,7 @@ Until one of these is done, the ranking above is a provisional scenario, not the
 
 ## 5. Questions for you
 
-1. **Sufficiency.** Do you agree that no further general observation day is needed for the provisional selection, given that 18 September changes the CHECK share but not the ranking of PO and CLAR? Which targeted checks do you want before Arno's leave at the end of October?
+1. **Sufficiency.** *Answered in the chat of 13 October: no further observation day; 8 and 18 September are explained from the records.* Do you agree that no further general observation day is needed for the provisional selection, given that 18 September changes the CHECK share but not the ranking of PO and CLAR? Which targeted checks do you want before Arno's leave at the end of October?
 2. **The tests.** Kendall's W reads the daily pattern as moderate agreement (W = 0.42, p = 0.075); the Kruskal-Wallis tests on episode lengths and CHECK per line detect no clear difference. Can we report W as moderate agreement and treat the Kruskal-Wallis results as supplementary?
 3. **Criteria and weights.** Are the seven criteria distinct enough? Option A or option B for the weights?
 4. **CHECK per line.** The corrected comparison is 0.90 against 0.83 minutes per line. Does your conclusion of 8 October still hold?

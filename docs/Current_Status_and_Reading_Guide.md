@@ -64,14 +64,14 @@ Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Sess
 | Kruskal-Wallis test | Analysis notebook, 7.1 and 5.4 | No clear rank difference in episode lengths between days (H = 2.76, p = 0.60, 182 episodes) or in CHECK minutes per line, 18 September against the other days (H = 0.66, p = 0.42). Neither establishes equal days or a stable mix |
 | CHECK per line, corrected | Analysis notebook, 5.3 | 0.90 on 18 September against 0.83 on the other four days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds discussed; mean rate per check 1.24 (95% CI 0.70 to 1.78) |
 | Workload of each candidate by day | Analysis notebook, 8 | 57 of the 91 CHECK minutes fall on 18 September; without that day checking is 8.3% of the improvement minutes (workload anchor 3 instead of 5) |
-| Is more observation needed? | Analysis notebook, 4.4 and 8 | No further general observation day is recommended at this stage: 18 September changes the CHECK share but not the ranking of PO and CLAR. Targeted checks with Arno remain necessary. This needs Zhongxin's agreement |
+| Is more observation needed? | Analysis notebook, 4.3, 4.4 and 8 | Decided on 13 October: no further observation day; 8 September is explained by exceptions in a short session, 18 September by its checking volume ([chat record](meetings/Academic_Supervisor_Chat_2026-10-13.md)). Earlier reasoning: 18 September changes the CHECK share but not the ranking of PO and CLAR. Targeted checks with Arno remain necessary. This needs Zhongxin's agreement |
 | Criteria: definitions and reasons | [Methodology, section 5.3](methodology/Phase_1_Current_Methodology.md#criterion-definitions-and-rationale); selection notebook, section 3; [supervisor update](analyze/Supervisor_Update_2026-10-15.md) | Definitions, rationale, 1/3/5 anchors and evidence sources; unchanged, now with raw evidence |
 | Weights | Selection notebook, section 3; [swing record](analyze/Swing_Weights_Yijie_2026-10-07.md) | Yijie's provisional swings are used and labelled as such; Zhongxin is offered her own swings or a review of Yijie's |
 | Dennis's role and a design draft for the focal case | [Design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) | Conditional drafts, not approved specifications |
 
 ## 5. Questions for Zhongxin (15 October)
 
-1. **Sufficiency.** Is no further general observation day acceptable for the provisional selection? Which targeted checks are needed before Arno's leave?
+1. **Sufficiency.** Answered on 13 October: no further observation day. Still open: which targeted checks are needed before Arno's leave?
 2. **The tests.** Can Kendall's W be reported as moderate agreement, with the Kruskal-Wallis results as supplementary?
 3. **Criteria and weights.** Are the seven criteria distinct enough? Does she set her own swings or review Yijie's?
 4. **CHECK per line.** The corrected comparison is 0.90 against 0.83 minutes per line. Does the 8 October conclusion still hold?
