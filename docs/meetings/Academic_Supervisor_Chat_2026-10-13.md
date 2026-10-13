@@ -33,6 +33,11 @@ Minutes and shares of the day give identical ranks within each day, so the resul
 
 Draft wording for both is in the [Analyze outline, section 11](../analyze/Analyze_Conclusion_Outline_2026-10-07.md#11-to-write-into-the-thesis-zhongxin-13-october).
 
+## Addendum, 11:38 to 11:41
+
+- Zhongxin found the Kendall's W result "not very positive" and asked whether the minutes had been divided by the number of orders. Yijie answered that the number of orders per day was not recorded. Dividing every activity of a day by any per-day count leaves the ranks, and W, unchanged (checked with the case-days per day: W = 0.42 either way); the real number of orders per day can be taken from Exact. The volume does explain 18 September: its case-days (24) and PO records (11) were ordinary, but 42 of the 71 checked order lines fell on that day, at an ordinary time per line.
+- Zhongxin asked for a **Jensen-Shannon divergence** as well: the whole allocation structure of each day compared between days, all 10 pairs of days, and the mean. JSD has no fixed threshold, so the reference is built by shuffling whole case-days between the days (10,000 shuffles). Result, now in section 4.3 of the analysis notebook: mean JSD over the pairs 0.113 bits, against 0.075 by chance (p = 0.089); per day only 8 September diverges more than chance (p = 0.010), 18 September is borderline (p = 0.090).
+
 ## Open after the chat
 
 - Add the Kendall's W cell, with the pairwise correlations and the leave-one-day-out results, to the analysis notebook (section 4.3 or 4.4); keep the Kruskal-Wallis test on episode lengths as a supplementary result on fragmentation, and the Kruskal-Wallis test on CHECK minutes per line as it is.
