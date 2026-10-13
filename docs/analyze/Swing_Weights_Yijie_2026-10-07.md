@@ -4,7 +4,7 @@
 
 ## How the weights were set
 
-Swing weighting (Department for Communities and Local Government, 2009; Belton and Stewart, 2002), as planned in [methodology §5.3](../methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule) and research action 10:
+Swing weighting, following the swing procedure of SMARTS (Edwards and Barron, 1994; see also Department for Communities and Local Government, 2009; Belton and Stewart, 2002), as planned in [methodology §5.3](../methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule) and research action 10:
 
 1. Picture a candidate that scores 1 on every criterion.
 2. The criterion whose lift from 1 to 5 matters most gets a swing of 100.

@@ -103,6 +103,10 @@ The stored 2006 paper describes the six-activity design-science research process
 
 **Use:** Official practitioner guidance for documenting the decision context, options, criteria, performance matrix, scoring, weighting and uncertainty. It supports the transparent selection procedure but does not supply universally correct project weights.
 
+**Edwards, W., & Barron, F. H. (1994).** SMARTS and SMARTER: Improved simple methods for multiattribute utility measurement. *Organizational Behavior and Human Decision Processes, 60*(3), 306–325. https://doi.org/10.1006/obhd.1994.1087
+
+**Use:** Primary source for the swing-weighting procedure used in the selection: an additive score in which each criterion's weight is the value of its swing from worst to best, relative to the most important swing (SMARTS).
+
 **Triantaphyllou, E., & Sánchez, A. (1997).** *A sensitivity analysis approach for some deterministic multi-criteria decision-making methods*. *Decision Sciences, 28*(1), 151–194. https://doi.org/10.1111/j.1540-5915.1997.tb01306.x
 
 **Use:** Supports testing whether the candidate ranking is robust to plausible changes in weights and evidence scores. The BEP uses a proportionate sensitivity check rather than claiming that one provisional weight set is objectively correct.
