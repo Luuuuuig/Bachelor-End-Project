@@ -2,6 +2,8 @@
 
 This register tracks recorded and possible uses of literature. **Listed, cited, citation-verified, abstract-reviewed and full-text-reviewed are different statuses.** “Confirmed use” below means a role is recorded in a project document; it does not certify that the source has been fully read or its claims independently verified. A DOI or stored PDF establishes an access route, not reading completion. Where no reading status is recorded, do not infer one. Detailed methodology, operational definitions and candidate decisions belong in the corresponding authoritative files under `docs/`.
 
+**Audited 13 October 2026** against the citations in the two notebooks, the repository README and the current documents under `docs/` (the archive excluded).
+
 ## Current conceptual literature structure
 
 The current BEP uses workload as the amount and difficulty of purchasing work. Mental-workload sources remain background literature, with no current mental-workload assessment:
@@ -23,17 +25,19 @@ The current literature does not justify adding indicators with different meaning
 Read to support the claims being written or the design decision being made; the full register is not a compulsory reading list. No new reading completion is claimed by this order.
 
 1. **Define the research claims:** Bowling & Kirkendall for amount/difficulty of work; Bäckstrand et al. for the purchasing framework; Zheng et al. for reporting the observation method. Use the current definitions and method justification to identify the exact passages needed. Add Spector & Jex or WOMBAT sources where those constructs or mechanics are actually discussed.
-2. **Support the current analysis:** NIST and SciPy for the Kruskal-Wallis test, and Ebeling and Montgomery & Runger for the probability-plot fits (sections 7.1 and 7.2 of the analysis notebook). Hsieh & Shannon, Guest et al. and Cohen belonged to the note-based coding layer [archived](../docs/archive/kinds_of_work/README.md) on 12 October; they are historical leads.
+2. **Support the current analysis:** Kendall & Babington Smith and Friedman for Kendall's W and its Friedman test on the order of the activities by day, and Lin for the Jensen-Shannon divergence between the days' shares (section 4.3 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb); chosen with Zhongxin on 13 October). NIST and SciPy only for the Kruskal-Wallis tests kept for episode lengths by day (7.1) and CHECK minutes per line (5.4). Ebeling and Montgomery & Runger for the probability-plot fits (7.2 and Appendix A). Hsieh & Shannon, Guest et al. and Cohen belonged to the note-based coding layer [archived](../docs/archive/kinds_of_work/README.md) on 12 October; they are historical leads.
 3. **Bound the proposed AI support:** Parasuraman et al. for functions and automation levels, then Burger et al. for the buyer's role in procurement. For the provisional focal case (order and confirmation checking), read Tater et al.; add DocILE if the design uses document-field/line extraction. Check what each source demonstrates and the limits of transferring it to this task.
-4. **Write the design and evaluation rationale:** de Mast & Lokkerbol for DMAIC and Peffers et al. **2007** for DSRM; the stored 2006 paper is a different source. Consult the MCDA sources for the selection methods actually used, and the quality/human–AI interaction sources for the chosen rubric and review interface.
+4. **Write the design and evaluation rationale:** de Mast & Lokkerbol for DMAIC and Peffers et al. **2007** for DSRM; the stored 2006 paper is a different source. Consult the MCDA sources for the selection methods actually used (Edwards & Barron for the swing weights; Belton & Stewart, the DCLG manual and Goodhue & Thompson for the criteria; Triantaphyllou & Sánchez for the sensitivity check), and the quality/human–AI interaction sources for the chosen rubric and review interface.
 
 Drawing-search, maximalisatie, process-mining, advice-taking and mental-workload sources remain conditional or historical. Read them only if the corresponding question enters the selected study; do not add those studies to the work plan merely because the references are listed.
 
-**Gaps with no source yet (7 October):**
+**Gaps with no source yet (13 October):**
 
 - Checking supplier quotations or order confirmations against a PO; Tater et al. cover invoices, later in the process.
-- Process redesign directions (eliminate, simplify, standardise, automate or support) used in the Analyze outline.
+- Process redesign directions (eliminate, simplify, standardise, automate or support), named in the [methodology's](../docs/methodology/Phase_1_Current_Methodology.md#2-research-structure) description of Analyze.
 - Evaluating the artifact in DSRM beyond Peffers et al.; needed early in Improve.
+- The permutation reference for the Jensen-Shannon p-value (whole case-days shuffled between the days, section 4.3 of the analysis notebook) cites no source; add one if the thesis reports that p-value.
+- A full reference for Van Weele (2018), which the [activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md) cites as the origin of the purchasing-process model (Figure 1.2, p. 9); this register records only its reproduction in Bäckstrand et al.
 
 Sources may be listed provisionally, with their citation status shown. Verify the citation before a source is used in the thesis, and set "full text reviewed" only after Yijie has read it.
 
@@ -65,13 +69,15 @@ The proposal's five references are retained because they are already part of the
 
 **Access:** [University-hosted full text](https://repub.eur.nl/pub/123697/Repub_123697_O-A.pdf), already linked in the activity-framework and mapping documents. No PDF of this article is stored in the repository.
 
-**Use:** Section 3.2 and Figure 3 reproduce Van Weele's purchasing-process model and support the six-stage framework used in the Plan of Work and the [analytical activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md). The source provides the process structure. The task register, seven live recording families and row-level stage/activity assignments are this project's local operationalization, not a validated coding instrument supplied by the article.
+**Use:** Section 3.2 and Figure 3 reproduce Van Weele's purchasing-process model and support the six-stage framework used in the Plan of Work and the [analytical activity framework](../docs/process/Purchasing_Activity_Framework_2026-09-21.md). The source provides the process structure. The task register, seven live recording families and row-level stage/activity assignments are this project's local operationalization, not a validated coding instrument supplied by the article. The analysis notebook cites it in *How the analysis is done* for the purchasing stages of part 4.2, which the selection notebook's candidate definitions reuse.
+
+**Also cited for the stages, not recorded here with a full reference (13 October):** the activity framework names Van Weele (2018, Figure 1.2, p. 9) as the model's origin, [Nevi's purchasing-process explanation](https://nevi.nl/inkoop/inkoopkennis/inkoopproces) for the six stages and the [author's chapter 2 teaching materials](https://www.arjanvanweele.com/presentations-powerpoint/) for the placement of order-confirmation requests. Add the book's full reference before the thesis cites it directly; the two web pages are cited with an access date, which the framework does not record.
 
 ### Process-improvement methodology: DMAIC / Six Sigma
 
 **de Mast, J., & Lokkerbol, J. (2012).** *An analysis of the Six Sigma DMAIC method from the perspective of problem solving*. *International Journal of Production Economics, 139*(2), 604–614. https://doi.org/10.1016/j.ijpe.2012.05.035
 
-**Use:** Primary peer-reviewed academic support for treating DMAIC as a structured problem-solving/improvement method and for explaining the logic of Define–Measure–Analyze–Improve–Control in the BEP.
+**Use:** Primary peer-reviewed academic support for treating DMAIC as a structured problem-solving/improvement method and for explaining the logic of Define–Measure–Analyze–Improve–Control in the BEP. The analysis notebook's executive summary cites it to place the analysis in the Analyze phase.
 
 **Schroeder, R. G., Linderman, K., Liedtke, C., & Choo, A. S. (2008).** *Six Sigma: Definition and underlying theory*. *Journal of Operations Management, 26*(4), 536–554. https://doi.org/10.1016/j.jom.2007.06.007
 
@@ -85,7 +91,7 @@ The proposal's five references are retained because they are already part of the
 
 **Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007).** *A design science research methodology for information systems research*. *Journal of Management Information Systems, 24*(3), 45–77. https://doi.org/10.2753/MIS0742-1222240302
 
-**Use:** The current Plan of Work cites this journal article for the Design Science Research Methodology (DSRM) guiding artifact objectives, design/development, demonstration and evaluation within Improve.
+**Use:** The current Plan of Work cites this journal article for the Design Science Research Methodology (DSRM) guiding artifact objectives, design/development, demonstration and evaluation within Improve. The selection notebook lists it in its reference list (Appendix D).
 
 **Access:** The journal article is recorded through its DOI. Its PDF is not stored in this repository. The similarly named local PDF below is an earlier publication with a different author list and must not be presented as the journal article.
 
@@ -94,6 +100,8 @@ The proposal's five references are retained because they are already part of the
 The stored 2006 paper describes the six-activity design-science research process (DSRP), including demonstration and evaluation. It is relevant supporting material, but it is not cited in the current Plan of Work. Its title page and PDF pages 8, 10 and 11 were checked on 22 September 2026.
 
 ### Multi-criteria focal-case selection
+
+Cited in the [selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) (section 3 and Appendix D), the [methodology](../docs/methodology/Phase_1_Current_Methodology.md#53-formal-two-stage-selection-rule) (section 5.3 and its reference list) and the [swing-weight record](../docs/analyze/Swing_Weights_Yijie_2026-10-07.md) of 7 October. The criteria, anchors and cut-offs are project judgements informed by these sources, not numbers they prescribe.
 
 **Belton, V., & Stewart, T. J. (2002).** *Multiple Criteria Decision Analysis: An Integrated Approach*. Kluwer Academic Publishers. https://doi.org/10.1007/978-1-4615-1495-4
 
@@ -114,6 +122,28 @@ The stored 2006 paper describes the six-activity design-science research process
 **Goodhue, D. L., & Thompson, R. L. (1995).** Task-technology fit and individual performance. *MIS Quarterly, 19*(2), 213–236. https://doi.org/10.2307/249689
 
 **Use:** Supports the AI–task-fit criterion: technology should match the actual task if it is expected to improve individual performance. Literature supports the criteria and method; the student and academic supervisor agree project-specific research weights, while the company supervisor validates the operational evidence and feasibility.
+
+### Activity pattern across the observation days: concordance and divergence
+
+Cited in section 4.3 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) and in its reference list, for the test of whether the five observation days allocate Arno's time over the activities in the same way. Zhongxin chose Kendall's W on 13 October in place of the Kruskal-Wallis test named on 8 October, and asked for the Jensen-Shannon divergence ([13 October notes](../docs/meetings/Academic_Supervisor_Meeting_Notes_2026-10-13.md)); she asked that the thesis explains why Kendall's W and not other tests, and why this data table. The decision of 13 October to add two observation days (14 and 16 October) rests on these results. The Kruskal-Wallis test is kept only for episode lengths by day (7.1) and CHECK minutes per line (5.4); whether those results are reported as supplementary is a question put to Zhongxin ([reading guide](../docs/Current_Status_and_Reading_Guide.md#5-questions-for-zhongxin-15-october), question 2). Each entry records three separate statuses: citation verified, abstract reviewed and full text reviewed.
+
+**Kendall, M. G., & Babington Smith, B. (1939).** The problem of m rankings. *The Annals of Mathematical Statistics, 10*(3), 275–287. https://doi.org/10.1214/aoms/1177732186
+
+**Use:** Kendall's coefficient of concordance W: how far the days agree on the ranking of the activities by minutes (W = 0.42 on five days). The notebook reads W as moderate agreement together with the descriptive tables, the rank correlation between each pair of days and the result with each day left out; with five days the test has little power.
+
+**Status:** citation details from the analysis notebook's reference list; full text not yet reviewed.
+
+**Friedman, M. (1937).** The use of ranks to avoid the assumption of normality implicit in the analysis of variance. *Journal of the American Statistical Association, 32*(200), 675–701. https://doi.org/10.1080/01621459.1937.10503522
+
+**Use:** The significance test of W is the Friedman test on the same ranks (chi-square = 8.48, df = 4, p = 0.075). Its null hypothesis is that the days rank the activities independently, so a significant W would be positive evidence of a shared pattern; a non-significant result does not show that the days differ or are the same.
+
+**Status:** citation details from the analysis notebook's reference list; full text not yet reviewed.
+
+**Lin, J. (1991).** Divergence measures based on the Shannon entropy. *IEEE Transactions on Information Theory, 37*(1), 145–151. https://doi.org/10.1109/18.61115
+
+**Use:** The Jensen-Shannon divergence between the days' activity shares (base 2, from 0 to 1; mean 0.113 over the 10 pairs of days). The notebook builds its reference distribution by shuffling whole case-days between the days; that permutation step cites no source (see the gaps above). The source defines the measure; it does not set a threshold for "different".
+
+**Status:** citation details from the analysis notebook's reference list; full text not yet reviewed.
 
 ### Overall occupational workload
 
@@ -167,35 +197,13 @@ The stored 2006 paper describes the six-activity design-science research process
 
 ## High chance to use
 
-### Saturation assessment for the Measure review
-
-**Guest, G., Namey, E., & Chen, M. (2020).** *A simple method to assess and report thematic saturation in qualitative research*. *PLOS ONE, 15*(5), e0232076. https://doi.org/10.1371/journal.pone.0232076
-
-**Use:** Informed the retrospective saturation assessment of the 9 October notebook version, which counted new note-based labels per later session. Since the rebuild of 12 October on the original codes the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) uses a leave-one-day-out check (section 4.4) instead, so this source is a historical lead unless a saturation argument returns to the thesis. The assessment used a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis.
-
-### Coding the observation notes
-
-The note-based coding of 30 September used an inductive coding rationale. That layer is [archived](../docs/archive/kinds_of_work/README.md) since 12 October; the analysis uses the original observation codes and the agreed stages, so the sources below are historical leads. The source statuses distinguish citation verification, abstract review and full-text review.
-
-**Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
-
-**Use:** Basis for the archived note-based coding of 30 September: in conventional (inductive) content analysis, the categories come from the data instead of a scheme fixed beforehand. Supports that method; it does not validate the 31 labels or their coding, and the current analysis does not use them.
-
-**Status:** citation details still to verify; abstract and full text not yet reviewed.
-
-**Cohen, J. (1960).** *A coefficient of agreement for nominal scales*. *Educational and Psychological Measurement, 20*(1), 37–46. https://doi.org/10.1177/001316446002000104
-
-**Possible use only:** Cohen's kappa would be relevant if the optional recoding exercise is undertaken and its comparison is justified. It is not required for the current targeted review and no agreement statistic is reported as completed. Such a check would not establish independent reliability of the original observation.
-
-**Status:** citation details still to verify; abstract and full text not yet reviewed.
-
 ### AI functions, levels of automation and the buyer's role
 
 Used for the [AI function comparison](../docs/methodology/AI_Function_Comparison_2026-10-02.md) requested on 1 October. Each entry records three separate statuses: citation verified, abstract reviewed and full text reviewed.
 
 **Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000).** *A model for types and levels of human interaction with automation*. *IEEE Transactions on Systems, Man, and Cybernetics – Part A: Systems and Humans, 30*(3), 286–297. https://doi.org/10.1109/3468.844354
 
-**Use:** Framework for the comparison table. It separates which function receives support (information acquisition, information analysis, decision and action selection, action implementation) from how independently the system performs it. A general automation model, not procurement-specific.
+**Use:** Framework for the comparison table. It separates which function receives support (information acquisition, information analysis, decision and action selection, action implementation) from how independently the system performs it. A general automation model, not procurement-specific. Also listed in the selection notebook's reference list (Appendix D).
 
 **Status:** citation verified 2 October 2026 (PubMed record); abstract and full text not yet reviewed.
 
@@ -207,7 +215,7 @@ Used for the [AI function comparison](../docs/methodology/AI_Function_Comparison
 
 **Spreitzenbarth, J. M., Bode, C., & Stuckenschmidt, H. (2024).** *Artificial intelligence and machine learning in purchasing and supply management: A mixed-methods review of the state-of-the-art in literature and practice*. *Journal of Purchasing and Supply Management, 30*(1), 100896. https://doi.org/10.1016/j.pursup.2024.100896
 
-**Use:** Background on procurement AI use cases from 46 studies and 20 expert interviews, and a source of further references. The included studies run from 1989 to 2020, so recent generative AI is not covered.
+**Use:** Background on procurement AI use cases from 46 studies and 20 expert interviews, and a source of further references. The included studies run from 1989 to 2020, so recent generative AI is not covered. Not cited in the comparison table or in another project document (checked 13 October); retained as background for the same section.
 
 **Status:** citation details still to verify; abstract and full text not yet reviewed.
 
@@ -221,47 +229,31 @@ The existing entry for Amershi et al. (2019) under *Human-AI interaction and app
 
 ### Statistics used in the analysis notebook
 
-Sources cited in section 7.2 and Appendix A of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb). Same three statuses as above.
+Sources for the probability-plot fits (section 7.2 and Appendix A) and the two Kruskal-Wallis tests kept after 13 October (7.1, episode lengths by day; 5.4, CHECK minutes per line) of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb). The fits describe the recorded episodes; no later result depends on them. The sources for the activity pattern across days are under Confirmed use. Same three statuses as above.
 
 **Ebeling, C. E. (2019).** *An Introduction to Reliability and Maintainability Engineering* (3rd ed.). Waveland Press.
 
-**Use:** Chapter 13, probability plots and least-squares fitting of the exponential, lognormal and Weibull distributions to the recorded durations. Course textbook.
+**Use:** Chapter 13, probability plots and least-squares fitting of the exponential, lognormal and Weibull distributions to the recorded durations. Course textbook. Cited in *How the analysis is done* and the reference list.
 
 **Status:** citation details still to verify; the chapters used are known from the course.
 
 **Montgomery, D. C., & Runger, G. C. (2014).** *Applied Statistics and Probability for Engineers* (6th ed.). Wiley.
 
-**Use:** Sections 6-7 (probability plots) and 9-7 (comparing observed and expected counts), used descriptively. Course textbook.
+**Use:** Sections 6-7 (probability plots) and 9-7 (comparing observed and expected counts), used descriptively. Course textbook. Cited in *How the analysis is done* and the reference list.
 
-**Status:** citation details still to verify; the sections used are known from the course.
+**Status:** citation details still to verify; the sections used are known from the course. The analysis notebook's reference list gives 2015 for the same edition; settle the year against the book's title page before citing it.
 
 **NIST/SEMATECH.** *e-Handbook of Statistical Methods.* https://www.itl.nist.gov/div898/handbook/
 
-**Use:** The plotting-position and least-squares equations (section 8.2.2.1), and the conditions for a chi-square goodness-of-fit test (section 1.3.5.15), which explain why no p-value is calculated.
+**Use:** The plotting-position and least-squares equations ([section 8.2.2.1](https://www.itl.nist.gov/div898/handbook/apr/section2/apr221.htm)), cited in section 7.2 and the reference list. The notebook's current text does not cite the conditions for a chi-square goodness-of-fit test (section 1.3.5.15): no fit is tested, and the Pearson discrepancy is reported descriptively.
 
 **Status:** web source; cite with the access date.
 
-**Brown, L., Gans, N., Mandelbaum, A., Sakov, A., Shen, H., Zeltyn, S., & Zhao, L. (2005).** *Statistical analysis of a telephone call center: A queueing-science perspective*. *Journal of the American Statistical Association, 100*(469), 36–50. https://doi.org/10.1198/016214504000001808
+**NIST, Kruskal-Wallis method page** ([official method page](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm)) and **SciPy, `scipy.stats.kruskal`** ([official documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kruskal.html)), both accessed 9 October 2026.
 
-**Use:** Step 11 of Appendix A: an example where service times were close to lognormal while a formal test rejected exact lognormality. Supports considering lognormal for task durations, not that Arno's durations follow it.
+**Use:** The independence and equal-distribution assumptions of the Kruskal-Wallis test, and the tie correction with the chi-square reference p-value, for the tests kept in 7.1 and 5.4. Since the 12 October rebuild the notebook's text and reference list no longer cite these pages; the tests are computed in its code cells. Cite them with the access date if the Kruskal-Wallis results are reported in the thesis. They do not establish that the observations meet the test's assumptions, and they are not used for the activity pattern across days (see the 13 October note at the end of this register).
 
-**Status:** citation details still to verify; check the exact statement used in step 11 against the paper before citing it in the thesis.
-
-### Supporting mental-workload operationalization and measurement
-
-**Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
-
-**Use:** Background review retained for traceability; mental-workload measurement is not part of the current study.
-
-### Purchasing automation
-
-**Flechsig, C., Anslinger, F., & Lasch, R. (2022).** *Robotic Process Automation in purchasing and supply management*. https://doi.org/10.1016/j.pursup.2021.100718
-
-**Use:** Direct procurement-automation evidence for evaluating which administrative purchasing activities are suitable for automation.
-
-**Syed, R., Bandara, W., French, E., & Stewart, G. (2020).** *Robotic Process Automation: Contemporary themes and challenges*. https://doi.org/10.1016/j.compind.2019.103162
-
-**Use:** Automation limitations, implementation risks and governance.
+**Status:** web sources; not cited in the current notebook text.
 
 ### Human-AI interaction and appropriate reliance
 
@@ -271,11 +263,13 @@ Sources cited in section 7.2 and Appendix A of the [analysis notebook](../Arno_A
 
 **Amershi, S., Weld, D., Vorvoreanu, M., et al. (2019).** *Guidelines for Human-AI Interaction*. PDF stored as `open-access/03-guidelines-human-ai-interaction.pdf`. https://doi.org/10.1145/3290605.3300233
 
-**Use:** Design principles for feedback, control, correction and failures in an AI-supported interface.
+**Use:** Design principles for feedback, control, correction and failures in an AI-supported interface. Cited in the AI function comparison (row 10).
 
 **Bansal, G., Nushi, B., Kamar, E., Horvitz, E., & Weld, D. S. (2021).** *Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance*. PDF stored as `open-access/02-human-ai-complementary-team-performance.pdf`. https://doi.org/10.1145/3411764.3445717
 
 **Use:** Relevant if evaluation examines the performance of a buyer–AI team. It is **not** used as the generic definition of purchasing quality; ISO 9000 provides that broader quality anchor.
+
+*13 October:* Schemmer et al. and Bansal et al. are not cited in a project document yet. They stay here because the provisional focal case is a reading, matching and flagging aid whose output Arno accepts, corrects or rejects (selection notebook, section 6), and because quality is predeclared to be measured on the final human-approved outcome (methodology, section 6.1).
 
 ---
 
@@ -291,7 +285,7 @@ Candidate-specific sources for rows of the [AI function comparison](../docs/meth
 
 **Tater et al. (2022).** *AI driven accounts payable transformation*. *Proceedings of the AAAI Conference on Artificial Intelligence, 36*(11), 12405–12413. https://doi.org/10.1609/aaai.v36i11.21506
 
-**Use if needed:** Precedent for comparing documents and flagging discrepancies: invoice lines are matched to PO lines using text similarity, price and quantity checks, with human review. Accounts-payable setting, so price checks before ordering or against supplier confirmations need adaptation and testing.
+**Use if needed:** Precedent for comparing documents and flagging discrepancies: invoice lines are matched to PO lines using text similarity, price and quantity checks, with human review. Accounts-payable setting, so price checks before ordering or against supplier confirmations need adaptation and testing. Also listed in the selection notebook's reference list (Appendix D).
 
 **Status:** citation verified 2 October 2026 (AAAI proceedings record; complete the author list from it); abstract and full text not yet reviewed.
 
@@ -310,6 +304,34 @@ Candidate-specific sources for rows of the [AI function comparison](../docs/meth
 **Hart, S. G. (2006).** *NASA-Task Load Index (NASA-TLX); 20 years later*. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 50*(9), 904–908. https://doi.org/10.1177/154193120605000909
 
 **Use:** Historical candidate instrument, retained as background. The current Plan of Work does not include a NASA-TLX or other mental-workload assessment.
+
+### Agreement statistic for the optional recoding
+
+**Cohen, J. (1960).** *A coefficient of agreement for nominal scales*. *Educational and Psychological Measurement, 20*(1), 37–46. https://doi.org/10.1177/001316446002000104
+
+**Possible use only:** Cohen's kappa would be relevant if the optional recoding exercise is undertaken and its comparison is justified. It is not required for the current targeted review and no agreement statistic is reported as completed. Such a check would not establish independent reliability of the original observation. The [methodology](../docs/methodology/Phase_1_Current_Methodology.md#7-current-remaining-actions-reviewed-9-october-2026) still lists the retained 45-record recoding sheet and κ as optional, not completion gates; no project document cites this source by name. Moved here from *High chance to use* on 13 October.
+
+**Status:** citation details still to verify; abstract and full text not yet reviewed.
+
+### Duration distributions
+
+**Brown, L., Gans, N., Mandelbaum, A., Sakov, A., Shen, H., Zeltyn, S., & Zhao, L. (2005).** *Statistical analysis of a telephone call center: A queueing-science perspective*. *Journal of the American Statistical Association, 100*(469), 36–50. https://doi.org/10.1198/016214504000001808
+
+**Use if needed:** An example where service times were close to lognormal while a formal test rejected exact lognormality. It would support considering the lognormal for task durations if the thesis discusses the duration fits of section 7.2, not that Arno's durations follow it. The analysis notebook has not cited it since 9 October; the "step 11 of Appendix A" it supported no longer exists (Appendix A now holds the tie-handling and leave-one-day-out refits). Moved here from *High chance to use* on 13 October.
+
+**Status:** citation details still to verify; check the exact statement used against the paper before citing it in the thesis.
+
+### Purchasing automation
+
+**Flechsig, C., Anslinger, F., & Lasch, R. (2022).** *Robotic Process Automation in purchasing and supply management*. https://doi.org/10.1016/j.pursup.2021.100718
+
+**Use:** Direct procurement-automation evidence for evaluating which administrative purchasing activities are suitable for automation.
+
+**Syed, R., Bandara, W., French, E., & Stewart, G. (2020).** *Robotic Process Automation: Contemporary themes and challenges*. https://doi.org/10.1016/j.compind.2019.103162
+
+**Use:** Automation limitations, implementation risks and governance.
+
+*13 October:* no project document cites these two sources. They would support the gate-6 comparison of AI with simpler automation and the quick-win recommendation for PO supplier communication (selection notebook, section 2) if the thesis makes that argument. Moved here from *High chance to use*.
 
 ### Supply monitoring and exception handling
 
@@ -361,6 +383,24 @@ Candidate-specific sources for rows of the [AI function comparison](../docs/meth
 
 **Use:** Historical background on mental workload. The current project does not assess this construct. The active workload framework follows the amount/difficulty distinction in `docs/methodology/Workload_Definition.md`.
 
+**Longo, L., Wickens, C. D., Hancock, G., & Hancock, P. A. (2022).** *Human mental workload: A survey and a novel inclusive definition*. *Frontiers in Psychology, 13*, 883321. https://doi.org/10.3389/fpsyg.2022.883321
+
+**Use:** Background review retained for traceability; mental-workload measurement is not part of the current study. No project document cites it. Moved here from *High chance to use* on 13 October.
+
+### Note-based coding and saturation, archived 12 October
+
+The note-based coding of 30 September used an inductive coding rationale. That layer is [archived](../docs/archive/kinds_of_work/README.md) since 12 October; the analysis uses the original observation codes and the agreed stages, so the sources below are historical leads. The source statuses distinguish citation verification, abstract review and full-text review. Moved here from *High chance to use* on 13 October.
+
+**Hsieh, H.-F., & Shannon, S. E. (2005).** *Three approaches to qualitative content analysis*. *Qualitative Health Research, 15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
+
+**Use:** Basis for the archived note-based coding of 30 September: in conventional (inductive) content analysis, the categories come from the data instead of a scheme fixed beforehand. Supports that method; it does not validate the 31 labels or their coding, and the current analysis does not use them. The [measurement-method justification](../docs/measurement/Measurement_Method_Justification.md) still cites it (section 2.1 and the thesis-ready method statement) for that archived layer.
+
+**Status:** citation details still to verify; abstract and full text not yet reviewed.
+
+**Guest, G., Namey, E., & Chen, M. (2020).** *A simple method to assess and report thematic saturation in qualitative research*. *PLOS ONE, 15*(5), e0232076. https://doi.org/10.1371/journal.pone.0232076
+
+**Use:** Informed the retrospective saturation assessment of the 9 October notebook version, which counted new note-based labels per later session. Since the rebuild of 12 October on the original codes the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) uses a leave-one-day-out check (section 4.4) instead, so this source is a historical lead unless a saturation argument returns to the thesis. The assessment used a base set, a run of later sessions and the share of new information in that run. The authors tested bases of 4–6 interviews with runs of 2–3 and call 5% new information an optional benchmark; applying base and run sizes to observation days is this project's adaptation, used retrospectively, not a validated stopping rule. Open access; the full text still has to be read before it is cited in the thesis. No project document cites it since 12 October.
+
 ---
 
 ## Copyright and access note
@@ -368,11 +408,6 @@ Candidate-specific sources for rows of the [AI function comparison](../docs/meth
 Only public, open-access or author-posted PDFs are stored in this repository. Publisher-restricted articles and standards are represented by DOI or official links and are not copied into the repository.
 
 
-## 9 October: day-pattern method references
+## 13 October: day-pattern method references
 
-| Source | Verified use in this revision | Boundary |
-|---|---|---|
-| [NIST, Kruskal-Wallis](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm), official method page, accessed 9 October 2026 | Independence/random sampling requirements and the equal-distribution null; analysis sections 7.1 and 5.4 | Does not establish that the BEP observations meet those assumptions |
-| [SciPy, scipy.stats.kruskal](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kruskal.html), official documentation, accessed 9 October 2026 | Tie correction and chi-square reference p-value used for the exploratory episode-duration calculation | Implementation documentation, not a validation of daily-composition testing |
-
-The choice not to apply Kruskal-Wallis to the percentage cells follows the structure of this dataset: category values are dependent components, and ranking the numerical percentages discards activity identity. That is a methodological assessment of this analysis, not a claim that the sources studied Hytech-Pommec.
+The 9 October table of Kruskal-Wallis references that stood here is replaced by this note. On 13 October Zhongxin chose Kendall's W, with the Friedman test on the same ranks, for the activity pattern across the observation days, and asked for the Jensen-Shannon divergence between the days' shares; the Kruskal-Wallis test named on 8 October is kept only for episode lengths by day (section 7.1) and CHECK minutes per line (5.4). The sources for the new tests are Kendall & Babington Smith (1939), Friedman (1937) and Lin (1991), under Confirmed use; the Kruskal-Wallis method page and the SciPy documentation (accessed 9 October) are listed under *Statistics used in the analysis notebook* and are no longer cited in the notebook. The reasons for not applying Kruskal-Wallis or a chi-square test of homogeneity to the activity-by-day table (the activity minutes of a day are parts of the same day's total; minutes are not independent counts) are the notebook's methodological assessment in section 4.3, not a claim that these sources studied Hytech-Pommec. Whether the Kruskal-Wallis results are reported as supplementary is open until Zhongxin reads the update; the 15 October meeting is cancelled.
