@@ -8,7 +8,6 @@ Use `main` for the consolidated project. Read the **[current status and reading 
 
 - [Arno analysis notebook](Arno_Analysis_2026_10_02.ipynb): exploratory workload evidence and limitations.
 - [Focal-case selection notebook](Focal_Case_Selection_2026-10-07.ipynb): provisional comparison, gates and sensitivity analysis.
-- [Analyze conclusion outline](docs/analyze/Analyze_Conclusion_Outline_2026-10-07.md): evidence-to-selection argument and open conditions.
 - [Research questions and assignment](docs/proposal/BEP_Assignment_1BEPIEX.md): the main question and five sub-questions from the submitted Plan of Work.
 - [Methodology](docs/methodology/Phase_1_Current_Methodology.md): analysis, selection and later evaluation rules.
 - [Purchasing activity framework](docs/process/Purchasing_Activity_Framework_2026-09-21.md): how the seven live families, task register, analytical activities and Van Weele stages connect.

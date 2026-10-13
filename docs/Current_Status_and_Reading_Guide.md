@@ -6,7 +6,7 @@
 
 Define and Measure are done. Analyze is computed but not closed. **Order and confirmation checking is the leading candidate, not an approved choice.** The comparison is provisional until three human inputs arrive; work on the first began on 13 October, and the other two have not moved since 7 October:
 
-1. **The Exact test account (PC1 to PC4):** paired POs and confirmations or quotations, and a traceable approved price per line. Without them gates 2 and 3 stay open. *13 October, provisional:* 10 of 21 sampled October 2025 POs have a supplier confirmation attached; no quotation was seen on the 9 completed POs checked for one; invoices and PO versions give a route to the approved price in some cases ([Stage A worksheet](analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx)).
+1. **The Exact test account (PC1 to PC4):** paired POs and confirmations or quotations, and a traceable approved price per line. Without them gates 2 and 3 stay open. *13 October, provisional:* 10 of 21 sampled October 2025 POs have a supplier confirmation attached; no quotation was seen on the 9 completed POs checked for one; invoices and PO versions give a route to the approved price in some cases ([design draft, section 6](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#6-draft-logical-field-map)).
 2. **Arno:** what a check compares, where the trusted price comes from, which support he accepts, and who takes part in the evaluation given his leave from the end of October.
 3. **Zhongxin:** review of the criteria and anchors, and the weights (her own swings or a review of Yijie's).
 
@@ -34,9 +34,9 @@ Read interpretation paragraphs and tables first; inspect code when a calculation
 | 4 | Same notebook, parts 5 to 7 | CHECK by stage, day and note, per line and the test on the rates (5.1 to 5.4); case flow (6); episode durations, Kruskal-Wallis and the three fitted curves (7.1, 7.2) |
 | 5 | Same notebook, parts 8 and 9; [stage review](measurement/Stage_Review_2026-10-12.md) | The six candidate areas on the raw definitions; the conclusion and what goes to the selection; the record of how every stage was assigned |
 | 6 | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb): executive summary and sections 1 to 6 | The provisional decision and the *Where to read* table; the gates, the criteria and anchors, Yijie's provisional weights, the scores with their raw evidence, the sensitivity checks and the four conditions |
-| 7 | [Supervisor update](analyze/Supervisor_Update_2026-10-15.md); [Analyze outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md) | What goes to Zhongxin on 15 October and how the Analyze chapter will argue |
+| 7 | [Supervisor update](analyze/Supervisor_Update_2026-10-15.md) | What goes to Zhongxin: the criteria, her day-share table, why checking leads, and the questions |
 
-Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md) (priority walkthrough) and the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md), sections 1 to 3 and 8 to 9.
+No separate session with Arno is planned (13 October): what is still needed is asked in passing during the observation days. The [session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md) and the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md), sections 1 to 3 and 8 to 9, hold the questions.
 
 ## 4. Follow-up of the 1 and 8 October meetings
 
@@ -52,7 +52,7 @@ Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Sess
 | Compare CHECK per order line, then reassess 18 September | Analysis notebook, 5.3, 5.4 and 4.4 | 0.90 against 0.83 minutes per line (p = 0.42); without 18 September the CHECK share falls from 16.2% to 8.3% |
 | Fallback evaluation on test workloads with handling time from an observed pattern | Analysis notebook, 5.3 | The observed time per line is too imprecise for a baseline; a test needs its own timed checks |
 | Compare AI task categories from the literature with what the buyers accept | [AI function comparison](methodology/AI_Function_Comparison_2026-10-02.md) | Table prepared; the buyers' acceptance is still to be asked |
-| Draft the thesis alongside the work | [Analyze outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md) | Drafted |
+| Draft the thesis alongside the work | Analysis notebook, 4.3 and 9; selection notebook, executive summary | The Analyze argument and the thesis wording for the day-pattern test are kept in the notebooks; the separate outline was dropped on 13 October |
 
 **Requests of 8 October**
 
@@ -83,11 +83,11 @@ Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Sess
 
 | When | What | Where to work |
 |---|---|---|
-| 13 to 14 October | Exact test-account checks PC1 to PC4 (PC2 sample done 13 October; repeat on an earlier, complete month) | [Stage A worksheet](analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx) |
+| 13 October, done | First Exact test-account check: a confirmation attached to 10 of 21 sampled POs, no quotation on the 9 completed POs checked, a price route through invoices and PO versions; repeat on an earlier, complete month when the evaluation set is built | [Design draft, section 6](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#6-draft-logical-field-map) |
 | 14 and 16 October | Two more observation days with Arno (protocol v1.3, morning and afternoon block); register, stages and a rerun of both notebooks on seven days | [Measurement protocol](measurement/Measurement_Protocol_v1.3.md); [stage review](measurement/Stage_Review_2026-10-12.md) |
 | From 15 October | The 15 October meeting is cancelled; Zhongxin reads the update and the notebooks when she has time, including the criteria and the weights procedure | [Supervisor update](analyze/Supervisor_Update_2026-10-15.md) |
-| 19 to 20 October | Arno: written confirmation or short session; settle the evaluation participant | [Session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), priority walkthrough |
-| 22 October | Focal-case alignment: Johan's business value, final weights, rerun of the totals and the Analyze conclusion | Selection notebook; [Analyze outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md) |
+| 14 and 16 October | No separate Arno session: anything still needed (who takes part in the evaluation during his leave; which differences count as critical) is asked in passing during the observation days | [Session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), part D |
+| 22 October | Focal-case alignment: Johan's business value, final weights, rerun of the totals and the Analyze conclusion | Selection notebook |
 | Before 29 October | Evaluation protocol drafted and sent for agreement | [Design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md), section 8 |
 
 If labels or stages change again, update the CSVs, note the new commit in the loading cells of both notebooks and rerun them (the cells compare the SHA-256 of each CSV with the typed hash).

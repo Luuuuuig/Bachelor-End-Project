@@ -19,7 +19,7 @@ Planned windows are read from the Plan of Work figures and are accurate to about
 | Improve: demonstration and refinement | about 17 – 22 November | |
 | Comparative evaluation and results | about 24 November – 13 December | |
 | Risks, safeguards and company handover | about 3 November – 7 January | |
-| Thesis writing | 2 September – 20 December, then the final report | Analyze outline drafted ([outline](analyze/Analyze_Conclusion_Outline_2026-10-07.md)); writing continues alongside the research |
+| Thesis writing | 2 September – 20 December, then the final report | Writing continues alongside the research; the Analyze argument is kept in the two notebooks (the separate outline was dropped on 13 October) |
 
 **Risk to the schedule.** The 8 October meeting did not select a focal task or confirm the next meeting date. A 15 October discussion is only a proposed next-week planning point. Each delay in data/reference and buyer checks reduces the remaining Improve window. The 29 October and early-November supervision meetings are cancelled ([1 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)), so the requirements and evaluation protocol should be agreed before 29 October.
 

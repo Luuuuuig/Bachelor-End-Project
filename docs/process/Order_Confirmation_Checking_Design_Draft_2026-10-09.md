@@ -91,7 +91,9 @@ This is an architecture hypothesis, not evidence that AI is necessary or effecti
 
 ## 6. Draft logical field map
 
-These are proposed research fields, not confirmed Exact database/API names. Preserve raw values alongside normalized comparison values. Establish availability through the [Stage A worksheet](../analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx), starting with the relevant PC checks.
+These are proposed research fields, not confirmed Exact database/API names. Preserve raw values alongside normalized comparison values. Establish availability in the Exact test account before the fields are fixed.
+
+**First check of the test account, 13 October (provisional).** A systematic sample of 21 purchase orders from October 2025, the last month in the copy (every 10th PO of a list of 207): a supplier confirmation is attached to 10 of the 21 (5 of 12 open, 5 of 9 completed POs; 95% interval about 28% to 68%); 10 of 21 carry two or three PO PDFs; no quotation was seen on the 9 completed POs checked for one; the attachment mark and the document type do not identify a confirmation (confirmations and packing slips share the type "Purchase quotation"; only the subject tells them apart); the "Bevestigd" status agrees with a stored confirmation on 7 of 9 completed POs. Price: in one case the second PO version matches the confirmation where the first did not; in one invoiced case the invoice is about 11% below the PO (a line discount) and Exact's own invoice-matching check recorded the deviation; 19 of the 48 completed, invoiced October POs differ from their order total by more than 1% (header totals; freight and surcharges also cause such gaps). Consequences: each confirmation must be linked to the PO version it answers; the final PO version is the outcome of the manual check and cannot serve as the reference; the evaluation set is drawn from an earlier, complete month, because the October follow-up is cut off in the copy; stored PO-confirmation pairs are a selected subset (attaching depends on the buyer), to be reported as a limit.
 
 | Field group | Proposed fields, if available | Needed rule or open issue |
 |---|---|---|
@@ -121,8 +123,8 @@ This prepares the evaluation protocol under [methodology section 6.1](../methodo
 | Element | Candidate-specific draft | What remains open |
 |---|---|---|
 | Comparison | Manual versus assisted checking by Arno with the same required final outcome | Select pre-release, post-confirmation or separately reported strata; define complete-case start/end |
-| Cases | Linked historical PO/source documents with reference answers; normal, discrepancy and ambiguous examples | Accessible pool, formats, line counts and coverage; record exclusions without claiming population representativeness |
-| Reference answer | Separate document content, correct line matches/differences and accepted business disposition | Named reviewer/adjudicator, applicable terms and disagreement resolution; stored price/prior action alone is insufficient |
+| Cases | Linked historical PO/source documents with reference answers; normal, discrepancy and ambiguous examples; each confirmation paired with the PO version it answers (13 October: two or three PO versions on 10 of 21 sampled POs) | Accessible pool, formats, line counts and coverage; sample complete months, not October 2025; record exclusions without claiming population representativeness |
+| Reference answer | Separate document content, correct line matches/differences and accepted business disposition; later PO versions and invoices are candidate labels for the accepted action, not the reference | Named reviewer/adjudicator, applicable terms and disagreement resolution; stored price/prior action alone is insufficient |
 | Candidate workload endpoint | Active human handling time per eligible case, if justified; line count/complexity as context | Confirm workload dimension. Include retrieval, setup, review, correction, rework and required handoff; separate passive waits/unrelated interruptions |
 | Other affected work | Dennis/other employee reference preparation, clarification and review reported separately | Participants and changed responsibilities; lower Arno time cannot conceal transferred work |
 | Quality | Final human-approved outcomes against reference; extraction/matching errors, misses and false flags as diagnostics | Critical/minor definitions and denominators. Wrong item/quantity acceptance or unjustified price correction are discussion examples, not approved classifications |
@@ -135,7 +137,7 @@ This prepares the evaluation protocol under [methodology section 6.1](../methodo
 
 ## 9. Inputs needed to agree the design
 
-1. Complete candidate-specific data/reference checks in the Stage A worksheet: readable linked examples and whether a defensible reference can be created.
+1. Complete the data and reference checks in the test account (first sample 13 October, section 6): readable linked examples from a complete month and whether a defensible reference can be created.
 2. Use the [focused Arno guide](../measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md#priority-case-walkthrough-added-9-october) to resolve accepted controls and support; carry forward the reported objection to automatic creation/sending.
 3. Resolve only consequential Dennis/source-owner gaps from section 2. Existing evidence supports qualitative business relevance; quantify impact if making a financial claim.
 4. Agree the focal boundary, relevant criteria and weights with Zhongxin through the selection workflow. A high provisional score cannot override failed gates.

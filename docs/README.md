@@ -12,7 +12,7 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 | Current objective, scope and five submitted sub-questions | [Readable BEP assignment](proposal/BEP_Assignment_1BEPIEX.md) | Current project definition |
 | Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis on the original codes and agreed stages: coverage, codes and stages by day, CHECK per line, case flow, episode durations, candidate evidence |
 | Provisional focal case and its conditions | [Focal-case selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) | Self-contained: the findings it starts from, the method and its literature, Stage A gates, weights, scores with evidence, sensitivity and conditions |
-| Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Supervisor update, weights record, gate worksheet and conclusion outline |
+| Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Supervisor update and weights record |
 | Scope, outcome structure and phase gates | [Project charter](Project_Charter.md) | Stable project-control decisions |
 | Deadlines and progress against the plan | [Project timeline](Project_Timeline.md) | Plan of Work Gantt compared with actual progress; planned dates are targets, not proof of completion |
 | Selection and evaluation method | [Current methodology](methodology/Phase_1_Current_Methodology.md) | DMAIC/DSRM, candidate boundaries and research rules |

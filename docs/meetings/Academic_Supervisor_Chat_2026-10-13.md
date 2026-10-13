@@ -14,7 +14,7 @@
 1. **Why Kendall's W, and not other tests (including Kruskal-Wallis).**
 2. **Why this data table**, in the data-preprocessing or data-preparation section.
 
-Draft wording for both is in the [Analyze outline, section 11](../analyze/Analyze_Conclusion_Outline_2026-10-07.md#11-to-write-into-the-thesis-zhongxin-13-october).
+The wording for both is in the analysis notebook, section 4.3.
 
 ## Course of the chat
 

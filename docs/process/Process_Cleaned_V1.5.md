@@ -496,7 +496,7 @@ The AS-IS process is no longer observation-only.
 
 - **Buyer walkthrough:** completed on 21 August; important workflow sequencing was corrected/confirmed.
 - **Formal-document review:** purchasing and supplier-control SOP package received and analysed on 21 August.
-- **System/data validation:** still incomplete; Exact/Orbis data availability, `Advies` logic and some status/routing details remain open. *(7 October: the Exact test-account check is prepared in the [Stage A worksheet](../analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx).)*
+- **System/data validation:** still incomplete; Exact/Orbis data availability, `Advies` logic and some status/routing details remain open. *(13 October: a first check of the Exact test account found a supplier confirmation attached to 10 of 21 sampled October 2025 purchase orders; see the [design draft, section 6](Order_Confirmation_Checking_Design_Draft_2026-10-09.md#6-draft-logical-field-map).)*
 - **Quantitative baseline:** still incomplete; representative frequencies and active processing times remain to be established. *(7 October: five Arno sessions are analysed in the [analysis notebook](../../Arno_Analysis_2026_10_02.ipynb); the data describe where the recorded time goes but do not set a time standard.)*
 
 ---

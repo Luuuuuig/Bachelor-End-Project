@@ -12,7 +12,7 @@
 
 ## Priority case walkthrough, added 9 October
 
-**Bring:** one linked PO and quotation/confirmation without a known discrepancy, and one with a known discrepancy or unresolved field, if such examples are available through the permitted test-account route. If matching examples cannot be retrieved, record exactly what is missing. The [Stage A worksheet](../analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx) records data availability and reference feasibility; this guide records buyer explanations and acceptance. Do not enter a planned check as a passed check.
+**Bring:** one linked PO and quotation/confirmation without a known discrepancy, and one with a known discrepancy or unresolved field, if such examples are available through the permitted test-account route. If matching examples cannot be retrieved, record exactly what is missing. The [design draft, section 6](../process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#6-draft-logical-field-map) records data availability and reference feasibility; this guide records buyer explanations and acceptance. Do not enter a planned check as a passed check.
 
 Use about 35–40 minutes for the following, then stop or use the older prompts only for a consequential gap. No full extra observation day is needed for this conversation. **Shorter option:** Yijie prefers to avoid a full session; if Zhongxin agrees that a short written confirmation is enough (question 5 in the [reading guide](../Current_Status_and_Reading_Guide.md#5-questions-for-zhongxin-15-october)), ask only rows 1, 2 and 4 by message.
 
@@ -138,7 +138,7 @@ Explain that any new timing or formal evaluation will use a separately agreed pr
 
 ## After the session
 
-- Complete the focused-session record and relevant Stage A worksheet evidence. Keep data retrieval evidence, buyer statements and design proposals distinguishable.
+- Complete the record of what Arno confirmed in passing and the test-account evidence (design draft, section 6). Keep data retrieval evidence, buyer statements and design proposals distinguishable.
 - Update the [design draft](../process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) only where an answer supports a change; retain unknown fields and pending acceptance. Record additional effort for Dennis separately from Arno's effort.
 - Record Arno's check of each explanation in Appendix 1, with the date and his words. The archived causes draft is not updated.
 - Copy the acceptance answers from Appendix 2 into the [AI function table](../methodology/AI_Function_Comparison_2026-10-02.md#recording-the-answers).
