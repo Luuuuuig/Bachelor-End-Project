@@ -32,7 +32,7 @@ Hu accepted the small absolute difference in CHECK handling time discussed, whil
 
 - Hu proposed comparing patterns across the observation days using a table with **days as columns**, **activity categories as rows**, and **each activity's share of observed time as the cell values**. Hu specified proportions rather than raw durations.
 - The proposed comparison concerned the overall activity pattern across days, rather than CHECK alone.
-- Near the end of the meeting, Hu shared a table of statistical methods and identified the **Kruskal-Wallis test**, in the category for nonparametric comparisons across multiple groups, as the method to investigate.
+- Near the end of the meeting, Hu shared a table of statistical methods and identified the **Kruskal-Wallis test**, in the category for nonparametric comparisons across multiple groups, as the method to investigate. *Correction, 13 October: Hu agreed she had named the wrong test; for the activity pattern across days the test is Kendall's W ([chat record](Academic_Supervisor_Chat_2026-10-13.md)).*
 - Yijie agreed to work on this analysis during the coming week. The meeting did not establish the detailed test setup, a significance threshold, or a test result.
 - Hu advised analysing the existing data first and avoiding further observations if the distribution did not appear very unusual. This remained conditional guidance, not confirmation that data collection was complete.
 
