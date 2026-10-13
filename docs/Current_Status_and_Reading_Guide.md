@@ -4,9 +4,9 @@
 
 ## 1. Where the project stands
 
-Define and Measure are done. Analyze is computed but not closed. **Order and confirmation checking is the leading candidate, not an approved choice.** The comparison is provisional until three human inputs arrive, none of which has moved since 7 October:
+Define and Measure are done. Analyze is computed but not closed. **Order and confirmation checking is the leading candidate, not an approved choice.** The comparison is provisional until three human inputs arrive; work on the first began on 13 October, and the other two have not moved since 7 October:
 
-1. **The Exact test account (PC1 to PC4):** paired POs and confirmations or quotations, and a traceable approved price per line. Without them gates 2 and 3 stay open.
+1. **The Exact test account (PC1 to PC4):** paired POs and confirmations or quotations, and a traceable approved price per line. Without them gates 2 and 3 stay open. *13 October, provisional:* 10 of 21 sampled October 2025 POs have a supplier confirmation attached; no quotation was seen on the 9 completed POs checked for one; invoices and PO versions give a route to the approved price in some cases ([Stage A worksheet](analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx)).
 2. **Arno:** what a check compares, where the trusted price comes from, which support he accepts, and who takes part in the evaluation given his leave from the end of October.
 3. **Zhongxin:** review of the criteria and anchors, and the weights (her own swings or a review of Yijie's).
 
@@ -83,7 +83,7 @@ Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Sess
 
 | When | What | Where to work |
 |---|---|---|
-| 13 to 14 October | Exact test-account checks PC1 to PC4 | [Stage A worksheet](analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx) |
+| 13 to 14 October | Exact test-account checks PC1 to PC4 (PC2 sample done 13 October; repeat on an earlier, complete month) | [Stage A worksheet](analyze/Stage_A_Test_Account_Check_2026-10-07.xlsx) |
 | 14 and 16 October | Two more observation days with Arno (protocol v1.3, morning and afternoon block); register, stages and a rerun of both notebooks on seven days | [Measurement protocol](measurement/Measurement_Protocol_v1.3.md); [stage review](measurement/Stage_Review_2026-10-12.md) |
 | From 15 October | The 15 October meeting is cancelled; Zhongxin reads the update and the notebooks when she has time, including the criteria and the weights procedure | [Supervisor update](analyze/Supervisor_Update_2026-10-15.md) |
 | 19 to 20 October | Arno: written confirmation or short session; settle the evaluation participant | [Session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), priority walkthrough |

@@ -48,7 +48,7 @@ The daily mix varies: CLAR is largest on 31 August and 23 September, PO on 1 and
 
 With Yijie's provisional weights the totals are 76.2 for checking, 56.8 for article/supplier data, 51.9 for maximalisatie and 50.8 for request intake (57.8 if the whole Specification stage counted for it). Checking leads every single-change check; six combined one-point changes within the recorded ranges would put article/supplier data ahead.
 
-**Limits.** 57 of the 91 CHECK minutes fall on 18 September; one buyer, five partial sessions; a price or delivery date is recorded in the note for 33 of the 91 minutes, an unspecified mismatch for 20, and nothing specific for 38; no test-account check has been made yet. **Fallbacks:** (a) confirmation-against-PO checking only (the Monitoring part, 54 minutes); (b) article/supplier data in Exact (43 minutes), the runner-up.
+**Limits.** 57 of the 91 CHECK minutes fall on 18 September; one buyer, five partial sessions; a price or delivery date is recorded in the note for 33 of the 91 minutes, an unspecified mismatch for 20, and nothing specific for 38; a first test-account sample (13 October, provisional) found a supplier confirmation attached to 10 of 21 October 2025 POs and no quotation on the 9 completed POs checked for one; October 2025 is the last month in the copy, so the check will be repeated on an earlier, complete month. **Fallbacks:** (a) confirmation-against-PO checking only (the Monitoring part, 54 minutes); (b) article/supplier data in Exact (43 minutes), the runner-up.
 
 ## 4. The weights
 
