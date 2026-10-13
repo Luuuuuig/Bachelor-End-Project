@@ -5,7 +5,7 @@
 ## What changed since 8 October
 
 - The analysis was rebuilt on 12 October on the original observation codes (PO, CLAR, CHECK, SEND, OTHER, REQ, DEC) and the agreed purchasing stage of each record. The later note-based labels (kinds of work) are archived and no longer used. The data are unchanged: five sessions, 892 observed minutes, 742 recorded minutes, 560 in the improvement scope.
-- Your table of activity shares by day, the Kruskal-Wallis test and the corrected CHECK-per-line comparison are in the analysis notebook (sections 4.3, 7.1 and 5.4, 5.3).
+- Your table of activity shares by day with Kendall's W on it, the Kruskal-Wallis tests and the corrected CHECK-per-line comparison are in the analysis notebook (sections 4.3, 7.1 and 5.4, 5.3).
 - The selection method is unchanged. Its evidence now comes from the raw codes; no score changed and two uncertainty ranges widened. Everything in the selection remains provisional until your review.
 
 ## 1. The criteria
@@ -34,7 +34,7 @@ Share of each day's in-scope recorded minutes (%). The columns add up to 100 exc
 | SEND | 15.2 | 14.6 | 20.0 | 9.4 | 8.4 | 8.4 to 20.0 |
 | OTHER | 10.1 | 12.2 | 34.3 | 6.0 | 16.0 | 6.0 to 34.3 |
 
-The daily mix varies: CLAR is largest on 31 August and 23 September, PO on 1 and 8 September, CHECK on 18 September, when 57 of its 91 minutes were recorded. With 18 September left out, CHECK falls from 16.2% to 8.3% of the improvement minutes; PO and CLAR stay the two largest codes with any day left out (section 4.4). The Kruskal-Wallis test on episode lengths by day gives H = 2.76, p = 0.60 (182 in-scope episodes); on CHECK minutes per line, 18 September against the other days, H = 0.66, p = 0.42. Neither test establishes equal days or a stable activity mix. The corrected CHECK-per-line comparison is 0.90 minutes per line on 18 September against 0.83 on the other days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds I quoted on 8 October.
+The daily mix varies: CLAR is largest on 31 August and 23 September, PO on 1 and 8 September, CHECK on 18 September, when 57 of its 91 minutes were recorded. With 18 September left out, CHECK falls from 16.2% to 8.3% of the improvement minutes; PO and CLAR stay the two largest codes with any day left out (section 4.4). Kendall's W on the same table gives W = 0.42, p = 0.075: the days agree moderately on the order of the activities, with 8 and 18 September deviating (section 4.3). The Kruskal-Wallis test on episode lengths by day, which measures how fragmented the work is, gives H = 2.76, p = 0.60 (182 in-scope episodes); on CHECK minutes per line, 18 September against the other days, H = 0.66, p = 0.42. A non-significant result does not establish equal days. The corrected CHECK-per-line comparison is 0.90 minutes per line on 18 September against 0.83 on the other days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds I quoted on 8 October.
 
 ## 3. Why order and confirmation checking leads, on the raw codes
 
@@ -62,7 +62,7 @@ Until one of these is done, the ranking above is a provisional scenario, not the
 ## 5. Questions for you
 
 1. **Sufficiency.** Do you agree that no further general observation day is needed for the provisional selection, given that 18 September changes the CHECK share but not the ranking of PO and CLAR? Which targeted checks do you want before Arno's leave at the end of October?
-2. **Kruskal-Wallis.** The tests detect no clear rank difference under their assumptions. Can we treat them as supplementary and use the descriptive table to judge the daily pattern?
+2. **The tests.** Kendall's W reads the daily pattern as moderate agreement (W = 0.42, p = 0.075); the Kruskal-Wallis tests on episode lengths and CHECK per line detect no clear difference. Can we report W as moderate agreement and treat the Kruskal-Wallis results as supplementary?
 3. **Criteria and weights.** Are the seven criteria distinct enough? Option A or option B for the weights?
 4. **CHECK per line.** The corrected comparison is 0.90 against 0.83 minutes per line. Does your conclusion of 8 October still hold?
 5. **Arno.** Is a short written confirmation enough (what a check compares, where the trusted price comes from, which support he accepts) instead of a full session?

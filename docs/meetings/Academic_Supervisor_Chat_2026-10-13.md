@@ -19,7 +19,7 @@ Kendall's W on the in-scope minutes per activity and day (PO, CLAR, CHECK, SEND,
 | Measure | Value |
 |---|---|
 | Kendall's W | 0.42 |
-| Friedman chi-square | 8.48, df = 4, p = 0.076 (permutation p = 0.066) |
+| Friedman chi-square | 8.48, df = 4, p = 0.075 (permutation p = 0.066) |
 | Mean pairwise Spearman correlation between days | 0.28 |
 | Mean correlation of each day with the other four | 31 Aug 0.48, 1 Sep 0.52, 8 Sep 0.08, 18 Sep −0.12, 23 Sep 0.45 |
 | Leave one day out | without 31 Aug W = 0.36 (p = 0.22); 1 Sep 0.34 (0.25); 8 Sep 0.56 (0.06); 18 Sep 0.66 (0.03); 23 Sep 0.38 (0.20) |

@@ -30,7 +30,7 @@ Read interpretation paragraphs and tables first; inspect code when a calculation
 |---|---|---|
 | 1 | [Assignment](proposal/BEP_Assignment_1BEPIEX.md); [methodology](methodology/Phase_1_Current_Methodology.md), sections 2 and 3 | Arno's outcome, Dennis's role, the five sub-questions, and why handling time is one indicator rather than the definition of workload |
 | 2 | [Analysis notebook](../Arno_Analysis_2026_10_02.ipynb): executive summary (with the *Where to read* table) and "How the analysis is done"; parts 1 to 3 | The main results, the data, the one exclusion, the scope rule and the coverage per day |
-| 3 | Same notebook, part 4 | Codes and stages (4.1, 4.2), Zhongxin's table (4.3), the leave-one-day-out check (4.4) and the 35 requests (4.5) |
+| 3 | Same notebook, part 4 | Codes and stages (4.1, 4.2), Zhongxin's table with Kendall's W (4.3), the leave-one-day-out check (4.4) and the 35 requests (4.5) |
 | 4 | Same notebook, parts 5 to 7 | CHECK by stage, day and note, per line and the test on the rates (5.1 to 5.4); case flow (6); episode durations, Kruskal-Wallis and the three fitted curves (7.1, 7.2) |
 | 5 | Same notebook, parts 8 and 9; [stage review](measurement/Stage_Review_2026-10-12.md) | The six candidate areas on the raw definitions; the conclusion and what goes to the selection; the record of how every stage was assigned |
 | 6 | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb): executive summary and sections 1 to 6 | The provisional decision and the *Where to read* table; the gates, the criteria and anchors, Yijie's provisional weights, the scores with their raw evidence, the sensitivity checks and the four conditions |
@@ -60,6 +60,7 @@ Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Sess
 | Request or finding | Where | Result |
 |---|---|---|
 | Activity shares by day (Zhongxin's table) | Analysis notebook, 4.3 | The daily mix varies: PO 19.5 to 41.5%, CLAR 5.7 to 39.5%, CHECK 4.2 to 38.3% of a day's in-scope minutes; given on two labelled denominators |
+| Pattern across days (Kendall's W, 13 October) | Analysis notebook, 4.3 | W = 0.42, p = 0.075: the days agree moderately on the order of the activities; 31 August, 1 and 23 September agree strongly, 8 and 18 September deviate. Chosen with Zhongxin on 13 October instead of Kruskal-Wallis for this question ([chat record](meetings/Academic_Supervisor_Chat_2026-10-13.md)) |
 | Kruskal-Wallis test | Analysis notebook, 7.1 and 5.4 | No clear rank difference in episode lengths between days (H = 2.76, p = 0.60, 182 episodes) or in CHECK minutes per line, 18 September against the other days (H = 0.66, p = 0.42). Neither establishes equal days or a stable mix |
 | CHECK per line, corrected | Analysis notebook, 5.3 | 0.90 on 18 September against 0.83 on the other four days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds discussed; mean rate per check 1.24 (95% CI 0.70 to 1.78) |
 | Workload of each candidate by day | Analysis notebook, 8 | 57 of the 91 CHECK minutes fall on 18 September; without that day checking is 8.3% of the improvement minutes (workload anchor 3 instead of 5) |
@@ -71,7 +72,7 @@ Before contacting Arno, read the [session guide](measurement/Arno_Follow_Up_Sess
 ## 5. Questions for Zhongxin (15 October)
 
 1. **Sufficiency.** Is no further general observation day acceptable for the provisional selection? Which targeted checks are needed before Arno's leave?
-2. **Kruskal-Wallis.** Can the tests be treated as supplementary, with the descriptive table judging the daily pattern?
+2. **The tests.** Can Kendall's W be reported as moderate agreement, with the Kruskal-Wallis results as supplementary?
 3. **Criteria and weights.** Are the seven criteria distinct enough? Does she set her own swings or review Yijie's?
 4. **CHECK per line.** The corrected comparison is 0.90 against 0.83 minutes per line. Does the 8 October conclusion still hold?
 5. **Arno.** Is a short written confirmation enough instead of a full session?
