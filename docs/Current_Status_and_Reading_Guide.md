@@ -50,7 +50,7 @@ No separate session with Arno is planned (13 October): what is still needed is a
 | Keep work outside the purchasing framework visible as "Not applicable" | Analysis notebook, 4.2 | Done: 25 in-scope minutes in 55 records |
 | Organise the time by purchasing stage; a dominant stage could justify concentrating there | Analysis notebook, 4.2 | Ordering: 56.8%, largest on every day |
 | Compare CHECK per order line, then reassess 18 September | Analysis notebook, 5.3, 5.4 and 4.4 | 0.90 against 0.83 minutes per line (p = 0.42); without 18 September the CHECK share falls from 16.2% to 8.3% |
-| Fallback evaluation on test workloads with handling time from an observed pattern | Analysis notebook, 5.3 | The observed time per line is too imprecise for a baseline; a test needs its own timed checks |
+| Fallback evaluation on test workloads with handling time from an observed pattern | Analysis notebook, 5.3; [methodology 6.1](methodology/Phase_1_Current_Methodology.md#61-workload-endpoint-and-quality-guardrail) (measurement rule); [design draft, section 8](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#8-draft-evaluation-protocol-to-complete-after-selection) (measurement model, 14 October) | The 0.87 minutes per line was recorded on other cases and is too imprecise, so Arno is timed on the test cases in both conditions; the reduction is the difference between his active processing time without and with the aid, not the gap between the aid's run time and his time (the second half of the 1 October idea was underspecified); waiting, difficulty, quality and work moved to others are reported separately |
 | Compare AI task categories from the literature with what the buyers accept | [AI function comparison](methodology/AI_Function_Comparison_2026-10-02.md) | Table prepared; the buyers' acceptance is still to be asked |
 | Draft the thesis alongside the work | Analysis notebook, 2, 4.3 and 9; selection notebook, executive summary | The Analyze argument and the thesis wording for the day-pattern test are kept in the notebooks; the separate outline was dropped on 13 October |
 
@@ -96,7 +96,7 @@ If labels or stages change again, update the CSVs, note the new commit in the lo
 
 1. Define the selected task's requirements and TO-BE workflow: what AI contributes, what rules handle and what the buyer controls.
 2. Establish the manual comparator and freeze the evaluation protocol before development and formal testing: eligible cases, workload indicators, quality requirements and reference answers, success thresholds, sampling and the separation of development and evaluation cases. The observed time per line is too imprecise for a baseline.
-3. Build and demonstrate one bounded prototype and compare it with current practice, including review and correction effort; report effects on Dennis separately where relevant.
+3. Build and demonstrate one bounded prototype and compare Arno's work with and without it on the same or matched cases, including review and correction effort; report effects on Dennis separately where relevant.
 4. Write results, limitations and recommendations; prepare ownership, monitoring and manual fallback.
 
 Firm dates in the [charter](Project_Charter.md): company placement ends **7 January 2027**; report, scientific-conduct item and end-BEP reflection **15 January 2027 at 23:59**; presentation by **29 January**; assessment by **7 February**. The next supervisor meeting date was not fixed in the 8 October notes.
