@@ -6,7 +6,7 @@
 - **Observer:** Yijie Wang.
 - **Morning:** 10:30–12:14, as corrected by Yijie.
 - **Afternoon:** 13:00 to 14:20, when Arno went downstairs to help logistics find the right items. He was away and not observed from 14:20 until he returned at 14:54. The last completed timed entry ends at 14:19.
-- **Coverage:** Observations supplied so far. Any observation after Arno's return at 14:54 is added below with its own times.
+- **Coverage:** Complete. Arno was away from 14:20 and returned at 14:54; there was no observation after his return.
 - **Sources:** Handwritten notes and Yijie's clarifications on 14 October. Duplicate photographs are counted once; crossed-out alternatives are omitted.
 
 ## Observation data
@@ -76,6 +76,10 @@ The 10:54–11:00 activity is CLAR. A colleague provides an update about the Air
 
 Yijie confirmed volumes of 2L for OBS-05 and 2L for OBS-06. OBS-14 has 10L and five mismatches. All three order confirmations were attached in Exact; according to Yijie, attaching the confirmation is Arno's standard practice, so it was not written for every check. Mismatches remain in the notes and are not converted into decision counts.
 
+### OBS-10: sending a PO
+
+The SEND at 11:16–11:18 has no note in the source. Yijie confirmed on 14 October that it was sending a PO.
+
 ### OBS-12: cancellation and replacement
 
 Yijie confirmed OTHER for cancellation/replacement handling, CLAR for obtaining details, PO for creating the 2L replacement order, and CLAR for determining how much needs cancelling. The final activity ends at 12:14, the corrected morning session end.
@@ -94,4 +98,4 @@ A colleague discusses several existing orders with Arno. They establish what has
 
 Yijie classified 13:04–14:19 as aftercare: `OTHER/EXC`. By Yijie's estimate about 80% of the interval was establishing what had already been ordered and delivered, by comparing the colleague's list with existing and delivered POs; what still needed ordering followed directly from that comparison and was not separate work. The remainder, searching for alternative items and suppliers, would otherwise be in scope; it was not timed separately. The interval is therefore coded by its main content, as mixed intervals are on earlier days (for example maximalisatie inside a PO interval). The 80% is the observer's estimate, not a timed share: it supports the choice of code and is not used in any calculation. The enrichment adds detail without splitting the interval into estimated subactivities.
 
-At approximately 14:20, Arno goes downstairs to help find the right items with logistics; several orders are involved. He is away until 14:54, a documented unobserved interval; the downstairs activity has no measured duration in this record. Observation after his return, if any, is added above with its own times.
+At approximately 14:20, Arno goes downstairs to help find the right items with logistics; several orders are involved. He is away until 14:54, a documented unobserved interval; the downstairs activity has no measured duration in this record. There was no observation after his return.

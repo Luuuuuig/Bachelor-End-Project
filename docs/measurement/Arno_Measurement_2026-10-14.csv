@@ -16,7 +16,7 @@ OBS-07,CLAR,11:10,11:11,,,,Read it; no further action recorded.,Specification,Sp
 OBS-08,OTHER,11:11,11:14,,,,Unpaid invoice.,Follow-up and evaluation,Follow-up and evaluation
 OBS-09,REQ-mail,,,,,,,Not applicable,Not applicable
 OBS-09,PO,11:14,11:16,6L,,,Transport order; ask Adriaans to transport something.,Ordering,Ordering
-OBS-10,SEND,11:16,11:18,,,,,Not applicable,Not applicable
+OBS-10,SEND,11:16,11:18,,,,,Ordering,Ordering
 OBS-11,OTHER/EXC,11:18,11:20,,,,Wrong item.,Follow-up and evaluation,Follow-up and evaluation
 OBS-12,REQ,,,,,,,Not applicable,Not applicable
 OBS-12,OTHER,11:22,11:30,,,,Cancel an order and replace it with another order.,Ordering,Ordering
