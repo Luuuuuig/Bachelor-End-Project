@@ -66,7 +66,7 @@ Until one of these is done, the ranking above is a provisional scenario, not the
 3. **Criteria and weights.** Are the seven criteria distinct enough? Option A or option B for the weights?
 4. **CHECK per line.** The corrected comparison is 0.90 against 0.83 minutes per line. Does your conclusion of 8 October still hold?
 5. **Arno.** Is a short written confirmation enough (what a check compares, where the trusted price comes from, which support he accepts) instead of a full session?
-6. **Evaluation participant.** Arno is on leave from the end of October. Who takes part in the evaluation, and when?
+6. **Evaluation without a buyer.** No buyer will take part in the assisted condition (company position, 14 October), and Arno is on leave from the end of October. The plan is therefore: the aid's output scored against reference answers on held-out historical cases (measured), and the workload effect estimated from Arno's observed active time per check less a substitute reviewer's time, reported as potential and with its assumptions ([design draft, section 8](../process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#8-draft-evaluation-protocol-to-complete-after-selection)). Is that an acceptable answer to SQ5 for a BEP, and what would you want added?
 7. **Stage provenance.** The agreed stage of 15 records (56 minutes, 5 records and 14 minutes in scope) comes from a context review by an assistant, not from the observer. Is this acceptable if it is reported as such?
 
 ## 6. Next steps and dates
@@ -76,6 +76,6 @@ Until one of these is done, the ranking above is a provisional scenario, not the
 | 13 to 14 October | Exact test-account checks PC1 to PC4: paired POs and confirmations or quotations, a traceable approved price per line |
 | 14 and 16 October | Two more observation days with Arno; rerun of both notebooks on seven days |
 | When you have time (the 15 October meeting is cancelled) | This update and the criteria; weights procedure agreed |
-| 19 to 20 October | Arno: written confirmation or short session; evaluation participant settled |
+| 14 and 16 October | No separate Arno session; what is still needed is asked in passing on the observation days. No buyer in the assisted condition (14 October) |
 | 22 October | Focal-case alignment: Johan's business-value confirmation, final weights and rerun of the totals |
 | Before 29 October | Evaluation protocol drafted and sent for agreement |
