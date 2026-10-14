@@ -112,6 +112,54 @@ Ordering stays the largest stage on every day. The largest movement is rule 2b: 
 
 The kinds-of-work layer of 30 September to 9 October (K01 to K31, archived in [docs/archive/kinds_of_work](../archive/kinds_of_work/README.md)) gave each kind a purchasing stage in its framework map. Under the stages of 30 September, 149 of the 151 in-scope kind assignments with a single Van Weele stage agreed with the row's stage and the other two rows had no stage. Under the agreed stages of 12 October, 18 of the 151 disagree: 13 CLAR rows (11 whose kind maps to Ordering but which are now Specification by rule 2b, one whose kind maps to Supplier selection and which is now Specification, and one whose kind maps to Specification and which is now Ordering by rule 2a) and 5 REQ rows whose kinds carry a stage while the rows are now Not applicable by rule 1. Six more disagreements lie in former EXC rows. The map's stage column described the activity a kind names; the rules of 12 October assign the stage of a record from its code and the presence of a note. The disagreements follow from that difference, not from an error in either layer. The kinds layer is not used in the analysis since 12 October, so nothing was changed in it.
 
+## 7. Addendum, 14 October 2026: the sixth observation day
+
+The 39 rows of [14 October](Arno_Measurement_2026-10-14.csv) were assigned under the same rules, in the same order of precedence, on 14 October: layer A rules first (15 rows); then, where no rule reaches a row, the agreed stage of an earlier row with the same code and a comparable recorded action, named by date and row (23 rows); and only where neither decides, the layer C default (1 row). Two review agents assigned the stages independently and agreed on all 39 rows; the precedents were re-read in their CSVs. The observer's enrichment of 14 October is used where it records the purpose (all three checks concerned attached order confirmations; OBS-16 was mainly establishing what had been ordered and delivered). Because the day was assigned under the agreed rules from the start, `Original Van Weele stage` repeats the agreed stage; the 100 changes of section 5 concern the first five days only. As before, stage does not change scope: the `OTHER/EXC` rows stay outside the improvement scope.
+
+| Row | Case | Code | Min | Scope | Note as recorded | Agreed stage | Basis |
+|---:|---|---|---:|---|---|---|---|
+| 1 | OBS-01 | OTHER | 2 | in scope | Forward an unpaid invoice to Finance. | Follow-up and evaluation | Precedent: 31 Aug row 62 (OBS-16 OTHER 'Inform Finance', unpaid old POs) = Follow-up and evaluation; also 1 Sep row 13 (SEND forwarded to Finance) and 1 Sep row 17 (OTHER Finance question), both Follow-up and evaluation |
+| 2 | OBS-02 | CLAR | 2 | in scope | Supplier quotation concerning a kit. | Specification | Rule: A2b |
+| 3 | OBS-02 | PO | 2 | in scope | Create an article page for the kit in Exact. | Ordering | Precedent: 31 Aug row 21 (OBS-07 OTHER 'Input to Exact', article input request) = Ordering; 1 Sep row 33 (OTHER, continuation of article-master work) = Ordering |
+| 4 | OBS-03 | CLAR | 1 | in scope | Check an Aircom quotation briefly, then close it without further … | Specification | Rule: A2b |
+| 5 | OBS-03 | PO | 6 | in scope | Create an article page in Exact for the Aircom item. | Ordering | Precedent: 31 Aug row 21 (OTHER 'Input to Exact', article input) = Ordering; 1 Sep row 33 (article-master work) = Ordering |
+| 6 | OBS-03 | SEND | 1 | in scope | Tell Germaine the article code. | Ordering | Precedent: 31 Aug row 49 (OBS-14 SEND 'Inform colleague') = Ordering; contrast 1 Sep row 28 (SEND forwarding a request to add items, Specification, layer B) |
+| 7 | OBS-04 | REQ-mail |  | in scope | (none) | Not applicable | Rule: A1 |
+| 8 | OBS-04 | PO | 3 | in scope | Try to combine the request with an existing PO, but none is available. | Ordering | Precedent: 18 Sep row 61 (OBS-23 PO 'Attempted maximisatie of the PO, without success') = Ordering; 8 Sep row 30 (PO 'Combine it to the existing PO') = Ordering |
+| 9 | OBS-04 | SEND | 2 | in scope | Tell the requester the order will be purchased. Another order … | Ordering | Precedent: 31 Aug row 49 (SEND 'Inform colleague') = Ordering; 31 Aug row 30 (SEND after PO creation) = Ordering |
+| 10 | OBS-03 | CLAR | 6 | in scope | A colleague updates Arno about the Aircom item; they clarify what … | Specification | Rule: A2b |
+| 11 | OBS-03 | PO | 2 | in scope | Update the status in Exact. | Ordering | Precedent: 8 Sep row 25 (OBS-09 OTHER 'Update it in Exact', after a CLAR) = Ordering; 1 Sep row 40 (PO adjusting an existing PO) = Ordering |
+| 12 | OBS-05 | CHECK | 2 | in scope | One item does not match. Update the price so it matches. OC attached. | Monitoring | Precedent: 18 Sep row 36 (CHECK 'Post-order price check') = Monitoring; 18 Sep row 73 (CHECK 'Large price difference', confirmation check) = Monitoring; 18 Sep row 23 (attaching an OC to the PO) = Monitoring |
+| 13 | OBS-06 | CHECK | 3 | in scope | Two mismatches. OC attached. | Monitoring | Precedent: 18 Sep row 17 (OBS-07 CHECK 2L, confirmation check) = Monitoring; 18 Sep row 73 (CHECK, price difference on a confirmation) = Monitoring |
+| 14 | OBS-07 | CLAR | 1 | in scope | Read it; no further action recorded. | Specification | Rule: A2b |
+| 15 | OBS-08 | OTHER | 3 | in scope | Unpaid invoice. | Follow-up and evaluation | Precedent: 8 Sep row 3 (OBS-02 EXC 'Finance unpaid.') = Follow-up and evaluation; 1 Sep row 17 (OTHER Finance question) = Follow-up and evaluation |
+| 16 | OBS-09 | REQ-mail |  | in scope | (none) | Not applicable | Rule: A1 |
+| 17 | OBS-09 | PO | 2 | in scope | Transport order; ask Adriaans to transport something. | Ordering | Precedent: 8 Sep row 9 (OBS-03 PO 'See price 196 Euro, It is for transport') = Ordering |
+| 18 | OBS-10 | SEND | 2 | in scope | (none) | Not applicable | Judgement: Layer C default: no purpose recorded |
+| 19 | OBS-11 | OTHER/EXC | 2 | former EXC | Wrong item. | Follow-up and evaluation | Precedent: 1 Sep row 5 (OBS-03 EXC 'Wrong order received') and row 6 (continuation of wrong-order aftercare) = Follow-up and evaluation |
+| 20 | OBS-12 | REQ |  | in scope | (none) | Not applicable | Rule: A1 |
+| 21 | OBS-12 | OTHER | 8 | in scope | Cancel an order and replace it with another order. | Ordering | Precedent: 8 Sep row 29 (OBS-10 OTHER 'Remove that component from old PO', within re-ordering) = Ordering; 18 Sep row 24 (items dropped from the order) = Ordering |
+| 22 | OBS-13 | REQ-mail |  | in scope | (none) | Not applicable | Rule: A1 |
+| 23 | OBS-13 | CLAR | 2 | in scope | Bojan's request lacks information needed to create an article in … | Specification | Rule: A2b |
+| 24 | OBS-14 | CHECK | 6 | in scope | Five mismatches. | Monitoring | Precedent: 18 Sep row 73 (OBS-29 CHECK 'Large price difference', confirmation check) = Monitoring; 18 Sep row 36 (post-order price check) = Monitoring |
+| 25 | OBS-13 | CLAR | 5 | in scope | Obtain information to create article numbers so Bojan can complete … | Specification | Rule: A2b |
+| 26 | OBS-13 | PO | 1 | in scope | First article created. | Ordering | Precedent: 31 Aug row 21 (OBS-07 OTHER 'Input to Exact', article input) = Ordering; 1 Sep row 33 (article-master work) = Ordering |
+| 27 | OBS-13 | CLAR | 1 | in scope | (none) | Ordering | Rule: A2a |
+| 28 | OBS-13 | PO | 3 | in scope | Second article created. | Ordering | Precedent: 31 Aug row 21 (OTHER 'Input to Exact', article input) = Ordering; 1 Sep row 33 = Ordering |
+| 29 | OBS-13 | CLAR | 2 | in scope | (none) | Ordering | Rule: A2a |
+| 30 | OBS-13 | PO | 1 | in scope | (none) | Ordering | Precedent: 8 Sep rows 35-36 (OBS-16 PO without note, layer B 'ordinary PO creation') = Ordering; 31 Aug row 21 (article input) = Ordering |
+| 31 | OBS-13 | SEND |  | in scope | (none) | Ordering | Precedent: 18 Sep row 33 (OBS-13 SEND without note after PO rows) = Ordering; 31 Aug row 53 (SEND without note after PO) = Ordering |
+| 32 | OBS-14 | OTHER/EXC | 6 | former EXC | Aftercare, outside the improvement scope. | Monitoring | Precedent: 31 Aug row 27 (OBS-04 EXC 'aftercare' after CHECK rows in the same case) = Monitoring, layer B confirmation |
+| 33 | OBS-12 | CLAR | 4 | in scope | Ask the requester for more details. | Specification | Rule: A2b |
+| 34 | OBS-12 | PO | 5 | in scope | Create the replacement order. | Ordering | Precedent: 8 Sep rows 35-36 (layer B 'ordinary PO creation') = Ordering; 8 Sep row 27 (OBS-10 PO 2L after a supplier change) = Ordering |
+| 35 | OBS-12 | CLAR | 5 | in scope | Determine how much needs cancelling. | Specification | Rule: A2b |
+| 36 | OBS-15 | OTHER | 4 | in scope | Answer a question about an item. | Not applicable | Precedent: 23 Sep row 10 (OBS-06 OTHER 'A client asked Arno something', layer C) = Not applicable; 18 Sep row 39 (Maurice asked what a received item was for) = Not applicable |
+| 37 | OBS-16 | REQ-mail |  | in scope | (none) | Not applicable | Rule: A1 |
+| 38 | OBS-16 | OTHER/EXC | 75 | former EXC | Discuss existing orders with a colleague to establish what has … | Monitoring | Precedent: 31 Aug row 57 (EXC 'Aftercare of a PO from last week') = Monitoring, layer B; 18 Sep row 45 (OBS-16 EXC checked relevant POs and forwarded the information) = Monitoring |
+| 39 | OBS-16 | OTHER/EXC |  | former EXC | With the details clarified, Arno goes downstairs to help locate … | Not applicable | Precedent: 23 Sep row 51 (OBS-16 EXC, helping Maurice locate a missing item Logistics had received and stored) = Not applicable |
+
+**Open for the observer.** Row 18 (OBS-10, SEND, 2 minutes, no note, the only row of its case) is Not applicable by the layer C default. If it was sending a PO to a supplier, for example the other order whose PO was sent (row 9), it is Ordering. The other precedent-based rows follow the closest earlier row; their alternatives are recorded in the review: a status update that concerned delivery progress would be Monitoring (row 11), and a cancellation that corrected a problem with a delivered order would be Follow-up and evaluation (row 21).
+
 ## Appendix: the 100 changed rows
 
 Date and one-based source row identify each record in its daily CSV. Min is the recorded duration; blank means an untimed tally. Layer refers to sections 2 to 4.
