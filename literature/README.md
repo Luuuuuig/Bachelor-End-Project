@@ -229,7 +229,7 @@ Cited in section 4.3 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipyn
 
 **Kendall, M. G., & Babington Smith, B. (1939).** The problem of m rankings. *The Annals of Mathematical Statistics, 10*(3), 275–287. https://doi.org/10.1214/aoms/1177732186
 
-**Use:** Kendall's coefficient of concordance W: how far the days agree on the ranking of the activities by minutes (W = 0.42 on five days, 0.31 on seven). The notebook reads W as moderate agreement together with the descriptive tables, the rank correlation between each pair of days and the result with each day left out; with five days the test has little power.
+**Use:** Kendall's coefficient of concordance W: how far the days agree on the ranking of the activities by minutes (W = 0.42 on five days, 0.26 on seven). The notebook reads W as moderate agreement on five days and weak agreement on seven, together with the descriptive tables, the rank correlation between each pair of days and the result with each day left out; with five days the test has little power.
 
 **Status:** citation details copied from the analysis notebook's reference list, still to verify; abstract and full text not yet reviewed.
 

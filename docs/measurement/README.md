@@ -32,13 +32,13 @@ The frame the notebooks use, after leaving out the two 8 September OBS-16 rows r
 | 23 September | 58 | 48 | 185 | 66 | 119 |
 | *First five days* | *285* | *222* | *742* | *182* | *560* |
 | 14 October | 39 | 32 | 170 | 83 | 87 |
-| 16 October | 26 | 22 | 71 | 29 | 42 |
-| **All seven days** | **350** | **276** | **983** | **294** | **689** |
+| 16 October | 26 | 22 | 75 | 29 | 46 |
+| **All seven days** | **350** | **276** | **987** | **294** | **693** |
 
 With the two excluded rows the 8 September CSV holds 42 rows and 106 minutes, and the seven CSVs 352 rows (the first five 287); nothing is deleted from the files, the exclusion is a label in the notebook.
 
-- **983 minutes** (742 on the first five days) are the recorded activity minutes the notebooks start from.
-- **689 minutes** (560) are without former EXC. Since 1 October, former EXC (codes EXC, OTHER/EXC and, on 16 October, PO/EXC; 294 minutes, 182 on the first five days) is grouped under "OTHER (outside improvement)" and kept outside the improvement scope; its time stays in the totals ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)).
+- **987 minutes** (742 on the first five days) are the recorded activity minutes the notebooks start from.
+- **693 minutes** (560) are without former EXC. Since 1 October, former EXC (codes EXC, OTHER/EXC and, on 16 October, PO/EXC; 294 minutes, 182 on the first five days) is grouped under "OTHER (outside improvement)" and kept outside the improvement scope; its time stays in the totals ([meeting notes](../meetings/Academic_Supervisor_Meeting_Notes_2026-10-01.md)).
 
 Other conventions:
 
