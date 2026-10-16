@@ -11,7 +11,7 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 | What is done, what remains, and what to read next | [Current status and reading guide](Current_Status_and_Reading_Guide.md) | Current priorities and reading order |
 | Current objective, scope and five submitted sub-questions | [Readable BEP assignment](proposal/BEP_Assignment_1BEPIEX.md) | Current project definition |
 | Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis of the seven observation days on the original codes and agreed stages: coverage, codes and stages by day, CHECK per line, case flow, episode durations, candidate evidence, and the five-day results beside the seven-day ones |
-| The analysis as it stood on five days | [Five-day analysis notebook](../Arno_Analysis_Five_Days_2026_10_13.ipynb) | The first five sessions (31 August to 23 September) as analysed on 13 October, kept unchanged for comparison |
+| The analysis as it stood on five days | [Five-day analysis notebook](../Arno_Analysis_Five_Days_2026_10_13.ipynb) | The first five sessions (31 August to 23 September) as analysed on 13 October, kept for comparison (one figure corrected on 16 October) |
 | Provisional focal case and its conditions | [Focal-case selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) | Self-contained: the findings it starts from, the method and its literature, Stage A gates, weights, scores with evidence, sensitivity and conditions |
 | Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Supervisor update and weights record |
 | Scope, outcome structure and phase gates | [Project charter](Project_Charter.md) | Stable project-control decisions |

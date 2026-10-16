@@ -117,7 +117,7 @@ Belton & Stewart, the DCLG manual and Goodhue & Thompson are cited in the [metho
 
 **Triantaphyllou, E., & Sánchez, A. (1997).** *A sensitivity analysis approach for some deterministic multi-criteria decision-making methods*. *Decision Sciences, 28*(1), 151–194. https://doi.org/10.1111/j.1540-5915.1997.tb01306.x
 
-**Use:** Supports testing whether the candidate ranking is robust to plausible changes in weights and evidence scores. The BEP uses a proportionate sensitivity check rather than claiming that one provisional weight set is objectively correct.
+**Use:** Supports testing whether the candidate ranking is robust to plausible changes in weights and evidence scores. The BEP uses a proportionate sensitivity check rather than claiming that one provisional weight set is objectively correct. Cited in section 5 of the selection notebook.
 
 **Goodhue, D. L., & Thompson, R. L. (1995).** Task-technology fit and individual performance. *MIS Quarterly, 19*(2), 213–236. https://doi.org/10.2307/249689
 
@@ -303,7 +303,7 @@ Used for the [AI function comparison](../docs/methodology/AI_Function_Comparison
 
 **Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000).** *A model for types and levels of human interaction with automation*. *IEEE Transactions on Systems, Man, and Cybernetics – Part A: Systems and Humans, 30*(3), 286–297. https://doi.org/10.1109/3468.844354
 
-**Use:** Framework for the comparison table. It separates which function receives support (information acquisition, information analysis, decision and action selection, action implementation) from how independently the system performs it. A general automation model, not procurement-specific. Also listed in the selection notebook's reference list (Appendix D).
+**Use:** Framework for the comparison table. It separates which function receives support (information acquisition, information analysis, decision and action selection, action implementation) from how independently the system performs it. A general automation model, not procurement-specific. Cited in the selection notebook at gate 4 for checking: the aid takes on information acquisition and analysis, the buyer keeps the decision and its execution.
 
 **Status:** citation verified 2 October 2026 (PubMed record); abstract and full text not yet reviewed.
 
