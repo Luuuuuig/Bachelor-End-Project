@@ -1,6 +1,6 @@
 # Analyze
 
-Working files for the Analyze phase. Both notebooks read the seven daily CSVs in [`docs/measurement`](../measurement/README.md) directly; the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) is self-contained, with its gate verdicts, weights and scores written in the notebook itself. Since 12 October the analysis is built on the original observation codes and the agreed stages; the kinds-of-work layer and the files that rested on it are in the [archive](../archive/kinds_of_work/README.md).
+Working files for the Analyze phase. Both notebooks read the seven daily CSVs in [`docs/measurement`](../measurement/README.md) directly; the [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb) is self-contained, with its gate verdicts, weights and scores written in the notebook itself. The analysis as it stood on the first five days (13 October) is kept as the [five-day notebook](../../Arno_Analysis_Five_Days_2026_10_13.ipynb). Since 12 October the analysis is built on the original observation codes and the agreed stages; the kinds-of-work layer and the files that rested on it are in the [archive](../archive/kinds_of_work/README.md).
 
 Use the [current status and reading guide](../Current_Status_and_Reading_Guide.md) for the remaining work. The comparison is provisional until Zhongxin's review of the criteria adopted on 16 October and the weights, the test-account checks and Arno's answers during the observation days.
 

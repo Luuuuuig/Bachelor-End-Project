@@ -1,6 +1,6 @@
 # Project documentation
 
-**Synchronized:** 12 October 2026.
+**Synchronized:** 16 October 2026.
 
 Start with the [current status and reading guide](Current_Status_and_Reading_Guide.md). It gives the reading order, separates completed work from remaining decisions, and owns the immediate worklist. This page is the reference index for finding the supporting material.
 
@@ -10,7 +10,8 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 |---|---|---|
 | What is done, what remains, and what to read next | [Current status and reading guide](Current_Status_and_Reading_Guide.md) | Current priorities and reading order |
 | Current objective, scope and five submitted sub-questions | [Readable BEP assignment](proposal/BEP_Assignment_1BEPIEX.md) | Current project definition |
-| Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis on the original codes and agreed stages: coverage, codes and stages by day, CHECK per line, case flow, episode durations, candidate evidence |
+| Workload findings and their limits | [Arno analysis notebook](../Arno_Analysis_2026_10_02.ipynb) | Descriptive analysis of the seven observation days on the original codes and agreed stages: coverage, codes and stages by day, CHECK per line, case flow, episode durations, candidate evidence, and the five-day results beside the seven-day ones |
+| The analysis as it stood on five days | [Five-day analysis notebook](../Arno_Analysis_Five_Days_2026_10_13.ipynb) | The first five sessions (31 August to 23 September) as analysed on 13 October, kept unchanged for comparison |
 | Provisional focal case and its conditions | [Focal-case selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) | Self-contained: the findings it starts from, the method and its literature, Stage A gates, weights, scores with evidence, sensitivity and conditions |
 | Evidence and remaining selection checks | [Analyze index](analyze/README.md) | Supervisor update and weights record |
 | Scope, outcome structure and phase gates | [Project charter](Project_Charter.md) | Stable project-control decisions |
@@ -18,7 +19,7 @@ Start with the [current status and reading guide](Current_Status_and_Reading_Gui
 | Selection and evaluation method | [Current methodology](methodology/Phase_1_Current_Methodology.md) | DMAIC/DSRM, candidate boundaries and research rules |
 | Meaning of workload | [Workload definition](methodology/Workload_Definition.md) | Amount and difficulty of work; no invented total-workload score |
 
-The Arno notebook's descriptive analysis is substantially complete. The selection notebook provisionally favors order and confirmation checking (called purchase-price control until 7 October); data/reference checks and buyer/supervisor review still condition the final choice. Five Arno sessions provide **892 minutes of net observation**, distinct from **742 valid recorded activity minutes**, including **182 former-EXC minutes** and **560 minutes within improvement scope**. Former EXC stays visible under OTHER, outside selection for improvement.
+The Arno notebook's descriptive analysis is substantially complete. The selection notebook provisionally favors order and confirmation checking (called purchase-price control until 7 October); data/reference checks and buyer/supervisor review still condition the final choice. Seven Arno sessions provide **1,159 minutes of net observation**, distinct from **983 valid recorded activity minutes**, including **294 former-EXC minutes** and **689 minutes within improvement scope** (the first five sessions: 892, 742, 182 and 560). Former EXC stays visible under OTHER, outside selection for improvement.
 
 The [final Plan of Work dated 22 September](proposal/Plan_of_Work_Final_2026-09-22.pdf) was submitted and includes the named second assessor, completed start-BEP reflections and signed declaration. Its main question and five sub-questions are authoritative, as confirmed by Yijie on 7 October. The readable assignment and active research documents follow that wording and numbering. Later scope and method decisions are documented separately.
 
@@ -38,7 +39,7 @@ The [final Plan of Work dated 22 September](proposal/Plan_of_Work_Final_2026-09-
 | Draft design of the provisional focal case | [Design draft, 9 October](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) | Requirements, workflow, fields, AI-versus-rules choices and an evaluation outline; conditional, not approved |
 | Possible future process | [TO-BE working hypothesis](process/TO_BE_Working_Hypothesis_v0.1.md) | Earlier routing/design ideas, not the selected artifact |
 
-The five-day observation target has been reached. Additional Arno or Dennis observations address an identified gap; a fixed extra number of days is not required. The optional 45-record recoding/κ exercise and a statistical goodness-of-fit test are not conditions for continuing. Detailed requirements, a separate evaluation baseline, workload and quality criteria, prototype development and evaluation still follow focal-case confirmation.
+The five-day observation target was reached, and on 13 October exactly two more Arno days were added (14 and 16 October); no further general observation day is planned. Additional Arno or Dennis observations address an identified gap only. The optional 45-record recoding/κ exercise and a statistical goodness-of-fit test are not conditions for continuing. Detailed requirements, a separate evaluation baseline, workload and quality criteria, prototype development and evaluation still follow focal-case confirmation.
 
 ## Literature and historical records
 
@@ -61,4 +62,4 @@ When new evidence arrives, preserve the dated source, update the affected curren
 
 **12 October:** both notebooks were rebuilt on the original observation codes and the agreed stages ([stage review](measurement/Stage_Review_2026-10-12.md)); the kinds-of-work layer is [archived](archive/kinds_of_work/README.md). The follow-up of the 8 October meeting is listed in [section 4 of the reading guide](Current_Status_and_Reading_Guide.md#4-follow-up-of-the-1-and-8-october-meetings): day-by-day shares, the Kruskal-Wallis test, the corrected CHECK comparison, a sufficiency recommendation and the criteria definitions; the [supervisor update](analyze/Supervisor_Update_2026-10-15.md) puts them to Zhongxin on 15 October, and the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) prepares the focal case.
 
-**16 October:** two more observation days (14 and 16 October) are analysed in part 9 of the analysis notebook next to the five-day results; the selection notebook adopted the criteria set from the [literature note](analyze/Selection_Criteria_Literature_2026-10-16.md), with two new gates and Yijie's carried-over weights, and was rescored on seven days: checking 71.9, article/supplier data 57.0, maximalisatie 51.1, request intake 43.8.
+**16 October:** the analysis notebook now loads all seven observation days (31 August to 16 October) directly; the five-day analysis of 13 October is kept as the [five-day notebook](../Arno_Analysis_Five_Days_2026_10_13.ipynb), and the conclusion of the analysis sets the two side by side; the selection notebook adopted the criteria set from the [literature note](analyze/Selection_Criteria_Literature_2026-10-16.md), with two new gates and Yijie's carried-over weights, and was rescored on seven days: checking 71.9, article/supplier data 57.0, maximalisatie 51.1, request intake 43.8.
