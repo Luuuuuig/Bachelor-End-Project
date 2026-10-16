@@ -123,13 +123,113 @@ Belton & Stewart, the DCLG manual and Goodhue & Thompson are cited in the [metho
 
 **Use:** Supports the AI–task-fit criterion: technology should match the actual task if it is expected to improve individual performance. Literature supports the criteria and method; the student and academic supervisor agree project-specific research weights, while the company supervisor validates the operational evidence and feasibility.
 
+### Selection criteria adopted from the literature (16 October 2026)
+
+Cited in sections 2 and 3 of the [selection notebook](../Focal_Case_Selection_2026-10-07.ipynb) for the criteria set adopted on 16 October; the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md) records what each source contributes and the recurrence counts. Zhongxin's other two sources (Parasuraman et al., 2000; the Futran blog) are listed under the AI functions and in the synthesis.
+
+**Agaton, B., & Swedberg, G. (2018).** *Evaluating and developing methods to assess business process suitability for robotic process automation: A design research approach* [Master's thesis, Chalmers University of Technology and University of Gothenburg]. https://odr.chalmers.se/handle/20.500.12380/255664
+
+**Use:** Gates before scores and the value floor (gate 7): a process must show value in at least one category and pass the mandatory criteria; an early count of criteria across 23 mostly industry sources.
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026 (sections 3.2–3.3 and 4.2–4.3); citation from its reference list, to verify against the publisher record before thesis use.
+
+**Bédard, M., Leshob, A., Benzarti, I., Mili, H., Rab, R., & Hussain, O. (2024).** A rule-based method to effectively adopt robotic process automation. *Journal of Software: Evolution and Process, 36*(11), e2709. https://doi.org/10.1002/smr.2709
+
+**Use:** Suitability as two sub-goals that must both hold, relevance and feasibility: the basis of the value and feasibility families; proneness to human error as relevance (A2).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Brakemeier, H., Gerbert, P., Hartmann, P., Liebl, A., Schamberger, M., & Waldmann, A. (n.d.).** *Applying AI: How to find and prioritize AI use cases*. appliedAI Initiative. https://www.appliedai.de/assets/images/280323_AI_Whitepaper_UseCase_Screen.pdf
+
+**Use:** AI use cases assessed on value and ease of implementation: data (B6), a minimum accuracy (B7), effort (B8). A practitioner source; cite as such.
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Costa, D. S., Mamede, H. S., & da Silva, M. M. (2023).** A method for selecting processes for automation with AHP and TOPSIS. *Heliyon, 9*(3), e13683. https://doi.org/10.1016/j.heliyon.2023.e13683
+
+**Use:** One of Zhongxin's sources: a published criteria list with five-point scales (frequency and duration, A1) and an AHP-TOPSIS ranking. Cite the criteria and the procedure, not its weights, which do not reproduce from the printed tables.
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Engel, C. T. (2022).** *Cognitive automation: Assessing business process automation potentials in organizations driven by artificial intelligence* [Doctoral dissertation no. 5217, University of St.Gallen].
+
+**Use:** Criteria for cognitive rather than rule-based automation: machine-learning suitability (B5, after Sturm et al.), a measurable goal (B7) and effort (B8).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026 (the assessment model and the method); citation from its reference list, to verify against the publisher record before thesis use.
+
+**Farinha, D., Pereira, R., & Almeida, R. (2024).** A framework to support robotic process automation. *Journal of Information Technology, 39*(1), 149–166. https://doi.org/10.1177/02683962231165066
+
+**Use:** The most complete single RPA criteria set (review and fuzzy Delphi), and the only one with a test-data criterion (B7).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Flechsig, C., Anslinger, F., & Lasch, R. (2022).** Robotic Process Automation in purchasing and supply management: A multiple case study on potentials, barriers, and implementation. *Journal of Purchasing and Supply Management, 28*(1), 100718. https://doi.org/10.1016/j.pursup.2021.100718
+
+**Use:** The purchasing precedent: suitable purchasing tasks, the value-by-feasibility matrix of the families, and purchasing uses close to the focal task (comparing documents with the PO).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026 (accepted manuscript); citation from its reference list, to verify against the publisher record before thesis use.
+
+**Haan, W. J. (2021).** *How can process mining be used to identify robotic process automation opportunities?* [Bachelor's thesis, University of Twente]. https://purl.utwente.nl/essays/85792
+
+**Use:** Technical suitability against added value; simple workload and error indicators (A1, A2).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026 (sections 4–5); citation from its reference list, to verify against the publisher record before thesis use.
+
+**Herm, L.-V., Janiesch, C., Helm, A., Imgrund, F., Hofmann, A., & Winkelmann, A. (2023).** A framework for implementing robotic process automation projects. *Information Systems and e-Business Management, 21*(1), 1–35. https://doi.org/10.1007/s10257-022-00553-8
+
+**Use:** Business impact (A3) among the selection criteria, and the screening of simpler technologies before selection (gate 6).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Jongeling, H. E., Lu, X., Beerepoot, I., van de Weerd, I., & Reijers, H. A. (2023).** Getting your RPA priorities straight with process mining: The PLOST framework. In *ECIS 2023 Research Papers* (Paper 308). https://aisel.aisnet.org/ecis2023_rp/308
+
+**Use:** One of Zhongxin's sources: must-pass gates before a ranking, the structure of Sections 2 to 4 of the selection notebook; data access (B6) and few variations (B2).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Shafik Salah Elsayed, N., & Kassem, G. (2022).** Assessing process suitability for robotic process automation: A process mining approach. In *Wirtschaftsinformatik 2022 Proceedings* (Student Track, 18). https://aisel.aisnet.org/wi2022/student_track/student_track/18
+
+**Use:** Structured digital input as a knock-out (gate 2, B4), with criteria measured on a purchase-to-pay log.
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Spreitzenbarth, J. M., Bode, C., & Stuckenschmidt, H. (2024).** Artificial intelligence and machine learning in purchasing and supply management: A mixed-methods review of the state-of-the-art in literature and practice. *Journal of Purchasing and Supply Management, 30*(1), 100896. https://doi.org/10.1016/j.pursup.2024.100896
+
+**Use:** AI in purchasing: business value against ease of implementation per use-case cluster (A3, B6, B8).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Sturm, T., Fecho, M., & Buxmann, P. (2021).** To use or not to use artificial intelligence? A framework for the ideation and evaluation of problems to be solved with artificial intelligence. In *Proceedings of the 54th Hawaii International Conference on System Sciences* (pp. 206–215).
+
+**Use:** Machine-learning suitability: rules that cannot be defined and a measurable goal (B5, B7).
+
+**Status:** read only through Engel (2022), as summarised in the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md); cite as summarised there or read the paper before thesis use.
+
+**Syed, R., Suriadi, S., Adams, M., Bandara, W., Leemans, S. J. J., Ouyang, C., ter Hofstede, A. H. M., van de Weerd, I., Wynn, M. T., & Reijers, H. A. (2020).** Robotic process automation: Contemporary themes and challenges. *Computers in Industry, 115*, 103162. https://doi.org/10.1016/j.compind.2019.103162
+
+**Use:** A review of RPA process criteria (repetition and standardisation, B1; exceptions, B2) and of where the literature contradicts itself.
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026 (author's version); citation from its reference list, to verify against the publisher record before thesis use.
+
+**Wanner, J., Hofmann, A., Fischer, M., Imgrund, F., Janiesch, C., & Geyer-Klingeberg, J. (2019).** Process selection in RPA projects: Towards a quantifiable method of decision making. In *Proceedings of the 40th International Conference on Information Systems (ICIS 2019)*. https://aisel.aisnet.org/icis2019/business_models/business_models/6/
+
+**Use:** Quantified indicators of automation potential: execution frequency and time (A1), exceptions (B2).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026; citation from its reference list, to verify against the publisher record before thesis use.
+
+**Wellmann, C., Stierle, M., Dunzer, S., & Matzner, M. (2020).** A framework to evaluate the viability of robotic process automation for business process activities. In *Business Process Management: Blockchain and Robotic Process Automation Forum* (Lecture Notes in Business Information Processing, pp. 200–214). Springer. https://doi.org/10.1007/978-3-030-58779-6_14
+
+**Use:** Viability criteria in five perspectives; data at least semi-structured (B4).
+
+**Status:** full text read for the [criteria synthesis](../docs/analyze/Selection_Criteria_Literature_2026-10-16.md), 16 October 2026 (accepted manuscript); citation from its reference list, to verify against the publisher record before thesis use.
+
 ### Activity pattern across the observation days: concordance and divergence
 
 Cited in section 4.3 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) and in its reference list, for the test of whether the five observation days allocate Arno's time over the activities in the same way. Zhongxin chose Kendall's W on 13 October in place of the Kruskal-Wallis test named on 8 October, and asked for the Jensen-Shannon divergence ([13 October notes](../docs/meetings/Academic_Supervisor_Meeting_Notes_2026-10-13.md)); she asked that the thesis explains why Kendall's W and not other tests, and why this data table. The decision of 13 October to add two observation days (14 and 16 October) rests on these results. The Kruskal-Wallis test is kept only for episode lengths by day (7.1) and CHECK minutes per line (5.4); whether those results are reported as supplementary is a question put to Zhongxin ([reading guide](../docs/Current_Status_and_Reading_Guide.md#5-questions-for-zhongxin-15-october), question 2). Each entry records three separate statuses: citation verified, abstract reviewed and full text reviewed.
 
 **Kendall, M. G., & Babington Smith, B. (1939).** The problem of m rankings. *The Annals of Mathematical Statistics, 10*(3), 275–287. https://doi.org/10.1214/aoms/1177732186
 
-**Use:** Kendall's coefficient of concordance W: how far the days agree on the ranking of the activities by minutes (W = 0.42 on five days). The notebook reads W as moderate agreement together with the descriptive tables, the rank correlation between each pair of days and the result with each day left out; with five days the test has little power.
+**Use:** Kendall's coefficient of concordance W: how far the days agree on the ranking of the activities by minutes (W = 0.42 on five days, 0.31 on seven). The notebook reads W as moderate agreement together with the descriptive tables, the rank correlation between each pair of days and the result with each day left out; with five days the test has little power.
 
 **Status:** citation details copied from the analysis notebook's reference list, still to verify; abstract and full text not yet reviewed.
 

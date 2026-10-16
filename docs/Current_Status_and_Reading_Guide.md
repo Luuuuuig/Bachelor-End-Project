@@ -1,6 +1,6 @@
 # Current status and reading guide
 
-**Updated:** 12 October 2026. This is the current task and reading index. Dated meeting notes establish decisions; reviewed observations establish measured evidence; the notebooks calculate results.
+**Updated:** 16 October 2026. This is the current task and reading index. Dated meeting notes establish decisions; reviewed observations establish measured evidence; the notebooks calculate results.
 
 ## 1. Where the project stands
 
@@ -8,13 +8,21 @@ Define and Measure are done. Analyze is computed but not closed. **Order and con
 
 1. **The Exact test account (PC1 to PC4):** paired POs and confirmations or quotations, and a traceable approved price per line. Without them gates 2 and 3 stay open. *13 October, provisional:* 10 of 21 sampled October 2025 POs have a supplier confirmation attached; no quotation was seen on the 9 completed POs checked for one; invoices and PO versions give a route to the approved price in some cases ([design draft, section 6](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#6-draft-logical-field-map)).
 2. **Arno:** what a check compares, where the trusted price comes from, which support he accepts, and who takes part in the evaluation given his leave from the end of October.
-3. **Zhongxin:** review of the criteria and anchors, and the weights (her own swings or a review of Yijie's).
+3. **Zhongxin:** review of the criteria set adopted from the literature on 16 October, its anchors and the scores, and the weights (her own swings or a review of Yijie's carried-over swings).
 
-**Johan** still has to confirm the business value with examples or figures; Dennis's 15 September explanation (outdated purchase prices led Sales to sell at a loss) is the starting example.
+**Johan** still has to confirm the business impact (criterion A3) with examples or figures; Dennis's 15 September explanation (outdated purchase prices led Sales to sell at a loss) is the starting example.
 
-Recorded so far: the AS-IS workflow and task register, five observation sessions (892 observed minutes, 742 recorded, 560 in the improvement scope), the agreed stage of every record, the analysis on the original codes, the provisional selection with Yijie's weights, and Johan's permission of 7 October to use test-account data and an external AI service. No prototype, sufficiency decision, workload improvement or quality benefit is established.
+Recorded so far: the AS-IS workflow and task register, seven observation sessions (1,159 observed minutes, 983 recorded, 689 in the improvement scope; the first five 892, 742 and 560), the agreed stage of every record, the analysis on the original codes, the provisional selection on the criteria set adopted on 16 October with Yijie's carried-over weights, and Johan's permission of 7 October to use test-account data and an external AI service. No prototype, sufficiency decision, workload improvement or quality benefit is established.
 
-## 2. What changed on 12 October
+## 2. What changed on 12 and 16 October
+
+**16 October**
+
+- **Two more observation days** (14 and 16 October) are recorded, staged and analysed: part 9 of the [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) gives the main results on seven days next to the five-day ones. Ordering stays the largest stage (57.0% of 689 in-scope minutes) and no code's share moves by more than one point, but the days agree less on the order of the activities (Kendall's W = 0.31, p = 0.066), mainly because of 16 October, a short morning on a day off. Checking is 16.1% of the in-scope minutes, 10.0% without 18 September; article/supplier data rose to 11.3% after three article-creation cases on 14 October.
+- **The criteria set was adopted from the literature** ([literature note](analyze/Selection_Criteria_Literature_2026-10-16.md)): ten criteria in two families, value and feasibility, and two new gates (a value floor and a stable task). Yijie's swings of 7 October were carried over; every score was redrafted on seven days, checked against an independent scoring and approved by Yijie. Provisional totals: checking 71.9, article/supplier data 57.0, maximalisatie 51.1, request intake 43.8; checking is first on value and on feasibility ([selection notebook](../Focal_Case_Selection_2026-10-07.ipynb), sections 3 to 5).
+- **The CSVs lost the unused column of earlier stages;** the stage review keeps the 100 earlier values of 12 October in its appendix.
+
+**12 October**
 
 - **The analysis was rebuilt on the original observation codes** (PO, CLAR, CHECK, SEND, OTHER, REQ, DEC) and the agreed stage of each record. The kinds-of-work layer of 30 September to 9 October (labels, codebook, framework map, causes draft, candidate matrix, label review) is archived in [docs/archive/kinds_of_work](archive/kinds_of_work/README.md) and no longer used.
 - **The stages were agreed.** 100 of the 287 rows changed; the [stage review of 12 October](measurement/Stage_Review_2026-10-12.md) records the rules, nine observer confirmations and 15 rows from a context review. In scope, Ordering is 318 of 560 minutes (56.8%), Specification 121 (21.6%), Monitoring 68 (12.1%).
@@ -32,8 +40,8 @@ Read interpretation paragraphs and tables first; inspect code when a calculation
 | 2 | [Analysis notebook](../Arno_Analysis_2026_10_02.ipynb): executive summary (with the *Where to read* table) and "How the analysis is done"; parts 1 to 3 | The main results, the data, the one exclusion, the scope rule and the coverage per day |
 | 3 | Same notebook, part 4 | Codes and stages (4.1, 4.2), Zhongxin's table with Kendall's W (4.3), the leave-one-day-out check (4.4) and the 35 requests (4.5) |
 | 4 | Same notebook, parts 5 to 7 | CHECK by stage, day and note, per line and the test on the rates (5.1 to 5.4); case flow (6); episode durations, Kruskal-Wallis and the three fitted curves (7.1, 7.2) |
-| 5 | Same notebook, parts 8 and 9; [stage review](measurement/Stage_Review_2026-10-12.md) | The six candidate areas on the raw definitions; the conclusion and what goes to the selection; the record of how every stage was assigned |
-| 6 | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb): executive summary and sections 1 to 6 | The provisional decision and the *Where to read* table; the gates, the criteria and anchors, Yijie's provisional weights, the scores with their raw evidence, the sensitivity checks and the four conditions |
+| 5 | Same notebook, parts 8 to 10; [stage review](measurement/Stage_Review_2026-10-12.md) | The six candidate areas on the raw definitions; the seven-day results (part 9); the conclusion and what goes to the selection; the record of how every stage was assigned |
+| 6 | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb): executive summary and sections 1 to 6 | The provisional decision and the *Where to read* table; the eight gates, the adopted criteria and anchors, Yijie's carried-over weights, the scores with their evidence and the value and feasibility subtotals, the sensitivity checks and the four conditions |
 | 7 | [Supervisor update](analyze/Supervisor_Update_2026-10-15.md) | What goes to Zhongxin: the criteria, her day-share table, why checking leads, and the questions |
 
 No separate session with Arno is planned (13 October): what is still needed is asked in passing during the observation days. The [session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md) and the [design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md), sections 1 to 3 and 8 to 9, hold the questions.
@@ -60,21 +68,21 @@ No separate session with Arno is planned (13 October): what is still needed is a
 | Request or finding | Where | Result |
 |---|---|---|
 | Activity shares by day (Zhongxin's table) | Analysis notebook, 4.3 | The daily mix varies: PO 19.5 to 41.5%, CLAR 5.7 to 39.5%, CHECK 4.2 to 38.3% of a day's in-scope minutes; given on two labelled denominators |
-| Pattern across days (Kendall's W and Jensen-Shannon divergence, 13 October) | Analysis notebook, 4.3 | W = 0.42, p = 0.075: the days agree moderately on the order of the activities; 31 August, 1 and 23 September agree strongly, 8 and 18 September deviate. On the shares themselves the mean Jensen-Shannon divergence is 0.113 against 0.075 by chance (p = 0.089); 8 September is the only day that differs more than chance. Chosen with Zhongxin on 13 October instead of Kruskal-Wallis for this question ([13 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-13.md)) |
+| Pattern across days (Kendall's W and Jensen-Shannon divergence, 13 October) | Analysis notebook, 4.3 | W = 0.42, p = 0.075: the days agree moderately on the order of the activities; 31 August, 1 and 23 September agree strongly, 8 and 18 September deviate. On the shares themselves the mean Jensen-Shannon divergence is 0.113 against 0.075 by chance (p = 0.089); 8 September is the only day that differs more than chance. Chosen with Zhongxin on 13 October instead of Kruskal-Wallis for this question ([13 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-13.md)). On seven days (part 9): W = 0.31, p = 0.066; mean JSD 0.133, p = 0.055 |
 | Kruskal-Wallis test | Analysis notebook, 7.1 and 5.4 | No clear rank difference in episode lengths between days (H = 2.76, p = 0.60, 182 episodes) or in CHECK minutes per line, 18 September against the other days (H = 0.66, p = 0.42). Neither establishes equal days or a stable mix |
 | CHECK per line, corrected | Analysis notebook, 5.3 | 0.90 on 18 September against 0.83 on the other four days (0.87 pooled): about 4.6 seconds per line, not the 1.8 seconds discussed; mean rate per check 1.24 (95% CI 0.70 to 1.78) |
 | Workload of each candidate by day | Analysis notebook, 8 | 57 of the 91 CHECK minutes fall on 18 September; without that day checking is 8.3% of the improvement minutes (workload anchor 3 instead of 5) |
-| Is more observation needed? | Analysis notebook, 4.3, 4.4 and 8 | Decided on 13 October: two more observation days, 14 and 16 October, reported next to the five-day results ([13 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-13.md)). 18 September changes the CHECK share but not the ranking of PO and CLAR; the second Friday shows whether that is a Friday pattern. Targeted checks with Arno remain necessary |
-| Criteria: definitions and reasons | [Methodology, section 5.3](methodology/Phase_1_Current_Methodology.md#criterion-definitions-and-rationale); selection notebook, section 3; [supervisor update](analyze/Supervisor_Update_2026-10-15.md) | Definitions, rationale, 1/3/5 anchors and evidence sources; unchanged, now with raw evidence |
-| Criteria in the literature (Zhongxin's request of 14 October) | [Selection criteria from the literature](analyze/Selection_Criteria_Literature_2026-10-16.md) | Her four sources and 21 further criteria sets read; the recurring criteria counted; a proposed set of value criteria (workload volume, error-proneness, business impact, a value floor) and feasibility criteria (B1 to B9), with the project's seven criteria mapped onto it. A proposal only: no criterion, score or weight has changed |
-| Weights | Selection notebook, section 3; [swing record](analyze/Swing_Weights_Yijie_2026-10-07.md) | Yijie's provisional swings are used and labelled as such; Zhongxin is offered her own swings or a review of Yijie's |
+| Is more observation needed? | Analysis notebook, 4.3, 4.4 and 8 | Decided on 13 October: two more observation days, 14 and 16 October, reported next to the five-day results ([13 October notes](meetings/Academic_Supervisor_Meeting_Notes_2026-10-13.md)). 18 September changes the CHECK share but not the ranking of PO and CLAR. Both days were observed and are reported in part 9; the second Friday (16 October, a short morning on a day off, with eight confirmation e-mails left for the following week) does not settle whether 18 September is a Friday pattern. Targeted checks with Arno remain necessary |
+| Criteria: definitions and reasons | [Methodology, section 5.3](methodology/Phase_1_Current_Methodology.md#criterion-definitions-and-rationale); selection notebook, section 3; [supervisor update](analyze/Supervisor_Update_2026-10-15.md) | Replaced on 16 October by the criteria set adopted from the literature: definitions, literature support, safeguards and 1/3/5 anchors in the selection notebook, section 3; the 9 October definitions stay in the methodology for the record |
+| Criteria in the literature (Zhongxin's request of 14 October) | [Selection criteria from the literature](analyze/Selection_Criteria_Literature_2026-10-16.md) | Her four sources and 21 further criteria sets read; the recurring criteria counted; a proposed set of value criteria (workload volume, error-proneness, business impact, a value floor) and feasibility criteria (B1 to B9), with the project's seven criteria mapped onto it. Adopted by Yijie on 16 October and built into the selection notebook |
+| Weights | Selection notebook, section 3; [swing record](analyze/Swing_Weights_Yijie_2026-10-07.md) | Yijie's swings of 7 October carried over to the adopted criteria (a criterion that splits shares its swing equally), confirmed by Yijie on 16 October; Zhongxin is offered her own swings or a review of these |
 | Dennis's role and a design draft for the focal case | [Design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md) | Conditional drafts, not approved specifications |
 
 ## 5. Questions for Zhongxin (15 October)
 
 1. **Sufficiency.** Answered on 13 October: two more observation days, 14 and 16 October. Still open: which targeted checks are needed before Arno's leave?
 2. **The tests.** Can Kendall's W be reported as moderate agreement, with the Kruskal-Wallis results as supplementary?
-3. **Criteria and weights.** Are the seven criteria distinct enough? Does she set her own swings or review Yijie's?
+3. **Criteria and weights.** Are the ten criteria adopted from the literature on 16 October distinct enough? Does she set her own swings or review Yijie's carried-over ones?
 4. **CHECK per line.** The corrected comparison is 0.90 against 0.83 minutes per line. Does the 8 October conclusion still hold?
 5. **Arno.** Is a short written confirmation enough instead of a full session?
 6. **Evaluation participant.** Who takes part in the evaluation, given Arno's leave from the end of October?
@@ -85,10 +93,11 @@ No separate session with Arno is planned (13 October): what is still needed is a
 | When | What | Where to work |
 |---|---|---|
 | 13 October, done | First Exact test-account check: a confirmation attached to 10 of 21 sampled POs, no quotation on the 9 completed POs checked, a price route through invoices and PO versions; repeat on an earlier, complete month when the evaluation set is built | [Design draft, section 6](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md#6-draft-logical-field-map) |
-| 14 and 16 October | Two more observation days with Arno (protocol v1.3, morning and afternoon block); register, stages and a rerun of both notebooks on seven days | [Measurement protocol](measurement/Measurement_Protocol_v1.3.md); [stage review](measurement/Stage_Review_2026-10-12.md) |
+| 14 and 16 October, done | Two more observation days with Arno; registered, staged (stage review, sections 7 and 8) and analysed on seven days (analysis notebook, part 9) | [Stage review](measurement/Stage_Review_2026-10-12.md); [analysis notebook](../Arno_Analysis_2026_10_02.ipynb) |
+| 16 October, done | Criteria set adopted from the literature; scores redrafted on seven days, checked against an independent scoring and approved by Yijie; weights carried over | [Selection notebook](../Focal_Case_Selection_2026-10-07.ipynb), sections 3 to 5 |
 | From 15 October | The 15 October meeting is cancelled; Zhongxin reads the update and the notebooks when she has time, including the criteria and the weights procedure | [Supervisor update](analyze/Supervisor_Update_2026-10-15.md) |
 | 14 and 16 October | No separate Arno session: anything still needed (which differences count as critical; whether the documents of the live checks may be used; validation of reference answers) is asked in passing during the observation days. No buyer takes part in the assisted condition (14 October) | [Session guide](measurement/Arno_Follow_Up_Session_Guide_2026-10-02.md), part D |
-| 22 October | Focal-case alignment: Johan's business value, final weights, rerun of the totals and the Analyze conclusion | Selection notebook |
+| 22 October | Focal-case alignment: Johan's business impact, final weights, rerun of the totals and the Analyze conclusion | Selection notebook |
 | Before 29 October | Evaluation protocol drafted and sent for agreement, planned for the case without a buyer in the assisted condition (quality measured on held-out cases, workload effect estimated) | [Design draft](process/Order_Confirmation_Checking_Design_Draft_2026-10-09.md), section 8 |
 
 If labels or stages change again, update the CSVs, note the new commit in the loading cells of both notebooks and rerun them (the cells compare the SHA-256 of each CSV with the typed hash).

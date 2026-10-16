@@ -40,3 +40,22 @@ In the order of the brief's form: 100, 40, 50, 60, 30, 40, 50.
 - If independent elicitation is used, obtain her swings before showing this set and the ranking. The existing proposal averages the sets and discusses raw-swing differences above 10 points; it is not recorded as an 8 October decision.
 - Record the final agreed weights and date, then rerun the comparison. Keep any actual individual sets as sensitivity scenarios; do not invent a missing set.
 - Revisit these swings if the anchors change after Zhongxin's review, because a swing depends on the defined range from 1 to 5. The 7 October scores and totals remain a provisional historical scenario until the broader candidate boundary is reviewed and rescored.
+
+## Carried over to the adopted criteria, 16 October 2026
+
+On 16 October the seven criteria were replaced by the set adopted from the literature ([selection criteria from the literature](Selection_Criteria_Literature_2026-10-16.md)). The swings above were carried over rather than elicited again: a criterion that maps onto one new criterion keeps its swing, and one that splits into two shares its swing equally, so the swing total (370) and the weight of observed workload (27.0%) are unchanged. Yijie confirmed this on 16 October. Splitting equally is a neutral default, not a new judgement; Zhongxin may still set her own swings or review these.
+
+| Adopted criterion | Swing | Weight | Carried from |
+|---|---:|---:|---|
+| A1 Workload volume | 100 | 27.0% | Observed workload contribution (100) |
+| A2 Error-proneness and accuracy gain | 20 | 5.4% | Business value beyond counted workload (40), split |
+| A3 Business impact beyond the buyer's time | 20 | 5.4% | Business value beyond counted workload (40), split |
+| B1 Repetition and standardisation | 15 | 4.1% | Repetition / process standardisation (30), split |
+| B2 Exception rate | 15 | 4.1% | Repetition / process standardisation (30), split |
+| B4 Input form | 30 | 8.1% | Data readiness above the gate minimum (60), split |
+| B5 Task–technology fit | 50 | 13.5% | AI–task fit (50) |
+| B6 Data access and availability | 30 | 8.1% | Data readiness above the gate minimum (60), split |
+| B7 Checkable outcome | 50 | 13.5% | Evaluation feasibility (50) |
+| B8 Implementation effort | 40 | 10.8% | Prototype / technical feasibility (40) |
+
+The value family carries 37.8% and feasibility 62.2%. The [selection notebook](../../Focal_Case_Selection_2026-10-07.ipynb), section 5, also reports equal weights and the two families at 50% each; checking leads under both.
