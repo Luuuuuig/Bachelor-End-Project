@@ -81,3 +81,5 @@ Yijie confirmed 11:46–11:50. The supplier had sent the wrong certificate, and 
 ## End of observation
 
 Observation ends at 11:53. Yijie noted that eight emails concerning order confirmations still awaited processing in Arno's mailbox. These were pending work, not eight completed checks during this session.
+
+Arno explained that he was scheduled to be off that day, but had come into the office to handle some orders because Johan was on holiday and Dennis had not yet returned. He planned to continue the remaining work the following week. Johan's four-day holiday covered Thursday 15 October through Sunday 18 October, with his return expected on Monday 19 October.
