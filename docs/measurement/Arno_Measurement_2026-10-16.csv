@@ -13,7 +13,7 @@ OBS-03,SEND,11:07,11:14,/,/,/,Approved by Johan but not yet sent. Send it and at
 OBS-02,OTHER,11:14,11:17,/,/,/,Inform Finance about the related issue.,Follow-up and evaluation
 OBS-04,OTHER/EXC,11:18,11:23,/,/,/,Order aftercare.,Monitoring
 OBS-05,CHECK,11:23,11:25,2L,/,/,Unit prices match; quantity mismatch.,Monitoring
-OBS-06,CHECK,11:28,11:35,32L,/,/,Pre-control.,Ordering
+OBS-06,CHECK,11:25,11:36,32L,/,/,Pre-control.,Ordering
 OBS-06,SEND,/,/,/,/,/,,Ordering
 OBS-07,OTHER/EXC,11:36,11:37,/,/,/,"Postpone an order because changes are needed following input from Emiel, project manager.",Ordering
 OBS-08,OTHER/EXC,11:37,11:40,/,/,/,Change the supplier on a PO at Finance's request. Arno says he also does not understand why this is needed.,Ordering

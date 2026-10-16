@@ -29,7 +29,7 @@ The table preserves source row order and separate resumed activities. Crossed-ou
 | OBS-02 | OTHER | 11:14 | 11:17 | / | / | / | Inform Finance about the related issue. |
 | OBS-04 | OTHER/EXC | 11:18 | 11:23 | / | / | / | Order aftercare. |
 | OBS-05 | CHECK | 11:23 | 11:25 | 2L | / | / | Unit prices match; quantity mismatch. |
-| OBS-06 | CHECK | 11:28 | 11:35 | 32L | / | / | Pre-control. |
+| OBS-06 | CHECK | 11:25 | 11:36 | 32L | / | / | Pre-control. |
 | OBS-06 | SEND | / | / | / | / | / | |
 | OBS-07 | OTHER/EXC | 11:36 | 11:37 | / | / | / | Postpone an order because changes are needed following input from Emiel, project manager. |
 | OBS-08 | OTHER/EXC | 11:37 | 11:40 | / | / | / | Change the supplier on a PO at Finance's request. Arno says he also does not understand why this is needed. |
@@ -64,7 +64,7 @@ The PO had been approved by Johan but had not yet been sent. The recorded SEND a
 
 Yijie confirmed OBS-05's volume as 2L. The note distinguishes matching unit prices from a quantity mismatch.
 
-OBS-06 is recorded as CHECK, 32L, with the description **pre-control** retained as written, without further interpretation.
+OBS-06 is recorded as CHECK, 32L, with the description **pre-control** retained as written, without further interpretation. Yijie corrected its times on 16 October: the check ran from 11:25 to 11:36 (first written as 11:28 to 11:35), and OBS-07 followed from 11:36 to 11:37.
 
 ### OBS-08: supplier change requested by Finance
 
@@ -87,7 +87,7 @@ Aftercare, help to Logistics and changes to orders that have already been sent s
 - the status update in Exact of the continued OBS-16 (10:40–10:42 and 10:43–10:44, handwritten PO), which Yijie confirmed on 16 October as part of the aftercare;
 - OBS-07 and OBS-08 (11:36–11:40, handwritten OTHER): Yijie confirmed on 16 October that both orders had already been sent, so postponing one and changing the other's supplier are changes after ordering, which former EXC included.
 
-The added line and the revised PO of the continued OBS-16 (10:48–10:53) keep their codes PO and SEND and stay in scope: placing what still had to be ordered is ordering work. Of the 71 recorded minutes, 29 are outside the improvement scope and 42 are in scope. The stages are in the [stage review, section 8](Stage_Review_2026-10-12.md#8-addendum-16-october-2026-the-seventh-observation-day).
+The added line and the revised PO of the continued OBS-16 (10:48–10:53) keep their codes PO and SEND and stay in scope: placing what still had to be ordered is ordering work. Of the 75 recorded minutes, 29 are outside the improvement scope and 46 are in scope. The stages are in the [stage review, section 8](Stage_Review_2026-10-12.md#8-addendum-16-october-2026-the-seventh-observation-day).
 
 ## End of observation
 
