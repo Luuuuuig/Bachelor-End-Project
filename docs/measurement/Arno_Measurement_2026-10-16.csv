@@ -1,0 +1,27 @@
+﻿Case,Activity,Start,End,Volume,INT,DEC?,Note,Van Weele stage
+OBS-16 (2026-10-14),OTHER/EXC,10:30,10:40,/,/,/,Order aftercare; question about a particular item.,Monitoring
+OBS-16 (2026-10-14),PO/EXC,10:40,10:42,/,1,/,Update item status in Exact. Interrupted by a phone call.,Ordering
+OBS-16 (2026-10-14),PO/EXC,10:43,10:44,/,1,/,Continue working in Exact. Logistics cannot find the item's serial number.,Ordering
+OBS-01,OTHER/EXC,10:45,10:48,/,/,/,Give Logistics the serial number.,Follow-up and evaluation
+OBS-16 (2026-10-14),PO,10:48,10:51,8L,/,/,Originally 7L; add one line.,Ordering
+OBS-16 (2026-10-14),SEND,10:51,10:53,/,/,/,Send the revised PO.,Ordering
+OBS-02,PO,10:54,10:58,1L,/,/,Create a PO for an existing service order.,Ordering
+OBS-02,SEND,10:58,11:02,/,/,/,Attach all files.,Ordering
+OBS-02,PO,11:02,11:04,/,/,/,Correct a wrong description.,Ordering
+OBS-02,SEND,11:04,11:06,/,/,/,Resend and state the corrected description.,Ordering
+OBS-03,SEND,11:07,11:14,/,/,/,Approved by Johan but not yet sent. Send it and attach the relevant files; difficulty finding the relevant files.,Ordering
+OBS-02,OTHER,11:14,11:17,/,/,/,Inform Finance about the related issue.,Follow-up and evaluation
+OBS-04,OTHER/EXC,11:18,11:23,/,/,/,Order aftercare.,Monitoring
+OBS-05,CHECK,11:23,11:25,2L,/,/,Unit prices match; quantity mismatch.,Monitoring
+OBS-06,CHECK,11:28,11:35,32L,/,/,Pre-control.,Ordering
+OBS-06,SEND,/,/,/,/,/,,Ordering
+OBS-07,OTHER/EXC,11:36,11:37,/,/,/,"Postpone an order because changes are needed following input from Emiel, project manager.",Ordering
+OBS-08,OTHER/EXC,11:37,11:40,/,/,/,Change the supplier on a PO at Finance's request. Arno says he also does not understand why this is needed.,Ordering
+OBS-09,PO,11:41,11:42,3L,/,/,One line added.,Ordering
+OBS-10,PO,11:43,11:44,2L,/,/,One line added for delivery costs.,Ordering
+OBS-11,REQ-Exact,/,/,/,/,/,,Not applicable
+OBS-11,PO,11:44,11:45,2L,/,/,,Ordering
+OBS-10,SEND,/,/,/,/,/,,Ordering
+OBS-11,SEND,/,/,/,/,/,,Ordering
+OBS-12,OTHER/EXC,11:46,11:50,/,/,/,Supplier sent the wrong certificate. Replace the old certificate with the new one; order aftercare.,Follow-up and evaluation
+OBS-13,OTHER,11:50,11:53,/,/,/,Check Bojan's status regarding his transfer to the Purchasing department.,Not applicable

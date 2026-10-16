@@ -1,40 +1,40 @@
-﻿Case,Activity,Start,End,Volume,INT,DEC?,Note,Van Weele stage,Original Van Weele stage
-OBS-01,OTHER,10:30,10:32,,,,Forward an unpaid invoice to Finance.,Follow-up and evaluation,Follow-up and evaluation
-OBS-02,CLAR,10:33,10:35,,,,Supplier quotation concerning a kit.,Specification,Specification
-OBS-02,PO,10:37,10:39,,,,Create an article page for the kit in Exact.,Ordering,Ordering
-OBS-03,CLAR,10:39,10:40,,,,"Check an Aircom quotation briefly, then close it without further action.",Specification,Specification
-OBS-03,PO,10:42,10:48,,,,Create an article page in Exact for the Aircom item.,Ordering,Ordering
-OBS-03,SEND,10:48,10:49,,,,Tell Germaine the article code.,Ordering,Ordering
-OBS-04,REQ-mail,,,,,,,Not applicable,Not applicable
-OBS-04,PO,10:49,10:52,,,,"Try to combine the request with an existing PO, but none is available.",Ordering,Ordering
-OBS-04,SEND,10:52,10:54,,,,"Tell the requester the order will be purchased. Another order falls outside the observation window, but its PO is sent.",Ordering,Ordering
-OBS-03,CLAR,10:54,11:00,,,,A colleague updates Arno about the Aircom item; they clarify what has happened.,Specification,Specification
-OBS-03,PO,11:00,11:02,,,,Update the status in Exact.,Ordering,Ordering
-OBS-05,CHECK,11:03,11:05,2L,,,One item does not match. Update the price so it matches. OC attached.,Monitoring,Monitoring
-OBS-06,CHECK,11:06,11:09,2L,,,Two mismatches. OC attached.,Monitoring,Monitoring
-OBS-07,CLAR,11:10,11:11,,,,Read it; no further action recorded.,Specification,Specification
-OBS-08,OTHER,11:11,11:14,,,,Unpaid invoice.,Follow-up and evaluation,Follow-up and evaluation
-OBS-09,REQ-mail,,,,,,,Not applicable,Not applicable
-OBS-09,PO,11:14,11:16,6L,,,Transport order; ask Adriaans to transport something.,Ordering,Ordering
-OBS-10,SEND,11:16,11:18,,,,,Ordering,Ordering
-OBS-11,OTHER/EXC,11:18,11:20,,,,Wrong item.,Follow-up and evaluation,Follow-up and evaluation
-OBS-12,REQ,,,,,,,Not applicable,Not applicable
-OBS-12,OTHER,11:22,11:30,,,,Cancel an order and replace it with another order.,Ordering,Ordering
-OBS-13,REQ-mail,,,,,,,Not applicable,Not applicable
-OBS-13,CLAR,11:30,11:32,,,,Bojan's request lacks information needed to create an article in Exact.,Specification,Specification
-OBS-14,CHECK,11:32,11:38,10L,,,Five mismatches.,Monitoring,Monitoring
-OBS-13,CLAR,11:39,11:44,,,,Obtain information to create article numbers so Bojan can complete the order.,Specification,Specification
-OBS-13,PO,11:44,11:45,,,,First article created.,Ordering,Ordering
-OBS-13,CLAR,11:45,11:46,,,,,Ordering,Ordering
-OBS-13,PO,11:46,11:49,,,,Second article created.,Ordering,Ordering
-OBS-13,CLAR,11:49,11:51,,,,,Ordering,Ordering
-OBS-13,PO,11:51,11:52,,,,,Ordering,Ordering
-OBS-13,SEND,,,,,,,Ordering,Ordering
-OBS-14,OTHER/EXC,11:58,12:04,,,,"Aftercare, outside the improvement scope.",Monitoring,Monitoring
-OBS-12,CLAR,11:52,11:56,,,,Ask the requester for more details.,Specification,Specification
-OBS-12,PO,12:04,12:09,2L,,,Create the replacement order.,Ordering,Ordering
-OBS-12,CLAR,12:09,12:14,,,,Determine how much needs cancelling.,Specification,Specification
-OBS-15,OTHER,13:00,13:04,,,,Answer a question about an item.,Not applicable,Not applicable
-OBS-16,REQ-mail,,,,,,,Not applicable,Not applicable
-OBS-16,OTHER/EXC,13:04,14:19,,,,"Discuss existing orders with a colleague to establish what has already been ordered, what still needs ordering, and whether items were missed. Includes searching for alternative items and evaluating possibilities for replacement.",Monitoring,Monitoring
-OBS-16,OTHER/EXC,14:20,,,,,"With the details clarified, Arno goes downstairs to help locate the right items with logistics. Not observed; Arno returns at 14:54. No duration is recorded for this activity.",Not applicable,Not applicable
+﻿Case,Activity,Start,End,Volume,INT,DEC?,Note,Van Weele stage
+OBS-01,OTHER,10:30,10:32,,,,Forward an unpaid invoice to Finance.,Follow-up and evaluation
+OBS-02,CLAR,10:33,10:35,,,,Supplier quotation concerning a kit.,Specification
+OBS-02,PO,10:37,10:39,,,,Create an article page for the kit in Exact.,Ordering
+OBS-03,CLAR,10:39,10:40,,,,"Check an Aircom quotation briefly, then close it without further action.",Specification
+OBS-03,PO,10:42,10:48,,,,Create an article page in Exact for the Aircom item.,Ordering
+OBS-03,SEND,10:48,10:49,,,,Tell Germaine the article code.,Ordering
+OBS-04,REQ-mail,,,,,,,Not applicable
+OBS-04,PO,10:49,10:52,,,,"Try to combine the request with an existing PO, but none is available.",Ordering
+OBS-04,SEND,10:52,10:54,,,,"Tell the requester the order will be purchased. Another order falls outside the observation window, but its PO is sent.",Ordering
+OBS-03,CLAR,10:54,11:00,,,,A colleague updates Arno about the Aircom item; they clarify what has happened.,Specification
+OBS-03,PO,11:00,11:02,,,,Update the status in Exact.,Ordering
+OBS-05,CHECK,11:03,11:05,2L,,,One item does not match. Update the price so it matches. OC attached.,Monitoring
+OBS-06,CHECK,11:06,11:09,2L,,,Two mismatches. OC attached.,Monitoring
+OBS-07,CLAR,11:10,11:11,,,,Read it; no further action recorded.,Specification
+OBS-08,OTHER,11:11,11:14,,,,Unpaid invoice.,Follow-up and evaluation
+OBS-09,REQ-mail,,,,,,,Not applicable
+OBS-09,PO,11:14,11:16,6L,,,Transport order; ask Adriaans to transport something.,Ordering
+OBS-10,SEND,11:16,11:18,,,,,Ordering
+OBS-11,OTHER/EXC,11:18,11:20,,,,Wrong item.,Follow-up and evaluation
+OBS-12,REQ,,,,,,,Not applicable
+OBS-12,OTHER,11:22,11:30,,,,Cancel an order and replace it with another order.,Ordering
+OBS-13,REQ-mail,,,,,,,Not applicable
+OBS-13,CLAR,11:30,11:32,,,,Bojan's request lacks information needed to create an article in Exact.,Specification
+OBS-14,CHECK,11:32,11:38,10L,,,Five mismatches.,Monitoring
+OBS-13,CLAR,11:39,11:44,,,,Obtain information to create article numbers so Bojan can complete the order.,Specification
+OBS-13,PO,11:44,11:45,,,,First article created.,Ordering
+OBS-13,CLAR,11:45,11:46,,,,,Ordering
+OBS-13,PO,11:46,11:49,,,,Second article created.,Ordering
+OBS-13,CLAR,11:49,11:51,,,,,Ordering
+OBS-13,PO,11:51,11:52,,,,,Ordering
+OBS-13,SEND,,,,,,,Ordering
+OBS-14,OTHER/EXC,11:58,12:04,,,,"Aftercare, outside the improvement scope.",Monitoring
+OBS-12,CLAR,11:52,11:56,,,,Ask the requester for more details.,Specification
+OBS-12,PO,12:04,12:09,2L,,,Create the replacement order.,Ordering
+OBS-12,CLAR,12:09,12:14,,,,Determine how much needs cancelling.,Specification
+OBS-15,OTHER,13:00,13:04,,,,Answer a question about an item.,Not applicable
+OBS-16,REQ-mail,,,,,,,Not applicable
+OBS-16,OTHER/EXC,13:04,14:19,,,,"Discuss existing orders with a colleague to establish what has already been ordered, what still needs ordering, and whether items were missed. Includes searching for alternative items and evaluating possibilities for replacement.",Monitoring
+OBS-16,OTHER/EXC,14:20,,,,,"With the details clarified, Arno goes downstairs to help locate the right items with logistics. Not observed; Arno returns at 14:54. No duration is recorded for this activity.",Not applicable
