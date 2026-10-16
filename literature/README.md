@@ -327,7 +327,7 @@ Candidate-specific sources for rows of the [AI function comparison](../docs/meth
 
 **Use:** Direct procurement-automation evidence for evaluating which administrative purchasing activities are suitable for automation.
 
-**Syed, R., Bandara, W., French, E., & Stewart, G. (2020).** *Robotic Process Automation: Contemporary themes and challenges*. https://doi.org/10.1016/j.compind.2019.103162
+**Syed, R., Suriadi, S., Adams, M., Bandara, W., Leemans, S. J. J., Ouyang, C., ter Hofstede, A. H. M., van de Weerd, I., Wynn, M. T., & Reijers, H. A. (2020).** *Robotic Process Automation: Contemporary themes and challenges*. *Computers in Industry, 115*, 103162. (Author list corrected on 16 October 2026 against Crossref and the QUT author manuscript.) https://doi.org/10.1016/j.compind.2019.103162
 
 **Use:** Automation limitations, implementation risks and governance.
 
