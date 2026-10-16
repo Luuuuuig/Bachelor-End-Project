@@ -160,6 +160,51 @@ The 39 rows of [14 October](Arno_Measurement_2026-10-14.csv) were assigned under
 
 **Observer confirmation and alternatives.** Row 18 (OBS-10, SEND, no note) was confirmed by Yijie on 14 October as sending a PO, so it is Ordering; the day therefore has 15 rule rows, 23 precedent rows and 1 confirmation. The other precedent-based rows follow the closest earlier row; their alternatives are recorded in the review: a status update that concerned delivery progress would be Monitoring (row 11), and a cancellation that corrected a problem with a delivered order would be Follow-up and evaluation (row 21).
 
+## 8. Addendum, 16 October 2026: the seventh observation day
+
+The 26 rows of [16 October](Arno_Measurement_2026-10-16.csv) were assigned on 16 October under the same rules and order of precedence: layer A (1 row, the REQ-Exact marker, rule A1); the agreed stage of an earlier row with the same code and a comparable recorded action, named by date and row (24 rows); and the layer C judgement (1 row). No CLAR row was recorded and both CHECK rows have notes, so rules A2a, A2b and A3 reach no row. Two review agents assigned the stages independently and agreed on 25 of the 26 rows; every cited precedent was checked against its CSV row and stage. Row 18 (OBS-08, a supplier change on a PO at Finance's request) has no precedent: one agent judged Ordering from the recorded action, a change to an existing PO; the other Follow-up and evaluation, because the earlier Finance rows concerned invoices. Ordering is kept, because layer C judges from the recorded action and Finance's reason was not recorded. `Original Van Weele stage` repeats the agreed stage, as on 14 October.
+
+**Scope.** Four rows are `OTHER/EXC`, outside the improvement scope (22 minutes): rows 1, 13 and 25, whose notes record order aftercare, and row 4, giving Logistics the serial number they could not find, which the 1 October cheat sheet also places outside the scope as help to Logistics. Rows 2, 3, 5 and 6 continue 14 October OBS-16 but were recorded as PO and SEND; they keep their codes and stay in scope, as PO and SEND rows inside aftercare cases do on the earlier days (for example 31 August rows 10 and 12). In scope: 49 of the 71 recorded minutes ([observation note, scope coding](Measure_Observation_2026-10-16.md#scope-coding-added-16-october)).
+
+| Row | Case | Code | Min | Scope | Note as recorded | Agreed stage | Basis |
+|---:|---|---|---:|---|---|---|---|
+| 1 | OBS-16 (2026-10-14) | OTHER/EXC | 10 | former EXC | Order aftercare; question about a particular item. | Monitoring | Precedent: 31 Aug row 27 (OBS-04 EXC 'aftercare', layer B: aftercare = following up outstanding orders or deliveries) = Monitoring |
+| 2 | OBS-16 (2026-10-14) | PO | 2 | in scope | Update item status in Exact. Interrupted by a phone call. | Ordering | Precedent: 14 Oct row 11 (OBS-03 PO 'Update the status in Exact.') = Ordering |
+| 3 | OBS-16 (2026-10-14) | PO | 1 | in scope | Continue working in Exact. Logistics cannot find the item's serial … | Ordering | Precedent: 1 Sep row 41 (OBS-24 PO 'Resume and complete PO creation after interruption') = Ordering |
+| 4 | OBS-01 | OTHER/EXC | 3 | former EXC | Give Logistics the serial number. | Not applicable | Precedent: 14 Oct row 39 (OBS-16 OTHER/EXC, helping Logistics locate the right items) = Not applicable |
+| 5 | OBS-16 (2026-10-14) | PO | 3 | in scope | Originally 7L; add one line. | Ordering | Precedent: 23 Sep row 3 (OBS-03 PO 'One line added to an existing PO.') = Ordering |
+| 6 | OBS-16 (2026-10-14) | SEND | 2 | in scope | Send the revised PO. | Ordering | Precedent: 14 Oct row 18 (OBS-10 SEND, observer-confirmed sending a PO) = Ordering |
+| 7 | OBS-02 | PO | 4 | in scope | Create a PO for an existing service order. | Ordering | Precedent: 23 Sep row 23 (OBS-08 PO 'Service order.') = Ordering |
+| 8 | OBS-02 | SEND | 4 | in scope | Attach all files. | Ordering | Precedent: 23 Sep row 24 (OBS-08 SEND after the service-order PO) = Ordering |
+| 9 | OBS-02 | PO | 2 | in scope | Correct a wrong description. | Ordering | Precedent: 1 Sep row 40 (OBS-25 PO 'Adjust existing PO') = Ordering |
+| 10 | OBS-02 | SEND | 2 | in scope | Resend and state the corrected description. | Ordering | Precedent: 14 Oct row 18 (SEND, confirmed sending a PO) = Ordering |
+| 11 | OBS-03 | SEND | 7 | in scope | Approved by Johan but not yet sent. Send it and attach the … | Ordering | Precedent: 18 Sep row 47 (OBS-18 SEND 'Forward a PO approved by Johan.') = Ordering |
+| 12 | OBS-02 | OTHER | 3 | in scope | Inform Finance about the related issue. | Follow-up and evaluation | Precedent: 31 Aug row 62 (OBS-16 OTHER 'Inform Finance') = Follow-up and evaluation |
+| 13 | OBS-04 | OTHER/EXC | 5 | former EXC | Order aftercare. | Monitoring | Precedent: 31 Aug row 27 (OBS-04 EXC 'aftercare', layer B) = Monitoring |
+| 14 | OBS-05 | CHECK | 2 | in scope | Unit prices match; quantity mismatch. | Monitoring | Precedent: 14 Oct row 13 (OBS-06 CHECK 2L 'Two mismatches. OC attached.') = Monitoring |
+| 15 | OBS-06 | CHECK | 7 | in scope | Pre-control. | Ordering | Precedent: 23 Sep row 15 (OBS-02 CHECK 'Pre-control.') = Ordering |
+| 16 | OBS-06 | SEND |  | in scope | (none) | Ordering | Precedent: 23 Sep row 16 (OBS-02 SEND '/' directly after CHECK 'Pre-control.') = Ordering |
+| 17 | OBS-07 | OTHER | 1 | in scope | Postpone an order because changes are needed following input from … | Ordering | Precedent: 14 Oct row 21 (OBS-12 OTHER 'Cancel an order and replace it with another order.') = Ordering |
+| 18 | OBS-08 | OTHER | 3 | in scope | Change the supplier on a PO at Finance's request. Arno says he … | Ordering | Judgement: the recorded action is a change to an existing PO (Ordering); Finance's reason was not recorded. Alternative, if the request came from invoice or payment matching: Follow-up and evaluation |
+| 19 | OBS-09 | PO | 1 | in scope | One line added. | Ordering | Precedent: 23 Sep row 3 (PO 'One line added to an existing PO.') = Ordering |
+| 20 | OBS-10 | PO | 1 | in scope | One line added for delivery costs. | Ordering | Precedent: 23 Sep row 3 (PO one line added) = Ordering |
+| 21 | OBS-11 | REQ-Exact |  | in scope | (none) | Not applicable | Rule: A1 |
+| 22 | OBS-11 | PO | 1 | in scope | (none) | Ordering | Precedent: 8 Sep rows 35-36 (OBS-16 PO without note, layer B 'ordinary PO creation') = Ordering |
+| 23 | OBS-10 | SEND |  | in scope | (none) | Ordering | Precedent: 14 Oct row 18 (OBS-10 SEND without note, confirmed sending a PO) = Ordering |
+| 24 | OBS-11 | SEND |  | in scope | (none) | Ordering | Precedent: 14 Oct row 31 (OBS-13 SEND without note, untimed, after PO) = Ordering |
+| 25 | OBS-12 | OTHER/EXC | 4 | former EXC | Supplier sent the wrong certificate. Replace the old certificate … | Follow-up and evaluation | Precedent: 14 Oct row 19 (OBS-11 OTHER/EXC 'Wrong item.', called aftercare in the 14 Oct enrichment) = Follow-up and evaluation |
+| 26 | OBS-13 | OTHER | 3 | in scope | Check Bojan's status regarding his transfer to the Purchasing … | Not applicable | Precedent: 23 Sep row 10 (OBS-06 OTHER, general enquiry concerning Dennis, layer C) = Not applicable |
+
+**Open for the observer.** None of these changes the day's picture; each moves at most a few minutes or one stage.
+
+- Rows 2 and 3 (OBS-16, the status update in Exact, 3 minutes): if the status recorded the delivery situation found in the aftercare, the rows belong to the aftercare (addendum of 14 September, rule 4) and leave the scope; if it concerned delivery progress, the stage is Monitoring, the alternative already recorded for 14 October row 11.
+- Row 14 (OBS-05, a check with a quantity mismatch): Monitoring assumes a check of a supplier confirmation, as on 14 October; if it was a check before sending, it is Ordering.
+- Rows 15 and 16 (OBS-06, "pre-control" of 32 lines and its untimed SEND): Ordering follows the identical word on 23 September (row 15) and the 1 September clarification that a pre-control is a check before the order is sent.
+- Rows 17 and 18 (OBS-07, an order postponed after the project manager's input; OBS-08, the supplier change; 4 minutes): in scope as recorded; if those orders had already been sent, these are changes after ordering, which historical EXC included.
+- Row 12 (OBS-02, informing Finance): Follow-up and evaluation, as all earlier Finance rows; Ordering if Finance was only told about the corrected PO description.
+- Row 25 (the wrong certificate): Follow-up and evaluation, a defect in what was delivered (as 14 October row 19 and 18 September row 43), not the Monitoring of plain aftercare.
+- Rows 16, 23 and 24 (untimed SEND without a note): read as sending the PO, as confirmed for 14 October OBS-10.
+
 ## Appendix: the 100 changed rows
 
 Date and one-based source row identify each record in its daily CSV. Min is the recorded duration; blank means an untimed tally. Layer refers to sections 2 to 4.

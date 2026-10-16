@@ -15,10 +15,10 @@ The table preserves source row order and separate resumed activities. Crossed-ou
 
 | Case | Activity | Start | End | Volume | INT | DEC | Note |
 |---|---|---|---|---|---|---|---|
-| OBS-16 (2026-10-14) | OTHER | 10:30 | 10:40 | / | / | / | Order aftercare; question about a particular item. |
+| OBS-16 (2026-10-14) | OTHER/EXC | 10:30 | 10:40 | / | / | / | Order aftercare; question about a particular item. |
 | OBS-16 (2026-10-14) | PO | 10:40 | 10:42 | / | 1 | / | Update item status in Exact. Interrupted by a phone call. |
 | OBS-16 (2026-10-14) | PO | 10:43 | 10:44 | / | 1 | / | Continue working in Exact. Logistics cannot find the item's serial number. |
-| OBS-01 | OTHER | 10:45 | 10:48 | / | / | / | Give Logistics the serial number. |
+| OBS-01 | OTHER/EXC | 10:45 | 10:48 | / | / | / | Give Logistics the serial number. |
 | OBS-16 (2026-10-14) | PO | 10:48 | 10:51 | 8L | / | / | Originally 7L; add one line. |
 | OBS-16 (2026-10-14) | SEND | 10:51 | 10:53 | / | / | / | Send the revised PO. |
 | OBS-02 | PO | 10:54 | 10:58 | 1L | / | / | Create a PO for an existing service order. |
@@ -27,7 +27,7 @@ The table preserves source row order and separate resumed activities. Crossed-ou
 | OBS-02 | SEND | 11:04 | 11:06 | / | / | / | Resend and state the corrected description. |
 | OBS-03 | SEND | 11:07 | 11:14 | / | / | / | Approved by Johan but not yet sent. Send it and attach the relevant files; difficulty finding the relevant files. |
 | OBS-02 | OTHER | 11:14 | 11:17 | / | / | / | Inform Finance about the related issue. |
-| OBS-04 | OTHER | 11:18 | 11:23 | / | / | / | Order aftercare. |
+| OBS-04 | OTHER/EXC | 11:18 | 11:23 | / | / | / | Order aftercare. |
 | OBS-05 | CHECK | 11:23 | 11:25 | 2L | / | / | Unit prices match; quantity mismatch. |
 | OBS-06 | CHECK | 11:28 | 11:35 | 32L | / | / | Pre-control. |
 | OBS-06 | SEND | / | / | / | / | / | |
@@ -39,7 +39,7 @@ The table preserves source row order and separate resumed activities. Crossed-ou
 | OBS-11 | PO | 11:44 | 11:45 | 2L | / | / | |
 | OBS-10 | SEND | / | / | / | / | / | |
 | OBS-11 | SEND | / | / | / | / | / | |
-| OBS-12 | OTHER | 11:46 | 11:50 | / | / | / | Supplier sent the wrong certificate. Replace the old certificate with the new one; order aftercare. |
+| OBS-12 | OTHER/EXC | 11:46 | 11:50 | / | / | / | Supplier sent the wrong certificate. Replace the old certificate with the new one; order aftercare. |
 | OBS-13 | OTHER | 11:50 | 11:53 | / | / | / | Check Bojan's status regarding his transfer to the Purchasing department. |
 
 ## Enrichment and confirmed clarifications
@@ -76,7 +76,11 @@ OBS-09 records a final volume of 3L with one line added. OBS-10 records a final 
 
 ### OBS-12: replacement certificate
 
-Yijie confirmed 11:46–11:50. The supplier had sent the wrong certificate, and Arno replaced the old certificate with the new one. The source describes this as order aftercare, recorded under OTHER.
+Yijie confirmed 11:46–11:50. The supplier had sent the wrong certificate, and Arno replaced the old certificate with the new one. The source describes this as order aftercare, recorded as `OTHER/EXC` (see *Scope coding* below).
+
+### Scope coding (added 16 October)
+
+Aftercare and help to Logistics are recorded as `OTHER/EXC`, as on [14 October](Measure_Observation_2026-10-14.md): the time stays under OTHER and in the total time, outside the work considered for improvement (decision of 1 October; the [live cheat sheet](Measure_Live_Cheat_Sheet_v1.3.md) lists aftercare, tracing and logistics help). The handwritten code is OTHER on all four rows: the order aftercare of the continued OBS-16 at 10:30, OBS-04 and OBS-12, and OBS-01, giving Logistics the serial number they could not find (10:45), which probably serves the OBS-16 item. The PO and SEND rows of the continued OBS-16 (10:40–10:53: the status update in Exact, the added line and the revised PO) were recorded as PO and SEND and keep their codes, so they stay in scope, as PO and SEND rows inside aftercare cases do on the earlier days. Of the 71 recorded minutes, 22 are outside the improvement scope and 49 are in scope. The stages are in the [stage review, section 8](Stage_Review_2026-10-12.md#8-addendum-16-october-2026-the-seventh-observation-day).
 
 ## End of observation
 
